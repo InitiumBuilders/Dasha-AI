@@ -5,20 +5,37 @@
   var LSKEY = 'dasha.sessions.v1';
 
   function esc(s) { return String(s == null ? '' : s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;'); }
-  /* minimal, safe markdown: fences → pre, `x` → code, links, **bold**; everything else escaped */
+  /* minimal, safe markdown. Fences → <pre>; then inline: markdown [text](url) AND bare urls
+     become clickable links, `x` → code, **bold**. Every link opens in a new tab.
+     Splitting on a NON-capturing fence pattern means odd segments are code, even are text —
+     no closing-fence off-by-one, and text after a code block renders as text, not code. */
   function md(s) {
-    var parts = String(s).split(/```(\w*)\n?/); var html = '', inCode = false, i;
-    for (i = 0; i < parts.length; i++) {
-      if (inCode) { html += '<pre>' + esc(parts[i]) + '</pre>'; inCode = false; i; continue; }
-      if (i % 2 === 1) { inCode = true; continue; } // language tag slot
-      var t = esc(parts[i]);
-      t = t.replace(/`([^`\n]+)`/g, '<code class="inl">$1</code>');
-      t = t.replace(/\*\*([^*\n]+)\*\*/g, '<b>$1</b>');
-      t = t.replace(/(https?:\/\/[^\s<)"']+)/g, function (u) { return '<a href="' + u + '" target="_blank" rel="noopener">' + u.replace(/^https?:\/\/(www\.)?/, '').slice(0, 44) + '</a>'; });
-      t = t.replace(/\n/g, '<br/>');
-      html += t;
+    var parts = String(s).split(/```[\w-]*\n?/);
+    var html = '';
+    for (var i = 0; i < parts.length; i++) {
+      html += (i % 2) ? ('<pre>' + esc(parts[i]) + '</pre>') : inline(esc(parts[i]));
     }
     return html;
+  }
+  /* t is already HTML-escaped. Links are stashed as placeholders so bold/code passes never
+     touch their markup, and a bare-url pass never re-links a url already inside an anchor. */
+  function inline(t) {
+    var stash = [];
+    function keep(h) { stash.push(h); return '' + (stash.length - 1) + ''; }
+    /* markdown links: [label](https://…) → the label is what shows, the url is where it goes */
+    t = t.replace(/\[([^\]\n]+)\]\((https?:\/\/[^\s)]+)\)/g, function (m, label, url) {
+      return keep('<a href="' + url + '" target="_blank" rel="noopener">' + label + '</a>');
+    });
+    /* bare urls (and www.) not already stashed; trim trailing sentence punctuation */
+    t = t.replace(/(^|[\s(>–—])((?:https?:\/\/|www\.)[^\s<)"']+)/g, function (m, pre, url) {
+      var trail = ''; var mm = url.match(/[.,;:!?)\]]+$/); if (mm) { trail = mm[0]; url = url.slice(0, -trail.length); }
+      var href = /^www\./i.test(url) ? ('https://' + url) : url;
+      return pre + keep('<a href="' + href + '" target="_blank" rel="noopener">' + url.replace(/^https?:\/\/(www\.)?/, '') + '</a>') + trail;
+    });
+    t = t.replace(/\*\*([^*\n]+)\*\*/g, '<b>$1</b>');
+    t = t.replace(/`([^`\n]+)`/g, '<code class="inl">$1</code>');
+    t = t.replace(/\n/g, '<br/>');
+    return t.replace(/(\d+)/g, function (m, n) { return stash[+n]; });
   }
 
   function store() { try { return JSON.parse(localStorage.getItem(LSKEY)) || { list: [], cur: null }; } catch (e) { return { list: [], cur: null }; } }
