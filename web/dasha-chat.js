@@ -32,10 +32,12 @@
 
   var HELLO = '<div class="dchat-hello"><b>Hi, I’m Dasha</b> — the Dash community’s support AI. I search the official docs, read live governance data, and check the chain in real time. Wallets, masternodes, data contracts, code — ask me anything. When you need a person, type <code class="inl">/human-support</code>.'
     + '<div class="dchips">'
+    /* the first chip is for the person who doesn't know what to ask — which is most people,
+       and the ones a menu fails hardest */
+    + '<button class="dchip lost" type="button">I don\'t know where to start</button>'
     + '<button class="dchip" type="button">Draft a data contract for my app</button>'
     + '<button class="dchip" type="button">What proposals are passing right now?</button>'
-    + '<button class="dchip" type="button">What do the docs say about identity credits?</button>'
-    + '<button class="dchip" type="button">How busy is the Dash network today?</button>'
+    + '<button class="dchip" type="button">Is this message a scam?</button>'
     + '<button class="dchip" type="button">/human-support</button>'
     + '</div></div>';
 
@@ -106,18 +108,67 @@
       if (role === 'dasha') {
         var strip = toolStrip(tools, depth);
         if (strip) d.insertAdjacentHTML('afterbegin', strip);
+        /* Altitude, in one click. If an answer lands over someone's head, their only other
+           option is to admit it in writing — and most people just leave instead. Nobody
+           should have to apologise for not following. One tap changes the register. */
         var fb = document.createElement('div');
         fb.className = 'dfb';
-        fb.innerHTML = '<button class="fbb" data-g="1" type="button" aria-label="Helpful">👍</button>'
-          + '<button class="fbb" data-g="0" type="button" aria-label="Not helpful">👎</button><span class="fbt"></span>';
+        fb.innerHTML =
+            '<button class="alt" data-alt="simpler" type="button">Simpler</button>'
+          + '<button class="alt" data-alt="deeper" type="button">Go deeper</button>'
+          + '<span class="dfb-gap"></span>'
+          + '<button class="fbb" data-g="1" type="button" aria-label="Helpful" title="This helped">👍</button>'
+          + '<button class="fbb" data-g="0" type="button" aria-label="Not helpful" title="This missed">👎</button>'
+          + '<span class="fbt"></span>';
         d.appendChild(fb);
+
+        var ALT = {
+          simpler: 'Say that again, simpler — assume I am new to this. Use a plain example.',
+          deeper: 'Go deeper on that — I want the full picture, including what usually goes wrong.'
+        };
+        [].forEach.call(fb.querySelectorAll('.alt'), function (b) {
+          b.addEventListener('click', function () {
+            if (busy) return;
+            ta.value = ALT[b.getAttribute('data-alt')];
+            go();
+          });
+        });
+        function send(good, note) {
+          fetch(API, { method: 'POST', headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ feedback: { good: good, note: note || '', q: qForFeedback || '',
+              a: String(text).slice(0, 900), tools: (tools || []).join(',') } }) })
+            .then(function (r) { return r.json(); })
+            .then(function (x) {
+              var t = fb.querySelector('.fbt');
+              if (!t) return;
+              t.textContent = x && x.filed
+                ? 'Filed publicly — thank you. Anyone can fix it now.'
+                : (good ? 'Thank you — noted.' : 'Thank you — the team will see this.');
+            })
+            .catch(function () {});
+        }
         [].forEach.call(fb.querySelectorAll('.fbb'), function (b) {
           b.addEventListener('click', function () {
             var good = b.getAttribute('data-g') === '1';
-            fb.querySelector('.fbt').textContent = good ? 'Thank you — noted.' : 'Thank you — the team will see this.';
             [].forEach.call(fb.querySelectorAll('.fbb'), function (x) { x.disabled = true; x.style.opacity = '.35'; });
-            fetch(API, { method: 'POST', headers: { 'Content-Type': 'application/json' },
-              body: JSON.stringify({ feedback: { good: good, q: qForFeedback || '', a: String(text).slice(0, 900), tools: (tools || []).join(',') } }) }).catch(function () {});
+            if (good) { fb.querySelector('.fbt').textContent = 'Thank you — noted.'; send(true, ''); return; }
+            /* A thumbs-down alone is a mood. A sentence about what was wrong is a gift —
+               it becomes a public issue anyone can close by teaching her. So: ask. */
+            fb.querySelector('.fbt').textContent = '';
+            var w = document.createElement('div');
+            w.className = 'fbwhy';
+            w.innerHTML = '<input type="text" placeholder="What was wrong? (optional — this is what makes it fixable)" aria-label="What was wrong" maxlength="300" />'
+              + '<button type="button">Send</button>';
+            fb.parentNode.appendChild(w);
+            var inp = w.querySelector('input'), btn = w.querySelector('button');
+            inp.focus();
+            function done() {
+              var note = inp.value.trim();
+              w.innerHTML = '<span class="fbt">' + (note ? 'Filing it publicly — thank you.' : 'Thank you — noted.') + '</span>';
+              send(false, note);
+            }
+            btn.addEventListener('click', done);
+            inp.addEventListener('keydown', function (e) { if (e.key === 'Enter') done(); });
           });
         });
       }

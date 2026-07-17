@@ -380,7 +380,7 @@
       "name": "/dash-gov",
       "title": "Governance Explainer",
       "file": "skills/dash-gov.md",
-      "chars": 1953,
+      "chars": 2011,
       "phrases": [
         "what proposals",
         "which proposals",
@@ -529,7 +529,7 @@
       "name": "/dash-ai",
       "title": "AI-on-Dash Architect",
       "file": "skills/dash-ai.md",
-      "chars": 2009,
+      "chars": 1947,
       "phrases": [
         "ai agent",
         "ai agents",
@@ -700,6 +700,41 @@
       "words": []
     },
     {
+      "name": "/start-here",
+      "title": "The Locating Question",
+      "file": "skills/start-here.md",
+      "chars": 1622,
+      "phrases": [
+        "i dont know where to start",
+        "i don’t know where to start",
+        "where do i even begin",
+        "where do i start",
+        "i’m lost",
+        "im lost",
+        "new to dash",
+        "just getting started",
+        "what should i even do",
+        "overwhelmed"
+      ],
+      "words": []
+    },
+    {
+      "name": "/is-this-for-me",
+      "title": "Honest Fit Check",
+      "file": "skills/is-this-for-me.md",
+      "chars": 1984,
+      "phrases": [
+        "is dash right for",
+        "should i use dash",
+        "is dash a good fit",
+        "is dash the right",
+        "should i build this on dash",
+        "does dash make sense for",
+        "is dash overkill"
+      ],
+      "words": []
+    },
+    {
       "name": "/learn-dash",
       "title": "Zero-to-Builder Path",
       "file": "skills/learn-dash.md",
@@ -722,6 +757,27 @@
         "beginner guide",
         "never used dash",
         "explain dash to me"
+      ],
+      "words": []
+    },
+    {
+      "name": "/explain-again",
+      "title": "Change the Modality",
+      "file": "skills/explain-again.md",
+      "chars": 1839,
+      "phrases": [
+        "explain that again",
+        "explain it again",
+        "i dont get it",
+        "i don’t get it",
+        "i still dont understand",
+        "i still don’t understand",
+        "what do you mean",
+        "that didnt make sense",
+        "that didn’t make sense",
+        "can you simplify",
+        "in simpler terms",
+        "say that simpler"
       ],
       "words": []
     },
@@ -991,7 +1047,7 @@
       "name": "/compare-chain",
       "title": "Arriving-Dev Translator",
       "file": "skills/compare-chain.md",
-      "chars": 1354,
+      "chars": 1335,
       "phrases": [
         "dash vs",
         "vs dash",
