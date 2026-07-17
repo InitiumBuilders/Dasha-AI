@@ -19,10 +19,10 @@ right now, in production, on every surface.
 
 > ### This repository *is* her mind — live.
 >
-> `PROMPT/PROMPT-CORE.md`, `PROMPT/SKILLS.md`, and `PROMPT/KNOWLEDGE.md` are not documentation
+> `PROMPT/SPINE.md`, the workflow files in `PROMPT/skills/`, the reference sections in
+> `PROMPT/knowledge/`, and the routing table `PROMPT/INDEX.json` are not documentation
 > *about* Dasha. Every instance — the web chat, every Telegram bot, the X agent, every API
-> caller — fetches these files from this repo at request time and picks up changes within
-> ~10 minutes.
+> caller — fetches them from this repo at request time and picks up changes within ~10 minutes.
 >
 > **Merge a pull request here and every Dasha in the world learns it.** No redeploy. No drift.
 > No private version that behaves differently from the one you can read.
@@ -62,23 +62,30 @@ point is not that you asked her — the point is that next time you'll know wher
 
 ## What she can reach
 
-Six live tools. She does not guess — she looks it up, then cites the source you can open
+Seven live tools. She does not guess — she looks it up, then cites the source you can open
 yourself. What each tool does *not* return matters as much as what it does; a tool that
 returns less is a tool that can be trusted more.
 
 | Tool | Reaches | Returns | Does not return |
 |---|---|---|---|
 | `search_dash_docs(query, area)` | **docs.dash.org**, live | Page titles, real doc URLs, matched snippets | — |
-| `dash_governance(action, name)` | **DashCentral** treasury | Budget, superblock, yes/no/abstain, net votes, PASSING / NOT PASSING, votes still needed, deadline, URL | No per-proposal ask field |
+| `dash_governance(action, name)` | **DashCentral** treasury | Budget, superblock, yes/no/abstain, net votes, **monthly amount**, PASSING / NOT PASSING, votes still needed, payments remaining, deadline, URL | The full proposal text and the argument for it — those live on the DashCentral page |
 | `dash_network_stats()` | Chain health | Height, difficulty, 24h transactions and volume, mempool, circulating supply | **No price — by design** |
 | `lookup_tx(txid)` | Any transaction | Confirmations, `valueOut`, `fees`, time, InstantSend lock, ChainLock, coinbase flag | No addresses, no inputs or outputs |
 | `lookup_address(address)` | Any address | Balance, total received, total sent, transaction count | No transaction list |
 | `web_search(query)` | The open web | Findings with real source URLs | Never a Dash authority |
+| `load_skill(name)` | Her own skill library | One skill's full workflow, in a single round trip | Nothing external — it reaches inward, not out |
 
 `area` is one of `platform` · `core` · `all`. `action` is one of `summary` · `list_passing` ·
 `list_all` · `get`. She may call up to **three rounds** of tools per answer (two on Telegram,
 where latency is the experience), several in parallel. Full contracts:
-[ARCHITECTURE.md](docs/ARCHITECTURE.md#the-six-tools).
+[ARCHITECTURE.md](docs/ARCHITECTURE.md#the-seven-tools).
+
+The seventh tool is the odd one out: `load_skill` reaches *inward*. Her workflows aren't all
+carried at once — a local router loads the one or two a question actually needs, and when that
+guess misses, she pulls the missing workflow herself in a single round trip. Routing is a guess;
+a guess that misses should cost a round trip, never a worse answer. See
+[the mind-stream](docs/ARCHITECTURE.md#the-mind-stream).
 
 ## The source hierarchy is law
 
@@ -104,9 +111,13 @@ money.
 **On the web** — [dashsupport.team/chat](https://www.dashsupport.team/chat) or
 [dashsupport.team/dasha-ai](https://www.dashsupport.team/dasha-ai). Nothing to install.
 
-**On X** — mention [@DashSupportTeam](https://x.com/DashSupportTeam). She reads mentions and
-answers new ones autonomously, roughly every five minutes. She never speaks first and never
-DMs. On a public, permanent surface, silence is a valid answer.
+**On X** — mention [@DashSupportTeam](https://x.com/DashSupportTeam), or send a direct message.
+She answers new mentions *and* new DMs autonomously, roughly every five minutes — a DM needs no
+@-mention, because a DM is already the address. She never speaks first, and she never opens a DM
+to anyone. The most effective crypto scam on earth is an unsolicited DM from "support," and her
+own `/scam-check` tells victims that real support never messages first — so an agent that DMs
+first is indistinguishable from the thing it warns about. She answers; she never opens. On a
+public, permanent surface, silence is also a valid answer.
 
 **On Telegram** — talk to her in [t.me/TheDashSupportTEAM](https://t.me/TheDashSupportTEAM),
 or run your own (below).
@@ -126,8 +137,8 @@ curl -s https://www.dashsupport.team/api/chat \
   "tools": ["search_dash_docs"],   // what she reached for
   "depth": "builder-skill",        // which mind answered, and why
   "model": "openai/gpt-5.1-codex",
-  "usage": { "p": 29104, "c": 812, "cost": 0.0031 },
-  "version": "v1.6.0"
+  "usage": { "p": 12257, "c": 812, "cost": 0.0018 },
+  "version": "v2.2.0"
 }
 ```
 
@@ -189,7 +200,7 @@ Start at [CONTRIBUTING.md](CONTRIBUTING.md).
   This is a privacy property before it is a limitation — but plan around it.
 - **She can be wrong.** She is grounded, not infallible. The citation is there so you can
   check her, and checking her is encouraged.
-- **She cannot touch the chain.** All six tools are read-only. She will look up a transaction,
+- **She cannot touch the chain.** All seven tools are read-only. She will look up a transaction,
   an address or a tally; she cannot send, sign, broadcast or move anything, and she holds no key
   to do it with. She writes the code — you run it. That asymmetry is deliberate and permanent.
 - **Her live view can go dark.** If the docs search or DashCentral is unreachable, she says her
@@ -206,7 +217,7 @@ Start at [CONTRIBUTING.md](CONTRIBUTING.md).
 |---|---|
 | [docs/PHILOSOPHY.md](docs/PHILOSOPHY.md) | Why she is built this way. The soul document. |
 | [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) | How she actually works, precisely. |
-| [docs/SKILLS.md](docs/SKILLS.md) | All 35 skills, what they do, when they fire. |
+| [docs/SKILLS.md](docs/SKILLS.md) | All 38 skills, what they do, when they fire. |
 | [docs/SELF-HOST.md](docs/SELF-HOST.md) | Run your own, honestly. |
 | [CONTRIBUTING.md](CONTRIBUTING.md) | Shape her mind. |
 
@@ -214,15 +225,17 @@ Start at [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ```
 PROMPT/           her mind — live, streamed to every instance
-  PROMPT-CORE.md    identity, voice, safety, tool doctrine, source hierarchy, answer shape
-  SKILLS.md         the 35 skill workflows and selection rules
-  KNOWLEDGE.md      the verified Dash knowledge pack
+  SPINE.md          who she is — sent byte-identical on every request, always a cache hit
+  skills/           38 workflow files — loaded 0–2 per question, only when it needs them
+  knowledge/        10 verified reference sections — loaded 0–3 per question
+  INDEX.json        the routing table — the keyword triggers that decide what loads
   VERSION           the live version line
   MANIFEST.md       assembly order, ownership rules, token budget (metadata — never sent)
-api/              the serverless brain — _mind.js (the stream), _brain.js (the loop),
-                  _tools.js (her hands), chat.js, telegram.js, x.js, _x.js (the threader),
+api/              the serverless brain — _mind.js (the stream), _context.js (the router),
+                  _brain.js (the loop), _tools.js (her hands), chat.js, telegram.js,
+                  x.js · _x.js · _dm.js (the X agent, threader, and direct messages),
                   _prompt.js (the baked fallback — generated, never hand-edited)
-scripts/          assemble-prompt.js — bakes api/_prompt.js from PROMPT/*.md
+scripts/          assemble-prompt.js — bakes api/_prompt.js from PROMPT/
 web/              the chat widget
 docs/             this documentation
 ```

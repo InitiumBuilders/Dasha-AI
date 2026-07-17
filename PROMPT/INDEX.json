@@ -4,7 +4,7 @@
       "name": "/dash-plan",
       "title": "Dash Builder Plan Mode",
       "file": "skills/dash-plan.md",
-      "chars": 1385,
+      "chars": 1809,
       "phrases": [
         "i want to build",
         "i'm building",
@@ -27,7 +27,7 @@
       "name": "/data-contract",
       "title": "Data Contract Author + Validator",
       "file": "skills/data-contract.md",
-      "chars": 1397,
+      "chars": 1568,
       "phrases": [
         "data contract",
         "schema",
@@ -59,7 +59,7 @@
       "name": "/state-transition",
       "title": "SDK Code Writer",
       "file": "skills/state-transition.md",
-      "chars": 1678,
+      "chars": 1702,
       "phrases": [
         "register my contract",
         "register my data contract",
@@ -92,7 +92,7 @@
       "name": "/dash-debug",
       "title": "Systematic Platform Debugger",
       "file": "skills/dash-debug.md",
-      "chars": 1815,
+      "chars": 2120,
       "phrases": [
         "not working",
         "doesn't work",
@@ -154,7 +154,7 @@
       "name": "/grove-query",
       "title": "GroveDB Query Optimizer + Proof Demystifier",
       "file": "skills/grove-query.md",
-      "chars": 1656,
+      "chars": 1864,
       "phrases": [
         "no index",
         "where clause",
@@ -188,7 +188,7 @@
       "name": "/schema-migrate",
       "title": "Contract Update Navigator",
       "file": "skills/schema-migrate.md",
-      "chars": 1318,
+      "chars": 1576,
       "phrases": [
         "update my contract",
         "updating my contract",
@@ -214,7 +214,7 @@
       "name": "/zero-server",
       "title": "DAPI-Direct Architect",
       "file": "skills/zero-server.md",
-      "chars": 1204,
+      "chars": 1229,
       "phrases": [
         "what backend",
         "do i need a backend",
@@ -240,7 +240,7 @@
       "name": "/identity-keys",
       "title": "Key Hierarchy Guardian",
       "file": "skills/identity-keys.md",
-      "chars": 1203,
+      "chars": 1710,
       "phrases": [
         "which key signs",
         "which key do i",
@@ -272,7 +272,7 @@
       "name": "/risk-audit",
       "title": "White-Hat Systemic Auditor",
       "file": "skills/risk-audit.md",
-      "chars": 1108,
+      "chars": 1424,
       "phrases": [
         "audit my",
         "can this be abused",
@@ -301,7 +301,7 @@
       "name": "/shielded",
       "title": "Privacy Architecture (v4.0, honest mode)",
       "file": "skills/shielded.md",
-      "chars": 1217,
+      "chars": 1362,
       "phrases": [
         "shielded",
         "zero-knowledge",
@@ -323,7 +323,7 @@
       "name": "/scale",
       "title": "Network Velocity Auditor",
       "file": "skills/scale.md",
-      "chars": 988,
+      "chars": 1255,
       "phrases": [
         "handle n users",
         "will this handle",
@@ -349,7 +349,7 @@
       "name": "/fee-estimate",
       "title": "Cost Before Commit",
       "file": "skills/fee-estimate.md",
-      "chars": 1696,
+      "chars": 1915,
       "phrases": [
         "what will this cost",
         "how much will it cost",
@@ -380,7 +380,7 @@
       "name": "/dash-gov",
       "title": "Governance Explainer",
       "file": "skills/dash-gov.md",
-      "chars": 2011,
+      "chars": 2300,
       "phrases": [
         "what proposals",
         "which proposals",
@@ -417,7 +417,7 @@
       "name": "/proposal-guide",
       "title": "Proposal Crafting Coach",
       "file": "skills/proposal-guide.md",
-      "chars": 1987,
+      "chars": 2332,
       "phrases": [
         "submit a proposal",
         "how do i submit",
@@ -445,7 +445,7 @@
       "name": "/sub-dao",
       "title": "Fractal Governance Architect",
       "file": "skills/sub-dao.md",
-      "chars": 1197,
+      "chars": 1575,
       "phrases": [
         "sub-dao",
         "sub dao",
@@ -468,7 +468,7 @@
       "name": "/mno",
       "title": "Masternode Owner Helper",
       "file": "skills/mno.md",
-      "chars": 1456,
+      "chars": 2102,
       "phrases": [
         "run a masternode",
         "running a masternode",
@@ -501,7 +501,7 @@
       "name": "/evo-node",
       "title": "Evonode Specialist",
       "file": "skills/evo-node.md",
-      "chars": 1787,
+      "chars": 2231,
       "phrases": [
         "evonode",
         "dashmate",
@@ -529,7 +529,7 @@
       "name": "/dash-ai",
       "title": "AI-on-Dash Architect",
       "file": "skills/dash-ai.md",
-      "chars": 1947,
+      "chars": 2023,
       "phrases": [
         "ai agent",
         "ai agents",
@@ -559,7 +559,7 @@
       "name": "/dash-token",
       "title": "Asset Reality Check",
       "file": "skills/dash-token.md",
-      "chars": 1976,
+      "chars": 2268,
       "phrases": [
         "smart contract",
         "does dash have smart contracts",
@@ -586,7 +586,7 @@
       "name": "/merchant",
       "title": "Accept Dash",
       "file": "skills/merchant.md",
-      "chars": 1368,
+      "chars": 1914,
       "phrases": [
         "accept dash",
         "accepting dash",
@@ -617,7 +617,7 @@
       "name": "/wallet-help",
       "title": "Wallet Chooser + Security",
       "file": "skills/wallet-help.md",
-      "chars": 1114,
+      "chars": 1430,
       "phrases": [
         "which wallet",
         "what wallet",
@@ -662,7 +662,7 @@
       "name": "/envision",
       "title": "Creative Builder Brainstorm",
       "file": "skills/envision.md",
-      "chars": 1067,
+      "chars": 1332,
       "phrases": [
         "what could i build",
         "what can i build",
@@ -684,7 +684,7 @@
       "name": "/motus",
       "title": "Systemic Movement Mapper",
       "file": "skills/motus.md",
-      "chars": 1140,
+      "chars": 1616,
       "phrases": [
         "motus",
         "motivus",
@@ -703,7 +703,7 @@
       "name": "/start-here",
       "title": "The Locating Question",
       "file": "skills/start-here.md",
-      "chars": 1622,
+      "chars": 1773,
       "phrases": [
         "i dont know where to start",
         "i don’t know where to start",
@@ -722,7 +722,7 @@
       "name": "/is-this-for-me",
       "title": "Honest Fit Check",
       "file": "skills/is-this-for-me.md",
-      "chars": 1984,
+      "chars": 2214,
       "phrases": [
         "is dash right for",
         "should i use dash",
@@ -738,7 +738,7 @@
       "name": "/learn-dash",
       "title": "Zero-to-Builder Path",
       "file": "skills/learn-dash.md",
-      "chars": 1622,
+      "chars": 1806,
       "phrases": [
         "learn dash",
         "learning dash",
@@ -764,7 +764,7 @@
       "name": "/explain-again",
       "title": "Change the Modality",
       "file": "skills/explain-again.md",
-      "chars": 1839,
+      "chars": 2028,
       "phrases": [
         "explain that again",
         "explain it again",
@@ -785,7 +785,7 @@
       "name": "/human-support",
       "title": "Human Escalation (server-handled)",
       "file": "skills/human-support.md",
-      "chars": 838,
+      "chars": 1127,
       "phrases": [
         "human support",
         "talk to a human",
@@ -805,7 +805,7 @@
       "name": "/scam-check",
       "title": "Scam Pattern Analyzer",
       "file": "skills/scam-check.md",
-      "chars": 3220,
+      "chars": 3544,
       "phrases": [
         "is this legit",
         "legit",
@@ -862,7 +862,7 @@
       "name": "/verify-payment",
       "title": "Did It Actually Land?",
       "file": "skills/verify-payment.md",
-      "chars": 3109,
+      "chars": 3255,
       "phrases": [
         "did this payment go through",
         "did the payment go through",
@@ -897,7 +897,7 @@
       "name": "/network-health",
       "title": "Live Chain Read",
       "file": "skills/network-health.md",
-      "chars": 1924,
+      "chars": 2219,
       "phrases": [
         "how busy",
         "network busy",
@@ -932,7 +932,7 @@
       "name": "/doc-dive",
       "title": "Deep Documentation Research",
       "file": "skills/doc-dive.md",
-      "chars": 2772,
+      "chars": 2953,
       "phrases": [
         "deep dive",
         "research the docs",
@@ -958,7 +958,7 @@
       "name": "/tx-explain",
       "title": "Transaction & Explorer Reader",
       "file": "skills/tx-explain.md",
-      "chars": 2076,
+      "chars": 2285,
       "phrases": [
         "is this confirmed",
         "is it confirmed",
@@ -1000,7 +1000,7 @@
       "name": "/wallet-rescue",
       "title": "Missing Funds Triage",
       "file": "skills/wallet-rescue.md",
-      "chars": 2101,
+      "chars": 2360,
       "phrases": [
         "never arrived",
         "didn't arrive",
@@ -1047,7 +1047,7 @@
       "name": "/compare-chain",
       "title": "Arriving-Dev Translator",
       "file": "skills/compare-chain.md",
-      "chars": 1335,
+      "chars": 1556,
       "phrases": [
         "dash vs",
         "vs dash",
@@ -1075,7 +1075,7 @@
       "name": "/x-reply",
       "title": "Public Reply Craft (X)",
       "file": "skills/x-reply.md",
-      "chars": 1584,
+      "chars": 1742,
       "phrases": [],
       "words": []
     },
@@ -1083,7 +1083,7 @@
       "name": "/translate",
       "title": "Language Mirror",
       "file": "skills/translate.md",
-      "chars": 748,
+      "chars": 853,
       "phrases": [
         "answer in spanish",
         "answer in french",
@@ -1099,7 +1099,7 @@
       "name": "/price",
       "title": "Price Talk Deflection",
       "file": "skills/price.md",
-      "chars": 786,
+      "chars": 892,
       "phrases": [
         "price of dash",
         "dash price",
@@ -1112,6 +1112,82 @@
         "price target"
       ],
       "words": []
+    },
+    {
+      "name": "/health-check",
+      "title": "Pre-Launch Readiness Sweep",
+      "file": "skills/health-check.md",
+      "chars": 3168,
+      "phrases": [
+        "am i ready to launch",
+        "pre-launch checklist",
+        "ready for mainnet",
+        "going to mainnet",
+        "launch readiness",
+        "is my app production ready",
+        "before i go live",
+        "mainnet checklist",
+        "ship checklist",
+        "go-live check"
+      ],
+      "words": [
+        "pre-launch",
+        "checklist",
+        "mainnet",
+        "readiness",
+        "go-live"
+      ]
+    },
+    {
+      "name": "/governance-digest",
+      "title": "This-Cycle Voter Briefing",
+      "file": "skills/governance-digest.md",
+      "chars": 3052,
+      "phrases": [
+        "governance digest",
+        "proposals this cycle",
+        "proposals this month",
+        "catch me up on proposals",
+        "rundown of proposals",
+        "governance rundown",
+        "close to passing",
+        "which proposals are close",
+        "how should i vote this month",
+        "budget cycle summary",
+        "read me the ballot"
+      ],
+      "words": [
+        "digest",
+        "ballot",
+        "rundown",
+        "this-cycle",
+        "briefing"
+      ]
+    },
+    {
+      "name": "/dev-onboard",
+      "title": "The Developer's First Hour",
+      "file": "skills/dev-onboard.md",
+      "chars": 3239,
+      "phrases": [
+        "developer quickstart",
+        "dev quickstart",
+        "dev environment setup",
+        "testnet faucet",
+        "get testnet dash",
+        "how do i get testnet credits",
+        "hello world on dash",
+        "my first contract on testnet",
+        "first data contract on testnet",
+        "first hour building",
+        "get me to my first write"
+      ],
+      "words": [
+        "quickstart",
+        "faucet",
+        "onboard",
+        "testnet"
+      ]
     }
   ],
   "knowledge": [

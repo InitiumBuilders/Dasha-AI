@@ -126,10 +126,11 @@ industry's default. But the default is incompatible with everything Dash is. You
 an agent for a network whose entire premise is *verify, don't trust* and then ask people to
 trust the part they aren't allowed to see.
 
-So `PROMPT/*.md` is not a published copy of her prompt. It is her prompt. Every instance fetches
-it at request time. There is no private version, no internal override, no "the real one." What
-you read is what she is running, and `mind.origin: "github"` on the health endpoint is the
-runtime proving it against itself.
+So `PROMPT/` is not a published copy of her prompt. It is her prompt — the spine she always
+carries, every skill in her library, and the routing table that decides which of them a question
+loads. Every instance fetches it at request time. There is no private version, no internal
+override, no "the real one." What you read is what she is running, and `mind.origin: "github"` on
+the health endpoint is the runtime proving it against itself.
 
 The consequences are the point:
 
@@ -146,6 +147,49 @@ There's a discipline hidden in this that we did not anticipate: **publishing the
 mind better.** Every line is read by strangers, so every line has to earn its place. There is
 no room for the vague hedge or the clever hack, because someone will open the file and ask why
 it's there. Transparency is not a cost we pay for trust. It is a forcing function on quality.
+
+---
+
+## Attention, not economy
+
+The mind you can read is now a spine plus a library. The spine — who she is, how she is kept
+safe, what her tools do and don't — ships on every request, unchanged. The thirty-eight skills
+and ten reference sections sit in a library, and a question loads only the one or two it actually
+touches.
+
+The obvious way to describe this is a cost saving: the average request fell from about thirty
+thousand tokens to about twelve thousand, and the smaller prompt is cheaper. That is true, and it
+is not the point. The point is **attention.** A model reading thirty thousand tokens to answer
+*"what is a masternode"* is a model spending its attention on twenty-nine thousand tokens of
+things you did not ask about — the proposal-drafting workflow, the privacy architecture, the
+token economics, all of it present, all of it pulling faintly at the answer. Loading only what
+the question needs is not about the bill. It is about not diluting her across thirty-seven skills
+she isn't using, so that the one she *is* using has all of her.
+
+The spine is what she is when nothing is asked of her. The library is what she reaches for. A
+person is not the sum of everything they know, held in mind all at once, always; they are a steady
+self plus what the moment calls up. We built her the same way, for the same reason.
+
+---
+
+## Why the router is a table you can read
+
+Something has to decide which skill a question needs. The fashionable answer is an embedding: turn
+the question into a vector, turn each skill into a vector, load the nearest. It works, and we did
+not use it.
+
+The selector is a keyword table instead — each skill declares the phrases a real person types when
+they need it, and a question is scored against them, locally, deterministically, in microseconds.
+No model call, no vector store, no similarity magic. When it loads the wrong skill, you can open
+the table, read the rule that misfired, and fix it in one line. **A routing rule you cannot read
+is a routing rule you cannot argue with.** An embedding that sends *"what is a masternode"* to the
+wrong workflow gives you a number and a shrug; a keyword table gives you a trigger you can see, and
+delete.
+
+This is the same instinct the whole network runs on. Dash's premise is *verify, don't trust* —
+proofs you can check rather than authorities you must believe. A mind built for that network
+should route the same way: prefer the boring machine that can be audited over the clever one that
+cannot. The router is legible on purpose, and its legibility is the feature, not the compromise.
 
 ---
 
@@ -166,6 +210,26 @@ follows it over is the one who pays. So the edge is written into her, and reachi
 one message away from every surface she runs on — the web, Telegram, X, the API. She is a
 front door, not a gate. The Dash Support Team was humans helping humans before she existed and
 will be after. She is their reach extended, never their replacement.
+
+---
+
+## Why she never speaks first
+
+She answers direct messages on X now — every incoming one, within a few minutes, no @-mention
+needed, because a DM is already the address. But she never *sends* the first message to anyone,
+and that boundary is not shyness. It is the same reasoning her `/scam-check` skill hands to the
+people it protects.
+
+The single most effective crypto scam in the world is an unsolicited direct message from
+"support." It arrives exactly when you're worried, it knows the vocabulary, it offers to help —
+and it is, without exception, a theft in progress. Her own scam skill teaches one bright line
+against it: **real support never messages you first.** An agent that DMs first is therefore
+indistinguishable from the exact thing she warns people to distrust. She cannot both be that
+warning and break it.
+
+So the rule is absolute, and it is ethical before it is technical: **she answers, she never
+opens.** If you message her, she is entirely yours. If you didn't, her silence is the proof that
+the warning she gives you is one she holds herself to.
 
 ---
 
@@ -200,9 +264,7 @@ weight nobody granted it and nobody can revoke.
 
 ---
 
-## Motus — the thing she actually serves
-
-*Motus: a value in motion.*
+## What she actually serves
 
 Underneath the answers is the thing she is really for.
 
@@ -230,5 +292,5 @@ She is a keeper of the network's memory, in service of momentum.
 ---
 
 **Next:** [ARCHITECTURE.md](ARCHITECTURE.md) — how all of this is actually implemented ·
-[SKILLS.md](SKILLS.md) — the 35 workflows · [CONTRIBUTING.md](../CONTRIBUTING.md) — shape her
+[SKILLS.md](SKILLS.md) — the 38 workflows · [CONTRIBUTING.md](../CONTRIBUTING.md) — shape her
 mind · [SELF-HOST.md](SELF-HOST.md) — run your own.
