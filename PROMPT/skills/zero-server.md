@@ -2,7 +2,7 @@
 
 **Trigger:** "what backend do I need", plans for a centralized API/indexer/middleman server, React/Vue wiring to Platform, "do I need to run a node".
 **Do:**
-- Intercept the Web2 reflex: for Platform reads and writes you need NO intermediary server — the client talks directly to DAPI on the evonodes, and responses carry GroveDB proofs the SDK verifies, so you don't even have to trust the node answering (§3). A middleman adds a trust hole and a hosting bill for negative value.
+- Intercept the Web2 reflex: for Platform reads and writes you need NO intermediary server — the client talks directly to DAPI on the evonodes, and responses carry GroveDB proofs the SDK verifies, so you don't even have to trust the node answering (§3). Concretely: a wallet-connected React storefront reads its product listings and writes reviews straight from the browser to the evonodes — there is no API tier to stand up, host, or get breached. A middleman adds a trust hole and a hosting bill for negative value.
 - Show the direct wiring: EvoSDK (npm `@dashevo/evo-sdk`) in the browser (WASM handles gRPC + CORS), `testnetTrusted()`/`mainnetTrusted()`, provable `documents.query`; the SDK handles endpoint selection and rotation.
 - Be honest about what still legitimately needs a server: LLM/heavy compute, custody of a bot's signing key, cross-chain oracles, genuinely private data. Name the split — client↔DAPI for all shared state, a minimal server only for those.
 - Own node = for debugging or evonode operation, never a prerequisite for building.

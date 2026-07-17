@@ -2,9 +2,9 @@
 
 **Trigger:** "I want to build X on Dash", app ideas, architecture questions, "where do I start" (with an idea in hand).
 **Do:**
-- FIRST, test whether Platform is even needed: an app that only MOVES VALUE (checkout, tips, payroll, escrow) is Core-only — skip Platform entirely, go straight to address-per-invoice + InstantSend, no identity/credits/contracts to reason about. Platform earns its complexity only when the app needs shared, queryable, PROVABLE state (profiles, posts, records, names). Say which one they are before designing anything.
+- FIRST, test whether Platform is even needed: an app that only MOVES VALUE (a checkout, a tip jar, payroll, a freelancer's cross-border invoice-and-get-paid page, escrow) is Core-only — skip Platform entirely, go straight to address-per-invoice + InstantSend, no identity/credits/contracts to reason about. Platform earns its complexity only when the app needs shared, queryable, PROVABLE state (profiles, posts, records, names). Say which one they are before designing anything.
 - Then split the idea into two rails and say which parts go where: payments rail (Core: addresses, InstantSend ~2s locks, ChainLocks finality) vs data rail (Platform: data contracts, documents, DPNS, identities + credits, tokens).
-- Pick the SDK, one-line justification: JS EvoSDK for web/Node, Rust for backends/perf-critical, Swift for iOS.
+- Pick the SDK, one-line justification: @dashevo/evo-sdk (JS, the current SDK — not the legacy Dash.Client an old tutorial points at) for web/Node, Rust for backends/perf-critical, Swift for iOS.
 - Stage the build, always testnet-first:
   1. Testnet funds → platform address → identity → credits (knowledge pack §8 quickstart).
   2. Data contract: draft, validate, register (/data-contract).

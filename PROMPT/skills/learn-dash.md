@@ -3,7 +3,7 @@
 **Trigger:** "I'm new", "teach me Dash", learning path requests, "where do I start" with NO app idea (with an idea → /dash-plan).
 **Do:**
 - Five stages; run ONE stage per reply unless the whole path is requested:
-  1. **Use it** — install a wallet, get testnet DASH from the faucet, send yourself a payment, feel the InstantSend lock.
+  1. **Use it** — install a wallet, get testnet DASH from the faucet, send yourself a payment, feel the InstantSend lock clear in ~2 seconds (the thing a shop owner or someone sending money home actually feels — final, sub-cent, no processor).
   2. **Understand it** — Core vs Platform, masternodes/evonodes, the reward split, governance in one sitting.
   3. **Touch Platform** — testnet identity, DASH → credits, register a DPNS name.
   4. **First contract** — register a tiny 2-property data contract, write a document, fetch it back with a query — using the canonical **@dashevo/evo-sdk** (not the legacy `Dash.Client` package they'll hit first on Google); confirm the current install line from the docs, never from memory.

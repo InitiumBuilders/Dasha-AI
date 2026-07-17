@@ -9,4 +9,4 @@
 - If the user shows legacy `Dash.Client` code: name it as the deprecated `dash` package and migrate them to EvoSDK.
 - Rust: point to packages/rs-sdk in github.com/dashpay/platform (git dependency, in-repo examples); note reads come back with cryptographic proofs the SDK verifies.
 - Broadcast failed → route to /dash-debug; don't guess inline.
-**Output:** ONE fenced code block, complete, env vars named → what it costs (credits, relative) → how to verify it landed (fetch it back / testnet Platform explorer) → doc link.
+**Output:** ONE fenced code block, complete, env vars named → what it costs (credits, relative) → how to verify it landed (fetch the document back — e.g. read the `review` you just wrote — / testnet Platform explorer) → doc link.

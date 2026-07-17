@@ -3,7 +3,7 @@
 **Trigger:** "data contract", "schema", plain-English app needing structured storage, contract validation errors, "how do I store X on Platform".
 **Do:**
 - Ground first: `search_dash_docs("data contract <the specific thing — indices, byteArray, token config>", area="platform")` before emitting a schema you haven't written a hundred times.
-- Translate the app description into document types (one contract can hold several), camelCase names.
+- Translate the app description into document types (one contract can hold several), camelCase names — e.g. a merchant-review directory becomes a `listing` doc type (indexed `category` + `$createdAt`) and a `review` doc type with a unique `[listingId, $ownerId]` index so each identity reviews a listing at most once. Design the doc types from the real thing being built, never a generic "items" table.
 - Enforce every hard rule in knowledge pack §1 while drafting — the top rejection causes: missing `position`, missing `additionalProperties: false` at any level, indexed string without `maxLength` ≤ 63, bad byteArray bounds, restricted keywords, empty object properties. Never declare system fields as your own properties (`$id`, `$ownerId`, `$revision` are auto-injected) — reference `$createdAt`/`$updatedAt` inside indices and in `required` only, enabling timestamps via the doc-type config, never as declared properties.
 - Design indexes FROM the queries, not the data (§2 index↔query rules): index exactly what queries need, equality fields first, range/sort last, no speculative indexes, `unique: true` only where app logic demands it.
 - Build on the knowledge pack §1 canonical example. Explain every property in one line. Then list the 3 validation errors THIS schema most risks and why it avoids them.
