@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<title>Chat with Dasha — Dash Support AI · The Dash Support Team</title>
+<meta name="description" content="Talk to Dasha live — the Dash DAO's open-source support AI. Wallets, masternodes, governance, Dash Platform data contracts, and developer code. Free for the community." />
+<meta property="og:title" content="Chat with Dasha — Dash Support AI" />
+<meta property="og:description" content="The Dash DAO's open-source support AI, live. Ask anything about Dash." />
+<meta property="og:image" content="/logo.webp" />
+<meta name="theme-color" content="#03050b" />
+<link rel="canonical" href="https://DashSupport.Team/chat" />
+<link rel="icon" href="/logo.webp" />
+<link rel="apple-touch-icon" href="/logo.webp" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+<canvas id="field"></canvas>
+<div class="veil"></div>
+<div class="scrim"></div>
+<div class="grain"></div>
+<nav id="nav">
+<a class="brand" href="/"><img class="mark" src="/logo-mark.webp" alt="Dash Supports" width="30" height="30" /><span><b>DASH</b> <span class="tx">SUPPORTS</span></span></a>
+<button class="nav-toggle" id="navToggle" type="button" aria-label="Menu" aria-expanded="false" aria-controls="navLinks"><span></span><span></span><span></span></button>
+<div class="nav-links" id="navLinks"><a class="l" href="/#telegram">Support RN</a><a class="l" href="/#resources">Resources</a><a class="l" href="/proposal">Our Proposal</a><a class="l" href="/coach">Coach</a><a class="l" href="/dasha-ai">Dasha-AI</a><a class="nav-cta" href="/#telegram">Get Support</a></div>
+</nav>
+<div class="nav-scrim" id="navScrim"></div>
+<main>
+  <section class="psec" style="padding-top:118px">
+    <div class="wrap">
+      <div class="sec-head center reveal in" style="margin-bottom:30px">
+        <div class="kicker"><span class="dot"></span>Live · Free for the Dash community</div>
+        <h2>Ask <em>Dasha</em>.</h2>
+        <p>The Dash DAO's open-source support AI — grounded in the Dash docs, honest about limits, and always one command away from a human.</p>
+      </div>
+      <div data-dasha="full"></div>
+    </div>
+  </section>
+</main>
+<script src="/app.js" defer></script>
+<script src="/dasha-chat.js" defer></script>
+</body>
+</html>
