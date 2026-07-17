@@ -27,8 +27,9 @@ function oauthHeader(method, url, params, extraOauth) {
   return 'OAuth ' + Object.keys(o).sort().map((k) => enc(k) + '="' + enc(o[k]) + '"').join(', ');
 }
 
-/* ---- reads (app-only bearer is enough) ---- */
-async function xGet(path, query) {
+/* ---- reads. Most work app-only; DM endpoints refuse app-only auth and require the user
+       context (403 "Unsupported Authentication"), so pass {user:true} for those. ---- */
+async function xGet(path, query, opts) {
   const bearer = process.env.X_BEARER_TOKEN;
   const qs = query ? ('?' + Object.keys(query).map((k) => k + '=' + encodeURIComponent(query[k])).join('&')) : '';
   const url = API + path + qs;
@@ -36,9 +37,9 @@ async function xGet(path, query) {
   const t = setTimeout(() => ctl.abort(), 15000);
   try {
     /* X issues the bearer already percent-encoded — pass it VERBATIM. Decoding it → 401. */
-    let auth = bearer ? ('Bearer ' + bearer.trim()) : null;
+    let auth = (opts && opts.user) ? null : (bearer ? ('Bearer ' + bearer.trim()) : null);
     if (!auth) auth = oauthHeader('GET', API + path, query || {});
-    if (!auth) throw new Error('no X credentials configured');
+    if (!auth) throw new Error('no X user credentials configured (DM endpoints require them)');
     const r = await fetch(url, { signal: ctl.signal, headers: { Authorization: auth } });
     const d = await r.json();
     if (!r.ok) throw new Error('x GET ' + path + ' → ' + r.status + ' ' + JSON.stringify(d).slice(0, 200));

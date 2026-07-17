@@ -4,6 +4,8 @@
    ?status=1 → config/health report, posts nothing. */
 const { xGet, xPost, botUser, thread } = require('./_x.js');
 const { askDasha } = require('./_brain.js');
+const { buildDigest } = require('./_digest.js');
+const { runDMs } = require('./_dm.js');
 
 const MAX_REPLIES_PER_RUN = 3;   // rate + credit guard
 const LOOKBACK_MIN = 90;         // ignore anything older (cold starts / backfill storms)
@@ -17,6 +19,15 @@ function authorized(req) {
   const tok = req.headers['x-dasha-token'];
   if (tok && process.env.DASHA_MCP_TOKEN && tok === process.env.DASHA_MCP_TOKEN) return true; // manual
   return !cs;                                                    // no secret set → open (still read-only unless configured)
+}
+
+/* Have we already said this? A broadcast repeated is a broadcast unfollowed, and serverless
+   keeps no state — so we ask X what we've already posted rather than trusting memory. */
+async function alreadyPosted(myId, marker) {
+  try {
+    const d = await xGet('/2/users/' + myId + '/tweets', { max_results: '50', 'tweet.fields': 'created_at' });
+    return (d.data || []).some(function (t) { return String(t.text || '').includes(marker); });
+  } catch (e) { return true; }   // can't verify → stay silent. Never risk a duplicate broadcast.
 }
 
 async function repliedSet(myId) {
@@ -59,6 +70,46 @@ module.exports = async (req, res) => {
   }
 
   if (!authorized(req)) return res.status(401).json({ error: 'unauthorized' });
+
+  /* ---- direct messages: every incoming one gets an answer, no @mention needed ---- */
+  const dmq = req.query && req.query.dm;
+  if (dmq) {
+    if (!cfg.canPost) return res.status(200).json({ ok: false, reason: 'DMs need the OAuth1 user token (X_ACCESS_TOKEN/SECRET)' });
+    const out = await runDMs(me, { preview: dmq === 'preview' });
+    return res.status(200).json(out);
+  }
+
+  /* ---- the superblock digest: the one unprompted thing worth saying ---- */
+  const dq = req.query && req.query.digest;
+  if (dq) {
+    const preview = dq === 'preview';
+    const dig = await buildDigest({ force: preview || dq === 'force' });
+    if (!dig) return res.status(200).json({ ok: false, reason: 'no governance data' });
+    if (dig.skip) return res.status(200).json({ ok: true, posted: false, reason: dig.skip });
+
+    /* thread the whole digest at once so the n/N counter is global, not per-section */
+    const shaped = thread(dig.tweets.join('\n\n'), 280);
+    if (preview) {
+      return res.status(200).json({ ok: true, posted: false, mode: 'preview',
+        superblock: dig.superblock, daysAway: Math.round(dig.days * 10) / 10,
+        passing: dig.passing, ofTotal: dig.total, closeToLine: dig.close,
+        wouldPost: shaped });
+    }
+    if (String(process.env.DASHA_X_DIGEST || '').toLowerCase() !== 'on') {
+      return res.status(200).json({ ok: true, posted: false, reason: 'digest disabled (set DASHA_X_DIGEST=on)', wouldPost: shaped });
+    }
+    if (await alreadyPosted(me.id, dig.marker)) {
+      return res.status(200).json({ ok: true, posted: false, reason: 'already posted for ' + dig.marker });
+    }
+    let parent = null, ids = [];
+    for (const p of shaped) {
+      const r = await xPost('/2/tweets', parent ? { text: p, reply: { in_reply_to_tweet_id: parent } } : { text: p });
+      if (r.error) { ids.push({ error: r.error }); break; }
+      parent = r.data && r.data.id; ids.push(parent);
+    }
+    return res.status(200).json({ ok: true, posted: true, superblock: dig.superblock, tweets: ids,
+      url: ids[0] ? ('https://x.com/' + me.username + '/status/' + ids[0]) : null });
+  }
 
   let mentions = [];
   try {

@@ -184,6 +184,9 @@ async function askDasha(messages, opts) {
   if (opts.surface === 'telegram') {
     sys.push({ role: 'system', content: 'SURFACE: Telegram. Keep replies under ~200 words, plain text + code blocks only (no markdown tables or headers), never @-mention users. Tool data still gets cited by URL.' });
   }
+  if (opts.surface === 'x-dm') {
+    sys.push({ role: 'system', content: 'SURFACE: X direct message — PRIVATE, and they messaged you first. Answer fully: no character pressure (the limit is 10,000), no threading, no counter tags. Links are fine and cost nothing here, unlike public replies. Write like a good email: the answer first, then the steps, then the source. THEY OPENED THIS CONVERSATION — but you still never ask for a seed phrase, a private key, or a payment, and you never initiate a DM to anyone. If this person seems to be in trouble or losing money, calm before cleverness, and offer /human-support early.' });
+  }
   if (opts.surface === 'x') {
     sys.push({ role: 'system', content: 'SURFACE: X reply, PUBLIC and permanent. The runtime threads your answer automatically and NEVER truncates it, so write what the answer actually needs: 700-1000 characters when the question deserves substance, 1500+ when it is genuinely essential (safety, a real fix, someone about to lose money), short when the question is small or bait. Lead with the direct answer on line one, blank line, then short supporting paragraphs — the threader breaks on paragraph and sentence boundaries, so write in complete sentences and real paragraphs and it will split cleanly. Plain text ONLY — X renders markdown as literal characters, so no **bold**, no #headers, no code fences, no tables. Separate ideas with " — " or " · "; number steps 1) 2) 3). NO LINKS (they cost the team 13x) — name things instead of linking them. Never @-mention anyone except the person you are replying to. One light touch of personality maximum.' });
   }
