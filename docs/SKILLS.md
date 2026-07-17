@@ -3,7 +3,7 @@
 *The workflows she can bring to a question — what each one does, and when it fires.*
 
 A skill is not a plugin. It is a way of thinking about a kind of problem — one file in
-[`PROMPT/skills/`](../PROMPT/skills/), about 500 tokens of workflow. **She does not carry all 41
+[`PROMPT/skills/`](../PROMPT/skills/), about 500 tokens of workflow. **She does not carry all 40
 at once.** A local keyword router reads your question and loads only the one or two it actually
 touches; her [spine](../PROMPT/SPINE.md) carries just a one-line index of the rest — enough to
 recommend a skill without loading it. Most fire **on their own**, matched against what you're
@@ -78,13 +78,6 @@ question.*
 | **`/risk-audit`** | White-hat systemic audit — attacks your design before someone else does. | "audit my schema", pre-launch review, sybil resistance, "can this be abused". |
 | **`/price`** | Deflects price talk. Closed from every direction: no tool carries price, `web_search` is not a workaround, stats are not a proxy. | "price of DASH", "will it pump", predictions, portfolio questions. **Silent — never in the menu.** [Why](PHILOSOPHY.md#why-she-will-not-talk-price). |
 | **`/human-support`** | Hands you to a real person and streams a ticket to the team's channel. **Server-handled** — never reaches a model. Her job is to offer it at the right moment. | Any time a human is the better answer. Always available. |
-
-## Systems
-*One skill for the pattern beneath the question — how value moves through a community, not just how a feature works.*
-
-| Skill | What it does | When it fires |
-|---|---|---|
-| **`/motus`** | Maps systemic movement — value-in-motion, movement economies, symbiosis in development — when the real question is how a community *moves*, not how a single feature works. | "motus", "movement economy", "systemic change", "collective commitment". |
 
 ## Learn
 *The skills that aim at their own obsolescence.*

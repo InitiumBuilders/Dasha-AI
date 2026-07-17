@@ -182,15 +182,6 @@ you can walk. That is the whole idea.
 
 ---
 
-## Systems
-*The whole, not the feature.*
-
-### /motus — Systemic Movement Mapper
-**Foundation:** Maps an idea across the SiD Object–Network–System levels to find the highest-leverage point where an immutable, provable record of movement changes behavior, then translates that leverage into a kinetic data contract of commitment and movement documents.
-**Horizon:** It could grow a library of movement-log contract patterns — commitment, attestation, streak, collective-pledge — each a proven schema a community adapts rather than derives from scratch. As provable per-identity attribution accumulates, the skill could reason about the motion itself over time, reading the shape of a community's commitments from the very documents its schema records. Its honesty holds as it deepens: the chain keeps the trustworthy record of motion, the momentum always lives in the people — a line worth keeping true and unhurried as the tooling around it grows.
-
----
-
 ## Voice
 *How she speaks, translates, and knows when to hand the conversation to a human.*
 

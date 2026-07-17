@@ -28,7 +28,7 @@ try { local = require('./_local.js'); } catch (e) { /* none configured */ }
    consequences, not syntax. Classification is local: zero added latency, zero added cost,
    and it never spends a model call deciding which model to call. */
 const DEEP_SKILLS = /\/(dash-plan|data-contract|state-transition|dash-debug|grove-query|schema-migrate|risk-audit|sub-dao|dash-ai|scale|zero-server|identity-keys|shielded|doc-dive|dash-token|compare-chain|agent-architect)\b/i;
-const COUNSEL_SKILLS = /\/(proposal-guide|envision|motus|learn-dash)\b/i;
+const COUNSEL_SKILLS = /\/(proposal-guide|envision|learn-dash)\b/i;
 const DEEP_WORDS = /\b(architect|architecture|design (a|my|the)|refactor|migrat(e|ing|ion)|optimi[sz]e|debug|troubleshoot|diagnos|trade-?offs?|walk me through|why (is|does|would|won'?t|isn'?t)|best (approach|way|practice)|how should i (build|design|structure|model)|scal(e|ing) (up|issue|problem)|schema|data contract|state transition|structure (my|the)|build (me )?a|write (me )?(a|the)|implement)\b/i;
 const ERROR_WORDS = /\b(error|exception|traceback|stack ?trace|failed|failing|fails|broken|bug|crash|doesn'?t work|not working|invalid|rejected|refus(ed|ing)|timeout|tim(ing|es) out|timed out|hang(s|ing)?|stuck|won'?t (connect|register|broadcast|build|run)|502|400|403)\b/i;
 /* judgement, not syntax */
