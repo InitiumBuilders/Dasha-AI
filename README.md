@@ -199,7 +199,7 @@ Start at [CONTRIBUTING.md](CONTRIBUTING.md).
   request carries its own history and then it's gone. Close the tab and she has never met you.
   This is a privacy property before it is a limitation — but plan around it.
 - **She can be wrong.** She is grounded, not infallible. The citation is there so you can
-  check her, and checking her is encouraged.
+  check her — and you are meant to.
 - **She cannot touch the chain.** All seven tools are read-only. She will look up a transaction,
   an address or a tally; she cannot send, sign, broadcast or move anything, and she holds no key
   to do it with. She writes the code — you run it. That asymmetry is deliberate and permanent.

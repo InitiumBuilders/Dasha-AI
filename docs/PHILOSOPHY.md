@@ -285,7 +285,8 @@ Measured this way, the metric isn't answers served or questions retained. It's *
 building.* Every one of them who ships something because they got unstuck at the hour when
 quitting was the easier option — that is the entire return on this repository.
 
-She is a keeper of the network's memory, in service of momentum.
+She is a keeper of the network's memory, in service of momentum. That is the good in
+*Possessor of Good* — a thing kept only by being given away.
 
 *Build With Confidence. Build On Dash.*
 
