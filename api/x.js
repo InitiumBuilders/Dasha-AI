@@ -85,7 +85,7 @@ module.exports = async (req, res) => {
     const text = lines.join('\n');
     /* don't post a near-empty pulse: without a shared store each instance sees only its own
        recent traffic, so a daily post would be noise. Post only with a real store, or when forced. */
-    const worthPosting = metrics.HAS_KV || p.answers >= 20 || req.query.force;
+    const worthPosting = metrics.HAS_SB || metrics.HAS_KV || p.answers >= 20 || req.query.force;
     let posted = false;
     if (bt && chat && !req.query.dry && worthPosting) {
       try { const r = await fetch('https://api.telegram.org/bot' + bt + '/sendMessage', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ chat_id: chat, text: text, disable_web_page_preview: true }) }); posted = r.ok; } catch (e) {}
