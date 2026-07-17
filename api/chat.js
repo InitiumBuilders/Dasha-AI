@@ -1,6 +1,7 @@
 /* POST /api/chat — Dasha's public web endpoint (also the "MCP" programmatic endpoint with x-dasha-token). */
 const { askDasha, humanSupport, cleanMessages, mindStatus, VERSION, MODEL, DEEP_MODEL, COUNSEL_MODEL } = require('./_brain.js');
 const learn = require('./_learn.js');
+const metrics = require('./_metrics.js');
 
 /* best-effort per-instance rate limiting (protects the credit pool from casual abuse) */
 const hits = new Map(); // ip -> [ts]
@@ -26,12 +27,20 @@ module.exports = async (req, res) => {
   if (req.method === 'OPTIONS') return res.status(204).end();
 
   if (req.method === 'GET') {
+    /* the pulse — token-gated (the numbers are already anonymous; the gate keeps it the team's) */
+    if (req.query && req.query.pulse) {
+      if (!isMcp) return res.status(401).json({ error: 'the pulse needs x-dasha-token' });
+      const snap = await metrics.snapshot(parseInt(req.query.days, 10) || 7);
+      return res.status(200).json({ ok: true, pulse: metrics.rollup(snap), raw: req.query.raw ? snap : undefined });
+    }
     const mind = await mindStatus();
     return res.status(200).json({ ok: true, service: 'dasha-ai',
       models: { everyday: MODEL, engineering: DEEP_MODEL, judgement: COUNSEL_MODEL,
         routing: 'automatic — code/errors/schemas go to the engineering mind; proposals, insight, leverage and systems thinking go to the judgement mind; everything else stays fast' },
       mind: mind, // version + origin: 'github' proves the live stream is feeding this instance
       learning: learn.sinks(), // honest: is the feedback loop actually closed, or dark?
+      analytics: { store: metrics.HAS_KV ? 'fleet-wide (KV)' : 'in-memory per instance — add Upstash/Vercel KV for fleet-wide + persistence',
+        principle: 'aggregate only — no question, answer, address or user is ever stored', pulse: 'GET /api/chat?pulse=1 with x-dasha-token' },
       tools: ['search_dash_docs', 'dash_governance', 'dash_network_stats', 'lookup_tx', 'lookup_address', 'web_search', 'load_skill'],
       surfaces: ['web', 'telegram', 'x', 'api'],
       mcp: 'POST /api/chat with header x-dasha-token', source: 'https://github.com/InitiumBuilders/Dasha-AI' });
@@ -46,6 +55,7 @@ module.exports = async (req, res) => {
   if (body && body.feedback) {
     const f = body.feedback;
     const out = await learn.record({ good: !!f.good, q: f.q, a: f.a, note: f.note, tools: f.tools, surface: 'web' });
+    metrics.recordFeedback(!!f.good, !!out.filed);
     return res.status(200).json({ ok: true, filed: !!out.filed, url: out.url || null });
   }
 

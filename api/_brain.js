@@ -1,6 +1,7 @@
 /* Dasha's brain — the tool loop. Used by /api/chat (web + token API) and /api/telegram.
    She reaches: official docs search, live governance, network stats, tx/address lookups. */
 const mindLib = require('./_mind.js');
+const metrics = require('./_metrics.js');
 const { getMind, loadParts, BAKED_VERSION } = mindLib;
 const { selectContext, renderContext } = require('./_context.js');
 const { DEFS, runTool, bindMind } = require('./_tools.js');
@@ -160,6 +161,23 @@ function banner(route) {
 
 /* ---- the ask: reason → reach → answer ---- */
 async function askDasha(messages, opts) {
+  const out = await _askCore(messages, opts);
+  /* the pulse: count what fired, never what was said — fire-and-forget, never blocks a reply */
+  try {
+    if (out && out.reply) {
+      metrics.recordTurn({
+        surface: (opts && opts.surface) || 'web', model: out.model, depth: out.depth,
+        skills: out.skillsFired || [], tools: out.tools || [],
+        costMicros: out.usage && out.usage.cost ? Math.round(out.usage.cost * 1e6) : 0, ok: true,
+      });
+    } else if (out && out.error) {
+      metrics.recordTurn({ surface: (opts && opts.surface) || 'web', ok: false });
+    }
+  } catch (e) { /* metrics must never break an answer */ }
+  if (out && out.skillsFired) delete out.skillsFired;   // internal — don't surface it
+  return out;
+}
+async function _askCore(messages, opts) {
   opts = opts || {};
   const key = process.env.OPENROUTER_API_KEY;
   if (!key) return { error: 'Dasha is not configured yet (missing model key). A human is at ' + HUMAN_LINK };
@@ -241,7 +259,7 @@ async function askDasha(messages, opts) {
 
     if (msg.content) {
       return { reply: banner(route) + msg.content, tools: toolsUsed, model: model, depth: route.depth,
-        usage: { p: pTok, c: cTok, cost: Math.round(cost * 1e6) / 1e6 } };
+        skillsFired: loaded.skills, usage: { p: pTok, c: cTok, cost: Math.round(cost * 1e6) / 1e6 } };
     }
     /* empty content (thinking ate the budget) — salvage with a bigger ceiling, no tools.
        A deep model that burns its budget reasoning falls back to the fast mind rather

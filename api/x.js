@@ -6,6 +6,7 @@ const { xGet, xPost, botUser, thread } = require('./_x.js');
 const { askDasha } = require('./_brain.js');
 const { buildDigest } = require('./_digest.js');
 const { runDMs } = require('./_dm.js');
+const metrics = require('./_metrics.js');
 
 const MAX_REPLIES_PER_RUN = 3;   // rate + credit guard
 const LOOKBACK_MIN = 90;         // ignore anything older (cold starts / backfill storms)
@@ -70,6 +71,27 @@ module.exports = async (req, res) => {
   }
 
   if (!authorized(req)) return res.status(401).json({ error: 'unauthorized' });
+
+  /* ---- the daily pulse → the team channel: what fired yesterday, never what was said ---- */
+  if (req.query && req.query.pulse) {
+    const snap = await metrics.snapshot(parseInt(req.query.days, 10) || 1);
+    const p = metrics.rollup(snap);
+    const bt = process.env.TELEGRAM_BOT_TOKEN, chat = process.env.SUPPORT_CHAT_ID;
+    const lines = ['📊 Dasha pulse — ' + (p.scope || ''),
+      p.answers + ' answers · ' + p.satisfaction + ' helpful (' + p.thumbs_up + '👍 / ' + p.thumbs_down + '👎)',
+      '', 'Most-used skills:'].concat((p.topSkills || []).slice(0, 6).map(function (s) { return '  ' + s[0] + ' × ' + s[1]; }));
+    if (p.tools && p.tools.length) lines.push('', 'Tools reached: ' + p.tools.map(function (t) { return t[0] + '×' + t[1]; }).join(' · '));
+    lines.push('', 'aggregate only — no question, answer, or user is ever stored.');
+    const text = lines.join('\n');
+    /* don't post a near-empty pulse: without a shared store each instance sees only its own
+       recent traffic, so a daily post would be noise. Post only with a real store, or when forced. */
+    const worthPosting = metrics.HAS_KV || p.answers >= 20 || req.query.force;
+    let posted = false;
+    if (bt && chat && !req.query.dry && worthPosting) {
+      try { const r = await fetch('https://api.telegram.org/bot' + bt + '/sendMessage', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ chat_id: chat, text: text, disable_web_page_preview: true }) }); posted = r.ok; } catch (e) {}
+    }
+    return res.status(200).json({ ok: true, posted: posted, pulse: p, preview: text });
+  }
 
   /* ---- direct messages: every incoming one gets an answer, no @mention needed ---- */
   const dmq = req.query && req.query.dm;
