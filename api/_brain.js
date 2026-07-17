@@ -1,13 +1,24 @@
 /* Dasha's brain — the tool loop. Used by /api/chat (web + token API) and /api/telegram.
    She reaches: official docs search, live governance, network stats, tx/address lookups. */
-const { getMind, BAKED_VERSION } = require('./_mind.js');
-const { DEFS, runTool } = require('./_tools.js');
+const mindLib = require('./_mind.js');
+const { getMind, loadParts, BAKED_VERSION } = mindLib;
+const { selectContext, renderContext } = require('./_context.js');
+const { DEFS, runTool, bindMind } = require('./_tools.js');
+bindMind(mindLib);   // lets load_skill reach the library without a circular import
 
 const OR_URL = 'https://openrouter.ai/api/v1/chat/completions';
 const MODEL = process.env.DASHA_MODEL || 'deepseek/deepseek-v3.2';               // everyday mind
 const DEEP_MODEL = process.env.DASHA_DEEP_MODEL || 'openai/gpt-5.1-codex';       // engineering mind
 const COUNSEL_MODEL = process.env.DASHA_COUNSEL_MODEL || 'anthropic/claude-sonnet-5'; // judgement mind
 const HUMAN_LINK = 'https://t.me/TheDashSupportTEAM';
+
+/* Optional deployment-local routing. A deployment may drop in api/_local.js exporting
+   { override(lowerText, surface) -> {model, depth, maxTokens?, banner?, sticky?} | null }
+   to add its own routing ahead of the tiers below — a fork might send its own team's
+   questions somewhere specific, or pin a model for one class of work. Absent the file,
+   this is inert and the router has exactly the three tiers documented in the README. */
+let local = null;
+try { local = require('./_local.js'); } catch (e) { /* none configured */ }
 
 /* ---------------- THE ROUTER ----------------
    Most questions are "what is a masternode" — cheap, fast, done. Engineering work (code,
@@ -33,7 +44,15 @@ const FOLLOWUP = /^\s*(why|how|and|but|so|what about|then|ok|okay|yes|no|hmm|wai
 function pickModel(messages, opts) {
   const last = String(messages[messages.length - 1].content || '');
   const t = last.trim();
+  const lower = t.toLowerCase();
   const surface = (opts && opts.surface) || 'web';
+
+  /* deployment-local routing wins, when a deployment configured any. Applies to THIS
+     message only — every request classifies the current message independently. */
+  if (local && local.override) {
+    const o = local.override(lower, surface);
+    if (o && o.model) return o;
+  }
 
   if (opts && opts.forceLight) return { model: MODEL, depth: null };
   if (SHALLOW.test(t) && t.length < 24) return { model: MODEL, depth: null };  // never burn depth on "gm"
@@ -67,8 +86,9 @@ function pickModel(messages, opts) {
     const prevUser = messages.slice(0, -1).reverse().find(function (m) { return m.role === 'user'; });
     if (prevUser) {
       const prior = pickModel([prevUser], { surface: surface, noStick: true });
-      if (prior.depth) {
-        return { model: prior.model, depth: prior.depth + ' (continued)' };
+      /* sticky:false routes are per-message by definition and are never inherited */
+      if (prior.depth && prior.sticky !== false) {
+        return { model: prior.model, depth: prior.depth + ' (continued)', maxTokens: prior.maxTokens };
       }
     }
   }
@@ -77,14 +97,20 @@ function pickModel(messages, opts) {
 
 /* ---- one model call ----
    Her mind is ~29K tokens and is resent on every request and every tool round, so PROMPT
-   CACHING is the whole ballgame. Caching is per-provider: Anthropic needs an explicit cache
-   breakpoint (see cacheable() below), DeepSeek caches only on its own endpoint (see the
-   provider pin in call()), OpenAI/Gemini cache implicitly. Moonshot never cached at all —
-   measured 0 cached tokens on every call, which is why it was replaced. */
+   CACHING is the whole ballgame. Anthropic needs an explicit cache breakpoint (1h TTL so a
+   quiet hour doesn't force a re-write); Gemini/OpenAI cache implicitly; Moonshot never
+   cached at all — measured 0 cached tokens on every call, which is why it was replaced. */
+/* Caching is per-model: Anthropic needs an explicit breakpoint, DeepSeek/OpenAI/Gemini
+   cache implicitly. Moonshot cached nothing at all — measured — which is why it's gone. */
+/* Anthropic needs explicit breakpoints. Mark the SPINE (identical every request → always a
+   hit) and, if present, the loaded-context block (one of a small set of combinations → the
+   common paths warm up). Others cache the prefix implicitly and need no marking. */
 function cacheable(model, messages) {
   if (!model.startsWith('anthropic/')) return messages;
+  let marked = 0;
   return messages.map(function (m, i) {
-    if (i !== 0 || m.role !== 'system' || typeof m.content !== 'string') return m;
+    if (m.role !== 'system' || typeof m.content !== 'string' || marked >= 2) return m;
+    marked++;
     /* 5-minute breakpoint, not 1h. Measured: a 1h write costs 2x base (~$0.21 on the
        judgement tier — over budget for a single cold question), while the 5m write costs
        1.25x (~$0.10) and reads are identical at ~$0.009. The 5m window slides on every
@@ -126,6 +152,12 @@ async function call(key, model, messages, maxTok, useTools) {
   } finally { clearTimeout(t); }
 }
 
+/* A route may carry a header to prepend to its replies (see the local-routing hook above).
+   No route asks for one by default, so this is empty unless a deployment configures it. */
+function banner(route) {
+  return (route && route.banner) ? (route.banner + '\n\n') : '';
+}
+
 /* ---- the ask: reason → reach → answer ---- */
 async function askDasha(messages, opts) {
   opts = opts || {};
@@ -133,7 +165,22 @@ async function askDasha(messages, opts) {
   if (!key) return { error: 'Dasha is not configured yet (missing model key). A human is at ' + HUMAN_LINK };
 
   const mind = await getMind(); // live from GitHub, baked fallback
-  const sys = [{ role: 'system', content: mind.prompt }];
+
+  /* [SPINE] — identical on every request, so it is always a cache hit. */
+  const sys = [{ role: 'system', content: mind.spine }];
+
+  /* [LOADED CONTEXT] — only the workflow and reference this question actually touches.
+     Selected locally: no extra model call, no embeddings, no latency. Sits AFTER the spine
+     so the cached prefix is never disturbed; identical selections share a prefix too, so
+     the common paths warm up on their own. */
+  let loaded = { skills: [], knowledge: [], reason: 'baked' };
+  if (mind.index) {
+    const pick = selectContext(messages, mind.index, opts);
+    const [skills, knowledge] = await Promise.all([loadParts(pick.skills), loadParts(pick.knowledge)]);
+    const block = renderContext({ skills, knowledge });
+    if (block) sys.push({ role: 'system', content: block });
+    loaded = { skills: skills.map((s) => s.name), knowledge: knowledge.map((k) => k.name), reason: pick.reason };
+  }
   if (opts.surface === 'telegram') {
     sys.push({ role: 'system', content: 'SURFACE: Telegram. Keep replies under ~200 words, plain text + code blocks only (no markdown tables or headers), never @-mention users. Tool data still gets cited by URL.' });
   }
@@ -149,7 +196,8 @@ async function askDasha(messages, opts) {
   /* Headroom matters more than it looks: measured, sonnet-5 at 3000 tokens couldn't finish
      AND never engaged its cache — $0.196/answer. The same model at 6000 cached 42,418
      tokens and cost $0.032. Starving a big model is the expensive mistake. */
-  const base = (route.depth === 'counsel')
+  const base = route.maxTokens ? route.maxTokens
+    : (route.depth === 'counsel')
     ? 6000
     : route.depth
       ? Math.max(opts.maxTokens || 3000, 3000)
@@ -189,7 +237,7 @@ async function askDasha(messages, opts) {
     }
 
     if (msg.content) {
-      return { reply: msg.content, tools: toolsUsed, model: model, depth: route.depth,
+      return { reply: banner(route) + msg.content, tools: toolsUsed, model: model, depth: route.depth,
         usage: { p: pTok, c: cTok, cost: Math.round(cost * 1e6) / 1e6 } };
     }
     /* empty content (thinking ate the budget) — salvage with a bigger ceiling, no tools.
@@ -199,7 +247,7 @@ async function askDasha(messages, opts) {
       const d2 = await call(key, model, convo, Math.min(base * 2 + 1500, 8000), false);
       const m2 = d2 && d2.choices && d2.choices[0] && d2.choices[0].message;
       if (d2 && d2.usage) { cost += d2.usage.cost || 0; pTok += d2.usage.prompt_tokens || 0; cTok += d2.usage.completion_tokens || 0; }
-      if (m2 && m2.content) return { reply: m2.content, tools: toolsUsed, model: model, depth: route.depth,
+      if (m2 && m2.content) return { reply: banner(route) + m2.content, tools: toolsUsed, model: model, depth: route.depth,
         usage: { p: pTok, c: cTok, cost: Math.round(cost * 1e6) / 1e6 } };
     } catch (e) { /* fall through */ }
     if (model !== MODEL) {
@@ -266,7 +314,14 @@ function cleanMessages(raw) {
 /* which mind is live right now (for the health endpoint — proves github streaming) */
 async function mindStatus() {
   const m = await getMind();
-  return { version: m.version, origin: m.origin, chars: m.prompt ? m.prompt.length : 0, baked: BAKED_VERSION };
+  return {
+    version: m.version,
+    origin: m.origin,
+    spineChars: m.spine ? m.spine.length : 0,
+    library: m.index ? { skills: m.index.skills.length, knowledge: m.index.knowledge.length } : null,
+    loading: m.index ? 'spine always + only the skill/reference the question touches' : 'baked monolith (github unreachable)',
+    baked: BAKED_VERSION,
+  };
 }
 
 module.exports = { askDasha, humanSupport, reportFeedback, cleanMessages, mindStatus, pickModel,

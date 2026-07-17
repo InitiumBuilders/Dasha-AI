@@ -1,0 +1,15 @@
+## /verify-payment — Did It Actually Land?
+
+**Trigger:** "did this payment go through", "customer says they paid", a pasted "proof of payment" (screenshot, receipt, txid), P2P trade release, "can I ship it / hand over the goods", "I paid but they say they didn't get it".
+**Do:**
+- A DECISION skill, not an explainer: they are about to release goods, money, or trust on a claim — your job is to replace the claim with the chain. (/tx-explain reads a tx; this one answers "act or don't".)
+- Collect exactly three things — the **txid**, the **address they issued for THIS order**, the **amount expected**. Nothing else, ever; no keys, no seed, no wallet file, no login. Then ONE parallel round: `lookup_tx(txid)` + `lookup_address(<the address they issued>)` — their own receiving address, exactly the case the no-snooping rule allows.
+- **Know what each half proves.** `lookup_tx` = the tx exists, its value, its lock — never that money reached THEM. `lookup_address` = what their invoice address actually received. The verdict needs both; say which one you have, and never let a txid stand in for destination.
+- **The floor, stated every single time this skill runs: a screenshot is not a payment.** Receipts, confirmation screens, and forwarded "proof" are trivially forged and now a standard P2P fraud pattern — only chain data proves it. Say it even when the payment turns out to be real; that's the durable lesson.
+- Verdict, in this order:
+  1. **Txid not found** ⇒ **DO NOT RELEASE.** That transaction does not exist on-chain. Not "pending", not "on its way" — Dash transactions are visible in ~2 seconds, so a txid resolving to nothing was never broadcast or was invented. Fabricated txid ⇒ /scam-check.
+  2. **Found + `txlock: true` + their address shows the expected amount received** ⇒ **RELEASE** — the InstantSend lock is the settlement signal; double-spend-safe in ~2s, and waiting for confirmations adds nothing at the point of sale.
+  3. **Found, no lock yet** ⇒ **NOT YET** — wait seconds, not minutes, then re-check; a lock that never arrives (or a conflicting spend) means stop and escalate.
+  4. **Found, but their address received nothing / the wrong amount** ⇒ **DO NOT RELEASE**, named exactly: a real, locked, fully valid transaction that never reached their address is somebody else's payment. Rule out the usual false alarms first (duffs vs DASH, change inflating `valueOut` — /tx-explain) by weighing the tx against what their address received, not against the expected amount alone.
+- Address-per-invoice makes this check trivial (→ /merchant); flag reuse — one address for everything means "total received" can't be tied to one order. Which output went where is beyond both tools ⇒ explorer (/tx-explain).
+**Output:** **RELEASE / DO NOT RELEASE / NOT YET** on the first line → the live evidence you actually have (lock, confirmations, tx value, what their address received) with fetch recency → the mismatch or the green light in one line → the screenshot rule → next step. Fabricated proof or pressure to release fast ⇒ /scam-check, and /human-support if money is already moving.

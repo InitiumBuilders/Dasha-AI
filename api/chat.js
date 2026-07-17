@@ -30,7 +30,7 @@ module.exports = async (req, res) => {
       models: { everyday: MODEL, engineering: DEEP_MODEL, judgement: COUNSEL_MODEL,
         routing: 'automatic — code/errors/schemas go to the engineering mind; proposals, insight, leverage and systems thinking go to the judgement mind; everything else stays fast' },
       mind: mind, // version + origin: 'github' proves the live stream is feeding this instance
-      tools: ['search_dash_docs', 'dash_governance', 'dash_network_stats', 'lookup_tx', 'lookup_address', 'web_search'],
+      tools: ['search_dash_docs', 'dash_governance', 'dash_network_stats', 'lookup_tx', 'lookup_address', 'web_search', 'load_skill'],
       surfaces: ['web', 'telegram', 'x', 'api'],
       mcp: 'POST /api/chat with header x-dasha-token', source: 'https://github.com/InitiumBuilders/Dasha-AI' });
   }

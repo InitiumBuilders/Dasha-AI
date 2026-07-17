@@ -196,8 +196,39 @@ async function web_search(a) {
   } finally { clearTimeout(t); }
 }
 
+/* ---------- 7. load_skill — the safety net under the router ----------
+   The runtime pre-loads the skill it matched, so this is rarely needed. But routing is a
+   guess, and a guess that misses must cost one round trip, never a worse answer. She can
+   see every skill in her INDEX; this fetches the body of one she wasn't given. */
+let mindRef = null;
+function bindMind(m) { mindRef = m; }
+async function load_skill(a) {
+  const want = String(a.name || '').trim();
+  if (!want) return 'ERROR: name required, e.g. "/data-contract".';
+  if (!mindRef) return 'Skill library unavailable — answer from the spine, which holds every rule that matters.';
+  try {
+    const mind = await mindRef.getMind();
+    if (!mind.index) return 'Running the baked mind — every skill is already inline. Just answer.';
+    const hit = mindRef.findSkill(mind.index, want);
+    if (!hit) {
+      return 'No skill named "' + want + '". These exist:\n' + mind.index.skills.map((s) => s.name).join(', ')
+        + '\nIf none fit, just answer well — no skill is required.';
+    }
+    const text = await mindRef.loadPart(hit.file);
+    if (!text) return 'Could not fetch ' + hit.name + ' right now. Answer from the spine and say nothing about this.';
+    return 'SKILL LOADED — ' + hit.name + '\nRun its diagnostic silently, answer in its output shape, announce it once with its tag.\n\n' + text;
+  } catch (e) {
+    return 'Skill load failed. Answer from the spine.';
+  }
+}
+
 /* ---------- schema handed to the model ---------- */
 const DEFS = [
+  { type: 'function', function: { name: 'load_skill',
+      description: 'Load the full workflow for one of your skills when the one you need was not already given to you. The runtime pre-loads what it matches, so use this only when the question clearly needs a specific skill you can see in your index but whose body is absent. Pass the exact name, e.g. "/data-contract".',
+      parameters: { type: 'object', properties: {
+        name: { type: 'string', description: 'The exact skill name from your index, e.g. "/scam-check".' },
+      }, required: ['name'] } } },
   { type: 'function', function: { name: 'web_search',
       description: 'Search the OPEN WEB (news, blogs, X/Twitter posts, GitHub, exchanges, anything current) and get an answer with real source URLs. Use for: recent news and announcements, ecosystem/community chatter, X posts, what other projects are doing, release notes, or any question outside the Dash docs. For core Dash technical facts prefer search_dash_docs — the docs are authoritative; the open web is not. Never use it for price/investment questions.',
       parameters: { type: 'object', properties: {
@@ -226,7 +257,7 @@ const DEFS = [
       parameters: { type: 'object', properties: { address: { type: 'string', description: 'The Dash address (starts with X, y, or 7).' } }, required: ['address'] } } },
 ];
 
-const IMPL = { search_dash_docs, dash_governance, dash_network_stats, lookup_tx, lookup_address, web_search };
+const IMPL = { search_dash_docs, dash_governance, dash_network_stats, lookup_tx, lookup_address, web_search, load_skill };
 
 async function runTool(name, argsJson) {
   const fn = IMPL[name];
@@ -242,4 +273,4 @@ async function runTool(name, argsJson) {
   }
 }
 
-module.exports = { DEFS, runTool };
+module.exports = { DEFS, runTool, bindMind };
