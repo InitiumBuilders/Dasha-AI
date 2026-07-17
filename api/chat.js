@@ -27,10 +27,15 @@ module.exports = async (req, res) => {
   if (req.method === 'OPTIONS') return res.status(204).end();
 
   if (req.method === 'GET') {
-    /* the pulse — token-gated (the numbers are already anonymous; the gate keeps it the team's) */
+    /* the pulse. ?pulse=public → the anonymous transparency view, no token (it is all we have).
+       ?pulse=1 → the fuller team view, token-gated. Either way, only aggregates exist. */
     if (req.query && req.query.pulse) {
-      if (!isMcp) return res.status(401).json({ error: 'the pulse needs x-dasha-token' });
-      const snap = await metrics.snapshot(parseInt(req.query.days, 10) || 7);
+      const snap = await metrics.snapshot(parseInt(req.query.days, 10) || (req.query.pulse === 'public' ? 30 : 7));
+      if (req.query.pulse === 'public') {
+        res.setHeader('Cache-Control', 'public, max-age=120');
+        return res.status(200).json({ ok: true, pulse: metrics.publicRollup(snap) });
+      }
+      if (!isMcp) return res.status(401).json({ error: 'the full pulse needs x-dasha-token; try ?pulse=public' });
       return res.status(200).json({ ok: true, pulse: metrics.rollup(snap), raw: req.query.raw ? snap : undefined });
     }
     const mind = await mindStatus();
@@ -39,8 +44,9 @@ module.exports = async (req, res) => {
         routing: 'automatic — code/errors/schemas go to the engineering mind; proposals, insight, leverage and systems thinking go to the judgement mind; everything else stays fast' },
       mind: mind, // version + origin: 'github' proves the live stream is feeding this instance
       learning: learn.sinks(), // honest: is the feedback loop actually closed, or dark?
-      analytics: { store: metrics.HAS_KV ? 'fleet-wide (KV)' : 'in-memory per instance — add Upstash/Vercel KV for fleet-wide + persistence',
-        principle: 'aggregate only — no question, answer, address or user is ever stored', pulse: 'GET /api/chat?pulse=1 with x-dasha-token' },
+      analytics: { store: metrics.HAS_SB ? 'Supabase (fleet-wide, queryable)' : (metrics.HAS_KV ? 'KV (fleet-wide)' : 'in-memory per instance — add Supabase (SUPABASE_URL + SUPABASE_SERVICE_KEY) for fleet-wide'),
+        principle: 'aggregate only — no question, answer, address or user is ever stored',
+        publicPulse: 'GET /api/chat?pulse=public (no token)', teamPulse: 'GET /api/chat?pulse=1 with x-dasha-token' },
       tools: ['search_dash_docs', 'dash_governance', 'dash_network_stats', 'lookup_tx', 'lookup_address', 'web_search', 'load_skill'],
       surfaces: ['web', 'telegram', 'x', 'api'],
       mcp: 'POST /api/chat with header x-dasha-token', source: 'https://github.com/InitiumBuilders/Dasha-AI' });
