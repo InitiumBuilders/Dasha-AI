@@ -34,28 +34,57 @@ The account announcing a vote must never quietly be its beneficiary.
 
 ## THE TRIGGER TABLE
 
-| # | Fires when | Priority | Cooldown |
-|---|---|---|---|
-| **Cutoff alarm** | 72h and 24h before the voting cutoff (1,662 blocks before the superblock) | 100 | once each, per cycle |
-| **Superblock paid** | the superblock rolls over — what consensus funded | 90 | per cycle |
-| **Line crossing** | a proposal crosses, or falls below, the net-10% funding line | 80 | per proposal, per direction |
-| **New proposal** | a proposal appears on the ballot that was not there before | 70 | per proposal |
-| **Ballot brief** | daily standing slot — active/passing/allotted + closest to the line + countdown | 60 | 20 hours |
-| **Accountability** | from the public ledger of what the network actually funded | 55 | 6 days |
-| **Needs index** | what builders asked her this week, in aggregate | 50 | 6 days |
-| **Explainer** | a topic spikes in questions — she answers it once, publicly | 40 | 2 days |
-| **Dapp concept** | one Dash dapp she modeled that day, and the block it teaches | 35 | 22 hours |
+Fifteen classes of post. Everything she publishes is one of these. Nothing else fires.
 
-**Nothing else fires a post.** Between triggers, the account is silent — silence is a
-valid and frequently correct output.
+### Governance — the ballot, made legible
+
+| Fires when | Priority | Cooldown |
+|---|---|---|
+| **Cutoff alarm** — 72h and 24h before voting closes (1,662 blocks before the superblock) | 100 | once each, per cycle |
+| **Superblock paid** — what masternode consensus funded | 90 | per cycle |
+| **Line crossing** — a proposal crosses, or falls below, the net-10% funding line | 80 | per proposal, per direction |
+| **New proposal** — a fresh ask appears on the ballot | 70 | per proposal |
+| **Ballot brief** — the daily standing state of the ballot | 60 | 20h |
+| **Forecast** — 3–8 days out: where the ballot lands if nothing moves | 58 | 2d |
+| **Treasury signal** — unallocated budget = room for new proposals | 48 | per cycle |
+
+### Her moat — data and transparency only she has
+
+| Fires when | Priority | Cooldown |
+|---|---|---|
+| **Correction** — a bad-answer report closes; she says she got it wrong and fixed it | 78 | per report |
+| **Mind update** — her open-source mind ships a new version | 65 | per version |
+| **Accountability** — from the public ledger of what the network funded | 55 | 6d |
+| **Needs index** — what builders asked her this week, in aggregate | 50 | 6d |
+| **Network heartbeat** — live chain data: block height, 24h transactions, mempool | 45 | 6d |
+| **Explainer** — a topic spikes in questions; she answers it once, publicly | 40 | 2d |
+| **Dapp concept** — one Dash dapp she modeled that day, and the block it teaches | 35 | 22h |
+| **Translation** — a current crypto/fintech event → one honest Dash design contrast | 30 | 3d |
+
+**Between triggers, the account is silent.** Silence is a valid — often the correct — output.
+
+## HONESTY GUARDS ON THE SENSITIVE CLASSES
+
+Three classes touch the wider world, so they carry extra guards:
+
+- **Translation** never names a specific project as "hacked" or "failed" unless that is
+  established, widely-reported fact. It must state Dash's trade-off in **both directions** —
+  what Dash gives up for what it gains — and it is auto-rejected if it contains sales
+  language ("best", "fastest", "switch to…"). It reacts to *categories* of event, never to
+  rumor. If it cannot make an honest, balanced contrast, it stays silent.
+- **Network heartbeat** publishes only figures that cannot be misread. It deliberately
+  omits any "reachable node" count, because a block-explorer's P2P node figure is not the
+  masternode count and would understate the network. Never price — throughput only.
+- **Treasury signal** frames unallocated budget as opportunity for builders, never as a
+  judgment that the DAO is misspending.
 
 ## THE LIMITS
 
-- **Maximum 5 posts per day.** Most days will be fewer.
+- **Maximum 5 posts per day.** Most days are fewer.
 - **Never the same class twice in a row**, unless it is time-critical.
-- Every post must carry **new information or actionable timing**. Nothing is padding.
-- During a live event (superblock week, a contentious cutoff) cadence tightens —
-  a "no change since X" update beats going dark while people wait on an outcome.
+- Every post carries new information or actionable timing. Nothing is padding.
+- The account posts more classes than it could ever use in a day — so each day it publishes
+  only the *highest-value* few, and the rest wait. More menu, not more noise.
 
 ## MENTIONS
 
