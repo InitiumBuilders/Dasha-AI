@@ -1,0 +1,66 @@
+{
+  "seen": {
+    "Dash-communities-without-censorship": {
+      "passing": false,
+      "net": 162
+    },
+    "dash-growth-marketing-budget": {
+      "passing": false,
+      "net": 27
+    },
+    "vulnerability-disclosure-compensation": {
+      "passing": false,
+      "net": 302
+    },
+    "dash-growth-q3-2026": {
+      "passing": true,
+      "net": 315
+    },
+    "BTCBackportsVijay_03": {
+      "passing": false,
+      "net": 266
+    },
+    "2026-05-MakeDashASafeStoreOfValue": {
+      "passing": false,
+      "net": -274
+    },
+    "dusd-dash-native-stablecoin": {
+      "passing": false,
+      "net": -88
+    },
+    "GEG-PPP-30M-Film-On-Chain": {
+      "passing": false,
+      "net": -251
+    },
+    "dash-masternode-tool-update-12": {
+      "passing": true,
+      "net": 624
+    },
+    "revised-dashgo-m1": {
+      "passing": false,
+      "net": -74
+    },
+    "Dash-Italia-Management-2026": {
+      "passing": true,
+      "net": 428
+    },
+    "mnowatch-hosting-2026": {
+      "passing": true,
+      "net": 663
+    },
+    "dashcentral-operations3": {
+      "passing": true,
+      "net": 524
+    },
+    "encointerUBI-mean26": {
+      "passing": false,
+      "net": -200
+    }
+  },
+  "fired": {
+    "new:Dash-communities-without-censorship": "2026-07-23T16:43:32.344Z"
+  },
+  "superblock": "2525632",
+  "lastPassingCount": 5,
+  "updated": "2026-07-23T16:43:32.344Z"
+}
