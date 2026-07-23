@@ -1,16 +1,23 @@
 {
   "last": {
     "accountability": "2026-07-23T16:49:09.704Z",
-    "acct:2026-07-23": "2026-07-23T16:49:09.704Z"
+    "acct:2026-07-23": "2026-07-23T16:49:09.704Z",
+    "foundry": "2026-07-23T17:10:06.161Z",
+    "foundry:2026-07-23": "2026-07-23T17:10:06.161Z"
   },
   "day": "2026-07-23",
-  "spent": 1,
-  "lastKind": "accountability",
+  "spent": 2,
+  "lastKind": "foundry",
   "log": [
     {
       "at": "2026-07-23T16:49:09.704Z",
       "kind": "accountability",
       "key": "acct:2026-07-23"
+    },
+    {
+      "at": "2026-07-23T17:10:06.161Z",
+      "kind": "foundry",
+      "key": "foundry:2026-07-23"
     }
   ]
 }
