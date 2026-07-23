@@ -1,0 +1,87 @@
+{
+  "minted": "2026-07-23",
+  "by": "Dasha",
+  "model": "openai/gpt-5.1-codex",
+  "mints": [
+    {
+      "n": "TapDash",
+      "t": "Tap to settle tips instantly",
+      "s": "~2s",
+      "l": "lock time",
+      "b": "Send",
+      "say": "Speed teaches trust at tables.",
+      "block": "InstantSend",
+      "note": "Enable POS wallet InstantSend watch for islock."
+    },
+    {
+      "n": "NodeSeal",
+      "t": "Freeze escrow releases with Quorums",
+      "s": "1blk",
+      "l": "finality",
+      "b": "Arbitrate",
+      "say": "Finality ends disputes, not lawyers.",
+      "block": "ChainLocks",
+      "note": "Trigger payouts only after ChainLock proof arrives."
+    },
+    {
+      "n": "AliasBay",
+      "t": "Usernames rent beach gear",
+      "s": "200+",
+      "l": "aliases",
+      "b": "Reserve",
+      "say": "Names turn strangers into neighbors.",
+      "block": "DPNS",
+      "note": "Map DPNS names to rental identity records."
+    },
+    {
+      "n": "Grovesat",
+      "t": "Soil tests logged for coops",
+      "s": "4kB",
+      "l": "doc size",
+      "b": "Log",
+      "say": "Soil memory outlives farmers.",
+      "block": "Data Contracts",
+      "note": "Schema enforces sample coords via Data Contract index."
+    },
+    {
+      "n": "KeyNest",
+      "t": "Family vault roles per person",
+      "s": "5ids",
+      "l": "members",
+      "b": "Invite",
+      "say": "People are permissions, not emails.",
+      "block": "Identities",
+      "note": "Assign vault rights through identity key tiers."
+    },
+    {
+      "n": "GrantSync",
+      "t": "Map DAO payouts monthly",
+      "s": "30d",
+      "l": "cycle",
+      "b": "Forecast",
+      "say": "Funds pulse like tidal moons.",
+      "block": "Superblocks",
+      "note": "Sync ledgers to each Superblock emission checkpoint."
+    },
+    {
+      "n": "BlendPay",
+      "t": "Pool allowances privately",
+      "s": "3mix",
+      "l": "rounds",
+      "b": "Mask",
+      "say": "Shared privacy strengthens families.",
+      "block": "CoinJoin",
+      "note": "Schedule wallet CoinJoin before weekly allowance sends."
+    },
+    {
+      "n": "QueryAura",
+      "t": "Audit carbon pledges provably",
+      "s": "42ms",
+      "l": "query time",
+      "b": "Verify",
+      "say": "Proof beats spreadsheets every day.",
+      "block": "Platform Queries",
+      "note": "Drive range proof via Platform query with index."
+    }
+  ]
+}
