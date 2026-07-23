@@ -1,0 +1,76 @@
+{
+  "cycles": {
+    "2525632": {
+      "seenAt": "2026-07-23T16:49:08.018Z",
+      "funded": [
+        "dash-growth-q3-2026",
+        "dash-masternode-tool-update-12",
+        "Dash-Italia-Management-2026",
+        "mnowatch-hosting-2026",
+        "dashcentral-operations3"
+      ]
+    }
+  },
+  "entries": {
+    "dash-growth-q3-2026": {
+      "name": "dash-growth-q3-2026",
+      "title": "Dash Growth Q3 2026: Growth Marketing and Business Development",
+      "owner": "the_desert_lynx",
+      "ask": 530,
+      "firstSeen": "2026-07-23T16:49:08.018Z",
+      "cyclesFunded": [
+        "2525632"
+      ],
+      "totalPays": 3,
+      "remaining": 1
+    },
+    "dash-masternode-tool-update-12": {
+      "name": "dash-masternode-tool-update-12",
+      "title": "Dash Masternode Tool and Dash Trezor Suite - update 12 – Q2/3.2026",
+      "owner": "Bertrand256",
+      "ask": 45,
+      "firstSeen": "2026-07-23T16:49:08.018Z",
+      "cyclesFunded": [
+        "2525632"
+      ],
+      "totalPays": 6,
+      "remaining": 2
+    },
+    "Dash-Italia-Management-2026": {
+      "name": "Dash-Italia-Management-2026",
+      "title": "Dash Italia Management 2026",
+      "owner": "Dash-Italia",
+      "ask": 60,
+      "firstSeen": "2026-07-23T16:49:08.018Z",
+      "cyclesFunded": [
+        "2525632"
+      ],
+      "totalPays": 12,
+      "remaining": 6
+    },
+    "mnowatch-hosting-2026": {
+      "name": "mnowatch-hosting-2026",
+      "title": "mnowatch-hosting-2026",
+      "owner": "lysergic",
+      "ask": 1,
+      "firstSeen": "2026-07-23T16:49:08.018Z",
+      "cyclesFunded": [
+        "2525632"
+      ],
+      "totalPays": 12,
+      "remaining": 12
+    },
+    "dashcentral-operations3": {
+      "name": "dashcentral-operations3",
+      "title": "DashCentral operations 3",
+      "owner": "rango",
+      "ask": 32,
+      "firstSeen": "2026-07-23T16:49:08.018Z",
+      "cyclesFunded": [
+        "2525632"
+      ],
+      "totalPays": 12,
+      "remaining": 2
+    }
+  }
+}
