@@ -1,0 +1,16 @@
+{
+  "last": {
+    "accountability": "2026-07-23T16:49:09.704Z",
+    "acct:2026-07-23": "2026-07-23T16:49:09.704Z"
+  },
+  "day": "2026-07-23",
+  "spent": 1,
+  "lastKind": "accountability",
+  "log": [
+    {
+      "at": "2026-07-23T16:49:09.704Z",
+      "kind": "accountability",
+      "key": "acct:2026-07-23"
+    }
+  ]
+}
