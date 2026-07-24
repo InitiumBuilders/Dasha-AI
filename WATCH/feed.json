@@ -2,6 +2,32 @@
   "username": "DashSupportTeam",
   "items": [
     {
+      "id": "2080687203143819405",
+      "text": "Dash network, right now:\n\n• block 2,527,361\n• 11,505 transactions in 24h\n• 17 in the mempool\n\nInstantSend settles in about a second, fees under a cent. Throughput, never price.",
+      "at": "2026-07-24T16:11:01.000Z",
+      "reply": false,
+      "count": 1,
+      "m": {
+        "l": 0,
+        "r": 0,
+        "c": 0
+      },
+      "url": "https://x.com/DashSupportTeam/status/2080687203143819405"
+    },
+    {
+      "id": "2080687202145570908",
+      "text": "Dash ballot — 25 days to the vote cutoff\n14 active · 5 passing · 668/6,828 DASH allotted\n\nClosest to the line:\n• Critical vulnerabilities… — 5 short\n• Dash Core – Monthly Maintenance… — 43 short\n\nYour node, your call →",
+      "at": "2026-07-24T16:11:00.000Z",
+      "reply": false,
+      "count": 1,
+      "m": {
+        "l": 0,
+        "r": 0,
+        "c": 0
+      },
+      "url": "https://x.com/DashSupportTeam/status/2080687202145570908"
+    },
+    {
       "id": "2080626932283032021",
       "text": "Most discussed on the Dash ballot right now:\n\nCritical vulnerabilities disclosure and independant…\n43 comments.\n\nThe community is already weighing in. Read the thread and the tally:",
       "at": "2026-07-24T12:11:31.000Z",
@@ -296,7 +322,9 @@
     "2078490108571861172": true,
     "2080391442938183734": true,
     "2080566437337247955": true,
-    "2080626932283032021": true
+    "2080626932283032021": true,
+    "2080687202145570908": true,
+    "2080687203143819405": true
   },
-  "updated": "2026-07-24T16:05:20.509Z"
+  "updated": "2026-07-24T16:20:20.771Z"
 }
