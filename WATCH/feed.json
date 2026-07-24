@@ -2,15 +2,28 @@
   "username": "DashSupportTeam",
   "items": [
     {
+      "id": "2080695904198090816",
+      "text": "@EKohee The Dash Support Team never initiates DMs for giveaways, investments, or \"collaborations.\" Anyone who does is impersonating the team to steal from you.\n\nStop — that's a classic scam opening line. No legitimate Dash support or team member will ever DM you first asking for \"collab\" or promising gains.\n\nStay safe — verify every DM against the public record.\n\nIf you have a genuine question about building on Dash or need support, ask it here publicly — the whole community can see and verify the answers. For private matters, use the official team contact at https://t.co/iscEenleLS, not random DMs.",
+      "at": "2026-07-24T16:45:35.000Z",
+      "reply": true,
+      "count": 4,
+      "m": {
+        "l": 0,
+        "r": 0,
+        "c": 1
+      },
+      "url": "https://x.com/DashSupportTeam/status/2080695904198090816"
+    },
+    {
       "id": "2080687203143819405",
       "text": "Dash network, right now:\n\n• block 2,527,361\n• 11,505 transactions in 24h\n• 17 in the mempool\n\nInstantSend settles in about a second, fees under a cent. Throughput, never price.",
       "at": "2026-07-24T16:11:01.000Z",
       "reply": false,
       "count": 1,
       "m": {
-        "l": 0,
+        "l": 1,
         "r": 0,
-        "c": 0
+        "c": 1
       },
       "url": "https://x.com/DashSupportTeam/status/2080687203143819405"
     },
@@ -21,9 +34,9 @@
       "reply": false,
       "count": 1,
       "m": {
-        "l": 0,
+        "l": 4,
         "r": 0,
-        "c": 0
+        "c": 4
       },
       "url": "https://x.com/DashSupportTeam/status/2080687202145570908"
     },
@@ -47,9 +60,9 @@
       "reply": false,
       "count": 1,
       "m": {
-        "l": 0,
+        "l": 1,
         "r": 0,
-        "c": 0
+        "c": 1
       },
       "url": "https://x.com/DashSupportTeam/status/2080566437337247955"
     },
@@ -324,7 +337,8 @@
     "2080566437337247955": true,
     "2080626932283032021": true,
     "2080687202145570908": true,
-    "2080687203143819405": true
+    "2080687203143819405": true,
+    "2080695904198090816": true
   },
-  "updated": "2026-07-24T16:35:20.541Z"
+  "updated": "2026-07-24T16:50:20.449Z"
 }
