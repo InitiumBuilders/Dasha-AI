@@ -2,7 +2,7 @@
   "seen": {
     "Dash-communities-without-censorship": {
       "passing": false,
-      "net": 161
+      "net": 162
     },
     "dash-growth-marketing-budget": {
       "passing": false,
@@ -30,7 +30,7 @@
     },
     "GEG-PPP-30M-Film-On-Chain": {
       "passing": false,
-      "net": -251
+      "net": -252
     },
     "dash-masternode-tool-update-12": {
       "passing": true,
@@ -54,7 +54,7 @@
     },
     "encointerUBI-mean26": {
       "passing": false,
-      "net": -200
+      "net": -201
     }
   },
   "fired": {
@@ -62,5 +62,5 @@
   },
   "superblock": "2525632",
   "lastPassingCount": 5,
-  "updated": "2026-07-24T16:45:12.702Z"
+  "updated": "2026-07-24T17:15:12.723Z"
 }
