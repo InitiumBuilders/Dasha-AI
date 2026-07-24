@@ -6,7 +6,7 @@
     },
     "dash-growth-marketing-budget": {
       "passing": false,
-      "net": 27
+      "net": 34
     },
     "vulnerability-disclosure-compensation": {
       "passing": false,
@@ -62,5 +62,5 @@
   },
   "superblock": "2525632",
   "lastPassingCount": 5,
-  "updated": "2026-07-24T01:15:34.729Z"
+  "updated": "2026-07-24T01:45:23.885Z"
 }
