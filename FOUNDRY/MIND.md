@@ -4,3 +4,4 @@ One lesson per night, drawn from her own critical review and the community’s v
 
 - 2026-07-23 — Stop pairing primitives with regulatory buzzwords (MiCA, TFR) they can't satisfy — ground claims in what's provably true on-chain.
 - 2026-07-23 — Anchor each design to one concrete failure it prevents (shrink, bot swarms) — vague industry pressure ('banks vet crypto now') teaches nothing.
+- 2026-07-24 — Retail-shrink and AI-agent-guardrail framings keep winning — pair every mint's 'why' with a monitorable failure state, not just a feature.
