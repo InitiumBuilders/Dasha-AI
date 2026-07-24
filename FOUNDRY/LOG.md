@@ -12,3 +12,13 @@ The surviving designs live in [GARDEN.md](./GARDEN.md); the lessons she keeps li
 - **PulseDAO** — Treasury ECG for builders · _Budget heartbeats train disciplined builders._ · teaches **Superblocks** · sim: vote — `Superblock heights drive forecast charts from dash_governance data.` · _why now: Treasury trims spark accountability dashboards._
 - **MixTide** — Payroll privacy without fear · _Privacy lets teams breathe._ · teaches **CoinJoin** · sim: mix — `Coordinate CoinJoin rounds before payroll broadcasts for contractors.` · _why now: Remote teams protest traceable salaries lately._
 - **QueryMap** — Live dashboards from proofs · _Questions deserve verifiable answers._ · teaches **Platform Queries** · sim: ledger — `Platform queries via DAPI proofs render charts nightly.` · _why now: Ops teams ditch opaque analytics vendors now._
+
+## 2026-07-24
+- **BlinkHub** — Contact-speed pay · _Pay friends before doubt blooms._ · teaches **InstantSend** · sim: pay — `Listen for InstantSend locks, unlock UI on quorum proof.` · _why now: P2P wallets racing to beat bots._
+- **LockBoxx** — Receipts won't rewind · _Finality is a customer right._ · teaches **ChainLocks** · sim: pay — `Release goods after ChainLock signature arrives via DAPI.` · _why now: Retailers burned by L2 rollbacks._
+- **NameBloom** — Names not hashes · _Identity blooms when pronounced._ · teaches **DPNS** · sim: name — `Bind chat roster entries to DPNS proofs and expiries.` · _why now: Social wallets dumping 0x handles._
+- **ShrinkNet** — Store loss ledger · _Gaps stay counted forever._ · teaches **Data Contracts** · sim: ledger — `Index shrink docs by aisle,$createdAt to flag repeats.` · _why now: Retail shrink hitting 2% margins._
+- **AgentPin** — Bot guardrails live · _Autonomy needs signatures._ · teaches **Identities** · sim: ledger — `Delegate spending keys with identity credit caps per tier.` · _why now: AI wallets need human kill switches._
+- **MixHush** — Vendor payouts vanish · _Privacy is earned in batches._ · teaches **CoinJoin** · sim: mix — `Force CoinJoin rounds before releasing supplier disbursements.` · _why now: Point-of-sale logs subpoenaed weekly._
+- **NodeGarden** — Quorum uptime craft · _Stewardship is uptime with purpose._ · teaches **Masternodes** · sim: vote — `Stream masternode status via RPC, alert before PoSe hits.` · _why now: Elected proposals fail when hosts nap._
+- **CreditTap** — Fees stay topped · _Credits vanish slower when watched._ · teaches **Credits** · sim: ledger — `Monitor identity balances; auto top-up via credit transfer ST.` · _why now: Builders losing docs to 0-balance errors._
