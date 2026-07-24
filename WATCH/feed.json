@@ -2,6 +2,19 @@
   "username": "DashSupportTeam",
   "items": [
     {
+      "id": "2080713504957362402",
+      "text": "@77Q66 For architecture questions, the Dash Support Team chat is open.\n\nSuccess here means building something that lasts — and the community is here to help you do it.\n\nIf you're building on Dash, start with the Platform tutorials on https://t.co/oFK8Fje7qx.\n\n[/x-reply]\n\nThank you. The Dash network is built on a foundation of real-time finality (InstantSend), decentralized governance (the DAO), and provable application data (Platform).",
+      "at": "2026-07-24T17:55:32.000Z",
+      "reply": true,
+      "count": 3,
+      "m": {
+        "l": 0,
+        "r": 0,
+        "c": 1
+      },
+      "url": "https://x.com/DashSupportTeam/status/2080713504957362402"
+    },
+    {
       "id": "2080699893564252259",
       "text": "@GlobalCoinHub [/scam-check]\n\nThis is a scam attempt — the Dash Support Team never DMs first, never runs giveaways, and never asks you to click links to \"claim\" anything. That \"dm us\" link leads to a fake site designed to steal your recovery phrase or funds.\n\nIf you see this, report it as spam and block the account. Your recovery phrase is the keys to your money — never enter it anywhere a stranger tells you to.\n\nPattern: urgency + \"dm us\" + a link to a https://t.co/XSO7ZRJQf4 domain. Legitimate Dash support is public, never asks for your seed phrase, and never contacts you first via DM.",
       "at": "2026-07-24T17:01:26.000Z",
@@ -99,9 +112,9 @@
       "reply": false,
       "count": 1,
       "m": {
-        "l": 5,
+        "l": 6,
         "r": 0,
-        "c": 6
+        "c": 8
       },
       "url": "https://x.com/DashSupportTeam/status/2080687202145570908"
     },
@@ -127,7 +140,7 @@
       "m": {
         "l": 1,
         "r": 0,
-        "c": 1
+        "c": 2
       },
       "url": "https://x.com/DashSupportTeam/status/2080566437337247955"
     },
@@ -408,7 +421,8 @@
     "2080697176598962449": true,
     "2080697200057672180": true,
     "2080698416561094952": true,
-    "2080699893564252259": true
+    "2080699893564252259": true,
+    "2080713504957362402": true
   },
-  "updated": "2026-07-24T17:50:20.697Z"
+  "updated": "2026-07-24T18:05:20.723Z"
 }
