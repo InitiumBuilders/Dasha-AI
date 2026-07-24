@@ -1169,6 +1169,29 @@
         "onboard",
         "testnet"
       ]
+    },
+    {
+      "name": "/imagine-this-dash",
+      "title": "ImagineThisDash: the DAO's open brainstorm (alias /ImagineThis)",
+      "file": "skills/imagine-this-dash.md",
+      "chars": 4065,
+      "phrases": [
+        "/imaginethisdash",
+        "imaginethisdash",
+        "imagine this dash",
+        "/imaginethis",
+        "imaginethis",
+        "imagine this",
+        "i have an idea for the",
+        "idea for the support team",
+        "idea for the dream team",
+        "idea for the build team",
+        "idea for the design team",
+        "idea for the growth team",
+        "brainstorm with you",
+        "my vision for dash"
+      ],
+      "words": []
     }
   ],
   "knowledge": [

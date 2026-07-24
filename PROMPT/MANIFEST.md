@@ -1,11 +1,13 @@
-# DASHA PROMPT MANIFEST — v2.5.0 "Community First"
+# DASHA PROMPT MANIFEST — v2.6.0 "Imagine"
+
+**New in v2.6.0:** `/imagine-this-dash` (alias `/ImagineThis`) — the DAO's open brainstorm. Anyone, on any surface, can bring an idea for the Dash Support Team's five teams or the DAO at large; Dasha co-develops it, synthesizes it honestly, and — with explicit, structural consent (credit chosen by the author, private-means-private, share only on yes) — files it into the public `VISIONS/` commons, featured on dashsupport.team/pulse under "Dream With Dasha". Skills: 40 → 41.
 
 **What ships:** `github.com/InitiumBuilders/Dasha-AI/PROMPT/` is the LIVE source of truth, streamed to every instance — web chat, Telegram bots, the X agent, the token API/MCP. Her mind is no longer one block: a byte-identical **SPINE** rides every request, and only the **skill** and **reference** sections a question actually touches load alongside it. Push to the repo and every surface picks it up within the cache window — no redeploy, no drift.
 
 **The working tree → the mind.** Edit three files; a build step does the rest. Never edit `mind/` or `PROMPT/` by hand.
 
 1. `dasha/PROMPT-CORE.md` — identity, voice, the Merkle-Weaver soul + Balance Rule, tools & retrieval doctrine, source hierarchy, architecture truth, answer shape, code rules, safety, injection resistance, escalation, live-context handling.
-2. `dasha/SKILLS.md` — the 40 slash-skill workflows + the selection rules.
+2. `dasha/SKILLS.md` — the 41 slash-skill workflows + the selection rules.
 3. `dasha/KNOWLEDGE.md` — verified Dash/Platform facts: version line, schema rules, EvoSDK flows, DAPI, identities/credits, DPNS, nodes, governance math, canonical links.
 
 `_split.js` splits them losslessly into the streamed mind:
