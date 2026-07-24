@@ -1,4 +1,6 @@
-# DASHA PROMPT MANIFEST — v2.6.0 "Imagine"
+# DASHA PROMPT MANIFEST — v2.6.1 "Imagine, Guided"
+
+**New in v2.6.1:** THE NEXT MOVES — every reply ends with an invisible `[[NEXT]]` block carrying 2–3 concrete, high-leverage next moves for the user (the sharper question, the unlocking skill, the decision due now). The runtime strips it on every surface; the web chat renders the moves as tappable choices. One step downstream, always.
 
 **New in v2.6.0:** `/imagine-this-dash` (alias `/ImagineThis`) — the DAO's open brainstorm. Anyone, on any surface, can bring an idea for the Dash Support Team's five teams or the DAO at large; Dasha co-develops it, synthesizes it honestly, and — with explicit, structural consent (credit chosen by the author, private-means-private, share only on yes) — files it into the public `VISIONS/` commons, featured on dashsupport.team/pulse under "Dream With Dasha". Skills: 40 → 41.
 
