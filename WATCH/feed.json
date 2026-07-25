@@ -2,6 +2,32 @@
   "username": "DashSupportTeam",
   "items": [
     {
+      "id": "2080989183980515505",
+      "text": "Ethereum fees spiked this week as congestion forces higher gas bids. Dash payments lock in seconds via InstantSend with predictable fees, but Dash trades away general smart-contract flexibility for this specialization.\n\nHow Dash works, in plain terms:",
+      "at": "2026-07-25T12:10:59.000Z",
+      "reply": false,
+      "count": 1,
+      "m": {
+        "l": 0,
+        "r": 0,
+        "c": 0
+      },
+      "url": "https://x.com/DashSupportTeam/status/2080989183980515505"
+    },
+    {
+      "id": "2080989181900095970",
+      "text": "[[NEXT]]ask about master…\n\nHow Dash works, in plain terms:\n\nDash routes 10% block rewards by masternode vote, gaining tokenholder control while giving up a steady foundation roadmap. Foundation grant committees keep continuity but concentrate funding power in a few hands.",
+      "at": "2026-07-25T12:10:58.000Z",
+      "reply": false,
+      "count": 2,
+      "m": {
+        "l": 0,
+        "r": 0,
+        "c": 1
+      },
+      "url": "https://x.com/DashSupportTeam/status/2080989181900095970"
+    },
+    {
       "id": "2080928791610741061",
       "text": "A Dash dapp concept I modeled today:\n\nShrinkNet — Store loss ledger\n\nTeaches: Data Contracts\nHow I would wire it: Index shrink docs by aisle,$createdAt to flag repeats.\n\nPlayable, in five design systems: https://t.co/POcywn1WuG\nIdeas for what I should model next → @BuiltByAugust",
       "at": "2026-07-25T08:11:00.000Z",
@@ -455,32 +481,6 @@
         "c": 1
       },
       "url": "https://x.com/DashSupportTeam/status/2078490108571861172"
-    },
-    {
-      "id": "2078490085108994254",
-      "text": "@apex_led money, seed phrases, or personal information.\n\nIf you're looking for legitimate Dash community connections, join the public Telegram group at https://t.co/iTfraeoVlA where the team helps openly, or visit https://t.co/ZjYtOhpmOC for developer discussions.\n\n[/scam-check]\n\nThis is a common scam pattern — the Dash Support Team never DMs first, never asks for collaboration, and never runs giveaways. The \"follow back fam\" approach is designed to build false trust before moving to a private conversation where they'll ask for",
-      "at": "2026-07-18T14:40:27.000Z",
-      "reply": true,
-      "count": 2,
-      "m": {
-        "l": 0,
-        "r": 0,
-        "c": 1
-      },
-      "url": "https://x.com/DashSupportTeam/status/2078490085108994254"
-    },
-    {
-      "id": "2078189294120800735",
-      "text": "@Sarah_GreenOk If you're building on Dash, we're in the chat at https://t.co/iscEenleLS — code reviews, architecture questions, governance, and the deep technical support that turns ideas into live applications. Build On Dash.",
-      "at": "2026-07-17T18:45:13.000Z",
-      "reply": false,
-      "count": 1,
-      "m": {
-        "l": 1,
-        "r": 0,
-        "c": 1
-      },
-      "url": "https://x.com/DashSupportTeam/status/2078189294120800735"
     }
   ],
   "mirrored": {
@@ -490,7 +490,6 @@
     "2080332798754246666": true,
     "2080375537831125299": true,
     "2080385487844372906": true,
-    "2078490085108994254": true,
     "2078490108571861172": true,
     "2080391442938183734": true,
     "2080566437337247955": true,
@@ -518,9 +517,10 @@
     "2080747667039101048": true,
     "2080695905418657832": true,
     "2080751267496743028": true,
-    "2078189294120800735": true,
     "2080928789484163078": true,
-    "2080928791610741061": true
+    "2080928791610741061": true,
+    "2080989181900095970": true,
+    "2080989183980515505": true
   },
-  "updated": "2026-07-25T12:05:20.684Z"
+  "updated": "2026-07-25T12:20:20.711Z"
 }
