@@ -262,17 +262,17 @@
       "url": "https://x.com/DashSupportTeam/status/2080697150791397817"
     },
     {
-      "id": "2080695904198090816",
-      "text": "@EKohee The Dash Support Team never initiates DMs for giveaways, investments, or \"collaborations.\" Anyone who does is impersonating the team to steal from you.\n\nStop — that's a classic scam opening line. No legitimate Dash support or team member will ever DM you first asking for \"collab\" or promising gains.\n\nStay safe — verify every DM against the public record.\n\nIf you have a genuine question about building on Dash or need support, ask it here publicly — the whole community can see and verify the answers. For private matters, use the official team contact at https://t.co/iscEenleLS, not random DMs.",
+      "id": "2080695905418657832",
+      "text": "@EKohee The Dash Support Team never initiates DMs for giveaways, investments, or \"collaborations.\" Anyone who does is impersonating the team to steal from you.\n\nStay safe — verify every DM against the public record.\n\nIf you have a genuine question about building on Dash or need support, ask it here publicly — the whole community can see and verify the answers. For private matters, use the official team contact at https://t.co/iscEenleLS, not random DMs.",
       "at": "2026-07-24T16:45:35.000Z",
-      "reply": true,
-      "count": 4,
+      "reply": false,
+      "count": 3,
       "m": {
         "l": 0,
         "r": 0,
         "c": 1
       },
-      "url": "https://x.com/DashSupportTeam/status/2080695904198090816"
+      "url": "https://x.com/DashSupportTeam/status/2080695905418657832"
     },
     {
       "id": "2080687203143819405",
@@ -444,17 +444,17 @@
       "url": "https://x.com/DashSupportTeam/status/2078490085108994254"
     },
     {
-      "id": "2078189294120800735",
-      "text": "@Sarah_GreenOk If you're building on Dash, we're in the chat at https://t.co/iscEenleLS — code reviews, architecture questions, governance, and the deep technical support that turns ideas into live applications. Build On Dash.",
-      "at": "2026-07-17T18:45:13.000Z",
-      "reply": false,
-      "count": 1,
+      "id": "2078189292732510223",
+      "text": "@Sarah_GreenOk Thank you — we're here to build with confidence.\n\nThe Dash Support Team is a community-led collective of builders and operators who keep the network humming and help everyone from first-time holders to Platform developers ship with clarity.\n\nIf you're building on Dash, we're in the chat at https://t.co/iscEenleLS — code reviews, architecture questions, governance, and the deep technical support that turns ideas into live applications. Build On Dash.",
+      "at": "2026-07-17T18:45:12.000Z",
+      "reply": true,
+      "count": 2,
       "m": {
         "l": 1,
         "r": 0,
-        "c": 1
+        "c": 2
       },
-      "url": "https://x.com/DashSupportTeam/status/2078189294120800735"
+      "url": "https://x.com/DashSupportTeam/status/2078189292732510223"
     }
   ],
   "mirrored": {
@@ -471,7 +471,6 @@
     "2080626932283032021": true,
     "2080687202145570908": true,
     "2080687203143819405": true,
-    "2080695904198090816": true,
     "2080697150791397817": true,
     "2080697176598962449": true,
     "2080697200057672180": true,
@@ -491,8 +490,9 @@
     "2080721077764837805": true,
     "2080723573715390528": true,
     "2080747667039101048": true,
-    "2078189294120800735": true,
-    "2080751265034678445": true
+    "2080751265034678445": true,
+    "2078189292732510223": true,
+    "2080695905418657832": true
   },
-  "updated": "2026-07-25T04:50:20.475Z"
+  "updated": "2026-07-25T05:05:20.500Z"
 }
