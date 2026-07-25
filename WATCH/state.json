@@ -24,10 +24,6 @@
       "passing": false,
       "net": -274
     },
-    "dusd-dash-native-stablecoin": {
-      "passing": false,
-      "net": -88
-    },
     "GEG-PPP-30M-Film-On-Chain": {
       "passing": false,
       "net": -252
@@ -62,5 +58,5 @@
   },
   "superblock": "2525632",
   "lastPassingCount": 5,
-  "updated": "2026-07-25T07:15:12.666Z"
+  "updated": "2026-07-25T07:45:12.736Z"
 }
