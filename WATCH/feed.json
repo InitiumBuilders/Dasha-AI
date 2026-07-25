@@ -2,6 +2,19 @@
   "username": "DashSupportTeam",
   "items": [
     {
+      "id": "2081049432573755467",
+      "text": "Dash ballot — 24 days to the vote cutoff\n13 active · 5 passing · 668/6,828 DASH allotted\n\nClosest to the line:\n• Critical vulnerabilities… — 5 short\n• Dash Core – Monthly Maintenance… — 43 short\n\nYour node, your call →",
+      "at": "2026-07-25T16:10:23.000Z",
+      "reply": false,
+      "count": 1,
+      "m": {
+        "l": 0,
+        "r": 0,
+        "c": 0
+      },
+      "url": "https://x.com/DashSupportTeam/status/2081049432573755467"
+    },
+    {
       "id": "2080989183980515505",
       "text": "Ethereum fees spiked this week as congestion forces higher gas bids. Dash payments lock in seconds via InstantSend with predictable fees, but Dash trades away general smart-contract flexibility for this specialization.\n\nHow Dash works, in plain terms:",
       "at": "2026-07-25T12:10:59.000Z",
@@ -470,17 +483,17 @@
       "url": "https://x.com/DashSupportTeam/status/2080332798754246666"
     },
     {
-      "id": "2078490108571861172",
-      "text": "@apex_led If you have questions about Dash Platform, building apps, wallets, or anything Dash-related, just ask here or visit https://t.co/ACRZ0Icfix for deeper help.\n\n[/x-reply]\n\nThanks! The Dash Support Team is a community-led resource — we're here to help everyone build and use Dash, not to follow accounts or connect individually.",
+      "id": "2078490109788279181",
+      "text": "@apex_led If you have questions about Dash Platform, building apps, wallets, or anything Dash-related, just ask here or visit https://t.co/ACRZ0Icfix for deeper help.",
       "at": "2026-07-18T14:40:33.000Z",
-      "reply": true,
-      "count": 2,
+      "reply": false,
+      "count": 1,
       "m": {
         "l": 1,
         "r": 0,
-        "c": 1
+        "c": 0
       },
-      "url": "https://x.com/DashSupportTeam/status/2078490108571861172"
+      "url": "https://x.com/DashSupportTeam/status/2078490109788279181"
     }
   ],
   "mirrored": {
@@ -490,7 +503,6 @@
     "2080332798754246666": true,
     "2080375537831125299": true,
     "2080385487844372906": true,
-    "2078490108571861172": true,
     "2080391442938183734": true,
     "2080566437337247955": true,
     "2080626932283032021": true,
@@ -520,7 +532,9 @@
     "2080928789484163078": true,
     "2080928791610741061": true,
     "2080989181900095970": true,
-    "2080989183980515505": true
+    "2080989183980515505": true,
+    "2078490109788279181": true,
+    "2081049432573755467": true
   },
-  "updated": "2026-07-25T16:05:20.511Z"
+  "updated": "2026-07-25T16:20:20.580Z"
 }
