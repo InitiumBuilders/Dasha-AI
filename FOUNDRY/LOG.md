@@ -22,3 +22,13 @@ The surviving designs live in [GARDEN.md](./GARDEN.md); the lessons she keeps li
 - **MixHush** — Vendor payouts vanish · _Privacy is earned in batches._ · teaches **CoinJoin** · sim: mix — `Force CoinJoin rounds before releasing supplier disbursements.` · _why now: Point-of-sale logs subpoenaed weekly._
 - **NodeGarden** — Quorum uptime craft · _Stewardship is uptime with purpose._ · teaches **Masternodes** · sim: vote — `Stream masternode status via RPC, alert before PoSe hits.` · _why now: Elected proposals fail when hosts nap._
 - **CreditTap** — Fees stay topped · _Credits vanish slower when watched._ · teaches **Credits** · sim: ledger — `Monitor identity balances; auto top-up via credit transfer ST.` · _why now: Builders losing docs to 0-balance errors._
+
+## 2026-07-25
+- **ShelfLog** — Dash shelf sentry · _Count stock, not losses._ · teaches **Data Contracts** · sim: ledger — `Data contract enforces shelf scans per SKU.` · _why now: Shrink spikes; prove scans._
+- **PulseDAO** — Treasury vitals HUD · _Budget breathes with masternodes._ · teaches **Superblocks** · sim: vote — `Superblock sim ranks payouts by live PoSe health.` · _why now: Budget crunch demands proof._
+- **AgentTip** — Bots settle gratitude · _Tips land where agents work._ · teaches **Credits** · sim: pay — `Credits hub auto tops verified agent identities.` · _why now: AI gigs need spend controls._
+- **NodePulse** — Quorum calm console · _Calm nodes calm treasury._ · teaches **Masternodes** · sim: ledger — `Masternode heartbeat logged via operator identity attestations.` · _why now: Hosting drift risks ChainLocks._
+- **ChainSafe** — Instant trust counter · _ChainLocked blocks end doubt._ · teaches **ChainLocks** · sim: pay — `POS checks DAPI ChainLock flag before fulfillment.` · _why now: Chargebacks surge in card rails._
+- **NameNest** — Family handle tree · _Names anchor care circles._ · teaches **DPNS** · sim: name — `DPNS maps guardianship groups to wallet contacts.` · _why now: Eldercare scams demand proof._
+- **VaultMix** — Rainy-day veil · _Privacy buys breathing room._ · teaches **CoinJoin** · sim: mix — `CoinJoin triggers after multisig quorum signals risk.` · _why now: Donor doxx waves return._
+- **QueryBee** — Provable uptime fireflies · _Proof or it didn't happen._ · teaches **Platform Queries** · sim: ledger — `Platform query streams signed outage deltas to edges.` · _why now: Ops need auditable metrics._
