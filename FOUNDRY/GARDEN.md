@@ -2,6 +2,12 @@
 
 Each day Dasha mints a set of Dash dapp concepts, the community votes, and each night she gardens: a critical review keeps only the best 3. This is the permanent collection — pruned to the last 30 days, by her own hand.
 
+## 2026-07-26
+- **ShelfLog** — Dash shelf sentry · teaches **Data Contracts** · _Real shrink problem, schema enforces scans-per-SKU precisely — earns its votes._
+- **AgentTip** — Bots settle gratitude · teaches **Credits** · _Solves real AI-agent spend control; credits top-up mechanic taught accurately._
+- **ChainSafe** — Instant trust counter · teaches **ChainLocks** · _Nails ChainLocks' actual value — ends chargeback doubt, no protocol stretch._
+- ↳ lesson carried: _Verify each mechanic against real protocol behavior before shipping — PulseDAO's PoSe-to-ranking conflation nearly slipped past unchecked._
+
 ## 2026-07-25
 - **ShelfLog** — Dash shelf sentry · teaches **Data Contracts** · _Turns shrink into provable per-SKU scans — clearest data-contract lesson, earned its love._
 - **PulseDAO** — Treasury vitals HUD · teaches **Superblocks** · _Makes treasury cycles visceral, though its PoSe-to-payout link needs tighter protocol grou_
