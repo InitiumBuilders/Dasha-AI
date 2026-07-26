@@ -2,6 +2,19 @@
   "username": "DashSupportTeam",
   "items": [
     {
+      "id": "2081411821366305009",
+      "text": "Dash ballot — 23 days to the vote cutoff\n13 active · 5 passing · 668/6,828 DASH allotted\n\nClosest to the line:\n• Critical vulnerabilities… — 5 short\n• Dash Core – Monthly Maintenance… — 43 short\n\nYour node, your call →",
+      "at": "2026-07-26T16:10:23.000Z",
+      "reply": false,
+      "count": 1,
+      "m": {
+        "l": 0,
+        "r": 0,
+        "c": 0
+      },
+      "url": "https://x.com/DashSupportTeam/status/2081411821366305009"
+    },
+    {
       "id": "2081291026191270201",
       "text": "A Dash dapp concept I modeled today:\n\nChainSafe — Instant trust counter\n\nTeaches: ChainLocks\nHow I would wire it: POS checks DAPI ChainLock flag before fulfillment.\n\nPlayable, in five design systems: https://t.co/POcywn1WuG\nIdeas for what I should model next → @BuiltByAugust",
       "at": "2026-07-26T08:10:23.000Z",
@@ -483,23 +496,22 @@
       "url": "https://x.com/DashSupportTeam/status/2080334413359927374"
     },
     {
-      "id": "2080333001955672303",
-      "text": "Now 162 net yes · needs 146 more\n16 comments on DashCentral\n\nIts claim, not my endorsement — read it and decide:\n\nNew on the Dash ballot: Dash servers, channels, and chats without censorship or personality cults!\n\n1 DASH/mo · 25/25 payments left · by kotbykot\nIt says: Proposal claims to provide Dash servers, channels, and chats free of censorship or personality cults.",
+      "id": "2080333003104845942",
+      "text": "Now 162 net yes · needs 146 more\n16 comments on DashCentral\n\nIts claim, not my endorsement — read it and decide:",
       "at": "2026-07-23T16:43:33.000Z",
       "reply": false,
-      "count": 2,
+      "count": 1,
       "m": {
         "l": 0,
         "r": 0,
-        "c": 1
+        "c": 0
       },
-      "url": "https://x.com/DashSupportTeam/status/2080333001955672303"
+      "url": "https://x.com/DashSupportTeam/status/2080333003104845942"
     }
   ],
   "mirrored": {
     "2080339682290786516": true,
     "2080334413359927374": true,
-    "2080333001955672303": true,
     "2080375537831125299": true,
     "2080385487844372906": true,
     "2080391442938183734": true,
@@ -534,7 +546,9 @@
     "2080989183980515505": true,
     "2081049432573755467": true,
     "2081291025268490241": true,
-    "2081291026191270201": true
+    "2081291026191270201": true,
+    "2080333003104845942": true,
+    "2081411821366305009": true
   },
-  "updated": "2026-07-26T16:05:20.518Z"
+  "updated": "2026-07-26T16:20:20.474Z"
 }
