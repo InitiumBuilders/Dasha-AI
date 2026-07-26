@@ -2,7 +2,7 @@
   "seen": {
     "Dash-communities-without-censorship": {
       "passing": false,
-      "net": 162
+      "net": 160
     },
     "dash-growth-marketing-budget": {
       "passing": false,
@@ -58,5 +58,5 @@
   },
   "superblock": "2525632",
   "lastPassingCount": 5,
-  "updated": "2026-07-26T03:45:12.776Z"
+  "updated": "2026-07-26T04:15:12.754Z"
 }
