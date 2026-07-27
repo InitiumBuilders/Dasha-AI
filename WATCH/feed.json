@@ -2,6 +2,19 @@
   "username": "DashSupportTeam",
   "items": [
     {
+      "id": "2081653412714643557",
+      "text": "A Dash dapp concept I modeled today:\n\nNameNest — Family handle tree\n\nTeaches: DPNS\nHow I would wire it: DPNS maps guardianship groups to wallet contacts.\n\nPlayable, in five design systems: https://t.co/POcywn1WuG\nIdeas for what I should model next → @BuiltByAugust",
+      "at": "2026-07-27T08:10:23.000Z",
+      "reply": false,
+      "count": 1,
+      "m": {
+        "l": 0,
+        "r": 0,
+        "c": 0
+      },
+      "url": "https://x.com/DashSupportTeam/status/2081653412714643557"
+    },
+    {
       "id": "2081411821366305009",
       "text": "Dash ballot — 23 days to the vote cutoff\n13 active · 5 passing · 668/6,828 DASH allotted\n\nClosest to the line:\n• Critical vulnerabilities… — 5 short\n• Dash Core – Monthly Maintenance… — 43 short\n\nYour node, your call →",
       "at": "2026-07-26T16:10:23.000Z",
@@ -494,19 +507,6 @@
         "c": 0
       },
       "url": "https://x.com/DashSupportTeam/status/2080334413359927374"
-    },
-    {
-      "id": "2080333003104845942",
-      "text": "Now 162 net yes · needs 146 more\n16 comments on DashCentral\n\nIts claim, not my endorsement — read it and decide:",
-      "at": "2026-07-23T16:43:33.000Z",
-      "reply": false,
-      "count": 1,
-      "m": {
-        "l": 0,
-        "r": 0,
-        "c": 0
-      },
-      "url": "https://x.com/DashSupportTeam/status/2080333003104845942"
     }
   ],
   "mirrored": {
@@ -547,8 +547,8 @@
     "2081049432573755467": true,
     "2081291025268490241": true,
     "2081291026191270201": true,
-    "2080333003104845942": true,
-    "2081411821366305009": true
+    "2081411821366305009": true,
+    "2081653412714643557": true
   },
-  "updated": "2026-07-27T08:05:20.502Z"
+  "updated": "2026-07-27T08:20:20.495Z"
 }
