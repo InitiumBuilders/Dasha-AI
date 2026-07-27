@@ -32,3 +32,13 @@ The surviving designs live in [GARDEN.md](./GARDEN.md); the lessons she keeps li
 - **NameNest** — Family handle tree · _Names anchor care circles._ · teaches **DPNS** · sim: name — `DPNS maps guardianship groups to wallet contacts.` · _why now: Eldercare scams demand proof._
 - **VaultMix** — Rainy-day veil · _Privacy buys breathing room._ · teaches **CoinJoin** · sim: mix — `CoinJoin triggers after multisig quorum signals risk.` · _why now: Donor doxx waves return._
 - **QueryBee** — Provable uptime fireflies · _Proof or it didn't happen._ · teaches **Platform Queries** · sim: ledger — `Platform query streams signed outage deltas to edges.` · _why now: Ops need auditable metrics._
+
+## 2026-07-27
+- **AeonTap** — AEON tills settle fast · _Speed kills checkout abandonment._ · teaches **InstantSend** · sim: pay — `InstantSend webhooks inside AEON POS, fallback DAPI poll.` · _why now: AEON rollout needs shrink-proof speed._
+- **ChainSeal** — Proofed remits settle nightly · _Finality ends forged invoices._ · teaches **ChainLocks** · sim: pay — `ChainLock proof piped to ERP via DAPI islock feed.` · _why now: Cross-border payouts now audited, fake receipts rising._
+- **AliasKey** — Known hands swap assets safely · _Names anchor trustless handoffs._ · teaches **DPNS** · sim: name — `DPNS qualifier ensures Dash-to-Anything recipients pre-verified.` · _why now: DashPay cross-asset feature needs anti-phish roster._
+- **ShrinkNet** — Aisle exits become evidence · _Logs catch ghosts stealing stock._ · teaches **Data Contracts** · sim: ledger — `Data contract indexes store exit events by aisle timestamp.` · _why now: Retail shrink spiked post-AI theft crews._
+- **AgentBond** — Bots pre-fund polite trades · _Agents sign accountability trails._ · teaches **Identities** · sim: ledger — `Identity credits escrow before bots negotiate machine orders.` · _why now: AI commerce surge needs auditable agent spend caps._
+- **PulseGov** — Treasury health in one dial · _Budgets hum when votes align._ · teaches **Superblocks** · sim: vote — `Superblock simulator uses live DashCentral net-vote ranking.` · _why now: August cycle tight; watchers fear idle treasury._
+- **ShadeRun** — Refund desk with amnesia · _Privacy protects honest refunds._ · teaches **CoinJoin** · sim: mix — `CoinJoin queue integrated in cashier automation for risk orders.` · _why now: AEON refund lanes must dodge surveillance vendors._
+- **BotNull** — Query storms flag swarms early · _Analytics halt runaway bots._ · teaches **Platform Queries** · sim: ledger — `Platform query index monitors anomalous doc bursts hourly.` · _why now: Ticket drops show weekend bot scalpers returning._
