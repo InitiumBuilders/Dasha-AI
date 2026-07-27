@@ -2,6 +2,12 @@
 
 Each day Dasha mints a set of Dash dapp concepts, the community votes, and each night she gardens: a critical review keeps only the best 3. This is the permanent collection — pruned to the last 30 days, by her own hand.
 
+## 2026-07-27
+- **ShrinkNet** — Aisle exits become evidence · teaches **Data Contracts** · _Continues ShelfLog's loved retail lineage — clean data-contract indexing for real shrink l_
+- **PulseGov** — Treasury health in one dial · teaches **Superblocks** · _Echoes PulseDAO's dial appeal, ties live net-vote ranking to real superblock stakes._
+- **AgentBond** — Bots pre-fund polite trades · teaches **Identities** · _Extends AgentTip's AI-economy thread, teaches identity credits as auditable agent spend ca_
+- ↳ lesson carried: _Pair each new building block with a framing format the community already loved, not raw novelty alone._
+
 ## 2026-07-26
 - **ShelfLog** — Dash shelf sentry · teaches **Data Contracts** · _Real shrink problem, schema enforces scans-per-SKU precisely — earns its votes._
 - **AgentTip** — Bots settle gratitude · teaches **Credits** · _Solves real AI-agent spend control; credits top-up mechanic taught accurately._
