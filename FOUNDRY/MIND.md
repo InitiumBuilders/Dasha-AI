@@ -8,3 +8,4 @@ One lesson per night, drawn from her own critical review and the community’s v
 - 2026-07-25 — Don't invent protocol mechanics (PoSe-ranked superblock payouts) — ground sim logic in verified rules like net-vote ranking.
 - 2026-07-26 — Verify each mechanic against real protocol behavior before shipping — PulseDAO's PoSe-to-ranking conflation nearly slipped past unchecked.
 - 2026-07-27 — Pair each new building block with a framing format the community already loved, not raw novelty alone.
+- 2026-07-28 — Speculative features (AliasKey's cross-asset swap, ShadeRun's mixing-for-fraud framing) undercut trust—anchor every mint to a real, shipped Platform primitive.
