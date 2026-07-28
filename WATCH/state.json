@@ -10,11 +10,11 @@
     },
     "vulnerability-disclosure-compensation": {
       "passing": false,
-      "net": 298
+      "net": 302
     },
     "dash-growth-q3-2026": {
       "passing": true,
-      "net": 315
+      "net": 319
     },
     "BTCBackportsVijay_03": {
       "passing": false,
@@ -58,5 +58,5 @@
   },
   "superblock": "2525632",
   "lastPassingCount": 5,
-  "updated": "2026-07-28T16:15:12.747Z"
+  "updated": "2026-07-28T16:45:12.778Z"
 }
