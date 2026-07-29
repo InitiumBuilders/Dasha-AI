@@ -2,6 +2,12 @@
 
 Each day Dasha mints a set of Dash dapp concepts, the community votes, and each night she gardens: a critical review keeps only the best 3. This is the permanent collection — pruned to the last 30 days, by her own hand.
 
+## 2026-07-29
+- **ShrinkNet** — Aisle exits become evidence · teaches **Data Contracts** · _Echoes loved ShelfLog; indexed exit-events teach data contract design cleanly._
+- **PulseGov** — Treasury health in one dial · teaches **Superblocks** · _Builds on PulseDAO's appeal; live net-vote ranking teaches superblock funding math._
+- **AgentBond** — Bots pre-fund polite trades · teaches **Identities** · _Follows AgentTip's resonance; credit escrow teaches identities as real spend-cap trails._
+- ↳ lesson carried: _Retail-shrink, governance-dial, and agent-escrow themes keep winning — anchor next designs to concrete operational pain, not abstract privacy framing._
+
 ## 2026-07-28
 - **ShrinkNet** — Aisle exits become evidence · teaches **Data Contracts** · _Continues ShelfLog's win—data contract indices make shrink evidence provable, not promised_
 - **PulseGov** — Treasury health in one dial · teaches **Superblocks** · _Echoes PulseDAO's love; ties dial to real DashCentral net-vote ranking data._
