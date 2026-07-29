@@ -2,6 +2,19 @@
   "username": "DashSupportTeam",
   "items": [
     {
+      "id": "2082537949736898683",
+      "text": "New on the Dash ballot: OrchardPay\n\n1 DASH/mo · 24/24 payments left · by OrchardPayTL\n\nNow 0 net yes · needs 306 more\n\nIts claim, not my endorsement — read it and decide:",
+      "at": "2026-07-29T18:45:13.000Z",
+      "reply": false,
+      "count": 1,
+      "m": {
+        "l": 0,
+        "r": 0,
+        "c": 0
+      },
+      "url": "https://x.com/DashSupportTeam/status/2082537949736898683"
+    },
+    {
       "id": "2082499090412130376",
       "text": "Dash keeps sub-cent fees locked in via fixed policy, sacrificing demand-side bidding signals and relying on protocol limits; most chains let fees auction with congestion, giving miners price cues but making user costs swing wildly.\n\nHow Dash works, in plain terms:",
       "at": "2026-07-29T16:10:48.000Z",
@@ -520,23 +533,9 @@
         "c": 5
       },
       "url": "https://x.com/DashSupportTeam/status/2080687203143819405"
-    },
-    {
-      "id": "2080687202145570908",
-      "text": "Dash ballot — 25 days to the vote cutoff\n14 active · 5 passing · 668/6,828 DASH allotted\n\nClosest to the line:\n• Critical vulnerabilities… — 5 short\n• Dash Core – Monthly Maintenance… — 43 short\n\nYour node, your call →",
-      "at": "2026-07-24T16:11:00.000Z",
-      "reply": false,
-      "count": 1,
-      "m": {
-        "l": 9,
-        "r": 0,
-        "c": 11
-      },
-      "url": "https://x.com/DashSupportTeam/status/2080687202145570908"
     }
   ],
   "mirrored": {
-    "2080687202145570908": true,
     "2080687203143819405": true,
     "2080697150791397817": true,
     "2080697176598962449": true,
@@ -576,7 +575,8 @@
     "2082136721806803042": true,
     "2082378189528056301": true,
     "2082499089560686967": true,
-    "2082499090412130376": true
+    "2082499090412130376": true,
+    "2082537949736898683": true
   },
-  "updated": "2026-07-29T18:35:20.537Z"
+  "updated": "2026-07-29T18:50:20.477Z"
 }
