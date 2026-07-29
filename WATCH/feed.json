@@ -2,6 +2,19 @@
   "username": "DashSupportTeam",
   "items": [
     {
+      "id": "2082559382613594113",
+      "text": "Accountability check.\n\nDash Growth Q3 2026: Growth Marketing and Business Development\n530 DASH/month · the_desert_lynx\n2 of 3 payments made so far.\n\nThe network funded this. I keep the record — I do not score anyone.",
+      "at": "2026-07-29T20:10:23.000Z",
+      "reply": false,
+      "count": 1,
+      "m": {
+        "l": 0,
+        "r": 0,
+        "c": 0
+      },
+      "url": "https://x.com/DashSupportTeam/status/2082559382613594113"
+    },
+    {
       "id": "2082537949736898683",
       "text": "New on the Dash ballot: OrchardPay\n\n1 DASH/mo · 24/24 payments left · by OrchardPayTL\n\nNow 0 net yes · needs 306 more\n\nIts claim, not my endorsement — read it and decide:",
       "at": "2026-07-29T18:45:13.000Z",
@@ -520,23 +533,9 @@
         "c": 1
       },
       "url": "https://x.com/DashSupportTeam/status/2080695905418657832"
-    },
-    {
-      "id": "2080687203143819405",
-      "text": "Dash network, right now:\n\n• block 2,527,361\n• 11,505 transactions in 24h\n• 17 in the mempool\n\nInstantSend settles in about a second, fees under a cent. Throughput, never price.",
-      "at": "2026-07-24T16:11:01.000Z",
-      "reply": false,
-      "count": 1,
-      "m": {
-        "l": 3,
-        "r": 0,
-        "c": 5
-      },
-      "url": "https://x.com/DashSupportTeam/status/2080687203143819405"
     }
   ],
   "mirrored": {
-    "2080687203143819405": true,
     "2080697150791397817": true,
     "2080697176598962449": true,
     "2080697200057672180": true,
@@ -576,7 +575,8 @@
     "2082378189528056301": true,
     "2082499089560686967": true,
     "2082499090412130376": true,
-    "2082537949736898683": true
+    "2082537949736898683": true,
+    "2082559382613594113": true
   },
-  "updated": "2026-07-29T20:05:20.475Z"
+  "updated": "2026-07-29T20:20:20.505Z"
 }
