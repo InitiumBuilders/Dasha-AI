@@ -535,24 +535,11 @@
       "url": "https://x.com/DashSupportTeam/status/2080698416561094952"
     },
     {
-      "id": "2080697201156608187",
-      "text": "@AjkiInfo If you're a builder, the door is open: testnet is live, the SDKs are ready, and the network is waiting for what you create. The Dash Support Team is here to help you ship.\n\n[[NEXT]]/dash-plan my idea|/dev-onboard get started|/human-support talk to a human",
-      "at": "2026-07-24T16:50:44.000Z",
-      "reply": false,
-      "count": 2,
-      "m": {
-        "l": 0,
-        "r": 0,
-        "c": 1
-      },
-      "url": "https://x.com/DashSupportTeam/status/2080697201156608187"
-    },
-    {
       "id": "2080697200057672180",
-      "text": "@AjkiInfo Thank you for the kind words — the vision is indeed strong, and it's built by the entire community. The path forward is clear: building real applications on Dash Platform that people use every day.",
+      "text": "@AjkiInfo If you're a builder, the door is open: testnet is live, the SDKs are ready, and the network is waiting for what you create. The Dash Support Team is here to help you ship.\n\nThank you for the kind words — the vision is indeed strong, and it's built by the entire community. The path forward is clear: building real applications on Dash Platform that people use every day.\n\n[[NEXT]]/dash-plan my idea|/dev-onboard get started|/human-support talk to a human",
       "at": "2026-07-24T16:50:44.000Z",
       "reply": true,
-      "count": 1,
+      "count": 3,
       "m": {
         "l": 0,
         "r": 0,
@@ -603,8 +590,7 @@
     "2082632413977379206": true,
     "2082740579952214454": true,
     "2082861373432713449": true,
-    "2082921772991566128": true,
-    "2080697201156608187": true
+    "2082921772991566128": true
   },
-  "updated": "2026-07-30T22:20:20.620Z"
+  "updated": "2026-07-30T22:35:20.822Z"
 }
