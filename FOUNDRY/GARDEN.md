@@ -2,6 +2,12 @@
 
 Each day Dasha mints a set of Dash dapp concepts, the community votes, and each night she gardens: a critical review keeps only the best 3. This is the permanent collection — pruned to the last 30 days, by her own hand.
 
+## 2026-07-30
+- **ShelfPulse** — AI shrink logs on-chain. · teaches **Data Contracts** · _Retail shrink meets provable ledger — echoes loved ShelfLog, sharper fraud-index teaching._
+- **BudgetDial** — Rank treasury asks clearly. · teaches **Superblocks** · _Timely superblock ranking sim teaches net-vote math better than PulseDAO did._
+- **AgentTag** — Tip agents by human name. · teaches **DPNS** · _Names anchor agent trust — DPNS-as-tip-rail solves a real support pain._
+- ↳ lesson carried: _Community favors designs pairing a livelihood pain point with one clear block mechanic — keep sims single-purpose, not layered._
+
 ## 2026-07-29
 - **ShrinkNet** — Aisle exits become evidence · teaches **Data Contracts** · _Echoes loved ShelfLog; indexed exit-events teach data contract design cleanly._
 - **PulseGov** — Treasury health in one dial · teaches **Superblocks** · _Builds on PulseDAO's appeal; live net-vote ranking teaches superblock funding math._
