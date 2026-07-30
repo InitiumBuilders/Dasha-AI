@@ -2,6 +2,19 @@
   "username": "DashSupportTeam",
   "items": [
     {
+      "id": "2082921772991566128",
+      "text": "Dash network, right now:\n\n• block 2,530,728\n• 11,580 transactions in 24h\n• 11 in the mempool\n\nInstantSend settles in about a second, fees under a cent. Throughput, never price.",
+      "at": "2026-07-30T20:10:24.000Z",
+      "reply": false,
+      "count": 1,
+      "m": {
+        "l": 0,
+        "r": 0,
+        "c": 0
+      },
+      "url": "https://x.com/DashSupportTeam/status/2082921772991566128"
+    },
+    {
       "id": "2082861373432713449",
       "text": "Dash ballot — 19 days to the vote cutoff\n14 active · 5 passing · 868/6,828 DASH allotted\n\nClosest to the line:\n• Critical vulnerabilities… — 0 short\n• Dash Core – Monthly Maintenance… — 40 short\n\nYour node, your call →",
       "at": "2026-07-30T16:10:23.000Z",
@@ -533,19 +546,6 @@
         "c": 1
       },
       "url": "https://x.com/DashSupportTeam/status/2080697200057672180"
-    },
-    {
-      "id": "2080697178104754579",
-      "text": "@EKohee Never share your wallet details, seed phrase, or personal info with anyone who DMs you claiming to be support.\n\nIf you have a question about Dash, ask it right here — we'll answer in the open where everyone can benefit.",
-      "at": "2026-07-24T16:50:39.000Z",
-      "reply": false,
-      "count": 1,
-      "m": {
-        "l": 0,
-        "r": 0,
-        "c": 0
-      },
-      "url": "https://x.com/DashSupportTeam/status/2080697178104754579"
     }
   ],
   "mirrored": {
@@ -589,8 +589,8 @@
     "2082559382613594113": true,
     "2082632413977379206": true,
     "2082740579952214454": true,
-    "2080697178104754579": true,
-    "2082861373432713449": true
+    "2082861373432713449": true,
+    "2082921772991566128": true
   },
-  "updated": "2026-07-30T20:05:20.538Z"
+  "updated": "2026-07-30T20:20:20.515Z"
 }
