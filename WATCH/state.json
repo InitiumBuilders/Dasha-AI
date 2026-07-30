@@ -18,43 +18,43 @@
     },
     "dash-growth-q3-2026": {
       "passing": true,
-      "net": 319
+      "net": 315
     },
     "BTCBackportsVijay_03": {
       "passing": false,
-      "net": 269
+      "net": 265
     },
     "2026-05-MakeDashASafeStoreOfValue": {
       "passing": false,
-      "net": -274
+      "net": -270
     },
     "GEG-PPP-30M-Film-On-Chain": {
       "passing": false,
-      "net": -252
+      "net": -248
     },
     "dash-masternode-tool-update-12": {
       "passing": true,
-      "net": 624
+      "net": 620
     },
     "revised-dashgo-m1": {
       "passing": false,
-      "net": -74
+      "net": -78
     },
     "Dash-Italia-Management-2026": {
       "passing": true,
-      "net": 428
+      "net": 424
     },
     "mnowatch-hosting-2026": {
       "passing": true,
-      "net": 663
+      "net": 659
     },
     "dashcentral-operations3": {
       "passing": true,
-      "net": 524
+      "net": 528
     },
     "encointerUBI-mean26": {
       "passing": false,
-      "net": -201
+      "net": -197
     }
   },
   "fired": {
@@ -63,5 +63,5 @@
   },
   "superblock": "2525632",
   "lastPassingCount": 5,
-  "updated": "2026-07-30T07:15:12.692Z"
+  "updated": "2026-07-30T07:45:12.779Z"
 }
