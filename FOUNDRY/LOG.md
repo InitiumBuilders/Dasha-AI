@@ -52,3 +52,13 @@ The surviving designs live in [GARDEN.md](./GARDEN.md); the lessons she keeps li
 - **MixShift** — Payroll privacy without leaks. · _Shared noise protects staff lists._ · teaches **CoinJoin** · sim: mix — `CoinJoin rounds precede salary disbursal to break linkages.` · _why now: Gig crews demanding pay privacy guarantees._
 - **NodeCare** — Plan uptime against rewards. · _Stewardship needs calendars, not vibes._ · teaches **Masternodes** · sim: ledger — `Reads deterministic list to forecast payout windows for maintenance.` · _why now: Core v21 upgrades looming; plan downtime._
 - **CredNest** — Preload fees for fans. · _Fees prepaid keep art flowing._ · teaches **Credits** · sim: token — `Sponsors transfer credits into creator identities before drops.` · _why now: Creator drops weekly; gas anxiety kills vibe._
+
+## 2026-07-31
+- **DashGig** — Shift pay autopilot · _Earn, send, breathe again._ · teaches **InstantSend** · sim: pay — `Trigger InstantSend once task proof hits Drive.` · _why now: Gig workers demand real-time wages_
+- **ShelfPact** — Shrink logs stay sane · _Inventory stays honest, margins stay human._ · teaches **Data Contracts** · sim: ledger — `Index SKU and aisle to flag recurring loss.` · _why now: Retail shrink still drains budgets_
+- **PulseRank** — Masternode pulseboard · _Uptime is the quiet vote._ · teaches **Masternodes** · sim: ledger — `Poll PoSe scores and alert on drift.` · _why now: Operators need transparent PoSe telemetry_
+- **AgentTab** — Microtask credit keeper · _Budget every microtask before it drifts._ · teaches **Credits** · sim: ledger — `Debit identity credits per action; sponsor auto top-ups.` · _why now: Agents juggle micro-budgets hourly_
+- **NameTrust** — Reputation your handle keeps · _Names stick when the work does._ · teaches **DPNS** · sim: name — `Attach DPNS name to rating documents via ownerId.` · _why now: Gig platforms crave portable reputation_
+- **VoteDrip** — Treasury runway visualizer · _Budgets breathe when cadence is visible._ · teaches **Superblocks** · sim: vote — `Rank proposals by net votes against budget slots.` · _why now: Treasuries face tighter scrutiny_
+- **MixCourier** — Courier payout cloaker · _Routes stay secret yet paid._ · teaches **CoinJoin** · sim: mix — `Batch courier rewards via wallet CoinJoin before send.` · _why now: Couriers fear route stalking_
+- **QueryLoom** — Ops metrics from Drive · _Questions calm when data answers._ · teaches **Platform Queries** · sim: ledger — `Use compound index on storeId+$createdAt for dashboards.` · _why now: Ops want instant cross-store truth_
