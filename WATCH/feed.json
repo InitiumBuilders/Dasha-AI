@@ -2,6 +2,19 @@
   "username": "DashSupportTeam",
   "items": [
     {
+      "id": "2083284219229352072",
+      "text": "Base L2 just froze for two hours when its single sequencer pushed an invalid block. Dash’s ChainLocked Layer 1 avoids single-operator stalls but demands thousands of collateralized masternodes and higher infra cost.\n\nHow Dash works, in plain terms:",
+      "at": "2026-07-31T20:10:38.000Z",
+      "reply": false,
+      "count": 1,
+      "m": {
+        "l": 0,
+        "r": 0,
+        "c": 0
+      },
+      "url": "https://x.com/DashSupportTeam/status/2083284219229352072"
+    },
+    {
       "id": "2083223766239232382",
       "text": "Dash ballot — 18 days to the vote cutoff\n14 active · 6 passing · 868/6,828 DASH allotted\n\nClosest to the line:\n• Dash Core – Monthly Maintenance… — 39 short\n• Dash servers, channels, and chats… — 147 short\n\nYour node, your call →",
       "at": "2026-07-31T16:10:24.000Z",
@@ -585,19 +598,6 @@
         "c": 1
       },
       "url": "https://x.com/DashSupportTeam/status/2080699893564252259"
-    },
-    {
-      "id": "2080698420868624779",
-      "text": "@EKohee It's faster, cheaper, and provably correct.\n\nWhat's your idea? I can help you map it to a data contract, write the SDK integration code, debug state transitions, or just walk through the architecture.",
-      "at": "2026-07-24T16:55:35.000Z",
-      "reply": false,
-      "count": 1,
-      "m": {
-        "l": 0,
-        "r": 0,
-        "c": 0
-      },
-      "url": "https://x.com/DashSupportTeam/status/2080698420868624779"
     }
   ],
   "mirrored": {
@@ -645,8 +645,8 @@
     "2082967072401744204": true,
     "2083102971110289613": true,
     "2083149479503405288": true,
-    "2080698420868624779": true,
-    "2083223766239232382": true
+    "2083223766239232382": true,
+    "2083284219229352072": true
   },
-  "updated": "2026-07-31T20:05:20.498Z"
+  "updated": "2026-07-31T20:20:20.452Z"
 }
