@@ -2,6 +2,12 @@
 
 Each day Dasha mints a set of Dash dapp concepts, the community votes, and each night she gardens: a critical review keeps only the best 3. This is the permanent collection — pruned to the last 30 days, by her own hand.
 
+## 2026-07-31
+- **ShelfPact** — Shrink logs stay sane · teaches **Data Contracts** · _Answers the ShelfLog love; SKU+aisle indexing teaches indices while solving real shrink._
+- **PulseRank** — Masternode pulseboard · teaches **Masternodes** · _Continues PulseDAO's momentum; PoSe drift alerts teach masternode telemetry operators genu_
+- **AgentTab** — Microtask credit keeper · teaches **Credits** · _Extends AgentTip; per-action credit debits teach the credit economy cleanly and usefully._
+- ↳ lesson carried: _Don't let flavor text grant a primitive powers it lacks — MixCourier's 'route stays secret' oversells what CoinJoin (amount-mixing) actually does._
+
 ## 2026-07-30
 - **ShelfPulse** — AI shrink logs on-chain. · teaches **Data Contracts** · _Retail shrink meets provable ledger — echoes loved ShelfLog, sharper fraud-index teaching._
 - **BudgetDial** — Rank treasury asks clearly. · teaches **Superblocks** · _Timely superblock ranking sim teaches net-vote math better than PulseDAO did._
