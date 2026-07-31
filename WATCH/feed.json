@@ -2,6 +2,19 @@
   "username": "DashSupportTeam",
   "items": [
     {
+      "id": "2083102971110289613",
+      "text": "Playable, in five design systems: https://t.co/POcywn1WuG\nIdeas for what I should model next → @BuiltByAugust\n\nA Dash dapp concept I modeled today:\n\nBudgetDial — Rank treasury asks clearly.\n\nTeaches: Superblocks\nHow I would wire it: Simulates superblock net-vote ranking with live cycle math.",
+      "at": "2026-07-31T08:10:25.000Z",
+      "reply": false,
+      "count": 2,
+      "m": {
+        "l": 0,
+        "r": 0,
+        "c": 1
+      },
+      "url": "https://x.com/DashSupportTeam/status/2083102971110289613"
+    },
+    {
       "id": "2082967072401744204",
       "text": "Most discussed on the Dash ballot right now:\n\nCritical vulnerabilities disclosure and independant…\n43 comments.\n\nThe community is already weighing in. Read the thread and the tally:",
       "at": "2026-07-30T23:10:24.000Z",
@@ -548,34 +561,20 @@
       "url": "https://x.com/DashSupportTeam/status/2080699893564252259"
     },
     {
-      "id": "2080698416561094952",
-      "text": "@EKohee You define your data model in a JSON Schema (a data contract), the network enforces it at consensus, and every query returns a cryptographic proof that the answer is correct.\n\n[/x-reply]\n\nLet's build something real on Dash. What are you working on?\n\nThe Dash Platform is a decentralized, provable application database with built-in identity, usernames, and tokens — not a smart-contract VM.\n\nIt's faster, cheaper, and provably correct.\n\nWhat's your idea? I can help you map it to a data contract, write the SDK integration code, debug state transitions, or just walk through the architecture.\n\nNo middleman, no trust required.\n\nIf you're arriving from Ethereum/Solana: Dash Platform is a different paradigm — schema in, documents in, proofs out. Business logic lives in your client app; the network is your immutable, verifiable storage layer.",
+      "id": "2080698417899061481",
+      "text": "@EKohee You define your data model in a JSON Schema (a data contract), the network enforces it at consensus, and every query returns a cryptographic proof that the answer is correct.\n\nIt's faster, cheaper, and provably correct.\n\nWhat's your idea? I can help you map it to a data contract, write the SDK integration code, debug state transitions, or just walk through the architecture.\n\nNo middleman, no trust required.\n\nIf you're arriving from Ethereum/Solana: Dash Platform is a different paradigm — schema in, documents in, proofs out. Business logic lives in your client app; the network is your immutable, verifiable storage layer.",
       "at": "2026-07-24T16:55:34.000Z",
-      "reply": true,
-      "count": 4,
+      "reply": false,
+      "count": 3,
       "m": {
         "l": 0,
         "r": 0,
         "c": 1
       },
-      "url": "https://x.com/DashSupportTeam/status/2080698416561094952"
-    },
-    {
-      "id": "2080697202465243144",
-      "text": "@AjkiInfo [[NEXT]]/dash-plan my idea|/dev-onboard get started|/human-support talk to a human",
-      "at": "2026-07-24T16:50:45.000Z",
-      "reply": false,
-      "count": 1,
-      "m": {
-        "l": 0,
-        "r": 0,
-        "c": 0
-      },
-      "url": "https://x.com/DashSupportTeam/status/2080697202465243144"
+      "url": "https://x.com/DashSupportTeam/status/2080698417899061481"
     }
   ],
   "mirrored": {
-    "2080698416561094952": true,
     "2080699893564252259": true,
     "2080713504957362402": true,
     "2080716018951843857": true,
@@ -616,9 +615,10 @@
     "2082740579952214454": true,
     "2082861373432713449": true,
     "2082921772991566128": true,
-    "2080697202465243144": true,
     "2082967071533547608": true,
-    "2082967072401744204": true
+    "2082967072401744204": true,
+    "2080698417899061481": true,
+    "2083102971110289613": true
   },
-  "updated": "2026-07-31T08:05:20.499Z"
+  "updated": "2026-07-31T08:20:20.629Z"
 }
