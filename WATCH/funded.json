@@ -7,7 +7,8 @@
         "dash-masternode-tool-update-12",
         "Dash-Italia-Management-2026",
         "mnowatch-hosting-2026",
-        "dashcentral-operations3"
+        "dashcentral-operations3",
+        "vulnerability-disclosure-compensation"
       ]
     }
   },
@@ -70,6 +71,18 @@
         "2525632"
       ],
       "totalPays": 12,
+      "remaining": 2
+    },
+    "vulnerability-disclosure-compensation": {
+      "name": "vulnerability-disclosure-compensation",
+      "title": "Critical vulnerabilities disclosure and independant security contribution",
+      "owner": "DeltaXV",
+      "ask": 200,
+      "firstSeen": "2026-07-31T12:10:21.942Z",
+      "cyclesFunded": [
+        "2525632"
+      ],
+      "totalPays": 2,
       "remaining": 2
     }
   }
