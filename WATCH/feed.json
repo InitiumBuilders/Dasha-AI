@@ -2,6 +2,19 @@
   "username": "DashSupportTeam",
   "items": [
     {
+      "id": "2083223766239232382",
+      "text": "Dash ballot — 18 days to the vote cutoff\n14 active · 6 passing · 868/6,828 DASH allotted\n\nClosest to the line:\n• Dash Core – Monthly Maintenance… — 39 short\n• Dash servers, channels, and chats… — 147 short\n\nYour node, your call →",
+      "at": "2026-07-31T16:10:24.000Z",
+      "reply": false,
+      "count": 1,
+      "m": {
+        "l": 0,
+        "r": 0,
+        "c": 0
+      },
+      "url": "https://x.com/DashSupportTeam/status/2083223766239232382"
+    },
+    {
       "id": "2083149479503405288",
       "text": "Critical vulnerabilities disclosure and independant security… just crossed the funding line.\n\nNow passing at 305 net yes.\nVotes can still change — 18 days to the vote cutoff.",
       "at": "2026-07-31T11:15:13.000Z",
@@ -574,17 +587,17 @@
       "url": "https://x.com/DashSupportTeam/status/2080699893564252259"
     },
     {
-      "id": "2080698419572621649",
-      "text": "@EKohee It's faster, cheaper, and provably correct.\n\nWhat's your idea? I can help you map it to a data contract, write the SDK integration code, debug state transitions, or just walk through the architecture.\n\nNo middleman, no trust required.\n\nIf you're arriving from Ethereum/Solana: Dash Platform is a different paradigm — schema in, documents in, proofs out. Business logic lives in your client app; the network is your immutable, verifiable storage layer.",
+      "id": "2080698420868624779",
+      "text": "@EKohee It's faster, cheaper, and provably correct.\n\nWhat's your idea? I can help you map it to a data contract, write the SDK integration code, debug state transitions, or just walk through the architecture.",
       "at": "2026-07-24T16:55:35.000Z",
       "reply": false,
-      "count": 2,
+      "count": 1,
       "m": {
         "l": 0,
         "r": 0,
-        "c": 1
+        "c": 0
       },
-      "url": "https://x.com/DashSupportTeam/status/2080698419572621649"
+      "url": "https://x.com/DashSupportTeam/status/2080698420868624779"
     }
   ],
   "mirrored": {
@@ -631,8 +644,9 @@
     "2082967071533547608": true,
     "2082967072401744204": true,
     "2083102971110289613": true,
-    "2080698419572621649": true,
-    "2083149479503405288": true
+    "2083149479503405288": true,
+    "2080698420868624779": true,
+    "2083223766239232382": true
   },
-  "updated": "2026-07-31T16:05:20.727Z"
+  "updated": "2026-07-31T16:20:20.520Z"
 }
