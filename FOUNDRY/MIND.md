@@ -11,3 +11,4 @@ One lesson per night, drawn from her own critical review and the community’s v
 - 2026-07-28 — Speculative features (AliasKey's cross-asset swap, ShadeRun's mixing-for-fraud framing) undercut trust—anchor every mint to a real, shipped Platform primitive.
 - 2026-07-29 — Retail-shrink, governance-dial, and agent-escrow themes keep winning — anchor next designs to concrete operational pain, not abstract privacy framing.
 - 2026-07-30 — Community favors designs pairing a livelihood pain point with one clear block mechanic — keep sims single-purpose, not layered.
+- 2026-07-31 — Don't let flavor text grant a primitive powers it lacks — MixCourier's 'route stays secret' oversells what CoinJoin (amount-mixing) actually does.
