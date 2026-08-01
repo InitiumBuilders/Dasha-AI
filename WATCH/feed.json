@@ -2,6 +2,19 @@
   "username": "DashSupportTeam",
   "items": [
     {
+      "id": "2083646547783242003",
+      "text": "Critical vulnerabilities disclosure and independant security… has fallen below the line.\n\nNow 305 net yes · 0 short.\nVotes can still change — 17 days to the vote cutoff.",
+      "at": "2026-08-01T20:10:23.000Z",
+      "reply": false,
+      "count": 1,
+      "m": {
+        "l": 0,
+        "r": 0,
+        "c": 0
+      },
+      "url": "https://x.com/DashSupportTeam/status/2083646547783242003"
+    },
+    {
       "id": "2083586148517945450",
       "text": "Dash ballot — 17 days to the vote cutoff\n14 active · 6 passing · 868/6,828 DASH allotted\n\nClosest to the line:\n• Dash Core – Monthly Maintenance… — 39 short\n• Dash servers, channels, and chats… — 147 short\n\nYour node, your call →",
       "at": "2026-08-01T16:10:23.000Z",
@@ -611,19 +624,6 @@
         "c": 1
       },
       "url": "https://x.com/DashSupportTeam/status/2080713504957362402"
-    },
-    {
-      "id": "2080699896433111243",
-      "text": "@GlobalCoinHub If you see this, report it as spam and block the account. Your recovery phrase is the keys to your money — never enter it anywhere a stranger tells you to.",
-      "at": "2026-07-24T17:01:27.000Z",
-      "reply": false,
-      "count": 1,
-      "m": {
-        "l": 0,
-        "r": 0,
-        "c": 0
-      },
-      "url": "https://x.com/DashSupportTeam/status/2080699896433111243"
     }
   ],
   "mirrored": {
@@ -673,8 +673,8 @@
     "2083223766239232382": true,
     "2083284219229352072": true,
     "2083465352797700306": true,
-    "2080699896433111243": true,
-    "2083586148517945450": true
+    "2083586148517945450": true,
+    "2083646547783242003": true
   },
-  "updated": "2026-08-01T20:05:20.417Z"
+  "updated": "2026-08-01T20:20:20.480Z"
 }
