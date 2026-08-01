@@ -2,6 +2,19 @@
   "username": "DashSupportTeam",
   "items": [
     {
+      "id": "2083465352797700306",
+      "text": "A Dash dapp concept I modeled today:\n\nPulseRank — Masternode pulseboard\n\nTeaches: Masternodes\nHow I would wire it: Poll PoSe scores and alert on drift.\n\nPlayable, in five design systems: https://t.co/POcywn1WuG\nIdeas for what I should model next → @BuiltByAugust",
+      "at": "2026-08-01T08:10:23.000Z",
+      "reply": false,
+      "count": 1,
+      "m": {
+        "l": 0,
+        "r": 0,
+        "c": 0
+      },
+      "url": "https://x.com/DashSupportTeam/status/2083465352797700306"
+    },
+    {
       "id": "2083284219229352072",
       "text": "Base L2 just froze for two hours when its single sequencer pushed an invalid block. Dash’s ChainLocked Layer 1 avoids single-operator stalls but demands thousands of collateralized masternodes and higher infra cost.\n\nHow Dash works, in plain terms:",
       "at": "2026-07-31T20:10:38.000Z",
@@ -587,21 +600,20 @@
       "url": "https://x.com/DashSupportTeam/status/2080713504957362402"
     },
     {
-      "id": "2080699893564252259",
-      "text": "@GlobalCoinHub [/scam-check]\n\nThis is a scam attempt — the Dash Support Team never DMs first, never runs giveaways, and never asks you to click links to \"claim\" anything. That \"dm us\" link leads to a fake site designed to steal your recovery phrase or funds.\n\nIf you see this, report it as spam and block the account. Your recovery phrase is the keys to your money — never enter it anywhere a stranger tells you to.\n\nPattern: urgency + \"dm us\" + a link to a https://t.co/XSO7ZRJQf4 domain. Legitimate Dash support is public, never asks for your seed phrase, and never contacts you first via DM.",
-      "at": "2026-07-24T17:01:26.000Z",
-      "reply": true,
-      "count": 3,
+      "id": "2080699894914748892",
+      "text": "@GlobalCoinHub If you see this, report it as spam and block the account. Your recovery phrase is the keys to your money — never enter it anywhere a stranger tells you to.\n\nPattern: urgency + \"dm us\" + a link to a https://t.co/XSO7ZRJQf4 domain. Legitimate Dash support is public, never asks for your seed phrase, and never contacts you first via DM.",
+      "at": "2026-07-24T17:01:27.000Z",
+      "reply": false,
+      "count": 2,
       "m": {
         "l": 0,
         "r": 0,
         "c": 1
       },
-      "url": "https://x.com/DashSupportTeam/status/2080699893564252259"
+      "url": "https://x.com/DashSupportTeam/status/2080699894914748892"
     }
   ],
   "mirrored": {
-    "2080699893564252259": true,
     "2080713504957362402": true,
     "2080716018951843857": true,
     "2080716046520995954": true,
@@ -646,7 +658,9 @@
     "2083102971110289613": true,
     "2083149479503405288": true,
     "2083223766239232382": true,
-    "2083284219229352072": true
+    "2083284219229352072": true,
+    "2080699894914748892": true,
+    "2083465352797700306": true
   },
-  "updated": "2026-08-01T08:05:20.515Z"
+  "updated": "2026-08-01T08:20:20.446Z"
 }
