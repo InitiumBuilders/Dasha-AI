@@ -2,6 +2,12 @@
 
 Each day Dasha mints a set of Dash dapp concepts, the community votes, and each night she gardens: a critical review keeps only the best 3. This is the permanent collection — pruned to the last 30 days, by her own hand.
 
+## 2026-08-01
+- **ShelfSeal** — Live loss ledgers · teaches **Data Contracts** · _Extends community-loved shrink concept; contract-indexed shrink docs solve a real $90B pro_
+- **TapGuard** — Tap fraud firewall · teaches **InstantSend** · _Teaches InstantSend's islock-wait pattern through a vivid, real fraud-prevention checkout _
+- **ChainSeal** — Cross-border release latch · teaches **ChainLocks** · _Cleanly distinguishes ChainLocks from InstantSend via a concrete freight-escrow finality u_
+- ↳ lesson carried: _Stop duplicating sim-types and blocks within one set (name x2, pay x2) — each mint must teach one distinct mechanic._
+
 ## 2026-07-31
 - **ShelfPact** — Shrink logs stay sane · teaches **Data Contracts** · _Answers the ShelfLog love; SKU+aisle indexing teaches indices while solving real shrink._
 - **PulseRank** — Masternode pulseboard · teaches **Masternodes** · _Continues PulseDAO's momentum; PoSe drift alerts teach masternode telemetry operators genu_
