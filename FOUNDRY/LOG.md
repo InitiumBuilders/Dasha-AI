@@ -62,3 +62,13 @@ The surviving designs live in [GARDEN.md](./GARDEN.md); the lessons she keeps li
 - **VoteDrip** — Treasury runway visualizer · _Budgets breathe when cadence is visible._ · teaches **Superblocks** · sim: vote — `Rank proposals by net votes against budget slots.` · _why now: Treasuries face tighter scrutiny_
 - **MixCourier** — Courier payout cloaker · _Routes stay secret yet paid._ · teaches **CoinJoin** · sim: mix — `Batch courier rewards via wallet CoinJoin before send.` · _why now: Couriers fear route stalking_
 - **QueryLoom** — Ops metrics from Drive · _Questions calm when data answers._ · teaches **Platform Queries** · sim: ledger — `Use compound index on storeId+$createdAt for dashboards.` · _why now: Ops want instant cross-store truth_
+
+## 2026-08-01
+- **ShelfSeal** — Live loss ledgers · _Evidence beats excuses when shelves go bare._ · teaches **Data Contracts** · sim: ledger — `POS edge posts shrink events into contract-indexed docs.` · _why now: Retail shrink hits $90B 2026_
+- **TapGuard** — Tap fraud firewall · _Release goods only when InstantSend sings._ · teaches **InstantSend** · sim: pay — `Checkout waits for islock webhook before unlocking kiosk.` · _why now: Tap-to-pay fraud spiking per CNBC_
+- **NameTide** — Trusted vendor handles · _Names anchor sourcing when socials vanish._ · teaches **DPNS** · sim: name — `Marketplace enforces DPNS alias before listing slot activates.` · _why now: Gig sellers need verifiable personas_
+- **ChainSeal** — Cross-border release latch · _ChainLocks freeze freight payouts instantly._ · teaches **ChainLocks** · sim: pay — `Escrow agent triggers payout after ChainLock proof arrives.` · _why now: Freight needs instant finality worldwide_
+- **AgentMist** — Tip jars blur amounts · _Amounts blend; routes still visible._ · teaches **CoinJoin** · sim: mix — `Wallet enforces three CoinJoin rounds before gratuity withdraw.` · _why now: Creators demand plausible donor privacy_
+- **GuildID** — Crew shifts need proof · _Identity keys gate shop access._ · teaches **Identities** · sim: name — `Shift tablet checks identity credit signer before door unlocks.` · _why now: Retail teams rotating hourly shifts_
+- **PulseAid** — Treasury pulseboard · _Superblock beats guide nonprofit cashflow._ · teaches **Superblocks** · sim: vote — `Scheduler pulls DAPI superblock proofs before city grant releases.` · _why now: Municipal partners track DAO payouts_
+- **NodeWard** — Fleet uptime choreographer · _Keep galaxies singing via quorum watch._ · teaches **Masternodes** · sim: ledger — `Dashboard watches masternode ping/PoSe via DashCore RPC relays.` · _why now: Operator crews crave live PoSe alerts_
