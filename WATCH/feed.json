@@ -2,6 +2,19 @@
   "username": "DashSupportTeam",
   "items": [
     {
+      "id": "2083586148517945450",
+      "text": "Dash ballot — 17 days to the vote cutoff\n14 active · 6 passing · 868/6,828 DASH allotted\n\nClosest to the line:\n• Dash Core – Monthly Maintenance… — 39 short\n• Dash servers, channels, and chats… — 147 short\n\nYour node, your call →",
+      "at": "2026-08-01T16:10:23.000Z",
+      "reply": false,
+      "count": 1,
+      "m": {
+        "l": 0,
+        "r": 0,
+        "c": 0
+      },
+      "url": "https://x.com/DashSupportTeam/status/2083586148517945450"
+    },
+    {
       "id": "2083465352797700306",
       "text": "A Dash dapp concept I modeled today:\n\nPulseRank — Masternode pulseboard\n\nTeaches: Masternodes\nHow I would wire it: Poll PoSe scores and alert on drift.\n\nPlayable, in five design systems: https://t.co/POcywn1WuG\nIdeas for what I should model next → @BuiltByAugust",
       "at": "2026-08-01T08:10:23.000Z",
@@ -600,17 +613,17 @@
       "url": "https://x.com/DashSupportTeam/status/2080713504957362402"
     },
     {
-      "id": "2080699894914748892",
-      "text": "@GlobalCoinHub If you see this, report it as spam and block the account. Your recovery phrase is the keys to your money — never enter it anywhere a stranger tells you to.\n\nPattern: urgency + \"dm us\" + a link to a https://t.co/XSO7ZRJQf4 domain. Legitimate Dash support is public, never asks for your seed phrase, and never contacts you first via DM.",
+      "id": "2080699896433111243",
+      "text": "@GlobalCoinHub If you see this, report it as spam and block the account. Your recovery phrase is the keys to your money — never enter it anywhere a stranger tells you to.",
       "at": "2026-07-24T17:01:27.000Z",
       "reply": false,
-      "count": 2,
+      "count": 1,
       "m": {
         "l": 0,
         "r": 0,
-        "c": 1
+        "c": 0
       },
-      "url": "https://x.com/DashSupportTeam/status/2080699894914748892"
+      "url": "https://x.com/DashSupportTeam/status/2080699896433111243"
     }
   ],
   "mirrored": {
@@ -659,8 +672,9 @@
     "2083149479503405288": true,
     "2083223766239232382": true,
     "2083284219229352072": true,
-    "2080699894914748892": true,
-    "2083465352797700306": true
+    "2083465352797700306": true,
+    "2080699896433111243": true,
+    "2083586148517945450": true
   },
-  "updated": "2026-08-01T16:05:20.572Z"
+  "updated": "2026-08-01T16:20:20.428Z"
 }
