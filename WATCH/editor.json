@@ -50,11 +50,13 @@
     "ballot:2026-07-31": "2026-07-31T16:10:25.119Z",
     "translate:2026-07-31": "2026-07-31T20:10:38.202Z",
     "foundry:2026-08-01": "2026-08-01T08:10:23.826Z",
-    "ballot:2026-08-01": "2026-08-01T16:10:23.777Z"
+    "ballot:2026-08-01": "2026-08-01T16:10:23.777Z",
+    "flip": "2026-08-01T20:10:24.081Z",
+    "flip:vulnerability-disclosure-compensation:out:2525632": "2026-08-01T20:10:24.081Z"
   },
   "day": "2026-08-01",
-  "spent": 2,
-  "lastKind": "ballot",
+  "spent": 3,
+  "lastKind": "flip",
   "log": [
     {
       "at": "2026-07-23T16:49:09.704Z",
@@ -245,6 +247,11 @@
       "at": "2026-08-01T16:10:23.777Z",
       "kind": "ballot",
       "key": "ballot:2026-08-01"
+    },
+    {
+      "at": "2026-08-01T20:10:24.081Z",
+      "kind": "flip",
+      "key": "flip:vulnerability-disclosure-compensation:out:2525632"
     }
   ]
 }
