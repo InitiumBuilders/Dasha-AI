@@ -13,7 +13,7 @@
       "net": 34
     },
     "vulnerability-disclosure-compensation": {
-      "passing": true,
+      "passing": false,
       "net": 305
     },
     "dash-growth-q3-2026": {
@@ -60,9 +60,10 @@
   "fired": {
     "new:Dash-communities-without-censorship": "2026-07-23T16:43:32.344Z",
     "new:OrchardPay": "2026-07-29T18:45:12.880Z",
-    "flip:vulnerability-disclosure-compensation:in:2525632": "2026-07-31T11:15:12.757Z"
+    "flip:vulnerability-disclosure-compensation:in:2525632": "2026-07-31T11:15:12.757Z",
+    "flip:vulnerability-disclosure-compensation:out:2525632": "2026-08-01T20:15:12.717Z"
   },
   "superblock": "2525632",
-  "lastPassingCount": 6,
-  "updated": "2026-08-01T19:45:12.739Z"
+  "lastPassingCount": 5,
+  "updated": "2026-08-01T20:15:12.717Z"
 }
