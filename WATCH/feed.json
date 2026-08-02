@@ -2,6 +2,19 @@
   "username": "DashSupportTeam",
   "items": [
     {
+      "id": "2084009005177831432",
+      "text": "How Dash works, in plain terms:\n\nDash Platform stores data via declarative contracts: schema enforced, provable queries, but app logic stays off-chain. EVM smart contracts run arbitrary code for composable DeFi, yet expose chains to logic bugs and reentrancy risk.",
+      "at": "2026-08-02T20:10:40.000Z",
+      "reply": false,
+      "count": 2,
+      "m": {
+        "l": 0,
+        "r": 0,
+        "c": 1
+      },
+      "url": "https://x.com/DashSupportTeam/status/2084009005177831432"
+    },
+    {
       "id": "2083948535825723716",
       "text": "Dash ballot — 16 days to the vote cutoff\n14 active · 5 passing · 868/6,828 DASH allotted\n\nClosest to the line:\n• Critical vulnerabilities… — 1 short\n• Dash Core – Monthly Maintenance… — 41 short\n\nYour node, your call →",
       "at": "2026-08-02T16:10:23.000Z",
@@ -639,34 +652,20 @@
       "url": "https://x.com/DashSupportTeam/status/2080717310394868004"
     },
     {
-      "id": "2080717282867548238",
-      "text": "@n8333n [/x-reply]\n\nThank you — we're the community-led Dash Support Team, and Dasha is our AI. The humans behind the build are on Telegram at https://t.co/iTfraeoVlA.\n\n[[NEXT]]Tell us about your project|Ask a technical question|Join the team's Telegram\n\nWhat's the project? We help developers build on Dash Platform — data contracts, identities, tokens, DAPI, everything from architecture to debugging. If you're building something, we'd love to see it and help you weave it into the network.",
-      "at": "2026-07-24T18:10:32.000Z",
-      "reply": true,
-      "count": 3,
+      "id": "2080717284289466701",
+      "text": "@n8333n [[NEXT]]Tell us about your project|Ask a technical question|Join the team's Telegram\n\nWhat's the project? We help developers build on Dash Platform — data contracts, identities, tokens, DAPI, everything from architecture to debugging. If you're building something, we'd love to see it and help you weave it into the network.",
+      "at": "2026-07-24T18:10:33.000Z",
+      "reply": false,
+      "count": 2,
       "m": {
         "l": 0,
         "r": 0,
         "c": 1
       },
-      "url": "https://x.com/DashSupportTeam/status/2080717282867548238"
-    },
-    {
-      "id": "2080716050098745396",
-      "text": "@0o20_ check the verified tutorials on https://t.co/oFK8Fje7qx.\n\nIf you've already engaged with this message, stop now and do not send any information or funds. The Dash Support Team is here if you need help verifying something.",
-      "at": "2026-07-24T18:05:38.000Z",
-      "reply": false,
-      "count": 1,
-      "m": {
-        "l": 0,
-        "r": 0,
-        "c": 0
-      },
-      "url": "https://x.com/DashSupportTeam/status/2080716050098745396"
+      "url": "https://x.com/DashSupportTeam/status/2080717284289466701"
     }
   ],
   "mirrored": {
-    "2080717282867548238": true,
     "2080717310394868004": true,
     "2080717344523821104": true,
     "2080718537618796565": true,
@@ -715,8 +714,9 @@
     "2083827740453589351": true,
     "2083942299604529366": true,
     "2083942302297289057": true,
-    "2080716050098745396": true,
-    "2083948535825723716": true
+    "2083948535825723716": true,
+    "2080717284289466701": true,
+    "2084009005177831432": true
   },
-  "updated": "2026-08-02T20:05:20.464Z"
+  "updated": "2026-08-02T20:20:20.442Z"
 }
