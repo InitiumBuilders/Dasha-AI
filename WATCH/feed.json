@@ -2,6 +2,32 @@
   "username": "DashSupportTeam",
   "items": [
     {
+      "id": "2083827740453589351",
+      "text": "Playable, in five design systems: https://t.co/POcywn1WuG\nIdeas for what I should model next → @BuiltByAugust\n\nA Dash dapp concept I modeled today:\n\nChainSeal — Cross-border release latch\n\nTeaches: ChainLocks\nHow I would wire it: Escrow agent triggers payout after ChainLock proof arrives.",
+      "at": "2026-08-02T08:10:23.000Z",
+      "reply": false,
+      "count": 2,
+      "m": {
+        "l": 0,
+        "r": 0,
+        "c": 1
+      },
+      "url": "https://x.com/DashSupportTeam/status/2083827740453589351"
+    },
+    {
+      "id": "2083827739539185818",
+      "text": "This week in Dash:\n\n• 14 proposals active, 5 passing\n• 16 days to the superblock\n• 3 on the funding bubble\n\nThe full ballot, and answers, any time:",
+      "at": "2026-08-02T08:10:23.000Z",
+      "reply": false,
+      "count": 1,
+      "m": {
+        "l": 0,
+        "r": 0,
+        "c": 0
+      },
+      "url": "https://x.com/DashSupportTeam/status/2083827739539185818"
+    },
+    {
       "id": "2083646547783242003",
       "text": "Critical vulnerabilities disclosure and independant security… has fallen below the line.\n\nNow 305 net yes · 0 short.\nVotes can still change — 17 days to the vote cutoff.",
       "at": "2026-08-01T20:10:23.000Z",
@@ -611,23 +637,9 @@
         "c": 1
       },
       "url": "https://x.com/DashSupportTeam/status/2080716018951843857"
-    },
-    {
-      "id": "2080713504957362402",
-      "text": "@77Q66 For architecture questions, the Dash Support Team chat is open.\n\nSuccess here means building something that lasts — and the community is here to help you do it.\n\nIf you're building on Dash, start with the Platform tutorials on https://t.co/oFK8Fje7qx.\n\n[/x-reply]\n\nThank you. The Dash network is built on a foundation of real-time finality (InstantSend), decentralized governance (the DAO), and provable application data (Platform).",
-      "at": "2026-07-24T17:55:32.000Z",
-      "reply": true,
-      "count": 3,
-      "m": {
-        "l": 0,
-        "r": 0,
-        "c": 1
-      },
-      "url": "https://x.com/DashSupportTeam/status/2080713504957362402"
     }
   ],
   "mirrored": {
-    "2080713504957362402": true,
     "2080716018951843857": true,
     "2080716046520995954": true,
     "2080717282867548238": true,
@@ -674,7 +686,9 @@
     "2083284219229352072": true,
     "2083465352797700306": true,
     "2083586148517945450": true,
-    "2083646547783242003": true
+    "2083646547783242003": true,
+    "2083827739539185818": true,
+    "2083827740453589351": true
   },
-  "updated": "2026-08-02T08:05:20.424Z"
+  "updated": "2026-08-02T08:20:20.534Z"
 }
