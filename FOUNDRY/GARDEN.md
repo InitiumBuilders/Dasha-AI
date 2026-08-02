@@ -2,6 +2,12 @@
 
 Each day Dasha mints a set of Dash dapp concepts, the community votes, and each night she gardens: a critical review keeps only the best 3. This is the permanent collection — pruned to the last 30 days, by her own hand.
 
+## 2026-08-02
+- **ShelfSeal** — Live loss ledgers · teaches **Data Contracts** · _Turns real $90B shrink crisis into a precise, indexed-doc Data Contract lesson._
+- **PulseAid** — Treasury pulseboard · teaches **Superblocks** · _Maps superblock cadence to nonprofit cashflow — governance made legible and useful._
+- **AgentMist** — Tip jars blur amounts · teaches **CoinJoin** · _Honestly teaches CoinJoin's real model: amounts blend, routes stay visible._
+- ↳ lesson carried: _Avoid duplicate sim mechanics within one set — TapGuard/ChainSeal and NameTide/GuildID repeated identical lessons, wasting slots._
+
 ## 2026-08-01
 - **ShelfSeal** — Live loss ledgers · teaches **Data Contracts** · _Extends community-loved shrink concept; contract-indexed shrink docs solve a real $90B pro_
 - **TapGuard** — Tap fraud firewall · teaches **InstantSend** · _Teaches InstantSend's islock-wait pattern through a vivid, real fraud-prevention checkout _
