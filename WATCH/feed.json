@@ -2,6 +2,19 @@
   "username": "DashSupportTeam",
   "items": [
     {
+      "id": "2083948535825723716",
+      "text": "Dash ballot — 16 days to the vote cutoff\n14 active · 5 passing · 868/6,828 DASH allotted\n\nClosest to the line:\n• Critical vulnerabilities… — 1 short\n• Dash Core – Monthly Maintenance… — 41 short\n\nYour node, your call →",
+      "at": "2026-08-02T16:10:23.000Z",
+      "reply": false,
+      "count": 1,
+      "m": {
+        "l": 0,
+        "r": 0,
+        "c": 0
+      },
+      "url": "https://x.com/DashSupportTeam/status/2083948535825723716"
+    },
+    {
       "id": "2083942302297289057",
       "text": "Now 157 net yes · needs 149 more\n16 comments on DashCentral\n\nIts claim, not my endorsement — read it and decide:\n\nNew on the Dash ballot: Dash servers, channels, and chats without censorship or personality cults!\n\n1 DASH/mo · 25/25 payments left · by kotbykot",
       "at": "2026-08-02T15:45:37.000Z",
@@ -639,17 +652,17 @@
       "url": "https://x.com/DashSupportTeam/status/2080717282867548238"
     },
     {
-      "id": "2080716048916005002",
-      "text": "@0o20_ check the verified tutorials on https://t.co/oFK8Fje7qx.\n\nIf you've already engaged with this message, stop now and do not send any information or funds. The Dash Support Team is here if you need help verifying something.\n\nProtect yourself: \n· Never share your recovery phrase, passwords, or private keys with anyone — ever. \n· Never click links or connect your wallet to sites sent via DM. \n· If you're looking for real Dash projects, visit the official Dash forum (https://t.co/ZjYtOhpmOC) or",
+      "id": "2080716050098745396",
+      "text": "@0o20_ check the verified tutorials on https://t.co/oFK8Fje7qx.\n\nIf you've already engaged with this message, stop now and do not send any information or funds. The Dash Support Team is here if you need help verifying something.",
       "at": "2026-07-24T18:05:38.000Z",
       "reply": false,
-      "count": 2,
+      "count": 1,
       "m": {
         "l": 0,
         "r": 0,
-        "c": 1
+        "c": 0
       },
-      "url": "https://x.com/DashSupportTeam/status/2080716048916005002"
+      "url": "https://x.com/DashSupportTeam/status/2080716050098745396"
     }
   ],
   "mirrored": {
@@ -700,9 +713,10 @@
     "2083646547783242003": true,
     "2083827739539185818": true,
     "2083827740453589351": true,
-    "2080716048916005002": true,
     "2083942299604529366": true,
-    "2083942302297289057": true
+    "2083942302297289057": true,
+    "2080716050098745396": true,
+    "2083948535825723716": true
   },
-  "updated": "2026-08-02T16:05:20.631Z"
+  "updated": "2026-08-02T16:20:20.482Z"
 }
