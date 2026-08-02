@@ -2,7 +2,7 @@
   "seen": {
     "OrchardPay": {
       "passing": false,
-      "net": 8
+      "net": 18
     },
     "Dash-communities-without-censorship": {
       "passing": false,
@@ -65,5 +65,5 @@
   },
   "superblock": "2525632",
   "lastPassingCount": 5,
-  "updated": "2026-08-02T18:15:12.828Z"
+  "updated": "2026-08-02T18:45:13.091Z"
 }
