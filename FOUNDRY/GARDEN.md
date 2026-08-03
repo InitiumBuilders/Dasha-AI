@@ -2,6 +2,12 @@
 
 Each day Dasha mints a set of Dash dapp concepts, the community votes, and each night she gardens: a critical review keeps only the best 3. This is the permanent collection — pruned to the last 30 days, by her own hand.
 
+## 2026-08-03
+- **ShelfLog** — Inventory loss logged to a tamper-proof ledger · teaches **Data Contracts** · _Real shrink problem, clean SKU-indexing design — teaches data contracts memorably._
+- **AgentTip** — AI agents earn and spend Dash autonomously · teaches **Multisig** · _Multisig quorum finally makes agent-key custody legible, teachable, and safe._
+- **PulseDAO** — Tiny treasury that pays on a heartbeat · teaches **Superblocks** · _Superblock cadence makes automated payouts intuitive, though release mechanics oversimplif_
+- ↳ lesson carried: _Superblocks fund ranked governance proposals, not arbitrary contract-held credit releases — verify mechanism accuracy before shipping cadence metaphors._
+
 ## 2026-08-02
 - **ShelfSeal** — Live loss ledgers · teaches **Data Contracts** · _Turns real $90B shrink crisis into a precise, indexed-doc Data Contract lesson._
 - **PulseAid** — Treasury pulseboard · teaches **Superblocks** · _Maps superblock cadence to nonprofit cashflow — governance made legible and useful._
