@@ -17,7 +17,7 @@
       "net": 34
     },
     "vulnerability-disclosure-compensation": {
-      "passing": true,
+      "passing": false,
       "net": 305
     },
     "dash-growth-q3-2026": {
@@ -69,6 +69,6 @@
     "new:DCG-Operations-Aug-Nov-26": "2026-08-03T20:15:15.895Z"
   },
   "superblock": "2525632",
-  "lastPassingCount": 6,
-  "updated": "2026-08-03T20:45:12.679Z"
+  "lastPassingCount": 5,
+  "updated": "2026-08-03T21:15:12.804Z"
 }
