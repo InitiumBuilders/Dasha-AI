@@ -1,5 +1,9 @@
 {
   "seen": {
+    "DCG-Operations-Aug-Nov-26": {
+      "passing": false,
+      "net": 0
+    },
     "OrchardPay": {
       "passing": false,
       "net": 18
@@ -61,9 +65,10 @@
     "new:Dash-communities-without-censorship": "2026-07-23T16:43:32.344Z",
     "new:OrchardPay": "2026-07-29T18:45:12.880Z",
     "flip:vulnerability-disclosure-compensation:in:2525632": "2026-07-31T11:15:12.757Z",
-    "flip:vulnerability-disclosure-compensation:out:2525632": "2026-08-01T20:15:12.717Z"
+    "flip:vulnerability-disclosure-compensation:out:2525632": "2026-08-01T20:15:12.717Z",
+    "new:DCG-Operations-Aug-Nov-26": "2026-08-03T20:15:15.895Z"
   },
   "superblock": "2525632",
   "lastPassingCount": 6,
-  "updated": "2026-08-03T19:45:12.736Z"
+  "updated": "2026-08-03T20:15:15.895Z"
 }
