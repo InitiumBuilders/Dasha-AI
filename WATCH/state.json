@@ -2,7 +2,7 @@
   "seen": {
     "DCG-Operations-Aug-Nov-26": {
       "passing": false,
-      "net": 21
+      "net": 26
     },
     "OrchardPay": {
       "passing": false,
@@ -26,7 +26,7 @@
     },
     "BTCBackportsVijay_03": {
       "passing": false,
-      "net": 265
+      "net": 266
     },
     "2026-05-MakeDashASafeStoreOfValue": {
       "passing": false,
@@ -34,11 +34,11 @@
     },
     "GEG-PPP-30M-Film-On-Chain": {
       "passing": false,
-      "net": -248
+      "net": -249
     },
     "dash-masternode-tool-update-12": {
       "passing": true,
-      "net": 615
+      "net": 614
     },
     "revised-dashgo-m1": {
       "passing": false,
@@ -70,5 +70,5 @@
   },
   "superblock": "2525632",
   "lastPassingCount": 5,
-  "updated": "2026-08-04T08:45:12.946Z"
+  "updated": "2026-08-04T09:15:12.815Z"
 }
