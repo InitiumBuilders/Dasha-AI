@@ -6,7 +6,7 @@
     },
     "OrchardPay": {
       "passing": false,
-      "net": 18
+      "net": 19
     },
     "Dash-communities-without-censorship": {
       "passing": false,
@@ -30,7 +30,7 @@
     },
     "2026-05-MakeDashASafeStoreOfValue": {
       "passing": false,
-      "net": -270
+      "net": -271
     },
     "GEG-PPP-30M-Film-On-Chain": {
       "passing": false,
@@ -54,7 +54,7 @@
     },
     "dashcentral-operations3": {
       "passing": true,
-      "net": 528
+      "net": 529
     },
     "encointerUBI-mean26": {
       "passing": false,
@@ -70,5 +70,5 @@
   },
   "superblock": "2525632",
   "lastPassingCount": 5,
-  "updated": "2026-08-04T07:15:12.713Z"
+  "updated": "2026-08-04T07:45:12.754Z"
 }
