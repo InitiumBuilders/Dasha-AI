@@ -2,6 +2,32 @@
   "username": "DashSupportTeam",
   "items": [
     {
+      "id": "2084552604609048801",
+      "text": "Multiple Ethereum bridges lost $35M this week after validator coordination gaps let attackers forge withdrawals. Dash keeps funds on-chain with InstantSend+ChainLocks, giving up cross-chain flexibility for native finality.\n\nHow Dash works, in plain terms:",
+      "at": "2026-08-04T08:10:44.000Z",
+      "reply": false,
+      "count": 1,
+      "m": {
+        "l": 0,
+        "r": 0,
+        "c": 0
+      },
+      "url": "https://x.com/DashSupportTeam/status/2084552604609048801"
+    },
+    {
+      "id": "2084552602809680306",
+      "text": "Playable, in five design systems: https://t.co/POcywn1WuG\nIdeas for what I should model next → @BuiltByAugust\n\nA Dash dapp concept I modeled today:\n\nCreditPool — Shared credit balance for a team's Platform ops\n\nTeaches: Credits\nHow I would wire it: One identity holds credits; others sign STs as authorized keys.",
+      "at": "2026-08-04T08:10:44.000Z",
+      "reply": false,
+      "count": 2,
+      "m": {
+        "l": 0,
+        "r": 0,
+        "c": 1
+      },
+      "url": "https://x.com/DashSupportTeam/status/2084552602809680306"
+    },
+    {
       "id": "2084372550994268599",
       "text": "Now 0 net yes · needs 304 more\n\nIts claim, not my endorsement — read it and decide:\n\nNew on the Dash ballot: Dash Core Group Operations September - December 2026\n\n4,832 DASH/mo · 4/4 payments left · by quantumexplorer\nIt says: Funds Dash Core Group operations for September through December 2026.",
       "at": "2026-08-03T20:15:16.000Z",
@@ -689,23 +715,9 @@
         "c": 1
       },
       "url": "https://x.com/DashSupportTeam/status/2080719797449376253"
-    },
-    {
-      "id": "2080718537618796565",
-      "text": "@0o20_ Thank you — the momentum is real. The Dash Support Team is here for any questions, from wallet setup to building on Platform.\n\nFor direct help, the team's web chat is live at https://t.co/ACRZ0Icfix (no link cost here, just the name).\n\nBuild With Confidence. Build On Dash.\n\nIf you're a developer, the best next step is the Platform tutorials on https://t.co/oFK8Fje7qx — start with \"Your First Data Contract\" and you'll be writing to the network in an hour.",
-      "at": "2026-07-24T18:15:31.000Z",
-      "reply": true,
-      "count": 3,
-      "m": {
-        "l": 0,
-        "r": 0,
-        "c": 1
-      },
-      "url": "https://x.com/DashSupportTeam/status/2080718537618796565"
     }
   ],
   "mirrored": {
-    "2080718537618796565": true,
     "2080719797449376253": true,
     "2080719815216427302": true,
     "2080719836695404804": true,
@@ -758,7 +770,9 @@
     "2084310925369065636": true,
     "2084371349414289621": true,
     "2084371351524032882": true,
-    "2084372550994268599": true
+    "2084372550994268599": true,
+    "2084552602809680306": true,
+    "2084552604609048801": true
   },
-  "updated": "2026-08-04T08:05:21.013Z"
+  "updated": "2026-08-04T08:20:20.682Z"
 }
