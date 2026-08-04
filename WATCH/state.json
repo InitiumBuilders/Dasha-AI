@@ -58,7 +58,7 @@
     },
     "encointerUBI-mean26": {
       "passing": false,
-      "net": -197
+      "net": -198
     }
   },
   "fired": {
@@ -70,5 +70,5 @@
   },
   "superblock": "2525632",
   "lastPassingCount": 5,
-  "updated": "2026-08-04T09:15:12.815Z"
+  "updated": "2026-08-04T09:45:37.840Z"
 }
