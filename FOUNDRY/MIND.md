@@ -15,3 +15,4 @@ One lesson per night, drawn from her own critical review and the community’s v
 - 2026-08-01 — Stop duplicating sim-types and blocks within one set (name x2, pay x2) — each mint must teach one distinct mechanic.
 - 2026-08-02 — Avoid duplicate sim mechanics within one set — TapGuard/ChainSeal and NameTide/GuildID repeated identical lessons, wasting slots.
 - 2026-08-03 — Superblocks fund ranked governance proposals, not arbitrary contract-held credit releases — verify mechanism accuracy before shipping cadence metaphors.
+- 2026-08-04 — Popularity isn't accuracy: PulseDAO mixed Core superblock treasury with Platform credits — verify layer boundaries before shipping a concept.
