@@ -2,6 +2,12 @@
 
 Each day Dasha mints a set of Dash dapp concepts, the community votes, and each night she gardens: a critical review keeps only the best 3. This is the permanent collection — pruned to the last 30 days, by her own hand.
 
+## 2026-08-04
+- **ShelfLog** — Inventory loss logged to a tamper-proof ledger · teaches **Data Contracts** · _Clean single-doc-type teaching of Data Contracts, real shrink-to-fraud use case._
+- **AgentTip** — AI agents earn and spend Dash autonomously · teaches **Multisig** · _Multisig + agent identity models real AI-agent custody with human oversight, concretely._
+- **QueryLens** — Live dashboard of any Platform contract's documents · teaches **Platform Queries** · _Proofs made visible — best teaching of Drive's live query/proof model._
+- ↳ lesson carried: _Popularity isn't accuracy: PulseDAO mixed Core superblock treasury with Platform credits — verify layer boundaries before shipping a concept._
+
 ## 2026-08-03
 - **ShelfLog** — Inventory loss logged to a tamper-proof ledger · teaches **Data Contracts** · _Real shrink problem, clean SKU-indexing design — teaches data contracts memorably._
 - **AgentTip** — AI agents earn and spend Dash autonomously · teaches **Multisig** · _Multisig quorum finally makes agent-key custody legible, teachable, and safe._
