@@ -2,11 +2,11 @@
   "seen": {
     "DCG-Operations-Aug-Nov-26": {
       "passing": false,
-      "net": 20
+      "net": 21
     },
     "OrchardPay": {
       "passing": false,
-      "net": 19
+      "net": 20
     },
     "Dash-communities-without-censorship": {
       "passing": false,
@@ -38,7 +38,7 @@
     },
     "dash-masternode-tool-update-12": {
       "passing": true,
-      "net": 620
+      "net": 615
     },
     "revised-dashgo-m1": {
       "passing": false,
@@ -70,5 +70,5 @@
   },
   "superblock": "2525632",
   "lastPassingCount": 5,
-  "updated": "2026-08-04T08:15:12.690Z"
+  "updated": "2026-08-04T08:45:12.946Z"
 }
