@@ -2,7 +2,7 @@
   "seen": {
     "DCG-Operations-Aug-Nov-26": {
       "passing": false,
-      "net": 26
+      "net": 27
     },
     "OrchardPay": {
       "passing": false,
@@ -70,5 +70,5 @@
   },
   "superblock": "2525632",
   "lastPassingCount": 5,
-  "updated": "2026-08-04T11:15:29.704Z"
+  "updated": "2026-08-04T11:45:30.653Z"
 }
