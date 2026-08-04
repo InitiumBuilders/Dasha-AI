@@ -6,7 +6,7 @@
     },
     "OrchardPay": {
       "passing": false,
-      "net": 20
+      "net": 24
     },
     "Dash-communities-without-censorship": {
       "passing": false,
@@ -14,7 +14,7 @@
     },
     "dash-growth-marketing-budget": {
       "passing": false,
-      "net": 34
+      "net": 35
     },
     "vulnerability-disclosure-compensation": {
       "passing": false,
@@ -70,5 +70,5 @@
   },
   "superblock": "2525632",
   "lastPassingCount": 5,
-  "updated": "2026-08-04T09:45:37.840Z"
+  "updated": "2026-08-04T10:15:29.752Z"
 }
