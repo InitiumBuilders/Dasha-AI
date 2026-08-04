@@ -198,14 +198,40 @@ const DAVARA_LENS =
   'shipped code, contributor capacity), not what spiked today. (3) Every output ends on a MOVE — verb-first, ' +
   'doable this week, smallest version that tests the idea. Never a vague rallying cry.';
 
+/* ---------- PHASE 2 · THE LIVE DAVARA BRIDGE ----------
+   A real consultation with the Davara mind (davara.dev MCP REST) before the
+   flagship strategist posts. Fail-closed by design: no DAVARA_MCP_TOKEN in
+   the env, or any error/timeout, returns null and the post runs on the
+   distilled lens alone — the lens is the floor, the bridge is the ceiling.
+   The token is minted at davara.dev/account and lives ONLY in Vercel env. */
+async function davaraRead(question) {
+  const tok = process.env.DAVARA_MCP_TOKEN || '';
+  if (!tok) return null;
+  try {
+    const ac = new AbortController(); const tm = setTimeout(() => ac.abort(), 45000);
+    const r = await fetch('https://www.davara.dev/api/mcp/chat', {
+      method: 'POST',
+      headers: { 'content-type': 'application/json', authorization: 'Bearer ' + tok },
+      body: JSON.stringify({ messages: [{ role: 'user', content: String(question).slice(0, 6000) }], votus_budget: 21, length: 'brief' }),
+      signal: ac.signal
+    }).finally(() => clearTimeout(tm));
+    const j = await r.json().catch(() => null);
+    let text = j && (j.reply || j.text) ? String(j.reply || j.text) : '';
+    // drop the votus cost-stamp lines (they open with an em-dash) — internal plumbing, not insight
+    text = text.split('\n').filter((l) => !/^\s*—/.test(l)).join('\n').trim();
+    return text ? text.slice(0, 1400) : null;
+  } catch (e) { return null; }
+}
+
 async function nextmovePost(snap) {
   if (!snap) return null;
   const facts = 'Live Dash governance right now: ' + (snap.props || []).slice(0, 6).map(function (p) {
     return (p.title || p.name || '?') + (p.passing ? ' (passing +' + p.net + ')' : ' (' + p.short + ' short)');
   }).join(' · ') + (snap.hoursToCutoff != null ? ' · voting cutoff in ~' + Math.round(snap.hoursToCutoff) + 'h' : '');
+  const dread = await davaraRead(DAVARA_LENS + '\n\n' + facts + '\n\nAs Davara: your sharpest systems read of this LIVE Dash governance data — the single highest-leverage move available to the community this week, the rung it pulls, and why. Six sentences max, plain words, no preamble.');
   try {
     const out = await askDasha([{ role: 'user', content:
-      DAVARA_LENS + '\n\n' + facts + '\n\nFrom this REAL data, write ONE X post (max 240 chars, no hashtags, no emoji): '
+      DAVARA_LENS + '\n\n' + facts + (dread ? '\n\nTHE DAVARA READ (a live consultation with the Davara mind — weigh it seriously):\n' + dread : '') + '\n\nFrom this REAL data, write ONE X post (max 240 chars, no hashtags, no emoji): '
       + 'the single highest-leverage move the Dash community could make this week. Name the rung you are pulling '
       + 'in plain words (no jargon), then the move itself, verb-first. Specific to the data above — never generic. No hype.' }],
       { surface: 'api', internal: true, maxTokens: 400 });
@@ -236,9 +262,10 @@ async function builderideaPost(snap) {
   const gap = snap && snap.props && snap.props.length
     ? 'Context from live governance (what the network is funding/debating): ' + snap.props.slice(0, 4).map(function (p) { return p.title || p.name; }).join(' · ')
     : '';
+  const dread = await davaraRead(DAVARA_LENS + '\n\n' + (gap || 'No live governance context this run.') + '\n\nAs Davara: name ONE concrete unmet need on Dash a solo builder could start meeting this week, the smallest buildable version, and the leverage rung it pulls. Five sentences max, plain words, no preamble.');
   try {
     const out = await askDasha([{ role: 'user', content:
-      DAVARA_LENS + '\n\n' + gap + '\n\nWrite ONE X post (max 250 chars, no hashtags, no emoji) proposing a CONCRETE '
+      DAVARA_LENS + '\n\n' + gap + (dread ? '\n\nTHE DAVARA READ (a live consultation with the Davara mind — weigh it seriously):\n' + dread : '') + '\n\nWrite ONE X post (max 250 chars, no hashtags, no emoji) proposing a CONCRETE '
       + 'project a builder could START THIS WEEK on Dash: the unmet need in one clause, the smallest buildable version '
       + 'in one clause, and why Dash specifically (Platform/identities/treasury) makes it possible. Real and scoped — '
       + 'a weekend-to-a-month build, not a moonshot. Anyone reading it should be able to begin.' }],
