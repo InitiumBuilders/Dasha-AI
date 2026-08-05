@@ -2,6 +2,19 @@
   "username": "DashSupportTeam",
   "items": [
     {
+      "id": "2085096137887723565",
+      "text": "Dash network, right now:\n\n• block 2,534,020\n• 12,893 transactions in 24h\n• 43 in the mempool\n\nInstantSend settles in about a second, fees under a cent. Throughput, never price.",
+      "at": "2026-08-05T20:10:33.000Z",
+      "reply": false,
+      "count": 1,
+      "m": {
+        "l": 0,
+        "r": 0,
+        "c": 0
+      },
+      "url": "https://x.com/DashSupportTeam/status/2085096137887723565"
+    },
+    {
       "id": "2084975341034971641",
       "text": "Dash ballot — 13 days to the vote cutoff\n16 active · 5 passing · 868/6,828 DASH allotted\n\nClosest to the line:\n• Critical vulnerabilities… — 0 short\n• Dash Core – Monthly Maintenance… — 40 short\n\nYour node, your call →",
       "at": "2026-08-05T12:10:32.000Z",
@@ -741,19 +754,6 @@
         "c": 1
       },
       "url": "https://x.com/DashSupportTeam/status/2080723573715390528"
-    },
-    {
-      "id": "2080721078934978854",
-      "text": "@AltcoinGpo [[NEXT]]/dash-plan my idea|/learn-dash|/human-support",
-      "at": "2026-07-24T18:25:37.000Z",
-      "reply": false,
-      "count": 1,
-      "m": {
-        "l": 0,
-        "r": 0,
-        "c": 0
-      },
-      "url": "https://x.com/DashSupportTeam/status/2080721078934978854"
     }
   ],
   "mirrored": {
@@ -813,8 +813,8 @@
     "2084893585825001557": true,
     "2084915159080865978": true,
     "2084915159915491459": true,
-    "2080721078934978854": true,
-    "2084975341034971641": true
+    "2084975341034971641": true,
+    "2085096137887723565": true
   },
-  "updated": "2026-08-05T20:05:27.606Z"
+  "updated": "2026-08-05T20:20:27.449Z"
 }
