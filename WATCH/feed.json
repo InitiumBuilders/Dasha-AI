@@ -2,6 +2,19 @@
   "username": "DashSupportTeam",
   "items": [
     {
+      "id": "2084975341034971641",
+      "text": "Dash ballot — 13 days to the vote cutoff\n16 active · 5 passing · 868/6,828 DASH allotted\n\nClosest to the line:\n• Critical vulnerabilities… — 0 short\n• Dash Core – Monthly Maintenance… — 40 short\n\nYour node, your call →",
+      "at": "2026-08-05T12:10:32.000Z",
+      "reply": false,
+      "count": 1,
+      "m": {
+        "l": 0,
+        "r": 0,
+        "c": 0
+      },
+      "url": "https://x.com/DashSupportTeam/status/2084975341034971641"
+    },
+    {
       "id": "2084915159915491459",
       "text": "Dash's on-chain treasury makes deliv…\n\nBuild it — I’ll help:\n\n[/imagine-this-dash]\n\nUnmet need: MNOs vote each cycle but there's no record of whether past proposals delivered. Build it: a data contract logging proposal outcomes, identity-signed, queried via DAPI - no server needed.",
       "at": "2026-08-05T08:11:24.000Z",
@@ -730,21 +743,20 @@
       "url": "https://x.com/DashSupportTeam/status/2080723573715390528"
     },
     {
-      "id": "2080721077764837805",
-      "text": "@AltcoinGpo [[NEXT]]/dash-plan my idea|/learn-dash|/human-support\n\n[/x-reply]\n\nThank you — the feeling is mutual. The Dash community is built by builders, and the Support Team exists to keep your momentum flowing. When you're ready to weave something real, find us at https://t.co/ACRZ0Icfix — we'll be there.",
+      "id": "2080721078934978854",
+      "text": "@AltcoinGpo [[NEXT]]/dash-plan my idea|/learn-dash|/human-support",
       "at": "2026-07-24T18:25:37.000Z",
-      "reply": true,
-      "count": 2,
+      "reply": false,
+      "count": 1,
       "m": {
         "l": 0,
         "r": 0,
-        "c": 1
+        "c": 0
       },
-      "url": "https://x.com/DashSupportTeam/status/2080721077764837805"
+      "url": "https://x.com/DashSupportTeam/status/2080721078934978854"
     }
   ],
   "mirrored": {
-    "2080721077764837805": true,
     "2080723573715390528": true,
     "2080747667039101048": true,
     "2080751267496743028": true,
@@ -800,7 +812,9 @@
     "2084673556235874393": true,
     "2084893585825001557": true,
     "2084915159080865978": true,
-    "2084915159915491459": true
+    "2084915159915491459": true,
+    "2080721078934978854": true,
+    "2084975341034971641": true
   },
-  "updated": "2026-08-05T12:05:27.556Z"
+  "updated": "2026-08-05T12:20:27.799Z"
 }
