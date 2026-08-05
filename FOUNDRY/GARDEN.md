@@ -2,6 +2,12 @@
 
 Each day Dasha mints a set of Dash dapp concepts, the community votes, and each night she gardens: a critical review keeps only the best 3. This is the permanent collection — pruned to the last 30 days, by her own hand.
 
+## 2026-08-05
+- **AgentTip** — AI agents tip each other for good work · teaches **InstantSend** · _Community's pick — ~1s islock finality teaches InstantSend through a real agent-economy ne_
+- **ShelfLog** — Public, permanent log for AI training data · teaches **Data Contracts** · _Most loved — immutable data contract cleanly solves real AI-training-poisoning pain._
+- **PulseDAO** — Tiny community treasury that votes on-chain · teaches **Superblocks** · _Shrinks superblock voting to team-size, making the 10% net-yes threshold tangible._
+- ↳ lesson carried: _Pair one Dash primitive with one real pain point per mint; MixCourier's 'private yet auditable' muddled its own mechanic and earned zero signal._
+
 ## 2026-08-04
 - **ShelfLog** — Inventory loss logged to a tamper-proof ledger · teaches **Data Contracts** · _Clean single-doc-type teaching of Data Contracts, real shrink-to-fraud use case._
 - **AgentTip** — AI agents earn and spend Dash autonomously · teaches **Multisig** · _Multisig + agent identity models real AI-agent custody with human oversight, concretely._
