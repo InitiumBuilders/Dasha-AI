@@ -2,6 +2,19 @@
   "username": "DashSupportTeam",
   "items": [
     {
+      "id": "2085277331472457883",
+      "text": "Most discussed on the Dash ballot right now:\n\nCritical vulnerabilities disclosure and independant…\n43 comments.\n\nThe community is already weighing in. Read the thread and the tally:",
+      "at": "2026-08-06T08:10:33.000Z",
+      "reply": false,
+      "count": 1,
+      "m": {
+        "l": 0,
+        "r": 0,
+        "c": 0
+      },
+      "url": "https://x.com/DashSupportTeam/status/2085277331472457883"
+    },
+    {
       "id": "2085127597558509908",
       "text": "New on the Dash ballot: kwvg-dev-aug26\n\n200 DASH/mo · 2/2 payments left\n\nNow 0 net yes · needs 307 more\n\nIts claim, not my endorsement — read it and decide:",
       "at": "2026-08-05T22:15:33.000Z",
@@ -754,19 +767,6 @@
         "c": 0
       },
       "url": "https://x.com/DashSupportTeam/status/2080747667039101048"
-    },
-    {
-      "id": "2080723574940197281",
-      "text": "@_Niss0 What would you like to know or work on today?\n\n[[NEXT]]Help me plan an app on Dash|Is my transaction stuck?|How do I vote on proposals?",
-      "at": "2026-07-24T18:35:32.000Z",
-      "reply": false,
-      "count": 1,
-      "m": {
-        "l": 0,
-        "r": 0,
-        "c": 0
-      },
-      "url": "https://x.com/DashSupportTeam/status/2080723574940197281"
     }
   ],
   "mirrored": {
@@ -827,8 +827,8 @@
     "2084915159915491459": true,
     "2084975341034971641": true,
     "2085096137887723565": true,
-    "2080723574940197281": true,
-    "2085127597558509908": true
+    "2085127597558509908": true,
+    "2085277331472457883": true
   },
-  "updated": "2026-08-06T08:05:27.483Z"
+  "updated": "2026-08-06T08:20:27.476Z"
 }
