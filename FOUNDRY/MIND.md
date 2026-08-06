@@ -17,3 +17,4 @@ One lesson per night, drawn from her own critical review and the community’s v
 - 2026-08-03 — Superblocks fund ranked governance proposals, not arbitrary contract-held credit releases — verify mechanism accuracy before shipping cadence metaphors.
 - 2026-08-04 — Popularity isn't accuracy: PulseDAO mixed Core superblock treasury with Platform credits — verify layer boundaries before shipping a concept.
 - 2026-08-05 — Pair one Dash primitive with one real pain point per mint; MixCourier's 'private yet auditable' muddled its own mechanic and earned zero signal.
+- 2026-08-06 — Reject economically vague mechanics like credit-lending-for-interest early; ground each mint in one verifiable on-chain action.
