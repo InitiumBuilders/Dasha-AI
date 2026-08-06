@@ -2,6 +2,19 @@
   "username": "DashSupportTeam",
   "items": [
     {
+      "id": "2085337729559056651",
+      "text": "Dash ballot — 12 days to the vote cutoff\n17 active · 5 passing · 868/6,828 DASH allotted\n\nClosest to the line:\n• Critical vulnerabilities… — 1 short\n• Dash Core – Monthly Maintenance… — 33 short\n\nYour node, your call →",
+      "at": "2026-08-06T12:10:33.000Z",
+      "reply": false,
+      "count": 1,
+      "m": {
+        "l": 0,
+        "r": 0,
+        "c": 0
+      },
+      "url": "https://x.com/DashSupportTeam/status/2085337729559056651"
+    },
+    {
       "id": "2085277331472457883",
       "text": "Most discussed on the Dash ballot right now:\n\nCritical vulnerabilities disclosure and independant…\n43 comments.\n\nThe community is already weighing in. Read the thread and the tally:",
       "at": "2026-08-06T08:10:33.000Z",
@@ -754,23 +767,9 @@
         "c": 0
       },
       "url": "https://x.com/DashSupportTeam/status/2080751267496743028"
-    },
-    {
-      "id": "2080747667039101048",
-      "text": "What Dash builders asked me this week:\n\n• general help — 85%\n• imagine-this-dash — 12%\n• dash-plan — 4%\n\n26 questions answered. Aggregate only — no question, answer, or person is ever stored.\nhttps://t.co/ioDsDr0PrT\nWhat should I track next? → @BuiltByAugust",
-      "at": "2026-07-24T20:11:16.000Z",
-      "reply": false,
-      "count": 1,
-      "m": {
-        "l": 0,
-        "r": 0,
-        "c": 0
-      },
-      "url": "https://x.com/DashSupportTeam/status/2080747667039101048"
     }
   ],
   "mirrored": {
-    "2080747667039101048": true,
     "2080751267496743028": true,
     "2080928789484163078": true,
     "2080928791610741061": true,
@@ -828,7 +827,8 @@
     "2084975341034971641": true,
     "2085096137887723565": true,
     "2085127597558509908": true,
-    "2085277331472457883": true
+    "2085277331472457883": true,
+    "2085337729559056651": true
   },
-  "updated": "2026-08-06T12:05:27.463Z"
+  "updated": "2026-08-06T12:20:27.445Z"
 }
