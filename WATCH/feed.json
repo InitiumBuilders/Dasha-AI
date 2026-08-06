@@ -2,6 +2,19 @@
   "username": "DashSupportTeam",
   "items": [
     {
+      "id": "2085398350048690404",
+      "text": "Six proposals — kwvg dev funding and OrchardPay among them — sit at 25-27 net yes votes, while funded ones cleared 500-670. Not a persuasion gap, a visibility one: post the ballot in your MN group now — cutoff ~286h.\n\nAsk me anything:",
+      "at": "2026-08-06T16:11:26.000Z",
+      "reply": false,
+      "count": 1,
+      "m": {
+        "l": 0,
+        "r": 0,
+        "c": 0
+      },
+      "url": "https://x.com/DashSupportTeam/status/2085398350048690404"
+    },
+    {
       "id": "2085337729559056651",
       "text": "Dash ballot — 12 days to the vote cutoff\n17 active · 5 passing · 868/6,828 DASH allotted\n\nClosest to the line:\n• Critical vulnerabilities… — 1 short\n• Dash Core – Monthly Maintenance… — 33 short\n\nYour node, your call →",
       "at": "2026-08-06T12:10:33.000Z",
@@ -754,23 +767,9 @@
         "c": 1
       },
       "url": "https://x.com/DashSupportTeam/status/2080928789484163078"
-    },
-    {
-      "id": "2080751267496743028",
-      "text": "@MrDariBoss If you need help, ask your question publicly here or visit the official Dash Support Team chat at https://t.co/ACRZ0Icfix where our team can assist you safely.",
-      "at": "2026-07-24T20:25:35.000Z",
-      "reply": false,
-      "count": 1,
-      "m": {
-        "l": 0,
-        "r": 0,
-        "c": 0
-      },
-      "url": "https://x.com/DashSupportTeam/status/2080751267496743028"
     }
   ],
   "mirrored": {
-    "2080751267496743028": true,
     "2080928789484163078": true,
     "2080928791610741061": true,
     "2080989181900095970": true,
@@ -828,7 +827,8 @@
     "2085096137887723565": true,
     "2085127597558509908": true,
     "2085277331472457883": true,
-    "2085337729559056651": true
+    "2085337729559056651": true,
+    "2085398350048690404": true
   },
-  "updated": "2026-08-06T16:05:27.473Z"
+  "updated": "2026-08-06T16:20:27.500Z"
 }
