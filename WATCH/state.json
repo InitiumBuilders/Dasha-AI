@@ -6,7 +6,7 @@
     },
     "Dash-APAC-September-2026": {
       "passing": false,
-      "net": 32
+      "net": 148
     },
     "DCG-Operations-Aug-Nov-26": {
       "passing": false,
@@ -80,5 +80,5 @@
   },
   "superblock": "2525632",
   "lastPassingCount": 5,
-  "updated": "2026-08-07T15:15:29.705Z"
+  "updated": "2026-08-07T15:45:29.686Z"
 }
