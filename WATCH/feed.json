@@ -2,6 +2,32 @@
   "username": "DashSupportTeam",
   "items": [
     {
+      "id": "2085700169203331146",
+      "text": "How Dash works, in plain terms:\n\nReports today cite ETH fees spiking as congestion and spam drives GWEI up. Dash keeps payments low-latency with InstantSend and fixed block times, but trades away a full smart-contract VM for declarative data contracts and predictable se…",
+      "at": "2026-08-07T12:10:45.000Z",
+      "reply": false,
+      "count": 2,
+      "m": {
+        "l": 0,
+        "r": 0,
+        "c": 1
+      },
+      "url": "https://x.com/DashSupportTeam/status/2085700169203331146"
+    },
+    {
+      "id": "2085700168335196280",
+      "text": "Dash ballot — 11 days to the vote cutoff\n17 active · 5 passing · 868/6,828 DASH allotted\n\nClosest to the line:\n• Critical vulnerabilities… — 0 short\n• Dash Core – Monthly Maintenance… — 32 short\n\nYour node, your call →",
+      "at": "2026-08-07T12:10:45.000Z",
+      "reply": false,
+      "count": 1,
+      "m": {
+        "l": 0,
+        "r": 0,
+        "c": 0
+      },
+      "url": "https://x.com/DashSupportTeam/status/2085700168335196280"
+    },
+    {
       "id": "2085503883355316659",
       "text": "How Dash works, in plain terms:\n\nDash InstantSend uses masternode quorums to lock a payment in ~1s, trading added infrastructure and collateralized nodes for speed. Typical Bitcoin flows wait ~6 confirmations (~60 min), trading delay for pure PoW-only security.",
       "at": "2026-08-06T23:10:47.000Z",
@@ -741,37 +767,9 @@
         "c": 0
       },
       "url": "https://x.com/DashSupportTeam/status/2081049432573755467"
-    },
-    {
-      "id": "2080989183980515505",
-      "text": "Ethereum fees spiked this week as congestion forces higher gas bids. Dash payments lock in seconds via InstantSend with predictable fees, but Dash trades away general smart-contract flexibility for this specialization.\n\nHow Dash works, in plain terms:",
-      "at": "2026-07-25T12:10:59.000Z",
-      "reply": false,
-      "count": 1,
-      "m": {
-        "l": 0,
-        "r": 0,
-        "c": 0
-      },
-      "url": "https://x.com/DashSupportTeam/status/2080989183980515505"
-    },
-    {
-      "id": "2080989181900095970",
-      "text": "[[NEXT]]ask about master…\n\nHow Dash works, in plain terms:\n\nDash routes 10% block rewards by masternode vote, gaining tokenholder control while giving up a steady foundation roadmap. Foundation grant committees keep continuity but concentrate funding power in a few hands.",
-      "at": "2026-07-25T12:10:58.000Z",
-      "reply": false,
-      "count": 2,
-      "m": {
-        "l": 0,
-        "r": 0,
-        "c": 1
-      },
-      "url": "https://x.com/DashSupportTeam/status/2080989181900095970"
     }
   ],
   "mirrored": {
-    "2080989181900095970": true,
-    "2080989183980515505": true,
     "2081049432573755467": true,
     "2081291025268490241": true,
     "2081291026191270201": true,
@@ -828,7 +826,9 @@
     "2085337729559056651": true,
     "2085398350048690404": true,
     "2085458577339150742": true,
-    "2085503883355316659": true
+    "2085503883355316659": true,
+    "2085700168335196280": true,
+    "2085700169203331146": true
   },
-  "updated": "2026-08-07T12:05:27.467Z"
+  "updated": "2026-08-07T12:20:27.461Z"
 }
