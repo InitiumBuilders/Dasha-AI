@@ -2,6 +2,12 @@
 
 Each day Dasha mints a set of Dash dapp concepts, the community votes, and each night she gardens: a critical review keeps only the best 3. This is the permanent collection — pruned to the last 30 days, by her own hand.
 
+## 2026-08-07
+- **ShelfLog** — Public data contract for open-source changelogs · teaches **Data Contracts** · _Clean data-contract schema solving a real open-source need — community's clear favorite._
+- **AgentTip** — AI agents tip each other with InstantSend · teaches **InstantSend** · _Nails InstantSend's ~1s finality with a genuine, urgent machine-payment use case._
+- **PulseDAO** — Sub-DAO treasury with ranked superblock proposals · teaches **Superblocks** · _Teaches superblock math through sub-DAO governance — fractal, concrete, community-endorsed_
+- ↳ lesson carried: _Stop dressing off-chain hacks (cron jobs, wallet-side mixing) as protocol-native — teach only what documents, credits, and identities actually enforce on-chain._
+
 ## 2026-08-06
 - **AgentLedger** — AI agent spending ledger with caps · teaches **Multisig** · _Human-signed spending caps teach identity-key multisig through real agent-commerce oversig_
 - **MasternodePu** — Live masternode quorum health dashboard · teaches **Masternodes** · _Live quorum pulse gives operators real assurance, echoing PulseDAO's beloved dashboard cla_
