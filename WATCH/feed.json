@@ -2,6 +2,19 @@
   "username": "DashSupportTeam",
   "items": [
     {
+      "id": "2086034765916868986",
+      "text": "@augustjamesd Active proposals: 17 proposals are currently active, with 5 passing the net-10%-yes threshold and 2 very close to passing.\n\nClosest to passing:\n· Critical vulnerabilities disclosure and independent security contribution — needs just 1 more net yes vote to pass\n· Dash Core\n\nHere's the current Dash governance landscape:\n\nBudget: 6,828 DASH total, with 868 DASH allotted for this cycle. The next superblock (payment) is in 13 days on August 21, 2026.\n\nTo see all proposals and vote: Visit https://t.co/PHINLyR7j2 for the full ballot or https://t.co/0WNZsAGPMK for detailed proposal pages and discussion.\n\nFor regular Dash holders: You can influence governance by participating in discussions on https://t.co/0WNZsAGPMK comments and the Dash Forum — your voice shapes what proposals get submitted and how masternodes vote.\n\nProposals need a net-10%-yes threshold to pass — that's 10% more yes votes than no votes. Even if a proposal passes the threshold, it only gets funded if there's enough budget left after higher-ranked proposals.\n\nMonthly Maintenance &amp; Backports — needs 33 more net yes votes (deadline has passed but still has payments remaining)\n\nHow voting works: Only masternode owners vote (evonodes get 4 votes each).",
+      "at": "2026-08-08T10:20:19.000Z",
+      "reply": true,
+      "count": 6,
+      "m": {
+        "l": 0,
+        "r": 0,
+        "c": 1
+      },
+      "url": "https://x.com/DashSupportTeam/status/2086034765916868986"
+    },
+    {
       "id": "2085700169203331146",
       "text": "How Dash works, in plain terms:\n\nReports today cite ETH fees spiking as congestion and spam drives GWEI up. Dash keeps payments low-latency with InstantSend and fixed block times, but trades away a full smart-contract VM for declarative data contracts and predictable se…",
       "at": "2026-08-07T12:10:45.000Z",
@@ -744,7 +757,8 @@
     "2085458577339150742": true,
     "2085503883355316659": true,
     "2085700168335196280": true,
-    "2085700169203331146": true
+    "2085700169203331146": true,
+    "2086034765916868986": true
   },
-  "updated": "2026-08-08T10:20:27.463Z"
+  "updated": "2026-08-08T10:35:27.525Z"
 }
