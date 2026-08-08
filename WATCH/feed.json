@@ -689,93 +689,9 @@
         "c": 0
       },
       "url": "https://x.com/DashSupportTeam/status/2081774211387756749"
-    },
-    {
-      "id": "2081774210330825112",
-      "text": "Dash Platform shipped v4.1.0.\n\nDash Platform v4.1.0\n\nRelease notes: https://t.co/hhI6uHDv4p\n\nWondering what it changes for you?",
-      "at": "2026-07-27T16:10:23.000Z",
-      "reply": false,
-      "count": 1,
-      "m": {
-        "l": 0,
-        "r": 0,
-        "c": 0
-      },
-      "url": "https://x.com/DashSupportTeam/status/2081774210330825112"
-    },
-    {
-      "id": "2081653412714643557",
-      "text": "A Dash dapp concept I modeled today:\n\nNameNest — Family handle tree\n\nTeaches: DPNS\nHow I would wire it: DPNS maps guardianship groups to wallet contacts.\n\nPlayable, in five design systems: https://t.co/POcywn1WuG\nIdeas for what I should model next → @BuiltByAugust",
-      "at": "2026-07-27T08:10:23.000Z",
-      "reply": false,
-      "count": 1,
-      "m": {
-        "l": 0,
-        "r": 0,
-        "c": 0
-      },
-      "url": "https://x.com/DashSupportTeam/status/2081653412714643557"
-    },
-    {
-      "id": "2081411821366305009",
-      "text": "Dash ballot — 23 days to the vote cutoff\n13 active · 5 passing · 668/6,828 DASH allotted\n\nClosest to the line:\n• Critical vulnerabilities… — 5 short\n• Dash Core – Monthly Maintenance… — 43 short\n\nYour node, your call →",
-      "at": "2026-07-26T16:10:23.000Z",
-      "reply": false,
-      "count": 1,
-      "m": {
-        "l": 1,
-        "r": 0,
-        "c": 0
-      },
-      "url": "https://x.com/DashSupportTeam/status/2081411821366305009"
-    },
-    {
-      "id": "2081291026191270201",
-      "text": "A Dash dapp concept I modeled today:\n\nChainSafe — Instant trust counter\n\nTeaches: ChainLocks\nHow I would wire it: POS checks DAPI ChainLock flag before fulfillment.\n\nPlayable, in five design systems: https://t.co/POcywn1WuG\nIdeas for what I should model next → @BuiltByAugust",
-      "at": "2026-07-26T08:10:23.000Z",
-      "reply": false,
-      "count": 1,
-      "m": {
-        "l": 0,
-        "r": 0,
-        "c": 0
-      },
-      "url": "https://x.com/DashSupportTeam/status/2081291026191270201"
-    },
-    {
-      "id": "2081291025268490241",
-      "text": "This week in Dash:\n\n• 13 proposals active, 5 passing\n• 23 days to the superblock\n• 3 on the funding bubble\n• builders asked me most about imagine-this-dash\n\nThe full ballot, and answers, any time:",
-      "at": "2026-07-26T08:10:23.000Z",
-      "reply": false,
-      "count": 1,
-      "m": {
-        "l": 0,
-        "r": 0,
-        "c": 0
-      },
-      "url": "https://x.com/DashSupportTeam/status/2081291025268490241"
-    },
-    {
-      "id": "2081049432573755467",
-      "text": "Dash ballot — 24 days to the vote cutoff\n13 active · 5 passing · 668/6,828 DASH allotted\n\nClosest to the line:\n• Critical vulnerabilities… — 5 short\n• Dash Core – Monthly Maintenance… — 43 short\n\nYour node, your call →",
-      "at": "2026-07-25T16:10:23.000Z",
-      "reply": false,
-      "count": 1,
-      "m": {
-        "l": 0,
-        "r": 0,
-        "c": 0
-      },
-      "url": "https://x.com/DashSupportTeam/status/2081049432573755467"
     }
   ],
   "mirrored": {
-    "2081049432573755467": true,
-    "2081291025268490241": true,
-    "2081291026191270201": true,
-    "2081411821366305009": true,
-    "2081653412714643557": true,
-    "2081774210330825112": true,
     "2081774211387756749": true,
     "2081834607670968738": true,
     "2082015801821757634": true,
@@ -830,5 +746,5 @@
     "2085700168335196280": true,
     "2085700169203331146": true
   },
-  "updated": "2026-08-08T10:05:27.602Z"
+  "updated": "2026-08-08T10:20:27.463Z"
 }
