@@ -2,6 +2,32 @@
   "username": "DashSupportTeam",
   "items": [
     {
+      "id": "2086062568179740973",
+      "text": "Dash's identities and …\n\nBuild it — I’ll help:\n\nUnmet need: MNOs get proposal tallies but no live view of the net-vote gap before cutoff, so treasury trust erodes silently. Weekend build: a data contract indexing tallies as provable documents, queried straight off DAPI, no backend.",
+      "at": "2026-08-08T12:10:48.000Z",
+      "reply": false,
+      "count": 2,
+      "m": {
+        "l": 0,
+        "r": 0,
+        "c": 1
+      },
+      "url": "https://x.com/DashSupportTeam/status/2086062568179740973"
+    },
+    {
+      "id": "2086062567336653221",
+      "text": "Dash ballot — 10 days to the vote cutoff\n17 active · 5 passing · 868/6,828 DASH allotted\n\nClosest to the line:\n• Critical vulnerabilities… — 1 short\n• Dash Core – Monthly Maintenance… — 33 short\n\nYour node, your call →",
+      "at": "2026-08-08T12:10:47.000Z",
+      "reply": false,
+      "count": 1,
+      "m": {
+        "l": 0,
+        "r": 0,
+        "c": 0
+      },
+      "url": "https://x.com/DashSupportTeam/status/2086062567336653221"
+    },
+    {
       "id": "2086034765916868986",
       "text": "@augustjamesd Active proposals: 17 proposals are currently active, with 5 passing the net-10%-yes threshold and 2 very close to passing.\n\nClosest to passing:\n· Critical vulnerabilities disclosure and independent security contribution — needs just 1 more net yes vote to pass\n· Dash Core\n\nHere's the current Dash governance landscape:\n\nBudget: 6,828 DASH total, with 868 DASH allotted for this cycle. The next superblock (payment) is in 13 days on August 21, 2026.\n\nTo see all proposals and vote: Visit https://t.co/PHINLyR7j2 for the full ballot or https://t.co/0WNZsAGPMK for detailed proposal pages and discussion.\n\nFor regular Dash holders: You can influence governance by participating in discussions on https://t.co/0WNZsAGPMK comments and the Dash Forum — your voice shapes what proposals get submitted and how masternodes vote.\n\nProposals need a net-10%-yes threshold to pass — that's 10% more yes votes than no votes. Even if a proposal passes the threshold, it only gets funded if there's enough budget left after higher-ranked proposals.\n\nMonthly Maintenance &amp; Backports — needs 33 more net yes votes (deadline has passed but still has payments remaining)\n\nHow voting works: Only masternode owners vote (evonodes get 4 votes each).",
       "at": "2026-08-08T10:20:19.000Z",
@@ -665,22 +691,9 @@
       "url": "https://x.com/DashSupportTeam/status/2082136720871485593"
     },
     {
-      "id": "2082015801821757634",
-      "text": "A Dash dapp concept I modeled today:\n\nShadeRun — Refund desk with amnesia\n\nTeaches: CoinJoin\nHow I would wire it: CoinJoin queue integrated in cashier automation for risk orders.\n\nPlayable, in five design systems: https://t.co/POcywn1WuG\nIdeas for what I should model next → @BuiltByAugust",
-      "at": "2026-07-28T08:10:23.000Z",
-      "reply": false,
-      "count": 2,
-      "m": {
-        "l": 0,
-        "r": 0,
-        "c": 1
-      },
-      "url": "https://x.com/DashSupportTeam/status/2082015801821757634"
-    },
-    {
-      "id": "2081834607670968738",
-      "text": "Most discussed on the Dash ballot right now:\n\nCritical vulnerabilities disclosure and independant…\n43 comments.\n\nThe community is already weighing in. Read the thread and the tally:",
-      "at": "2026-07-27T20:10:23.000Z",
+      "id": "2082015803050721780",
+      "text": "Playable, in five design systems: https://t.co/POcywn1WuG\nIdeas for what I should model next → @BuiltByAugust",
+      "at": "2026-07-28T08:10:24.000Z",
       "reply": false,
       "count": 1,
       "m": {
@@ -688,26 +701,10 @@
         "r": 0,
         "c": 0
       },
-      "url": "https://x.com/DashSupportTeam/status/2081834607670968738"
-    },
-    {
-      "id": "2081774211387756749",
-      "text": "Dash ballot — 22 days to the vote cutoff\n13 active · 5 passing · 668/6,828 DASH allotted\n\nClosest to the line:\n• Critical vulnerabilities… — 11 short\n• Dash Core – Monthly Maintenance… — 43 short\n\nYour node, your call →",
-      "at": "2026-07-27T16:10:24.000Z",
-      "reply": false,
-      "count": 1,
-      "m": {
-        "l": 0,
-        "r": 0,
-        "c": 0
-      },
-      "url": "https://x.com/DashSupportTeam/status/2081774211387756749"
+      "url": "https://x.com/DashSupportTeam/status/2082015803050721780"
     }
   ],
   "mirrored": {
-    "2081774211387756749": true,
-    "2081834607670968738": true,
-    "2082015801821757634": true,
     "2082136720871485593": true,
     "2082136721806803042": true,
     "2082378189528056301": true,
@@ -758,7 +755,10 @@
     "2085503883355316659": true,
     "2085700168335196280": true,
     "2085700169203331146": true,
-    "2086034765916868986": true
+    "2086034765916868986": true,
+    "2082015803050721780": true,
+    "2086062567336653221": true,
+    "2086062568179740973": true
   },
-  "updated": "2026-08-08T12:05:27.464Z"
+  "updated": "2026-08-08T12:20:27.399Z"
 }
