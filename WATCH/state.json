@@ -22,7 +22,7 @@
     },
     "dash-growth-marketing-budget": {
       "passing": false,
-      "net": 47
+      "net": 51
     },
     "vulnerability-disclosure-compensation": {
       "passing": false,
@@ -30,7 +30,7 @@
     },
     "dash-growth-q3-2026": {
       "passing": true,
-      "net": 332
+      "net": 336
     },
     "BTCBackportsVijay_03": {
       "passing": false,
@@ -62,7 +62,7 @@
     },
     "dashcentral-operations3": {
       "passing": true,
-      "net": 529
+      "net": 533
     },
     "encointerUBI-mean26": {
       "passing": false,
@@ -80,5 +80,5 @@
   },
   "superblock": "2525632",
   "lastPassingCount": 5,
-  "updated": "2026-08-09T18:45:29.724Z"
+  "updated": "2026-08-09T19:15:29.742Z"
 }
