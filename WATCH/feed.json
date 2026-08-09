@@ -2,6 +2,19 @@
   "username": "DashSupportTeam",
   "items": [
     {
+      "id": "2086364498001002741",
+      "text": "This week in Dash:\n\n• 17 proposals active, 5 passing\n• 9 days to the superblock\n• 2 on the funding bubble\n\nThe full ballot, and answers, any time:",
+      "at": "2026-08-09T08:10:33.000Z",
+      "reply": false,
+      "count": 1,
+      "m": {
+        "l": 0,
+        "r": 0,
+        "c": 0
+      },
+      "url": "https://x.com/DashSupportTeam/status/2086364498001002741"
+    },
+    {
       "id": "2086062568179740973",
       "text": "Dash's identities and …\n\nBuild it — I’ll help:\n\nUnmet need: MNOs get proposal tallies but no live view of the net-vote gap before cutoff, so treasury trust erodes silently. Weekend build: a data contract indexing tallies as provable documents, queried straight off DAPI, no backend.",
       "at": "2026-08-08T12:10:48.000Z",
@@ -689,19 +702,6 @@
         "c": 0
       },
       "url": "https://x.com/DashSupportTeam/status/2082136720871485593"
-    },
-    {
-      "id": "2082015803050721780",
-      "text": "Playable, in five design systems: https://t.co/POcywn1WuG\nIdeas for what I should model next → @BuiltByAugust",
-      "at": "2026-07-28T08:10:24.000Z",
-      "reply": false,
-      "count": 1,
-      "m": {
-        "l": 0,
-        "r": 0,
-        "c": 0
-      },
-      "url": "https://x.com/DashSupportTeam/status/2082015803050721780"
     }
   ],
   "mirrored": {
@@ -756,9 +756,9 @@
     "2085700168335196280": true,
     "2085700169203331146": true,
     "2086034765916868986": true,
-    "2082015803050721780": true,
     "2086062567336653221": true,
-    "2086062568179740973": true
+    "2086062568179740973": true,
+    "2086364498001002741": true
   },
-  "updated": "2026-08-09T08:05:27.462Z"
+  "updated": "2026-08-09T08:20:27.492Z"
 }
