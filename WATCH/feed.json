@@ -2,6 +2,32 @@
   "username": "DashSupportTeam",
   "items": [
     {
+      "id": "2086424899212452225",
+      "text": "Most discussed on the Dash ballot right now:\n\nCritical vulnerabilities disclosure and independant…\n44 comments.\n\nThe community is already weighing in. Read the thread and the tally:",
+      "at": "2026-08-09T12:10:34.000Z",
+      "reply": false,
+      "count": 1,
+      "m": {
+        "l": 0,
+        "r": 0,
+        "c": 0
+      },
+      "url": "https://x.com/DashSupportTeam/status/2086424899212452225"
+    },
+    {
+      "id": "2086424898289676402",
+      "text": "Dash ballot — 9 days to the vote cutoff\n17 active · 5 passing · 668/6,828 DASH allotted\n\nClosest to the line:\n• Critical vulnerabilities… — 13 short\n• Dash Core – Monthly Maintenance… — 33 short\n\nYour node, your call →",
+      "at": "2026-08-09T12:10:34.000Z",
+      "reply": false,
+      "count": 1,
+      "m": {
+        "l": 0,
+        "r": 0,
+        "c": 0
+      },
+      "url": "https://x.com/DashSupportTeam/status/2086424898289676402"
+    },
+    {
       "id": "2086364498001002741",
       "text": "This week in Dash:\n\n• 17 proposals active, 5 passing\n• 9 days to the superblock\n• 2 on the funding bubble\n\nThe full ballot, and answers, any time:",
       "at": "2026-08-09T08:10:33.000Z",
@@ -676,37 +702,9 @@
         "c": 1
       },
       "url": "https://x.com/DashSupportTeam/status/2082378189528056301"
-    },
-    {
-      "id": "2082136721806803042",
-      "text": "Institutions settling bond trades on Ethereum L1 this week pushed gas prices back into triple digits. Dash’s InstantSend keeps predictable fees but gives up on-chain smart-contract logic for declarative payments.\n\nHow Dash works, in plain terms:",
-      "at": "2026-07-28T16:10:53.000Z",
-      "reply": false,
-      "count": 1,
-      "m": {
-        "l": 0,
-        "r": 0,
-        "c": 0
-      },
-      "url": "https://x.com/DashSupportTeam/status/2082136721806803042"
-    },
-    {
-      "id": "2082136720871485593",
-      "text": "Dash ballot — 21 days to the vote cutoff\n13 active · 5 passing · 668/6,828 DASH allotted\n\nClosest to the line:\n• Critical vulnerabilities… — 11 short\n• Dash Core – Monthly Maintenance… — 43 short\n\nYour node, your call →",
-      "at": "2026-07-28T16:10:53.000Z",
-      "reply": false,
-      "count": 1,
-      "m": {
-        "l": 0,
-        "r": 0,
-        "c": 0
-      },
-      "url": "https://x.com/DashSupportTeam/status/2082136720871485593"
     }
   ],
   "mirrored": {
-    "2082136720871485593": true,
-    "2082136721806803042": true,
     "2082378189528056301": true,
     "2082499089560686967": true,
     "2082499090412130376": true,
@@ -758,7 +756,9 @@
     "2086034765916868986": true,
     "2086062567336653221": true,
     "2086062568179740973": true,
-    "2086364498001002741": true
+    "2086364498001002741": true,
+    "2086424898289676402": true,
+    "2086424899212452225": true
   },
-  "updated": "2026-08-09T12:05:27.548Z"
+  "updated": "2026-08-09T12:20:27.401Z"
 }
