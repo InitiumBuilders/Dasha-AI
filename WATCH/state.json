@@ -2,19 +2,19 @@
   "seen": {
     "kwvg-dev-aug26": {
       "passing": false,
-      "net": 58
+      "net": 68
     },
     "Dash-APAC-September-2026": {
       "passing": false,
-      "net": 155
+      "net": 165
     },
     "DCG-Operations-Aug-Nov-26": {
       "passing": false,
-      "net": 69
+      "net": 79
     },
     "OrchardPay": {
       "passing": false,
-      "net": 25
+      "net": 35
     },
     "Dash-communities-without-censorship": {
       "passing": false,
@@ -80,5 +80,5 @@
   },
   "superblock": "2525632",
   "lastPassingCount": 5,
-  "updated": "2026-08-09T09:15:29.889Z"
+  "updated": "2026-08-09T09:45:29.799Z"
 }
