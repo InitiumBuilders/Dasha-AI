@@ -1,5 +1,9 @@
 {
   "seen": {
+    "Dash-Europe-Aug-Sep-2026": {
+      "passing": false,
+      "net": 0
+    },
     "kwvg-dev-aug26": {
       "passing": false,
       "net": 68
@@ -76,9 +80,10 @@
     "flip:vulnerability-disclosure-compensation:out:2525632": "2026-08-01T20:15:12.717Z",
     "new:DCG-Operations-Aug-Nov-26": "2026-08-03T20:15:15.895Z",
     "new:Dash-APAC-September-2026": "2026-08-05T06:45:40.056Z",
-    "new:kwvg-dev-aug26": "2026-08-05T22:15:33.089Z"
+    "new:kwvg-dev-aug26": "2026-08-05T22:15:33.089Z",
+    "new:Dash-Europe-Aug-Sep-2026": "2026-08-10T17:15:30.270Z"
   },
   "superblock": "2525632",
   "lastPassingCount": 5,
-  "updated": "2026-08-10T16:45:29.898Z"
+  "updated": "2026-08-10T17:15:30.270Z"
 }
