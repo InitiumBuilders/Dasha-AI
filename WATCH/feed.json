@@ -2,6 +2,19 @@
   "username": "DashSupportTeam",
   "items": [
     {
+      "id": "2086787288231448681",
+      "text": "Dash ballot — 8 days to the vote cutoff\n17 active · 5 passing · 668/6,828 DASH allotted\n\nClosest to the line:\n• Critical vulnerabilities… — 13 short\n• Dash Core – Monthly Maintenance… — 33 short\n\nYour node, your call →",
+      "at": "2026-08-10T12:10:34.000Z",
+      "reply": false,
+      "count": 1,
+      "m": {
+        "l": 0,
+        "r": 0,
+        "c": 0
+      },
+      "url": "https://x.com/DashSupportTeam/status/2086787288231448681"
+    },
+    {
       "id": "2086424899212452225",
       "text": "Most discussed on the Dash ballot right now:\n\nCritical vulnerabilities disclosure and independant…\n44 comments.\n\nThe community is already weighing in. Read the thread and the tally:",
       "at": "2026-08-09T12:10:34.000Z",
@@ -691,21 +704,20 @@
       "url": "https://x.com/DashSupportTeam/status/2082499089560686967"
     },
     {
-      "id": "2082378189528056301",
-      "text": "Playable, in five design systems: https://t.co/POcywn1WuG\nIdeas for what I should model next → @BuiltByAugust\n\nA Dash dapp concept I modeled today:\n\nBotNull — Query storms flag swarms early\n\nTeaches: Platform Queries\nHow I would wire it: Platform query index monitors anomalous doc bursts hourly.",
+      "id": "2082378190547243441",
+      "text": "Playable, in five design systems: https://t.co/POcywn1WuG\nIdeas for what I should model next → @BuiltByAugust",
       "at": "2026-07-29T08:10:23.000Z",
       "reply": false,
-      "count": 2,
+      "count": 1,
       "m": {
         "l": 0,
         "r": 0,
-        "c": 1
+        "c": 0
       },
-      "url": "https://x.com/DashSupportTeam/status/2082378189528056301"
+      "url": "https://x.com/DashSupportTeam/status/2082378190547243441"
     }
   ],
   "mirrored": {
-    "2082378189528056301": true,
     "2082499089560686967": true,
     "2082499090412130376": true,
     "2082537949736898683": true,
@@ -758,7 +770,9 @@
     "2086062568179740973": true,
     "2086364498001002741": true,
     "2086424898289676402": true,
-    "2086424899212452225": true
+    "2086424899212452225": true,
+    "2082378190547243441": true,
+    "2086787288231448681": true
   },
-  "updated": "2026-08-10T12:05:27.530Z"
+  "updated": "2026-08-10T12:20:27.720Z"
 }
