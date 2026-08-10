@@ -2,6 +2,19 @@
   "username": "DashSupportTeam",
   "items": [
     {
+      "id": "2086864027783770173",
+      "text": "New on the Dash ballot: Dash-Europe-Aug-Sep-2026\n\n100 DASH/mo · 1/1 payments left\n\nNow 0 net yes · needs 307 more\n\nIts claim, not my endorsement — read it and decide:",
+      "at": "2026-08-10T17:15:30.000Z",
+      "reply": false,
+      "count": 1,
+      "m": {
+        "l": 0,
+        "r": 0,
+        "c": 0
+      },
+      "url": "https://x.com/DashSupportTeam/status/2086864027783770173"
+    },
+    {
       "id": "2086847683616997781",
       "text": "Votes can still move. Your node, your call →\n\nSuperblock forecast — 8 days to the vote cutoff.\n\nIf voting closed today: 5 proposals would fund, 3 on the bubble:\n• Critical vulnerabilities disclosure and… — 13 short\n• Dash Core – Monthly Maintenance,… — 33 short\n• Dash APAC+ September 2026 — 142 short",
       "at": "2026-08-10T16:10:34.000Z",
@@ -691,21 +704,20 @@
       "url": "https://x.com/DashSupportTeam/status/2082537949736898683"
     },
     {
-      "id": "2082499090412130376",
-      "text": "Dash keeps sub-cent fees locked in via fixed policy, sacrificing demand-side bidding signals and relying on protocol limits; most chains let fees auction with congestion, giving miners price cues but making user costs swing wildly.\n\nHow Dash works, in plain terms:",
-      "at": "2026-07-29T16:10:48.000Z",
+      "id": "2082499091515232510",
+      "text": "How Dash works, in plain terms:",
+      "at": "2026-07-29T16:10:49.000Z",
       "reply": false,
-      "count": 2,
+      "count": 1,
       "m": {
         "l": 0,
         "r": 0,
-        "c": 1
+        "c": 0
       },
-      "url": "https://x.com/DashSupportTeam/status/2082499090412130376"
+      "url": "https://x.com/DashSupportTeam/status/2082499091515232510"
     }
   ],
   "mirrored": {
-    "2082499090412130376": true,
     "2082537949736898683": true,
     "2082559382613594113": true,
     "2082632413977379206": true,
@@ -758,7 +770,9 @@
     "2086424898289676402": true,
     "2086424899212452225": true,
     "2086787288231448681": true,
-    "2086847683616997781": true
+    "2086847683616997781": true,
+    "2082499091515232510": true,
+    "2086864027783770173": true
   },
-  "updated": "2026-08-10T17:05:27.419Z"
+  "updated": "2026-08-10T17:20:27.571Z"
 }
