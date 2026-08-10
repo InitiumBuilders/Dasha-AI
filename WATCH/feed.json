@@ -2,6 +2,19 @@
   "username": "DashSupportTeam",
   "items": [
     {
+      "id": "2086847683616997781",
+      "text": "Votes can still move. Your node, your call →\n\nSuperblock forecast — 8 days to the vote cutoff.\n\nIf voting closed today: 5 proposals would fund, 3 on the bubble:\n• Critical vulnerabilities disclosure and… — 13 short\n• Dash Core – Monthly Maintenance,… — 33 short\n• Dash APAC+ September 2026 — 142 short",
+      "at": "2026-08-10T16:10:34.000Z",
+      "reply": false,
+      "count": 2,
+      "m": {
+        "l": 0,
+        "r": 0,
+        "c": 1
+      },
+      "url": "https://x.com/DashSupportTeam/status/2086847683616997781"
+    },
+    {
       "id": "2086787288231448681",
       "text": "Dash ballot — 8 days to the vote cutoff\n17 active · 5 passing · 668/6,828 DASH allotted\n\nClosest to the line:\n• Critical vulnerabilities… — 13 short\n• Dash Core – Monthly Maintenance… — 33 short\n\nYour node, your call →",
       "at": "2026-08-10T12:10:34.000Z",
@@ -689,36 +702,9 @@
         "c": 1
       },
       "url": "https://x.com/DashSupportTeam/status/2082499090412130376"
-    },
-    {
-      "id": "2082499089560686967",
-      "text": "Dash ballot — 20 days to the vote cutoff\n13 active · 5 passing · 668/6,828 DASH allotted\n\nClosest to the line:\n• Critical vulnerabilities… — 4 short\n• Dash Core – Monthly Maintenance… — 40 short\n\nYour node, your call →",
-      "at": "2026-07-29T16:10:48.000Z",
-      "reply": false,
-      "count": 1,
-      "m": {
-        "l": 0,
-        "r": 0,
-        "c": 0
-      },
-      "url": "https://x.com/DashSupportTeam/status/2082499089560686967"
-    },
-    {
-      "id": "2082378190547243441",
-      "text": "Playable, in five design systems: https://t.co/POcywn1WuG\nIdeas for what I should model next → @BuiltByAugust",
-      "at": "2026-07-29T08:10:23.000Z",
-      "reply": false,
-      "count": 1,
-      "m": {
-        "l": 0,
-        "r": 0,
-        "c": 0
-      },
-      "url": "https://x.com/DashSupportTeam/status/2082378190547243441"
     }
   ],
   "mirrored": {
-    "2082499089560686967": true,
     "2082499090412130376": true,
     "2082537949736898683": true,
     "2082559382613594113": true,
@@ -771,8 +757,8 @@
     "2086364498001002741": true,
     "2086424898289676402": true,
     "2086424899212452225": true,
-    "2082378190547243441": true,
-    "2086787288231448681": true
+    "2086787288231448681": true,
+    "2086847683616997781": true
   },
-  "updated": "2026-08-10T16:05:27.551Z"
+  "updated": "2026-08-10T16:20:27.563Z"
 }
