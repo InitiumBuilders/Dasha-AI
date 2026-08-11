@@ -2,6 +2,32 @@
   "username": "DashSupportTeam",
   "items": [
     {
+      "id": "2087149677313483038",
+      "text": "Accountability check.\n\nDash Growth Q3 2026: Growth Marketing and Business Development\n530 DASH/month · the_desert_lynx\n2 of 3 payments made so far.\n\nThe network funded this. I keep the record — I do not score anyone.",
+      "at": "2026-08-11T12:10:35.000Z",
+      "reply": false,
+      "count": 1,
+      "m": {
+        "l": 0,
+        "r": 0,
+        "c": 0
+      },
+      "url": "https://x.com/DashSupportTeam/status/2087149677313483038"
+    },
+    {
+      "id": "2087149676466192837",
+      "text": "Dash ballot — 7 days to the vote cutoff\n18 active · 5 passing · 668/6,828 DASH allotted\n\nClosest to the line:\n• Critical vulnerabilities… — 13 short\n• Dash Core – Monthly Maintenance… — 33 short\n\nYour node, your call →",
+      "at": "2026-08-11T12:10:34.000Z",
+      "reply": false,
+      "count": 1,
+      "m": {
+        "l": 0,
+        "r": 0,
+        "c": 0
+      },
+      "url": "https://x.com/DashSupportTeam/status/2087149676466192837"
+    },
+    {
       "id": "2086864027783770173",
       "text": "New on the Dash ballot: Dash-Europe-Aug-Sep-2026\n\n100 DASH/mo · 1/1 payments left\n\nNow 0 net yes · needs 307 more\n\nIts claim, not my endorsement — read it and decide:",
       "at": "2026-08-10T17:15:30.000Z",
@@ -689,36 +715,9 @@
         "c": 0
       },
       "url": "https://x.com/DashSupportTeam/status/2082559382613594113"
-    },
-    {
-      "id": "2082537949736898683",
-      "text": "New on the Dash ballot: OrchardPay\n\n1 DASH/mo · 24/24 payments left · by OrchardPayTL\n\nNow 0 net yes · needs 306 more\n\nIts claim, not my endorsement — read it and decide:",
-      "at": "2026-07-29T18:45:13.000Z",
-      "reply": false,
-      "count": 1,
-      "m": {
-        "l": 0,
-        "r": 0,
-        "c": 0
-      },
-      "url": "https://x.com/DashSupportTeam/status/2082537949736898683"
-    },
-    {
-      "id": "2082499091515232510",
-      "text": "How Dash works, in plain terms:",
-      "at": "2026-07-29T16:10:49.000Z",
-      "reply": false,
-      "count": 1,
-      "m": {
-        "l": 0,
-        "r": 0,
-        "c": 0
-      },
-      "url": "https://x.com/DashSupportTeam/status/2082499091515232510"
     }
   ],
   "mirrored": {
-    "2082537949736898683": true,
     "2082559382613594113": true,
     "2082632413977379206": true,
     "2082740579952214454": true,
@@ -771,8 +770,9 @@
     "2086424899212452225": true,
     "2086787288231448681": true,
     "2086847683616997781": true,
-    "2082499091515232510": true,
-    "2086864027783770173": true
+    "2086864027783770173": true,
+    "2087149676466192837": true,
+    "2087149677313483038": true
   },
-  "updated": "2026-08-11T12:05:27.542Z"
+  "updated": "2026-08-11T12:20:27.475Z"
 }
