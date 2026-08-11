@@ -26,7 +26,7 @@
     },
     "dash-growth-marketing-budget": {
       "passing": false,
-      "net": 60
+      "net": 64
     },
     "vulnerability-disclosure-compensation": {
       "passing": false,
@@ -34,11 +34,11 @@
     },
     "dash-growth-q3-2026": {
       "passing": true,
-      "net": 340
+      "net": 344
     },
     "BTCBackportsVijay_03": {
       "passing": false,
-      "net": 274
+      "net": 278
     },
     "2026-05-MakeDashASafeStoreOfValue": {
       "passing": false,
@@ -50,7 +50,7 @@
     },
     "dash-masternode-tool-update-12": {
       "passing": true,
-      "net": 630
+      "net": 634
     },
     "revised-dashgo-m1": {
       "passing": false,
@@ -58,7 +58,7 @@
     },
     "Dash-Italia-Management-2026": {
       "passing": true,
-      "net": 428
+      "net": 432
     },
     "mnowatch-hosting-2026": {
       "passing": true,
@@ -85,5 +85,5 @@
   },
   "superblock": "2525632",
   "lastPassingCount": 5,
-  "updated": "2026-08-11T23:16:27.211Z"
+  "updated": "2026-08-11T23:45:29.736Z"
 }
