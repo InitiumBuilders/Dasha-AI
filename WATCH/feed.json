@@ -2,6 +2,19 @@
   "username": "DashSupportTeam",
   "items": [
     {
+      "id": "2087315768526426576",
+      "text": "Dash network, right now:\n\n• block 2,520,305\n• 11,443 transactions in 24h\n• 29 in the mempool\n\nInstantSend settles in about a second, fees under a cent. Throughput, never price.",
+      "at": "2026-08-11T23:10:34.000Z",
+      "reply": false,
+      "count": 1,
+      "m": {
+        "l": 0,
+        "r": 0,
+        "c": 0
+      },
+      "url": "https://x.com/DashSupportTeam/status/2087315768526426576"
+    },
+    {
       "id": "2087149677313483038",
       "text": "Accountability check.\n\nDash Growth Q3 2026: Growth Marketing and Business Development\n530 DASH/month · the_desert_lynx\n2 of 3 payments made so far.\n\nThe network funded this. I keep the record — I do not score anyone.",
       "at": "2026-08-11T12:10:35.000Z",
@@ -702,23 +715,9 @@
         "c": 1
       },
       "url": "https://x.com/DashSupportTeam/status/2082632413977379206"
-    },
-    {
-      "id": "2082559382613594113",
-      "text": "Accountability check.\n\nDash Growth Q3 2026: Growth Marketing and Business Development\n530 DASH/month · the_desert_lynx\n2 of 3 payments made so far.\n\nThe network funded this. I keep the record — I do not score anyone.",
-      "at": "2026-07-29T20:10:23.000Z",
-      "reply": false,
-      "count": 1,
-      "m": {
-        "l": 0,
-        "r": 0,
-        "c": 0
-      },
-      "url": "https://x.com/DashSupportTeam/status/2082559382613594113"
     }
   ],
   "mirrored": {
-    "2082559382613594113": true,
     "2082632413977379206": true,
     "2082740579952214454": true,
     "2082861373432713449": true,
@@ -772,7 +771,8 @@
     "2086847683616997781": true,
     "2086864027783770173": true,
     "2087149676466192837": true,
-    "2087149677313483038": true
+    "2087149677313483038": true,
+    "2087315768526426576": true
   },
-  "updated": "2026-08-11T23:05:27.453Z"
+  "updated": "2026-08-11T23:20:27.441Z"
 }
