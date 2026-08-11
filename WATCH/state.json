@@ -50,7 +50,7 @@
     },
     "dash-masternode-tool-update-12": {
       "passing": true,
-      "net": 622
+      "net": 630
     },
     "revised-dashgo-m1": {
       "passing": false,
@@ -85,5 +85,5 @@
   },
   "superblock": "2525632",
   "lastPassingCount": 5,
-  "updated": "2026-08-11T22:15:29.635Z"
+  "updated": "2026-08-11T22:45:29.712Z"
 }
