@@ -2,6 +2,19 @@
   "username": "DashSupportTeam",
   "items": [
     {
+      "id": "2087512062016544851",
+      "text": "Dash ballot — 6 days to the vote cutoff\n19 active · 5 passing · 668/6,828 DASH allotted\n\nClosest to the line:\n• Critical vulnerabilities… — 17 short\n• Dash Core – Monthly Maintenance… — 29 short\n\nYour node, your call →",
+      "at": "2026-08-12T12:10:34.000Z",
+      "reply": false,
+      "count": 1,
+      "m": {
+        "l": 0,
+        "r": 0,
+        "c": 0
+      },
+      "url": "https://x.com/DashSupportTeam/status/2087512062016544851"
+    },
+    {
       "id": "2087505756127891666",
       "text": "New on the Dash ballot: Dash Multilingual Expansion | July\n\n70 DASH/mo · 1/1 payments left · by VONNY\n\nNow 0 net yes · needs 311 more\n\nIts claim, not my endorsement — read it and decide:",
       "at": "2026-08-12T11:45:30.000Z",
@@ -717,17 +730,17 @@
       "url": "https://x.com/DashSupportTeam/status/2082740579952214454"
     },
     {
-      "id": "2082632415311270097",
-      "text": "@SharonMac661502 Anyone who does is trying to steal your funds.\n\nIf you received this in a DM, block and report the account. Never connect your wallet or enter a seed phrase on any site linked from a DM.\n\nhttps://t.co/ACRZ0Icfix for help.\n\nYour recovery phrase is the keys to your money — no legitimate service will ever ask for it.\n\nThe real Dash community and support channels are public: @DashPay on X, https://t.co/oFK8Fje7qx for official information, and the Dash Support Team chat at",
-      "at": "2026-07-30T01:00:35.000Z",
+      "id": "2082632416468885519",
+      "text": "@SharonMac661502 @Dashpay https://t.co/ACRZ0Icfix for help.\n\nYour recovery phrase is the keys to your money — no legitimate service will ever ask for it.\n\nThe real Dash community and support channels are public: @DashPay on X, https://t.co/oFK8Fje7qx for official information, and the Dash Support Team chat at",
+      "at": "2026-07-30T01:00:36.000Z",
       "reply": false,
-      "count": 3,
+      "count": 2,
       "m": {
         "l": 0,
         "r": 0,
         "c": 1
       },
-      "url": "https://x.com/DashSupportTeam/status/2082632415311270097"
+      "url": "https://x.com/DashSupportTeam/status/2082632416468885519"
     }
   ],
   "mirrored": {
@@ -785,8 +798,9 @@
     "2087149676466192837": true,
     "2087149677313483038": true,
     "2087315768526426576": true,
-    "2082632415311270097": true,
-    "2087505756127891666": true
+    "2087505756127891666": true,
+    "2082632416468885519": true,
+    "2087512062016544851": true
   },
-  "updated": "2026-08-12T12:05:27.878Z"
+  "updated": "2026-08-12T12:20:27.437Z"
 }
