@@ -22,11 +22,11 @@
     },
     "Dash-communities-without-censorship": {
       "passing": false,
-      "net": 156
+      "net": 152
     },
     "dash-growth-marketing-budget": {
       "passing": false,
-      "net": 64
+      "net": 68
     },
     "vulnerability-disclosure-compensation": {
       "passing": false,
@@ -34,15 +34,15 @@
     },
     "dash-growth-q3-2026": {
       "passing": true,
-      "net": 344
+      "net": 348
     },
     "BTCBackportsVijay_03": {
       "passing": false,
-      "net": 278
+      "net": 282
     },
     "2026-05-MakeDashASafeStoreOfValue": {
       "passing": false,
-      "net": -271
+      "net": -275
     },
     "GEG-PPP-30M-Film-On-Chain": {
       "passing": false,
@@ -85,5 +85,5 @@
   },
   "superblock": "2525632",
   "lastPassingCount": 5,
-  "updated": "2026-08-11T23:45:29.736Z"
+  "updated": "2026-08-12T00:15:29.685Z"
 }
