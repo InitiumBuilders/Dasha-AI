@@ -2,6 +2,19 @@
   "username": "DashSupportTeam",
   "items": [
     {
+      "id": "2087611452932702493",
+      "text": "New on the Dash ballot: Business-development-Events-September\n\n85 DASH/mo · 1/1 payments left · by Artemiy_nur\n\nNow 0 net yes · needs 311 more\n\nIts claim, not my endorsement — read it and decide:",
+      "at": "2026-08-12T18:45:30.000Z",
+      "reply": false,
+      "count": 1,
+      "m": {
+        "l": 0,
+        "r": 0,
+        "c": 0
+      },
+      "url": "https://x.com/DashSupportTeam/status/2087611452932702493"
+    },
+    {
       "id": "2087572460572942412",
       "text": "Most discussed on the Dash ballot right now:\n\nCritical vulnerabilities disclosure and independant…\n44 comments.\n\nThe community is already weighing in. Read the thread and the tally:",
       "at": "2026-08-12T16:10:34.000Z",
@@ -741,19 +754,6 @@
         "c": 1
       },
       "url": "https://x.com/DashSupportTeam/status/2082740579952214454"
-    },
-    {
-      "id": "2082632417941098775",
-      "text": "@SharonMac661502 @Dashpay https://t.co/ACRZ0Icfix for help.",
-      "at": "2026-07-30T01:00:36.000Z",
-      "reply": false,
-      "count": 1,
-      "m": {
-        "l": 0,
-        "r": 0,
-        "c": 0
-      },
-      "url": "https://x.com/DashSupportTeam/status/2082632417941098775"
     }
   ],
   "mirrored": {
@@ -813,8 +813,8 @@
     "2087315768526426576": true,
     "2087505756127891666": true,
     "2087512062016544851": true,
-    "2082632417941098775": true,
-    "2087572460572942412": true
+    "2087572460572942412": true,
+    "2087611452932702493": true
   },
-  "updated": "2026-08-12T18:35:27.487Z"
+  "updated": "2026-08-12T18:50:27.580Z"
 }
