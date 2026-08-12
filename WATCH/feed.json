@@ -2,6 +2,19 @@
   "username": "DashSupportTeam",
   "items": [
     {
+      "id": "2087505756127891666",
+      "text": "New on the Dash ballot: Dash Multilingual Expansion | July\n\n70 DASH/mo · 1/1 payments left · by VONNY\n\nNow 0 net yes · needs 311 more\n\nIts claim, not my endorsement — read it and decide:",
+      "at": "2026-08-12T11:45:30.000Z",
+      "reply": false,
+      "count": 1,
+      "m": {
+        "l": 1,
+        "r": 1,
+        "c": 0
+      },
+      "url": "https://x.com/DashSupportTeam/status/2087505756127891666"
+    },
+    {
       "id": "2087315768526426576",
       "text": "Dash network, right now:\n\n• block 2,520,305\n• 11,443 transactions in 24h\n• 29 in the mempool\n\nInstantSend settles in about a second, fees under a cent. Throughput, never price.",
       "at": "2026-08-11T23:10:34.000Z",
@@ -704,21 +717,20 @@
       "url": "https://x.com/DashSupportTeam/status/2082740579952214454"
     },
     {
-      "id": "2082632413977379206",
-      "text": "@SharonMac661502 Anyone who does is trying to steal your funds.\n\nIf you received this in a DM, block and report the account. Never connect your wallet or enter a seed phrase on any site linked from a DM.\n\n[/scam-check]\n\nThis is a scam — a classic \"don't miss out\" bait with a suspicious link. The Dash Support Team never DMs first, never runs giveaways, and never asks you to click a link to claim something.\n\nhttps://t.co/ACRZ0Icfix for help.\n\nYour recovery phrase is the keys to your money — no legitimate service will ever ask for it.\n\nThe real Dash community and support channels are public: @DashPay on X, https://t.co/oFK8Fje7qx for official information, and the Dash Support Team chat at",
+      "id": "2082632415311270097",
+      "text": "@SharonMac661502 Anyone who does is trying to steal your funds.\n\nIf you received this in a DM, block and report the account. Never connect your wallet or enter a seed phrase on any site linked from a DM.\n\nhttps://t.co/ACRZ0Icfix for help.\n\nYour recovery phrase is the keys to your money — no legitimate service will ever ask for it.\n\nThe real Dash community and support channels are public: @DashPay on X, https://t.co/oFK8Fje7qx for official information, and the Dash Support Team chat at",
       "at": "2026-07-30T01:00:35.000Z",
-      "reply": true,
-      "count": 4,
+      "reply": false,
+      "count": 3,
       "m": {
         "l": 0,
         "r": 0,
         "c": 1
       },
-      "url": "https://x.com/DashSupportTeam/status/2082632413977379206"
+      "url": "https://x.com/DashSupportTeam/status/2082632415311270097"
     }
   ],
   "mirrored": {
-    "2082632413977379206": true,
     "2082740579952214454": true,
     "2082861373432713449": true,
     "2082921772991566128": true,
@@ -772,7 +784,9 @@
     "2086864027783770173": true,
     "2087149676466192837": true,
     "2087149677313483038": true,
-    "2087315768526426576": true
+    "2087315768526426576": true,
+    "2082632415311270097": true,
+    "2087505756127891666": true
   },
-  "updated": "2026-08-12T11:35:27.442Z"
+  "updated": "2026-08-12T11:50:27.546Z"
 }
