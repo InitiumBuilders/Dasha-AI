@@ -2,7 +2,7 @@
   "seen": {
     "Business-development-Events-September": {
       "passing": false,
-      "net": 26
+      "net": 29
     },
     "DASH-MULTILINGUAL-EXPANSION_Aug": {
       "passing": false,
@@ -18,11 +18,11 @@
     },
     "Dash-APAC-September-2026": {
       "passing": false,
-      "net": 193
+      "net": 194
     },
     "DCG-Operations-Aug-Nov-26": {
       "passing": false,
-      "net": 132
+      "net": 135
     },
     "OrchardPay": {
       "passing": false,
@@ -95,5 +95,5 @@
   },
   "superblock": "2525632",
   "lastPassingCount": 5,
-  "updated": "2026-08-13T08:45:29.802Z"
+  "updated": "2026-08-13T09:15:29.695Z"
 }
