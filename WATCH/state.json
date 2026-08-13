@@ -16,6 +16,10 @@
       "passing": false,
       "net": -3
     },
+    "EUROPEAN-BLOCKCHAIN-CONVENTION-2026": {
+      "passing": false,
+      "net": 0
+    },
     "Business-development-Events-September": {
       "passing": false,
       "net": 33
@@ -109,9 +113,10 @@
     "new:DASH-MULTILINGUAL-EXPANSION_Aug": "2026-08-12T11:45:30.320Z",
     "new:Business-development-Events-September": "2026-08-12T18:45:30.270Z",
     "new:pshenmic-dev-dashscan-september-2026": "2026-08-13T13:15:30.308Z",
-    "new:pshenmic-dev-dash-desktop-september-2026": "2026-08-13T13:15:30.308Z"
+    "new:pshenmic-dev-dash-desktop-september-2026": "2026-08-13T13:15:30.308Z",
+    "new:EUROPEAN-BLOCKCHAIN-CONVENTION-2026": "2026-08-13T18:45:30.287Z"
   },
   "superblock": "2525632",
   "lastPassingCount": 6,
-  "updated": "2026-08-13T18:15:29.813Z"
+  "updated": "2026-08-13T18:45:30.287Z"
 }
