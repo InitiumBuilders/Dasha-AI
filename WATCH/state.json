@@ -10,19 +10,19 @@
     },
     "Dash-Europe-Aug-Sep-2026": {
       "passing": false,
-      "net": 149
+      "net": 155
     },
     "kwvg-dev-aug26": {
       "passing": false,
-      "net": 99
+      "net": 100
     },
     "Dash-APAC-September-2026": {
       "passing": false,
-      "net": 194
+      "net": 200
     },
     "DCG-Operations-Aug-Nov-26": {
       "passing": false,
-      "net": 135
+      "net": 136
     },
     "OrchardPay": {
       "passing": false,
@@ -38,7 +38,7 @@
     },
     "vulnerability-disclosure-compensation": {
       "passing": false,
-      "net": 295
+      "net": 297
     },
     "dash-growth-q3-2026": {
       "passing": true,
@@ -95,5 +95,5 @@
   },
   "superblock": "2525632",
   "lastPassingCount": 5,
-  "updated": "2026-08-13T09:15:29.695Z"
+  "updated": "2026-08-13T09:45:29.781Z"
 }
