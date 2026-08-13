@@ -26,7 +26,7 @@
     },
     "Dash-Europe-Aug-Sep-2026": {
       "passing": false,
-      "net": 156
+      "net": 160
     },
     "kwvg-dev-aug26": {
       "passing": false,
@@ -34,7 +34,7 @@
     },
     "Dash-APAC-September-2026": {
       "passing": false,
-      "net": 196
+      "net": 200
     },
     "DCG-Operations-Aug-Nov-26": {
       "passing": false,
@@ -113,5 +113,5 @@
   },
   "superblock": "2525632",
   "lastPassingCount": 5,
-  "updated": "2026-08-13T15:15:29.747Z"
+  "updated": "2026-08-13T15:45:29.831Z"
 }
