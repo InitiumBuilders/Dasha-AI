@@ -2,7 +2,7 @@
   "seen": {
     "Business-development-Events-September": {
       "passing": false,
-      "net": 0
+      "net": 25
     },
     "DASH-MULTILINGUAL-EXPANSION_Aug": {
       "passing": false,
@@ -10,19 +10,19 @@
     },
     "Dash-Europe-Aug-Sep-2026": {
       "passing": false,
-      "net": 147
+      "net": 149
     },
     "kwvg-dev-aug26": {
       "passing": false,
-      "net": 97
+      "net": 98
     },
     "Dash-APAC-September-2026": {
       "passing": false,
-      "net": 191
+      "net": 192
     },
     "DCG-Operations-Aug-Nov-26": {
       "passing": false,
-      "net": 125
+      "net": 132
     },
     "OrchardPay": {
       "passing": false,
@@ -38,7 +38,7 @@
     },
     "vulnerability-disclosure-compensation": {
       "passing": false,
-      "net": 294
+      "net": 295
     },
     "dash-growth-q3-2026": {
       "passing": true,
@@ -95,5 +95,5 @@
   },
   "superblock": "2525632",
   "lastPassingCount": 5,
-  "updated": "2026-08-13T07:45:29.716Z"
+  "updated": "2026-08-13T08:15:29.655Z"
 }
