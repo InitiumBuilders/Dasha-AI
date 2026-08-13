@@ -2,47 +2,47 @@
   "seen": {
     "pshenmic-dev-dashscan-september-2026": {
       "passing": false,
-      "net": 0
+      "net": -3
     },
     "pshenmic-dev-dash-desktop-september-2026": {
       "passing": false,
-      "net": 0
+      "net": -3
     },
     "pshenmic-dev-pe-september-2026": {
       "passing": false,
-      "net": 0
+      "net": -3
     },
     "pshenmic-dev-dfo-september-2026": {
       "passing": false,
-      "net": 0
+      "net": -3
     },
     "Business-development-Events-September": {
       "passing": false,
-      "net": 36
+      "net": 33
     },
     "DASH-MULTILINGUAL-EXPANSION_Aug": {
       "passing": false,
-      "net": 24
+      "net": 21
     },
     "Dash-Europe-Aug-Sep-2026": {
       "passing": false,
-      "net": 159
+      "net": 156
     },
     "kwvg-dev-aug26": {
       "passing": false,
-      "net": 105
+      "net": 102
     },
     "Dash-APAC-September-2026": {
       "passing": false,
-      "net": 199
+      "net": 196
     },
     "DCG-Operations-Aug-Nov-26": {
       "passing": false,
-      "net": 149
+      "net": 146
     },
     "OrchardPay": {
       "passing": false,
-      "net": 59
+      "net": 62
     },
     "Dash-communities-without-censorship": {
       "passing": false,
@@ -53,12 +53,12 @@
       "net": 70
     },
     "vulnerability-disclosure-compensation": {
-      "passing": false,
-      "net": 306
+      "passing": true,
+      "net": 312
     },
     "dash-growth-q3-2026": {
       "passing": true,
-      "net": 348
+      "net": 354
     },
     "BTCBackportsVijay_03": {
       "passing": false,
@@ -66,7 +66,7 @@
     },
     "2026-05-MakeDashASafeStoreOfValue": {
       "passing": false,
-      "net": -275
+      "net": -281
     },
     "GEG-PPP-30M-Film-On-Chain": {
       "passing": false,
@@ -112,6 +112,6 @@
     "new:pshenmic-dev-dash-desktop-september-2026": "2026-08-13T13:15:30.308Z"
   },
   "superblock": "2525632",
-  "lastPassingCount": 5,
-  "updated": "2026-08-13T13:15:30.308Z"
+  "lastPassingCount": 6,
+  "updated": "2026-08-13T13:45:29.695Z"
 }
