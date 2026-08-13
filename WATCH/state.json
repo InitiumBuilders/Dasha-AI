@@ -2,7 +2,7 @@
   "seen": {
     "Business-development-Events-September": {
       "passing": false,
-      "net": 25
+      "net": 26
     },
     "DASH-MULTILINGUAL-EXPANSION_Aug": {
       "passing": false,
@@ -14,11 +14,11 @@
     },
     "kwvg-dev-aug26": {
       "passing": false,
-      "net": 98
+      "net": 99
     },
     "Dash-APAC-September-2026": {
       "passing": false,
-      "net": 192
+      "net": 193
     },
     "DCG-Operations-Aug-Nov-26": {
       "passing": false,
@@ -95,5 +95,5 @@
   },
   "superblock": "2525632",
   "lastPassingCount": 5,
-  "updated": "2026-08-13T08:15:29.655Z"
+  "updated": "2026-08-13T08:45:29.802Z"
 }
