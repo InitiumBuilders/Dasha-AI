@@ -14,11 +14,11 @@
     },
     "kwvg-dev-aug26": {
       "passing": false,
-      "net": 104
+      "net": 105
     },
     "Dash-APAC-September-2026": {
       "passing": false,
-      "net": 203
+      "net": 199
     },
     "DCG-Operations-Aug-Nov-26": {
       "passing": false,
@@ -38,7 +38,7 @@
     },
     "vulnerability-disclosure-compensation": {
       "passing": false,
-      "net": 305
+      "net": 306
     },
     "dash-growth-q3-2026": {
       "passing": true,
@@ -95,5 +95,5 @@
   },
   "superblock": "2525632",
   "lastPassingCount": 5,
-  "updated": "2026-08-13T12:15:29.895Z"
+  "updated": "2026-08-13T12:45:29.710Z"
 }
