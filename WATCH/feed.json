@@ -2,6 +2,19 @@
   "username": "DashSupportTeam",
   "items": [
     {
+      "id": "2087973840991166741",
+      "text": "New on the Dash ballot: EUROPEAN BLOCKCHAIN CONVENTION 2026\n\n82 DASH/mo · 1/1 payments left · by Artemiy_nur\n\nNow 0 net yes · needs 311 more\n\nIts claim, not my endorsement — read it and decide:",
+      "at": "2026-08-13T18:45:31.000Z",
+      "reply": false,
+      "count": 1,
+      "m": {
+        "l": 0,
+        "r": 0,
+        "c": 0
+      },
+      "url": "https://x.com/DashSupportTeam/status/2087973840991166741"
+    },
+    {
       "id": "2087890794631889342",
       "text": "New on the Dash ballot: pshenmic-dev-dash-desktop-september-2026\n\n250 DASH/mo · 1/1 payments left\n\nNow 0 net yes · needs 312 more\n\nIts claim, not my endorsement — read it and decide:",
       "at": "2026-08-13T13:15:31.000Z",
@@ -741,23 +754,9 @@
         "c": 1
       },
       "url": "https://x.com/DashSupportTeam/status/2083102971110289613"
-    },
-    {
-      "id": "2082967072401744204",
-      "text": "Most discussed on the Dash ballot right now:\n\nCritical vulnerabilities disclosure and independant…\n43 comments.\n\nThe community is already weighing in. Read the thread and the tally:",
-      "at": "2026-07-30T23:10:24.000Z",
-      "reply": false,
-      "count": 1,
-      "m": {
-        "l": 0,
-        "r": 0,
-        "c": 0
-      },
-      "url": "https://x.com/DashSupportTeam/status/2082967072401744204"
     }
   ],
   "mirrored": {
-    "2082967072401744204": true,
     "2083102971110289613": true,
     "2083149479503405288": true,
     "2083223766239232382": true,
@@ -814,7 +813,8 @@
     "2087632857267052788": true,
     "2087874453443101081": true,
     "2087890793700749820": true,
-    "2087890794631889342": true
+    "2087890794631889342": true,
+    "2087973840991166741": true
   },
-  "updated": "2026-08-13T18:35:27.459Z"
+  "updated": "2026-08-13T18:50:28.265Z"
 }
