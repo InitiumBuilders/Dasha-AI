@@ -2,6 +2,32 @@
   "username": "DashSupportTeam",
   "items": [
     {
+      "id": "2087890794631889342",
+      "text": "New on the Dash ballot: pshenmic-dev-dash-desktop-september-2026\n\n250 DASH/mo · 1/1 payments left\n\nNow 0 net yes · needs 312 more\n\nIts claim, not my endorsement — read it and decide:",
+      "at": "2026-08-13T13:15:31.000Z",
+      "reply": false,
+      "count": 1,
+      "m": {
+        "l": 0,
+        "r": 0,
+        "c": 0
+      },
+      "url": "https://x.com/DashSupportTeam/status/2087890794631889342"
+    },
+    {
+      "id": "2087890793700749820",
+      "text": "New on the Dash ballot: pshenmic-dev-dashscan-september-2026\n\n50 DASH/mo · 1/1 payments left\n\nNow 0 net yes · needs 312 more\n\nIts claim, not my endorsement — read it and decide:",
+      "at": "2026-08-13T13:15:31.000Z",
+      "reply": false,
+      "count": 1,
+      "m": {
+        "l": 0,
+        "r": 0,
+        "c": 0
+      },
+      "url": "https://x.com/DashSupportTeam/status/2087890793700749820"
+    },
+    {
       "id": "2087874453443101081",
       "text": "Dash ballot — 5 days to the vote cutoff\n20 active · 5 passing · 668/6,828 DASH allotted\n\nClosest to the line:\n• Critical vulnerabilities… — 7 short\n• Dash Core – Monthly Maintenance… — 30 short\n\nYour node, your call →",
       "at": "2026-08-13T12:10:35.000Z",
@@ -728,37 +754,9 @@
         "c": 0
       },
       "url": "https://x.com/DashSupportTeam/status/2082967072401744204"
-    },
-    {
-      "id": "2082967071533547608",
-      "text": "What Dash builders asked me this week:\n\n• general help — 84%\n• imagine-this-dash — 12%\n• doc-dive — 4%\n\n24 questions answered. Aggregate only — no question, answer, or person is ever stored.\nhttps://t.co/ioDsDr0PrT\nWhat should I track next? → @BuiltByAugust",
-      "at": "2026-07-30T23:10:24.000Z",
-      "reply": false,
-      "count": 1,
-      "m": {
-        "l": 0,
-        "r": 0,
-        "c": 0
-      },
-      "url": "https://x.com/DashSupportTeam/status/2082967071533547608"
-    },
-    {
-      "id": "2082921772991566128",
-      "text": "Dash network, right now:\n\n• block 2,530,728\n• 11,580 transactions in 24h\n• 11 in the mempool\n\nInstantSend settles in about a second, fees under a cent. Throughput, never price.",
-      "at": "2026-07-30T20:10:24.000Z",
-      "reply": false,
-      "count": 1,
-      "m": {
-        "l": 0,
-        "r": 0,
-        "c": 0
-      },
-      "url": "https://x.com/DashSupportTeam/status/2082921772991566128"
     }
   ],
   "mirrored": {
-    "2082921772991566128": true,
-    "2082967071533547608": true,
     "2082967072401744204": true,
     "2083102971110289613": true,
     "2083149479503405288": true,
@@ -814,7 +812,9 @@
     "2087572460572942412": true,
     "2087611452932702493": true,
     "2087632857267052788": true,
-    "2087874453443101081": true
+    "2087874453443101081": true,
+    "2087890793700749820": true,
+    "2087890794631889342": true
   },
-  "updated": "2026-08-13T13:05:27.736Z"
+  "updated": "2026-08-13T13:20:27.461Z"
 }
