@@ -2,6 +2,19 @@
   "username": "DashSupportTeam",
   "items": [
     {
+      "id": "2087874453443101081",
+      "text": "Dash ballot — 5 days to the vote cutoff\n20 active · 5 passing · 668/6,828 DASH allotted\n\nClosest to the line:\n• Critical vulnerabilities… — 7 short\n• Dash Core – Monthly Maintenance… — 30 short\n\nYour node, your call →",
+      "at": "2026-08-13T12:10:35.000Z",
+      "reply": false,
+      "count": 1,
+      "m": {
+        "l": 0,
+        "r": 0,
+        "c": 0
+      },
+      "url": "https://x.com/DashSupportTeam/status/2087874453443101081"
+    },
+    {
       "id": "2087632857267052788",
       "text": "Votes can still move. Your node, your call →\n\nSuperblock forecast — 6 days to the vote cutoff.\n\nIf voting closed today: 5 proposals would fund, 3 on the bubble:\n• Critical vulnerabilities disclosure and… — 17 short\n• Dash Core – Monthly Maintenance,… — 29 short\n• Dash APAC+ September 2026 — 145 short",
       "at": "2026-08-12T20:10:34.000Z",
@@ -741,23 +754,9 @@
         "c": 0
       },
       "url": "https://x.com/DashSupportTeam/status/2082921772991566128"
-    },
-    {
-      "id": "2082861373432713449",
-      "text": "Dash ballot — 19 days to the vote cutoff\n14 active · 5 passing · 868/6,828 DASH allotted\n\nClosest to the line:\n• Critical vulnerabilities… — 0 short\n• Dash Core – Monthly Maintenance… — 40 short\n\nYour node, your call →",
-      "at": "2026-07-30T16:10:23.000Z",
-      "reply": false,
-      "count": 1,
-      "m": {
-        "l": 0,
-        "r": 0,
-        "c": 0
-      },
-      "url": "https://x.com/DashSupportTeam/status/2082861373432713449"
     }
   ],
   "mirrored": {
-    "2082861373432713449": true,
     "2082921772991566128": true,
     "2082967071533547608": true,
     "2082967072401744204": true,
@@ -814,7 +813,8 @@
     "2087512062016544851": true,
     "2087572460572942412": true,
     "2087611452932702493": true,
-    "2087632857267052788": true
+    "2087632857267052788": true,
+    "2087874453443101081": true
   },
-  "updated": "2026-08-13T12:05:27.497Z"
+  "updated": "2026-08-13T12:20:27.503Z"
 }
