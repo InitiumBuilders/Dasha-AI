@@ -10,11 +10,11 @@
     },
     "pshenmic-dev-pe-september-2026": {
       "passing": false,
-      "net": 5
+      "net": 9
     },
     "pshenmic-dev-dfo-september-2026": {
       "passing": false,
-      "net": 1
+      "net": 139
     },
     "EUROPEAN-BLOCKCHAIN-CONVENTION-2026": {
       "passing": false,
@@ -34,7 +34,7 @@
     },
     "kwvg-dev-aug26": {
       "passing": false,
-      "net": 102
+      "net": 240
     },
     "Dash-APAC-September-2026": {
       "passing": false,
@@ -42,7 +42,7 @@
     },
     "DCG-Operations-Aug-Nov-26": {
       "passing": false,
-      "net": 150
+      "net": 288
     },
     "OrchardPay": {
       "passing": false,
@@ -118,5 +118,5 @@
   },
   "superblock": "2525632",
   "lastPassingCount": 6,
-  "updated": "2026-08-14T02:45:29.752Z"
+  "updated": "2026-08-14T03:15:29.791Z"
 }
