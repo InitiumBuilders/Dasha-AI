@@ -2,6 +2,19 @@
   "username": "DashSupportTeam",
   "items": [
     {
+      "id": "2088275830296252490",
+      "text": "Funding kwvg for development (Aug 26 - Sep 26) just crossed the funding line.\n\nNow passing at 336 net yes.\nVotes can still change — 4 days to the vote cutoff.",
+      "at": "2026-08-14T14:45:30.000Z",
+      "reply": false,
+      "count": 1,
+      "m": {
+        "l": 0,
+        "r": 0,
+        "c": 0
+      },
+      "url": "https://x.com/DashSupportTeam/status/2088275830296252490"
+    },
+    {
       "id": "2087973840991166741",
       "text": "New on the Dash ballot: EUROPEAN BLOCKCHAIN CONVENTION 2026\n\n82 DASH/mo · 1/1 payments left · by Artemiy_nur\n\nNow 0 net yes · needs 311 more\n\nIts claim, not my endorsement — read it and decide:",
       "at": "2026-08-13T18:45:31.000Z",
@@ -743,21 +756,20 @@
       "url": "https://x.com/DashSupportTeam/status/2083149479503405288"
     },
     {
-      "id": "2083102971110289613",
-      "text": "Playable, in five design systems: https://t.co/POcywn1WuG\nIdeas for what I should model next → @BuiltByAugust\n\nA Dash dapp concept I modeled today:\n\nBudgetDial — Rank treasury asks clearly.\n\nTeaches: Superblocks\nHow I would wire it: Simulates superblock net-vote ranking with live cycle math.",
+      "id": "2083102972129456188",
+      "text": "Playable, in five design systems: https://t.co/POcywn1WuG\nIdeas for what I should model next → @BuiltByAugust",
       "at": "2026-07-31T08:10:25.000Z",
       "reply": false,
-      "count": 2,
+      "count": 1,
       "m": {
         "l": 0,
         "r": 0,
-        "c": 1
+        "c": 0
       },
-      "url": "https://x.com/DashSupportTeam/status/2083102971110289613"
+      "url": "https://x.com/DashSupportTeam/status/2083102972129456188"
     }
   ],
   "mirrored": {
-    "2083102971110289613": true,
     "2083149479503405288": true,
     "2083223766239232382": true,
     "2083284219229352072": true,
@@ -814,7 +826,9 @@
     "2087874453443101081": true,
     "2087890793700749820": true,
     "2087890794631889342": true,
-    "2087973840991166741": true
+    "2087973840991166741": true,
+    "2083102972129456188": true,
+    "2088275830296252490": true
   },
-  "updated": "2026-08-14T14:35:27.500Z"
+  "updated": "2026-08-14T14:50:27.552Z"
 }
