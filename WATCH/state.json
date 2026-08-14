@@ -2,19 +2,19 @@
   "seen": {
     "pshenmic-dev-dashscan-september-2026": {
       "passing": false,
-      "net": 19
+      "net": 120
     },
     "pshenmic-dev-dash-desktop-september-2026": {
       "passing": false,
-      "net": 22
+      "net": 123
     },
     "pshenmic-dev-pe-september-2026": {
       "passing": false,
-      "net": 42
+      "net": 143
     },
     "pshenmic-dev-dfo-september-2026": {
       "passing": false,
-      "net": 144
+      "net": 249
     },
     "EUROPEAN-BLOCKCHAIN-CONVENTION-2026": {
       "passing": false,
@@ -22,23 +22,23 @@
     },
     "Business-development-Events-September": {
       "passing": false,
-      "net": 34
+      "net": 33
     },
     "DASH-MULTILINGUAL-EXPANSION_Aug": {
       "passing": false,
-      "net": 21
+      "net": 122
     },
     "Dash-Europe-Aug-Sep-2026": {
       "passing": false,
-      "net": 176
+      "net": 277
     },
     "kwvg-dev-aug26": {
-      "passing": false,
-      "net": 235
+      "passing": true,
+      "net": 336
     },
     "Dash-APAC-September-2026": {
       "passing": false,
-      "net": 205
+      "net": 305
     },
     "DCG-Operations-Aug-Nov-26": {
       "passing": false,
@@ -114,9 +114,10 @@
     "new:Business-development-Events-September": "2026-08-12T18:45:30.270Z",
     "new:pshenmic-dev-dashscan-september-2026": "2026-08-13T13:15:30.308Z",
     "new:pshenmic-dev-dash-desktop-september-2026": "2026-08-13T13:15:30.308Z",
-    "new:EUROPEAN-BLOCKCHAIN-CONVENTION-2026": "2026-08-13T18:45:30.287Z"
+    "new:EUROPEAN-BLOCKCHAIN-CONVENTION-2026": "2026-08-13T18:45:30.287Z",
+    "flip:kwvg-dev-aug26:in:2525632": "2026-08-14T14:45:29.933Z"
   },
   "superblock": "2525632",
-  "lastPassingCount": 6,
-  "updated": "2026-08-14T14:15:29.767Z"
+  "lastPassingCount": 7,
+  "updated": "2026-08-14T14:45:29.933Z"
 }
