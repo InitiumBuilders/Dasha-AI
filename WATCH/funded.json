@@ -9,7 +9,8 @@
         "mnowatch-hosting-2026",
         "dashcentral-operations3",
         "vulnerability-disclosure-compensation",
-        "kwvg-dev-aug26"
+        "kwvg-dev-aug26",
+        "DCG-Operations-Aug-Nov-26"
       ]
     }
   },
@@ -97,6 +98,18 @@
       ],
       "totalPays": 2,
       "remaining": 2
+    },
+    "DCG-Operations-Aug-Nov-26": {
+      "name": "DCG-Operations-Aug-Nov-26",
+      "title": "Dash Core Group Operations September - December 2026",
+      "owner": "quantumexplorer",
+      "ask": 4832,
+      "firstSeen": "2026-08-14T20:10:30.846Z",
+      "cyclesFunded": [
+        "2525632"
+      ],
+      "totalPays": 4,
+      "remaining": 4
     }
   }
 }
