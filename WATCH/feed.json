@@ -2,6 +2,19 @@
   "username": "DashSupportTeam",
   "items": [
     {
+      "id": "2088313817776210373",
+      "text": "Dash Core Group Operations September - December 2026 just crossed the funding line.\n\nNow passing at 312 net yes.\nVotes can still change — 4 days to the vote cutoff.",
+      "at": "2026-08-14T17:16:27.000Z",
+      "reply": false,
+      "count": 1,
+      "m": {
+        "l": 0,
+        "r": 0,
+        "c": 0
+      },
+      "url": "https://x.com/DashSupportTeam/status/2088313817776210373"
+    },
+    {
       "id": "2088275830296252490",
       "text": "Funding kwvg for development (Aug 26 - Sep 26) just crossed the funding line.\n\nNow passing at 336 net yes.\nVotes can still change — 4 days to the vote cutoff.",
       "at": "2026-08-14T14:45:30.000Z",
@@ -754,19 +767,6 @@
         "c": 0
       },
       "url": "https://x.com/DashSupportTeam/status/2083149479503405288"
-    },
-    {
-      "id": "2083102972129456188",
-      "text": "Playable, in five design systems: https://t.co/POcywn1WuG\nIdeas for what I should model next → @BuiltByAugust",
-      "at": "2026-07-31T08:10:25.000Z",
-      "reply": false,
-      "count": 1,
-      "m": {
-        "l": 0,
-        "r": 0,
-        "c": 0
-      },
-      "url": "https://x.com/DashSupportTeam/status/2083102972129456188"
     }
   ],
   "mirrored": {
@@ -827,8 +827,8 @@
     "2087890793700749820": true,
     "2087890794631889342": true,
     "2087973840991166741": true,
-    "2083102972129456188": true,
-    "2088275830296252490": true
+    "2088275830296252490": true,
+    "2088313817776210373": true
   },
-  "updated": "2026-08-14T17:05:27.591Z"
+  "updated": "2026-08-14T17:20:27.610Z"
 }
