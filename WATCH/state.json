@@ -2,15 +2,15 @@
   "seen": {
     "pshenmic-dev-dashscan-september-2026": {
       "passing": false,
-      "net": 5
+      "net": 11
     },
     "pshenmic-dev-dash-desktop-september-2026": {
       "passing": false,
-      "net": 5
+      "net": 12
     },
     "pshenmic-dev-pe-september-2026": {
       "passing": false,
-      "net": 29
+      "net": 36
     },
     "pshenmic-dev-dfo-september-2026": {
       "passing": false,
@@ -18,19 +18,19 @@
     },
     "EUROPEAN-BLOCKCHAIN-CONVENTION-2026": {
       "passing": false,
-      "net": 0
+      "net": -1
     },
     "Business-development-Events-September": {
       "passing": false,
-      "net": 33
+      "net": 32
     },
     "DASH-MULTILINGUAL-EXPANSION_Aug": {
       "passing": false,
-      "net": 21
+      "net": 20
     },
     "Dash-Europe-Aug-Sep-2026": {
       "passing": false,
-      "net": 172
+      "net": 164
     },
     "kwvg-dev-aug26": {
       "passing": false,
@@ -38,11 +38,11 @@
     },
     "Dash-APAC-September-2026": {
       "passing": false,
-      "net": 212
+      "net": 205
     },
     "DCG-Operations-Aug-Nov-26": {
       "passing": false,
-      "net": 288
+      "net": 294
     },
     "OrchardPay": {
       "passing": false,
@@ -118,5 +118,5 @@
   },
   "superblock": "2525632",
   "lastPassingCount": 6,
-  "updated": "2026-08-14T09:46:25.091Z"
+  "updated": "2026-08-14T10:16:25.444Z"
 }
