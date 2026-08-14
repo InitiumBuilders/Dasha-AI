@@ -2,6 +2,19 @@
   "username": "DashSupportTeam",
   "items": [
     {
+      "id": "2088321126745199101",
+      "text": "Dash Core Group Operations September - December 2026 has fallen below the line.\n\nNow 311 net yes · 0 short.\nVotes can still change — 4 days to the vote cutoff.",
+      "at": "2026-08-14T17:45:30.000Z",
+      "reply": false,
+      "count": 1,
+      "m": {
+        "l": 0,
+        "r": 0,
+        "c": 0
+      },
+      "url": "https://x.com/DashSupportTeam/status/2088321126745199101"
+    },
+    {
       "id": "2088313817776210373",
       "text": "Dash Core Group Operations September - December 2026 just crossed the funding line.\n\nNow passing at 312 net yes.\nVotes can still change — 4 days to the vote cutoff.",
       "at": "2026-08-14T17:16:27.000Z",
@@ -754,23 +767,9 @@
         "c": 0
       },
       "url": "https://x.com/DashSupportTeam/status/2083223766239232382"
-    },
-    {
-      "id": "2083149479503405288",
-      "text": "Critical vulnerabilities disclosure and independant security… just crossed the funding line.\n\nNow passing at 305 net yes.\nVotes can still change — 18 days to the vote cutoff.",
-      "at": "2026-07-31T11:15:13.000Z",
-      "reply": false,
-      "count": 1,
-      "m": {
-        "l": 0,
-        "r": 0,
-        "c": 0
-      },
-      "url": "https://x.com/DashSupportTeam/status/2083149479503405288"
     }
   ],
   "mirrored": {
-    "2083149479503405288": true,
     "2083223766239232382": true,
     "2083284219229352072": true,
     "2083465352797700306": true,
@@ -828,7 +827,8 @@
     "2087890794631889342": true,
     "2087973840991166741": true,
     "2088275830296252490": true,
-    "2088313817776210373": true
+    "2088313817776210373": true,
+    "2088321126745199101": true
   },
-  "updated": "2026-08-14T17:35:27.470Z"
+  "updated": "2026-08-14T17:50:27.471Z"
 }
