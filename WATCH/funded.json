@@ -8,7 +8,8 @@
         "Dash-Italia-Management-2026",
         "mnowatch-hosting-2026",
         "dashcentral-operations3",
-        "vulnerability-disclosure-compensation"
+        "vulnerability-disclosure-compensation",
+        "kwvg-dev-aug26"
       ]
     }
   },
@@ -79,6 +80,18 @@
       "owner": "DeltaXV",
       "ask": 200,
       "firstSeen": "2026-07-31T12:10:21.942Z",
+      "cyclesFunded": [
+        "2525632"
+      ],
+      "totalPays": 2,
+      "remaining": 2
+    },
+    "kwvg-dev-aug26": {
+      "name": "kwvg-dev-aug26",
+      "title": "Funding kwvg for development (Aug 26 - Sep 26)",
+      "owner": "kwvg",
+      "ask": 200,
+      "firstSeen": "2026-08-14T16:10:30.877Z",
       "cyclesFunded": [
         "2525632"
       ],
