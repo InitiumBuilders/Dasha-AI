@@ -6,7 +6,7 @@
     },
     "pshenmic-dev-dash-desktop-september-2026": {
       "passing": false,
-      "net": 21
+      "net": 22
     },
     "pshenmic-dev-pe-september-2026": {
       "passing": false,
@@ -18,7 +18,7 @@
     },
     "EUROPEAN-BLOCKCHAIN-CONVENTION-2026": {
       "passing": false,
-      "net": -1
+      "net": 0
     },
     "Business-development-Events-September": {
       "passing": false,
@@ -26,7 +26,7 @@
     },
     "DASH-MULTILINGUAL-EXPANSION_Aug": {
       "passing": false,
-      "net": 20
+      "net": 21
     },
     "Dash-Europe-Aug-Sep-2026": {
       "passing": false,
@@ -118,5 +118,5 @@
   },
   "superblock": "2525632",
   "lastPassingCount": 6,
-  "updated": "2026-08-14T13:45:29.813Z"
+  "updated": "2026-08-14T14:15:29.767Z"
 }
