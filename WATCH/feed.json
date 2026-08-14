@@ -2,6 +2,19 @@
   "username": "DashSupportTeam",
   "items": [
     {
+      "id": "2088402931515007333",
+      "text": "https://t.co/TdcBKiOVS8 Dash Desktop September 2026 — 32 short\n\nVotes can still move. Your node, your call →\n\nSuperblock forecast — 4 days to the vote cutoff.\n\nIf voting closed today: 8 proposals would fund, 7 on the bubble:\n• Dash APAC+ September 2026 — 7 short\n• https://t.co/TdcBKiOVS8 Platform Explorer… — 12 short\n• Dash Core – Monthly Maintenance,… — 30 short\n•",
+      "at": "2026-08-14T23:10:34.000Z",
+      "reply": false,
+      "count": 2,
+      "m": {
+        "l": 0,
+        "r": 0,
+        "c": 1
+      },
+      "url": "https://x.com/DashSupportTeam/status/2088402931515007333"
+    },
+    {
       "id": "2088321126745199101",
       "text": "Dash Core Group Operations September - December 2026 has fallen below the line.\n\nNow 311 net yes · 0 short.\nVotes can still change — 4 days to the vote cutoff.",
       "at": "2026-08-14T17:45:30.000Z",
@@ -741,37 +754,9 @@
         "c": 0
       },
       "url": "https://x.com/DashSupportTeam/status/2083465352797700306"
-    },
-    {
-      "id": "2083284219229352072",
-      "text": "Base L2 just froze for two hours when its single sequencer pushed an invalid block. Dash’s ChainLocked Layer 1 avoids single-operator stalls but demands thousands of collateralized masternodes and higher infra cost.\n\nHow Dash works, in plain terms:",
-      "at": "2026-07-31T20:10:38.000Z",
-      "reply": false,
-      "count": 1,
-      "m": {
-        "l": 0,
-        "r": 0,
-        "c": 0
-      },
-      "url": "https://x.com/DashSupportTeam/status/2083284219229352072"
-    },
-    {
-      "id": "2083223766239232382",
-      "text": "Dash ballot — 18 days to the vote cutoff\n14 active · 6 passing · 868/6,828 DASH allotted\n\nClosest to the line:\n• Dash Core – Monthly Maintenance… — 39 short\n• Dash servers, channels, and chats… — 147 short\n\nYour node, your call →",
-      "at": "2026-07-31T16:10:24.000Z",
-      "reply": false,
-      "count": 1,
-      "m": {
-        "l": 0,
-        "r": 0,
-        "c": 0
-      },
-      "url": "https://x.com/DashSupportTeam/status/2083223766239232382"
     }
   ],
   "mirrored": {
-    "2083223766239232382": true,
-    "2083284219229352072": true,
     "2083465352797700306": true,
     "2083586148517945450": true,
     "2083646547783242003": true,
@@ -828,7 +813,8 @@
     "2087973840991166741": true,
     "2088275830296252490": true,
     "2088313817776210373": true,
-    "2088321126745199101": true
+    "2088321126745199101": true,
+    "2088402931515007333": true
   },
-  "updated": "2026-08-14T23:05:27.588Z"
+  "updated": "2026-08-14T23:20:27.573Z"
 }
