@@ -2,7 +2,7 @@
   "seen": {
     "pshenmic-dev-dashscan-september-2026": {
       "passing": false,
-      "net": 20
+      "net": 19
     },
     "pshenmic-dev-dash-desktop-september-2026": {
       "passing": false,
@@ -26,7 +26,7 @@
     },
     "DASH-MULTILINGUAL-EXPANSION_Aug": {
       "passing": false,
-      "net": 17
+      "net": 21
     },
     "Dash-Europe-Aug-Sep-2026": {
       "passing": false,
@@ -54,7 +54,7 @@
     },
     "dash-growth-marketing-budget": {
       "passing": false,
-      "net": 74
+      "net": 73
     },
     "vulnerability-disclosure-compensation": {
       "passing": true,
@@ -118,5 +118,5 @@
   },
   "superblock": "2525632",
   "lastPassingCount": 6,
-  "updated": "2026-08-14T12:15:29.700Z"
+  "updated": "2026-08-14T12:45:29.748Z"
 }
