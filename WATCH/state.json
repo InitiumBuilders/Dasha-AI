@@ -42,7 +42,7 @@
     },
     "Dash-APAC-September-2026": {
       "passing": true,
-      "net": 319
+      "net": 318
     },
     "OrchardPay": {
       "passing": false,
@@ -118,9 +118,10 @@
     "flip:kwvg-dev-aug26:in:2525632": "2026-08-14T14:45:29.933Z",
     "flip:DCG-Operations-Aug-Nov-26:in:2525632": "2026-08-14T17:16:27.177Z",
     "flip:DCG-Operations-Aug-Nov-26:out:2525632": "2026-08-14T17:45:29.765Z",
-    "flip:Dash-APAC-September-2026:in:2525632": "2026-08-15T13:45:30.046Z"
+    "flip:Dash-APAC-September-2026:in:2525632": "2026-08-15T13:45:30.046Z",
+    "c72:2525632": "2026-08-15T15:15:29.698Z"
   },
   "superblock": "2525632",
   "lastPassingCount": 8,
-  "updated": "2026-08-15T14:45:29.741Z"
+  "updated": "2026-08-15T15:15:29.698Z"
 }
