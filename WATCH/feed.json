@@ -2,6 +2,19 @@
   "username": "DashSupportTeam",
   "items": [
     {
+      "id": "2088538827304423804",
+      "text": "Dash ballot — 3 days to the vote cutoff\n25 active · 8 passing · 5,900/6,828 DASH allotted\n\nClosest to the line:\n• Dash APAC+ September 2026 — 7 short\n• https://t.co/TdcBKiOVS8 Platform Explorer… — 8 short\n\nYour node, your call →",
+      "at": "2026-08-15T08:10:34.000Z",
+      "reply": false,
+      "count": 1,
+      "m": {
+        "l": 0,
+        "r": 0,
+        "c": 0
+      },
+      "url": "https://x.com/DashSupportTeam/status/2088538827304423804"
+    },
+    {
       "id": "2088402931515007333",
       "text": "https://t.co/TdcBKiOVS8 Dash Desktop September 2026 — 32 short\n\nVotes can still move. Your node, your call →\n\nSuperblock forecast — 4 days to the vote cutoff.\n\nIf voting closed today: 8 proposals would fund, 7 on the bubble:\n• Dash APAC+ September 2026 — 7 short\n• https://t.co/TdcBKiOVS8 Platform Explorer… — 12 short\n• Dash Core – Monthly Maintenance,… — 30 short\n•",
       "at": "2026-08-14T23:10:34.000Z",
@@ -741,23 +754,9 @@
         "c": 0
       },
       "url": "https://x.com/DashSupportTeam/status/2083586148517945450"
-    },
-    {
-      "id": "2083465352797700306",
-      "text": "A Dash dapp concept I modeled today:\n\nPulseRank — Masternode pulseboard\n\nTeaches: Masternodes\nHow I would wire it: Poll PoSe scores and alert on drift.\n\nPlayable, in five design systems: https://t.co/POcywn1WuG\nIdeas for what I should model next → @BuiltByAugust",
-      "at": "2026-08-01T08:10:23.000Z",
-      "reply": false,
-      "count": 1,
-      "m": {
-        "l": 0,
-        "r": 0,
-        "c": 0
-      },
-      "url": "https://x.com/DashSupportTeam/status/2083465352797700306"
     }
   ],
   "mirrored": {
-    "2083465352797700306": true,
     "2083586148517945450": true,
     "2083646547783242003": true,
     "2083827739539185818": true,
@@ -814,7 +813,8 @@
     "2088275830296252490": true,
     "2088313817776210373": true,
     "2088321126745199101": true,
-    "2088402931515007333": true
+    "2088402931515007333": true,
+    "2088538827304423804": true
   },
-  "updated": "2026-08-15T08:05:27.428Z"
+  "updated": "2026-08-15T08:20:27.442Z"
 }
