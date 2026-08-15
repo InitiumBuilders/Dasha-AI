@@ -2,6 +2,32 @@
   "username": "DashSupportTeam",
   "items": [
     {
+      "id": "2088691273125224763",
+      "text": "https://t.co/TdcBKiOVS8 Dash Desktop September 2026 just crossed the funding line.\n\nNow passing at 323 net yes.\nVotes can still change — 3 days to the vote cutoff.",
+      "at": "2026-08-15T18:16:20.000Z",
+      "reply": false,
+      "count": 1,
+      "m": {
+        "l": 0,
+        "r": 0,
+        "c": 0
+      },
+      "url": "https://x.com/DashSupportTeam/status/2088691273125224763"
+    },
+    {
+      "id": "2088691272244412653",
+      "text": "https://t.co/TdcBKiOVS8 Dashscan September 2026 just crossed the funding line.\n\nNow passing at 317 net yes.\nVotes can still change — 3 days to the vote cutoff.",
+      "at": "2026-08-15T18:16:19.000Z",
+      "reply": false,
+      "count": 1,
+      "m": {
+        "l": 0,
+        "r": 0,
+        "c": 0
+      },
+      "url": "https://x.com/DashSupportTeam/status/2088691272244412653"
+    },
+    {
       "id": "2088659620814311813",
       "text": "https://t.co/TdcBKiOVS8 Platform Explorer September 2026 just crossed the funding line.\n\nNow passing at 316 net yes.\nVotes can still change — 3 days to the vote cutoff.",
       "at": "2026-08-15T16:10:33.000Z",
@@ -730,21 +756,8 @@
       "url": "https://x.com/DashSupportTeam/status/2083942299604529366"
     },
     {
-      "id": "2083827740453589351",
-      "text": "Playable, in five design systems: https://t.co/POcywn1WuG\nIdeas for what I should model next → @BuiltByAugust\n\nA Dash dapp concept I modeled today:\n\nChainSeal — Cross-border release latch\n\nTeaches: ChainLocks\nHow I would wire it: Escrow agent triggers payout after ChainLock proof arrives.",
-      "at": "2026-08-02T08:10:23.000Z",
-      "reply": false,
-      "count": 2,
-      "m": {
-        "l": 0,
-        "r": 0,
-        "c": 1
-      },
-      "url": "https://x.com/DashSupportTeam/status/2083827740453589351"
-    },
-    {
-      "id": "2083827739539185818",
-      "text": "This week in Dash:\n\n• 14 proposals active, 5 passing\n• 16 days to the superblock\n• 3 on the funding bubble\n\nThe full ballot, and answers, any time:",
+      "id": "2083827741703454950",
+      "text": "Playable, in five design systems: https://t.co/POcywn1WuG\nIdeas for what I should model next → @BuiltByAugust",
       "at": "2026-08-02T08:10:23.000Z",
       "reply": false,
       "count": 1,
@@ -753,12 +766,10 @@
         "r": 0,
         "c": 0
       },
-      "url": "https://x.com/DashSupportTeam/status/2083827739539185818"
+      "url": "https://x.com/DashSupportTeam/status/2083827741703454950"
     }
   ],
   "mirrored": {
-    "2083827739539185818": true,
-    "2083827740453589351": true,
     "2083942299604529366": true,
     "2083942302297289057": true,
     "2083948535825723716": true,
@@ -814,7 +825,10 @@
     "2088402931515007333": true,
     "2088538827304423804": true,
     "2088623117589426428": true,
-    "2088659620814311813": true
+    "2088659620814311813": true,
+    "2083827741703454950": true,
+    "2088691272244412653": true,
+    "2088691273125224763": true
   },
-  "updated": "2026-08-15T18:05:27.405Z"
+  "updated": "2026-08-15T18:20:27.454Z"
 }
