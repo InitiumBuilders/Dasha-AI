@@ -2,6 +2,19 @@
   "username": "DashSupportTeam",
   "items": [
     {
+      "id": "2088720025829920786",
+      "text": "Most discussed on the Dash ballot right now:\n\nCritical vulnerabilities disclosure and independant…\n44 comments · passing.\n\nThe community is already weighing in. Read the thread and the tally:",
+      "at": "2026-08-15T20:10:35.000Z",
+      "reply": false,
+      "count": 1,
+      "m": {
+        "l": 0,
+        "r": 0,
+        "c": 0
+      },
+      "url": "https://x.com/DashSupportTeam/status/2088720025829920786"
+    },
+    {
       "id": "2088691273125224763",
       "text": "https://t.co/TdcBKiOVS8 Dash Desktop September 2026 just crossed the funding line.\n\nNow passing at 323 net yes.\nVotes can still change — 3 days to the vote cutoff.",
       "at": "2026-08-15T18:16:20.000Z",
@@ -754,19 +767,6 @@
         "c": 1
       },
       "url": "https://x.com/DashSupportTeam/status/2083942299604529366"
-    },
-    {
-      "id": "2083827741703454950",
-      "text": "Playable, in five design systems: https://t.co/POcywn1WuG\nIdeas for what I should model next → @BuiltByAugust",
-      "at": "2026-08-02T08:10:23.000Z",
-      "reply": false,
-      "count": 1,
-      "m": {
-        "l": 0,
-        "r": 0,
-        "c": 0
-      },
-      "url": "https://x.com/DashSupportTeam/status/2083827741703454950"
     }
   ],
   "mirrored": {
@@ -826,9 +826,9 @@
     "2088538827304423804": true,
     "2088623117589426428": true,
     "2088659620814311813": true,
-    "2083827741703454950": true,
     "2088691272244412653": true,
-    "2088691273125224763": true
+    "2088691273125224763": true,
+    "2088720025829920786": true
   },
-  "updated": "2026-08-15T20:05:27.540Z"
+  "updated": "2026-08-15T20:20:27.463Z"
 }
