@@ -10,7 +10,9 @@
         "dashcentral-operations3",
         "vulnerability-disclosure-compensation",
         "kwvg-dev-aug26",
-        "DCG-Operations-Aug-Nov-26"
+        "DCG-Operations-Aug-Nov-26",
+        "pshenmic-dev-pe-september-2026",
+        "Dash-APAC-September-2026"
       ]
     }
   },
@@ -110,6 +112,30 @@
       ],
       "totalPays": 4,
       "remaining": 4
+    },
+    "pshenmic-dev-pe-september-2026": {
+      "name": "pshenmic-dev-pe-september-2026",
+      "title": "pshenmic.dev Platform Explorer September 2026",
+      "owner": "pshenmic",
+      "ask": 100,
+      "firstSeen": "2026-08-15T16:10:31.056Z",
+      "cyclesFunded": [
+        "2525632"
+      ],
+      "totalPays": 1,
+      "remaining": 1
+    },
+    "Dash-APAC-September-2026": {
+      "name": "Dash-APAC-September-2026",
+      "title": "Dash APAC+ September 2026",
+      "owner": "ravenor",
+      "ask": 420,
+      "firstSeen": "2026-08-15T16:10:31.056Z",
+      "cyclesFunded": [
+        "2525632"
+      ],
+      "totalPays": 1,
+      "remaining": 1
     }
   }
 }
