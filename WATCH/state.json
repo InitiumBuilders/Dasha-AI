@@ -6,15 +6,15 @@
     },
     "pshenmic-dev-dash-desktop-september-2026": {
       "passing": false,
-      "net": 284
+      "net": 288
     },
     "pshenmic-dev-pe-september-2026": {
       "passing": false,
-      "net": 304
+      "net": 308
     },
     "pshenmic-dev-dfo-september-2026": {
       "passing": false,
-      "net": 277
+      "net": 281
     },
     "EUROPEAN-BLOCKCHAIN-CONVENTION-2026": {
       "passing": false,
@@ -38,7 +38,7 @@
     },
     "DCG-Operations-Aug-Nov-26": {
       "passing": true,
-      "net": 315
+      "net": 319
     },
     "Dash-APAC-September-2026": {
       "passing": false,
@@ -121,5 +121,5 @@
   },
   "superblock": "2525632",
   "lastPassingCount": 8,
-  "updated": "2026-08-15T08:15:29.697Z"
+  "updated": "2026-08-15T08:45:29.721Z"
 }
