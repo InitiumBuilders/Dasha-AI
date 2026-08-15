@@ -18,11 +18,11 @@
     },
     "EUROPEAN-BLOCKCHAIN-CONVENTION-2026": {
       "passing": false,
-      "net": 130
+      "net": 126
     },
     "Business-development-Events-September": {
       "passing": false,
-      "net": 33
+      "net": 37
     },
     "DASH-MULTILINGUAL-EXPANSION_Aug": {
       "passing": false,
@@ -121,5 +121,5 @@
   },
   "superblock": "2525632",
   "lastPassingCount": 8,
-  "updated": "2026-08-15T09:15:29.855Z"
+  "updated": "2026-08-15T09:45:29.724Z"
 }
