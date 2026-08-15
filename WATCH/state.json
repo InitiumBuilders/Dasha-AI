@@ -2,51 +2,51 @@
   "seen": {
     "pshenmic-dev-dashscan-september-2026": {
       "passing": false,
-      "net": 270
+      "net": 282
     },
     "pshenmic-dev-dash-desktop-september-2026": {
       "passing": false,
-      "net": 276
+      "net": 288
     },
     "pshenmic-dev-pe-september-2026": {
       "passing": false,
-      "net": 296
+      "net": 308
     },
     "pshenmic-dev-dfo-september-2026": {
       "passing": false,
-      "net": 269
+      "net": 281
     },
     "EUROPEAN-BLOCKCHAIN-CONVENTION-2026": {
       "passing": false,
-      "net": 134
+      "net": 146
     },
     "Business-development-Events-September": {
       "passing": false,
-      "net": 45
+      "net": 57
     },
     "DASH-MULTILINGUAL-EXPANSION_Aug": {
       "passing": false,
-      "net": 130
+      "net": 142
     },
     "Dash-Europe-Aug-Sep-2026": {
       "passing": false,
-      "net": 280
+      "net": 292
     },
     "kwvg-dev-aug26": {
       "passing": true,
-      "net": 359
+      "net": 371
     },
     "DCG-Operations-Aug-Nov-26": {
       "passing": false,
-      "net": 303
+      "net": 311
     },
     "Dash-APAC-September-2026": {
-      "passing": false,
-      "net": 309
+      "passing": true,
+      "net": 315
     },
     "OrchardPay": {
       "passing": false,
-      "net": 73
+      "net": 77
     },
     "Dash-communities-without-censorship": {
       "passing": false,
@@ -86,7 +86,7 @@
     },
     "Dash-Italia-Management-2026": {
       "passing": true,
-      "net": 626
+      "net": 624
     },
     "mnowatch-hosting-2026": {
       "passing": true,
@@ -117,9 +117,10 @@
     "new:EUROPEAN-BLOCKCHAIN-CONVENTION-2026": "2026-08-13T18:45:30.287Z",
     "flip:kwvg-dev-aug26:in:2525632": "2026-08-14T14:45:29.933Z",
     "flip:DCG-Operations-Aug-Nov-26:in:2525632": "2026-08-14T17:16:27.177Z",
-    "flip:DCG-Operations-Aug-Nov-26:out:2525632": "2026-08-14T17:45:29.765Z"
+    "flip:DCG-Operations-Aug-Nov-26:out:2525632": "2026-08-14T17:45:29.765Z",
+    "flip:Dash-APAC-September-2026:in:2525632": "2026-08-15T13:45:30.046Z"
   },
   "superblock": "2525632",
-  "lastPassingCount": 6,
-  "updated": "2026-08-15T13:15:29.785Z"
+  "lastPassingCount": 7,
+  "updated": "2026-08-15T13:45:30.046Z"
 }
