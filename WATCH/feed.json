@@ -2,6 +2,19 @@
   "username": "DashSupportTeam",
   "items": [
     {
+      "id": "2088659620814311813",
+      "text": "https://t.co/TdcBKiOVS8 Platform Explorer September 2026 just crossed the funding line.\n\nNow passing at 316 net yes.\nVotes can still change — 3 days to the vote cutoff.",
+      "at": "2026-08-15T16:10:33.000Z",
+      "reply": false,
+      "count": 1,
+      "m": {
+        "l": 0,
+        "r": 0,
+        "c": 0
+      },
+      "url": "https://x.com/DashSupportTeam/status/2088659620814311813"
+    },
+    {
       "id": "2088623117589426428",
       "text": "Dash APAC+ September 2026 just crossed the funding line.\n\nNow passing at 315 net yes.\nVotes can still change — 3 days to the vote cutoff.",
       "at": "2026-08-15T13:45:30.000Z",
@@ -741,23 +754,9 @@
         "c": 0
       },
       "url": "https://x.com/DashSupportTeam/status/2083827739539185818"
-    },
-    {
-      "id": "2083646547783242003",
-      "text": "Critical vulnerabilities disclosure and independant security… has fallen below the line.\n\nNow 305 net yes · 0 short.\nVotes can still change — 17 days to the vote cutoff.",
-      "at": "2026-08-01T20:10:23.000Z",
-      "reply": false,
-      "count": 1,
-      "m": {
-        "l": 0,
-        "r": 0,
-        "c": 0
-      },
-      "url": "https://x.com/DashSupportTeam/status/2083646547783242003"
     }
   ],
   "mirrored": {
-    "2083646547783242003": true,
     "2083827739539185818": true,
     "2083827740453589351": true,
     "2083942299604529366": true,
@@ -814,7 +813,8 @@
     "2088321126745199101": true,
     "2088402931515007333": true,
     "2088538827304423804": true,
-    "2088623117589426428": true
+    "2088623117589426428": true,
+    "2088659620814311813": true
   },
-  "updated": "2026-08-15T16:05:27.566Z"
+  "updated": "2026-08-15T16:20:27.531Z"
 }
