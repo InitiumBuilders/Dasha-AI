@@ -2,47 +2,47 @@
   "seen": {
     "pshenmic-dev-dashscan-september-2026": {
       "passing": false,
-      "net": 282
+      "net": 286
     },
     "pshenmic-dev-dash-desktop-september-2026": {
       "passing": false,
-      "net": 288
+      "net": 292
     },
     "pshenmic-dev-pe-september-2026": {
       "passing": false,
-      "net": 308
+      "net": 312
     },
     "pshenmic-dev-dfo-september-2026": {
       "passing": false,
-      "net": 281
+      "net": 285
     },
     "EUROPEAN-BLOCKCHAIN-CONVENTION-2026": {
       "passing": false,
-      "net": 146
+      "net": 150
     },
     "Business-development-Events-September": {
       "passing": false,
-      "net": 57
+      "net": 61
     },
     "DASH-MULTILINGUAL-EXPANSION_Aug": {
       "passing": false,
-      "net": 142
+      "net": 146
     },
     "Dash-Europe-Aug-Sep-2026": {
       "passing": false,
-      "net": 292
+      "net": 295
     },
     "kwvg-dev-aug26": {
       "passing": true,
       "net": 371
     },
     "DCG-Operations-Aug-Nov-26": {
-      "passing": false,
-      "net": 311
+      "passing": true,
+      "net": 319
     },
     "Dash-APAC-September-2026": {
       "passing": true,
-      "net": 315
+      "net": 319
     },
     "OrchardPay": {
       "passing": false,
@@ -121,6 +121,6 @@
     "flip:Dash-APAC-September-2026:in:2525632": "2026-08-15T13:45:30.046Z"
   },
   "superblock": "2525632",
-  "lastPassingCount": 7,
-  "updated": "2026-08-15T13:45:30.046Z"
+  "lastPassingCount": 8,
+  "updated": "2026-08-15T14:15:29.945Z"
 }
