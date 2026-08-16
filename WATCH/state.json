@@ -26,7 +26,7 @@
     },
     "DASH-MULTILINGUAL-EXPANSION_Aug": {
       "passing": false,
-      "net": 185
+      "net": 186
     },
     "Dash-Europe-Aug-Sep-2026": {
       "passing": false,
@@ -131,5 +131,5 @@
   },
   "superblock": "2525632",
   "lastPassingCount": 14,
-  "updated": "2026-08-16T20:15:29.668Z"
+  "updated": "2026-08-16T20:45:29.862Z"
 }
