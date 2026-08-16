@@ -16,7 +16,9 @@
         "pshenmic-dev-dashscan-september-2026",
         "pshenmic-dev-dash-desktop-september-2026",
         "pshenmic-dev-dfo-september-2026",
-        "Dash-Europe-Aug-Sep-2026"
+        "Dash-Europe-Aug-Sep-2026",
+        "EUROPEAN-BLOCKCHAIN-CONVENTION-2026",
+        "Business-development-Events-September"
       ]
     }
   },
@@ -183,6 +185,30 @@
       "owner": "ravenor",
       "ask": 100,
       "firstSeen": "2026-08-15T20:10:31.442Z",
+      "cyclesFunded": [
+        "2525632"
+      ],
+      "totalPays": 1,
+      "remaining": 1
+    },
+    "EUROPEAN-BLOCKCHAIN-CONVENTION-2026": {
+      "name": "EUROPEAN-BLOCKCHAIN-CONVENTION-2026",
+      "title": "EUROPEAN BLOCKCHAIN CONVENTION 2026 ",
+      "owner": "Artemiy_nur",
+      "ask": 82,
+      "firstSeen": "2026-08-16T12:10:30.957Z",
+      "cyclesFunded": [
+        "2525632"
+      ],
+      "totalPays": 1,
+      "remaining": 1
+    },
+    "Business-development-Events-September": {
+      "name": "Business-development-Events-September",
+      "title": "Business development and Events August 2026 (Artemiy_nur)",
+      "owner": "Artemiy_nur",
+      "ask": 85,
+      "firstSeen": "2026-08-16T12:10:30.957Z",
       "cyclesFunded": [
         "2525632"
       ],
