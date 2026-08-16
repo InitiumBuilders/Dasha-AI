@@ -30,15 +30,15 @@
     },
     "Dash-Europe-Aug-Sep-2026": {
       "passing": false,
-      "net": 181
+      "net": 199
     },
     "kwvg-dev-aug26": {
       "passing": true,
-      "net": 375
+      "net": 393
     },
     "DCG-Operations-Aug-Nov-26": {
       "passing": true,
-      "net": 348
+      "net": 366
     },
     "Dash-APAC-September-2026": {
       "passing": false,
@@ -50,23 +50,23 @@
     },
     "Dash-communities-without-censorship": {
       "passing": false,
-      "net": 172
+      "net": 154
     },
     "dash-growth-marketing-budget": {
       "passing": false,
-      "net": 84
+      "net": 86
     },
     "vulnerability-disclosure-compensation": {
-      "passing": true,
-      "net": 324
+      "passing": false,
+      "net": 306
     },
     "dash-growth-q3-2026": {
       "passing": true,
-      "net": 358
+      "net": 360
     },
     "BTCBackportsVijay_03": {
       "passing": false,
-      "net": 282
+      "net": 264
     },
     "2026-05-MakeDashASafeStoreOfValue": {
       "passing": false,
@@ -78,7 +78,7 @@
     },
     "dash-masternode-tool-update-12": {
       "passing": true,
-      "net": 634
+      "net": 599
     },
     "revised-dashgo-m1": {
       "passing": false,
@@ -86,7 +86,7 @@
     },
     "Dash-Italia-Management-2026": {
       "passing": true,
-      "net": 620
+      "net": 621
     },
     "mnowatch-hosting-2026": {
       "passing": true,
@@ -94,7 +94,7 @@
     },
     "dashcentral-operations3": {
       "passing": true,
-      "net": 533
+      "net": 531
     },
     "encointerUBI-mean26": {
       "passing": false,
@@ -127,6 +127,6 @@
     "flip:Dash-APAC-September-2026:out:2525632": "2026-08-16T02:46:27.944Z"
   },
   "superblock": "2525632",
-  "lastPassingCount": 12,
-  "updated": "2026-08-16T07:16:27.645Z"
+  "lastPassingCount": 11,
+  "updated": "2026-08-16T07:46:17.938Z"
 }
