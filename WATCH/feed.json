@@ -2,6 +2,32 @@
   "username": "DashSupportTeam",
   "items": [
     {
+      "id": "2088901214570209616",
+      "text": "This week in Dash:\n\n• 25 proposals active, 11 passing\n• 2 days to the superblock\n• 6 on the funding bubble\n\nThe full ballot, and answers, any time:",
+      "at": "2026-08-16T08:10:34.000Z",
+      "reply": false,
+      "count": 1,
+      "m": {
+        "l": 0,
+        "r": 0,
+        "c": 0
+      },
+      "url": "https://x.com/DashSupportTeam/status/2088901214570209616"
+    },
+    {
+      "id": "2088901213731299421",
+      "text": "Dash ballot — 2 days to the vote cutoff\n25 active · 11 passing · 6,450/6,828 DASH allotted\n\nClosest to the line:\n• Critical vulnerabilities… — 8 short\n• Dash Core – Monthly Maintenance… — 50 short\n\nYour node, your call →",
+      "at": "2026-08-16T08:10:33.000Z",
+      "reply": false,
+      "count": 1,
+      "m": {
+        "l": 0,
+        "r": 0,
+        "c": 0
+      },
+      "url": "https://x.com/DashSupportTeam/status/2088901213731299421"
+    },
+    {
       "id": "2088819654894420293",
       "text": "Dash APAC+ September 2026 has fallen below the line.\n\nNow 181 net yes · 133 short.\nVotes can still change — 3 days to the vote cutoff.",
       "at": "2026-08-16T02:46:28.000Z",
@@ -754,37 +780,9 @@
         "c": 1
       },
       "url": "https://x.com/DashSupportTeam/status/2084009005177831432"
-    },
-    {
-      "id": "2083948535825723716",
-      "text": "Dash ballot — 16 days to the vote cutoff\n14 active · 5 passing · 868/6,828 DASH allotted\n\nClosest to the line:\n• Critical vulnerabilities… — 1 short\n• Dash Core – Monthly Maintenance… — 41 short\n\nYour node, your call →",
-      "at": "2026-08-02T16:10:23.000Z",
-      "reply": false,
-      "count": 1,
-      "m": {
-        "l": 0,
-        "r": 0,
-        "c": 0
-      },
-      "url": "https://x.com/DashSupportTeam/status/2083948535825723716"
-    },
-    {
-      "id": "2083942302297289057",
-      "text": "Now 157 net yes · needs 149 more\n16 comments on DashCentral\n\nIts claim, not my endorsement — read it and decide:\n\nNew on the Dash ballot: Dash servers, channels, and chats without censorship or personality cults!\n\n1 DASH/mo · 25/25 payments left · by kotbykot",
-      "at": "2026-08-02T15:45:37.000Z",
-      "reply": false,
-      "count": 2,
-      "m": {
-        "l": 0,
-        "r": 0,
-        "c": 1
-      },
-      "url": "https://x.com/DashSupportTeam/status/2083942302297289057"
     }
   ],
   "mirrored": {
-    "2083942302297289057": true,
-    "2083948535825723716": true,
     "2084009005177831432": true,
     "2084190128902169071": true,
     "2084190129753669958": true,
@@ -842,7 +840,9 @@
     "2088691273125224763": true,
     "2088720025829920786": true,
     "2088819653866856787": true,
-    "2088819654894420293": true
+    "2088819654894420293": true,
+    "2088901213731299421": true,
+    "2088901214570209616": true
   },
-  "updated": "2026-08-16T08:05:27.580Z"
+  "updated": "2026-08-16T08:20:27.563Z"
 }
