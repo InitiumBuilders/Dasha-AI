@@ -2,6 +2,19 @@
   "username": "DashSupportTeam",
   "items": [
     {
+      "id": "2088970404853321816",
+      "text": "EUROPEAN BLOCKCHAIN CONVENTION 2026 has fallen below the line.\n\nNow 315 net yes · 0 short.\nVotes can still change — 2 days to the vote cutoff.",
+      "at": "2026-08-16T12:45:30.000Z",
+      "reply": false,
+      "count": 1,
+      "m": {
+        "l": 0,
+        "r": 0,
+        "c": 0
+      },
+      "url": "https://x.com/DashSupportTeam/status/2088970404853321816"
+    },
+    {
       "id": "2088961610576527466",
       "text": "EUROPEAN BLOCKCHAIN CONVENTION 2026 just crossed the funding line.\n\nNow passing at 323 net yes.\nVotes can still change — 2 days to the vote cutoff.",
       "at": "2026-08-16T12:10:33.000Z",
@@ -767,23 +780,9 @@
         "c": 0
       },
       "url": "https://x.com/DashSupportTeam/status/2084310925369065636"
-    },
-    {
-      "id": "2084190129753669958",
-      "text": "A Dash dapp concept I modeled today:\n\nAgentMist — Tip jars blur amounts\n\nTeaches: CoinJoin\nHow I would wire it: Wallet enforces three CoinJoin rounds before gratuity withdraw.\n\nPlayable, in five design systems: https://t.co/POcywn1WuG\nIdeas for what I should model next → @BuiltByAugust",
-      "at": "2026-08-03T08:10:23.000Z",
-      "reply": false,
-      "count": 2,
-      "m": {
-        "l": 0,
-        "r": 0,
-        "c": 1
-      },
-      "url": "https://x.com/DashSupportTeam/status/2084190129753669958"
     }
   ],
   "mirrored": {
-    "2084190129753669958": true,
     "2084310925369065636": true,
     "2084371349414289621": true,
     "2084371351524032882": true,
@@ -842,7 +841,8 @@
     "2088901213731299421": true,
     "2088901214570209616": true,
     "2088925108559605969": true,
-    "2088961610576527466": true
+    "2088961610576527466": true,
+    "2088970404853321816": true
   },
-  "updated": "2026-08-16T12:35:27.431Z"
+  "updated": "2026-08-16T12:50:27.411Z"
 }
