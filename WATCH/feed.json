@@ -2,6 +2,19 @@
   "username": "DashSupportTeam",
   "items": [
     {
+      "id": "2088925108559605969",
+      "text": "Business development and Events August 2026 (Artemiy_nur) just crossed the funding line.\n\nNow passing at 338 net yes.\nVotes can still change — 2 days to the vote cutoff.",
+      "at": "2026-08-16T09:45:30.000Z",
+      "reply": false,
+      "count": 1,
+      "m": {
+        "l": 0,
+        "r": 0,
+        "c": 0
+      },
+      "url": "https://x.com/DashSupportTeam/status/2088925108559605969"
+    },
+    {
       "id": "2088901214570209616",
       "text": "This week in Dash:\n\n• 25 proposals active, 11 passing\n• 2 days to the superblock\n• 6 on the funding bubble\n\nThe full ballot, and answers, any time:",
       "at": "2026-08-16T08:10:34.000Z",
@@ -767,23 +780,9 @@
         "c": 0
       },
       "url": "https://x.com/DashSupportTeam/status/2084190128902169071"
-    },
-    {
-      "id": "2084009005177831432",
-      "text": "How Dash works, in plain terms:\n\nDash Platform stores data via declarative contracts: schema enforced, provable queries, but app logic stays off-chain. EVM smart contracts run arbitrary code for composable DeFi, yet expose chains to logic bugs and reentrancy risk.",
-      "at": "2026-08-02T20:10:40.000Z",
-      "reply": false,
-      "count": 2,
-      "m": {
-        "l": 0,
-        "r": 0,
-        "c": 1
-      },
-      "url": "https://x.com/DashSupportTeam/status/2084009005177831432"
     }
   ],
   "mirrored": {
-    "2084009005177831432": true,
     "2084190128902169071": true,
     "2084190129753669958": true,
     "2084310925369065636": true,
@@ -842,7 +841,8 @@
     "2088819653866856787": true,
     "2088819654894420293": true,
     "2088901213731299421": true,
-    "2088901214570209616": true
+    "2088901214570209616": true,
+    "2088925108559605969": true
   },
-  "updated": "2026-08-16T09:35:27.449Z"
+  "updated": "2026-08-16T09:50:33.564Z"
 }
