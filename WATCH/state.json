@@ -2,35 +2,35 @@
   "seen": {
     "pshenmic-dev-dashscan-september-2026": {
       "passing": true,
-      "net": 339
+      "net": 346
     },
     "pshenmic-dev-dash-desktop-september-2026": {
       "passing": true,
-      "net": 358
+      "net": 365
     },
     "pshenmic-dev-pe-september-2026": {
       "passing": true,
-      "net": 374
+      "net": 381
     },
     "pshenmic-dev-dfo-september-2026": {
       "passing": true,
-      "net": 351
+      "net": 358
     },
     "EUROPEAN-BLOCKCHAIN-CONVENTION-2026": {
-      "passing": false,
-      "net": 312
+      "passing": true,
+      "net": 323
     },
     "Business-development-Events-September": {
       "passing": true,
-      "net": 352
+      "net": 359
     },
     "DASH-MULTILINGUAL-EXPANSION_Aug": {
       "passing": false,
-      "net": 174
+      "net": 178
     },
     "Dash-Europe-Aug-Sep-2026": {
       "passing": false,
-      "net": 209
+      "net": 213
     },
     "kwvg-dev-aug26": {
       "passing": true,
@@ -42,11 +42,11 @@
     },
     "Dash-APAC-September-2026": {
       "passing": false,
-      "net": 200
+      "net": 204
     },
     "OrchardPay": {
       "passing": false,
-      "net": 80
+      "net": 87
     },
     "Dash-communities-without-censorship": {
       "passing": false,
@@ -125,9 +125,10 @@
     "flip:pshenmic-dev-dash-desktop-september-2026:in:2525632": "2026-08-15T18:16:19.376Z",
     "flip:Dash-Europe-Aug-Sep-2026:out:2525632": "2026-08-16T02:46:27.944Z",
     "flip:Dash-APAC-September-2026:out:2525632": "2026-08-16T02:46:27.944Z",
-    "flip:Business-development-Events-September:in:2525632": "2026-08-16T09:45:30.253Z"
+    "flip:Business-development-Events-September:in:2525632": "2026-08-16T09:45:30.253Z",
+    "flip:EUROPEAN-BLOCKCHAIN-CONVENTION-2026:in:2525632": "2026-08-16T12:15:29.744Z"
   },
   "superblock": "2525632",
-  "lastPassingCount": 13,
-  "updated": "2026-08-16T11:46:23.892Z"
+  "lastPassingCount": 14,
+  "updated": "2026-08-16T12:15:29.744Z"
 }
