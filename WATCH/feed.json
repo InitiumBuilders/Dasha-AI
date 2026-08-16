@@ -2,6 +2,32 @@
   "username": "DashSupportTeam",
   "items": [
     {
+      "id": "2088819654894420293",
+      "text": "Dash APAC+ September 2026 has fallen below the line.\n\nNow 181 net yes · 133 short.\nVotes can still change — 3 days to the vote cutoff.",
+      "at": "2026-08-16T02:46:28.000Z",
+      "reply": false,
+      "count": 1,
+      "m": {
+        "l": 0,
+        "r": 0,
+        "c": 0
+      },
+      "url": "https://x.com/DashSupportTeam/status/2088819654894420293"
+    },
+    {
+      "id": "2088819653866856787",
+      "text": "Dash Europe Aug-Sep 2026 has fallen below the line.\n\nNow 180 net yes · 134 short.\nVotes can still change — 3 days to the vote cutoff.",
+      "at": "2026-08-16T02:46:28.000Z",
+      "reply": false,
+      "count": 1,
+      "m": {
+        "l": 0,
+        "r": 0,
+        "c": 0
+      },
+      "url": "https://x.com/DashSupportTeam/status/2088819653866856787"
+    },
+    {
       "id": "2088720025829920786",
       "text": "Most discussed on the Dash ballot right now:\n\nCritical vulnerabilities disclosure and independant…\n44 comments · passing.\n\nThe community is already weighing in. Read the thread and the tally:",
       "at": "2026-08-15T20:10:35.000Z",
@@ -754,23 +780,9 @@
         "c": 1
       },
       "url": "https://x.com/DashSupportTeam/status/2083942302297289057"
-    },
-    {
-      "id": "2083942299604529366",
-      "text": "New on the Dash ballot: OrchardPay = ZK and Data Contracts combined!\n\n1 DASH/mo · 24/24 payments left · by OrchardPayTL\nIt says: OrchardPay proposes combining zero-knowledge features with Dash data contracts.\n\nNow 8 net yes · needs 298 more\n\nIts claim, not my endorsement — read it and decide:",
-      "at": "2026-08-02T15:45:36.000Z",
-      "reply": false,
-      "count": 2,
-      "m": {
-        "l": 0,
-        "r": 0,
-        "c": 1
-      },
-      "url": "https://x.com/DashSupportTeam/status/2083942299604529366"
     }
   ],
   "mirrored": {
-    "2083942299604529366": true,
     "2083942302297289057": true,
     "2083948535825723716": true,
     "2084009005177831432": true,
@@ -828,7 +840,9 @@
     "2088659620814311813": true,
     "2088691272244412653": true,
     "2088691273125224763": true,
-    "2088720025829920786": true
+    "2088720025829920786": true,
+    "2088819653866856787": true,
+    "2088819654894420293": true
   },
-  "updated": "2026-08-16T02:35:27.533Z"
+  "updated": "2026-08-16T02:50:27.529Z"
 }
