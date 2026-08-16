@@ -2,6 +2,19 @@
   "username": "DashSupportTeam",
   "items": [
     {
+      "id": "2088961610576527466",
+      "text": "EUROPEAN BLOCKCHAIN CONVENTION 2026 just crossed the funding line.\n\nNow passing at 323 net yes.\nVotes can still change — 2 days to the vote cutoff.",
+      "at": "2026-08-16T12:10:33.000Z",
+      "reply": false,
+      "count": 1,
+      "m": {
+        "l": 0,
+        "r": 0,
+        "c": 0
+      },
+      "url": "https://x.com/DashSupportTeam/status/2088961610576527466"
+    },
+    {
       "id": "2088925108559605969",
       "text": "Business development and Events August 2026 (Artemiy_nur) just crossed the funding line.\n\nNow passing at 338 net yes.\nVotes can still change — 2 days to the vote cutoff.",
       "at": "2026-08-16T09:45:30.000Z",
@@ -767,23 +780,9 @@
         "c": 1
       },
       "url": "https://x.com/DashSupportTeam/status/2084190129753669958"
-    },
-    {
-      "id": "2084190128902169071",
-      "text": "Most discussed on the Dash ballot right now:\n\nCritical vulnerabilities disclosure and independant…\n43 comments.\n\nThe community is already weighing in. Read the thread and the tally:",
-      "at": "2026-08-03T08:10:23.000Z",
-      "reply": false,
-      "count": 1,
-      "m": {
-        "l": 0,
-        "r": 0,
-        "c": 0
-      },
-      "url": "https://x.com/DashSupportTeam/status/2084190128902169071"
     }
   ],
   "mirrored": {
-    "2084190128902169071": true,
     "2084190129753669958": true,
     "2084310925369065636": true,
     "2084371349414289621": true,
@@ -842,7 +841,8 @@
     "2088819654894420293": true,
     "2088901213731299421": true,
     "2088901214570209616": true,
-    "2088925108559605969": true
+    "2088925108559605969": true,
+    "2088961610576527466": true
   },
-  "updated": "2026-08-16T12:05:27.468Z"
+  "updated": "2026-08-16T12:20:27.434Z"
 }
