@@ -18,31 +18,31 @@
     },
     "EUROPEAN-BLOCKCHAIN-CONVENTION-2026": {
       "passing": true,
-      "net": 327
+      "net": 325
     },
     "Business-development-Events-September": {
       "passing": true,
-      "net": 373
+      "net": 371
     },
     "DASH-MULTILINGUAL-EXPANSION_Aug": {
       "passing": false,
-      "net": 178
+      "net": 176
     },
     "Dash-Europe-Aug-Sep-2026": {
       "passing": false,
-      "net": 209
+      "net": 207
     },
     "kwvg-dev-aug26": {
       "passing": true,
-      "net": 407
+      "net": 409
     },
     "DCG-Operations-Aug-Nov-26": {
       "passing": true,
-      "net": 402
+      "net": 404
     },
     "Dash-APAC-September-2026": {
       "passing": false,
-      "net": 200
+      "net": 198
     },
     "OrchardPay": {
       "passing": false,
@@ -131,5 +131,5 @@
   },
   "superblock": "2525632",
   "lastPassingCount": 14,
-  "updated": "2026-08-16T14:45:29.654Z"
+  "updated": "2026-08-16T15:15:29.991Z"
 }
