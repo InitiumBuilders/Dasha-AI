@@ -2,19 +2,19 @@
   "seen": {
     "pshenmic-dev-dashscan-september-2026": {
       "passing": true,
-      "net": 368
+      "net": 372
     },
     "pshenmic-dev-dash-desktop-september-2026": {
       "passing": true,
-      "net": 391
+      "net": 396
     },
     "pshenmic-dev-pe-september-2026": {
       "passing": true,
-      "net": 408
+      "net": 412
     },
     "pshenmic-dev-dfo-september-2026": {
       "passing": true,
-      "net": 385
+      "net": 389
     },
     "EUROPEAN-BLOCKCHAIN-CONVENTION-2026": {
       "passing": true,
@@ -22,11 +22,11 @@
     },
     "Business-development-Events-September": {
       "passing": true,
-      "net": 386
+      "net": 390
     },
     "DASH-MULTILINGUAL-EXPANSION_Aug": {
       "passing": false,
-      "net": 181
+      "net": 185
     },
     "Dash-Europe-Aug-Sep-2026": {
       "passing": false,
@@ -38,7 +38,7 @@
     },
     "DCG-Operations-Aug-Nov-26": {
       "passing": true,
-      "net": 417
+      "net": 421
     },
     "Dash-APAC-September-2026": {
       "passing": false,
@@ -131,5 +131,5 @@
   },
   "superblock": "2525632",
   "lastPassingCount": 14,
-  "updated": "2026-08-16T19:45:29.677Z"
+  "updated": "2026-08-16T20:15:29.668Z"
 }
