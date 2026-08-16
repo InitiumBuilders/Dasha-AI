@@ -2,51 +2,51 @@
   "seen": {
     "pshenmic-dev-dashscan-september-2026": {
       "passing": true,
-      "net": 346
+      "net": 350
     },
     "pshenmic-dev-dash-desktop-september-2026": {
       "passing": true,
-      "net": 365
+      "net": 369
     },
     "pshenmic-dev-pe-september-2026": {
       "passing": true,
-      "net": 381
+      "net": 385
     },
     "pshenmic-dev-dfo-september-2026": {
       "passing": true,
-      "net": 358
+      "net": 362
     },
     "EUROPEAN-BLOCKCHAIN-CONVENTION-2026": {
-      "passing": true,
-      "net": 323
+      "passing": false,
+      "net": 315
     },
     "Business-development-Events-September": {
       "passing": true,
-      "net": 359
+      "net": 363
     },
     "DASH-MULTILINGUAL-EXPANSION_Aug": {
       "passing": false,
-      "net": 178
+      "net": 186
     },
     "Dash-Europe-Aug-Sep-2026": {
       "passing": false,
-      "net": 213
+      "net": 217
     },
     "kwvg-dev-aug26": {
       "passing": true,
-      "net": 393
+      "net": 397
     },
     "DCG-Operations-Aug-Nov-26": {
       "passing": true,
-      "net": 386
+      "net": 390
     },
     "Dash-APAC-September-2026": {
       "passing": false,
-      "net": 204
+      "net": 208
     },
     "OrchardPay": {
       "passing": false,
-      "net": 87
+      "net": 91
     },
     "Dash-communities-without-censorship": {
       "passing": false,
@@ -58,7 +58,7 @@
     },
     "vulnerability-disclosure-compensation": {
       "passing": true,
-      "net": 342
+      "net": 346
     },
     "dash-growth-q3-2026": {
       "passing": true,
@@ -126,9 +126,10 @@
     "flip:Dash-Europe-Aug-Sep-2026:out:2525632": "2026-08-16T02:46:27.944Z",
     "flip:Dash-APAC-September-2026:out:2525632": "2026-08-16T02:46:27.944Z",
     "flip:Business-development-Events-September:in:2525632": "2026-08-16T09:45:30.253Z",
-    "flip:EUROPEAN-BLOCKCHAIN-CONVENTION-2026:in:2525632": "2026-08-16T12:15:29.744Z"
+    "flip:EUROPEAN-BLOCKCHAIN-CONVENTION-2026:in:2525632": "2026-08-16T12:15:29.744Z",
+    "flip:EUROPEAN-BLOCKCHAIN-CONVENTION-2026:out:2525632": "2026-08-16T12:45:29.804Z"
   },
   "superblock": "2525632",
-  "lastPassingCount": 14,
-  "updated": "2026-08-16T12:15:29.744Z"
+  "lastPassingCount": 13,
+  "updated": "2026-08-16T12:45:29.804Z"
 }
