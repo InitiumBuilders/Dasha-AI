@@ -10,7 +10,7 @@
     },
     "pshenmic-dev-pe-september-2026": {
       "passing": true,
-      "net": 397
+      "net": 398
     },
     "pshenmic-dev-dfo-september-2026": {
       "passing": true,
@@ -38,7 +38,7 @@
     },
     "DCG-Operations-Aug-Nov-26": {
       "passing": true,
-      "net": 404
+      "net": 406
     },
     "Dash-APAC-September-2026": {
       "passing": false,
@@ -58,7 +58,7 @@
     },
     "vulnerability-disclosure-compensation": {
       "passing": true,
-      "net": 399
+      "net": 397
     },
     "dash-growth-q3-2026": {
       "passing": true,
@@ -131,5 +131,5 @@
   },
   "superblock": "2525632",
   "lastPassingCount": 14,
-  "updated": "2026-08-16T17:15:29.804Z"
+  "updated": "2026-08-16T17:45:29.830Z"
 }
