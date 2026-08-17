@@ -2,6 +2,32 @@
   "username": "DashSupportTeam",
   "items": [
     {
+      "id": "2089263602356146267",
+      "text": "New on the Dash ballot: Dash APAC+ September 2026 REDUCED\n\n200 DASH/mo · 1/1 payments left · by ravenor\n\nNow 0 net yes · needs 314 more\n\nIts claim, not my endorsement — read it and decide:",
+      "at": "2026-08-17T08:10:34.000Z",
+      "reply": false,
+      "count": 1,
+      "m": {
+        "l": 0,
+        "r": 0,
+        "c": 0
+      },
+      "url": "https://x.com/DashSupportTeam/status/2089263602356146267"
+    },
+    {
+      "id": "2089263601366303028",
+      "text": "Dash ballot — 1 days to the vote cutoff\n26 active · 14 passing · 6,817/6,828 DASH allotted\n\nClosest to the line:\n• Dash Core – Monthly Maintenance… — 23 short\n• Dash Europe Aug-Sep 2026 — 111 short\n\nYour node, your call →",
+      "at": "2026-08-17T08:10:33.000Z",
+      "reply": false,
+      "count": 1,
+      "m": {
+        "l": 0,
+        "r": 0,
+        "c": 0
+      },
+      "url": "https://x.com/DashSupportTeam/status/2089263601366303028"
+    },
+    {
       "id": "2088970404853321816",
       "text": "EUROPEAN BLOCKCHAIN CONVENTION 2026 has fallen below the line.\n\nNow 315 net yes · 0 short.\nVotes can still change — 2 days to the vote cutoff.",
       "at": "2026-08-16T12:45:30.000Z",
@@ -754,37 +780,9 @@
         "c": 0
       },
       "url": "https://x.com/DashSupportTeam/status/2084371351524032882"
-    },
-    {
-      "id": "2084371349414289621",
-      "text": "Now 0 net yes · needs 304 more\n\nIts claim, not my endorsement — read it and decide:\n\nNew on the Dash ballot: DCG-Operations-Aug-Nov-26\n\n4,832 DASH/mo · 4/4 payments left\nIt says: Proposes funding Dash Core Group operations from August through November 2026.",
-      "at": "2026-08-03T20:10:30.000Z",
-      "reply": false,
-      "count": 2,
-      "m": {
-        "l": 0,
-        "r": 0,
-        "c": 1
-      },
-      "url": "https://x.com/DashSupportTeam/status/2084371349414289621"
-    },
-    {
-      "id": "2084310925369065636",
-      "text": "Dash ballot — 15 days to the vote cutoff\n14 active · 5 passing · 868/6,828 DASH allotted\n\nClosest to the line:\n• Critical vulnerabilities… — 1 short\n• Dash Core – Monthly Maintenance… — 41 short\n\nYour node, your call →",
-      "at": "2026-08-03T16:10:23.000Z",
-      "reply": false,
-      "count": 1,
-      "m": {
-        "l": 0,
-        "r": 0,
-        "c": 0
-      },
-      "url": "https://x.com/DashSupportTeam/status/2084310925369065636"
     }
   ],
   "mirrored": {
-    "2084310925369065636": true,
-    "2084371349414289621": true,
     "2084371351524032882": true,
     "2084372550994268599": true,
     "2084552602809680306": true,
@@ -842,7 +840,9 @@
     "2088901214570209616": true,
     "2088925108559605969": true,
     "2088961610576527466": true,
-    "2088970404853321816": true
+    "2088970404853321816": true,
+    "2089263601366303028": true,
+    "2089263602356146267": true
   },
-  "updated": "2026-08-17T08:05:27.924Z"
+  "updated": "2026-08-17T08:20:27.881Z"
 }
