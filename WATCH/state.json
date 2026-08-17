@@ -2,7 +2,7 @@
   "seen": {
     "Dash-APAC-September-2026-REDUCED": {
       "passing": true,
-      "net": 429
+      "net": 416
     },
     "pshenmic-dev-dashscan-september-2026": {
       "passing": true,
@@ -54,19 +54,19 @@
     },
     "Dash-communities-without-censorship": {
       "passing": false,
-      "net": 285
+      "net": 279
     },
     "dash-growth-marketing-budget": {
       "passing": false,
       "net": 99
     },
     "vulnerability-disclosure-compensation": {
-      "passing": true,
-      "net": 362
+      "passing": false,
+      "net": 214
     },
     "dash-growth-q3-2026": {
       "passing": true,
-      "net": 329
+      "net": 333
     },
     "BTCBackportsVijay_03": {
       "passing": false,
@@ -137,6 +137,6 @@
     "c24:2525632": "2026-08-17T15:15:30.606Z"
   },
   "superblock": "2525632",
-  "lastPassingCount": 15,
-  "updated": "2026-08-17T15:45:30.567Z"
+  "lastPassingCount": 14,
+  "updated": "2026-08-17T16:15:29.825Z"
 }
