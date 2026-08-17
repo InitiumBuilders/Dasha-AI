@@ -2,11 +2,11 @@
   "seen": {
     "Dash-APAC-September-2026-REDUCED": {
       "passing": true,
-      "net": 430
+      "net": 450
     },
     "pshenmic-dev-dashscan-september-2026": {
       "passing": true,
-      "net": 414
+      "net": 415
     },
     "pshenmic-dev-dash-desktop-september-2026": {
       "passing": true,
@@ -22,23 +22,23 @@
     },
     "EUROPEAN-BLOCKCHAIN-CONVENTION-2026": {
       "passing": true,
-      "net": 385
+      "net": 386
     },
     "Business-development-Events-September": {
       "passing": true,
-      "net": 378
+      "net": 379
     },
     "DASH-MULTILINGUAL-EXPANSION_Aug": {
       "passing": false,
-      "net": 249
+      "net": 250
     },
     "Dash-Europe-Aug-Sep-2026": {
       "passing": false,
-      "net": 242
+      "net": 241
     },
     "kwvg-dev-aug26": {
       "passing": true,
-      "net": 440
+      "net": 441
     },
     "DCG-Operations-Aug-Nov-26": {
       "passing": true,
@@ -54,7 +54,7 @@
     },
     "Dash-communities-without-censorship": {
       "passing": false,
-      "net": 253
+      "net": 251
     },
     "dash-growth-marketing-budget": {
       "passing": false,
@@ -66,11 +66,11 @@
     },
     "dash-growth-q3-2026": {
       "passing": true,
-      "net": 343
+      "net": 344
     },
     "BTCBackportsVijay_03": {
       "passing": false,
-      "net": 268
+      "net": 269
     },
     "2026-05-MakeDashASafeStoreOfValue": {
       "passing": false,
@@ -138,5 +138,5 @@
   },
   "superblock": "2525632",
   "lastPassingCount": 14,
-  "updated": "2026-08-17T20:15:29.734Z"
+  "updated": "2026-08-17T20:45:29.779Z"
 }
