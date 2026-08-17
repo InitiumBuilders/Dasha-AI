@@ -18,7 +18,8 @@
         "pshenmic-dev-dfo-september-2026",
         "Dash-Europe-Aug-Sep-2026",
         "EUROPEAN-BLOCKCHAIN-CONVENTION-2026",
-        "Business-development-Events-September"
+        "Business-development-Events-September",
+        "Dash-APAC-September-2026-REDUCED"
       ]
     }
   },
@@ -209,6 +210,18 @@
       "owner": "Artemiy_nur",
       "ask": 85,
       "firstSeen": "2026-08-16T12:10:30.957Z",
+      "cyclesFunded": [
+        "2525632"
+      ],
+      "totalPays": 1,
+      "remaining": 1
+    },
+    "Dash-APAC-September-2026-REDUCED": {
+      "name": "Dash-APAC-September-2026-REDUCED",
+      "title": "Dash APAC+ September 2026 REDUCED",
+      "owner": "ravenor",
+      "ask": 200,
+      "firstSeen": "2026-08-17T12:10:30.954Z",
       "cyclesFunded": [
         "2525632"
       ],
