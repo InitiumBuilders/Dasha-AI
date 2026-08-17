@@ -54,7 +54,7 @@
     },
     "Dash-communities-without-censorship": {
       "passing": false,
-      "net": 271
+      "net": 270
     },
     "dash-growth-marketing-budget": {
       "passing": false,
@@ -138,5 +138,5 @@
   },
   "superblock": "2525632",
   "lastPassingCount": 14,
-  "updated": "2026-08-17T18:15:29.738Z"
+  "updated": "2026-08-17T18:45:30.139Z"
 }
