@@ -1,56 +1,56 @@
 {
   "seen": {
     "Dash-APAC-September-2026-REDUCED": {
-      "passing": false,
-      "net": 185
+      "passing": true,
+      "net": 316
     },
     "pshenmic-dev-dashscan-september-2026": {
       "passing": true,
-      "net": 372
+      "net": 390
     },
     "pshenmic-dev-dash-desktop-september-2026": {
       "passing": true,
-      "net": 416
+      "net": 434
     },
     "pshenmic-dev-pe-september-2026": {
       "passing": true,
-      "net": 432
+      "net": 450
     },
     "pshenmic-dev-dfo-september-2026": {
       "passing": true,
-      "net": 436
+      "net": 454
     },
     "EUROPEAN-BLOCKCHAIN-CONVENTION-2026": {
       "passing": true,
-      "net": 360
+      "net": 378
     },
     "Business-development-Events-September": {
       "passing": true,
-      "net": 373
+      "net": 391
     },
     "DASH-MULTILINGUAL-EXPANSION_Aug": {
       "passing": false,
-      "net": 191
+      "net": 209
     },
     "Dash-Europe-Aug-Sep-2026": {
       "passing": false,
-      "net": 195
+      "net": 213
     },
     "kwvg-dev-aug26": {
       "passing": true,
-      "net": 414
+      "net": 432
     },
     "DCG-Operations-Aug-Nov-26": {
       "passing": true,
-      "net": 461
+      "net": 479
     },
     "Dash-APAC-September-2026": {
       "passing": false,
-      "net": 166
+      "net": 162
     },
     "OrchardPay": {
       "passing": false,
-      "net": 108
+      "net": 126
     },
     "Dash-communities-without-censorship": {
       "passing": false,
@@ -132,9 +132,10 @@
     "flip:Business-development-Events-September:in:2525632": "2026-08-16T09:45:30.253Z",
     "flip:EUROPEAN-BLOCKCHAIN-CONVENTION-2026:in:2525632": "2026-08-16T12:15:29.744Z",
     "flip:EUROPEAN-BLOCKCHAIN-CONVENTION-2026:out:2525632": "2026-08-16T12:45:29.804Z",
-    "new:Dash-APAC-September-2026-REDUCED": "2026-08-17T08:15:29.785Z"
+    "new:Dash-APAC-September-2026-REDUCED": "2026-08-17T08:15:29.785Z",
+    "flip:Dash-APAC-September-2026-REDUCED:in:2525632": "2026-08-17T10:15:29.843Z"
   },
   "superblock": "2525632",
-  "lastPassingCount": 14,
-  "updated": "2026-08-17T09:45:29.744Z"
+  "lastPassingCount": 15,
+  "updated": "2026-08-17T10:15:29.843Z"
 }
