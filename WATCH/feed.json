@@ -2,6 +2,19 @@
   "username": "DashSupportTeam",
   "items": [
     {
+      "id": "2089295044624720071",
+      "text": "Dash APAC+ September 2026 REDUCED just crossed the funding line.\n\nNow passing at 316 net yes.\nVotes can still change — 1 days to the vote cutoff.",
+      "at": "2026-08-17T10:15:30.000Z",
+      "reply": false,
+      "count": 1,
+      "m": {
+        "l": 0,
+        "r": 0,
+        "c": 0
+      },
+      "url": "https://x.com/DashSupportTeam/status/2089295044624720071"
+    },
+    {
       "id": "2089263602356146267",
       "text": "New on the Dash ballot: Dash APAC+ September 2026 REDUCED\n\n200 DASH/mo · 1/1 payments left · by ravenor\n\nNow 0 net yes · needs 314 more\n\nIts claim, not my endorsement — read it and decide:",
       "at": "2026-08-17T08:10:34.000Z",
@@ -767,23 +780,9 @@
         "c": 1
       },
       "url": "https://x.com/DashSupportTeam/status/2084372550994268599"
-    },
-    {
-      "id": "2084371351524032882",
-      "text": "Dash Core shipped v23.1.8.\n\nDash Core 23.1.8 Release Announcement\n\nRelease notes: https://t.co/blVqaQvmdq\n\nWondering what it changes for you?",
-      "at": "2026-08-03T20:10:30.000Z",
-      "reply": false,
-      "count": 1,
-      "m": {
-        "l": 0,
-        "r": 0,
-        "c": 0
-      },
-      "url": "https://x.com/DashSupportTeam/status/2084371351524032882"
     }
   ],
   "mirrored": {
-    "2084371351524032882": true,
     "2084372550994268599": true,
     "2084552602809680306": true,
     "2084552604609048801": true,
@@ -842,7 +841,8 @@
     "2088961610576527466": true,
     "2088970404853321816": true,
     "2089263601366303028": true,
-    "2089263602356146267": true
+    "2089263602356146267": true,
+    "2089295044624720071": true
   },
-  "updated": "2026-08-17T10:05:27.487Z"
+  "updated": "2026-08-17T10:20:27.657Z"
 }
