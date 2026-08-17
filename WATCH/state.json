@@ -2,7 +2,7 @@
   "seen": {
     "Dash-APAC-September-2026-REDUCED": {
       "passing": true,
-      "net": 377
+      "net": 382
     },
     "pshenmic-dev-dashscan-september-2026": {
       "passing": true,
@@ -46,7 +46,7 @@
     },
     "Dash-APAC-September-2026": {
       "passing": false,
-      "net": 106
+      "net": 98
     },
     "OrchardPay": {
       "passing": false,
@@ -137,5 +137,5 @@
   },
   "superblock": "2525632",
   "lastPassingCount": 15,
-  "updated": "2026-08-17T12:46:27.815Z"
+  "updated": "2026-08-17T13:15:29.746Z"
 }
