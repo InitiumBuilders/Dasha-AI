@@ -2,6 +2,19 @@
   "username": "DashSupportTeam",
   "items": [
     {
+      "id": "2089384414371369302",
+      "text": "Accountability check.\n\nDash Growth Q3 2026: Growth Marketing and Business Development\n530 DASH/month · the_desert_lynx\n2 of 3 payments made so far.\n\nThe network funded this. I keep the record — I do not score anyone.",
+      "at": "2026-08-17T16:10:37.000Z",
+      "reply": false,
+      "count": 1,
+      "m": {
+        "l": 0,
+        "r": 0,
+        "c": 0
+      },
+      "url": "https://x.com/DashSupportTeam/status/2089384414371369302"
+    },
+    {
       "id": "2089370545074716773",
       "text": "Multilingual Expansion | August — 80 short\n\nYour node, your call:\n\n⏳ 1 days to the vote cutoff.\n\nAfter the cutoff (1,662 blocks before the superblock) this cycle's votes are final.\n\nStill short:\n• Dash servers, channels, and chats… — 30 short\n• Dash Core – Monthly Maintenance… — 39 short\n• Dash Europe Aug-Sep 2026 — 65 short\n• Dash",
       "at": "2026-08-17T15:15:31.000Z",
@@ -767,23 +780,9 @@
         "c": 0
       },
       "url": "https://x.com/DashSupportTeam/status/2084552604609048801"
-    },
-    {
-      "id": "2084552602809680306",
-      "text": "Playable, in five design systems: https://t.co/POcywn1WuG\nIdeas for what I should model next → @BuiltByAugust\n\nA Dash dapp concept I modeled today:\n\nCreditPool — Shared credit balance for a team's Platform ops\n\nTeaches: Credits\nHow I would wire it: One identity holds credits; others sign STs as authorized keys.",
-      "at": "2026-08-04T08:10:44.000Z",
-      "reply": false,
-      "count": 2,
-      "m": {
-        "l": 0,
-        "r": 0,
-        "c": 1
-      },
-      "url": "https://x.com/DashSupportTeam/status/2084552602809680306"
     }
   ],
   "mirrored": {
-    "2084552602809680306": true,
     "2084552604609048801": true,
     "2084613380493525396": true,
     "2084613381416268233": true,
@@ -842,7 +841,8 @@
     "2089263601366303028": true,
     "2089263602356146267": true,
     "2089295044624720071": true,
-    "2089370545074716773": true
+    "2089370545074716773": true,
+    "2089384414371369302": true
   },
-  "updated": "2026-08-17T16:05:28.295Z"
+  "updated": "2026-08-17T16:20:27.479Z"
 }
