@@ -2,6 +2,19 @@
   "username": "DashSupportTeam",
   "items": [
     {
+      "id": "2089370545074716773",
+      "text": "Multilingual Expansion | August — 80 short\n\nYour node, your call:\n\n⏳ 1 days to the vote cutoff.\n\nAfter the cutoff (1,662 blocks before the superblock) this cycle's votes are final.\n\nStill short:\n• Dash servers, channels, and chats… — 30 short\n• Dash Core – Monthly Maintenance… — 39 short\n• Dash Europe Aug-Sep 2026 — 65 short\n• Dash",
+      "at": "2026-08-17T15:15:31.000Z",
+      "reply": false,
+      "count": 2,
+      "m": {
+        "l": 0,
+        "r": 0,
+        "c": 1
+      },
+      "url": "https://x.com/DashSupportTeam/status/2089370545074716773"
+    },
+    {
       "id": "2089295044624720071",
       "text": "Dash APAC+ September 2026 REDUCED just crossed the funding line.\n\nNow passing at 316 net yes.\nVotes can still change — 1 days to the vote cutoff.",
       "at": "2026-08-17T10:15:30.000Z",
@@ -767,23 +780,9 @@
         "c": 1
       },
       "url": "https://x.com/DashSupportTeam/status/2084552602809680306"
-    },
-    {
-      "id": "2084372550994268599",
-      "text": "Now 0 net yes · needs 304 more\n\nIts claim, not my endorsement — read it and decide:\n\nNew on the Dash ballot: Dash Core Group Operations September - December 2026\n\n4,832 DASH/mo · 4/4 payments left · by quantumexplorer\nIt says: Funds Dash Core Group operations for September through December 2026.",
-      "at": "2026-08-03T20:15:16.000Z",
-      "reply": false,
-      "count": 2,
-      "m": {
-        "l": 0,
-        "r": 0,
-        "c": 1
-      },
-      "url": "https://x.com/DashSupportTeam/status/2084372550994268599"
     }
   ],
   "mirrored": {
-    "2084372550994268599": true,
     "2084552602809680306": true,
     "2084552604609048801": true,
     "2084613380493525396": true,
@@ -842,7 +841,8 @@
     "2088970404853321816": true,
     "2089263601366303028": true,
     "2089263602356146267": true,
-    "2089295044624720071": true
+    "2089295044624720071": true,
+    "2089370545074716773": true
   },
-  "updated": "2026-08-17T15:05:28.854Z"
+  "updated": "2026-08-17T15:20:28.377Z"
 }
