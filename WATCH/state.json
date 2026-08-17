@@ -2,7 +2,7 @@
   "seen": {
     "Dash-APAC-September-2026-REDUCED": {
       "passing": true,
-      "net": 353
+      "net": 355
     },
     "pshenmic-dev-dashscan-september-2026": {
       "passing": true,
@@ -46,7 +46,7 @@
     },
     "Dash-APAC-September-2026": {
       "passing": false,
-      "net": 122
+      "net": 118
     },
     "OrchardPay": {
       "passing": false,
@@ -62,7 +62,7 @@
     },
     "vulnerability-disclosure-compensation": {
       "passing": true,
-      "net": 402
+      "net": 396
     },
     "dash-growth-q3-2026": {
       "passing": true,
@@ -137,5 +137,5 @@
   },
   "superblock": "2525632",
   "lastPassingCount": 15,
-  "updated": "2026-08-17T11:45:29.834Z"
+  "updated": "2026-08-17T12:16:20.903Z"
 }
