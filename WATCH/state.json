@@ -6,11 +6,11 @@
     },
     "pshenmic-dev-dashscan-september-2026": {
       "passing": true,
-      "net": 432
+      "net": 436
     },
     "pshenmic-dev-dash-desktop-september-2026": {
       "passing": true,
-      "net": 503
+      "net": 507
     },
     "pshenmic-dev-pe-september-2026": {
       "passing": true,
@@ -70,7 +70,7 @@
     },
     "BTCBackportsVijay_03": {
       "passing": false,
-      "net": 261
+      "net": 253
     },
     "2026-05-MakeDashASafeStoreOfValue": {
       "passing": false,
@@ -138,5 +138,5 @@
   },
   "superblock": "2525632",
   "lastPassingCount": 14,
-  "updated": "2026-08-18T04:15:29.798Z"
+  "updated": "2026-08-18T04:45:29.695Z"
 }
