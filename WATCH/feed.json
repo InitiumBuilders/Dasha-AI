@@ -2,6 +2,32 @@
   "username": "DashSupportTeam",
   "items": [
     {
+      "id": "2089625993715556632",
+      "text": "Dash Platform shipped v4.1.1.\n\nDash Platform v4.1.1\n\nRelease notes: https://t.co/gTEKGLaqV5\n\nWondering what it changes for you?",
+      "at": "2026-08-18T08:10:34.000Z",
+      "reply": false,
+      "count": 1,
+      "m": {
+        "l": 0,
+        "r": 0,
+        "c": 0
+      },
+      "url": "https://x.com/DashSupportTeam/status/2089625993715556632"
+    },
+    {
+      "id": "2089625992809664804",
+      "text": "Dash ballot — 7 hours to the vote cutoff\n26 active · 14 passing · 6,817/6,828 DASH allotted\n\nClosest to the line:\n• Dash Core – Monthly Maintenance… — 62 short\n• Dash Multilingual Expansion |… — 65 short\n\nYour node, your call →",
+      "at": "2026-08-18T08:10:34.000Z",
+      "reply": false,
+      "count": 1,
+      "m": {
+        "l": 0,
+        "r": 0,
+        "c": 0
+      },
+      "url": "https://x.com/DashSupportTeam/status/2089625992809664804"
+    },
+    {
       "id": "2089384414371369302",
       "text": "Accountability check.\n\nDash Growth Q3 2026: Growth Marketing and Business Development\n530 DASH/month · the_desert_lynx\n2 of 3 payments made so far.\n\nThe network funded this. I keep the record — I do not score anyone.",
       "at": "2026-08-17T16:10:37.000Z",
@@ -754,37 +780,9 @@
         "c": 1
       },
       "url": "https://x.com/DashSupportTeam/status/2084613381416268233"
-    },
-    {
-      "id": "2084613380493525396",
-      "text": "Dash ballot — 14 days to the vote cutoff\n15 active · 5 passing · 868/6,828 DASH allotted\n\nClosest to the line:\n• Critical vulnerabilities… — 0 short\n• Dash Core – Monthly Maintenance… — 40 short\n\nYour node, your call →",
-      "at": "2026-08-04T12:12:14.000Z",
-      "reply": false,
-      "count": 1,
-      "m": {
-        "l": 0,
-        "r": 0,
-        "c": 0
-      },
-      "url": "https://x.com/DashSupportTeam/status/2084613380493525396"
-    },
-    {
-      "id": "2084552604609048801",
-      "text": "Multiple Ethereum bridges lost $35M this week after validator coordination gaps let attackers forge withdrawals. Dash keeps funds on-chain with InstantSend+ChainLocks, giving up cross-chain flexibility for native finality.\n\nHow Dash works, in plain terms:",
-      "at": "2026-08-04T08:10:44.000Z",
-      "reply": false,
-      "count": 1,
-      "m": {
-        "l": 0,
-        "r": 0,
-        "c": 0
-      },
-      "url": "https://x.com/DashSupportTeam/status/2084552604609048801"
     }
   ],
   "mirrored": {
-    "2084552604609048801": true,
-    "2084613380493525396": true,
     "2084613381416268233": true,
     "2084673556235874393": true,
     "2084893585825001557": true,
@@ -842,7 +840,9 @@
     "2089263602356146267": true,
     "2089295044624720071": true,
     "2089370545074716773": true,
-    "2089384414371369302": true
+    "2089384414371369302": true,
+    "2089625992809664804": true,
+    "2089625993715556632": true
   },
-  "updated": "2026-08-18T08:05:27.520Z"
+  "updated": "2026-08-18T08:20:27.473Z"
 }
