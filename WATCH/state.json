@@ -2,7 +2,7 @@
   "seen": {
     "Dash-APAC-September-2026-REDUCED": {
       "passing": true,
-      "net": 415
+      "net": 403
     },
     "pshenmic-dev-dashscan-september-2026": {
       "passing": true,
@@ -66,7 +66,7 @@
     },
     "dash-growth-q3-2026": {
       "passing": true,
-      "net": 369
+      "net": 381
     },
     "BTCBackportsVijay_03": {
       "passing": false,
@@ -138,5 +138,5 @@
   },
   "superblock": "2525632",
   "lastPassingCount": 14,
-  "updated": "2026-08-18T14:16:21.923Z"
+  "updated": "2026-08-18T14:45:29.809Z"
 }
