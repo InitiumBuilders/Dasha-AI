@@ -2,7 +2,7 @@
   "seen": {
     "Dash-APAC-September-2026-REDUCED": {
       "passing": true,
-      "net": 391
+      "net": 336
     },
     "pshenmic-dev-dashscan-september-2026": {
       "passing": true,
@@ -26,23 +26,23 @@
     },
     "Business-development-Events-September": {
       "passing": true,
-      "net": 397
+      "net": 409
     },
     "DASH-MULTILINGUAL-EXPANSION_Aug": {
-      "passing": false,
-      "net": 265
+      "passing": true,
+      "net": 348
     },
     "Dash-Europe-Aug-Sep-2026": {
       "passing": false,
-      "net": 253
+      "net": 241
     },
     "kwvg-dev-aug26": {
       "passing": true,
-      "net": 456
+      "net": 468
     },
     "DCG-Operations-Aug-Nov-26": {
       "passing": true,
-      "net": 510
+      "net": 522
     },
     "Dash-APAC-September-2026": {
       "passing": false,
@@ -62,11 +62,11 @@
     },
     "vulnerability-disclosure-compensation": {
       "passing": false,
-      "net": 228
+      "net": 240
     },
     "dash-growth-q3-2026": {
       "passing": true,
-      "net": 381
+      "net": 393
     },
     "BTCBackportsVijay_03": {
       "passing": false,
@@ -134,9 +134,10 @@
     "flip:EUROPEAN-BLOCKCHAIN-CONVENTION-2026:out:2525632": "2026-08-16T12:45:29.804Z",
     "new:Dash-APAC-September-2026-REDUCED": "2026-08-17T08:15:29.785Z",
     "flip:Dash-APAC-September-2026-REDUCED:in:2525632": "2026-08-17T10:15:29.843Z",
-    "c24:2525632": "2026-08-17T15:15:30.606Z"
+    "c24:2525632": "2026-08-17T15:15:30.606Z",
+    "flip:DASH-MULTILINGUAL-EXPANSION_Aug:in:2525632": "2026-08-18T15:45:29.779Z"
   },
   "superblock": "2525632",
-  "lastPassingCount": 14,
-  "updated": "2026-08-18T15:15:29.747Z"
+  "lastPassingCount": 15,
+  "updated": "2026-08-18T15:45:29.779Z"
 }
