@@ -19,7 +19,8 @@
         "Dash-Europe-Aug-Sep-2026",
         "EUROPEAN-BLOCKCHAIN-CONVENTION-2026",
         "Business-development-Events-September",
-        "Dash-APAC-September-2026-REDUCED"
+        "Dash-APAC-September-2026-REDUCED",
+        "DASH-MULTILINGUAL-EXPANSION_Aug"
       ]
     }
   },
@@ -222,6 +223,18 @@
       "owner": "ravenor",
       "ask": 200,
       "firstSeen": "2026-08-17T12:10:30.954Z",
+      "cyclesFunded": [
+        "2525632"
+      ],
+      "totalPays": 1,
+      "remaining": 1
+    },
+    "DASH-MULTILINGUAL-EXPANSION_Aug": {
+      "name": "DASH-MULTILINGUAL-EXPANSION_Aug",
+      "title": "Dash Multilingual Expansion | August",
+      "owner": "VONNY",
+      "ask": 70,
+      "firstSeen": "2026-08-18T16:10:30.869Z",
       "cyclesFunded": [
         "2525632"
       ],
