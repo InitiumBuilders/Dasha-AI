@@ -2,55 +2,55 @@
   "seen": {
     "Dash-APAC-September-2026-REDUCED": {
       "passing": true,
-      "net": 404
+      "net": 416
     },
     "pshenmic-dev-dashscan-september-2026": {
       "passing": true,
-      "net": 446
+      "net": 458
     },
     "pshenmic-dev-dash-desktop-september-2026": {
       "passing": true,
-      "net": 521
+      "net": 533
     },
     "pshenmic-dev-pe-september-2026": {
       "passing": true,
-      "net": 480
+      "net": 492
     },
     "pshenmic-dev-dfo-september-2026": {
       "passing": true,
-      "net": 541
+      "net": 553
     },
     "EUROPEAN-BLOCKCHAIN-CONVENTION-2026": {
       "passing": true,
-      "net": 387
+      "net": 399
     },
     "Business-development-Events-September": {
       "passing": true,
-      "net": 378
+      "net": 390
     },
     "DASH-MULTILINGUAL-EXPANSION_Aug": {
       "passing": false,
-      "net": 250
+      "net": 262
     },
     "Dash-Europe-Aug-Sep-2026": {
       "passing": false,
-      "net": 242
+      "net": 254
     },
     "kwvg-dev-aug26": {
       "passing": true,
-      "net": 441
+      "net": 453
     },
     "DCG-Operations-Aug-Nov-26": {
       "passing": true,
-      "net": 495
+      "net": 507
     },
     "Dash-APAC-September-2026": {
       "passing": false,
-      "net": 55
+      "net": 67
     },
     "OrchardPay": {
       "passing": false,
-      "net": 126
+      "net": 138
     },
     "Dash-communities-without-censorship": {
       "passing": false,
@@ -58,7 +58,7 @@
     },
     "dash-growth-marketing-budget": {
       "passing": false,
-      "net": 100
+      "net": 124
     },
     "vulnerability-disclosure-compensation": {
       "passing": false,
@@ -66,7 +66,7 @@
     },
     "dash-growth-q3-2026": {
       "passing": true,
-      "net": 345
+      "net": 369
     },
     "BTCBackportsVijay_03": {
       "passing": false,
@@ -138,5 +138,5 @@
   },
   "superblock": "2525632",
   "lastPassingCount": 14,
-  "updated": "2026-08-18T09:45:29.821Z"
+  "updated": "2026-08-18T10:15:29.724Z"
 }
