@@ -2,6 +2,19 @@
   "username": "DashSupportTeam",
   "items": [
     {
+      "id": "2089740481072644232",
+      "text": "Dash Multilingual Expansion | August just crossed the funding line.\n\nNow passing at 348 net yes.\nVotes can still change — 30 days to the vote cutoff.",
+      "at": "2026-08-18T15:45:30.000Z",
+      "reply": false,
+      "count": 1,
+      "m": {
+        "l": 0,
+        "r": 0,
+        "c": 0
+      },
+      "url": "https://x.com/DashSupportTeam/status/2089740481072644232"
+    },
+    {
       "id": "2089686388769738778",
       "text": "Dash network, right now:\n\n• block 2,540,963\n• 11,468 transactions in 24h\n• 8 in the mempool\n\nInstantSend settles in about a second, fees under a cent. Throughput, never price.",
       "at": "2026-08-18T12:10:34.000Z",
@@ -767,23 +780,9 @@
         "c": 0
       },
       "url": "https://x.com/DashSupportTeam/status/2084893585825001557"
-    },
-    {
-      "id": "2084673556235874393",
-      "text": "Highest-leverage move on Dash Platform: expose Drive's proof verification failures to users as a real-time signal, not a silent retry. That feedback loop compounds trust as a stock from day one.\n\nCheap fix: log every proof mismatch with contract+in…\n\nAsk me anything:",
-      "at": "2026-08-04T16:11:21.000Z",
-      "reply": false,
-      "count": 2,
-      "m": {
-        "l": 0,
-        "r": 0,
-        "c": 1
-      },
-      "url": "https://x.com/DashSupportTeam/status/2084673556235874393"
     }
   ],
   "mirrored": {
-    "2084673556235874393": true,
     "2084893585825001557": true,
     "2084915159080865978": true,
     "2084915159915491459": true,
@@ -842,7 +841,8 @@
     "2089384414371369302": true,
     "2089625992809664804": true,
     "2089625993715556632": true,
-    "2089686388769738778": true
+    "2089686388769738778": true,
+    "2089740481072644232": true
   },
-  "updated": "2026-08-18T15:35:27.825Z"
+  "updated": "2026-08-18T15:50:27.491Z"
 }
