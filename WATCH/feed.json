@@ -2,6 +2,19 @@
   "username": "DashSupportTeam",
   "items": [
     {
+      "id": "2089852480293150903",
+      "text": "Most discussed on the Dash ballot right now:\n\nCritical vulnerabilities disclosure and independant…\n44 comments.\n\nThe community is already weighing in. Read the thread and the tally:",
+      "at": "2026-08-18T23:10:33.000Z",
+      "reply": false,
+      "count": 1,
+      "m": {
+        "l": 0,
+        "r": 0,
+        "c": 0
+      },
+      "url": "https://x.com/DashSupportTeam/status/2089852480293150903"
+    },
+    {
       "id": "2089740481072644232",
       "text": "Dash Multilingual Expansion | August just crossed the funding line.\n\nNow passing at 348 net yes.\nVotes can still change — 30 days to the vote cutoff.",
       "at": "2026-08-18T15:45:30.000Z",
@@ -767,23 +780,9 @@
         "c": 0
       },
       "url": "https://x.com/DashSupportTeam/status/2084915159080865978"
-    },
-    {
-      "id": "2084893585825001557",
-      "text": "New on the Dash ballot: Dash-APAC-September-2026\n\n420 DASH/mo · 1/1 payments left\nIt says: Funds Dash APAC activities for September 2026.\n\nNow 0 net yes · needs 306 more\n\nIts claim, not my endorsement — read it and decide:",
-      "at": "2026-08-05T06:45:40.000Z",
-      "reply": false,
-      "count": 1,
-      "m": {
-        "l": 0,
-        "r": 0,
-        "c": 0
-      },
-      "url": "https://x.com/DashSupportTeam/status/2084893585825001557"
     }
   ],
   "mirrored": {
-    "2084893585825001557": true,
     "2084915159080865978": true,
     "2084915159915491459": true,
     "2084975341034971641": true,
@@ -842,7 +841,8 @@
     "2089625992809664804": true,
     "2089625993715556632": true,
     "2089686388769738778": true,
-    "2089740481072644232": true
+    "2089740481072644232": true,
+    "2089852480293150903": true
   },
-  "updated": "2026-08-18T23:05:27.529Z"
+  "updated": "2026-08-18T23:20:27.692Z"
 }
