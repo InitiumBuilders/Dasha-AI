@@ -70,7 +70,7 @@
     },
     "BTCBackportsVijay_03": {
       "passing": false,
-      "net": 237
+      "net": 229
     },
     "2026-05-MakeDashASafeStoreOfValue": {
       "passing": false,
@@ -139,5 +139,5 @@
   },
   "superblock": "2525632",
   "lastPassingCount": 15,
-  "updated": "2026-08-18T20:15:29.698Z"
+  "updated": "2026-08-18T20:45:29.666Z"
 }
