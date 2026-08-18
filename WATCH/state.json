@@ -2,31 +2,31 @@
   "seen": {
     "Dash-APAC-September-2026-REDUCED": {
       "passing": true,
-      "net": 407
+      "net": 404
     },
     "pshenmic-dev-dashscan-september-2026": {
       "passing": true,
-      "net": 445
+      "net": 446
     },
     "pshenmic-dev-dash-desktop-september-2026": {
       "passing": true,
-      "net": 520
+      "net": 521
     },
     "pshenmic-dev-pe-september-2026": {
       "passing": true,
-      "net": 479
+      "net": 480
     },
     "pshenmic-dev-dfo-september-2026": {
       "passing": true,
-      "net": 540
+      "net": 541
     },
     "EUROPEAN-BLOCKCHAIN-CONVENTION-2026": {
       "passing": true,
-      "net": 386
+      "net": 387
     },
     "Business-development-Events-September": {
       "passing": true,
-      "net": 379
+      "net": 378
     },
     "DASH-MULTILINGUAL-EXPANSION_Aug": {
       "passing": false,
@@ -34,15 +34,15 @@
     },
     "Dash-Europe-Aug-Sep-2026": {
       "passing": false,
-      "net": 241
+      "net": 242
     },
     "kwvg-dev-aug26": {
       "passing": true,
-      "net": 442
+      "net": 441
     },
     "DCG-Operations-Aug-Nov-26": {
       "passing": true,
-      "net": 494
+      "net": 495
     },
     "Dash-APAC-September-2026": {
       "passing": false,
@@ -58,19 +58,19 @@
     },
     "dash-growth-marketing-budget": {
       "passing": false,
-      "net": 99
+      "net": 100
     },
     "vulnerability-disclosure-compensation": {
       "passing": false,
-      "net": 227
+      "net": 228
     },
     "dash-growth-q3-2026": {
       "passing": true,
-      "net": 344
+      "net": 345
     },
     "BTCBackportsVijay_03": {
       "passing": false,
-      "net": 253
+      "net": 245
     },
     "2026-05-MakeDashASafeStoreOfValue": {
       "passing": false,
@@ -82,7 +82,7 @@
     },
     "dash-masternode-tool-update-12": {
       "passing": true,
-      "net": 559
+      "net": 560
     },
     "revised-dashgo-m1": {
       "passing": false,
@@ -90,7 +90,7 @@
     },
     "Dash-Italia-Management-2026": {
       "passing": true,
-      "net": 621
+      "net": 620
     },
     "mnowatch-hosting-2026": {
       "passing": true,
@@ -138,5 +138,5 @@
   },
   "superblock": "2525632",
   "lastPassingCount": 14,
-  "updated": "2026-08-18T09:15:29.825Z"
+  "updated": "2026-08-18T09:45:29.821Z"
 }
