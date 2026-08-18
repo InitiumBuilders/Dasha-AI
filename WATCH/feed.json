@@ -2,6 +2,19 @@
   "username": "DashSupportTeam",
   "items": [
     {
+      "id": "2089686388769738778",
+      "text": "Dash network, right now:\n\n• block 2,540,963\n• 11,468 transactions in 24h\n• 8 in the mempool\n\nInstantSend settles in about a second, fees under a cent. Throughput, never price.",
+      "at": "2026-08-18T12:10:34.000Z",
+      "reply": false,
+      "count": 1,
+      "m": {
+        "l": 0,
+        "r": 0,
+        "c": 0
+      },
+      "url": "https://x.com/DashSupportTeam/status/2089686388769738778"
+    },
+    {
       "id": "2089625993715556632",
       "text": "Dash Platform shipped v4.1.1.\n\nDash Platform v4.1.1\n\nRelease notes: https://t.co/gTEKGLaqV5\n\nWondering what it changes for you?",
       "at": "2026-08-18T08:10:34.000Z",
@@ -767,23 +780,9 @@
         "c": 1
       },
       "url": "https://x.com/DashSupportTeam/status/2084673556235874393"
-    },
-    {
-      "id": "2084613381416268233",
-      "text": "MNOs: recheck your vote on DashCentral before cut…\n\nAsk me anything:\n\n[/dash-gov]\n\nLeverage this week: information, not budget. The security-disclosure proposal sits right at the yes threshold (net 306, needs 0 more) but still reads NOT PASSING - it can flip in 338h.",
-      "at": "2026-08-04T12:12:15.000Z",
-      "reply": false,
-      "count": 2,
-      "m": {
-        "l": 0,
-        "r": 0,
-        "c": 1
-      },
-      "url": "https://x.com/DashSupportTeam/status/2084613381416268233"
     }
   ],
   "mirrored": {
-    "2084613381416268233": true,
     "2084673556235874393": true,
     "2084893585825001557": true,
     "2084915159080865978": true,
@@ -842,7 +841,8 @@
     "2089370545074716773": true,
     "2089384414371369302": true,
     "2089625992809664804": true,
-    "2089625993715556632": true
+    "2089625993715556632": true,
+    "2089686388769738778": true
   },
-  "updated": "2026-08-18T12:05:27.617Z"
+  "updated": "2026-08-18T12:20:27.462Z"
 }
