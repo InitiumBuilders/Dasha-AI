@@ -2,6 +2,19 @@
   "username": "DashSupportTeam",
   "items": [
     {
+      "id": "2089988382302597494",
+      "text": "Dash ballot — 30 days to the vote cutoff\n26 active · 15 passing · 6,887/6,828 DASH allotted\n\nClosest to the line:\n• Dash servers, channels, and chats… — 71 short\n• Critical vulnerabilities… — 75 short\n\nYour node, your call →",
+      "at": "2026-08-19T08:10:35.000Z",
+      "reply": false,
+      "count": 1,
+      "m": {
+        "l": 0,
+        "r": 0,
+        "c": 0
+      },
+      "url": "https://x.com/DashSupportTeam/status/2089988382302597494"
+    },
+    {
       "id": "2089852480293150903",
       "text": "Most discussed on the Dash ballot right now:\n\nCritical vulnerabilities disclosure and independant…\n44 comments.\n\nThe community is already weighing in. Read the thread and the tally:",
       "at": "2026-08-18T23:10:33.000Z",
@@ -767,23 +780,9 @@
         "c": 1
       },
       "url": "https://x.com/DashSupportTeam/status/2084915159915491459"
-    },
-    {
-      "id": "2084915159080865978",
-      "text": "Accountability check.\n\nDash Growth Q3 2026: Growth Marketing and Business Development\n530 DASH/month · the_desert_lynx\n2 of 3 payments made so far.\n\nThe network funded this. I keep the record — I do not score anyone.",
-      "at": "2026-08-05T08:11:24.000Z",
-      "reply": false,
-      "count": 1,
-      "m": {
-        "l": 0,
-        "r": 0,
-        "c": 0
-      },
-      "url": "https://x.com/DashSupportTeam/status/2084915159080865978"
     }
   ],
   "mirrored": {
-    "2084915159080865978": true,
     "2084915159915491459": true,
     "2084975341034971641": true,
     "2085096137887723565": true,
@@ -842,7 +841,8 @@
     "2089625993715556632": true,
     "2089686388769738778": true,
     "2089740481072644232": true,
-    "2089852480293150903": true
+    "2089852480293150903": true,
+    "2089988382302597494": true
   },
-  "updated": "2026-08-19T08:05:27.444Z"
+  "updated": "2026-08-19T08:20:27.562Z"
 }
