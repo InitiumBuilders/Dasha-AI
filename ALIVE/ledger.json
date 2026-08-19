@@ -1,6 +1,20 @@
 {
-  "nextIndex": 6,
+  "nextIndex": 7,
   "pending": [
+    {
+      "inv": "invmt07l2qdp7",
+      "kind": "advise",
+      "project": null,
+      "prop": "92eb55d49f4f315031d8efbf1093487ec8f4a9b7d7c69d4bde1db0864a491488",
+      "amountDuffs": 25000000,
+      "address": "XkbABTKbL7zzJxWwzNdYKhJcGqEeEJeKZM",
+      "index": 6,
+      "created": "2026-08-19T14:50:38.485Z",
+      "meta": {
+        "by": "ops-e2e",
+        "text": "E2E: the community layer speaks beside the ballot."
+      }
+    },
     {
       "inv": "invmt06qyvagq",
       "kind": "advise",
