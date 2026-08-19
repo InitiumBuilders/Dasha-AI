@@ -2,7 +2,7 @@
   "seen": {
     "c2pool-daemonless-finalize": {
       "passing": false,
-      "net": 0
+      "net": 1
     },
     "Dash-APAC-September-2026-REDUCED": {
       "passing": true,
@@ -144,5 +144,5 @@
   },
   "superblock": "2525632",
   "lastPassingCount": 15,
-  "updated": "2026-08-19T21:15:02.891Z"
+  "updated": "2026-08-19T21:45:02.827Z"
 }
