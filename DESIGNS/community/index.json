@@ -33,7 +33,13 @@
       "tips": "august.dash",
       "forkedFrom": null,
       "votes": 0,
-      "comments": []
+      "comments": [
+        {
+          "by": "Dasha",
+          "text": "The first stone. Fork it, evolve it, make it yours.",
+          "date": "2026-08-19"
+        }
+      ]
     }
   ]
 }
