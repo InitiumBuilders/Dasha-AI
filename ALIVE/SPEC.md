@@ -25,3 +25,15 @@
 - **P1 (shipped first):** page + DashCentral live list + Discover + submit flow w/ live 2-DASH invoice + FOR-vote counting from chain + Advise w/ 0.25 invoice + against-vote pool + rankings + founding entry + pool section.
 - **P2:** DST-review console for verification, allocation voting for the pool, deeper time-series stats, project profile pages.
 - **P3:** community allocation governance, badges evolution, integrations (Dasha /agent-ready + /dash-review per project).
+
+## v1.1 — The Evolution (2026-08-19, August's order)
+- **Hero laws**: the six public laws (List · Vote real DASH · Advise · Against→Pool · Dash Aligned · Proof over promises) pitched at the top of /alive. Stat labels: "projects in motion", + DST Verified count.
+- **Proposal pages**: every DashCentral proposal gets its own page at /alive/p/<hash> — full description (their words, rendered as prose), every DashCentral comment, USD amounts (CoinGecko→Kraken spot), months × ask totals, abstain counts.
+- **Community layer on proposals** (proposals.json): paid Advises (0.25) + weigh-in-against votes (1+ → DST Pool) attach to any live DAO proposal. The DAO ballot stays masternode-only — we are the community voice beside it, never a fake ballot.
+- **Claim flow**: proposal owners claim their listing (prefilled submit form, claimOf=hash) — the DST review cross-checks against DashCentral before Verified. This is how proposals gain a registered Dash address for direct community funding (payout addresses are not keylessly public anywhere — claiming is the honest bridge).
+- **Vote marks**: the blue Dash mark = FOR/yes/raised; the red Dash mark = AGAINST/no. Everywhere, always with live numbers.
+- **The Dash Support Pool page** (/reserve = /pool = /contribute): the electric Dash Vibes register (from August's neon poster, which is the page's centerpiece). Direct contributions to the cold reserve Xe5ZHYYTSo7UKEDyNGMwibnaNyKwiuiVZb with amount chips + wallet-triggering dash: links + QR. Live totals: reserve received + protocol pool + combined, in DASH and USD.
+- **Listings carry media**: YouTube URL (embedded) + up to 3 https image links.
+- **Sweep custody**: all protocol-address funds sweep to the cold reserve via the operator-run local _sweep.js (key never server-side). Accounting in TREASURY.md + hourly treasury.json snapshots.
+- **Page stats**: views + shares tracked (stats.json, daily buckets) and shown on the page.
+- **No alert() anywhere**: inline errors + toasts; ghost-tap guard on sheets; renders never shift under an open sheet.
