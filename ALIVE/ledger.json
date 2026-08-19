@@ -1,6 +1,20 @@
 {
-  "nextIndex": 7,
+  "nextIndex": 8,
   "pending": [
+    {
+      "inv": "invmt07pwzh1s",
+      "kind": "advise",
+      "project": null,
+      "prop": "92eb55d49f4f315031d8efbf1093487ec8f4a9b7d7c69d4bde1db0864a491488",
+      "amountDuffs": 25000000,
+      "address": "XfMCNYejR1piWrwULYikR7wo7hZRDkmvrT",
+      "index": 7,
+      "created": "2026-08-19T14:54:24.317Z",
+      "meta": {
+        "by": "ops",
+        "text": "Mobile E2E: the community layer beside the ballot, verified end to end."
+      }
+    },
     {
       "inv": "invmt07l2qdp7",
       "kind": "advise",
