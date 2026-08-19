@@ -1,6 +1,19 @@
 {
-  "nextIndex": 4,
+  "nextIndex": 5,
   "pending": [
+    {
+      "inv": "invmt06o3w5aj",
+      "kind": "advise",
+      "project": "p0-dashsupport",
+      "amountDuffs": 25000000,
+      "address": "XgdvhY6FjyM99BNLvqxcEQPck39nfHYxYw",
+      "index": 4,
+      "created": "2026-08-19T14:25:00.341Z",
+      "meta": {
+        "by": "ops-check",
+        "text": "Repro test advise from ops."
+      }
+    },
     {
       "inv": "invmt06mvr5u7",
       "kind": "advise",
