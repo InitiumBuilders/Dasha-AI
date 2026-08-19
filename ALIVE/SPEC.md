@@ -45,3 +45,9 @@
 - **The fuel log**: /reserve renders every real movement at the reserve address live from the chain (in = fuel, out = support), with per-tx proof links.
 - **history.json**: one snapshot per day (pool, reserve, every project's aligned/votes/raised) — the time-series that powers charts later. Compounds forever.
 - **Dasha v2.9.0 'The Living Database'**: the /alive skill — she keeps the database now.
+
+## v1.3 — Cards, Charts, Console, Concierge (2026-08-19)
+- **Share cards**: /api/og renders a live 1200x630 PNG per proposal and per project (real tallies, USD, the blue/red Dash marks). /api/p serves the Alive page with a rewritten head so crawlers see it. Share URLs: /alive/p/<hash> and /alive/project/<id>.
+- **The climb**: /api/alive?series=pool|project draws a step chart straight from the chain — every vertex is a transaction, no smoothing. ALIVE/history.json adds a daily row for longer-run trends.
+- **DST review console**: /ops, key-gated (DST_OPS_KEY), never linked. Grants or withdraws the Verified seal, shows the private waiting room and the treasury. Every act is a commit in this commons.
+- **Concierge**: every project and proposal has an Ask Dasha hand-off (/dasha?ask=...) — she answers with the /alive skill and, on proposals, is told to report the tallies and never advise a vote.
