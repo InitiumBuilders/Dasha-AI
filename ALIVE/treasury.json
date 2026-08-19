@@ -1,0 +1,57 @@
+{
+  "updated": "2026-08-19T14:50:46.192Z",
+  "model": "Watch-only xpub on the server. Derived invoice addresses (branch 1) are transit; the operator sweeps to the cold reserve with the offline key. See ALIVE/TREASURY.md.",
+  "reserve": {
+    "address": "Xe5ZHYYTSo7UKEDyNGMwibnaNyKwiuiVZb",
+    "totalReceivedSat": 86017589,
+    "balanceSat": 23680589,
+    "txAppearances": 9
+  },
+  "derived": [
+    {
+      "index": 0,
+      "address": "XooX3wcwFmTo2UsZdWmEcGAzbzTKsVNgmf",
+      "balanceSat": 0,
+      "totalReceivedSat": 0
+    },
+    {
+      "index": 1,
+      "address": "XvFXY6rBe5nydoV89k4v1GWqm11AR6fHas",
+      "balanceSat": 0,
+      "totalReceivedSat": 0
+    },
+    {
+      "index": 2,
+      "address": "XnfrnNjfNnsZU9jw2fmssK1ZiAg3HKYyPL",
+      "balanceSat": 0,
+      "totalReceivedSat": 0
+    },
+    {
+      "index": 3,
+      "address": "XozyBTzysi68D5QhBWBLavg2HTZGzJ5Xpu",
+      "balanceSat": 0,
+      "totalReceivedSat": 0
+    },
+    {
+      "index": 4,
+      "address": "XgdvhY6FjyM99BNLvqxcEQPck39nfHYxYw",
+      "balanceSat": 0,
+      "totalReceivedSat": 0
+    },
+    {
+      "index": 5,
+      "address": "XfGKBPta5SkHEJPAteXRLFQ6gnncs9iyXQ",
+      "balanceSat": 0,
+      "totalReceivedSat": 0
+    },
+    {
+      "index": 6,
+      "address": "XkbABTKbL7zzJxWwzNdYKhJcGqEeEJeKZM",
+      "balanceSat": 0,
+      "totalReceivedSat": 0
+    }
+  ],
+  "sweepableSat": 0,
+  "poolCreditedDuffs": 0,
+  "creditedActions": 0
+}
