@@ -1,6 +1,16 @@
 {
-  "nextIndex": 1,
+  "nextIndex": 2,
   "pending": [
+    {
+      "inv": "invmt04v08fqr",
+      "kind": "against",
+      "project": "p0-dashsupport",
+      "amountDuffs": 100000000,
+      "address": "XvFXY6rBe5nydoV89k4v1GWqm11AR6fHas",
+      "index": 1,
+      "created": "2026-08-19T13:34:22.959Z",
+      "meta": null
+    },
     {
       "inv": "invmt04oc50dm",
       "kind": "advise",
