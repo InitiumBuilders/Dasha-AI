@@ -1,6 +1,19 @@
 {
-  "nextIndex": 3,
+  "nextIndex": 4,
   "pending": [
+    {
+      "inv": "invmt06mvr5u7",
+      "kind": "advise",
+      "project": "p0-dashsupport",
+      "amountDuffs": 25000000,
+      "address": "XozyBTzysi68D5QhBWBLavg2HTZGzJ5Xpu",
+      "index": 3,
+      "created": "2026-08-19T14:24:03.137Z",
+      "meta": {
+        "by": "August",
+        "text": "Stay Strong 💪🏼"
+      }
+    },
     {
       "inv": "invmt05hz7kf0",
       "kind": "against",
