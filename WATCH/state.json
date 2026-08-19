@@ -1,5 +1,9 @@
 {
   "seen": {
+    "c2pool-daemonless-finalize": {
+      "passing": false,
+      "net": 0
+    },
     "Dash-APAC-September-2026-REDUCED": {
       "passing": true,
       "net": 336
@@ -135,9 +139,10 @@
     "new:Dash-APAC-September-2026-REDUCED": "2026-08-17T08:15:29.785Z",
     "flip:Dash-APAC-September-2026-REDUCED:in:2525632": "2026-08-17T10:15:29.843Z",
     "c24:2525632": "2026-08-17T15:15:30.606Z",
-    "flip:DASH-MULTILINGUAL-EXPANSION_Aug:in:2525632": "2026-08-18T15:45:29.779Z"
+    "flip:DASH-MULTILINGUAL-EXPANSION_Aug:in:2525632": "2026-08-18T15:45:29.779Z",
+    "new:c2pool-daemonless-finalize": "2026-08-19T17:15:05.647Z"
   },
   "superblock": "2525632",
   "lastPassingCount": 15,
-  "updated": "2026-08-19T16:45:07.452Z"
+  "updated": "2026-08-19T17:15:05.647Z"
 }
