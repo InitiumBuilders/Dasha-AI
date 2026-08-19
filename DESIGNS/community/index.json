@@ -1,6 +1,35 @@
 {
   "designs": [
     {
+      "id": "cdmt00ehfzm",
+      "date": "2026-08-19",
+      "name": "Porcelain Current - Night",
+      "poetic": "The same physics, lights off",
+      "desc": "A fork of the founding entry into the graphite night register.",
+      "moods": [
+        "midnight",
+        "electric"
+      ],
+      "palette": [
+        {
+          "n": "Graphite",
+          "h": "#22262C",
+          "u": "the dark ground"
+        },
+        {
+          "n": "Night Cyan",
+          "h": "#22D3EE",
+          "u": "the current at night"
+        }
+      ],
+      "md": "# Porcelain Current - Night\n\nA fork of Porcelain Current: identical physics, nocturnal material. Raised still invites, inset still holds - the light just changed sides.",
+      "author": "The Dash Design Team",
+      "tips": null,
+      "forkedFrom": "cdmt00efrd4",
+      "votes": 0,
+      "comments": []
+    },
+    {
       "id": "cdmt00efrd4",
       "date": "2026-08-19",
       "name": "Porcelain Current",
