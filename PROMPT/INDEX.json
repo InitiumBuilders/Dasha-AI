@@ -1192,6 +1192,54 @@
         "my vision for dash"
       ],
       "words": []
+    },
+    {
+      "name": "/dream-session",
+      "title": "the Dream Team's one-page direction, live 24/7",
+      "file": "skills/dream-session.md",
+      "chars": 2445,
+      "phrases": [
+        "/dream-session",
+        "dream session",
+        "i have an idea but",
+        "is my idea good",
+        "is this a good idea",
+        "pressure test my idea",
+        "help me think through",
+        "should i build",
+        "thinking of building",
+        "one page direction",
+        "not sure where to start",
+        "validate my idea",
+        "idea in its earliest",
+        "brainstorm my venture",
+        "my startup idea",
+        "worth building"
+      ],
+      "words": []
+    },
+    {
+      "name": "/dash-review",
+      "title": "the honest code & contract review",
+      "file": "skills/dash-review.md",
+      "chars": 2002,
+      "phrases": [
+        "/dash-review",
+        "review my code",
+        "review my contract",
+        "review this schema",
+        "review this contract",
+        "is this contract right",
+        "check my code",
+        "check my schema",
+        "anything wrong with this",
+        "audit this contract",
+        "look over my",
+        "code review",
+        "feedback on my code",
+        "critique my"
+      ],
+      "words": []
     }
   ],
   "knowledge": [

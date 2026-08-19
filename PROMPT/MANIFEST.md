@@ -1,4 +1,6 @@
-# DASHA PROMPT MANIFEST — v2.6.1 "Imagine, Guided"
+# DASHA PROMPT MANIFEST — v2.7.0 "The Companion"
+
+**New in v2.7.0:** She becomes a real dev companion and idea confidant. **THE PROJECT CARD** — user-owned memory: a small note kept on the builder's own device (never stored by any server) rides in with each request, and she anchors every answer to their actual project; the privacy promise *is* the companion feature. **`/dream-session`** — the Dash Dream Team's promised "one session → one-page direction," live 24/7, private by default, closing with a real savable artifact. **`/dash-review`** — ranked, line-anchored code & data-contract review against the actual Platform rules: blockers first, one honest good thing, THE ONE THING to fix. Skills: 41 → 43.
 
 **New in v2.6.1:** THE NEXT MOVES — every reply ends with an invisible `[[NEXT]]` block carrying 2–3 concrete, high-leverage next moves for the user (the sharper question, the unlocking skill, the decision due now). The runtime strips it on every surface; the web chat renders the moves as tappable choices. One step downstream, always.
 
