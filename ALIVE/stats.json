@@ -1,4 +1,12 @@
 {
-  "totals": { "views": 0, "shares": 0 },
-  "days": {}
+  "totals": {
+    "views": 1,
+    "shares": 0
+  },
+  "days": {
+    "2026-08-19": {
+      "v": 1,
+      "s": 0
+    }
+  }
 }
