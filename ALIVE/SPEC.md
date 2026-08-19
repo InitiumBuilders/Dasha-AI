@@ -51,3 +51,16 @@
 - **The climb**: /api/alive?series=pool|project draws a step chart straight from the chain — every vertex is a transaction, no smoothing. ALIVE/history.json adds a daily row for longer-run trends.
 - **DST review console**: /ops, key-gated (DST_OPS_KEY), never linked. Grants or withdraws the Verified seal, shows the private waiting room and the treasury. Every act is a commit in this commons.
 - **Concierge**: every project and proposal has an Ask Dasha hand-off (/dasha?ask=...) — she answers with the /alive skill and, on proposals, is told to report the tallies and never advise a vote.
+
+## v1.4 — The Six Doors (2026-08-19)
+Dash Alive moved home to **DashSupport.Team/Dash-Alive**. It answers to five other names, and they are meanings rather than aliases — the door is part of what a post says:
+- **/Dash-Alive** — the living database itself: listings, the ballot, the record.
+- **/Arise** — a beginning: a new proposal, a new listing, a builder invited to move.
+- **/Thrive** — growth: funded, climbing, a milestone.
+- **/Clear-Eyes** — sight: the tallies, the ledger, the treasury, a correction.
+- **/Full-Heart** — care: the support, the pool, the people.
+- **/Clear-Eyes-Full-Heart** — the whole creed, kept for milestones only.
+
+Rules: the door must fit or she uses /Dash-Alive; never two doors in one post; never the same door twice running. Every older path still leads home. Implemented in api/_doors.js and chosen at post time, with the choice recorded in the editor log.
+
+Her public voice — X posts and replies, DMs, Telegram, community answers — now always speaks with the deeper mind.
