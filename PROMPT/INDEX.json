@@ -939,7 +939,7 @@
       "name": "/tx-explain",
       "title": "Transaction & Explorer Reader",
       "file": "skills/tx-explain.md",
-      "chars": 2450,
+      "chars": 3029,
       "phrases": [
         "is this confirmed",
         "is it confirmed",
@@ -1174,7 +1174,7 @@
       "name": "/imagine-this-dash",
       "title": "ImagineThisDash: the DAO's open brainstorm (alias /ImagineThis)",
       "file": "skills/imagine-this-dash.md",
-      "chars": 4065,
+      "chars": 4021,
       "phrases": [
         "/imaginethisdash",
         "imaginethisdash",
@@ -1194,11 +1194,13 @@
       "words": []
     },
     {
-      "name": "/dream-session",
-      "title": "the Dream Team's one-page direction, live 24/7",
-      "file": "skills/dream-session.md",
-      "chars": 2445,
+      "name": "/dream-sesh",
+      "title": "the Dream Sesh: one session, one page, live 24/7 (alias /dream-session)",
+      "file": "skills/dream-sesh.md",
+      "chars": 2493,
       "phrases": [
+        "/dream-sesh",
+        "dream sesh",
         "/dream-session",
         "dream session",
         "i have an idea but",
@@ -1238,6 +1240,49 @@
         "code review",
         "feedback on my code",
         "critique my"
+      ],
+      "words": []
+    },
+    {
+      "name": "/systems-lens",
+      "title": "see the whole system, find the one leverage point",
+      "file": "skills/systems-lens.md",
+      "chars": 2395,
+      "phrases": [
+        "/systems-lens",
+        "systems lens",
+        "systems thinking",
+        "think in systems",
+        "zoom out on my",
+        "second order effects",
+        "leverage point",
+        "why isn't this growing",
+        "incentive design",
+        "tokenomics of my",
+        "flywheel",
+        "feedback loop",
+        "death spiral",
+        "will this sustain",
+        "network effects"
+      ],
+      "words": []
+    },
+    {
+      "name": "/agent-ready",
+      "title": "is your dapp ready for the agent era?",
+      "file": "skills/agent-ready.md",
+      "chars": 1841,
+      "phrases": [
+        "/agent-ready",
+        "agent ready",
+        "ai agents use my",
+        "let an agent",
+        "mcp for my dapp",
+        "api for agents",
+        "machine readable",
+        "agent economy",
+        "agents buy",
+        "llms.txt"
       ],
       "words": []
     }

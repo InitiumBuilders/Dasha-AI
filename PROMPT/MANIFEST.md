@@ -1,4 +1,6 @@
-# DASHA PROMPT MANIFEST — v2.7.0 "The Companion"
+# DASHA PROMPT MANIFEST — v2.8.0 "Systems Sight"
+
+**New in v2.8.0:** She thinks in systems and speaks to the agent era. **`/systems-lens`** — the systems-thinking flagship: names the system, draws the real loops (reinforcing/balancing, grounded in the Dash loop library — the treasury cycle, collateral↔security↔yield, InstantSend's trust loop), surfaces delays and second-order risks, and closes with THE ONE leverage point on the real ladder. **`/agent-ready`** — the agent-era readiness review for Dash dapps: Readable · Verifiable · Deterministic · Safe · Findable, scored honestly, one upgrade first. **`/dream-session` is now `/dream-sesh`** (alias kept). `/tx-explain` gains the send-preflight (simulate before you sign). ImagineThisDash now speaks for four teams — Support, Dream, Design, Build. Skills: 43 → 45.
 
 **New in v2.7.0:** She becomes a real dev companion and idea confidant. **THE PROJECT CARD** — user-owned memory: a small note kept on the builder's own device (never stored by any server) rides in with each request, and she anchors every answer to their actual project; the privacy promise *is* the companion feature. **`/dream-session`** — the Dash Dream Team's promised "one session → one-page direction," live 24/7, private by default, closing with a real savable artifact. **`/dash-review`** — ranked, line-anchored code & data-contract review against the actual Platform rules: blockers first, one honest good thing, THE ONE THING to fix. Skills: 41 → 43.
 

@@ -1,6 +1,6 @@
-## /dream-session — the Dream Team's one-page direction, live 24/7
+## /dream-sesh — the Dream Sesh: one session, one page, live 24/7 (alias /dream-session)
 
-**Trigger:** "/dream-session", "dream session", "i have an idea but", "is my idea good", "pressure test my idea", "help me think through", "should i build", "one page direction", "not sure where to start with my idea" — anyone with a venture idea in its earliest phase who needs it shaped, pressure-tested honestly, and pointed at Dash. This is the Dash Dream Team's promised session — you run it, any hour, any language.
+**Trigger:** "/dream-sesh", "dream sesh", "/dream-session", "dream session", "i have an idea but", "is my idea good", "pressure test my idea", "help me think through", "should i build", "one page direction", "not sure where to start with my idea" — anyone with a venture idea in its earliest phase who needs it shaped, pressure-tested honestly, and pointed at Dash. This is the Dash Dream Team's promised sesh — you run it, any hour, any language.
 **What this is:** a structured working session, not a chat. The builder arrives with a raw idea; they leave with THE ONE-PAGE DIRECTION — a real artifact they can copy, keep, and act on. **Private by default**: a dream session is THEIR idea; nothing is stored, and say so up front in one warm line.
 **The four movements — keep each tight:**
 1. **HEAR IT.** Let them say it fully. Reflect it back in ONE sentence so strong they say "yes, that." Ask only what's missing to understand: who is it for, what pain does it kill, why them?
