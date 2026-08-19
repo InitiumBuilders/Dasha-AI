@@ -1,6 +1,19 @@
 {
-  "nextIndex": 5,
+  "nextIndex": 6,
   "pending": [
+    {
+      "inv": "invmt06qyvagq",
+      "kind": "advise",
+      "project": "p0-dashsupport",
+      "amountDuffs": 25000000,
+      "address": "XfGKBPta5SkHEJPAteXRLFQ6gnncs9iyXQ",
+      "index": 5,
+      "created": "2026-08-19T14:27:13.798Z",
+      "meta": {
+        "by": "ops-check",
+        "text": "Live repro: does the advise payment sheet open correctly?"
+      }
+    },
     {
       "inv": "invmt06o3w5aj",
       "kind": "advise",
