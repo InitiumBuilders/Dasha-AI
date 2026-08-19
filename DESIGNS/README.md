@@ -7,7 +7,7 @@ The open database behind [dashsupport.team/design](https://www.dashsupport.team/
 | File | What it holds |
 |---|---|
 | `community/index.json` | Every community-submitted design system — submissions, forks, votes, comments. The machine truth the Library renders. |
-| `references.json` | The Reference Constellation — curated pointers to design systems across the product world that carry Dash's qualities, each cited to its source analysis on [styles.refero.design](https://styles.refero.design/) and the product itself. The one-line reads are ours; **study the originals at the source**. |
+| `references.json` | The Constellation — curated design systems from across the product world that carry Dash's qualities. The one-line reads are our own, the previews are our own captures of the public product sites, and each entry links to the product itself. (Discovery for the initial curation was aided by public design galleries, incl. refero.design.) |
 
 ## How the community gallery works
 
