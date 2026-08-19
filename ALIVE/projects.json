@@ -1,0 +1,30 @@
+{
+  "projects": [
+    {
+      "id": "p0-dashsupport",
+      "slug": "dashsupport-team",
+      "name": "DashSupport.Team",
+      "tagline": "The community-led support team for every builder on Dash — humans + Dasha AI, 24/7.",
+      "desc": "The founding project of Dash Alive. A community-led support organization for the whole Dash DAO: Dasha AI answering 24/7 on web, Telegram, and X with her entire mind open source; the Dream, Design, and Build teams; the Dash Design Library commons; the Pulse (radical, anonymous transparency); and Dash Alive itself — the live database, ballot box, and support treasury for everything alive on Dash. Built first, asked second.",
+      "category": "community",
+      "url": "https://www.dashsupport.team",
+      "repo": "https://github.com/InitiumBuilders/Dasha-AI",
+      "x": "@DashSupportTeam",
+      "dashAddress": "XfKUsSXyrdqKDZvCShPDaGE2r8S56osyMY",
+      "evo": null,
+      "tips": null,
+      "by": "August James Domanchuk (August.Dash)",
+      "listedAt": "2026-08-19",
+      "status": "verified",
+      "verified": true,
+      "forRaisedDuffs": 0,
+      "forVotes": 0,
+      "againstDuffs": 0,
+      "againstVotes": 0,
+      "adviseCount": 0,
+      "advises": [],
+      "listTxid": null,
+      "founding": true
+    }
+  ]
+}
