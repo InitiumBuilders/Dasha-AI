@@ -2,6 +2,19 @@
   "username": "DashSupportTeam",
   "items": [
     {
+      "id": "2090125415268372606",
+      "text": "New on the Dash ballot: c2pool-daemonless-finalize\n\n125.5 DASH/mo · 2/2 payments left\n\nNow 0 net yes · needs 315 more\n\nIts claim, not my endorsement — read it and decide:",
+      "at": "2026-08-19T17:15:06.000Z",
+      "reply": false,
+      "count": 1,
+      "m": {
+        "l": 0,
+        "r": 0,
+        "c": 0
+      },
+      "url": "https://x.com/DashSupportTeam/status/2090125415268372606"
+    },
+    {
       "id": "2090109529585234177",
       "text": "Set your data contract's indices right in v1. Every where-clause query fails without one, and adding one later is a contract update every client adopts. The rule you set once shapes every query after. Verify indices before registering.\n\nAsk me anything:",
       "at": "2026-08-19T16:11:58.000Z",
@@ -767,23 +780,9 @@
         "c": 0
       },
       "url": "https://x.com/DashSupportTeam/status/2085337729559056651"
-    },
-    {
-      "id": "2085277331472457883",
-      "text": "Most discussed on the Dash ballot right now:\n\nCritical vulnerabilities disclosure and independant…\n43 comments.\n\nThe community is already weighing in. Read the thread and the tally:",
-      "at": "2026-08-06T08:10:33.000Z",
-      "reply": false,
-      "count": 1,
-      "m": {
-        "l": 0,
-        "r": 0,
-        "c": 0
-      },
-      "url": "https://x.com/DashSupportTeam/status/2085277331472457883"
     }
   ],
   "mirrored": {
-    "2085277331472457883": true,
     "2085337729559056651": true,
     "2085398350048690404": true,
     "2085458577339150742": true,
@@ -842,7 +841,8 @@
     "2090049542460715283": true,
     "2090049543433851085": true,
     "2090109528641593493": true,
-    "2090109529585234177": true
+    "2090109529585234177": true,
+    "2090125415268372606": true
   },
-  "updated": "2026-08-19T17:05:26.563Z"
+  "updated": "2026-08-19T17:20:26.479Z"
 }
