@@ -1,5 +1,19 @@
 {
-  "nextIndex": 0,
-  "pending": [],
+  "nextIndex": 1,
+  "pending": [
+    {
+      "inv": "invmt04oc50dm",
+      "kind": "advise",
+      "project": "p0-dashsupport",
+      "amountDuffs": 25000000,
+      "address": "XooX3wcwFmTo2UsZdWmEcGAzbzTKsVNgmf",
+      "index": 0,
+      "created": "2026-08-19T13:29:11.796Z",
+      "meta": {
+        "by": "The DST",
+        "text": "The founding advise: keep every promise smaller than the delivery."
+      }
+    }
+  ],
   "entries": []
 }
