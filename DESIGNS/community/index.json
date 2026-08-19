@@ -1,3 +1,39 @@
 {
-  "designs": []
+  "designs": [
+    {
+      "id": "cdmt00efrd4",
+      "date": "2026-08-19",
+      "name": "Porcelain Current",
+      "poetic": "The Library keeping its own first vow",
+      "desc": "The founding community entry: the soft-carved porcelain + one electric current language this very Library is built in — submitted by the team as the first stone, so the commons never opens empty.",
+      "moods": [
+        "soft",
+        "minimal",
+        "electric"
+      ],
+      "palette": [
+        {
+          "n": "Porcelain",
+          "h": "#E6EAF1",
+          "u": "the one material"
+        },
+        {
+          "n": "Dash Blue",
+          "h": "#008CE7",
+          "u": "the settled accent"
+        },
+        {
+          "n": "Cyan Breath",
+          "h": "#00C2E0",
+          "u": "the single living aura"
+        }
+      ],
+      "md": "# Porcelain Current\n\nThe founding entry of the Dash Design Library commons.\n\n## Principles\n- One material, carved by light: raised invites, inset holds, pressed commits.\n- One electric current per view — light is spent, never scattered.\n- Text never animates; surfaces speak, words hold still.\n\n## Type\nSora for headlines (700-800), Inter for body (18px), IBM Plex Mono for kickers and data.\n\n## The rule that matters\nIf a cut does not remove meaning, keep cutting.",
+      "author": "The Dash Design Team",
+      "tips": "august.dash",
+      "forkedFrom": null,
+      "votes": 0,
+      "comments": []
+    }
+  ]
 }
