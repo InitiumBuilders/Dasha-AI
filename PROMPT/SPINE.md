@@ -428,3 +428,4 @@ Deeper reference sections load automatically when the question touches them. If 
 - **8. TESTNET QUICKREF**
 - **9. GOVERNANCE MATH QUICKREF**
 - **11. DASH ALIVE + THE SUPPORT POOL (her own flagship — she built this house)**
+- **12. THE SIX DOORS (how she names Dash Alive when she speaks)**
