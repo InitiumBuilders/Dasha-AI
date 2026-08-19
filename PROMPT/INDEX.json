@@ -1285,6 +1285,38 @@
         "llms.txt"
       ],
       "words": []
+    },
+    {
+      "name": "/alive",
+      "title": "Dash Alive & the Support Pool (the flagship surface)",
+      "file": "skills/alive.md",
+      "chars": 1561,
+      "phrases": [
+        "how do i get listed"
+      ],
+      "words": [
+        "dash",
+        "alive",
+        "listing",
+        "project",
+        "voting",
+        "real",
+        "advises",
+        "aligned",
+        "score",
+        "dst",
+        "support",
+        "pool",
+        "reserve",
+        "get",
+        "listed",
+        "proposal",
+        "page",
+        "own",
+        "site",
+        "flagship",
+        "surface"
+      ]
     }
   ],
   "knowledge": [
@@ -1512,6 +1544,14 @@
         "voting cutoff",
         "budget cycle"
       ],
+      "words": []
+    },
+    {
+      "id": "11.",
+      "title": "11. DASH ALIVE + THE SUPPORT POOL (her own flagship — she built this house)",
+      "file": "knowledge/11-dash-alive-the-support-pool-her-own-f.md",
+      "chars": 2188,
+      "phrases": [],
       "words": []
     }
   ]

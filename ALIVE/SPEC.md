@@ -37,3 +37,11 @@
 - **Sweep custody**: all protocol-address funds sweep to the cold reserve via the operator-run local _sweep.js (key never server-side). Accounting in TREASURY.md + hourly treasury.json snapshots.
 - **Page stats**: views + shares tracked (stats.json, daily buckets) and shown on the page.
 - **No alert() anywhere**: inline errors + toasts; ghost-tap guard on sheets; renders never shift under an open sheet.
+
+## v1.2 — The Privacy Law + the compounding layer (2026-08-19, August's order)
+- **Nothing is public until the payment locks.** Unpaid invoices — derived addresses, names, advise drafts, listing metadata — never touch the public commons. They wait in a PRIVATE operational ledger (InitiumBuilders/DashAlive-Ledger) and only a locked payment promotes the action into the open ALIVE/ files. No spam, no fake votes, no wasted addresses: unpaid invoices expire after 48h and their indexes are RECYCLED (an address is only ever reused if the chain has never seen a duff on it).
+- **treasury.json logs FUNDED addresses only** — an address becomes public knowledge the moment it receives DASH, never before.
+- **The Allocation Law v1** (the Support Pool pays forward): monthly, the pool allocates to DST-Verified projects in proportion to their Dash Aligned scores; every allocation is announced on The Pulse BEFORE it moves and proven on-chain after. First allocation opens when the pool crosses 10 DASH. Community allocation voting ships with it.
+- **The fuel log**: /reserve renders every real movement at the reserve address live from the chain (in = fuel, out = support), with per-tx proof links.
+- **history.json**: one snapshot per day (pool, reserve, every project's aligned/votes/raised) — the time-series that powers charts later. Compounds forever.
+- **Dasha v2.9.0 'The Living Database'**: the /alive skill — she keeps the database now.

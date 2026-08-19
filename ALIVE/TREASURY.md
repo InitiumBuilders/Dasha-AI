@@ -37,3 +37,10 @@ funds move. Live balances land in `treasury.json` (refreshed hourly by the cron)
   as the pool grows. Reports post to The Pulse.
 - No server-side spending keys, ever. Watch-only xpub or nothing.
 - If any figure here disagrees with the chain, the chain is right.
+
+## The privacy law (2026-08-19)
+Nothing about an action is public until its payment locks. Unpaid invoices live in a
+private operational ledger (InitiumBuilders/DashAlive-Ledger — pending only, never
+balances); expired unpaid indexes are recycled after 48h, and an address is only
+reused if the chain has never seen a duff on it. This file's public snapshot
+(`treasury.json`) lists **funded addresses only**.

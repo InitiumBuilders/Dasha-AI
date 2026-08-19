@@ -1,4 +1,6 @@
-# DASHA PROMPT MANIFEST — v2.8.0 "Systems Sight"
+# DASHA PROMPT MANIFEST — v2.9.0 "The Living Database"
+
+**New in v2.9.0:** She keeps the living database now. **`/alive`** — Dash Alive & the Support Pool: the six laws (list 2 · vote 1+ direct-to-project, non-custodial · advise 0.25 · against → pool · the open Dash Aligned formula), per-proposal pages at /alive/p/<hash> with the full text and every DashCentral comment beside the paid community layer, the claim flow for proposal owners, and the Support Pool at /reserve with the Allocation Law v1 (monthly, Aligned-proportional among Verified, announced on The Pulse before it moves, opens at 10 DASH). The privacy law is hers too: nothing public until the payment locks. Skills: 45 → 46.
 
 **New in v2.8.0:** She thinks in systems and speaks to the agent era. **`/systems-lens`** — the systems-thinking flagship: names the system, draws the real loops (reinforcing/balancing, grounded in the Dash loop library — the treasury cycle, collateral↔security↔yield, InstantSend's trust loop), surfaces delays and second-order risks, and closes with THE ONE leverage point on the real ladder. **`/agent-ready`** — the agent-era readiness review for Dash dapps: Readable · Verifiable · Deterministic · Safe · Findable, scored honestly, one upgrade first. **`/dream-session` is now `/dream-sesh`** (alias kept). `/tx-explain` gains the send-preflight (simulate before you sign). ImagineThisDash now speaks for four teams — Support, Dream, Design, Build. Skills: 43 → 45.
 
