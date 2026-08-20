@@ -88,10 +88,6 @@
       "passing": true,
       "net": 560
     },
-    "revised-dashgo-m1": {
-      "passing": false,
-      "net": -78
-    },
     "Dash-Italia-Management-2026": {
       "passing": true,
       "net": 620
@@ -144,5 +140,5 @@
   },
   "superblock": "2525632",
   "lastPassingCount": 15,
-  "updated": "2026-08-20T00:45:02.828Z"
+  "updated": "2026-08-20T01:15:02.707Z"
 }
