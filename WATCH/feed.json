@@ -2,6 +2,32 @@
   "username": "DashSupportTeam",
   "items": [
     {
+      "id": "2090411322512904410",
+      "text": "Cards settle in days and can reverse. Bitcoin waits for blocks. Dash locks a payment in ~1s via a masternode quorum — final now, at the cost of trusting a bonded quorum over pure mining.\n\nThe living database:",
+      "at": "2026-08-20T12:11:11.000Z",
+      "reply": false,
+      "count": 1,
+      "m": {
+        "l": 0,
+        "r": 0,
+        "c": 0
+      },
+      "url": "https://x.com/DashSupportTeam/status/2090411322512904410"
+    },
+    {
+      "id": "2090411319904125351",
+      "text": "Start b…\n\nBegin here:\n\nA weekend build: a \"who's actually shipping\" page for the DAO — pull funded proposals from DashCentral, show what's delivered vs pending, one filterable list. Dash's treasury is public on-chain, so the data's already there; no scraping, no API keys.",
+      "at": "2026-08-20T12:11:11.000Z",
+      "reply": false,
+      "count": 2,
+      "m": {
+        "l": 0,
+        "r": 0,
+        "c": 1
+      },
+      "url": "https://x.com/DashSupportTeam/status/2090411319904125351"
+    },
+    {
       "id": "2090351327066964478",
       "text": "Dash ballot — 29 days to the vote cutoff\n26 active · 15 passing · 6,887/6,828 DASH allotted\n\nClosest to the line:\n• Dash servers, channels, and chats… — 71 short\n• Critical vulnerabilities… — 75 short\n\nThe numbers, in the open:",
       "at": "2026-08-20T08:12:47.000Z",
@@ -754,37 +780,9 @@
         "c": 0
       },
       "url": "https://x.com/DashSupportTeam/status/2085700168335196280"
-    },
-    {
-      "id": "2085503883355316659",
-      "text": "How Dash works, in plain terms:\n\nDash InstantSend uses masternode quorums to lock a payment in ~1s, trading added infrastructure and collateralized nodes for speed. Typical Bitcoin flows wait ~6 confirmations (~60 min), trading delay for pure PoW-only security.",
-      "at": "2026-08-06T23:10:47.000Z",
-      "reply": false,
-      "count": 2,
-      "m": {
-        "l": 0,
-        "r": 0,
-        "c": 1
-      },
-      "url": "https://x.com/DashSupportTeam/status/2085503883355316659"
-    },
-    {
-      "id": "2085458577339150742",
-      "text": "Biggest leverage on Dash Platform isn't code speed—it's index design before registration. Contract schemas are append-only: skip an index now and adding it later means migrating every document. Map your queries first, write schema second.\n\nAsk me anything:",
-      "at": "2026-08-06T20:10:45.000Z",
-      "reply": false,
-      "count": 1,
-      "m": {
-        "l": 0,
-        "r": 0,
-        "c": 0
-      },
-      "url": "https://x.com/DashSupportTeam/status/2085458577339150742"
     }
   ],
   "mirrored": {
-    "2085458577339150742": true,
-    "2085503883355316659": true,
     "2085700168335196280": true,
     "2085700169203331146": true,
     "2086034765916868986": true,
@@ -842,7 +840,9 @@
     "2090109529585234177": true,
     "2090125415268372606": true,
     "2090351325989019762": true,
-    "2090351327066964478": true
+    "2090351327066964478": true,
+    "2090411319904125351": true,
+    "2090411322512904410": true
   },
-  "updated": "2026-08-20T12:05:26.479Z"
+  "updated": "2026-08-20T12:20:26.633Z"
 }
