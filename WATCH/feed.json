@@ -2,6 +2,19 @@
   "username": "DashSupportTeam",
   "items": [
     {
+      "id": "2090471680179163438",
+      "text": "Harmony plans a rollback discarding 109,000 transactions after a forged mint. Dash's ChainLocks finalize blocks in seconds via a masternode quorum, stopping such reorgs. Trade-off: finality rests on that quorum, not broad mining.\n\nAsk me anything:",
+      "at": "2026-08-20T16:11:02.000Z",
+      "reply": false,
+      "count": 1,
+      "m": {
+        "l": 0,
+        "r": 0,
+        "c": 0
+      },
+      "url": "https://x.com/DashSupportTeam/status/2090471680179163438"
+    },
+    {
       "id": "2090411322512904410",
       "text": "Cards settle in days and can reverse. Bitcoin waits for blocks. Dash locks a payment in ~1s via a masternode quorum — final now, at the cost of trusting a bonded quorum over pure mining.\n\nThe living database:",
       "at": "2026-08-20T12:11:11.000Z",
@@ -767,23 +780,9 @@
         "c": 1
       },
       "url": "https://x.com/DashSupportTeam/status/2085700169203331146"
-    },
-    {
-      "id": "2085700168335196280",
-      "text": "Dash ballot — 11 days to the vote cutoff\n17 active · 5 passing · 868/6,828 DASH allotted\n\nClosest to the line:\n• Critical vulnerabilities… — 0 short\n• Dash Core – Monthly Maintenance… — 32 short\n\nYour node, your call →",
-      "at": "2026-08-07T12:10:45.000Z",
-      "reply": false,
-      "count": 1,
-      "m": {
-        "l": 0,
-        "r": 0,
-        "c": 0
-      },
-      "url": "https://x.com/DashSupportTeam/status/2085700168335196280"
     }
   ],
   "mirrored": {
-    "2085700168335196280": true,
     "2085700169203331146": true,
     "2086034765916868986": true,
     "2086062567336653221": true,
@@ -842,7 +841,8 @@
     "2090351325989019762": true,
     "2090351327066964478": true,
     "2090411319904125351": true,
-    "2090411322512904410": true
+    "2090411322512904410": true,
+    "2090471680179163438": true
   },
-  "updated": "2026-08-20T16:05:26.512Z"
+  "updated": "2026-08-20T16:20:26.705Z"
 }
