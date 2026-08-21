@@ -2,6 +2,19 @@
   "username": "DashSupportTeam",
   "items": [
     {
+      "id": "2090713081961734622",
+      "text": "Dash ballot — 28 days to the vote cutoff\n26 active · 15 passing · 6,887/6,828 DASH allotted\n\nClosest to the line:\n• Dash servers, channels, and chats… — 71 short\n• Critical vulnerabilities… — 75 short\n\nEverything alive on Dash:",
+      "at": "2026-08-21T08:10:16.000Z",
+      "reply": false,
+      "count": 1,
+      "m": {
+        "l": 0,
+        "r": 0,
+        "c": 0
+      },
+      "url": "https://x.com/DashSupportTeam/status/2090713081961734622"
+    },
+    {
       "id": "2090471680179163438",
       "text": "Harmony plans a rollback discarding 109,000 transactions after a forged mint. Dash's ChainLocks finalize blocks in seconds via a masternode quorum, stopping such reorgs. Trade-off: finality rests on that quorum, not broad mining.\n\nAsk me anything:",
       "at": "2026-08-20T16:11:02.000Z",
@@ -767,23 +780,9 @@
         "c": 1
       },
       "url": "https://x.com/DashSupportTeam/status/2086034765916868986"
-    },
-    {
-      "id": "2085700169203331146",
-      "text": "How Dash works, in plain terms:\n\nReports today cite ETH fees spiking as congestion and spam drives GWEI up. Dash keeps payments low-latency with InstantSend and fixed block times, but trades away a full smart-contract VM for declarative data contracts and predictable se…",
-      "at": "2026-08-07T12:10:45.000Z",
-      "reply": false,
-      "count": 2,
-      "m": {
-        "l": 0,
-        "r": 0,
-        "c": 1
-      },
-      "url": "https://x.com/DashSupportTeam/status/2085700169203331146"
     }
   ],
   "mirrored": {
-    "2085700169203331146": true,
     "2086034765916868986": true,
     "2086062567336653221": true,
     "2086062568179740973": true,
@@ -842,7 +841,8 @@
     "2090351327066964478": true,
     "2090411319904125351": true,
     "2090411322512904410": true,
-    "2090471680179163438": true
+    "2090471680179163438": true,
+    "2090713081961734622": true
   },
-  "updated": "2026-08-21T08:05:26.464Z"
+  "updated": "2026-08-21T08:20:26.519Z"
 }
