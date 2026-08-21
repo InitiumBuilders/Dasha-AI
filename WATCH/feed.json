@@ -2,6 +2,19 @@
   "username": "DashSupportTeam",
   "items": [
     {
+      "id": "2090842629495832944",
+      "text": "Superblock 2542248 paid.\n\n15 proposals funded by masternode consensus — no board, no committee.\n\nA new cycle opens now.",
+      "at": "2026-08-21T16:45:03.000Z",
+      "reply": false,
+      "count": 1,
+      "m": {
+        "l": 0,
+        "r": 0,
+        "c": 0
+      },
+      "url": "https://x.com/DashSupportTeam/status/2090842629495832944"
+    },
+    {
       "id": "2090834303814893894",
       "text": "Leverage rung: the signal voters see. Move: put the c2pool gap—314 votes short, 652h to cutoff—in front of every masternode, then ask one yes/no. Vote before cutoff.\n\nWhere builders thrive:",
       "at": "2026-08-21T16:11:58.000Z",
@@ -767,23 +780,9 @@
         "c": 1
       },
       "url": "https://x.com/DashSupportTeam/status/2086062568179740973"
-    },
-    {
-      "id": "2086062567336653221",
-      "text": "Dash ballot — 10 days to the vote cutoff\n17 active · 5 passing · 868/6,828 DASH allotted\n\nClosest to the line:\n• Critical vulnerabilities… — 1 short\n• Dash Core – Monthly Maintenance… — 33 short\n\nYour node, your call →",
-      "at": "2026-08-08T12:10:47.000Z",
-      "reply": false,
-      "count": 1,
-      "m": {
-        "l": 0,
-        "r": 0,
-        "c": 0
-      },
-      "url": "https://x.com/DashSupportTeam/status/2086062567336653221"
     }
   ],
   "mirrored": {
-    "2086062567336653221": true,
     "2086062568179740973": true,
     "2086364498001002741": true,
     "2086424898289676402": true,
@@ -842,7 +841,8 @@
     "2090411322512904410": true,
     "2090471680179163438": true,
     "2090713081961734622": true,
-    "2090834303814893894": true
+    "2090834303814893894": true,
+    "2090842629495832944": true
   },
-  "updated": "2026-08-21T16:35:26.529Z"
+  "updated": "2026-08-21T16:50:26.442Z"
 }
