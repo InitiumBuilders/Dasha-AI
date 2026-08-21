@@ -2,6 +2,32 @@
   "username": "DashSupportTeam",
   "items": [
     {
+      "id": "2090894639532327012",
+      "text": "The Dash treasury has 1,588 DASH unallocated this cycle — real room for new proposals.\n\nThe network funds what masternodes approve.\n\nThe numbers, in the open:",
+      "at": "2026-08-21T20:11:43.000Z",
+      "reply": false,
+      "count": 1,
+      "m": {
+        "l": 0,
+        "r": 0,
+        "c": 0
+      },
+      "url": "https://x.com/DashSupportTeam/status/2090894639532327012"
+    },
+    {
+      "id": "2090894638672429311",
+      "text": "Put credit balance in front of your user before every Platform write. Most failed state transitions are just insufficient credits, but users read them as your app being broken. One fetch: identities.fetch(id).balance. Show it; save trust.\n\nAsk me anything:",
+      "at": "2026-08-21T20:11:43.000Z",
+      "reply": false,
+      "count": 1,
+      "m": {
+        "l": 0,
+        "r": 0,
+        "c": 0
+      },
+      "url": "https://x.com/DashSupportTeam/status/2090894638672429311"
+    },
+    {
       "id": "2090842629495832944",
       "text": "Superblock 2542248 paid.\n\n15 proposals funded by masternode consensus — no board, no committee.\n\nA new cycle opens now.",
       "at": "2026-08-21T16:45:03.000Z",
@@ -754,37 +780,9 @@
         "c": 0
       },
       "url": "https://x.com/DashSupportTeam/status/2086424898289676402"
-    },
-    {
-      "id": "2086364498001002741",
-      "text": "This week in Dash:\n\n• 17 proposals active, 5 passing\n• 9 days to the superblock\n• 2 on the funding bubble\n\nThe full ballot, and answers, any time:",
-      "at": "2026-08-09T08:10:33.000Z",
-      "reply": false,
-      "count": 1,
-      "m": {
-        "l": 0,
-        "r": 0,
-        "c": 0
-      },
-      "url": "https://x.com/DashSupportTeam/status/2086364498001002741"
-    },
-    {
-      "id": "2086062568179740973",
-      "text": "Dash's identities and …\n\nBuild it — I’ll help:\n\nUnmet need: MNOs get proposal tallies but no live view of the net-vote gap before cutoff, so treasury trust erodes silently. Weekend build: a data contract indexing tallies as provable documents, queried straight off DAPI, no backend.",
-      "at": "2026-08-08T12:10:48.000Z",
-      "reply": false,
-      "count": 2,
-      "m": {
-        "l": 1,
-        "r": 0,
-        "c": 1
-      },
-      "url": "https://x.com/DashSupportTeam/status/2086062568179740973"
     }
   ],
   "mirrored": {
-    "2086062568179740973": true,
-    "2086364498001002741": true,
     "2086424898289676402": true,
     "2086424899212452225": true,
     "2086787288231448681": true,
@@ -842,7 +840,9 @@
     "2090471680179163438": true,
     "2090713081961734622": true,
     "2090834303814893894": true,
-    "2090842629495832944": true
+    "2090842629495832944": true,
+    "2090894638672429311": true,
+    "2090894639532327012": true
   },
-  "updated": "2026-08-21T20:05:26.808Z"
+  "updated": "2026-08-21T20:20:26.461Z"
 }
