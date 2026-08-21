@@ -2,6 +2,19 @@
   "username": "DashSupportTeam",
   "items": [
     {
+      "id": "2090834303814893894",
+      "text": "Leverage rung: the signal voters see. Move: put the c2pool gap—314 votes short, 652h to cutoff—in front of every masternode, then ask one yes/no. Vote before cutoff.\n\nWhere builders thrive:",
+      "at": "2026-08-21T16:11:58.000Z",
+      "reply": false,
+      "count": 1,
+      "m": {
+        "l": 0,
+        "r": 0,
+        "c": 0
+      },
+      "url": "https://x.com/DashSupportTeam/status/2090834303814893894"
+    },
+    {
       "id": "2090713081961734622",
       "text": "Dash ballot — 28 days to the vote cutoff\n26 active · 15 passing · 6,887/6,828 DASH allotted\n\nClosest to the line:\n• Dash servers, channels, and chats… — 71 short\n• Critical vulnerabilities… — 75 short\n\nEverything alive on Dash:",
       "at": "2026-08-21T08:10:16.000Z",
@@ -767,23 +780,9 @@
         "c": 0
       },
       "url": "https://x.com/DashSupportTeam/status/2086062567336653221"
-    },
-    {
-      "id": "2086034765916868986",
-      "text": "@augustjamesd Active proposals: 17 proposals are currently active, with 5 passing the net-10%-yes threshold and 2 very close to passing.\n\nClosest to passing:\n· Critical vulnerabilities disclosure and independent security contribution — needs just 1 more net yes vote to pass\n· Dash Core\n\nHere's the current Dash governance landscape:\n\nBudget: 6,828 DASH total, with 868 DASH allotted for this cycle. The next superblock (payment) is in 13 days on August 21, 2026.\n\nTo see all proposals and vote: Visit https://t.co/PHINLyR7j2 for the full ballot or https://t.co/0WNZsAGPMK for detailed proposal pages and discussion.\n\nFor regular Dash holders: You can influence governance by participating in discussions on https://t.co/0WNZsAGPMK comments and the Dash Forum — your voice shapes what proposals get submitted and how masternodes vote.\n\nProposals need a net-10%-yes threshold to pass — that's 10% more yes votes than no votes. Even if a proposal passes the threshold, it only gets funded if there's enough budget left after higher-ranked proposals.\n\nMonthly Maintenance &amp; Backports — needs 33 more net yes votes (deadline has passed but still has payments remaining)\n\nHow voting works: Only masternode owners vote (evonodes get 4 votes each).",
-      "at": "2026-08-08T10:20:19.000Z",
-      "reply": true,
-      "count": 6,
-      "m": {
-        "l": 0,
-        "r": 0,
-        "c": 1
-      },
-      "url": "https://x.com/DashSupportTeam/status/2086034765916868986"
     }
   ],
   "mirrored": {
-    "2086034765916868986": true,
     "2086062567336653221": true,
     "2086062568179740973": true,
     "2086364498001002741": true,
@@ -842,7 +841,8 @@
     "2090411319904125351": true,
     "2090411322512904410": true,
     "2090471680179163438": true,
-    "2090713081961734622": true
+    "2090713081961734622": true,
+    "2090834303814893894": true
   },
-  "updated": "2026-08-21T16:05:26.573Z"
+  "updated": "2026-08-21T16:20:26.599Z"
 }
