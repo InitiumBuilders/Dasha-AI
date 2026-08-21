@@ -2,7 +2,7 @@
   "seen": {
     "c2pool-daemonless-finalize": {
       "passing": false,
-      "net": 1
+      "net": 0
     },
     "DASH-MULTILINGUAL-EXPANSION_Aug": {
       "passing": true,
@@ -14,11 +14,11 @@
     },
     "kwvg-dev-aug26": {
       "passing": true,
-      "net": 468
+      "net": 469
     },
     "DCG-Operations-Aug-Nov-26": {
       "passing": true,
-      "net": 522
+      "net": 523
     },
     "Dash-APAC-September-2026": {
       "passing": false,
@@ -26,7 +26,7 @@
     },
     "OrchardPay": {
       "passing": false,
-      "net": 138
+      "net": 137
     },
     "Dash-communities-without-censorship": {
       "passing": false,
@@ -109,5 +109,5 @@
   },
   "superblock": "2542248",
   "lastPassingCount": 7,
-  "updated": "2026-08-21T16:45:02.755Z"
+  "updated": "2026-08-21T17:15:02.692Z"
 }
