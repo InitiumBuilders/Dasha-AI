@@ -22,6 +22,18 @@
         "Dash-APAC-September-2026-REDUCED",
         "DASH-MULTILINGUAL-EXPANSION_Aug"
       ]
+    },
+    "2542248": {
+      "seenAt": "2026-08-21T20:10:14.922Z",
+      "funded": [
+        "DASH-MULTILINGUAL-EXPANSION_Aug",
+        "kwvg-dev-aug26",
+        "DCG-Operations-Aug-Nov-26",
+        "dash-masternode-tool-update-12",
+        "Dash-Italia-Management-2026",
+        "mnowatch-hosting-2026",
+        "dashcentral-operations3"
+      ]
     }
   },
   "entries": {
@@ -44,10 +56,11 @@
       "ask": 45,
       "firstSeen": "2026-07-23T16:49:08.018Z",
       "cyclesFunded": [
-        "2525632"
+        "2525632",
+        "2542248"
       ],
       "totalPays": 6,
-      "remaining": 2
+      "remaining": 1
     },
     "Dash-Italia-Management-2026": {
       "name": "Dash-Italia-Management-2026",
@@ -56,10 +69,11 @@
       "ask": 60,
       "firstSeen": "2026-07-23T16:49:08.018Z",
       "cyclesFunded": [
-        "2525632"
+        "2525632",
+        "2542248"
       ],
       "totalPays": 12,
-      "remaining": 6
+      "remaining": 5
     },
     "mnowatch-hosting-2026": {
       "name": "mnowatch-hosting-2026",
@@ -68,7 +82,8 @@
       "ask": 1,
       "firstSeen": "2026-07-23T16:49:08.018Z",
       "cyclesFunded": [
-        "2525632"
+        "2525632",
+        "2542248"
       ],
       "totalPays": 12,
       "remaining": 12
@@ -80,10 +95,11 @@
       "ask": 32,
       "firstSeen": "2026-07-23T16:49:08.018Z",
       "cyclesFunded": [
-        "2525632"
+        "2525632",
+        "2542248"
       ],
       "totalPays": 12,
-      "remaining": 2
+      "remaining": 1
     },
     "vulnerability-disclosure-compensation": {
       "name": "vulnerability-disclosure-compensation",
@@ -104,10 +120,11 @@
       "ask": 200,
       "firstSeen": "2026-08-14T16:10:30.877Z",
       "cyclesFunded": [
-        "2525632"
+        "2525632",
+        "2542248"
       ],
       "totalPays": 2,
-      "remaining": 2
+      "remaining": 1
     },
     "DCG-Operations-Aug-Nov-26": {
       "name": "DCG-Operations-Aug-Nov-26",
@@ -116,10 +133,11 @@
       "ask": 4832,
       "firstSeen": "2026-08-14T20:10:30.846Z",
       "cyclesFunded": [
-        "2525632"
+        "2525632",
+        "2542248"
       ],
       "totalPays": 4,
-      "remaining": 4
+      "remaining": 3
     },
     "pshenmic-dev-pe-september-2026": {
       "name": "pshenmic-dev-pe-september-2026",
@@ -236,7 +254,8 @@
       "ask": 70,
       "firstSeen": "2026-08-18T16:10:30.869Z",
       "cyclesFunded": [
-        "2525632"
+        "2525632",
+        "2542248"
       ],
       "totalPays": 1,
       "remaining": 1
