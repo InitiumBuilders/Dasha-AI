@@ -58,7 +58,7 @@
     },
     "Dash-communities-without-censorship": {
       "passing": false,
-      "net": 244
+      "net": 243
     },
     "dash-growth-marketing-budget": {
       "passing": false,
@@ -66,15 +66,15 @@
     },
     "vulnerability-disclosure-compensation": {
       "passing": false,
-      "net": 240
+      "net": 239
     },
     "dash-growth-q3-2026": {
       "passing": true,
-      "net": 393
+      "net": 392
     },
     "BTCBackportsVijay_03": {
       "passing": false,
-      "net": 229
+      "net": 228
     },
     "2026-05-MakeDashASafeStoreOfValue": {
       "passing": false,
@@ -140,5 +140,5 @@
   },
   "superblock": "2525632",
   "lastPassingCount": 15,
-  "updated": "2026-08-21T15:15:02.743Z"
+  "updated": "2026-08-21T15:45:02.746Z"
 }
