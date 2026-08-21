@@ -6,7 +6,7 @@
     },
     "Dash-APAC-September-2026-REDUCED": {
       "passing": true,
-      "net": 330
+      "net": 329
     },
     "pshenmic-dev-dashscan-september-2026": {
       "passing": true,
@@ -140,5 +140,5 @@
   },
   "superblock": "2525632",
   "lastPassingCount": 15,
-  "updated": "2026-08-21T10:45:02.715Z"
+  "updated": "2026-08-21T11:15:02.717Z"
 }
