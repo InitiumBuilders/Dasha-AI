@@ -42,7 +42,7 @@
     },
     "BTCBackportsVijay_03": {
       "passing": false,
-      "net": 228
+      "net": 232
     },
     "2026-05-MakeDashASafeStoreOfValue": {
       "passing": false,
@@ -50,27 +50,27 @@
     },
     "GEG-PPP-30M-Film-On-Chain": {
       "passing": false,
-      "net": -249
+      "net": -245
     },
     "dash-masternode-tool-update-12": {
       "passing": true,
-      "net": 560
+      "net": 556
     },
     "Dash-Italia-Management-2026": {
       "passing": true,
-      "net": 620
+      "net": 616
     },
     "mnowatch-hosting-2026": {
       "passing": true,
-      "net": 670
+      "net": 666
     },
     "dashcentral-operations3": {
       "passing": true,
-      "net": 530
+      "net": 534
     },
     "encointerUBI-mean26": {
       "passing": false,
-      "net": -198
+      "net": -194
     }
   },
   "fired": {
@@ -109,5 +109,5 @@
   },
   "superblock": "2542248",
   "lastPassingCount": 7,
-  "updated": "2026-08-22T16:15:02.668Z"
+  "updated": "2026-08-22T16:45:02.722Z"
 }
