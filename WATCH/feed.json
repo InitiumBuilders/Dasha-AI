@@ -2,6 +2,32 @@
   "username": "DashSupportTeam",
   "items": [
     {
+      "id": "2091075471144296871",
+      "text": "Most discussed on the Dash ballot right now:\n\nCritical vulnerabilities disclosure and independant…\n46 comments.\n\nThe community is already weighing in. Read the thread and the tally:\nhttps://t.co/s22QYEMCkn\n\nBring it to life:",
+      "at": "2026-08-22T08:10:17.000Z",
+      "reply": false,
+      "count": 1,
+      "m": {
+        "l": 0,
+        "r": 0,
+        "c": 0
+      },
+      "url": "https://x.com/DashSupportTeam/status/2091075471144296871"
+    },
+    {
+      "id": "2091075469982453874",
+      "text": "Dash ballot — 27 days to the vote cutoff\n18 active · 7 passing · 5,240/6,828 DASH allotted\n\nClosest to the line:\n• Dash servers, channels, and chats… — 70 short\n• Critical vulnerabilities… — 74 short\n\nEverything alive on Dash:",
+      "at": "2026-08-22T08:10:17.000Z",
+      "reply": false,
+      "count": 1,
+      "m": {
+        "l": 0,
+        "r": 0,
+        "c": 0
+      },
+      "url": "https://x.com/DashSupportTeam/status/2091075469982453874"
+    },
+    {
       "id": "2090894639532327012",
       "text": "The Dash treasury has 1,588 DASH unallocated this cycle — real room for new proposals.\n\nThe network funds what masternodes approve.\n\nThe numbers, in the open:",
       "at": "2026-08-21T20:11:43.000Z",
@@ -754,37 +780,9 @@
         "c": 0
       },
       "url": "https://x.com/DashSupportTeam/status/2086787288231448681"
-    },
-    {
-      "id": "2086424899212452225",
-      "text": "Most discussed on the Dash ballot right now:\n\nCritical vulnerabilities disclosure and independant…\n44 comments.\n\nThe community is already weighing in. Read the thread and the tally:",
-      "at": "2026-08-09T12:10:34.000Z",
-      "reply": false,
-      "count": 1,
-      "m": {
-        "l": 0,
-        "r": 0,
-        "c": 0
-      },
-      "url": "https://x.com/DashSupportTeam/status/2086424899212452225"
-    },
-    {
-      "id": "2086424898289676402",
-      "text": "Dash ballot — 9 days to the vote cutoff\n17 active · 5 passing · 668/6,828 DASH allotted\n\nClosest to the line:\n• Critical vulnerabilities… — 13 short\n• Dash Core – Monthly Maintenance… — 33 short\n\nYour node, your call →",
-      "at": "2026-08-09T12:10:34.000Z",
-      "reply": false,
-      "count": 1,
-      "m": {
-        "l": 0,
-        "r": 0,
-        "c": 0
-      },
-      "url": "https://x.com/DashSupportTeam/status/2086424898289676402"
     }
   ],
   "mirrored": {
-    "2086424898289676402": true,
-    "2086424899212452225": true,
     "2086787288231448681": true,
     "2086847683616997781": true,
     "2086864027783770173": true,
@@ -842,7 +840,9 @@
     "2090834303814893894": true,
     "2090842629495832944": true,
     "2090894638672429311": true,
-    "2090894639532327012": true
+    "2090894639532327012": true,
+    "2091075469982453874": true,
+    "2091075471144296871": true
   },
-  "updated": "2026-08-22T08:05:26.441Z"
+  "updated": "2026-08-22T08:20:26.466Z"
 }
