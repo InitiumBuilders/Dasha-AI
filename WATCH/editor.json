@@ -9,9 +9,9 @@
     "treasury": "2026-08-21T20:11:43.814Z",
     "treasury:2525632": "2026-07-23T20:12:06.826Z",
     "evolve:v2.6.1": "2026-07-24T08:11:08.515Z",
-    "discussion": "2026-08-18T23:10:33.699Z",
+    "discussion": "2026-08-22T08:10:17.440Z",
     "discussion:2026-07-24": "2026-07-24T12:11:31.654Z",
-    "ballot": "2026-08-21T08:10:17.131Z",
+    "ballot": "2026-08-22T08:10:17.440Z",
     "ballot:2026-07-24": "2026-07-24T16:11:01.319Z",
     "network": "2026-08-18T12:10:34.395Z",
     "network:2026-07-24": "2026-07-24T16:11:01.319Z",
@@ -124,11 +124,13 @@
     "ballot:2026-08-21": "2026-08-21T08:10:17.131Z",
     "nextmove:2026-08-21": "2026-08-21T16:11:58.681Z",
     "buildertip:2026-08-21": "2026-08-21T20:11:43.814Z",
-    "treasury:2542248": "2026-08-21T20:11:43.814Z"
+    "treasury:2542248": "2026-08-21T20:11:43.814Z",
+    "ballot:2026-08-22": "2026-08-22T08:10:17.440Z",
+    "discussion:2026-08-22": "2026-08-22T08:10:17.440Z"
   },
-  "day": "2026-08-21",
-  "spent": 4,
-  "lastKind": "treasury",
+  "day": "2026-08-22",
+  "spent": 2,
+  "lastKind": "discussion",
   "log": [
     {
       "at": "2026-07-23T16:49:09.704Z",
@@ -668,14 +670,26 @@
       "kind": "treasury",
       "key": "treasury:2542248",
       "door": "clear-eyes"
+    },
+    {
+      "at": "2026-08-22T08:10:17.440Z",
+      "kind": "ballot",
+      "key": "ballot:2026-08-22",
+      "door": "dash-alive"
+    },
+    {
+      "at": "2026-08-22T08:10:17.440Z",
+      "kind": "discussion",
+      "key": "discussion:2026-08-22",
+      "door": "arise"
     }
   ],
   "doorLog": [
     "dash-alive",
-    "full-heart",
-    "dash-alive",
     "thrive",
     "full-heart",
-    "clear-eyes"
+    "clear-eyes",
+    "dash-alive",
+    "arise"
   ]
 }
