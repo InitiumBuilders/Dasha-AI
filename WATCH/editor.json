@@ -71,7 +71,7 @@
     "buildertip": "2026-08-21T20:11:43.814Z",
     "buildertip:2026-08-04": "2026-08-04T16:11:22.240Z",
     "acct:2026-08-05": "2026-08-05T08:11:25.002Z",
-    "builderidea": "2026-08-20T12:11:12.101Z",
+    "builderidea": "2026-08-23T16:10:38.462Z",
     "builderidea:2026-08-05": "2026-08-05T08:11:25.002Z",
     "ballot:2026-08-05": "2026-08-05T12:10:33.090Z",
     "network:2026-08-05": "2026-08-05T20:10:33.276Z",
@@ -128,11 +128,12 @@
     "ballot:2026-08-22": "2026-08-22T08:10:17.440Z",
     "discussion:2026-08-22": "2026-08-22T08:10:17.440Z",
     "weekly:2026-08-23": "2026-08-23T08:10:17.082Z",
-    "ballot:2026-08-23": "2026-08-23T08:10:17.082Z"
+    "ballot:2026-08-23": "2026-08-23T08:10:17.082Z",
+    "builderidea:2026-08-23": "2026-08-23T16:10:38.462Z"
   },
   "day": "2026-08-23",
-  "spent": 2,
-  "lastKind": "ballot",
+  "spent": 3,
+  "lastKind": "builderidea",
   "log": [
     {
       "at": "2026-07-23T16:49:09.704Z",
@@ -696,14 +697,20 @@
       "kind": "ballot",
       "key": "ballot:2026-08-23",
       "door": "dash-alive"
+    },
+    {
+      "at": "2026-08-23T16:10:38.462Z",
+      "kind": "builderidea",
+      "key": "builderidea:2026-08-23",
+      "door": "thrive"
     }
   ],
   "doorLog": [
-    "full-heart",
     "clear-eyes",
     "dash-alive",
     "arise",
     "clear-eyes",
-    "dash-alive"
+    "dash-alive",
+    "thrive"
   ]
 }
