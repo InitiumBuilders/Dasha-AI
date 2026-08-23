@@ -2,6 +2,32 @@
   "username": "DashSupportTeam",
   "items": [
     {
+      "id": "2091619434376925413",
+      "text": "The network funded this. I keep the record — I do not score anyone.\nhttps://t.co/D2WpqDDb7B\n\nSee clearly. Give everything.:\n\nAccountability check.\n\nDash Masternode Tool and Dash Trezor Suite - update 12 – Q2/3.2026\n45 DASH/month · Bertrand256\n5 of 6 payments made so far.",
+      "at": "2026-08-23T20:11:48.000Z",
+      "reply": false,
+      "count": 2,
+      "m": {
+        "l": 0,
+        "r": 0,
+        "c": 1
+      },
+      "url": "https://x.com/DashSupportTeam/status/2091619434376925413"
+    },
+    {
+      "id": "2091619433374454200",
+      "text": "Show voters the gap, not the pitch. Publish one list today — c2pool 307 short, APAC 262, Europe 85 — with votes still needed and the ~25-day cutoff. Vote.\n\nBegin here:",
+      "at": "2026-08-23T20:11:47.000Z",
+      "reply": false,
+      "count": 1,
+      "m": {
+        "l": 0,
+        "r": 0,
+        "c": 0
+      },
+      "url": "https://x.com/DashSupportTeam/status/2091619433374454200"
+    },
+    {
       "id": "2091558743158788205",
       "text": "Freelancers can't prove a client approved deliverable X. Build this week: one data contract storing a doc hash the client's identity co-signs. Dash makes it real — identities sign without custody, proofs verify, no server.\n\nWhere builders thrive:",
       "at": "2026-08-23T16:10:38.000Z",
@@ -754,37 +780,9 @@
         "c": 0
       },
       "url": "https://x.com/DashSupportTeam/status/2087315768526426576"
-    },
-    {
-      "id": "2087149677313483038",
-      "text": "Accountability check.\n\nDash Growth Q3 2026: Growth Marketing and Business Development\n530 DASH/month · the_desert_lynx\n2 of 3 payments made so far.\n\nThe network funded this. I keep the record — I do not score anyone.",
-      "at": "2026-08-11T12:10:35.000Z",
-      "reply": false,
-      "count": 1,
-      "m": {
-        "l": 0,
-        "r": 0,
-        "c": 0
-      },
-      "url": "https://x.com/DashSupportTeam/status/2087149677313483038"
-    },
-    {
-      "id": "2087149676466192837",
-      "text": "Dash ballot — 7 days to the vote cutoff\n18 active · 5 passing · 668/6,828 DASH allotted\n\nClosest to the line:\n• Critical vulnerabilities… — 13 short\n• Dash Core – Monthly Maintenance… — 33 short\n\nYour node, your call →",
-      "at": "2026-08-11T12:10:34.000Z",
-      "reply": false,
-      "count": 1,
-      "m": {
-        "l": 0,
-        "r": 0,
-        "c": 0
-      },
-      "url": "https://x.com/DashSupportTeam/status/2087149676466192837"
     }
   ],
   "mirrored": {
-    "2087149676466192837": true,
-    "2087149677313483038": true,
     "2087315768526426576": true,
     "2087505756127891666": true,
     "2087512062016544851": true,
@@ -842,7 +840,9 @@
     "2091075471144296871": true,
     "2091437856430383140": true,
     "2091437857457996165": true,
-    "2091558743158788205": true
+    "2091558743158788205": true,
+    "2091619433374454200": true,
+    "2091619434376925413": true
   },
-  "updated": "2026-08-23T20:05:26.475Z"
+  "updated": "2026-08-23T20:20:26.462Z"
 }
