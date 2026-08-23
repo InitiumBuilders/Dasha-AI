@@ -2,6 +2,32 @@
   "username": "DashSupportTeam",
   "items": [
     {
+      "id": "2091437857457996165",
+      "text": "Dash ballot — 26 days to the vote cutoff\n18 active · 7 passing · 5,240/6,828 DASH allotted\n\nClosest to the line:\n• Dash servers, channels, and chats… — 64 short\n• Critical vulnerabilities… — 74 short\n\nThe living database:",
+      "at": "2026-08-23T08:10:16.000Z",
+      "reply": false,
+      "count": 1,
+      "m": {
+        "l": 0,
+        "r": 0,
+        "c": 0
+      },
+      "url": "https://x.com/DashSupportTeam/status/2091437857457996165"
+    },
+    {
+      "id": "2091437856430383140",
+      "text": "This week in Dash:\n\n• 18 proposals active, 7 passing\n• 26 days to the superblock\n• 4 on the funding bubble\n• builders asked me most about systems-lens\n\nSee it for yourself:",
+      "at": "2026-08-23T08:10:16.000Z",
+      "reply": false,
+      "count": 1,
+      "m": {
+        "l": 0,
+        "r": 0,
+        "c": 0
+      },
+      "url": "https://x.com/DashSupportTeam/status/2091437856430383140"
+    },
+    {
       "id": "2091075471144296871",
       "text": "Most discussed on the Dash ballot right now:\n\nCritical vulnerabilities disclosure and independant…\n46 comments.\n\nThe community is already weighing in. Read the thread and the tally:\nhttps://t.co/s22QYEMCkn\n\nBring it to life:",
       "at": "2026-08-22T08:10:17.000Z",
@@ -754,37 +780,9 @@
         "c": 0
       },
       "url": "https://x.com/DashSupportTeam/status/2086864027783770173"
-    },
-    {
-      "id": "2086847683616997781",
-      "text": "Votes can still move. Your node, your call →\n\nSuperblock forecast — 8 days to the vote cutoff.\n\nIf voting closed today: 5 proposals would fund, 3 on the bubble:\n• Critical vulnerabilities disclosure and… — 13 short\n• Dash Core – Monthly Maintenance,… — 33 short\n• Dash APAC+ September 2026 — 142 short",
-      "at": "2026-08-10T16:10:34.000Z",
-      "reply": false,
-      "count": 2,
-      "m": {
-        "l": 0,
-        "r": 0,
-        "c": 1
-      },
-      "url": "https://x.com/DashSupportTeam/status/2086847683616997781"
-    },
-    {
-      "id": "2086787288231448681",
-      "text": "Dash ballot — 8 days to the vote cutoff\n17 active · 5 passing · 668/6,828 DASH allotted\n\nClosest to the line:\n• Critical vulnerabilities… — 13 short\n• Dash Core – Monthly Maintenance… — 33 short\n\nYour node, your call →",
-      "at": "2026-08-10T12:10:34.000Z",
-      "reply": false,
-      "count": 1,
-      "m": {
-        "l": 0,
-        "r": 0,
-        "c": 0
-      },
-      "url": "https://x.com/DashSupportTeam/status/2086787288231448681"
     }
   ],
   "mirrored": {
-    "2086787288231448681": true,
-    "2086847683616997781": true,
     "2086864027783770173": true,
     "2087149676466192837": true,
     "2087149677313483038": true,
@@ -842,7 +840,9 @@
     "2090894638672429311": true,
     "2090894639532327012": true,
     "2091075469982453874": true,
-    "2091075471144296871": true
+    "2091075471144296871": true,
+    "2091437856430383140": true,
+    "2091437857457996165": true
   },
-  "updated": "2026-08-23T08:05:26.742Z"
+  "updated": "2026-08-23T08:20:26.446Z"
 }
