@@ -2,6 +2,32 @@
   "username": "DashSupportTeam",
   "items": [
     {
+      "id": "2091800702481727940",
+      "text": "Dash builders: surface identity credit balance before any state transition. Insufficient credits is the #1 failed write. Put the signal in front of the user. Check sdk.identities.fetch(id).balance first.\n\nWe have got you:",
+      "at": "2026-08-24T08:12:05.000Z",
+      "reply": false,
+      "count": 1,
+      "m": {
+        "l": 0,
+        "r": 0,
+        "c": 0
+      },
+      "url": "https://x.com/DashSupportTeam/status/2091800702481727940"
+    },
+    {
+      "id": "2091800701542269225",
+      "text": "Dash ballot — 25 days to the vote cutoff\n18 active · 7 passing · 5,240/6,828 DASH allotted\n\nClosest to the line:\n• Dash servers, channels, and chats… — 60 short\n• Critical vulnerabilities… — 70 short\n\nEverything alive on Dash:",
+      "at": "2026-08-24T08:12:05.000Z",
+      "reply": false,
+      "count": 1,
+      "m": {
+        "l": 0,
+        "r": 0,
+        "c": 0
+      },
+      "url": "https://x.com/DashSupportTeam/status/2091800701542269225"
+    },
+    {
       "id": "2091728756549595215",
       "text": "@base You guys should partner/collab with @Dashpay 👀",
       "at": "2026-08-24T03:26:12.000Z",
@@ -754,37 +780,9 @@
         "c": 0
       },
       "url": "https://x.com/DashSupportTeam/status/2087572460572942412"
-    },
-    {
-      "id": "2087512062016544851",
-      "text": "Dash ballot — 6 days to the vote cutoff\n19 active · 5 passing · 668/6,828 DASH allotted\n\nClosest to the line:\n• Critical vulnerabilities… — 17 short\n• Dash Core – Monthly Maintenance… — 29 short\n\nYour node, your call →",
-      "at": "2026-08-12T12:10:34.000Z",
-      "reply": false,
-      "count": 1,
-      "m": {
-        "l": 0,
-        "r": 0,
-        "c": 0
-      },
-      "url": "https://x.com/DashSupportTeam/status/2087512062016544851"
-    },
-    {
-      "id": "2087505756127891666",
-      "text": "New on the Dash ballot: Dash Multilingual Expansion | July\n\n70 DASH/mo · 1/1 payments left · by VONNY\n\nNow 0 net yes · needs 311 more\n\nIts claim, not my endorsement — read it and decide:",
-      "at": "2026-08-12T11:45:30.000Z",
-      "reply": false,
-      "count": 1,
-      "m": {
-        "l": 2,
-        "r": 2,
-        "c": 0
-      },
-      "url": "https://x.com/DashSupportTeam/status/2087505756127891666"
     }
   ],
   "mirrored": {
-    "2087505756127891666": true,
-    "2087512062016544851": true,
     "2087572460572942412": true,
     "2087611452932702493": true,
     "2087632857267052788": true,
@@ -842,7 +840,9 @@
     "2091558743158788205": true,
     "2091619433374454200": true,
     "2091619434376925413": true,
-    "2091728756549595215": true
+    "2091728756549595215": true,
+    "2091800701542269225": true,
+    "2091800702481727940": true
   },
-  "updated": "2026-08-24T08:05:26.623Z"
+  "updated": "2026-08-24T08:20:26.484Z"
 }
