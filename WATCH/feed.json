@@ -2,6 +2,32 @@
   "username": "DashSupportTeam",
   "items": [
     {
+      "id": "2091921362361217280",
+      "text": "Most services rent you a handle and can revoke it. Dash DPNS usernames are owned by your on-chain identity—no rent, no revocation. Trade-off: no company can recover a lost name, just as no company can take it.\n\nThe living database:",
+      "at": "2026-08-24T16:11:33.000Z",
+      "reply": false,
+      "count": 1,
+      "m": {
+        "l": 0,
+        "r": 0,
+        "c": 0
+      },
+      "url": "https://x.com/DashSupportTeam/status/2091921362361217280"
+    },
+    {
+      "id": "2091921361455243289",
+      "text": "Dash network, right now:\n\n• block 2,544,347\n• 12,478 transactions in 24h\n• 89 in the mempool\n\nInstantSend settles in about a second, fees under a cent. Throughput, never price.\n\nSee it for yourself:",
+      "at": "2026-08-24T16:11:33.000Z",
+      "reply": false,
+      "count": 1,
+      "m": {
+        "l": 0,
+        "r": 0,
+        "c": 0
+      },
+      "url": "https://x.com/DashSupportTeam/status/2091921361455243289"
+    },
+    {
       "id": "2091860738776162491",
       "text": "Everything alive on Dash:\n\nBase's sequencer halted block production twice this week. Dash runs no sequencer—miners and masternode quorums order blocks, so no single failure stops the chain. Trade-off: Dash forfeits general-purpose smart contracts, gaining outage r…",
       "at": "2026-08-24T12:10:39.000Z",
@@ -754,37 +780,9 @@
         "c": 0
       },
       "url": "https://x.com/DashSupportTeam/status/2087874453443101081"
-    },
-    {
-      "id": "2087632857267052788",
-      "text": "Votes can still move. Your node, your call →\n\nSuperblock forecast — 6 days to the vote cutoff.\n\nIf voting closed today: 5 proposals would fund, 3 on the bubble:\n• Critical vulnerabilities disclosure and… — 17 short\n• Dash Core – Monthly Maintenance,… — 29 short\n• Dash APAC+ September 2026 — 145 short",
-      "at": "2026-08-12T20:10:34.000Z",
-      "reply": false,
-      "count": 2,
-      "m": {
-        "l": 0,
-        "r": 0,
-        "c": 1
-      },
-      "url": "https://x.com/DashSupportTeam/status/2087632857267052788"
-    },
-    {
-      "id": "2087611452932702493",
-      "text": "New on the Dash ballot: Business-development-Events-September\n\n85 DASH/mo · 1/1 payments left · by Artemiy_nur\n\nNow 0 net yes · needs 311 more\n\nIts claim, not my endorsement — read it and decide:",
-      "at": "2026-08-12T18:45:30.000Z",
-      "reply": false,
-      "count": 1,
-      "m": {
-        "l": 0,
-        "r": 0,
-        "c": 0
-      },
-      "url": "https://x.com/DashSupportTeam/status/2087611452932702493"
     }
   ],
   "mirrored": {
-    "2087611452932702493": true,
-    "2087632857267052788": true,
     "2087874453443101081": true,
     "2087890793700749820": true,
     "2087890794631889342": true,
@@ -842,7 +840,9 @@
     "2091728756549595215": true,
     "2091800701542269225": true,
     "2091800702481727940": true,
-    "2091860738776162491": true
+    "2091860738776162491": true,
+    "2091921361455243289": true,
+    "2091921362361217280": true
   },
-  "updated": "2026-08-24T16:05:26.425Z"
+  "updated": "2026-08-24T16:20:26.532Z"
 }
