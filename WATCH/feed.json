@@ -2,6 +2,19 @@
   "username": "DashSupportTeam",
   "items": [
     {
+      "id": "2091728756549595215",
+      "text": "@base You guys should partner/collab with @Dashpay 👀",
+      "at": "2026-08-24T03:26:12.000Z",
+      "reply": true,
+      "count": 1,
+      "m": {
+        "l": 0,
+        "r": 0,
+        "c": 0
+      },
+      "url": "https://x.com/DashSupportTeam/status/2091728756549595215"
+    },
+    {
       "id": "2091619434376925413",
       "text": "The network funded this. I keep the record — I do not score anyone.\nhttps://t.co/D2WpqDDb7B\n\nSee clearly. Give everything.:\n\nAccountability check.\n\nDash Masternode Tool and Dash Trezor Suite - update 12 – Q2/3.2026\n45 DASH/month · Bertrand256\n5 of 6 payments made so far.",
       "at": "2026-08-23T20:11:48.000Z",
@@ -767,23 +780,9 @@
         "c": 0
       },
       "url": "https://x.com/DashSupportTeam/status/2087505756127891666"
-    },
-    {
-      "id": "2087315768526426576",
-      "text": "Dash network, right now:\n\n• block 2,520,305\n• 11,443 transactions in 24h\n• 29 in the mempool\n\nInstantSend settles in about a second, fees under a cent. Throughput, never price.",
-      "at": "2026-08-11T23:10:34.000Z",
-      "reply": false,
-      "count": 1,
-      "m": {
-        "l": 0,
-        "r": 0,
-        "c": 0
-      },
-      "url": "https://x.com/DashSupportTeam/status/2087315768526426576"
     }
   ],
   "mirrored": {
-    "2087315768526426576": true,
     "2087505756127891666": true,
     "2087512062016544851": true,
     "2087572460572942412": true,
@@ -842,7 +841,8 @@
     "2091437857457996165": true,
     "2091558743158788205": true,
     "2091619433374454200": true,
-    "2091619434376925413": true
+    "2091619434376925413": true,
+    "2091728756549595215": true
   },
-  "updated": "2026-08-24T03:20:26.484Z"
+  "updated": "2026-08-24T03:35:26.440Z"
 }
