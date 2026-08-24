@@ -22,7 +22,7 @@
     "foundry:2026-07-25": "2026-07-25T08:11:00.503Z",
     "distinct": "2026-08-20T12:11:12.101Z",
     "distinct:2026-07-25": "2026-07-25T12:10:59.178Z",
-    "translate": "2026-08-20T16:11:02.476Z",
+    "translate": "2026-08-24T12:10:40.069Z",
     "translate:2026-07-25": "2026-07-25T12:10:59.178Z",
     "ballot:2026-07-25": "2026-07-25T16:10:23.551Z",
     "weekly": "2026-08-23T08:10:17.082Z",
@@ -133,11 +133,12 @@
     "nextmove:2026-08-23": "2026-08-23T20:11:48.738Z",
     "acct:2026-08-23": "2026-08-23T20:11:48.738Z",
     "ballot:2026-08-24": "2026-08-24T08:12:06.050Z",
-    "buildertip:2026-08-24": "2026-08-24T08:12:06.050Z"
+    "buildertip:2026-08-24": "2026-08-24T08:12:06.050Z",
+    "translate:2026-08-24": "2026-08-24T12:10:40.069Z"
   },
   "day": "2026-08-24",
-  "spent": 2,
-  "lastKind": "buildertip",
+  "spent": 3,
+  "lastKind": "translate",
   "log": [
     {
       "at": "2026-07-23T16:49:09.704Z",
@@ -731,14 +732,20 @@
       "kind": "buildertip",
       "key": "buildertip:2026-08-24",
       "door": "full-heart"
+    },
+    {
+      "at": "2026-08-24T12:10:40.069Z",
+      "kind": "translate",
+      "key": "translate:2026-08-24",
+      "door": "dash-alive"
     }
   ],
   "doorLog": [
-    "dash-alive",
     "thrive",
     "arise",
     "clear-eyes-full-heart",
     "dash-alive",
-    "full-heart"
+    "full-heart",
+    "dash-alive"
   ]
 }
