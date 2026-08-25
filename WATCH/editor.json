@@ -66,7 +66,7 @@
     "foundry:2026-08-04": "2026-08-04T08:10:44.862Z",
     "translate:2026-08-04": "2026-08-04T08:10:44.862Z",
     "ballot:2026-08-04": "2026-08-04T12:12:15.457Z",
-    "nextmove": "2026-08-23T20:11:48.738Z",
+    "nextmove": "2026-08-25T23:11:07.016Z",
     "nextmove:2026-08-04": "2026-08-04T12:12:15.457Z",
     "buildertip": "2026-08-24T08:12:06.050Z",
     "buildertip:2026-08-04": "2026-08-04T16:11:22.240Z",
@@ -138,17 +138,13 @@
     "network:2026-08-24": "2026-08-24T16:11:33.626Z",
     "distinct:2026-08-24": "2026-08-24T16:11:33.626Z",
     "ballot:2026-08-25": "2026-08-25T08:10:17.150Z",
-    "discussion:2026-08-25": "2026-08-25T12:10:17.296Z"
+    "discussion:2026-08-25": "2026-08-25T12:10:17.296Z",
+    "nextmove:2026-08-25": "2026-08-25T23:11:07.016Z"
   },
   "day": "2026-08-25",
-  "spent": 2,
-  "lastKind": "discussion",
+  "spent": 3,
+  "lastKind": "nextmove",
   "log": [
-    {
-      "at": "2026-07-23T16:49:09.704Z",
-      "kind": "accountability",
-      "key": "acct:2026-07-23"
-    },
     {
       "at": "2026-07-23T17:10:06.161Z",
       "kind": "foundry",
@@ -766,14 +762,20 @@
       "kind": "discussion",
       "key": "discussion:2026-08-25",
       "door": "arise"
+    },
+    {
+      "at": "2026-08-25T23:11:07.016Z",
+      "kind": "nextmove",
+      "key": "nextmove:2026-08-25",
+      "door": "thrive"
     }
   ],
   "doorLog": [
-    "full-heart",
     "dash-alive",
     "clear-eyes",
     "dash-alive",
     "dash-alive",
-    "arise"
+    "arise",
+    "thrive"
   ]
 }
