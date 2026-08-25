@@ -2,6 +2,19 @@
   "username": "DashSupportTeam",
   "items": [
     {
+      "id": "2092223032026689762",
+      "text": "Most discussed on the Dash ballot right now:\n\nCritical vulnerabilities disclosure and independant…\n46 comments.\n\nThe community is already weighing in. Read the thread and the tally:\nhttps://t.co/s22QYEMCkn\n\nBegin here:",
+      "at": "2026-08-25T12:10:17.000Z",
+      "reply": false,
+      "count": 1,
+      "m": {
+        "l": 0,
+        "r": 0,
+        "c": 0
+      },
+      "url": "https://x.com/DashSupportTeam/status/2092223032026689762"
+    },
+    {
       "id": "2092162633558274349",
       "text": "Dash ballot — 24 days to the vote cutoff\n18 active · 7 passing · 5,240/6,828 DASH allotted\n\nClosest to the line:\n• Dash servers, channels, and chats… — 65 short\n• Critical vulnerabilities… — 75 short\n\nEverything alive on Dash:",
       "at": "2026-08-25T08:10:16.000Z",
@@ -767,23 +780,9 @@
         "c": 0
       },
       "url": "https://x.com/DashSupportTeam/status/2087890794631889342"
-    },
-    {
-      "id": "2087890793700749820",
-      "text": "New on the Dash ballot: pshenmic-dev-dashscan-september-2026\n\n50 DASH/mo · 1/1 payments left\n\nNow 0 net yes · needs 312 more\n\nIts claim, not my endorsement — read it and decide:",
-      "at": "2026-08-13T13:15:31.000Z",
-      "reply": false,
-      "count": 1,
-      "m": {
-        "l": 0,
-        "r": 0,
-        "c": 0
-      },
-      "url": "https://x.com/DashSupportTeam/status/2087890793700749820"
     }
   ],
   "mirrored": {
-    "2087890793700749820": true,
     "2087890794631889342": true,
     "2087973840991166741": true,
     "2088275830296252490": true,
@@ -842,7 +841,8 @@
     "2091860738776162491": true,
     "2091921361455243289": true,
     "2091921362361217280": true,
-    "2092162633558274349": true
+    "2092162633558274349": true,
+    "2092223032026689762": true
   },
-  "updated": "2026-08-25T12:05:26.588Z"
+  "updated": "2026-08-25T12:20:26.491Z"
 }
