@@ -11,7 +11,7 @@
     "evolve:v2.6.1": "2026-07-24T08:11:08.515Z",
     "discussion": "2026-08-22T08:10:17.440Z",
     "discussion:2026-07-24": "2026-07-24T12:11:31.654Z",
-    "ballot": "2026-08-24T08:12:06.050Z",
+    "ballot": "2026-08-25T08:10:17.150Z",
     "ballot:2026-07-24": "2026-07-24T16:11:01.319Z",
     "network": "2026-08-24T16:11:33.626Z",
     "network:2026-07-24": "2026-07-24T16:11:01.319Z",
@@ -136,11 +136,12 @@
     "buildertip:2026-08-24": "2026-08-24T08:12:06.050Z",
     "translate:2026-08-24": "2026-08-24T12:10:40.069Z",
     "network:2026-08-24": "2026-08-24T16:11:33.626Z",
-    "distinct:2026-08-24": "2026-08-24T16:11:33.626Z"
+    "distinct:2026-08-24": "2026-08-24T16:11:33.626Z",
+    "ballot:2026-08-25": "2026-08-25T08:10:17.150Z"
   },
-  "day": "2026-08-24",
-  "spent": 5,
-  "lastKind": "distinct",
+  "day": "2026-08-25",
+  "spent": 1,
+  "lastKind": "ballot",
   "log": [
     {
       "at": "2026-07-23T16:49:09.704Z",
@@ -752,14 +753,20 @@
       "kind": "distinct",
       "key": "distinct:2026-08-24",
       "door": "dash-alive"
+    },
+    {
+      "at": "2026-08-25T08:10:17.150Z",
+      "kind": "ballot",
+      "key": "ballot:2026-08-25",
+      "door": "dash-alive"
     }
   ],
   "doorLog": [
-    "clear-eyes-full-heart",
     "dash-alive",
     "full-heart",
     "dash-alive",
     "clear-eyes",
+    "dash-alive",
     "dash-alive"
   ]
 }
