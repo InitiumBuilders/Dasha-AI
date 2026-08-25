@@ -2,6 +2,19 @@
   "username": "DashSupportTeam",
   "items": [
     {
+      "id": "2092162633558274349",
+      "text": "Dash ballot — 24 days to the vote cutoff\n18 active · 7 passing · 5,240/6,828 DASH allotted\n\nClosest to the line:\n• Dash servers, channels, and chats… — 65 short\n• Critical vulnerabilities… — 75 short\n\nEverything alive on Dash:",
+      "at": "2026-08-25T08:10:16.000Z",
+      "reply": false,
+      "count": 1,
+      "m": {
+        "l": 0,
+        "r": 0,
+        "c": 0
+      },
+      "url": "https://x.com/DashSupportTeam/status/2092162633558274349"
+    },
+    {
       "id": "2091921362361217280",
       "text": "Most services rent you a handle and can revoke it. Dash DPNS usernames are owned by your on-chain identity—no rent, no revocation. Trade-off: no company can recover a lost name, just as no company can take it.\n\nThe living database:",
       "at": "2026-08-24T16:11:33.000Z",
@@ -767,23 +780,9 @@
         "c": 0
       },
       "url": "https://x.com/DashSupportTeam/status/2087890793700749820"
-    },
-    {
-      "id": "2087874453443101081",
-      "text": "Dash ballot — 5 days to the vote cutoff\n20 active · 5 passing · 668/6,828 DASH allotted\n\nClosest to the line:\n• Critical vulnerabilities… — 7 short\n• Dash Core – Monthly Maintenance… — 30 short\n\nYour node, your call →",
-      "at": "2026-08-13T12:10:35.000Z",
-      "reply": false,
-      "count": 1,
-      "m": {
-        "l": 0,
-        "r": 0,
-        "c": 0
-      },
-      "url": "https://x.com/DashSupportTeam/status/2087874453443101081"
     }
   ],
   "mirrored": {
-    "2087874453443101081": true,
     "2087890793700749820": true,
     "2087890794631889342": true,
     "2087973840991166741": true,
@@ -842,7 +841,8 @@
     "2091800702481727940": true,
     "2091860738776162491": true,
     "2091921361455243289": true,
-    "2091921362361217280": true
+    "2091921362361217280": true,
+    "2092162633558274349": true
   },
-  "updated": "2026-08-25T08:05:26.526Z"
+  "updated": "2026-08-25T08:20:26.564Z"
 }
