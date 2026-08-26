@@ -68,7 +68,7 @@
     "ballot:2026-08-04": "2026-08-04T12:12:15.457Z",
     "nextmove": "2026-08-25T23:11:07.016Z",
     "nextmove:2026-08-04": "2026-08-04T12:12:15.457Z",
-    "buildertip": "2026-08-24T08:12:06.050Z",
+    "buildertip": "2026-08-26T12:10:34.062Z",
     "buildertip:2026-08-04": "2026-08-04T16:11:22.240Z",
     "acct:2026-08-05": "2026-08-05T08:11:25.002Z",
     "builderidea": "2026-08-23T16:10:38.462Z",
@@ -140,17 +140,13 @@
     "ballot:2026-08-25": "2026-08-25T08:10:17.150Z",
     "discussion:2026-08-25": "2026-08-25T12:10:17.296Z",
     "nextmove:2026-08-25": "2026-08-25T23:11:07.016Z",
-    "ballot:2026-08-26": "2026-08-26T08:10:17.236Z"
+    "ballot:2026-08-26": "2026-08-26T08:10:17.236Z",
+    "buildertip:2026-08-26": "2026-08-26T12:10:34.062Z"
   },
   "day": "2026-08-26",
-  "spent": 1,
-  "lastKind": "ballot",
+  "spent": 2,
+  "lastKind": "buildertip",
   "log": [
-    {
-      "at": "2026-07-23T19:32:34.578Z",
-      "kind": "evolve",
-      "key": "evolve:v2.5.0"
-    },
     {
       "at": "2026-07-23T20:12:06.826Z",
       "kind": "treasury",
@@ -770,14 +766,20 @@
       "kind": "ballot",
       "key": "ballot:2026-08-26",
       "door": "dash-alive"
+    },
+    {
+      "at": "2026-08-26T12:10:34.062Z",
+      "kind": "buildertip",
+      "key": "buildertip:2026-08-26",
+      "door": "full-heart"
     }
   ],
   "doorLog": [
-    "clear-eyes",
     "dash-alive",
     "dash-alive",
     "arise",
     "thrive",
-    "dash-alive"
+    "dash-alive",
+    "full-heart"
   ]
 }
