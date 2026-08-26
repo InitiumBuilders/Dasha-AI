@@ -2,6 +2,19 @@
   "username": "DashSupportTeam",
   "items": [
     {
+      "id": "2092585490285306150",
+      "text": "List every query before you register the contract — Drive indices are set at creation; retrofits mean a version bump plus migrating stored docs. One hour enumerating queries now is the cheapest leverage in the whole build.\n\nAsk me anything:",
+      "at": "2026-08-26T12:10:33.000Z",
+      "reply": false,
+      "count": 1,
+      "m": {
+        "l": 0,
+        "r": 0,
+        "c": 0
+      },
+      "url": "https://x.com/DashSupportTeam/status/2092585490285306150"
+    },
+    {
       "id": "2092525021809807385",
       "text": "Dash ballot — 23 days to the vote cutoff\n18 active · 7 passing · 5,240/6,828 DASH allotted\n\nClosest to the line:\n• Dash servers, channels, and chats… — 65 short\n• Critical vulnerabilities… — 75 short\n\nEverything alive on Dash:",
       "at": "2026-08-26T08:10:17.000Z",
@@ -767,23 +780,9 @@
         "c": 0
       },
       "url": "https://x.com/DashSupportTeam/status/2088313817776210373"
-    },
-    {
-      "id": "2088275830296252490",
-      "text": "Funding kwvg for development (Aug 26 - Sep 26) just crossed the funding line.\n\nNow passing at 336 net yes.\nVotes can still change — 4 days to the vote cutoff.",
-      "at": "2026-08-14T14:45:30.000Z",
-      "reply": false,
-      "count": 1,
-      "m": {
-        "l": 0,
-        "r": 0,
-        "c": 0
-      },
-      "url": "https://x.com/DashSupportTeam/status/2088275830296252490"
     }
   ],
   "mirrored": {
-    "2088275830296252490": true,
     "2088313817776210373": true,
     "2088321126745199101": true,
     "2088402931515007333": true,
@@ -842,7 +841,8 @@
     "2092162633558274349": true,
     "2092223032026689762": true,
     "2092389333919560146": true,
-    "2092525021809807385": true
+    "2092525021809807385": true,
+    "2092585490285306150": true
   },
-  "updated": "2026-08-26T12:05:26.486Z"
+  "updated": "2026-08-26T12:21:19.770Z"
 }
