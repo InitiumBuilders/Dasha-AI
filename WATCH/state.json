@@ -2,7 +2,7 @@
   "seen": {
     "c2pool-daemonless-finalize": {
       "passing": false,
-      "net": 28
+      "net": 52
     },
     "DASH-MULTILINGUAL-EXPANSION_Aug": {
       "passing": true,
@@ -109,5 +109,5 @@
   },
   "superblock": "2542248",
   "lastPassingCount": 7,
-  "updated": "2026-08-26T12:45:02.730Z"
+  "updated": "2026-08-26T13:15:02.835Z"
 }
