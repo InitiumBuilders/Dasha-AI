@@ -71,7 +71,7 @@
     "buildertip": "2026-08-26T12:10:34.062Z",
     "buildertip:2026-08-04": "2026-08-04T16:11:22.240Z",
     "acct:2026-08-05": "2026-08-05T08:11:25.002Z",
-    "builderidea": "2026-08-23T16:10:38.462Z",
+    "builderidea": "2026-08-26T20:10:57.077Z",
     "builderidea:2026-08-05": "2026-08-05T08:11:25.002Z",
     "ballot:2026-08-05": "2026-08-05T12:10:33.090Z",
     "network:2026-08-05": "2026-08-05T20:10:33.276Z",
@@ -141,17 +141,13 @@
     "discussion:2026-08-25": "2026-08-25T12:10:17.296Z",
     "nextmove:2026-08-25": "2026-08-25T23:11:07.016Z",
     "ballot:2026-08-26": "2026-08-26T08:10:17.236Z",
-    "buildertip:2026-08-26": "2026-08-26T12:10:34.062Z"
+    "buildertip:2026-08-26": "2026-08-26T12:10:34.062Z",
+    "builderidea:2026-08-26": "2026-08-26T20:10:57.077Z"
   },
   "day": "2026-08-26",
-  "spent": 2,
-  "lastKind": "buildertip",
+  "spent": 3,
+  "lastKind": "builderidea",
   "log": [
-    {
-      "at": "2026-07-23T20:12:06.826Z",
-      "kind": "treasury",
-      "key": "treasury:2525632"
-    },
     {
       "at": "2026-07-24T08:11:08.515Z",
       "kind": "evolve",
@@ -772,14 +768,20 @@
       "kind": "buildertip",
       "key": "buildertip:2026-08-26",
       "door": "full-heart"
+    },
+    {
+      "at": "2026-08-26T20:10:57.077Z",
+      "kind": "builderidea",
+      "key": "builderidea:2026-08-26",
+      "door": "thrive"
     }
   ],
   "doorLog": [
     "dash-alive",
-    "dash-alive",
     "arise",
     "thrive",
     "dash-alive",
-    "full-heart"
+    "full-heart",
+    "thrive"
   ]
 }
