@@ -2,6 +2,19 @@
   "username": "DashSupportTeam",
   "items": [
     {
+      "id": "2092669757791056223",
+      "text": "New on the Dash ballot: BTCBACKPORTSVIJAY_04\n\n55 DASH/mo · 6/6 payments left\nIt says: It says it is for Bitcoin backports.\n\nNow 0 net yes · needs 315 more\n\nIts claim, not my endorsement — read it and decide:",
+      "at": "2026-08-26T17:45:24.000Z",
+      "reply": false,
+      "count": 1,
+      "m": {
+        "l": 0,
+        "r": 0,
+        "c": 0
+      },
+      "url": "https://x.com/DashSupportTeam/status/2092669757791056223"
+    },
+    {
       "id": "2092585490285306150",
       "text": "List every query before you register the contract — Drive indices are set at creation; retrofits mean a version bump plus migrating stored docs. One hour enumerating queries now is the cheapest leverage in the whole build.\n\nAsk me anything:",
       "at": "2026-08-26T12:10:33.000Z",
@@ -767,23 +780,9 @@
         "c": 0
       },
       "url": "https://x.com/DashSupportTeam/status/2088321126745199101"
-    },
-    {
-      "id": "2088313817776210373",
-      "text": "Dash Core Group Operations September - December 2026 just crossed the funding line.\n\nNow passing at 312 net yes.\nVotes can still change — 4 days to the vote cutoff.",
-      "at": "2026-08-14T17:16:27.000Z",
-      "reply": false,
-      "count": 1,
-      "m": {
-        "l": 0,
-        "r": 0,
-        "c": 0
-      },
-      "url": "https://x.com/DashSupportTeam/status/2088313817776210373"
     }
   ],
   "mirrored": {
-    "2088313817776210373": true,
     "2088321126745199101": true,
     "2088402931515007333": true,
     "2088538827304423804": true,
@@ -842,7 +841,8 @@
     "2092223032026689762": true,
     "2092389333919560146": true,
     "2092525021809807385": true,
-    "2092585490285306150": true
+    "2092585490285306150": true,
+    "2092669757791056223": true
   },
-  "updated": "2026-08-26T17:35:26.613Z"
+  "updated": "2026-08-26T17:50:26.544Z"
 }
