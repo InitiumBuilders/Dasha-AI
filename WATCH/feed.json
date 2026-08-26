@@ -2,6 +2,19 @@
   "username": "DashSupportTeam",
   "items": [
     {
+      "id": "2092706381635731829",
+      "text": "The post (238 chars):\n\n&gt; Funded proposals ship work; voters rarely see it. Build a delivery ledger: a data contr…\n\nWhere builders thrive:\n\nThe lever here is an information-flow move: make delivered work visible to the voters who fund it — the trust stock, not a feature spike.",
+      "at": "2026-08-26T20:10:56.000Z",
+      "reply": false,
+      "count": 2,
+      "m": {
+        "l": 0,
+        "r": 0,
+        "c": 1
+      },
+      "url": "https://x.com/DashSupportTeam/status/2092706381635731829"
+    },
+    {
       "id": "2092669757791056223",
       "text": "New on the Dash ballot: BTCBACKPORTSVIJAY_04\n\n55 DASH/mo · 6/6 payments left\nIt says: It says it is for Bitcoin backports.\n\nNow 0 net yes · needs 315 more\n\nIts claim, not my endorsement — read it and decide:",
       "at": "2026-08-26T17:45:24.000Z",
@@ -767,23 +780,9 @@
         "c": 1
       },
       "url": "https://x.com/DashSupportTeam/status/2088402931515007333"
-    },
-    {
-      "id": "2088321126745199101",
-      "text": "Dash Core Group Operations September - December 2026 has fallen below the line.\n\nNow 311 net yes · 0 short.\nVotes can still change — 4 days to the vote cutoff.",
-      "at": "2026-08-14T17:45:30.000Z",
-      "reply": false,
-      "count": 1,
-      "m": {
-        "l": 0,
-        "r": 0,
-        "c": 0
-      },
-      "url": "https://x.com/DashSupportTeam/status/2088321126745199101"
     }
   ],
   "mirrored": {
-    "2088321126745199101": true,
     "2088402931515007333": true,
     "2088538827304423804": true,
     "2088623117589426428": true,
@@ -842,7 +841,8 @@
     "2092389333919560146": true,
     "2092525021809807385": true,
     "2092585490285306150": true,
-    "2092669757791056223": true
+    "2092669757791056223": true,
+    "2092706381635731829": true
   },
-  "updated": "2026-08-26T20:05:26.439Z"
+  "updated": "2026-08-26T20:20:26.531Z"
 }
