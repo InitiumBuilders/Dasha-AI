@@ -6,7 +6,7 @@
     },
     "c2pool-daemonless-finalize": {
       "passing": false,
-      "net": 52
+      "net": 53
     },
     "DASH-MULTILINGUAL-EXPANSION_Aug": {
       "passing": true,
@@ -38,7 +38,7 @@
     },
     "dash-growth-marketing-budget": {
       "passing": false,
-      "net": 143
+      "net": 142
     },
     "vulnerability-disclosure-compensation": {
       "passing": false,
@@ -114,5 +114,5 @@
   },
   "superblock": "2542248",
   "lastPassingCount": 7,
-  "updated": "2026-08-27T03:45:02.729Z"
+  "updated": "2026-08-27T04:15:02.743Z"
 }
