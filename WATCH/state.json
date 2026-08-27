@@ -2,7 +2,7 @@
   "seen": {
     "BTCBACKPORTSVIJAY_04": {
       "passing": false,
-      "net": 1
+      "net": 11
     },
     "c2pool-daemonless-finalize": {
       "passing": false,
@@ -34,7 +34,7 @@
     },
     "Dash-communities-without-censorship": {
       "passing": false,
-      "net": 250
+      "net": 245
     },
     "dash-growth-marketing-budget": {
       "passing": false,
@@ -46,7 +46,7 @@
     },
     "BTCBackportsVijay_03": {
       "passing": false,
-      "net": 232
+      "net": 227
     },
     "2026-05-MakeDashASafeStoreOfValue": {
       "passing": false,
@@ -114,5 +114,5 @@
   },
   "superblock": "2542248",
   "lastPassingCount": 7,
-  "updated": "2026-08-27T08:45:02.750Z"
+  "updated": "2026-08-27T09:15:02.712Z"
 }
