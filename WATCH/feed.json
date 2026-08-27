@@ -2,6 +2,19 @@
   "username": "DashSupportTeam",
   "items": [
     {
+      "id": "2092887409553748176",
+      "text": "Dash ballot — 22 days to the vote cutoff\n19 active · 7 passing · 5,240/6,828 DASH allotted\n\nClosest to the line:\n• Dash servers, channels, and chats… — 64 short\n• Critical vulnerabilities… — 74 short\n\nSee it for yourself:",
+      "at": "2026-08-27T08:10:17.000Z",
+      "reply": false,
+      "count": 1,
+      "m": {
+        "l": 0,
+        "r": 0,
+        "c": 0
+      },
+      "url": "https://x.com/DashSupportTeam/status/2092887409553748176"
+    },
+    {
       "id": "2092706381635731829",
       "text": "The post (238 chars):\n\n&gt; Funded proposals ship work; voters rarely see it. Build a delivery ledger: a data contr…\n\nWhere builders thrive:\n\nThe lever here is an information-flow move: make delivered work visible to the voters who fund it — the trust stock, not a feature spike.",
       "at": "2026-08-26T20:10:56.000Z",
@@ -767,23 +780,9 @@
         "c": 0
       },
       "url": "https://x.com/DashSupportTeam/status/2088538827304423804"
-    },
-    {
-      "id": "2088402931515007333",
-      "text": "https://t.co/TdcBKiOVS8 Dash Desktop September 2026 — 32 short\n\nVotes can still move. Your node, your call →\n\nSuperblock forecast — 4 days to the vote cutoff.\n\nIf voting closed today: 8 proposals would fund, 7 on the bubble:\n• Dash APAC+ September 2026 — 7 short\n• https://t.co/TdcBKiOVS8 Platform Explorer… — 12 short\n• Dash Core – Monthly Maintenance,… — 30 short\n•",
-      "at": "2026-08-14T23:10:34.000Z",
-      "reply": false,
-      "count": 2,
-      "m": {
-        "l": 0,
-        "r": 0,
-        "c": 1
-      },
-      "url": "https://x.com/DashSupportTeam/status/2088402931515007333"
     }
   ],
   "mirrored": {
-    "2088402931515007333": true,
     "2088538827304423804": true,
     "2088623117589426428": true,
     "2088659620814311813": true,
@@ -842,7 +841,8 @@
     "2092525021809807385": true,
     "2092585490285306150": true,
     "2092669757791056223": true,
-    "2092706381635731829": true
+    "2092706381635731829": true,
+    "2092887409553748176": true
   },
-  "updated": "2026-08-27T08:05:26.482Z"
+  "updated": "2026-08-27T08:20:26.515Z"
 }
