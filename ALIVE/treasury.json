@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-27T01:50:52.192Z",
+  "updated": "2026-08-27T02:50:51.923Z",
   "model": "Watch-only xpub on the server. Only funded addresses appear here — an address is never public before it receives DASH. Derived invoice addresses (branch 1) are transit; the operator sweeps to the cold reserve with the offline key. See ALIVE/TREASURY.md.",
   "reserve": {
     "address": "Xe5ZHYYTSo7UKEDyNGMwibnaNyKwiuiVZb",
