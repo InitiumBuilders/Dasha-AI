@@ -2,6 +2,19 @@
   "username": "DashSupportTeam",
   "items": [
     {
+      "id": "2093008396387598343",
+      "text": "Moonwell lost ~$8.7M this week via a manipulated smart contract. Dash executes no on-chain code; data contracts only validate documents, removing that vector. Trade-off: no native lending on Dash, but far less logic to exploit.\n\nEverything alive on Dash:",
+      "at": "2026-08-27T16:11:02.000Z",
+      "reply": false,
+      "count": 1,
+      "m": {
+        "l": 0,
+        "r": 0,
+        "c": 0
+      },
+      "url": "https://x.com/DashSupportTeam/status/2093008396387598343"
+    },
+    {
       "id": "2092887409553748176",
       "text": "Dash ballot — 22 days to the vote cutoff\n19 active · 7 passing · 5,240/6,828 DASH allotted\n\nClosest to the line:\n• Dash servers, channels, and chats… — 64 short\n• Critical vulnerabilities… — 74 short\n\nSee it for yourself:",
       "at": "2026-08-27T08:10:17.000Z",
@@ -767,23 +780,9 @@
         "c": 0
       },
       "url": "https://x.com/DashSupportTeam/status/2088623117589426428"
-    },
-    {
-      "id": "2088538827304423804",
-      "text": "Dash ballot — 3 days to the vote cutoff\n25 active · 8 passing · 5,900/6,828 DASH allotted\n\nClosest to the line:\n• Dash APAC+ September 2026 — 7 short\n• https://t.co/TdcBKiOVS8 Platform Explorer… — 8 short\n\nYour node, your call →",
-      "at": "2026-08-15T08:10:34.000Z",
-      "reply": false,
-      "count": 1,
-      "m": {
-        "l": 0,
-        "r": 0,
-        "c": 0
-      },
-      "url": "https://x.com/DashSupportTeam/status/2088538827304423804"
     }
   ],
   "mirrored": {
-    "2088538827304423804": true,
     "2088623117589426428": true,
     "2088659620814311813": true,
     "2088691272244412653": true,
@@ -842,7 +841,8 @@
     "2092585490285306150": true,
     "2092669757791056223": true,
     "2092706381635731829": true,
-    "2092887409553748176": true
+    "2092887409553748176": true,
+    "2093008396387598343": true
   },
-  "updated": "2026-08-27T16:05:26.428Z"
+  "updated": "2026-08-27T16:20:26.556Z"
 }
