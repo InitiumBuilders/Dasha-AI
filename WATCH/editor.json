@@ -22,7 +22,7 @@
     "foundry:2026-07-25": "2026-07-25T08:11:00.503Z",
     "distinct": "2026-08-24T16:11:33.626Z",
     "distinct:2026-07-25": "2026-07-25T12:10:59.178Z",
-    "translate": "2026-08-24T12:10:40.069Z",
+    "translate": "2026-08-27T16:11:02.739Z",
     "translate:2026-07-25": "2026-07-25T12:10:59.178Z",
     "ballot:2026-07-25": "2026-07-25T16:10:23.551Z",
     "weekly": "2026-08-23T08:10:17.082Z",
@@ -143,17 +143,13 @@
     "ballot:2026-08-26": "2026-08-26T08:10:17.236Z",
     "buildertip:2026-08-26": "2026-08-26T12:10:34.062Z",
     "builderidea:2026-08-26": "2026-08-26T20:10:57.077Z",
-    "ballot:2026-08-27": "2026-08-27T08:10:17.211Z"
+    "ballot:2026-08-27": "2026-08-27T08:10:17.211Z",
+    "translate:2026-08-27": "2026-08-27T16:11:02.739Z"
   },
   "day": "2026-08-27",
-  "spent": 1,
-  "lastKind": "ballot",
+  "spent": 2,
+  "lastKind": "translate",
   "log": [
-    {
-      "at": "2026-07-24T12:11:31.654Z",
-      "kind": "discussion",
-      "key": "discussion:2026-07-24"
-    },
     {
       "at": "2026-07-24T16:11:01.319Z",
       "kind": "ballot",
@@ -776,14 +772,20 @@
       "kind": "ballot",
       "key": "ballot:2026-08-27",
       "door": "clear-eyes"
+    },
+    {
+      "at": "2026-08-27T16:11:02.739Z",
+      "kind": "translate",
+      "key": "translate:2026-08-27",
+      "door": "dash-alive"
     }
   ],
   "doorLog": [
-    "arise",
     "thrive",
     "dash-alive",
     "full-heart",
     "thrive",
-    "clear-eyes"
+    "clear-eyes",
+    "dash-alive"
   ]
 }
