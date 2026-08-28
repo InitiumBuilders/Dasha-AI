@@ -2,11 +2,11 @@
   "seen": {
     "BTCBACKPORTSVIJAY_04": {
       "passing": false,
-      "net": 15
+      "net": 19
     },
     "c2pool-daemonless-finalize": {
       "passing": false,
-      "net": 57
+      "net": 61
     },
     "DASH-MULTILINGUAL-EXPANSION_Aug": {
       "passing": true,
@@ -114,5 +114,5 @@
   },
   "superblock": "2542248",
   "lastPassingCount": 7,
-  "updated": "2026-08-28T10:15:02.726Z"
+  "updated": "2026-08-28T10:45:02.737Z"
 }
