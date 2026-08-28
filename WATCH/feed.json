@@ -2,6 +2,19 @@
   "username": "DashSupportTeam",
   "items": [
     {
+      "id": "2093431215378297339",
+      "text": "Most chains wait out confirmations or trust validators; Dash ChainLocks have a masternode quorum sign the first-seen block, locking it in ~2s so 51% reorgs are infeasible. Trade-off: Dash relies on the quorum; others wait longer.\n\nClear eyes. Full heart.:",
+      "at": "2026-08-28T20:11:10.000Z",
+      "reply": false,
+      "count": 1,
+      "m": {
+        "l": 0,
+        "r": 0,
+        "c": 0
+      },
+      "url": "https://x.com/DashSupportTeam/status/2093431215378297339"
+    },
+    {
       "id": "2093370824451318056",
       "text": "Most discussed on the Dash ballot right now:\n\nCritical vulnerabilities disclosure and independant…\n46 comments.\n\nThe community is already weighing in. Read the thread and the tally:\nhttps://t.co/s22QYEMCkn\n\nThe numbers, in the open:",
       "at": "2026-08-28T16:11:12.000Z",
@@ -767,23 +780,9 @@
         "c": 0
       },
       "url": "https://x.com/DashSupportTeam/status/2088819653866856787"
-    },
-    {
-      "id": "2088720025829920786",
-      "text": "Most discussed on the Dash ballot right now:\n\nCritical vulnerabilities disclosure and independant…\n44 comments · passing.\n\nThe community is already weighing in. Read the thread and the tally:",
-      "at": "2026-08-15T20:10:35.000Z",
-      "reply": false,
-      "count": 1,
-      "m": {
-        "l": 0,
-        "r": 0,
-        "c": 0
-      },
-      "url": "https://x.com/DashSupportTeam/status/2088720025829920786"
     }
   ],
   "mirrored": {
-    "2088720025829920786": true,
     "2088819653866856787": true,
     "2088819654894420293": true,
     "2088901213731299421": true,
@@ -842,7 +841,8 @@
     "2093250058770669759": true,
     "2093250059668255182": true,
     "2093370823465693509": true,
-    "2093370824451318056": true
+    "2093370824451318056": true,
+    "2093431215378297339": true
   },
-  "updated": "2026-08-28T20:05:26.537Z"
+  "updated": "2026-08-28T20:20:26.550Z"
 }
