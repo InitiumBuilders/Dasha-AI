@@ -20,7 +20,7 @@
     "teaching": "2026-07-25T08:11:00.503Z",
     "teach:2026-07-25": "2026-07-25T08:11:00.503Z",
     "foundry:2026-07-25": "2026-07-25T08:11:00.503Z",
-    "distinct": "2026-08-24T16:11:33.626Z",
+    "distinct": "2026-08-28T20:11:10.633Z",
     "distinct:2026-07-25": "2026-07-25T12:10:59.178Z",
     "translate": "2026-08-27T16:11:02.739Z",
     "translate:2026-07-25": "2026-07-25T12:10:59.178Z",
@@ -148,17 +148,13 @@
     "ballot:2026-08-28": "2026-08-28T08:11:19.768Z",
     "nextmove:2026-08-28": "2026-08-28T08:11:19.768Z",
     "buildertip:2026-08-28": "2026-08-28T16:11:12.328Z",
-    "discussion:2026-08-28": "2026-08-28T16:11:12.328Z"
+    "discussion:2026-08-28": "2026-08-28T16:11:12.328Z",
+    "distinct:2026-08-28": "2026-08-28T20:11:10.633Z"
   },
   "day": "2026-08-28",
-  "spent": 4,
-  "lastKind": "discussion",
+  "spent": 5,
+  "lastKind": "distinct",
   "log": [
-    {
-      "at": "2026-07-25T08:11:00.503Z",
-      "kind": "foundry",
-      "key": "foundry:2026-07-25"
-    },
     {
       "at": "2026-07-25T12:10:59.178Z",
       "kind": "distinct",
@@ -786,14 +782,20 @@
       "kind": "discussion",
       "key": "discussion:2026-08-28",
       "door": "clear-eyes"
+    },
+    {
+      "at": "2026-08-28T20:11:10.633Z",
+      "kind": "distinct",
+      "key": "distinct:2026-08-28",
+      "door": "clear-eyes-full-heart"
     }
   ],
   "doorLog": [
-    "clear-eyes",
     "dash-alive",
     "dash-alive",
     "arise",
     "full-heart",
-    "clear-eyes"
+    "clear-eyes",
+    "clear-eyes-full-heart"
   ]
 }
