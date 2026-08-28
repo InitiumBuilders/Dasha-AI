@@ -2,6 +2,32 @@
   "username": "DashSupportTeam",
   "items": [
     {
+      "id": "2093370824451318056",
+      "text": "Most discussed on the Dash ballot right now:\n\nCritical vulnerabilities disclosure and independant…\n46 comments.\n\nThe community is already weighing in. Read the thread and the tally:\nhttps://t.co/s22QYEMCkn\n\nThe numbers, in the open:",
+      "at": "2026-08-28T16:11:12.000Z",
+      "reply": false,
+      "count": 1,
+      "m": {
+        "l": 0,
+        "r": 0,
+        "c": 0
+      },
+      "url": "https://x.com/DashSupportTeam/status/2093370824451318056"
+    },
+    {
+      "id": "2093370823465693509",
+      "text": "Dash builders: expose the signing identity's credit balance before every state transition. Insufficient credits is the usual failure; one pre-sign balance check beats any post-error toast.\n\nAsk me anything:",
+      "at": "2026-08-28T16:11:11.000Z",
+      "reply": false,
+      "count": 1,
+      "m": {
+        "l": 0,
+        "r": 0,
+        "c": 0
+      },
+      "url": "https://x.com/DashSupportTeam/status/2093370823465693509"
+    },
+    {
       "id": "2093250059668255182",
       "text": "c2pool, Dash Europe and Core maintenance are 84–299 votes short. The lever isn't money, it's the tally reaching people who can act. Move: vote if you run a node, else nudge one owner to check DashCentral before cutoff.\n\nBring it to life:",
       "at": "2026-08-28T08:11:19.000Z",
@@ -754,37 +780,9 @@
         "c": 0
       },
       "url": "https://x.com/DashSupportTeam/status/2088720025829920786"
-    },
-    {
-      "id": "2088691273125224763",
-      "text": "https://t.co/TdcBKiOVS8 Dash Desktop September 2026 just crossed the funding line.\n\nNow passing at 323 net yes.\nVotes can still change — 3 days to the vote cutoff.",
-      "at": "2026-08-15T18:16:20.000Z",
-      "reply": false,
-      "count": 1,
-      "m": {
-        "l": 0,
-        "r": 0,
-        "c": 0
-      },
-      "url": "https://x.com/DashSupportTeam/status/2088691273125224763"
-    },
-    {
-      "id": "2088691272244412653",
-      "text": "https://t.co/TdcBKiOVS8 Dashscan September 2026 just crossed the funding line.\n\nNow passing at 317 net yes.\nVotes can still change — 3 days to the vote cutoff.",
-      "at": "2026-08-15T18:16:19.000Z",
-      "reply": false,
-      "count": 1,
-      "m": {
-        "l": 0,
-        "r": 0,
-        "c": 0
-      },
-      "url": "https://x.com/DashSupportTeam/status/2088691272244412653"
     }
   ],
   "mirrored": {
-    "2088691272244412653": true,
-    "2088691273125224763": true,
     "2088720025829920786": true,
     "2088819653866856787": true,
     "2088819654894420293": true,
@@ -842,7 +840,9 @@
     "2092887409553748176": true,
     "2093008396387598343": true,
     "2093250058770669759": true,
-    "2093250059668255182": true
+    "2093250059668255182": true,
+    "2093370823465693509": true,
+    "2093370824451318056": true
   },
-  "updated": "2026-08-28T16:05:26.480Z"
+  "updated": "2026-08-28T16:20:26.561Z"
 }
