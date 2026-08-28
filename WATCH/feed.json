@@ -2,6 +2,32 @@
   "username": "DashSupportTeam",
   "items": [
     {
+      "id": "2093250059668255182",
+      "text": "c2pool, Dash Europe and Core maintenance are 84–299 votes short. The lever isn't money, it's the tally reaching people who can act. Move: vote if you run a node, else nudge one owner to check DashCentral before cutoff.\n\nBring it to life:",
+      "at": "2026-08-28T08:11:19.000Z",
+      "reply": false,
+      "count": 1,
+      "m": {
+        "l": 0,
+        "r": 0,
+        "c": 0
+      },
+      "url": "https://x.com/DashSupportTeam/status/2093250059668255182"
+    },
+    {
+      "id": "2093250058770669759",
+      "text": "Dash ballot — 21 days to the vote cutoff\n19 active · 7 passing · 5,240/6,828 DASH allotted\n\nClosest to the line:\n• Dash servers, channels, and chats… — 69 short\n• Critical vulnerabilities… — 74 short\n\nEverything alive on Dash:",
+      "at": "2026-08-28T08:11:19.000Z",
+      "reply": false,
+      "count": 1,
+      "m": {
+        "l": 0,
+        "r": 0,
+        "c": 0
+      },
+      "url": "https://x.com/DashSupportTeam/status/2093250058770669759"
+    },
+    {
       "id": "2093008396387598343",
       "text": "Moonwell lost ~$8.7M this week via a manipulated smart contract. Dash executes no on-chain code; data contracts only validate documents, removing that vector. Trade-off: no native lending on Dash, but far less logic to exploit.\n\nEverything alive on Dash:",
       "at": "2026-08-27T16:11:02.000Z",
@@ -754,37 +780,9 @@
         "c": 0
       },
       "url": "https://x.com/DashSupportTeam/status/2088691272244412653"
-    },
-    {
-      "id": "2088659620814311813",
-      "text": "https://t.co/TdcBKiOVS8 Platform Explorer September 2026 just crossed the funding line.\n\nNow passing at 316 net yes.\nVotes can still change — 3 days to the vote cutoff.",
-      "at": "2026-08-15T16:10:33.000Z",
-      "reply": false,
-      "count": 1,
-      "m": {
-        "l": 0,
-        "r": 0,
-        "c": 0
-      },
-      "url": "https://x.com/DashSupportTeam/status/2088659620814311813"
-    },
-    {
-      "id": "2088623117589426428",
-      "text": "Dash APAC+ September 2026 just crossed the funding line.\n\nNow passing at 315 net yes.\nVotes can still change — 3 days to the vote cutoff.",
-      "at": "2026-08-15T13:45:30.000Z",
-      "reply": false,
-      "count": 1,
-      "m": {
-        "l": 0,
-        "r": 0,
-        "c": 0
-      },
-      "url": "https://x.com/DashSupportTeam/status/2088623117589426428"
     }
   ],
   "mirrored": {
-    "2088623117589426428": true,
-    "2088659620814311813": true,
     "2088691272244412653": true,
     "2088691273125224763": true,
     "2088720025829920786": true,
@@ -842,7 +840,9 @@
     "2092669757791056223": true,
     "2092706381635731829": true,
     "2092887409553748176": true,
-    "2093008396387598343": true
+    "2093008396387598343": true,
+    "2093250058770669759": true,
+    "2093250059668255182": true
   },
-  "updated": "2026-08-28T08:05:26.474Z"
+  "updated": "2026-08-28T08:20:26.510Z"
 }
