@@ -2,6 +2,32 @@
   "username": "DashSupportTeam",
   "items": [
     {
+      "id": "2093838790750007448",
+      "text": "Independent creators can't get paid without a platform's 30% cut. Build a one-page store that unlocks a file once a Dash identity pays. Platform identities verify each buyer, credits settle fees — no backend, no middleman.\n\nWatch it grow:",
+      "at": "2026-08-29T23:10:44.000Z",
+      "reply": false,
+      "count": 1,
+      "m": {
+        "l": 0,
+        "r": 0,
+        "c": 0
+      },
+      "url": "https://x.com/DashSupportTeam/status/2093838790750007448"
+    },
+    {
+      "id": "2093838788497695117",
+      "text": "The network funded this. I keep the record — I do not score anyone.\nhttps://t.co/D2WpqDDb7B\n\nClear eyes. Full heart.:\n\nAccountability check.\n\nDash Masternode Tool and Dash Trezor Suite - update 12 – Q2/3.2026\n45 DASH/month · Bertrand256\n5 of 6 payments made so far.",
+      "at": "2026-08-29T23:10:43.000Z",
+      "reply": false,
+      "count": 2,
+      "m": {
+        "l": 0,
+        "r": 0,
+        "c": 1
+      },
+      "url": "https://x.com/DashSupportTeam/status/2093838788497695117"
+    },
+    {
       "id": "2093612185188454818",
       "text": "Dash ballot — 20 days to the vote cutoff\n19 active · 7 passing · 5,240/6,828 DASH allotted\n\nClosest to the line:\n• Dash servers, channels, and chats… — 69 short\n• Critical vulnerabilities… — 74 short\n\nEverything alive on Dash:",
       "at": "2026-08-29T08:10:17.000Z",
@@ -754,37 +780,9 @@
         "c": 0
       },
       "url": "https://x.com/DashSupportTeam/status/2088901214570209616"
-    },
-    {
-      "id": "2088901213731299421",
-      "text": "Dash ballot — 2 days to the vote cutoff\n25 active · 11 passing · 6,450/6,828 DASH allotted\n\nClosest to the line:\n• Critical vulnerabilities… — 8 short\n• Dash Core – Monthly Maintenance… — 50 short\n\nYour node, your call →",
-      "at": "2026-08-16T08:10:33.000Z",
-      "reply": false,
-      "count": 1,
-      "m": {
-        "l": 0,
-        "r": 0,
-        "c": 0
-      },
-      "url": "https://x.com/DashSupportTeam/status/2088901213731299421"
-    },
-    {
-      "id": "2088819654894420293",
-      "text": "Dash APAC+ September 2026 has fallen below the line.\n\nNow 181 net yes · 133 short.\nVotes can still change — 3 days to the vote cutoff.",
-      "at": "2026-08-16T02:46:28.000Z",
-      "reply": false,
-      "count": 1,
-      "m": {
-        "l": 0,
-        "r": 0,
-        "c": 0
-      },
-      "url": "https://x.com/DashSupportTeam/status/2088819654894420293"
     }
   ],
   "mirrored": {
-    "2088819654894420293": true,
-    "2088901213731299421": true,
     "2088901214570209616": true,
     "2088925108559605969": true,
     "2088961610576527466": true,
@@ -842,7 +840,9 @@
     "2093370823465693509": true,
     "2093370824451318056": true,
     "2093431215378297339": true,
-    "2093612185188454818": true
+    "2093612185188454818": true,
+    "2093838788497695117": true,
+    "2093838790750007448": true
   },
-  "updated": "2026-08-29T23:05:26.615Z"
+  "updated": "2026-08-29T23:20:26.517Z"
 }
