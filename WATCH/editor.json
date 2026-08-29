@@ -11,7 +11,7 @@
     "evolve:v2.6.1": "2026-07-24T08:11:08.515Z",
     "discussion": "2026-08-28T16:11:12.328Z",
     "discussion:2026-07-24": "2026-07-24T12:11:31.654Z",
-    "ballot": "2026-08-28T08:11:19.768Z",
+    "ballot": "2026-08-29T08:10:17.205Z",
     "ballot:2026-07-24": "2026-07-24T16:11:01.319Z",
     "network": "2026-08-24T16:11:33.626Z",
     "network:2026-07-24": "2026-07-24T16:11:01.319Z",
@@ -149,17 +149,13 @@
     "nextmove:2026-08-28": "2026-08-28T08:11:19.768Z",
     "buildertip:2026-08-28": "2026-08-28T16:11:12.328Z",
     "discussion:2026-08-28": "2026-08-28T16:11:12.328Z",
-    "distinct:2026-08-28": "2026-08-28T20:11:10.633Z"
+    "distinct:2026-08-28": "2026-08-28T20:11:10.633Z",
+    "ballot:2026-08-29": "2026-08-29T08:10:17.205Z"
   },
-  "day": "2026-08-28",
-  "spent": 5,
-  "lastKind": "distinct",
+  "day": "2026-08-29",
+  "spent": 1,
+  "lastKind": "ballot",
   "log": [
-    {
-      "at": "2026-07-25T12:10:59.178Z",
-      "kind": "distinct",
-      "key": "distinct:2026-07-25"
-    },
     {
       "at": "2026-07-25T12:10:59.178Z",
       "kind": "translate",
@@ -788,14 +784,20 @@
       "kind": "distinct",
       "key": "distinct:2026-08-28",
       "door": "clear-eyes-full-heart"
+    },
+    {
+      "at": "2026-08-29T08:10:17.205Z",
+      "kind": "ballot",
+      "key": "ballot:2026-08-29",
+      "door": "dash-alive"
     }
   ],
   "doorLog": [
     "dash-alive",
-    "dash-alive",
     "arise",
     "full-heart",
     "clear-eyes",
-    "clear-eyes-full-heart"
+    "clear-eyes-full-heart",
+    "dash-alive"
   ]
 }
