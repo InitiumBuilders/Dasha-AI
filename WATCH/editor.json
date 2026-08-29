@@ -1,6 +1,6 @@
 {
   "last": {
-    "accountability": "2026-08-23T20:11:48.738Z",
+    "accountability": "2026-08-29T23:10:44.163Z",
     "acct:2026-07-23": "2026-07-23T16:49:09.704Z",
     "foundry": "2026-08-04T08:10:44.862Z",
     "foundry:2026-07-23": "2026-07-23T17:10:06.161Z",
@@ -71,7 +71,7 @@
     "buildertip": "2026-08-28T16:11:12.328Z",
     "buildertip:2026-08-04": "2026-08-04T16:11:22.240Z",
     "acct:2026-08-05": "2026-08-05T08:11:25.002Z",
-    "builderidea": "2026-08-26T20:10:57.077Z",
+    "builderidea": "2026-08-29T23:10:44.163Z",
     "builderidea:2026-08-05": "2026-08-05T08:11:25.002Z",
     "ballot:2026-08-05": "2026-08-05T12:10:33.090Z",
     "network:2026-08-05": "2026-08-05T20:10:33.276Z",
@@ -150,22 +150,14 @@
     "buildertip:2026-08-28": "2026-08-28T16:11:12.328Z",
     "discussion:2026-08-28": "2026-08-28T16:11:12.328Z",
     "distinct:2026-08-28": "2026-08-28T20:11:10.633Z",
-    "ballot:2026-08-29": "2026-08-29T08:10:17.205Z"
+    "ballot:2026-08-29": "2026-08-29T08:10:17.205Z",
+    "acct:2026-08-29": "2026-08-29T23:10:44.163Z",
+    "builderidea:2026-08-29": "2026-08-29T23:10:44.163Z"
   },
   "day": "2026-08-29",
-  "spent": 1,
-  "lastKind": "ballot",
+  "spent": 3,
+  "lastKind": "builderidea",
   "log": [
-    {
-      "at": "2026-07-25T12:10:59.178Z",
-      "kind": "translate",
-      "key": "translate:2026-07-25"
-    },
-    {
-      "at": "2026-07-25T16:10:23.551Z",
-      "kind": "ballot",
-      "key": "ballot:2026-07-25"
-    },
     {
       "at": "2026-07-26T08:10:23.963Z",
       "kind": "weekly",
@@ -790,14 +782,26 @@
       "kind": "ballot",
       "key": "ballot:2026-08-29",
       "door": "dash-alive"
+    },
+    {
+      "at": "2026-08-29T23:10:44.163Z",
+      "kind": "accountability",
+      "key": "acct:2026-08-29",
+      "door": "clear-eyes-full-heart"
+    },
+    {
+      "at": "2026-08-29T23:10:44.163Z",
+      "kind": "builderidea",
+      "key": "builderidea:2026-08-29",
+      "door": "thrive"
     }
   ],
   "doorLog": [
-    "dash-alive",
-    "arise",
     "full-heart",
     "clear-eyes",
     "clear-eyes-full-heart",
-    "dash-alive"
+    "dash-alive",
+    "clear-eyes-full-heart",
+    "thrive"
   ]
 }
