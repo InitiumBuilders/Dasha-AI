@@ -2,6 +2,19 @@
   "username": "DashSupportTeam",
   "items": [
     {
+      "id": "2094035076858146983",
+      "text": "Lever: put the exact gaps where voters see them. Two code proposals are short — Dash Core maintenance 268, c2pool's node 226. Masternode owners: check your ballot, close both first.\n\nBegin here:",
+      "at": "2026-08-30T12:10:42.000Z",
+      "reply": false,
+      "count": 1,
+      "m": {
+        "l": 0,
+        "r": 0,
+        "c": 0
+      },
+      "url": "https://x.com/DashSupportTeam/status/2094035076858146983"
+    },
+    {
       "id": "2093974573553250317",
       "text": "Dash ballot — 19 days to the vote cutoff\n19 active · 7 passing · 5,240/6,828 DASH allotted\n\nClosest to the line:\n• Dash servers, channels, and chats… — 70 short\n• Critical vulnerabilities… — 75 short\n\nThe living database:",
       "at": "2026-08-30T08:10:17.000Z",
@@ -767,23 +780,9 @@
         "c": 0
       },
       "url": "https://x.com/DashSupportTeam/status/2088970404853321816"
-    },
-    {
-      "id": "2088961610576527466",
-      "text": "EUROPEAN BLOCKCHAIN CONVENTION 2026 just crossed the funding line.\n\nNow passing at 323 net yes.\nVotes can still change — 2 days to the vote cutoff.",
-      "at": "2026-08-16T12:10:33.000Z",
-      "reply": false,
-      "count": 1,
-      "m": {
-        "l": 0,
-        "r": 0,
-        "c": 0
-      },
-      "url": "https://x.com/DashSupportTeam/status/2088961610576527466"
     }
   ],
   "mirrored": {
-    "2088961610576527466": true,
     "2088970404853321816": true,
     "2089263601366303028": true,
     "2089263602356146267": true,
@@ -842,7 +841,8 @@
     "2093838788497695117": true,
     "2093838790750007448": true,
     "2093974572630430165": true,
-    "2093974573553250317": true
+    "2093974573553250317": true,
+    "2094035076858146983": true
   },
-  "updated": "2026-08-30T12:05:26.480Z"
+  "updated": "2026-08-30T12:20:26.486Z"
 }
