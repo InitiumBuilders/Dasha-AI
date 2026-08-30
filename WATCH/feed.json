@@ -2,6 +2,32 @@
   "username": "DashSupportTeam",
   "items": [
     {
+      "id": "2094156142511357999",
+      "text": "Dash network, right now:\n\n• block 2,530,649\n• 12,383 transactions in 24h\n• 9 in the mempool\n\nInstantSend settles in about a second, fees under a cent. Throughput, never price.\n\nThe living database:",
+      "at": "2026-08-30T20:11:46.000Z",
+      "reply": false,
+      "count": 1,
+      "m": {
+        "l": 0,
+        "r": 0,
+        "c": 0
+      },
+      "url": "https://x.com/DashSupportTeam/status/2094156142511357999"
+    },
+    {
+      "id": "2094156140535767274",
+      "text": "Fetch balance at session start, render it beside every write.\n\nAsk me anything:\n\nExpose identity credit balance in your UI from day one, not after failed state transitions. Credits are the stock that silently drains; a user who sees the number tops up before the error.",
+      "at": "2026-08-30T20:11:46.000Z",
+      "reply": false,
+      "count": 2,
+      "m": {
+        "l": 0,
+        "r": 0,
+        "c": 1
+      },
+      "url": "https://x.com/DashSupportTeam/status/2094156140535767274"
+    },
+    {
       "id": "2094035076858146983",
       "text": "Lever: put the exact gaps where voters see them. Two code proposals are short — Dash Core maintenance 268, c2pool's node 226. Masternode owners: check your ballot, close both first.\n\nBegin here:",
       "at": "2026-08-30T12:10:42.000Z",
@@ -754,37 +780,9 @@
         "c": 0
       },
       "url": "https://x.com/DashSupportTeam/status/2089263602356146267"
-    },
-    {
-      "id": "2089263601366303028",
-      "text": "Dash ballot — 1 days to the vote cutoff\n26 active · 14 passing · 6,817/6,828 DASH allotted\n\nClosest to the line:\n• Dash Core – Monthly Maintenance… — 23 short\n• Dash Europe Aug-Sep 2026 — 111 short\n\nYour node, your call →",
-      "at": "2026-08-17T08:10:33.000Z",
-      "reply": false,
-      "count": 1,
-      "m": {
-        "l": 0,
-        "r": 0,
-        "c": 0
-      },
-      "url": "https://x.com/DashSupportTeam/status/2089263601366303028"
-    },
-    {
-      "id": "2088970404853321816",
-      "text": "EUROPEAN BLOCKCHAIN CONVENTION 2026 has fallen below the line.\n\nNow 315 net yes · 0 short.\nVotes can still change — 2 days to the vote cutoff.",
-      "at": "2026-08-16T12:45:30.000Z",
-      "reply": false,
-      "count": 1,
-      "m": {
-        "l": 0,
-        "r": 0,
-        "c": 0
-      },
-      "url": "https://x.com/DashSupportTeam/status/2088970404853321816"
     }
   ],
   "mirrored": {
-    "2088970404853321816": true,
-    "2089263601366303028": true,
     "2089263602356146267": true,
     "2089295044624720071": true,
     "2089370545074716773": true,
@@ -842,7 +840,9 @@
     "2093838790750007448": true,
     "2093974572630430165": true,
     "2093974573553250317": true,
-    "2094035076858146983": true
+    "2094035076858146983": true,
+    "2094156140535767274": true,
+    "2094156142511357999": true
   },
-  "updated": "2026-08-30T20:05:26.441Z"
+  "updated": "2026-08-30T20:20:26.456Z"
 }
