@@ -2,6 +2,32 @@
   "username": "DashSupportTeam",
   "items": [
     {
+      "id": "2093974573553250317",
+      "text": "Dash ballot — 19 days to the vote cutoff\n19 active · 7 passing · 5,240/6,828 DASH allotted\n\nClosest to the line:\n• Dash servers, channels, and chats… — 70 short\n• Critical vulnerabilities… — 75 short\n\nThe living database:",
+      "at": "2026-08-30T08:10:17.000Z",
+      "reply": false,
+      "count": 1,
+      "m": {
+        "l": 0,
+        "r": 0,
+        "c": 0
+      },
+      "url": "https://x.com/DashSupportTeam/status/2093974573553250317"
+    },
+    {
+      "id": "2093974572630430165",
+      "text": "This week in Dash:\n\n• 19 proposals active, 7 passing\n• 19 days to the superblock\n• 4 on the funding bubble\n\nSee it for yourself:",
+      "at": "2026-08-30T08:10:16.000Z",
+      "reply": false,
+      "count": 1,
+      "m": {
+        "l": 0,
+        "r": 0,
+        "c": 0
+      },
+      "url": "https://x.com/DashSupportTeam/status/2093974572630430165"
+    },
+    {
       "id": "2093838790750007448",
       "text": "Independent creators can't get paid without a platform's 30% cut. Build a one-page store that unlocks a file once a Dash identity pays. Platform identities verify each buyer, credits settle fees — no backend, no middleman.\n\nWatch it grow:",
       "at": "2026-08-29T23:10:44.000Z",
@@ -754,37 +780,9 @@
         "c": 0
       },
       "url": "https://x.com/DashSupportTeam/status/2088961610576527466"
-    },
-    {
-      "id": "2088925108559605969",
-      "text": "Business development and Events August 2026 (Artemiy_nur) just crossed the funding line.\n\nNow passing at 338 net yes.\nVotes can still change — 2 days to the vote cutoff.",
-      "at": "2026-08-16T09:45:30.000Z",
-      "reply": false,
-      "count": 1,
-      "m": {
-        "l": 1,
-        "r": 0,
-        "c": 1
-      },
-      "url": "https://x.com/DashSupportTeam/status/2088925108559605969"
-    },
-    {
-      "id": "2088901214570209616",
-      "text": "This week in Dash:\n\n• 25 proposals active, 11 passing\n• 2 days to the superblock\n• 6 on the funding bubble\n\nThe full ballot, and answers, any time:",
-      "at": "2026-08-16T08:10:34.000Z",
-      "reply": false,
-      "count": 1,
-      "m": {
-        "l": 0,
-        "r": 0,
-        "c": 0
-      },
-      "url": "https://x.com/DashSupportTeam/status/2088901214570209616"
     }
   ],
   "mirrored": {
-    "2088901214570209616": true,
-    "2088925108559605969": true,
     "2088961610576527466": true,
     "2088970404853321816": true,
     "2089263601366303028": true,
@@ -842,7 +840,9 @@
     "2093431215378297339": true,
     "2093612185188454818": true,
     "2093838788497695117": true,
-    "2093838790750007448": true
+    "2093838790750007448": true,
+    "2093974572630430165": true,
+    "2093974573553250317": true
   },
-  "updated": "2026-08-30T08:05:26.472Z"
+  "updated": "2026-08-30T08:20:26.437Z"
 }
