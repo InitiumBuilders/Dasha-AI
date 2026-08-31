@@ -9,7 +9,7 @@
     "treasury": "2026-08-21T20:11:43.814Z",
     "treasury:2525632": "2026-07-23T20:12:06.826Z",
     "evolve:v2.6.1": "2026-07-24T08:11:08.515Z",
-    "discussion": "2026-08-28T16:11:12.328Z",
+    "discussion": "2026-08-31T20:10:17.310Z",
     "discussion:2026-07-24": "2026-07-24T12:11:31.654Z",
     "ballot": "2026-08-31T08:10:35.555Z",
     "ballot:2026-07-24": "2026-07-24T16:11:01.319Z",
@@ -159,17 +159,13 @@
     "buildertip:2026-08-30": "2026-08-30T20:11:46.739Z",
     "network:2026-08-30": "2026-08-30T20:11:46.739Z",
     "ballot:2026-08-31": "2026-08-31T08:10:35.555Z",
-    "translate:2026-08-31": "2026-08-31T08:10:35.555Z"
+    "translate:2026-08-31": "2026-08-31T08:10:35.555Z",
+    "discussion:2026-08-31": "2026-08-31T20:10:17.310Z"
   },
   "day": "2026-08-31",
-  "spent": 2,
-  "lastKind": "translate",
+  "spent": 3,
+  "lastKind": "discussion",
   "log": [
-    {
-      "at": "2026-07-28T08:10:24.223Z",
-      "kind": "foundry",
-      "key": "foundry:2026-07-28"
-    },
     {
       "at": "2026-07-28T16:10:53.558Z",
       "kind": "ballot",
@@ -808,14 +804,20 @@
       "kind": "translate",
       "key": "translate:2026-08-31",
       "door": "dash-alive"
+    },
+    {
+      "at": "2026-08-31T20:10:17.310Z",
+      "kind": "discussion",
+      "key": "discussion:2026-08-31",
+      "door": "clear-eyes"
     }
   ],
   "doorLog": [
-    "dash-alive",
     "arise",
     "full-heart",
     "dash-alive",
     "dash-alive",
-    "dash-alive"
+    "dash-alive",
+    "clear-eyes"
   ]
 }
