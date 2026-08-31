@@ -2,7 +2,7 @@
   "seen": {
     "BTCBACKPORTSVIJAY_04": {
       "passing": false,
-      "net": 56
+      "net": 80
     },
     "c2pool-daemonless-finalize": {
       "passing": false,
@@ -114,5 +114,5 @@
   },
   "superblock": "2542248",
   "lastPassingCount": 7,
-  "updated": "2026-08-31T11:45:02.720Z"
+  "updated": "2026-08-31T12:15:03.272Z"
 }
