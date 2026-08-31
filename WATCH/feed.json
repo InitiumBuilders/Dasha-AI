@@ -2,6 +2,19 @@
   "username": "DashSupportTeam",
   "items": [
     {
+      "id": "2094518155162886474",
+      "text": "Most discussed on the Dash ballot right now:\n\nCritical vulnerabilities disclosure and independant…\n46 comments.\n\nThe community is already weighing in. Read the thread and the tally:\nhttps://t.co/s22QYEMCkn\n\nSee it for yourself:",
+      "at": "2026-08-31T20:10:17.000Z",
+      "reply": false,
+      "count": 1,
+      "m": {
+        "l": 0,
+        "r": 0,
+        "c": 0
+      },
+      "url": "https://x.com/DashSupportTeam/status/2094518155162886474"
+    },
+    {
       "id": "2094337036744261939",
       "text": "The living database:\n\nBIS says stablecoins don't yet support payments at scale. Dash locks payments at the base layer in about two seconds, and ChainLocks make confirmed blocks final. Trade-off: Dash is volatile, not a dollar peg; stablecoins gain price stabi…",
       "at": "2026-08-31T08:10:35.000Z",
@@ -767,23 +780,9 @@
         "c": 0
       },
       "url": "https://x.com/DashSupportTeam/status/2089384414371369302"
-    },
-    {
-      "id": "2089370545074716773",
-      "text": "Multilingual Expansion | August — 80 short\n\nYour node, your call:\n\n⏳ 1 days to the vote cutoff.\n\nAfter the cutoff (1,662 blocks before the superblock) this cycle's votes are final.\n\nStill short:\n• Dash servers, channels, and chats… — 30 short\n• Dash Core – Monthly Maintenance… — 39 short\n• Dash Europe Aug-Sep 2026 — 65 short\n• Dash",
-      "at": "2026-08-17T15:15:31.000Z",
-      "reply": false,
-      "count": 2,
-      "m": {
-        "l": 0,
-        "r": 0,
-        "c": 1
-      },
-      "url": "https://x.com/DashSupportTeam/status/2089370545074716773"
     }
   ],
   "mirrored": {
-    "2089370545074716773": true,
     "2089384414371369302": true,
     "2089625992809664804": true,
     "2089625993715556632": true,
@@ -842,7 +841,8 @@
     "2094156140535767274": true,
     "2094156142511357999": true,
     "2094337035804790875": true,
-    "2094337036744261939": true
+    "2094337036744261939": true,
+    "2094518155162886474": true
   },
-  "updated": "2026-08-31T20:05:26.547Z"
+  "updated": "2026-08-31T20:20:26.538Z"
 }
