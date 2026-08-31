@@ -2,6 +2,32 @@
   "username": "DashSupportTeam",
   "items": [
     {
+      "id": "2094337036744261939",
+      "text": "The living database:\n\nBIS says stablecoins don't yet support payments at scale. Dash locks payments at the base layer in about two seconds, and ChainLocks make confirmed blocks final. Trade-off: Dash is volatile, not a dollar peg; stablecoins gain price stabi…",
+      "at": "2026-08-31T08:10:35.000Z",
+      "reply": false,
+      "count": 2,
+      "m": {
+        "l": 0,
+        "r": 0,
+        "c": 1
+      },
+      "url": "https://x.com/DashSupportTeam/status/2094337036744261939"
+    },
+    {
+      "id": "2094337035804790875",
+      "text": "Dash ballot — 18 days to the vote cutoff\n19 active · 7 passing · 5,240/6,828 DASH allotted\n\nClosest to the line:\n• Dash servers, channels, and chats… — 70 short\n• Critical vulnerabilities… — 75 short\n\nEverything alive on Dash:",
+      "at": "2026-08-31T08:10:34.000Z",
+      "reply": false,
+      "count": 1,
+      "m": {
+        "l": 0,
+        "r": 0,
+        "c": 0
+      },
+      "url": "https://x.com/DashSupportTeam/status/2094337035804790875"
+    },
+    {
       "id": "2094156142511357999",
       "text": "Dash network, right now:\n\n• block 2,530,649\n• 12,383 transactions in 24h\n• 9 in the mempool\n\nInstantSend settles in about a second, fees under a cent. Throughput, never price.\n\nThe living database:",
       "at": "2026-08-30T20:11:46.000Z",
@@ -754,37 +780,9 @@
         "c": 1
       },
       "url": "https://x.com/DashSupportTeam/status/2089370545074716773"
-    },
-    {
-      "id": "2089295044624720071",
-      "text": "Dash APAC+ September 2026 REDUCED just crossed the funding line.\n\nNow passing at 316 net yes.\nVotes can still change — 1 days to the vote cutoff.",
-      "at": "2026-08-17T10:15:30.000Z",
-      "reply": false,
-      "count": 1,
-      "m": {
-        "l": 0,
-        "r": 0,
-        "c": 0
-      },
-      "url": "https://x.com/DashSupportTeam/status/2089295044624720071"
-    },
-    {
-      "id": "2089263602356146267",
-      "text": "New on the Dash ballot: Dash APAC+ September 2026 REDUCED\n\n200 DASH/mo · 1/1 payments left · by ravenor\n\nNow 0 net yes · needs 314 more\n\nIts claim, not my endorsement — read it and decide:",
-      "at": "2026-08-17T08:10:34.000Z",
-      "reply": false,
-      "count": 1,
-      "m": {
-        "l": 0,
-        "r": 0,
-        "c": 0
-      },
-      "url": "https://x.com/DashSupportTeam/status/2089263602356146267"
     }
   ],
   "mirrored": {
-    "2089263602356146267": true,
-    "2089295044624720071": true,
     "2089370545074716773": true,
     "2089384414371369302": true,
     "2089625992809664804": true,
@@ -842,7 +840,9 @@
     "2093974573553250317": true,
     "2094035076858146983": true,
     "2094156140535767274": true,
-    "2094156142511357999": true
+    "2094156142511357999": true,
+    "2094337035804790875": true,
+    "2094337036744261939": true
   },
-  "updated": "2026-08-31T08:05:26.490Z"
+  "updated": "2026-08-31T08:20:26.506Z"
 }
