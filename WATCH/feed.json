@@ -2,6 +2,19 @@
   "username": "DashSupportTeam",
   "items": [
     {
+      "id": "2094760274305720522",
+      "text": "The lever is information: three proposals are short—230, 212, 85 votes. Put those exact deficits in front of masternode owners and ask them to vote before cutoff in 16 days.\n\nWhere builders thrive:",
+      "at": "2026-09-01T12:12:22.000Z",
+      "reply": false,
+      "count": 1,
+      "m": {
+        "l": 0,
+        "r": 0,
+        "c": 0
+      },
+      "url": "https://x.com/DashSupportTeam/status/2094760274305720522"
+    },
+    {
       "id": "2094699349653520451",
       "text": "Dash ballot — 17 days to the vote cutoff\n19 active · 7 passing · 5,240/6,828 DASH allotted\n\nClosest to the line:\n• Dash servers, channels, and chats… — 70 short\n• Critical vulnerabilities… — 75 short\n\nEverything alive on Dash:",
       "at": "2026-09-01T08:10:17.000Z",
@@ -767,23 +780,9 @@
         "c": 0
       },
       "url": "https://x.com/DashSupportTeam/status/2089625993715556632"
-    },
-    {
-      "id": "2089625992809664804",
-      "text": "Dash ballot — 7 hours to the vote cutoff\n26 active · 14 passing · 6,817/6,828 DASH allotted\n\nClosest to the line:\n• Dash Core – Monthly Maintenance… — 62 short\n• Dash Multilingual Expansion |… — 65 short\n\nYour node, your call →",
-      "at": "2026-08-18T08:10:34.000Z",
-      "reply": false,
-      "count": 1,
-      "m": {
-        "l": 0,
-        "r": 0,
-        "c": 0
-      },
-      "url": "https://x.com/DashSupportTeam/status/2089625992809664804"
     }
   ],
   "mirrored": {
-    "2089625992809664804": true,
     "2089625993715556632": true,
     "2089686388769738778": true,
     "2089740481072644232": true,
@@ -842,7 +841,8 @@
     "2094337035804790875": true,
     "2094337036744261939": true,
     "2094518155162886474": true,
-    "2094699349653520451": true
+    "2094699349653520451": true,
+    "2094760274305720522": true
   },
-  "updated": "2026-09-01T12:05:26.593Z"
+  "updated": "2026-09-01T12:20:26.605Z"
 }
