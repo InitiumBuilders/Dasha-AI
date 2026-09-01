@@ -66,7 +66,7 @@
     "foundry:2026-08-04": "2026-08-04T08:10:44.862Z",
     "translate:2026-08-04": "2026-08-04T08:10:44.862Z",
     "ballot:2026-08-04": "2026-08-04T12:12:15.457Z",
-    "nextmove": "2026-08-30T12:10:42.450Z",
+    "nextmove": "2026-09-01T12:12:22.973Z",
     "nextmove:2026-08-04": "2026-08-04T12:12:15.457Z",
     "buildertip": "2026-08-30T20:11:46.739Z",
     "buildertip:2026-08-04": "2026-08-04T16:11:22.240Z",
@@ -161,17 +161,13 @@
     "ballot:2026-08-31": "2026-08-31T08:10:35.555Z",
     "translate:2026-08-31": "2026-08-31T08:10:35.555Z",
     "discussion:2026-08-31": "2026-08-31T20:10:17.310Z",
-    "ballot:2026-09-01": "2026-09-01T08:10:17.396Z"
+    "ballot:2026-09-01": "2026-09-01T08:10:17.396Z",
+    "nextmove:2026-09-01": "2026-09-01T12:12:22.973Z"
   },
   "day": "2026-09-01",
-  "spent": 1,
-  "lastKind": "ballot",
+  "spent": 2,
+  "lastKind": "nextmove",
   "log": [
-    {
-      "at": "2026-07-28T16:10:53.558Z",
-      "kind": "translate",
-      "key": "translate:2026-07-28"
-    },
     {
       "at": "2026-07-29T08:10:24.146Z",
       "kind": "foundry",
@@ -812,14 +808,20 @@
       "kind": "ballot",
       "key": "ballot:2026-09-01",
       "door": "dash-alive"
+    },
+    {
+      "at": "2026-09-01T12:12:22.973Z",
+      "kind": "nextmove",
+      "key": "nextmove:2026-09-01",
+      "door": "thrive"
     }
   ],
   "doorLog": [
-    "full-heart",
     "dash-alive",
     "dash-alive",
     "dash-alive",
     "clear-eyes",
-    "dash-alive"
+    "dash-alive",
+    "thrive"
   ]
 }
