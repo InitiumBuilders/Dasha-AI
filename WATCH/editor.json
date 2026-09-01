@@ -11,7 +11,7 @@
     "evolve:v2.6.1": "2026-07-24T08:11:08.515Z",
     "discussion": "2026-08-31T20:10:17.310Z",
     "discussion:2026-07-24": "2026-07-24T12:11:31.654Z",
-    "ballot": "2026-08-31T08:10:35.555Z",
+    "ballot": "2026-09-01T08:10:17.396Z",
     "ballot:2026-07-24": "2026-07-24T16:11:01.319Z",
     "network": "2026-08-30T20:11:46.739Z",
     "network:2026-07-24": "2026-07-24T16:11:01.319Z",
@@ -160,17 +160,13 @@
     "network:2026-08-30": "2026-08-30T20:11:46.739Z",
     "ballot:2026-08-31": "2026-08-31T08:10:35.555Z",
     "translate:2026-08-31": "2026-08-31T08:10:35.555Z",
-    "discussion:2026-08-31": "2026-08-31T20:10:17.310Z"
+    "discussion:2026-08-31": "2026-08-31T20:10:17.310Z",
+    "ballot:2026-09-01": "2026-09-01T08:10:17.396Z"
   },
-  "day": "2026-08-31",
-  "spent": 3,
-  "lastKind": "discussion",
+  "day": "2026-09-01",
+  "spent": 1,
+  "lastKind": "ballot",
   "log": [
-    {
-      "at": "2026-07-28T16:10:53.558Z",
-      "kind": "ballot",
-      "key": "ballot:2026-07-28"
-    },
     {
       "at": "2026-07-28T16:10:53.558Z",
       "kind": "translate",
@@ -810,14 +806,20 @@
       "kind": "discussion",
       "key": "discussion:2026-08-31",
       "door": "clear-eyes"
+    },
+    {
+      "at": "2026-09-01T08:10:17.396Z",
+      "kind": "ballot",
+      "key": "ballot:2026-09-01",
+      "door": "dash-alive"
     }
   ],
   "doorLog": [
-    "arise",
     "full-heart",
     "dash-alive",
     "dash-alive",
     "dash-alive",
-    "clear-eyes"
+    "clear-eyes",
+    "dash-alive"
   ]
 }
