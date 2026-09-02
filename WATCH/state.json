@@ -6,7 +6,7 @@
     },
     "BTCBACKPORTSVIJAY_04": {
       "passing": false,
-      "net": 95
+      "net": 96
     },
     "c2pool-daemonless-finalize": {
       "passing": false,
@@ -119,5 +119,5 @@
   },
   "superblock": "2542248",
   "lastPassingCount": 7,
-  "updated": "2026-09-02T21:15:02.805Z"
+  "updated": "2026-09-02T21:45:02.721Z"
 }
