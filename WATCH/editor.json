@@ -11,7 +11,7 @@
     "evolve:v2.6.1": "2026-07-24T08:11:08.515Z",
     "discussion": "2026-08-31T20:10:17.310Z",
     "discussion:2026-07-24": "2026-07-24T12:11:31.654Z",
-    "ballot": "2026-09-01T08:10:17.396Z",
+    "ballot": "2026-09-02T08:10:48.902Z",
     "ballot:2026-07-24": "2026-07-24T16:11:01.319Z",
     "network": "2026-08-30T20:11:46.739Z",
     "network:2026-07-24": "2026-07-24T16:11:01.319Z",
@@ -71,7 +71,7 @@
     "buildertip": "2026-09-01T23:11:18.430Z",
     "buildertip:2026-08-04": "2026-08-04T16:11:22.240Z",
     "acct:2026-08-05": "2026-08-05T08:11:25.002Z",
-    "builderidea": "2026-08-29T23:10:44.163Z",
+    "builderidea": "2026-09-02T08:10:48.902Z",
     "builderidea:2026-08-05": "2026-08-05T08:11:25.002Z",
     "ballot:2026-08-05": "2026-08-05T12:10:33.090Z",
     "network:2026-08-05": "2026-08-05T20:10:33.276Z",
@@ -164,22 +164,14 @@
     "ballot:2026-09-01": "2026-09-01T08:10:17.396Z",
     "nextmove:2026-09-01": "2026-09-01T12:12:22.973Z",
     "buildertip:2026-09-01": "2026-09-01T23:11:18.430Z",
-    "distinct:2026-09-01": "2026-09-01T23:11:18.430Z"
+    "distinct:2026-09-01": "2026-09-01T23:11:18.430Z",
+    "ballot:2026-09-02": "2026-09-02T08:10:48.902Z",
+    "builderidea:2026-09-02": "2026-09-02T08:10:48.902Z"
   },
-  "day": "2026-09-01",
-  "spent": 4,
-  "lastKind": "distinct",
+  "day": "2026-09-02",
+  "spent": 2,
+  "lastKind": "builderidea",
   "log": [
-    {
-      "at": "2026-07-29T16:10:49.169Z",
-      "kind": "distinct",
-      "key": "distinct:2026-07-29"
-    },
-    {
-      "at": "2026-07-29T20:10:23.715Z",
-      "kind": "accountability",
-      "key": "acct:2026-07-29"
-    },
     {
       "at": "2026-07-30T08:10:24.778Z",
       "kind": "foundry",
@@ -818,14 +810,26 @@
       "kind": "distinct",
       "key": "distinct:2026-09-01",
       "door": "clear-eyes-full-heart"
+    },
+    {
+      "at": "2026-09-02T08:10:48.902Z",
+      "kind": "ballot",
+      "key": "ballot:2026-09-02",
+      "door": "dash-alive"
+    },
+    {
+      "at": "2026-09-02T08:10:48.902Z",
+      "kind": "builderidea",
+      "key": "builderidea:2026-09-02",
+      "door": "thrive"
     }
   ],
   "doorLog": [
     "dash-alive",
-    "clear-eyes",
-    "dash-alive",
     "thrive",
     "arise",
-    "clear-eyes-full-heart"
+    "clear-eyes-full-heart",
+    "dash-alive",
+    "thrive"
   ]
 }
