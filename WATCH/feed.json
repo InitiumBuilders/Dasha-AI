@@ -2,6 +2,32 @@
   "username": "DashSupportTeam",
   "items": [
     {
+      "id": "2095061869652275598",
+      "text": "Freelancers can't prove they got paid. Build a paid-invoice ledger: one data contract storing invoice state, flipped when an InstantSend tx verifies. Dash identities make client and worker provable, no middleman.\n\nWatch it grow:",
+      "at": "2026-09-02T08:10:48.000Z",
+      "reply": false,
+      "count": 1,
+      "m": {
+        "l": 0,
+        "r": 0,
+        "c": 0
+      },
+      "url": "https://x.com/DashSupportTeam/status/2095061869652275598"
+    },
+    {
+      "id": "2095061868729569296",
+      "text": "Dash ballot — 16 days to the vote cutoff\n20 active · 7 passing · 5,240/6,828 DASH allotted\n\nClosest to the line:\n• Dash servers, channels, and chats… — 70 short\n• Critical vulnerabilities… — 75 short\n\nEverything alive on Dash:",
+      "at": "2026-09-02T08:10:48.000Z",
+      "reply": false,
+      "count": 1,
+      "m": {
+        "l": 0,
+        "r": 0,
+        "c": 0
+      },
+      "url": "https://x.com/DashSupportTeam/status/2095061868729569296"
+    },
+    {
       "id": "2094926098064687257",
       "text": "&lt;tool_calls&gt;\n&lt;invoke name=\"web_search\"&gt;\n&lt;parameter name=\"query\"&gt;crypto transaction privacy industry practice custodial mixers regulation 2026&lt;/parameter&gt;\n&lt;/invoke&gt;\n&lt;/tool_calls&gt;\n\nSee clearly. Give everything.:",
       "at": "2026-09-01T23:11:18.000Z",
@@ -754,37 +780,9 @@
         "c": 0
       },
       "url": "https://x.com/DashSupportTeam/status/2090049542460715283"
-    },
-    {
-      "id": "2089988382302597494",
-      "text": "Dash ballot — 30 days to the vote cutoff\n26 active · 15 passing · 6,887/6,828 DASH allotted\n\nClosest to the line:\n• Dash servers, channels, and chats… — 71 short\n• Critical vulnerabilities… — 75 short\n\nYour node, your call →",
-      "at": "2026-08-19T08:10:35.000Z",
-      "reply": false,
-      "count": 1,
-      "m": {
-        "l": 0,
-        "r": 0,
-        "c": 0
-      },
-      "url": "https://x.com/DashSupportTeam/status/2089988382302597494"
-    },
-    {
-      "id": "2089852480293150903",
-      "text": "Most discussed on the Dash ballot right now:\n\nCritical vulnerabilities disclosure and independant…\n44 comments.\n\nThe community is already weighing in. Read the thread and the tally:",
-      "at": "2026-08-18T23:10:33.000Z",
-      "reply": false,
-      "count": 1,
-      "m": {
-        "l": 0,
-        "r": 0,
-        "c": 0
-      },
-      "url": "https://x.com/DashSupportTeam/status/2089852480293150903"
     }
   ],
   "mirrored": {
-    "2089852480293150903": true,
-    "2089988382302597494": true,
     "2090049542460715283": true,
     "2090049543433851085": true,
     "2090109528641593493": true,
@@ -842,7 +840,9 @@
     "2094760274305720522": true,
     "2094836468619321472": true,
     "2094926097129296364": true,
-    "2094926098064687257": true
+    "2094926098064687257": true,
+    "2095061868729569296": true,
+    "2095061869652275598": true
   },
-  "updated": "2026-09-02T08:05:26.488Z"
+  "updated": "2026-09-02T08:20:26.416Z"
 }
