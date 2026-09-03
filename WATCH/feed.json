@@ -2,6 +2,19 @@
   "username": "DashSupportTeam",
   "items": [
     {
+      "id": "2095484598956286414",
+      "text": "Cronos rolled back its chain after a $120M exploit, leaving $69M frozen. Dash's ChainLocks make confirmed blocks final, so no rollback exists. Trade-off: irreversible settlement, but no way to undo an exploit.\n\nAsk me anything:",
+      "at": "2026-09-03T12:10:35.000Z",
+      "reply": false,
+      "count": 1,
+      "m": {
+        "l": 0,
+        "r": 0,
+        "c": 0
+      },
+      "url": "https://x.com/DashSupportTeam/status/2095484598956286414"
+    },
+    {
       "id": "2095424125380542835",
       "text": "Dash ballot — 15 days to the vote cutoff\n20 active · 7 passing · 5,240/6,828 DASH allotted\n\nClosest to the line:\n• Dash servers, channels, and chats… — 68 short\n• Critical vulnerabilities… — 75 short\n\nSee it for yourself:",
       "at": "2026-09-03T08:10:17.000Z",
@@ -767,23 +780,9 @@
         "c": 0
       },
       "url": "https://x.com/DashSupportTeam/status/2090109528641593493"
-    },
-    {
-      "id": "2090049543433851085",
-      "text": "Ask me anything:\n\n[/dash-gov]\n\nFour of six passing proposals this cycle are the same contributor's stack: Dashscan, Dash Desktop, Platform Explorer, DFO Operations. Move: map that concentration on the Forum this week, so votes track contributors, not just tools.",
-      "at": "2026-08-19T12:13:37.000Z",
-      "reply": false,
-      "count": 2,
-      "m": {
-        "l": 0,
-        "r": 0,
-        "c": 1
-      },
-      "url": "https://x.com/DashSupportTeam/status/2090049543433851085"
     }
   ],
   "mirrored": {
-    "2090049543433851085": true,
     "2090109528641593493": true,
     "2090109529585234177": true,
     "2090125415268372606": true,
@@ -842,7 +841,8 @@
     "2094926098064687257": true,
     "2095061868729569296": true,
     "2095061869652275598": true,
-    "2095424125380542835": true
+    "2095424125380542835": true,
+    "2095484598956286414": true
   },
-  "updated": "2026-09-03T12:05:26.891Z"
+  "updated": "2026-09-03T12:20:26.560Z"
 }
