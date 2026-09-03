@@ -14,7 +14,7 @@
     },
     "DASH-MULTILINGUAL-EXPANSION_Aug": {
       "passing": true,
-      "net": 349
+      "net": 350
     },
     "Dash-Europe-Aug-Sep-2026": {
       "passing": false,
@@ -38,7 +38,7 @@
     },
     "Dash-communities-without-censorship": {
       "passing": false,
-      "net": 245
+      "net": 244
     },
     "dash-growth-marketing-budget": {
       "passing": false,
@@ -119,5 +119,5 @@
   },
   "superblock": "2542248",
   "lastPassingCount": 7,
-  "updated": "2026-09-03T09:15:02.817Z"
+  "updated": "2026-09-03T09:45:02.697Z"
 }
