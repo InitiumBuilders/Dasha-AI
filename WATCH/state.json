@@ -10,7 +10,7 @@
     },
     "c2pool-daemonless-finalize": {
       "passing": false,
-      "net": 103
+      "net": 101
     },
     "DASH-MULTILINGUAL-EXPANSION_Aug": {
       "passing": true,
@@ -46,11 +46,11 @@
     },
     "vulnerability-disclosure-compensation": {
       "passing": false,
-      "net": 239
+      "net": 238
     },
     "BTCBackportsVijay_03": {
       "passing": false,
-      "net": 218
+      "net": 217
     },
     "2026-05-MakeDashASafeStoreOfValue": {
       "passing": false,
@@ -119,5 +119,5 @@
   },
   "superblock": "2542248",
   "lastPassingCount": 7,
-  "updated": "2026-09-03T07:45:02.705Z"
+  "updated": "2026-09-03T08:15:02.714Z"
 }
