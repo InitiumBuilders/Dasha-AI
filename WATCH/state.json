@@ -2,19 +2,19 @@
   "seen": {
     "vulnerability-disclosure-compensation": {
       "passing": false,
-      "net": 4
+      "net": 8
     },
     "dash-growth-q4-2026": {
       "passing": false,
-      "net": -8
+      "net": -12
     },
     "BTCBACKPORTSVIJAY_04": {
       "passing": false,
-      "net": 71
+      "net": 83
     },
     "c2pool-daemonless-finalize": {
       "passing": false,
-      "net": 74
+      "net": 78
     },
     "DASH-MULTILINGUAL-EXPANSION_Aug": {
       "passing": true,
@@ -119,5 +119,5 @@
   },
   "superblock": "2542248",
   "lastPassingCount": 7,
-  "updated": "2026-09-04T22:15:03.176Z"
+  "updated": "2026-09-04T22:45:02.710Z"
 }
