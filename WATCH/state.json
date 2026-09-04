@@ -1,5 +1,9 @@
 {
   "seen": {
+    "vulnerability-disclosure-compensation": {
+      "passing": false,
+      "net": 238
+    },
     "dash-growth-q4-2026": {
       "passing": false,
       "net": -19
@@ -43,10 +47,6 @@
     "dash-growth-marketing-budget": {
       "passing": false,
       "net": 133
-    },
-    "vulnerability-disclosure-compensation": {
-      "passing": false,
-      "net": 238
     },
     "BTCBackportsVijay_03": {
       "passing": false,
@@ -119,5 +119,5 @@
   },
   "superblock": "2542248",
   "lastPassingCount": 7,
-  "updated": "2026-09-04T07:45:02.739Z"
+  "updated": "2026-09-04T08:15:02.751Z"
 }
