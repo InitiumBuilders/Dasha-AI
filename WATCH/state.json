@@ -22,7 +22,7 @@
     },
     "Dash-Europe-Aug-Sep-2026": {
       "passing": false,
-      "net": 228
+      "net": 224
     },
     "kwvg-dev-aug26": {
       "passing": true,
@@ -34,7 +34,7 @@
     },
     "Dash-APAC-September-2026": {
       "passing": false,
-      "net": 50
+      "net": 46
     },
     "OrchardPay": {
       "passing": false,
@@ -42,7 +42,7 @@
     },
     "Dash-communities-without-censorship": {
       "passing": false,
-      "net": 243
+      "net": 239
     },
     "dash-growth-marketing-budget": {
       "passing": false,
@@ -119,5 +119,5 @@
   },
   "superblock": "2542248",
   "lastPassingCount": 7,
-  "updated": "2026-09-04T16:15:02.892Z"
+  "updated": "2026-09-04T16:45:02.792Z"
 }
