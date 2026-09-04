@@ -6,7 +6,7 @@
     },
     "dash-growth-q4-2026": {
       "passing": false,
-      "net": -19
+      "net": -15
     },
     "BTCBACKPORTSVIJAY_04": {
       "passing": false,
@@ -119,5 +119,5 @@
   },
   "superblock": "2542248",
   "lastPassingCount": 7,
-  "updated": "2026-09-04T15:15:02.777Z"
+  "updated": "2026-09-04T15:45:02.775Z"
 }
