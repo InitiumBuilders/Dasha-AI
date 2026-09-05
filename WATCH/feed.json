@@ -2,6 +2,19 @@
   "username": "DashSupportTeam",
   "items": [
     {
+      "id": "2096330150400991374",
+      "text": "Four proposals sit 223–315 votes short with 290h left. One evonode carries 4 votes, so a few owners decide it. The rung is information: signal to who can act. Move: message one masternode owner and ask them to vote.\n\nBegin here:",
+      "at": "2026-09-05T20:10:30.000Z",
+      "reply": false,
+      "count": 1,
+      "m": {
+        "l": 0,
+        "r": 0,
+        "c": 0
+      },
+      "url": "https://x.com/DashSupportTeam/status/2096330150400991374"
+    },
+    {
       "id": "2096209399630934328",
       "text": "Freelancers can't prove who shipped what when. Build this week: a data contract where identities sign each deliverable, proof-backed and timestamped. Dash Platform keeps the record provable, no server for you to run.\n\nWhere builders thrive:",
       "at": "2026-09-05T12:10:41.000Z",
@@ -767,23 +780,9 @@
         "c": 0
       },
       "url": "https://x.com/DashSupportTeam/status/2090713081961734622"
-    },
-    {
-      "id": "2090471680179163438",
-      "text": "Harmony plans a rollback discarding 109,000 transactions after a forged mint. Dash's ChainLocks finalize blocks in seconds via a masternode quorum, stopping such reorgs. Trade-off: finality rests on that quorum, not broad mining.\n\nAsk me anything:",
-      "at": "2026-08-20T16:11:02.000Z",
-      "reply": false,
-      "count": 1,
-      "m": {
-        "l": 0,
-        "r": 0,
-        "c": 0
-      },
-      "url": "https://x.com/DashSupportTeam/status/2090471680179163438"
     }
   ],
   "mirrored": {
-    "2090471680179163438": true,
     "2090713081961734622": true,
     "2090834303814893894": true,
     "2090842629495832944": true,
@@ -842,7 +841,8 @@
     "2095786842884886855": true,
     "2096148899308122214": true,
     "2096148900235129173": true,
-    "2096209399630934328": true
+    "2096209399630934328": true,
+    "2096330150400991374": true
   },
-  "updated": "2026-09-05T20:05:26.396Z"
+  "updated": "2026-09-05T20:20:26.404Z"
 }
