@@ -32,10 +32,6 @@
       "passing": true,
       "net": 538
     },
-    "Dash-APAC-September-2026": {
-      "passing": false,
-      "net": 46
-    },
     "OrchardPay": {
       "passing": false,
       "net": 163
@@ -119,5 +115,5 @@
   },
   "superblock": "2542248",
   "lastPassingCount": 7,
-  "updated": "2026-09-05T07:15:02.668Z"
+  "updated": "2026-09-05T07:45:02.672Z"
 }
