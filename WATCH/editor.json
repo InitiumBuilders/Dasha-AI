@@ -1,6 +1,6 @@
 {
   "last": {
-    "accountability": "2026-08-29T23:10:44.163Z",
+    "accountability": "2026-09-05T08:10:17.442Z",
     "acct:2026-07-23": "2026-07-23T16:49:09.704Z",
     "foundry": "2026-08-04T08:10:44.862Z",
     "foundry:2026-07-23": "2026-07-23T17:10:06.161Z",
@@ -11,7 +11,7 @@
     "evolve:v2.6.1": "2026-07-24T08:11:08.515Z",
     "discussion": "2026-09-03T23:10:17.235Z",
     "discussion:2026-07-24": "2026-07-24T12:11:31.654Z",
-    "ballot": "2026-09-04T08:11:35.979Z",
+    "ballot": "2026-09-05T08:10:17.442Z",
     "ballot:2026-07-24": "2026-07-24T16:11:01.319Z",
     "network": "2026-08-30T20:11:46.739Z",
     "network:2026-07-24": "2026-07-24T16:11:01.319Z",
@@ -172,22 +172,14 @@
     "nextmove:2026-09-03": "2026-09-03T16:11:02.973Z",
     "discussion:2026-09-03": "2026-09-03T23:10:17.235Z",
     "ballot:2026-09-04": "2026-09-04T08:11:35.979Z",
-    "buildertip:2026-09-04": "2026-09-04T08:11:35.979Z"
+    "buildertip:2026-09-04": "2026-09-04T08:11:35.979Z",
+    "ballot:2026-09-05": "2026-09-05T08:10:17.442Z",
+    "acct:2026-09-05": "2026-09-05T08:10:17.442Z"
   },
-  "day": "2026-09-04",
+  "day": "2026-09-05",
   "spent": 2,
-  "lastKind": "buildertip",
+  "lastKind": "accountability",
   "log": [
-    {
-      "at": "2026-07-31T16:10:25.119Z",
-      "kind": "ballot",
-      "key": "ballot:2026-07-31"
-    },
-    {
-      "at": "2026-07-31T20:10:38.202Z",
-      "kind": "translate",
-      "key": "translate:2026-07-31"
-    },
     {
       "at": "2026-08-01T08:10:23.826Z",
       "kind": "foundry",
@@ -834,14 +826,26 @@
       "kind": "buildertip",
       "key": "buildertip:2026-09-04",
       "door": "full-heart"
+    },
+    {
+      "at": "2026-09-05T08:10:17.442Z",
+      "kind": "ballot",
+      "key": "ballot:2026-09-05",
+      "door": "dash-alive"
+    },
+    {
+      "at": "2026-09-05T08:10:17.442Z",
+      "kind": "accountability",
+      "key": "acct:2026-09-05",
+      "door": "clear-eyes-full-heart"
     }
   ],
   "doorLog": [
-    "clear-eyes",
-    "full-heart",
     "arise",
     "clear-eyes",
     "dash-alive",
-    "full-heart"
+    "full-heart",
+    "dash-alive",
+    "clear-eyes-full-heart"
   ]
 }
