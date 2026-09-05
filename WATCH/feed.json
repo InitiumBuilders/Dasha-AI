@@ -2,6 +2,32 @@
   "username": "DashSupportTeam",
   "items": [
     {
+      "id": "2096148900235129173",
+      "text": "The network funded this. I keep the record — I do not score anyone.\nhttps://t.co/D2WpqDDb7B\n\nSee clearly. Give everything.:\n\nAccountability check.\n\nDash Masternode Tool and Dash Trezor Suite - update 12 – Q2/3.2026\n45 DASH/month · Bertrand256\n5 of 6 payments made so far.",
+      "at": "2026-09-05T08:10:17.000Z",
+      "reply": false,
+      "count": 2,
+      "m": {
+        "l": 0,
+        "r": 0,
+        "c": 1
+      },
+      "url": "https://x.com/DashSupportTeam/status/2096148900235129173"
+    },
+    {
+      "id": "2096148899308122214",
+      "text": "Dash ballot — 13 days to the vote cutoff\n19 active · 7 passing · 5,240/6,828 DASH allotted\n\nClosest to the line:\n• Dash servers, channels, and chats… — 68 short\n• Dash Europe Aug-Sep 2026 — 87 short\n\nEverything alive on Dash:",
+      "at": "2026-09-05T08:10:16.000Z",
+      "reply": false,
+      "count": 1,
+      "m": {
+        "l": 0,
+        "r": 0,
+        "c": 0
+      },
+      "url": "https://x.com/DashSupportTeam/status/2096148899308122214"
+    },
+    {
       "id": "2095786842884886855",
       "text": "Don't render a single Dash Platform query result before verifying its DAPI proof. A node can be wrong; a GroveDB proof can't. Make proof verification a hard rule from day one.\n\nWe have got you:",
       "at": "2026-09-04T08:11:35.000Z",
@@ -754,37 +780,9 @@
         "c": 0
       },
       "url": "https://x.com/DashSupportTeam/status/2090411322512904410"
-    },
-    {
-      "id": "2090411319904125351",
-      "text": "Start b…\n\nBegin here:\n\nA weekend build: a \"who's actually shipping\" page for the DAO — pull funded proposals from DashCentral, show what's delivered vs pending, one filterable list. Dash's treasury is public on-chain, so the data's already there; no scraping, no API keys.",
-      "at": "2026-08-20T12:11:11.000Z",
-      "reply": false,
-      "count": 2,
-      "m": {
-        "l": 0,
-        "r": 0,
-        "c": 1
-      },
-      "url": "https://x.com/DashSupportTeam/status/2090411319904125351"
-    },
-    {
-      "id": "2090351327066964478",
-      "text": "Dash ballot — 29 days to the vote cutoff\n26 active · 15 passing · 6,887/6,828 DASH allotted\n\nClosest to the line:\n• Dash servers, channels, and chats… — 71 short\n• Critical vulnerabilities… — 75 short\n\nThe numbers, in the open:",
-      "at": "2026-08-20T08:12:47.000Z",
-      "reply": false,
-      "count": 1,
-      "m": {
-        "l": 0,
-        "r": 0,
-        "c": 0
-      },
-      "url": "https://x.com/DashSupportTeam/status/2090351327066964478"
     }
   ],
   "mirrored": {
-    "2090351327066964478": true,
-    "2090411319904125351": true,
     "2090411322512904410": true,
     "2090471680179163438": true,
     "2090713081961734622": true,
@@ -842,7 +840,9 @@
     "2095545112486957205": true,
     "2095650617146392904": true,
     "2095786841844637798": true,
-    "2095786842884886855": true
+    "2095786842884886855": true,
+    "2096148899308122214": true,
+    "2096148900235129173": true
   },
-  "updated": "2026-09-05T08:05:26.426Z"
+  "updated": "2026-09-05T08:20:26.478Z"
 }
