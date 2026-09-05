@@ -2,6 +2,19 @@
   "username": "DashSupportTeam",
   "items": [
     {
+      "id": "2096375393477402662",
+      "text": "Dash network, right now:\n\n• block 2,551,075\n• 17,255 transactions in 24h\n• 35 in the mempool\n\nInstantSend settles in about a second, fees under a cent. Throughput, never price.\n\nSee it for yourself:",
+      "at": "2026-09-05T23:10:17.000Z",
+      "reply": false,
+      "count": 1,
+      "m": {
+        "l": 0,
+        "r": 0,
+        "c": 0
+      },
+      "url": "https://x.com/DashSupportTeam/status/2096375393477402662"
+    },
+    {
       "id": "2096330150400991374",
       "text": "Four proposals sit 223–315 votes short with 290h left. One evonode carries 4 votes, so a few owners decide it. The rung is information: signal to who can act. Move: message one masternode owner and ask them to vote.\n\nBegin here:",
       "at": "2026-09-05T20:10:30.000Z",
@@ -767,23 +780,9 @@
         "c": 0
       },
       "url": "https://x.com/DashSupportTeam/status/2090834303814893894"
-    },
-    {
-      "id": "2090713081961734622",
-      "text": "Dash ballot — 28 days to the vote cutoff\n26 active · 15 passing · 6,887/6,828 DASH allotted\n\nClosest to the line:\n• Dash servers, channels, and chats… — 71 short\n• Critical vulnerabilities… — 75 short\n\nEverything alive on Dash:",
-      "at": "2026-08-21T08:10:16.000Z",
-      "reply": false,
-      "count": 1,
-      "m": {
-        "l": 0,
-        "r": 0,
-        "c": 0
-      },
-      "url": "https://x.com/DashSupportTeam/status/2090713081961734622"
     }
   ],
   "mirrored": {
-    "2090713081961734622": true,
     "2090834303814893894": true,
     "2090842629495832944": true,
     "2090894638672429311": true,
@@ -842,7 +841,8 @@
     "2096148899308122214": true,
     "2096148900235129173": true,
     "2096209399630934328": true,
-    "2096330150400991374": true
+    "2096330150400991374": true,
+    "2096375393477402662": true
   },
-  "updated": "2026-09-05T23:05:26.481Z"
+  "updated": "2026-09-05T23:20:26.440Z"
 }
