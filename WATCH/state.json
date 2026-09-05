@@ -50,7 +50,7 @@
     },
     "BTCBackportsVijay_03": {
       "passing": false,
-      "net": 217
+      "net": 213
     },
     "2026-05-MakeDashASafeStoreOfValue": {
       "passing": false,
@@ -66,11 +66,11 @@
     },
     "Dash-Italia-Management-2026": {
       "passing": true,
-      "net": 626
+      "net": 622
     },
     "mnowatch-hosting-2026": {
       "passing": true,
-      "net": 663
+      "net": 659
     },
     "dashcentral-operations3": {
       "passing": true,
@@ -119,5 +119,5 @@
   },
   "superblock": "2542248",
   "lastPassingCount": 7,
-  "updated": "2026-09-05T05:45:02.715Z"
+  "updated": "2026-09-05T06:15:02.754Z"
 }
