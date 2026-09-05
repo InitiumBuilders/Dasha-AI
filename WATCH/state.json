@@ -2,11 +2,11 @@
   "seen": {
     "vulnerability-disclosure-compensation": {
       "passing": false,
-      "net": 14
+      "net": 17
     },
     "dash-growth-q4-2026": {
       "passing": false,
-      "net": -11
+      "net": -8
     },
     "BTCBACKPORTSVIJAY_04": {
       "passing": false,
@@ -107,5 +107,5 @@
   },
   "superblock": "2542248",
   "lastPassingCount": 6,
-  "updated": "2026-09-05T12:15:02.757Z"
+  "updated": "2026-09-05T12:45:02.884Z"
 }
