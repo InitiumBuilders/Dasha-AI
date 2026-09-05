@@ -20,10 +20,6 @@
       "passing": true,
       "net": 350
     },
-    "Dash-Europe-Aug-Sep-2026": {
-      "passing": false,
-      "net": 224
-    },
     "kwvg-dev-aug26": {
       "passing": true,
       "net": 486
@@ -115,5 +111,5 @@
   },
   "superblock": "2542248",
   "lastPassingCount": 7,
-  "updated": "2026-09-05T09:15:02.676Z"
+  "updated": "2026-09-05T09:45:02.954Z"
 }
