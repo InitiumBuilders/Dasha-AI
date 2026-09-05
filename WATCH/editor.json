@@ -13,7 +13,7 @@
     "discussion:2026-07-24": "2026-07-24T12:11:31.654Z",
     "ballot": "2026-09-05T08:10:17.442Z",
     "ballot:2026-07-24": "2026-07-24T16:11:01.319Z",
-    "network": "2026-08-30T20:11:46.739Z",
+    "network": "2026-09-05T23:10:17.379Z",
     "network:2026-07-24": "2026-07-24T16:11:01.319Z",
     "needs": "2026-07-30T23:10:24.542Z",
     "needs:2026-07-24": "2026-07-24T20:11:17.063Z",
@@ -176,17 +176,13 @@
     "ballot:2026-09-05": "2026-09-05T08:10:17.442Z",
     "acct:2026-09-05": "2026-09-05T08:10:17.442Z",
     "builderidea:2026-09-05": "2026-09-05T12:10:41.367Z",
-    "nextmove:2026-09-05": "2026-09-05T20:10:30.631Z"
+    "nextmove:2026-09-05": "2026-09-05T20:10:30.631Z",
+    "network:2026-09-05": "2026-09-05T23:10:17.379Z"
   },
   "day": "2026-09-05",
-  "spent": 4,
-  "lastKind": "nextmove",
+  "spent": 5,
+  "lastKind": "network",
   "log": [
-    {
-      "at": "2026-08-01T20:10:24.081Z",
-      "kind": "flip",
-      "key": "flip:vulnerability-disclosure-compensation:out:2525632"
-    },
     {
       "at": "2026-08-02T08:10:24.061Z",
       "kind": "weekly",
@@ -842,14 +838,20 @@
       "kind": "nextmove",
       "key": "nextmove:2026-09-05",
       "door": "arise"
+    },
+    {
+      "at": "2026-09-05T23:10:17.379Z",
+      "kind": "network",
+      "key": "network:2026-09-05",
+      "door": "clear-eyes"
     }
   ],
   "doorLog": [
-    "dash-alive",
     "full-heart",
     "dash-alive",
     "clear-eyes-full-heart",
     "thrive",
-    "arise"
+    "arise",
+    "clear-eyes"
   ]
 }
