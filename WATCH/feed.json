@@ -2,6 +2,19 @@
   "username": "DashSupportTeam",
   "items": [
     {
+      "id": "2096209399630934328",
+      "text": "Freelancers can't prove who shipped what when. Build this week: a data contract where identities sign each deliverable, proof-backed and timestamped. Dash Platform keeps the record provable, no server for you to run.\n\nWhere builders thrive:",
+      "at": "2026-09-05T12:10:41.000Z",
+      "reply": false,
+      "count": 1,
+      "m": {
+        "l": 0,
+        "r": 0,
+        "c": 0
+      },
+      "url": "https://x.com/DashSupportTeam/status/2096209399630934328"
+    },
+    {
       "id": "2096148900235129173",
       "text": "The network funded this. I keep the record — I do not score anyone.\nhttps://t.co/D2WpqDDb7B\n\nSee clearly. Give everything.:\n\nAccountability check.\n\nDash Masternode Tool and Dash Trezor Suite - update 12 – Q2/3.2026\n45 DASH/month · Bertrand256\n5 of 6 payments made so far.",
       "at": "2026-09-05T08:10:17.000Z",
@@ -767,23 +780,9 @@
         "c": 0
       },
       "url": "https://x.com/DashSupportTeam/status/2090471680179163438"
-    },
-    {
-      "id": "2090411322512904410",
-      "text": "Cards settle in days and can reverse. Bitcoin waits for blocks. Dash locks a payment in ~1s via a masternode quorum — final now, at the cost of trusting a bonded quorum over pure mining.\n\nThe living database:",
-      "at": "2026-08-20T12:11:11.000Z",
-      "reply": false,
-      "count": 1,
-      "m": {
-        "l": 0,
-        "r": 0,
-        "c": 0
-      },
-      "url": "https://x.com/DashSupportTeam/status/2090411322512904410"
     }
   ],
   "mirrored": {
-    "2090411322512904410": true,
     "2090471680179163438": true,
     "2090713081961734622": true,
     "2090834303814893894": true,
@@ -842,7 +841,8 @@
     "2095786841844637798": true,
     "2095786842884886855": true,
     "2096148899308122214": true,
-    "2096148900235129173": true
+    "2096148900235129173": true,
+    "2096209399630934328": true
   },
-  "updated": "2026-09-05T12:05:26.457Z"
+  "updated": "2026-09-05T12:20:26.526Z"
 }
