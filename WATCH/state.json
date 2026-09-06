@@ -6,7 +6,7 @@
     },
     "dash-growth-q4-2026": {
       "passing": false,
-      "net": -10
+      "net": -9
     },
     "BTCBACKPORTSVIJAY_04": {
       "passing": false,
@@ -34,7 +34,7 @@
     },
     "dash-growth-marketing-budget": {
       "passing": false,
-      "net": 137
+      "net": 138
     },
     "BTCBackportsVijay_03": {
       "passing": false,
@@ -50,7 +50,7 @@
     },
     "dash-masternode-tool-update-12": {
       "passing": true,
-      "net": 552
+      "net": 551
     },
     "Dash-Italia-Management-2026": {
       "passing": true,
@@ -62,11 +62,11 @@
     },
     "dashcentral-operations3": {
       "passing": true,
-      "net": 538
+      "net": 537
     },
     "encointerUBI-mean26": {
       "passing": false,
-      "net": -190
+      "net": -189
     }
   },
   "fired": {
@@ -107,5 +107,5 @@
   },
   "superblock": "2542248",
   "lastPassingCount": 6,
-  "updated": "2026-09-06T21:15:02.702Z"
+  "updated": "2026-09-06T21:45:02.635Z"
 }
