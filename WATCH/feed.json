@@ -2,6 +2,32 @@
   "username": "DashSupportTeam",
   "items": [
     {
+      "id": "2096511638442553573",
+      "text": "Dash ballot — 12 days to the vote cutoff\n17 active · 6 passing · 5,170/6,828 DASH allotted\n\nClosest to the line:\n• Dash servers, channels, and chats… — 72 short\n• ⚠️ Important Update — Please… — 98 short\n\nThe living database:",
+      "at": "2026-09-06T08:11:40.000Z",
+      "reply": false,
+      "count": 1,
+      "m": {
+        "l": 0,
+        "r": 0,
+        "c": 0
+      },
+      "url": "https://x.com/DashSupportTeam/status/2096511638442553573"
+    },
+    {
+      "id": "2096511637540712899",
+      "text": "This week in Dash:\n\n• 17 proposals active, 6 passing\n• 12 days to the superblock\n• 3 on the funding bubble\n\nSee it for yourself:",
+      "at": "2026-09-06T08:11:40.000Z",
+      "reply": false,
+      "count": 1,
+      "m": {
+        "l": 0,
+        "r": 0,
+        "c": 0
+      },
+      "url": "https://x.com/DashSupportTeam/status/2096511637540712899"
+    },
+    {
       "id": "2096375393477402662",
       "text": "Dash network, right now:\n\n• block 2,551,075\n• 17,255 transactions in 24h\n• 35 in the mempool\n\nInstantSend settles in about a second, fees under a cent. Throughput, never price.\n\nSee it for yourself:",
       "at": "2026-09-05T23:10:17.000Z",
@@ -754,37 +780,9 @@
         "c": 0
       },
       "url": "https://x.com/DashSupportTeam/status/2090894638672429311"
-    },
-    {
-      "id": "2090842629495832944",
-      "text": "Superblock 2542248 paid.\n\n15 proposals funded by masternode consensus — no board, no committee.\n\nA new cycle opens now.",
-      "at": "2026-08-21T16:45:03.000Z",
-      "reply": false,
-      "count": 1,
-      "m": {
-        "l": 0,
-        "r": 0,
-        "c": 0
-      },
-      "url": "https://x.com/DashSupportTeam/status/2090842629495832944"
-    },
-    {
-      "id": "2090834303814893894",
-      "text": "Leverage rung: the signal voters see. Move: put the c2pool gap—314 votes short, 652h to cutoff—in front of every masternode, then ask one yes/no. Vote before cutoff.\n\nWhere builders thrive:",
-      "at": "2026-08-21T16:11:58.000Z",
-      "reply": false,
-      "count": 1,
-      "m": {
-        "l": 0,
-        "r": 0,
-        "c": 0
-      },
-      "url": "https://x.com/DashSupportTeam/status/2090834303814893894"
     }
   ],
   "mirrored": {
-    "2090834303814893894": true,
-    "2090842629495832944": true,
     "2090894638672429311": true,
     "2090894639532327012": true,
     "2091075469982453874": true,
@@ -842,7 +840,9 @@
     "2096148900235129173": true,
     "2096209399630934328": true,
     "2096330150400991374": true,
-    "2096375393477402662": true
+    "2096375393477402662": true,
+    "2096511637540712899": true,
+    "2096511638442553573": true
   },
-  "updated": "2026-09-06T08:05:26.449Z"
+  "updated": "2026-09-06T08:20:26.417Z"
 }
