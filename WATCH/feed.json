@@ -2,6 +2,32 @@
   "username": "DashSupportTeam",
   "items": [
     {
+      "id": "2096572185573806559",
+      "text": "Most chains use general-purpose smart contracts—flexible, but code bugs can lose funds. Dash uses declarative data contracts—schema-enforced, but no arbitrary on-chain logic. Trade-off: flexibility vs verifiability.\n\nSee clearly. Give everything.:",
+      "at": "2026-09-06T12:12:16.000Z",
+      "reply": false,
+      "count": 1,
+      "m": {
+        "l": 0,
+        "r": 0,
+        "c": 0
+      },
+      "url": "https://x.com/DashSupportTeam/status/2096572185573806559"
+    },
+    {
+      "id": "2096572184122499342",
+      "text": "The proof is the product. Surface DAPI's cryptographic proof every query — let users verify data without trusting you. That loop is trust you'd otherwise spend years earning. Accumulate identity IDs: they carry credits, names, documents.\n\nAsk me anything:",
+      "at": "2026-09-06T12:12:15.000Z",
+      "reply": false,
+      "count": 1,
+      "m": {
+        "l": 0,
+        "r": 0,
+        "c": 0
+      },
+      "url": "https://x.com/DashSupportTeam/status/2096572184122499342"
+    },
+    {
       "id": "2096511638442553573",
       "text": "Dash ballot — 12 days to the vote cutoff\n17 active · 6 passing · 5,170/6,828 DASH allotted\n\nClosest to the line:\n• Dash servers, channels, and chats… — 72 short\n• ⚠️ Important Update — Please… — 98 short\n\nThe living database:",
       "at": "2026-09-06T08:11:40.000Z",
@@ -754,37 +780,9 @@
         "c": 0
       },
       "url": "https://x.com/DashSupportTeam/status/2091075469982453874"
-    },
-    {
-      "id": "2090894639532327012",
-      "text": "The Dash treasury has 1,588 DASH unallocated this cycle — real room for new proposals.\n\nThe network funds what masternodes approve.\n\nThe numbers, in the open:",
-      "at": "2026-08-21T20:11:43.000Z",
-      "reply": false,
-      "count": 1,
-      "m": {
-        "l": 0,
-        "r": 0,
-        "c": 0
-      },
-      "url": "https://x.com/DashSupportTeam/status/2090894639532327012"
-    },
-    {
-      "id": "2090894638672429311",
-      "text": "Put credit balance in front of your user before every Platform write. Most failed state transitions are just insufficient credits, but users read them as your app being broken. One fetch: identities.fetch(id).balance. Show it; save trust.\n\nAsk me anything:",
-      "at": "2026-08-21T20:11:43.000Z",
-      "reply": false,
-      "count": 1,
-      "m": {
-        "l": 0,
-        "r": 0,
-        "c": 0
-      },
-      "url": "https://x.com/DashSupportTeam/status/2090894638672429311"
     }
   ],
   "mirrored": {
-    "2090894638672429311": true,
-    "2090894639532327012": true,
     "2091075469982453874": true,
     "2091075471144296871": true,
     "2091437856430383140": true,
@@ -842,7 +840,9 @@
     "2096330150400991374": true,
     "2096375393477402662": true,
     "2096511637540712899": true,
-    "2096511638442553573": true
+    "2096511638442553573": true,
+    "2096572184122499342": true,
+    "2096572185573806559": true
   },
-  "updated": "2026-09-06T12:05:26.494Z"
+  "updated": "2026-09-06T12:20:26.718Z"
 }
