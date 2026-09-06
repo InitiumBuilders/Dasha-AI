@@ -2,6 +2,19 @@
   "username": "DashSupportTeam",
   "items": [
     {
+      "id": "2096632199885861199",
+      "text": "Everything alive on Dash:\n\nGas on one new chain hit ~$0.40 this week, over double Ethereum. Dash doesn't auction gas: fees are near-flat and InstantSend locks payments in ~2s via masternodes. Trade-off: Dash gives up a flexible fee market for predictable cost.",
+      "at": "2026-09-06T16:10:44.000Z",
+      "reply": false,
+      "count": 2,
+      "m": {
+        "l": 0,
+        "r": 0,
+        "c": 1
+      },
+      "url": "https://x.com/DashSupportTeam/status/2096632199885861199"
+    },
+    {
       "id": "2096572185573806559",
       "text": "Most chains use general-purpose smart contracts—flexible, but code bugs can lose funds. Dash uses declarative data contracts—schema-enforced, but no arbitrary on-chain logic. Trade-off: flexibility vs verifiability.\n\nSee clearly. Give everything.:",
       "at": "2026-09-06T12:12:16.000Z",
@@ -767,23 +780,9 @@
         "c": 0
       },
       "url": "https://x.com/DashSupportTeam/status/2091075471144296871"
-    },
-    {
-      "id": "2091075469982453874",
-      "text": "Dash ballot — 27 days to the vote cutoff\n18 active · 7 passing · 5,240/6,828 DASH allotted\n\nClosest to the line:\n• Dash servers, channels, and chats… — 70 short\n• Critical vulnerabilities… — 74 short\n\nEverything alive on Dash:",
-      "at": "2026-08-22T08:10:17.000Z",
-      "reply": false,
-      "count": 1,
-      "m": {
-        "l": 0,
-        "r": 0,
-        "c": 0
-      },
-      "url": "https://x.com/DashSupportTeam/status/2091075469982453874"
     }
   ],
   "mirrored": {
-    "2091075469982453874": true,
     "2091075471144296871": true,
     "2091437856430383140": true,
     "2091437857457996165": true,
@@ -842,7 +841,8 @@
     "2096511637540712899": true,
     "2096511638442553573": true,
     "2096572184122499342": true,
-    "2096572185573806559": true
+    "2096572185573806559": true,
+    "2096632199885861199": true
   },
-  "updated": "2026-09-06T16:05:26.467Z"
+  "updated": "2026-09-06T16:20:26.507Z"
 }
