@@ -2,11 +2,11 @@
   "seen": {
     "vulnerability-disclosure-compensation": {
       "passing": false,
-      "net": 69
+      "net": 73
     },
     "dash-growth-q4-2026": {
       "passing": false,
-      "net": 33
+      "net": 34
     },
     "BTCBACKPORTSVIJAY_04": {
       "passing": false,
@@ -14,7 +14,7 @@
     },
     "c2pool-daemonless-finalize": {
       "passing": false,
-      "net": 75
+      "net": 74
     },
     "kwvg-dev-aug26": {
       "passing": true,
@@ -26,19 +26,19 @@
     },
     "OrchardPay": {
       "passing": false,
-      "net": 167
+      "net": 166
     },
     "Dash-communities-without-censorship": {
       "passing": false,
-      "net": 232
+      "net": 231
     },
     "dash-growth-marketing-budget": {
       "passing": false,
-      "net": 146
+      "net": 147
     },
     "BTCBackportsVijay_03": {
       "passing": false,
-      "net": 200
+      "net": 199
     },
     "2026-05-MakeDashASafeStoreOfValue": {
       "passing": false,
@@ -58,15 +58,15 @@
     },
     "mnowatch-hosting-2026": {
       "passing": true,
-      "net": 660
+      "net": 662
     },
     "dashcentral-operations3": {
       "passing": true,
-      "net": 537
+      "net": 538
     },
     "encointerUBI-mean26": {
       "passing": false,
-      "net": -189
+      "net": -191
     }
   },
   "fired": {
@@ -107,5 +107,5 @@
   },
   "superblock": "2542248",
   "lastPassingCount": 6,
-  "updated": "2026-09-07T21:15:02.747Z"
+  "updated": "2026-09-07T21:45:02.763Z"
 }
