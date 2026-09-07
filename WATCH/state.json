@@ -2,23 +2,23 @@
   "seen": {
     "vulnerability-disclosure-compensation": {
       "passing": false,
-      "net": 59
+      "net": 65
     },
     "dash-growth-q4-2026": {
       "passing": false,
-      "net": 26
+      "net": 36
     },
     "BTCBACKPORTSVIJAY_04": {
       "passing": false,
-      "net": 90
+      "net": 96
     },
     "c2pool-daemonless-finalize": {
       "passing": false,
-      "net": 69
+      "net": 79
     },
     "kwvg-dev-aug26": {
       "passing": true,
-      "net": 491
+      "net": 495
     },
     "DCG-Operations-Aug-Nov-26": {
       "passing": true,
@@ -30,7 +30,7 @@
     },
     "Dash-communities-without-censorship": {
       "passing": false,
-      "net": 236
+      "net": 232
     },
     "dash-growth-marketing-budget": {
       "passing": false,
@@ -42,7 +42,7 @@
     },
     "2026-05-MakeDashASafeStoreOfValue": {
       "passing": false,
-      "net": -277
+      "net": -281
     },
     "GEG-PPP-30M-Film-On-Chain": {
       "passing": false,
@@ -107,5 +107,5 @@
   },
   "superblock": "2542248",
   "lastPassingCount": 6,
-  "updated": "2026-09-07T19:15:02.714Z"
+  "updated": "2026-09-07T19:45:02.710Z"
 }
