@@ -6,11 +6,11 @@
     },
     "dash-growth-q4-2026": {
       "passing": false,
-      "net": 26
+      "net": 22
     },
     "BTCBACKPORTSVIJAY_04": {
       "passing": false,
-      "net": 94
+      "net": 90
     },
     "c2pool-daemonless-finalize": {
       "passing": false,
@@ -38,7 +38,7 @@
     },
     "BTCBackportsVijay_03": {
       "passing": false,
-      "net": 213
+      "net": 204
     },
     "2026-05-MakeDashASafeStoreOfValue": {
       "passing": false,
@@ -107,5 +107,5 @@
   },
   "superblock": "2542248",
   "lastPassingCount": 6,
-  "updated": "2026-09-07T13:15:02.788Z"
+  "updated": "2026-09-07T13:45:02.750Z"
 }
