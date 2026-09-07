@@ -6,7 +6,7 @@
     },
     "dash-growth-q4-2026": {
       "passing": false,
-      "net": -6
+      "net": 3
     },
     "BTCBACKPORTSVIJAY_04": {
       "passing": false,
@@ -18,11 +18,11 @@
     },
     "kwvg-dev-aug26": {
       "passing": true,
-      "net": 486
+      "net": 487
     },
     "DCG-Operations-Aug-Nov-26": {
       "passing": true,
-      "net": 539
+      "net": 540
     },
     "OrchardPay": {
       "passing": false,
@@ -30,7 +30,7 @@
     },
     "Dash-communities-without-censorship": {
       "passing": false,
-      "net": 239
+      "net": 240
     },
     "dash-growth-marketing-budget": {
       "passing": false,
@@ -54,7 +54,7 @@
     },
     "Dash-Italia-Management-2026": {
       "passing": true,
-      "net": 622
+      "net": 623
     },
     "mnowatch-hosting-2026": {
       "passing": true,
@@ -107,5 +107,5 @@
   },
   "superblock": "2542248",
   "lastPassingCount": 6,
-  "updated": "2026-09-07T10:45:02.667Z"
+  "updated": "2026-09-07T11:15:02.721Z"
 }
