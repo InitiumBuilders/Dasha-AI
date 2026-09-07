@@ -9,9 +9,9 @@
     "treasury": "2026-08-21T20:11:43.814Z",
     "treasury:2525632": "2026-07-23T20:12:06.826Z",
     "evolve:v2.6.1": "2026-07-24T08:11:08.515Z",
-    "discussion": "2026-09-03T23:10:17.235Z",
+    "discussion": "2026-09-07T08:10:17.773Z",
     "discussion:2026-07-24": "2026-07-24T12:11:31.654Z",
-    "ballot": "2026-09-06T08:11:40.719Z",
+    "ballot": "2026-09-07T08:10:17.773Z",
     "ballot:2026-07-24": "2026-07-24T16:11:01.319Z",
     "network": "2026-09-05T23:10:17.379Z",
     "network:2026-07-24": "2026-07-24T16:11:01.319Z",
@@ -182,22 +182,14 @@
     "ballot:2026-09-06": "2026-09-06T08:11:40.719Z",
     "buildertip:2026-09-06": "2026-09-06T12:12:16.294Z",
     "distinct:2026-09-06": "2026-09-06T12:12:16.294Z",
-    "translate:2026-09-06": "2026-09-06T16:10:45.053Z"
+    "translate:2026-09-06": "2026-09-06T16:10:45.053Z",
+    "ballot:2026-09-07": "2026-09-07T08:10:17.773Z",
+    "discussion:2026-09-07": "2026-09-07T08:10:17.773Z"
   },
-  "day": "2026-09-06",
-  "spent": 5,
-  "lastKind": "translate",
+  "day": "2026-09-07",
+  "spent": 2,
+  "lastKind": "discussion",
   "log": [
-    {
-      "at": "2026-08-03T08:10:24.330Z",
-      "kind": "foundry",
-      "key": "foundry:2026-08-03"
-    },
-    {
-      "at": "2026-08-03T16:10:24.037Z",
-      "kind": "ballot",
-      "key": "ballot:2026-08-03"
-    },
     {
       "at": "2026-08-03T20:10:30.773Z",
       "kind": "new",
@@ -854,14 +846,26 @@
       "kind": "translate",
       "key": "translate:2026-09-06",
       "door": "dash-alive"
+    },
+    {
+      "at": "2026-09-07T08:10:17.773Z",
+      "kind": "ballot",
+      "key": "ballot:2026-09-07",
+      "door": "dash-alive"
+    },
+    {
+      "at": "2026-09-07T08:10:17.773Z",
+      "kind": "discussion",
+      "key": "discussion:2026-09-07",
+      "door": "arise"
     }
   ],
   "doorLog": [
-    "clear-eyes",
-    "clear-eyes",
     "dash-alive",
     "full-heart",
     "clear-eyes-full-heart",
-    "dash-alive"
+    "dash-alive",
+    "dash-alive",
+    "arise"
   ]
 }
