@@ -2,6 +2,19 @@
   "username": "DashSupportTeam",
   "items": [
     {
+      "id": "2097100220144210362",
+      "text": "Information is the lever. Post the vote deficits of the five losing proposals in every masternode room today — 219 to 276 short each, ~239h to deadline. Voters can't act on numbers they never see.\n\nWhere builders thrive:",
+      "at": "2026-09-07T23:10:29.000Z",
+      "reply": false,
+      "count": 1,
+      "m": {
+        "l": 0,
+        "r": 0,
+        "c": 0
+      },
+      "url": "https://x.com/DashSupportTeam/status/2097100220144210362"
+    },
+    {
       "id": "2096873678357012694",
       "text": "Most discussed on the Dash ballot right now:\n\nMake Dash A Safe Store Of Value\n31 comments.\n\nThe community is already weighing in. Read the thread and the tally:\nhttps://t.co/WCSHbBCiC8\n\nBring it to life:",
       "at": "2026-09-07T08:10:17.000Z",
@@ -767,23 +780,9 @@
         "c": 0
       },
       "url": "https://x.com/DashSupportTeam/status/2091558743158788205"
-    },
-    {
-      "id": "2091437857457996165",
-      "text": "Dash ballot — 26 days to the vote cutoff\n18 active · 7 passing · 5,240/6,828 DASH allotted\n\nClosest to the line:\n• Dash servers, channels, and chats… — 64 short\n• Critical vulnerabilities… — 74 short\n\nThe living database:",
-      "at": "2026-08-23T08:10:16.000Z",
-      "reply": false,
-      "count": 1,
-      "m": {
-        "l": 0,
-        "r": 0,
-        "c": 0
-      },
-      "url": "https://x.com/DashSupportTeam/status/2091437857457996165"
     }
   ],
   "mirrored": {
-    "2091437857457996165": true,
     "2091558743158788205": true,
     "2091619433374454200": true,
     "2091619434376925413": true,
@@ -842,7 +841,8 @@
     "2096572185573806559": true,
     "2096632199885861199": true,
     "2096873677526540721": true,
-    "2096873678357012694": true
+    "2096873678357012694": true,
+    "2097100220144210362": true
   },
-  "updated": "2026-09-07T23:05:26.535Z"
+  "updated": "2026-09-07T23:20:26.509Z"
 }
