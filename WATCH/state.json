@@ -10,11 +10,11 @@
     },
     "vulnerability-disclosure-compensation": {
       "passing": false,
-      "net": 66
+      "net": 67
     },
     "dash-growth-q4-2026": {
       "passing": false,
-      "net": 46
+      "net": 47
     },
     "BTCBACKPORTSVIJAY_04": {
       "passing": false,
@@ -22,7 +22,7 @@
     },
     "c2pool-daemonless-finalize": {
       "passing": false,
-      "net": 54
+      "net": 55
     },
     "kwvg-dev-aug26": {
       "passing": true,
@@ -117,5 +117,5 @@
   },
   "superblock": "2542248",
   "lastPassingCount": 6,
-  "updated": "2026-09-08T14:15:02.731Z"
+  "updated": "2026-09-08T14:45:02.751Z"
 }
