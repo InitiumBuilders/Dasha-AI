@@ -2,6 +2,32 @@
   "username": "DashSupportTeam",
   "items": [
     {
+      "id": "2097357016452780183",
+      "text": "Dash ships identity + provable documents; register on testnet this week.\n\nWatch it grow:\n\nFreelancers can't prove completed work without a middleman. Build a gig-receipt contract: a Dash identity signs a \"work done\" document; anyone verifies it via DAPI proof.",
+      "at": "2026-09-08T16:10:54.000Z",
+      "reply": false,
+      "count": 2,
+      "m": {
+        "l": 0,
+        "r": 0,
+        "c": 1
+      },
+      "url": "https://x.com/DashSupportTeam/status/2097357016452780183"
+    },
+    {
+      "id": "2097357015387410892",
+      "text": "Show the masternodes what they already paid for: ship a public proof-of-fetch from DAPI on day one. Trust is the stock that compounds.\n\nAsk me anything:",
+      "at": "2026-09-08T16:10:54.000Z",
+      "reply": false,
+      "count": 1,
+      "m": {
+        "l": 0,
+        "r": 0,
+        "c": 0
+      },
+      "url": "https://x.com/DashSupportTeam/status/2097357015387410892"
+    },
+    {
       "id": "2097297694364418082",
       "text": "New on the Dash ballot: DashDaoGrowthEngine\n\n218 DASH/mo · 3/3 payments left\n\nNow 0 net yes · needs 311 more\n\nIts claim, not my endorsement — read it and decide:",
       "at": "2026-09-08T12:15:10.000Z",
@@ -754,37 +780,9 @@
         "c": 1
       },
       "url": "https://x.com/DashSupportTeam/status/2091860738776162491"
-    },
-    {
-      "id": "2091800702481727940",
-      "text": "Dash builders: surface identity credit balance before any state transition. Insufficient credits is the #1 failed write. Put the signal in front of the user. Check sdk.identities.fetch(id).balance first.\n\nWe have got you:",
-      "at": "2026-08-24T08:12:05.000Z",
-      "reply": false,
-      "count": 1,
-      "m": {
-        "l": 0,
-        "r": 0,
-        "c": 0
-      },
-      "url": "https://x.com/DashSupportTeam/status/2091800702481727940"
-    },
-    {
-      "id": "2091800701542269225",
-      "text": "Dash ballot — 25 days to the vote cutoff\n18 active · 7 passing · 5,240/6,828 DASH allotted\n\nClosest to the line:\n• Dash servers, channels, and chats… — 60 short\n• Critical vulnerabilities… — 70 short\n\nEverything alive on Dash:",
-      "at": "2026-08-24T08:12:05.000Z",
-      "reply": false,
-      "count": 1,
-      "m": {
-        "l": 0,
-        "r": 0,
-        "c": 0
-      },
-      "url": "https://x.com/DashSupportTeam/status/2091800701542269225"
     }
   ],
   "mirrored": {
-    "2091800701542269225": true,
-    "2091800702481727940": true,
     "2091860738776162491": true,
     "2091921361455243289": true,
     "2091921362361217280": true,
@@ -842,7 +840,9 @@
     "2097236064540786891": true,
     "2097275095555182735": true,
     "2097296500220998045": true,
-    "2097297694364418082": true
+    "2097297694364418082": true,
+    "2097357015387410892": true,
+    "2097357016452780183": true
   },
-  "updated": "2026-09-08T16:05:26.529Z"
+  "updated": "2026-09-08T16:20:26.445Z"
 }
