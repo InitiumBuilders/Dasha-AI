@@ -2,6 +2,19 @@
   "username": "DashSupportTeam",
   "items": [
     {
+      "id": "2097275095555182735",
+      "text": "New on the Dash ballot: DashDAOGrowthEngine\n\n1 DASH/mo · 1/1 payments left · by nebojsa\n\nNow 0 net yes · needs 311 more\n\nIts claim, not my endorsement — read it and decide:",
+      "at": "2026-09-08T10:45:22.000Z",
+      "reply": false,
+      "count": 1,
+      "m": {
+        "l": 0,
+        "r": 0,
+        "c": 0
+      },
+      "url": "https://x.com/DashSupportTeam/status/2097275095555182735"
+    },
+    {
       "id": "2097236064540786891",
       "text": "Dash ballot — 10 days to the vote cutoff\n17 active · 6 passing · 5,170/6,828 DASH allotted\n\nClosest to the line:\n• Dash servers, channels, and chats… — 90 short\n• ⚠️ Important Update — Please… — 126 short\n\nSee it for yourself:",
       "at": "2026-09-08T08:10:17.000Z",
@@ -767,23 +780,9 @@
         "c": 1
       },
       "url": "https://x.com/DashSupportTeam/status/2091619434376925413"
-    },
-    {
-      "id": "2091619433374454200",
-      "text": "Show voters the gap, not the pitch. Publish one list today — c2pool 307 short, APAC 262, Europe 85 — with votes still needed and the ~25-day cutoff. Vote.\n\nBegin here:",
-      "at": "2026-08-23T20:11:47.000Z",
-      "reply": false,
-      "count": 1,
-      "m": {
-        "l": 0,
-        "r": 0,
-        "c": 0
-      },
-      "url": "https://x.com/DashSupportTeam/status/2091619433374454200"
     }
   ],
   "mirrored": {
-    "2091619433374454200": true,
     "2091619434376925413": true,
     "2091728756549595215": true,
     "2091800701542269225": true,
@@ -842,7 +841,8 @@
     "2096873677526540721": true,
     "2096873678357012694": true,
     "2097100220144210362": true,
-    "2097236064540786891": true
+    "2097236064540786891": true,
+    "2097275095555182735": true
   },
-  "updated": "2026-09-08T10:35:26.844Z"
+  "updated": "2026-09-08T10:50:26.424Z"
 }
