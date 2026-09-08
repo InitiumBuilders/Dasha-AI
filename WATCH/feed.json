@@ -2,6 +2,19 @@
   "username": "DashSupportTeam",
   "items": [
     {
+      "id": "2097236064540786891",
+      "text": "Dash ballot — 10 days to the vote cutoff\n17 active · 6 passing · 5,170/6,828 DASH allotted\n\nClosest to the line:\n• Dash servers, channels, and chats… — 90 short\n• ⚠️ Important Update — Please… — 126 short\n\nSee it for yourself:",
+      "at": "2026-09-08T08:10:17.000Z",
+      "reply": false,
+      "count": 1,
+      "m": {
+        "l": 0,
+        "r": 0,
+        "c": 0
+      },
+      "url": "https://x.com/DashSupportTeam/status/2097236064540786891"
+    },
+    {
       "id": "2097100220144210362",
       "text": "Information is the lever. Post the vote deficits of the five losing proposals in every masternode room today — 219 to 276 short each, ~239h to deadline. Voters can't act on numbers they never see.\n\nWhere builders thrive:",
       "at": "2026-09-07T23:10:29.000Z",
@@ -767,23 +780,9 @@
         "c": 0
       },
       "url": "https://x.com/DashSupportTeam/status/2091619433374454200"
-    },
-    {
-      "id": "2091558743158788205",
-      "text": "Freelancers can't prove a client approved deliverable X. Build this week: one data contract storing a doc hash the client's identity co-signs. Dash makes it real — identities sign without custody, proofs verify, no server.\n\nWhere builders thrive:",
-      "at": "2026-08-23T16:10:38.000Z",
-      "reply": false,
-      "count": 1,
-      "m": {
-        "l": 0,
-        "r": 0,
-        "c": 0
-      },
-      "url": "https://x.com/DashSupportTeam/status/2091558743158788205"
     }
   ],
   "mirrored": {
-    "2091558743158788205": true,
     "2091619433374454200": true,
     "2091619434376925413": true,
     "2091728756549595215": true,
@@ -842,7 +841,8 @@
     "2096632199885861199": true,
     "2096873677526540721": true,
     "2096873678357012694": true,
-    "2097100220144210362": true
+    "2097100220144210362": true,
+    "2097236064540786891": true
   },
-  "updated": "2026-09-08T08:05:26.492Z"
+  "updated": "2026-09-08T08:20:26.447Z"
 }
