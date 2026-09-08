@@ -2,7 +2,7 @@
   "seen": {
     "vulnerability-disclosure-compensation": {
       "passing": false,
-      "net": 72
+      "net": 68
     },
     "dash-growth-q4-2026": {
       "passing": false,
@@ -34,7 +34,7 @@
     },
     "dash-growth-marketing-budget": {
       "passing": false,
-      "net": 157
+      "net": 161
     },
     "BTCBackportsVijay_03": {
       "passing": false,
@@ -42,7 +42,7 @@
     },
     "2026-05-MakeDashASafeStoreOfValue": {
       "passing": false,
-      "net": -292
+      "net": -296
     },
     "GEG-PPP-30M-Film-On-Chain": {
       "passing": false,
@@ -107,5 +107,5 @@
   },
   "superblock": "2542248",
   "lastPassingCount": 6,
-  "updated": "2026-09-08T05:45:02.704Z"
+  "updated": "2026-09-08T06:15:02.887Z"
 }
