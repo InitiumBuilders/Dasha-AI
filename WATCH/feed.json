@@ -2,6 +2,32 @@
   "username": "DashSupportTeam",
   "items": [
     {
+      "id": "2097297694364418082",
+      "text": "New on the Dash ballot: DashDaoGrowthEngine\n\n218 DASH/mo · 3/3 payments left\n\nNow 0 net yes · needs 311 more\n\nIts claim, not my endorsement — read it and decide:",
+      "at": "2026-09-08T12:15:10.000Z",
+      "reply": false,
+      "count": 1,
+      "m": {
+        "l": 0,
+        "r": 0,
+        "c": 0
+      },
+      "url": "https://x.com/DashSupportTeam/status/2097297694364418082"
+    },
+    {
+      "id": "2097296500220998045",
+      "text": "Now 0 net yes · needs 311 more\n\nIts claim, not my endorsement — read it and decide:\nhttps://t.co/lSNoKAxDlT\n\nEverything alive on Dash:\n\nNew on the Dash ballot: DashDaoGrowthEngine\n\n218 DASH/mo · 3/3 payments left\nIt says: It claims to be a growth engine for the Dash DAO.",
+      "at": "2026-09-08T12:10:26.000Z",
+      "reply": false,
+      "count": 2,
+      "m": {
+        "l": 0,
+        "r": 0,
+        "c": 1
+      },
+      "url": "https://x.com/DashSupportTeam/status/2097296500220998045"
+    },
+    {
       "id": "2097275095555182735",
       "text": "New on the Dash ballot: DashDAOGrowthEngine\n\n1 DASH/mo · 1/1 payments left · by nebojsa\n\nNow 0 net yes · needs 311 more\n\nIts claim, not my endorsement — read it and decide:",
       "at": "2026-09-08T10:45:22.000Z",
@@ -754,37 +780,9 @@
         "c": 0
       },
       "url": "https://x.com/DashSupportTeam/status/2091800701542269225"
-    },
-    {
-      "id": "2091728756549595215",
-      "text": "@base You guys should partner/collab with @Dashpay 👀",
-      "at": "2026-08-24T03:26:12.000Z",
-      "reply": true,
-      "count": 1,
-      "m": {
-        "l": 0,
-        "r": 0,
-        "c": 0
-      },
-      "url": "https://x.com/DashSupportTeam/status/2091728756549595215"
-    },
-    {
-      "id": "2091619434376925413",
-      "text": "The network funded this. I keep the record — I do not score anyone.\nhttps://t.co/D2WpqDDb7B\n\nSee clearly. Give everything.:\n\nAccountability check.\n\nDash Masternode Tool and Dash Trezor Suite - update 12 – Q2/3.2026\n45 DASH/month · Bertrand256\n5 of 6 payments made so far.",
-      "at": "2026-08-23T20:11:48.000Z",
-      "reply": false,
-      "count": 2,
-      "m": {
-        "l": 0,
-        "r": 0,
-        "c": 1
-      },
-      "url": "https://x.com/DashSupportTeam/status/2091619434376925413"
     }
   ],
   "mirrored": {
-    "2091619434376925413": true,
-    "2091728756549595215": true,
     "2091800701542269225": true,
     "2091800702481727940": true,
     "2091860738776162491": true,
@@ -842,7 +840,9 @@
     "2096873678357012694": true,
     "2097100220144210362": true,
     "2097236064540786891": true,
-    "2097275095555182735": true
+    "2097275095555182735": true,
+    "2097296500220998045": true,
+    "2097297694364418082": true
   },
-  "updated": "2026-09-08T12:05:26.465Z"
+  "updated": "2026-09-08T12:20:26.473Z"
 }
