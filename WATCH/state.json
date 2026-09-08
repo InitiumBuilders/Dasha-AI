@@ -14,7 +14,7 @@
     },
     "dash-growth-q4-2026": {
       "passing": false,
-      "net": 40
+      "net": 42
     },
     "BTCBACKPORTSVIJAY_04": {
       "passing": false,
@@ -54,7 +54,7 @@
     },
     "GEG-PPP-30M-Film-On-Chain": {
       "passing": false,
-      "net": -268
+      "net": -272
     },
     "dash-masternode-tool-update-12": {
       "passing": true,
@@ -117,5 +117,5 @@
   },
   "superblock": "2542248",
   "lastPassingCount": 6,
-  "updated": "2026-09-08T12:15:10.124Z"
+  "updated": "2026-09-08T12:45:02.736Z"
 }
