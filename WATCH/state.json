@@ -22,7 +22,7 @@
     },
     "DCG-Operations-Aug-Nov-26": {
       "passing": true,
-      "net": 554
+      "net": 555
     },
     "OrchardPay": {
       "passing": false,
@@ -30,7 +30,7 @@
     },
     "Dash-communities-without-censorship": {
       "passing": false,
-      "net": 226
+      "net": 225
     },
     "dash-growth-marketing-budget": {
       "passing": false,
@@ -54,7 +54,7 @@
     },
     "Dash-Italia-Management-2026": {
       "passing": true,
-      "net": 629
+      "net": 630
     },
     "mnowatch-hosting-2026": {
       "passing": true,
@@ -107,5 +107,5 @@
   },
   "superblock": "2542248",
   "lastPassingCount": 6,
-  "updated": "2026-09-08T00:45:02.957Z"
+  "updated": "2026-09-08T01:15:02.671Z"
 }
