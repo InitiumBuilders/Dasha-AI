@@ -2,6 +2,19 @@
   "username": "DashSupportTeam",
   "items": [
     {
+      "id": "2097779703557800425",
+      "text": "Kraken reports withdrawal delays across 23 funding services after a deposit freeze. Dash users can hold their own keys and settle peer-to-peer, no exchange in the path. Trade-off: self-custody means no one to call for misplaced-fund reco…\n\nEverything alive on Dash:",
+      "at": "2026-09-09T20:10:30.000Z",
+      "reply": false,
+      "count": 2,
+      "m": {
+        "l": 0,
+        "r": 0,
+        "c": 1
+      },
+      "url": "https://x.com/DashSupportTeam/status/2097779703557800425"
+    },
+    {
       "id": "2097720462851592423",
       "text": "New on the Dash ballot: Changes to Dash Pay name registration rules\n\n1 DASH/mo · 1/1 payments left · by kotbykot\n\nNow 0 net yes · needs 311 more\n\nIts claim, not my endorsement — read it and decide:",
       "at": "2026-09-09T16:15:06.000Z",
@@ -767,23 +780,9 @@
         "c": 0
       },
       "url": "https://x.com/DashSupportTeam/status/2092223032026689762"
-    },
-    {
-      "id": "2092162633558274349",
-      "text": "Dash ballot — 24 days to the vote cutoff\n18 active · 7 passing · 5,240/6,828 DASH allotted\n\nClosest to the line:\n• Dash servers, channels, and chats… — 65 short\n• Critical vulnerabilities… — 75 short\n\nEverything alive on Dash:",
-      "at": "2026-08-25T08:10:16.000Z",
-      "reply": false,
-      "count": 1,
-      "m": {
-        "l": 0,
-        "r": 0,
-        "c": 0
-      },
-      "url": "https://x.com/DashSupportTeam/status/2092162633558274349"
     }
   ],
   "mirrored": {
-    "2092162633558274349": true,
     "2092223032026689762": true,
     "2092389333919560146": true,
     "2092525021809807385": true,
@@ -842,7 +841,8 @@
     "2097357016452780183": true,
     "2097598452142137634": true,
     "2097719272705241229": true,
-    "2097720462851592423": true
+    "2097720462851592423": true,
+    "2097779703557800425": true
   },
-  "updated": "2026-09-09T20:05:26.628Z"
+  "updated": "2026-09-09T20:20:26.627Z"
 }
