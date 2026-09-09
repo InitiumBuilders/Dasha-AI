@@ -11,7 +11,7 @@
     "evolve:v2.6.1": "2026-07-24T08:11:08.515Z",
     "discussion": "2026-09-07T08:10:17.773Z",
     "discussion:2026-07-24": "2026-07-24T12:11:31.654Z",
-    "ballot": "2026-09-08T08:10:17.356Z",
+    "ballot": "2026-09-09T08:10:17.295Z",
     "ballot:2026-07-24": "2026-07-24T16:11:01.319Z",
     "network": "2026-09-05T23:10:17.379Z",
     "network:2026-07-24": "2026-07-24T16:11:01.319Z",
@@ -189,17 +189,13 @@
     "ballot:2026-09-08": "2026-09-08T08:10:17.356Z",
     "new:DashDaoGrowthEngine": "2026-09-08T12:10:26.636Z",
     "buildertip:2026-09-08": "2026-09-08T16:10:54.823Z",
-    "builderidea:2026-09-08": "2026-09-08T16:10:54.823Z"
+    "builderidea:2026-09-08": "2026-09-08T16:10:54.823Z",
+    "ballot:2026-09-09": "2026-09-09T08:10:17.295Z"
   },
-  "day": "2026-09-08",
-  "spent": 4,
-  "lastKind": "builderidea",
+  "day": "2026-09-09",
+  "spent": 1,
+  "lastKind": "ballot",
   "log": [
-    {
-      "at": "2026-08-04T12:12:15.457Z",
-      "kind": "nextmove",
-      "key": "nextmove:2026-08-04"
-    },
     {
       "at": "2026-08-04T16:11:22.240Z",
       "kind": "buildertip",
@@ -868,14 +864,20 @@
       "kind": "builderidea",
       "key": "builderidea:2026-09-08",
       "door": "thrive"
+    },
+    {
+      "at": "2026-09-09T08:10:17.295Z",
+      "kind": "ballot",
+      "key": "ballot:2026-09-09",
+      "door": "dash-alive"
     }
   ],
   "doorLog": [
-    "arise",
     "thrive",
     "clear-eyes",
     "dash-alive",
     "full-heart",
-    "thrive"
+    "thrive",
+    "dash-alive"
   ]
 }
