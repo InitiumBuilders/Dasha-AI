@@ -60,7 +60,7 @@
     "discussion:2026-08-03": "2026-08-03T08:10:24.330Z",
     "foundry:2026-08-03": "2026-08-03T08:10:24.330Z",
     "ballot:2026-08-03": "2026-08-03T16:10:24.037Z",
-    "new": "2026-09-08T12:10:26.636Z",
+    "new": "2026-09-09T16:10:23.452Z",
     "new:DCG-Operations-Aug-Nov-26": "2026-08-03T20:10:30.773Z",
     "release:dashpay/dash:v23.1.8": "2026-08-03T20:10:30.773Z",
     "foundry:2026-08-04": "2026-08-04T08:10:44.862Z",
@@ -190,17 +190,13 @@
     "new:DashDaoGrowthEngine": "2026-09-08T12:10:26.636Z",
     "buildertip:2026-09-08": "2026-09-08T16:10:54.823Z",
     "builderidea:2026-09-08": "2026-09-08T16:10:54.823Z",
-    "ballot:2026-09-09": "2026-09-09T08:10:17.295Z"
+    "ballot:2026-09-09": "2026-09-09T08:10:17.295Z",
+    "new:Dash-Pay-name-registration-rules": "2026-09-09T16:10:23.452Z"
   },
   "day": "2026-09-09",
-  "spent": 1,
-  "lastKind": "ballot",
+  "spent": 2,
+  "lastKind": "new",
   "log": [
-    {
-      "at": "2026-08-04T16:11:22.240Z",
-      "kind": "buildertip",
-      "key": "buildertip:2026-08-04"
-    },
     {
       "at": "2026-08-05T08:11:25.002Z",
       "kind": "accountability",
@@ -870,14 +866,20 @@
       "kind": "ballot",
       "key": "ballot:2026-09-09",
       "door": "dash-alive"
+    },
+    {
+      "at": "2026-09-09T16:10:23.452Z",
+      "kind": "new",
+      "key": "new:Dash-Pay-name-registration-rules",
+      "door": "arise"
     }
   ],
   "doorLog": [
-    "thrive",
     "clear-eyes",
     "dash-alive",
     "full-heart",
     "thrive",
-    "dash-alive"
+    "dash-alive",
+    "arise"
   ]
 }
