@@ -88,7 +88,7 @@
     "ballot:2026-08-09": "2026-08-09T12:10:34.688Z",
     "discussion:2026-08-09": "2026-08-09T12:10:34.688Z",
     "ballot:2026-08-10": "2026-08-10T12:10:34.964Z",
-    "forecast": "2026-08-14T23:10:34.652Z",
+    "forecast": "2026-09-09T23:10:17.315Z",
     "forecast:2026-08-10": "2026-08-10T16:10:34.631Z",
     "ballot:2026-08-11": "2026-08-11T12:10:35.273Z",
     "acct:2026-08-11": "2026-08-11T12:10:35.273Z",
@@ -192,17 +192,13 @@
     "builderidea:2026-09-08": "2026-09-08T16:10:54.823Z",
     "ballot:2026-09-09": "2026-09-09T08:10:17.295Z",
     "new:Dash-Pay-name-registration-rules": "2026-09-09T16:10:23.452Z",
-    "translate:2026-09-09": "2026-09-09T20:10:31.271Z"
+    "translate:2026-09-09": "2026-09-09T20:10:31.271Z",
+    "forecast:2026-09-09": "2026-09-09T23:10:17.315Z"
   },
   "day": "2026-09-09",
-  "spent": 3,
-  "lastKind": "translate",
+  "spent": 4,
+  "lastKind": "forecast",
   "log": [
-    {
-      "at": "2026-08-05T08:11:25.002Z",
-      "kind": "builderidea",
-      "key": "builderidea:2026-08-05"
-    },
     {
       "at": "2026-08-05T12:10:33.090Z",
       "kind": "ballot",
@@ -874,14 +870,20 @@
       "kind": "translate",
       "key": "translate:2026-09-09",
       "door": "dash-alive"
+    },
+    {
+      "at": "2026-09-09T23:10:17.315Z",
+      "kind": "forecast",
+      "key": "forecast:2026-09-09",
+      "door": "clear-eyes"
     }
   ],
   "doorLog": [
-    "dash-alive",
     "full-heart",
     "thrive",
     "dash-alive",
     "arise",
-    "dash-alive"
+    "dash-alive",
+    "clear-eyes"
   ]
 }
