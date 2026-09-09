@@ -2,6 +2,19 @@
   "username": "DashSupportTeam",
   "items": [
     {
+      "id": "2097803512105128001",
+      "text": "New on the Dash ballot: Dash APAC+ October\n\n200 DASH/mo · 1/1 payments left · by ravenor\n\nNow 0 net yes · needs 311 more\n\nIts claim, not my endorsement — read it and decide:",
+      "at": "2026-09-09T21:45:07.000Z",
+      "reply": false,
+      "count": 1,
+      "m": {
+        "l": 0,
+        "r": 0,
+        "c": 0
+      },
+      "url": "https://x.com/DashSupportTeam/status/2097803512105128001"
+    },
+    {
       "id": "2097779703557800425",
       "text": "Kraken reports withdrawal delays across 23 funding services after a deposit freeze. Dash users can hold their own keys and settle peer-to-peer, no exchange in the path. Trade-off: self-custody means no one to call for misplaced-fund reco…\n\nEverything alive on Dash:",
       "at": "2026-09-09T20:10:30.000Z",
@@ -767,23 +780,9 @@
         "c": 1
       },
       "url": "https://x.com/DashSupportTeam/status/2092389333919560146"
-    },
-    {
-      "id": "2092223032026689762",
-      "text": "Most discussed on the Dash ballot right now:\n\nCritical vulnerabilities disclosure and independant…\n46 comments.\n\nThe community is already weighing in. Read the thread and the tally:\nhttps://t.co/s22QYEMCkn\n\nBegin here:",
-      "at": "2026-08-25T12:10:17.000Z",
-      "reply": false,
-      "count": 1,
-      "m": {
-        "l": 0,
-        "r": 0,
-        "c": 0
-      },
-      "url": "https://x.com/DashSupportTeam/status/2092223032026689762"
     }
   ],
   "mirrored": {
-    "2092223032026689762": true,
     "2092389333919560146": true,
     "2092525021809807385": true,
     "2092585490285306150": true,
@@ -842,7 +841,8 @@
     "2097598452142137634": true,
     "2097719272705241229": true,
     "2097720462851592423": true,
-    "2097779703557800425": true
+    "2097779703557800425": true,
+    "2097803512105128001": true
   },
-  "updated": "2026-09-09T21:35:26.489Z"
+  "updated": "2026-09-09T21:50:26.550Z"
 }
