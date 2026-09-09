@@ -2,6 +2,19 @@
   "username": "DashSupportTeam",
   "items": [
     {
+      "id": "2097598452142137634",
+      "text": "Dash ballot — 9 days to the vote cutoff\n19 active · 6 passing · 5,170/6,828 DASH allotted\n\nClosest to the line:\n• Dash servers, channels, and chats… — 106 short\n• Dash Growth Marketing Budget… — 130 short\n\nEverything alive on Dash:",
+      "at": "2026-09-09T08:10:17.000Z",
+      "reply": false,
+      "count": 1,
+      "m": {
+        "l": 0,
+        "r": 0,
+        "c": 0
+      },
+      "url": "https://x.com/DashSupportTeam/status/2097598452142137634"
+    },
+    {
       "id": "2097357016452780183",
       "text": "Dash ships identity + provable documents; register on testnet this week.\n\nWatch it grow:\n\nFreelancers can't prove completed work without a middleman. Build a gig-receipt contract: a Dash identity signs a \"work done\" document; anyone verifies it via DAPI proof.",
       "at": "2026-09-08T16:10:54.000Z",
@@ -767,23 +780,9 @@
         "c": 0
       },
       "url": "https://x.com/DashSupportTeam/status/2091921361455243289"
-    },
-    {
-      "id": "2091860738776162491",
-      "text": "Everything alive on Dash:\n\nBase's sequencer halted block production twice this week. Dash runs no sequencer—miners and masternode quorums order blocks, so no single failure stops the chain. Trade-off: Dash forfeits general-purpose smart contracts, gaining outage r…",
-      "at": "2026-08-24T12:10:39.000Z",
-      "reply": false,
-      "count": 2,
-      "m": {
-        "l": 0,
-        "r": 0,
-        "c": 1
-      },
-      "url": "https://x.com/DashSupportTeam/status/2091860738776162491"
     }
   ],
   "mirrored": {
-    "2091860738776162491": true,
     "2091921361455243289": true,
     "2091921362361217280": true,
     "2092162633558274349": true,
@@ -842,7 +841,8 @@
     "2097296500220998045": true,
     "2097297694364418082": true,
     "2097357015387410892": true,
-    "2097357016452780183": true
+    "2097357016452780183": true,
+    "2097598452142137634": true
   },
-  "updated": "2026-09-09T08:05:26.571Z"
+  "updated": "2026-09-09T08:20:26.542Z"
 }
