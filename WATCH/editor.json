@@ -22,7 +22,7 @@
     "foundry:2026-07-25": "2026-07-25T08:11:00.503Z",
     "distinct": "2026-09-06T12:12:16.294Z",
     "distinct:2026-07-25": "2026-07-25T12:10:59.178Z",
-    "translate": "2026-09-06T16:10:45.053Z",
+    "translate": "2026-09-09T20:10:31.271Z",
     "translate:2026-07-25": "2026-07-25T12:10:59.178Z",
     "ballot:2026-07-25": "2026-07-25T16:10:23.551Z",
     "weekly": "2026-09-06T08:11:40.719Z",
@@ -191,17 +191,13 @@
     "buildertip:2026-09-08": "2026-09-08T16:10:54.823Z",
     "builderidea:2026-09-08": "2026-09-08T16:10:54.823Z",
     "ballot:2026-09-09": "2026-09-09T08:10:17.295Z",
-    "new:Dash-Pay-name-registration-rules": "2026-09-09T16:10:23.452Z"
+    "new:Dash-Pay-name-registration-rules": "2026-09-09T16:10:23.452Z",
+    "translate:2026-09-09": "2026-09-09T20:10:31.271Z"
   },
   "day": "2026-09-09",
-  "spent": 2,
-  "lastKind": "new",
+  "spent": 3,
+  "lastKind": "translate",
   "log": [
-    {
-      "at": "2026-08-05T08:11:25.002Z",
-      "kind": "accountability",
-      "key": "acct:2026-08-05"
-    },
     {
       "at": "2026-08-05T08:11:25.002Z",
       "kind": "builderidea",
@@ -872,14 +868,20 @@
       "kind": "new",
       "key": "new:Dash-Pay-name-registration-rules",
       "door": "arise"
+    },
+    {
+      "at": "2026-09-09T20:10:31.271Z",
+      "kind": "translate",
+      "key": "translate:2026-09-09",
+      "door": "dash-alive"
     }
   ],
   "doorLog": [
-    "clear-eyes",
     "dash-alive",
     "full-heart",
     "thrive",
     "dash-alive",
-    "arise"
+    "arise",
+    "dash-alive"
   ]
 }
