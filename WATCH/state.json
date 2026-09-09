@@ -2,11 +2,11 @@
   "seen": {
     "Dash-Pay-name-registration-rules": {
       "passing": false,
-      "net": 12
+      "net": 18
     },
     "DashDaoGrowthEngine": {
       "passing": false,
-      "net": -2
+      "net": -6
     },
     "DashDAOGrowthEngine": {
       "passing": false,
@@ -14,7 +14,7 @@
     },
     "vulnerability-disclosure-compensation": {
       "passing": false,
-      "net": 48
+      "net": 52
     },
     "dash-growth-q4-2026": {
       "passing": false,
@@ -22,7 +22,7 @@
     },
     "BTCBACKPORTSVIJAY_04": {
       "passing": false,
-      "net": 48
+      "net": 52
     },
     "c2pool-daemonless-finalize": {
       "passing": false,
@@ -54,7 +54,7 @@
     },
     "2026-05-MakeDashASafeStoreOfValue": {
       "passing": false,
-      "net": -323
+      "net": -327
     },
     "GEG-PPP-30M-Film-On-Chain": {
       "passing": false,
@@ -122,5 +122,5 @@
   },
   "superblock": "2542248",
   "lastPassingCount": 6,
-  "updated": "2026-09-09T18:45:02.679Z"
+  "updated": "2026-09-09T19:15:02.756Z"
 }
