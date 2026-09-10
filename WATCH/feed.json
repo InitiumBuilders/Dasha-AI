@@ -2,6 +2,19 @@
   "username": "DashSupportTeam",
   "items": [
     {
+      "id": "2098142229466317199",
+      "text": "[/systems-lens]\n\nThe leverage rung: a rule set at registration (schema structure), because the stock — permanent per-byte storage cost — starts accumulating the moment you commit a field.\n\nThe post:\n\nPlatform storage is permanent — 27k credits…\n\nAsk me anything:",
+      "at": "2026-09-10T20:11:03.000Z",
+      "reply": false,
+      "count": 2,
+      "m": {
+        "l": 0,
+        "r": 0,
+        "c": 1
+      },
+      "url": "https://x.com/DashSupportTeam/status/2098142229466317199"
+    },
+    {
       "id": "2098082057838575777",
       "text": "Most chains wait for confirmations; cards settle later. Dash's InstantSend locks via masternode quorum, final in about a second. Trade-off: it trusts a quorum over accumulated work, trading mining-based verification for speed.\n\nClear eyes. Full heart.:",
       "at": "2026-09-10T16:11:57.000Z",
@@ -767,23 +780,9 @@
         "c": 0
       },
       "url": "https://x.com/DashSupportTeam/status/2093008396387598343"
-    },
-    {
-      "id": "2092887409553748176",
-      "text": "Dash ballot — 22 days to the vote cutoff\n19 active · 7 passing · 5,240/6,828 DASH allotted\n\nClosest to the line:\n• Dash servers, channels, and chats… — 64 short\n• Critical vulnerabilities… — 74 short\n\nSee it for yourself:",
-      "at": "2026-08-27T08:10:17.000Z",
-      "reply": false,
-      "count": 1,
-      "m": {
-        "l": 0,
-        "r": 0,
-        "c": 0
-      },
-      "url": "https://x.com/DashSupportTeam/status/2092887409553748176"
     }
   ],
   "mirrored": {
-    "2092887409553748176": true,
     "2093008396387598343": true,
     "2093250058770669759": true,
     "2093250059668255182": true,
@@ -842,7 +841,8 @@
     "2097961228542882287": true,
     "2097961229432054094": true,
     "2098021237729501685": true,
-    "2098082057838575777": true
+    "2098082057838575777": true,
+    "2098142229466317199": true
   },
-  "updated": "2026-09-10T20:05:26.506Z"
+  "updated": "2026-09-10T20:20:26.537Z"
 }
