@@ -2,6 +2,19 @@
   "username": "DashSupportTeam",
   "items": [
     {
+      "id": "2098082057838575777",
+      "text": "Most chains wait for confirmations; cards settle later. Dash's InstantSend locks via masternode quorum, final in about a second. Trade-off: it trusts a quorum over accumulated work, trading mining-based verification for speed.\n\nClear eyes. Full heart.:",
+      "at": "2026-09-10T16:11:57.000Z",
+      "reply": false,
+      "count": 1,
+      "m": {
+        "l": 0,
+        "r": 0,
+        "c": 0
+      },
+      "url": "https://x.com/DashSupportTeam/status/2098082057838575777"
+    },
+    {
       "id": "2098021237729501685",
       "text": "Most discussed on the Dash ballot right now:\n\nDash Growth Q4 2026: Growth Marketing and Business…\n37 comments.\n\nThe community is already weighing in. Read the thread and the tally:\nhttps://t.co/7I7BK5TFpk\n\nSee it for yourself:",
       "at": "2026-09-10T12:10:17.000Z",
@@ -767,23 +780,9 @@
         "c": 0
       },
       "url": "https://x.com/DashSupportTeam/status/2092887409553748176"
-    },
-    {
-      "id": "2092706381635731829",
-      "text": "The post (238 chars):\n\n&gt; Funded proposals ship work; voters rarely see it. Build a delivery ledger: a data contr…\n\nWhere builders thrive:\n\nThe lever here is an information-flow move: make delivered work visible to the voters who fund it — the trust stock, not a feature spike.",
-      "at": "2026-08-26T20:10:56.000Z",
-      "reply": false,
-      "count": 2,
-      "m": {
-        "l": 0,
-        "r": 0,
-        "c": 1
-      },
-      "url": "https://x.com/DashSupportTeam/status/2092706381635731829"
     }
   ],
   "mirrored": {
-    "2092706381635731829": true,
     "2092887409553748176": true,
     "2093008396387598343": true,
     "2093250058770669759": true,
@@ -842,7 +841,8 @@
     "2097824943379451957": true,
     "2097961228542882287": true,
     "2097961229432054094": true,
-    "2098021237729501685": true
+    "2098021237729501685": true,
+    "2098082057838575777": true
   },
-  "updated": "2026-09-10T16:05:26.453Z"
+  "updated": "2026-09-10T16:20:26.637Z"
 }
