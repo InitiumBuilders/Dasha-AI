@@ -54,24 +54,11 @@
       "url": "https://x.com/DashSupportTeam/status/2097803512105128001"
     },
     {
-      "id": "2097779704719630804",
-      "text": "Everything alive on Dash:",
-      "at": "2026-09-09T20:10:31.000Z",
-      "reply": false,
-      "count": 1,
-      "m": {
-        "l": 0,
-        "r": 0,
-        "c": 0
-      },
-      "url": "https://x.com/DashSupportTeam/status/2097779704719630804"
-    },
-    {
       "id": "2097779703557800425",
-      "text": "Kraken reports withdrawal delays across 23 funding services after a deposit freeze. Dash users can hold their own keys and settle peer-to-peer, no exchange in the path. Trade-off: self-custody means no one to call for misplaced-fund reco…",
+      "text": "Kraken reports withdrawal delays across 23 funding services after a deposit freeze. Dash users can hold their own keys and settle peer-to-peer, no exchange in the path. Trade-off: self-custody means no one to call for misplaced-fund reco…\n\nEverything alive on Dash:",
       "at": "2026-09-09T20:10:30.000Z",
       "reply": false,
-      "count": 1,
+      "count": 2,
       "m": {
         "l": 0,
         "r": 0,
@@ -780,6 +767,19 @@
         "c": 1
       },
       "url": "https://x.com/DashSupportTeam/status/2092706381635731829"
+    },
+    {
+      "id": "2092669757791056223",
+      "text": "New on the Dash ballot: BTCBACKPORTSVIJAY_04\n\n55 DASH/mo · 6/6 payments left\nIt says: It says it is for Bitcoin backports.\n\nNow 0 net yes · needs 315 more\n\nIts claim, not my endorsement — read it and decide:",
+      "at": "2026-08-26T17:45:24.000Z",
+      "reply": false,
+      "count": 1,
+      "m": {
+        "l": 1,
+        "r": 0,
+        "c": 0
+      },
+      "url": "https://x.com/DashSupportTeam/status/2092669757791056223"
     }
   ],
   "mirrored": {
@@ -842,7 +842,7 @@
     "2097824943379451957": true,
     "2097961228542882287": true,
     "2097961229432054094": true,
-    "2097779704719630804": true
+    "2092669757791056223": true
   },
-  "updated": "2026-09-10T09:20:26.468Z"
+  "updated": "2026-09-10T09:35:26.470Z"
 }
