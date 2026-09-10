@@ -1,20 +1,20 @@
 {
   "seen": {
-    "Dash-APAC-October": {
-      "passing": false,
-      "net": 20
-    },
     "Dash-Pay-name-registration-rules": {
       "passing": false,
       "net": 56
     },
+    "Dash-APAC-October": {
+      "passing": false,
+      "net": 15
+    },
     "DashDaoGrowthEngine": {
       "passing": false,
-      "net": -2
+      "net": -7
     },
     "DashDAOGrowthEngine": {
       "passing": false,
-      "net": -2
+      "net": -7
     },
     "vulnerability-disclosure-compensation": {
       "passing": false,
@@ -127,5 +127,5 @@
   },
   "superblock": "2542248",
   "lastPassingCount": 6,
-  "updated": "2026-09-10T15:45:02.689Z"
+  "updated": "2026-09-10T16:15:02.782Z"
 }
