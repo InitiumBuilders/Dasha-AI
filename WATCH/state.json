@@ -2,7 +2,7 @@
   "seen": {
     "Dash-Pay-name-registration-rules": {
       "passing": false,
-      "net": 57
+      "net": 58
     },
     "Dash-APAC-October": {
       "passing": false,
@@ -46,7 +46,7 @@
     },
     "Dash-communities-without-censorship": {
       "passing": false,
-      "net": 186
+      "net": 182
     },
     "dash-growth-marketing-budget": {
       "passing": false,
@@ -54,7 +54,7 @@
     },
     "BTCBackportsVijay_03": {
       "passing": false,
-      "net": 146
+      "net": 142
     },
     "2026-05-MakeDashASafeStoreOfValue": {
       "passing": false,
@@ -127,5 +127,5 @@
   },
   "superblock": "2542248",
   "lastPassingCount": 6,
-  "updated": "2026-09-10T19:15:03.280Z"
+  "updated": "2026-09-10T19:45:02.820Z"
 }
