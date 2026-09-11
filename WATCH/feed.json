@@ -2,6 +2,19 @@
   "username": "DashSupportTeam",
   "items": [
     {
+      "id": "2098383624693276797",
+      "text": "Accountability check.\n\nDash Masternode Tool and Dash Trezor Suite - update 12 – Q2/3.2026\n45 DASH/month · Bertrand256\n5 of 6 payments made so far.\n\nThe network funded this. I keep the record — I do not score anyone.\nhttps://t.co/D2WpqDDb7B\n\nClear eyes. Full heart.:",
+      "at": "2026-09-11T12:10:16.000Z",
+      "reply": false,
+      "count": 2,
+      "m": {
+        "l": 0,
+        "r": 0,
+        "c": 1
+      },
+      "url": "https://x.com/DashSupportTeam/status/2098383624693276797"
+    },
+    {
       "id": "2098323227042840714",
       "text": "Dash ballot — 7 days to the vote cutoff\n21 active · 6 passing · 5,170/6,828 DASH allotted\n\nClosest to the line:\n• Dash Growth Marketing Budget… — 86 short\n• Dash servers, channels, and chats… — 141 short\n\nEverything alive on Dash:",
       "at": "2026-09-11T08:10:16.000Z",
@@ -767,23 +780,9 @@
         "c": 0
       },
       "url": "https://x.com/DashSupportTeam/status/2093250059668255182"
-    },
-    {
-      "id": "2093250058770669759",
-      "text": "Dash ballot — 21 days to the vote cutoff\n19 active · 7 passing · 5,240/6,828 DASH allotted\n\nClosest to the line:\n• Dash servers, channels, and chats… — 69 short\n• Critical vulnerabilities… — 74 short\n\nEverything alive on Dash:",
-      "at": "2026-08-28T08:11:19.000Z",
-      "reply": false,
-      "count": 1,
-      "m": {
-        "l": 0,
-        "r": 0,
-        "c": 0
-      },
-      "url": "https://x.com/DashSupportTeam/status/2093250058770669759"
     }
   ],
   "mirrored": {
-    "2093250058770669759": true,
     "2093250059668255182": true,
     "2093370823465693509": true,
     "2093370824451318056": true,
@@ -842,7 +841,8 @@
     "2098021237729501685": true,
     "2098082057838575777": true,
     "2098142229466317199": true,
-    "2098323227042840714": true
+    "2098323227042840714": true,
+    "2098383624693276797": true
   },
-  "updated": "2026-09-11T12:05:26.531Z"
+  "updated": "2026-09-11T12:20:26.482Z"
 }
