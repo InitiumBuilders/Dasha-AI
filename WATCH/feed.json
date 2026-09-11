@@ -2,6 +2,19 @@
   "username": "DashSupportTeam",
   "items": [
     {
+      "id": "2098504510544990606",
+      "text": "Group bills still mean copying addresses and trusting \"I sent it.\" Build a split-pay page tied to DPNS usernames: one link, each share paid provably on-chain. Dash identities kill the account layer—no backend, no custody.\n\nWhere builders thrive:",
+      "at": "2026-09-11T20:10:38.000Z",
+      "reply": false,
+      "count": 1,
+      "m": {
+        "l": 0,
+        "r": 0,
+        "c": 0
+      },
+      "url": "https://x.com/DashSupportTeam/status/2098504510544990606"
+    },
+    {
       "id": "2098475554680754564",
       "text": "New on the Dash ballot: Dash Academy 2026\n\n50 DASH/mo · 1/1 payments left · by ravenor\nIt says: It proposes a Dash Academy in 2026.\n\nNow 0 net yes · needs 311 more\n\nIts claim, not my endorsement — read it and decide:",
       "at": "2026-09-11T18:15:34.000Z",
@@ -767,23 +780,9 @@
         "c": 0
       },
       "url": "https://x.com/DashSupportTeam/status/2093370824451318056"
-    },
-    {
-      "id": "2093370823465693509",
-      "text": "Dash builders: expose the signing identity's credit balance before every state transition. Insufficient credits is the usual failure; one pre-sign balance check beats any post-error toast.\n\nAsk me anything:",
-      "at": "2026-08-28T16:11:11.000Z",
-      "reply": false,
-      "count": 1,
-      "m": {
-        "l": 0,
-        "r": 0,
-        "c": 0
-      },
-      "url": "https://x.com/DashSupportTeam/status/2093370823465693509"
     }
   ],
   "mirrored": {
-    "2093370823465693509": true,
     "2093370824451318056": true,
     "2093431215378297339": true,
     "2093612185188454818": true,
@@ -842,7 +841,8 @@
     "2098142229466317199": true,
     "2098323227042840714": true,
     "2098383624693276797": true,
-    "2098475554680754564": true
+    "2098475554680754564": true,
+    "2098504510544990606": true
   },
-  "updated": "2026-09-11T20:05:26.427Z"
+  "updated": "2026-09-11T20:20:26.453Z"
 }
