@@ -2,6 +2,19 @@
   "username": "DashSupportTeam",
   "items": [
     {
+      "id": "2098323227042840714",
+      "text": "Dash ballot — 7 days to the vote cutoff\n21 active · 6 passing · 5,170/6,828 DASH allotted\n\nClosest to the line:\n• Dash Growth Marketing Budget… — 86 short\n• Dash servers, channels, and chats… — 141 short\n\nEverything alive on Dash:",
+      "at": "2026-09-11T08:10:16.000Z",
+      "reply": false,
+      "count": 1,
+      "m": {
+        "l": 0,
+        "r": 0,
+        "c": 0
+      },
+      "url": "https://x.com/DashSupportTeam/status/2098323227042840714"
+    },
+    {
       "id": "2098142229466317199",
       "text": "[/systems-lens]\n\nThe leverage rung: a rule set at registration (schema structure), because the stock — permanent per-byte storage cost — starts accumulating the moment you commit a field.\n\nThe post:\n\nPlatform storage is permanent — 27k credits…\n\nAsk me anything:",
       "at": "2026-09-10T20:11:03.000Z",
@@ -767,23 +780,9 @@
         "c": 0
       },
       "url": "https://x.com/DashSupportTeam/status/2093250058770669759"
-    },
-    {
-      "id": "2093008396387598343",
-      "text": "Moonwell lost ~$8.7M this week via a manipulated smart contract. Dash executes no on-chain code; data contracts only validate documents, removing that vector. Trade-off: no native lending on Dash, but far less logic to exploit.\n\nEverything alive on Dash:",
-      "at": "2026-08-27T16:11:02.000Z",
-      "reply": false,
-      "count": 1,
-      "m": {
-        "l": 0,
-        "r": 0,
-        "c": 0
-      },
-      "url": "https://x.com/DashSupportTeam/status/2093008396387598343"
     }
   ],
   "mirrored": {
-    "2093008396387598343": true,
     "2093250058770669759": true,
     "2093250059668255182": true,
     "2093370823465693509": true,
@@ -842,7 +841,8 @@
     "2097961229432054094": true,
     "2098021237729501685": true,
     "2098082057838575777": true,
-    "2098142229466317199": true
+    "2098142229466317199": true,
+    "2098323227042840714": true
   },
-  "updated": "2026-09-11T08:05:26.494Z"
+  "updated": "2026-09-11T08:20:26.487Z"
 }
