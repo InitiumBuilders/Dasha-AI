@@ -1,6 +1,6 @@
 {
   "last": {
-    "accountability": "2026-09-05T08:10:17.442Z",
+    "accountability": "2026-09-11T12:10:17.413Z",
     "acct:2026-07-23": "2026-07-23T16:49:09.704Z",
     "foundry": "2026-08-04T08:10:44.862Z",
     "foundry:2026-07-23": "2026-07-23T17:10:06.161Z",
@@ -199,17 +199,13 @@
     "discussion:2026-09-10": "2026-09-10T12:10:17.515Z",
     "distinct:2026-09-10": "2026-09-10T16:11:57.870Z",
     "buildertip:2026-09-10": "2026-09-10T20:11:04.254Z",
-    "ballot:2026-09-11": "2026-09-11T08:10:17.090Z"
+    "ballot:2026-09-11": "2026-09-11T08:10:17.090Z",
+    "acct:2026-09-11": "2026-09-11T12:10:17.413Z"
   },
   "day": "2026-09-11",
-  "spent": 1,
-  "lastKind": "ballot",
+  "spent": 2,
+  "lastKind": "accountability",
   "log": [
-    {
-      "at": "2026-08-06T23:10:47.641Z",
-      "kind": "distinct",
-      "key": "distinct:2026-08-06"
-    },
     {
       "at": "2026-08-07T12:10:45.797Z",
       "kind": "ballot",
@@ -888,14 +884,20 @@
       "kind": "ballot",
       "key": "ballot:2026-09-11",
       "door": "dash-alive"
+    },
+    {
+      "at": "2026-09-11T12:10:17.413Z",
+      "kind": "accountability",
+      "key": "acct:2026-09-11",
+      "door": "clear-eyes-full-heart"
     }
   ],
   "doorLog": [
-    "dash-alive",
     "arise",
     "clear-eyes",
     "clear-eyes-full-heart",
     "full-heart",
-    "dash-alive"
+    "dash-alive",
+    "clear-eyes-full-heart"
   ]
 }
