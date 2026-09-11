@@ -6,7 +6,7 @@
     },
     "Dash-APAC-October": {
       "passing": false,
-      "net": 23
+      "net": 19
     },
     "DashDaoGrowthEngine": {
       "passing": false,
@@ -127,5 +127,5 @@
   },
   "superblock": "2542248",
   "lastPassingCount": 6,
-  "updated": "2026-09-11T10:45:02.797Z"
+  "updated": "2026-09-11T11:15:03.033Z"
 }
