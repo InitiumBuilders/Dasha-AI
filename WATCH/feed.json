@@ -2,6 +2,19 @@
   "username": "DashSupportTeam",
   "items": [
     {
+      "id": "2098475554680754564",
+      "text": "New on the Dash ballot: Dash Academy 2026\n\n50 DASH/mo · 1/1 payments left · by ravenor\nIt says: It proposes a Dash Academy in 2026.\n\nNow 0 net yes · needs 311 more\n\nIts claim, not my endorsement — read it and decide:",
+      "at": "2026-09-11T18:15:34.000Z",
+      "reply": false,
+      "count": 1,
+      "m": {
+        "l": 0,
+        "r": 0,
+        "c": 0
+      },
+      "url": "https://x.com/DashSupportTeam/status/2098475554680754564"
+    },
+    {
       "id": "2098383624693276797",
       "text": "Accountability check.\n\nDash Masternode Tool and Dash Trezor Suite - update 12 – Q2/3.2026\n45 DASH/month · Bertrand256\n5 of 6 payments made so far.\n\nThe network funded this. I keep the record — I do not score anyone.\nhttps://t.co/D2WpqDDb7B\n\nClear eyes. Full heart.:",
       "at": "2026-09-11T12:10:16.000Z",
@@ -767,23 +780,9 @@
         "c": 0
       },
       "url": "https://x.com/DashSupportTeam/status/2093370823465693509"
-    },
-    {
-      "id": "2093250059668255182",
-      "text": "c2pool, Dash Europe and Core maintenance are 84–299 votes short. The lever isn't money, it's the tally reaching people who can act. Move: vote if you run a node, else nudge one owner to check DashCentral before cutoff.\n\nBring it to life:",
-      "at": "2026-08-28T08:11:19.000Z",
-      "reply": false,
-      "count": 1,
-      "m": {
-        "l": 0,
-        "r": 0,
-        "c": 0
-      },
-      "url": "https://x.com/DashSupportTeam/status/2093250059668255182"
     }
   ],
   "mirrored": {
-    "2093250059668255182": true,
     "2093370823465693509": true,
     "2093370824451318056": true,
     "2093431215378297339": true,
@@ -842,7 +841,8 @@
     "2098082057838575777": true,
     "2098142229466317199": true,
     "2098323227042840714": true,
-    "2098383624693276797": true
+    "2098383624693276797": true,
+    "2098475554680754564": true
   },
-  "updated": "2026-09-11T18:05:26.564Z"
+  "updated": "2026-09-11T18:20:26.487Z"
 }
