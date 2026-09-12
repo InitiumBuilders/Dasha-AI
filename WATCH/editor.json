@@ -68,7 +68,7 @@
     "ballot:2026-08-04": "2026-08-04T12:12:15.457Z",
     "nextmove": "2026-09-12T12:12:49.395Z",
     "nextmove:2026-08-04": "2026-08-04T12:12:15.457Z",
-    "buildertip": "2026-09-10T20:11:04.254Z",
+    "buildertip": "2026-09-12T23:12:29.972Z",
     "buildertip:2026-08-04": "2026-08-04T16:11:22.240Z",
     "acct:2026-08-05": "2026-08-05T08:11:25.002Z",
     "builderidea": "2026-09-11T20:10:38.455Z",
@@ -205,17 +205,13 @@
     "ballot:2026-09-12": "2026-09-12T08:10:18.202Z",
     "forecast:2026-09-12": "2026-09-12T08:10:18.202Z",
     "nextmove:2026-09-12": "2026-09-12T12:12:49.395Z",
-    "network:2026-09-12": "2026-09-12T12:12:49.395Z"
+    "network:2026-09-12": "2026-09-12T12:12:49.395Z",
+    "buildertip:2026-09-12": "2026-09-12T23:12:29.972Z"
   },
   "day": "2026-09-12",
-  "spent": 4,
-  "lastKind": "network",
+  "spent": 5,
+  "lastKind": "buildertip",
   "log": [
-    {
-      "at": "2026-08-09T12:10:34.688Z",
-      "kind": "ballot",
-      "key": "ballot:2026-08-09"
-    },
     {
       "at": "2026-08-09T12:10:34.688Z",
       "kind": "discussion",
@@ -900,14 +896,20 @@
       "kind": "network",
       "key": "network:2026-09-12",
       "door": "dash-alive"
+    },
+    {
+      "at": "2026-09-12T23:12:29.972Z",
+      "kind": "buildertip",
+      "key": "buildertip:2026-09-12",
+      "door": "full-heart"
     }
   ],
   "doorLog": [
-    "clear-eyes-full-heart",
     "thrive",
     "dash-alive",
     "clear-eyes",
     "arise",
-    "dash-alive"
+    "dash-alive",
+    "full-heart"
   ]
 }
