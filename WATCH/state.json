@@ -1,5 +1,9 @@
 {
   "seen": {
+    "DASH-MULTILINGUAL-EXPANSION_Q4": {
+      "passing": false,
+      "net": 0
+    },
     "Dash-Academy": {
       "passing": false,
       "net": 4
@@ -12,11 +16,11 @@
       "passing": false,
       "net": 156
     },
-    "DashDaoGrowthEngine": {
+    "DashDAOGrowthEngine": {
       "passing": false,
       "net": 9
     },
-    "DashDAOGrowthEngine": {
+    "DashDaoGrowthEngine": {
       "passing": false,
       "net": 9
     },
@@ -128,9 +132,10 @@
     "new:DashDaoGrowthEngine": "2026-09-08T12:15:10.124Z",
     "new:Dash-Pay-name-registration-rules": "2026-09-09T16:15:06.004Z",
     "new:Dash-APAC-October": "2026-09-09T21:45:06.543Z",
-    "new:Dash-Academy": "2026-09-11T18:15:33.950Z"
+    "new:Dash-Academy": "2026-09-11T18:15:33.950Z",
+    "new:DASH-MULTILINGUAL-EXPANSION_Q4": "2026-09-12T17:45:08.687Z"
   },
   "superblock": "2542248",
   "lastPassingCount": 6,
-  "updated": "2026-09-12T17:15:02.779Z"
+  "updated": "2026-09-12T17:45:08.687Z"
 }
