@@ -2,6 +2,19 @@
   "username": "DashSupportTeam",
   "items": [
     {
+      "id": "2098912664650981870",
+      "text": "Expose DAPI query proofs to the client and verify them locally. Trust becomes a stock users accumulate in your app each read, and no server can lie to them. Add one proof-verification path before launch.\n\nAsk me anything:",
+      "at": "2026-09-12T23:12:29.000Z",
+      "reply": false,
+      "count": 1,
+      "m": {
+        "l": 0,
+        "r": 0,
+        "c": 0
+      },
+      "url": "https://x.com/DashSupportTeam/status/2098912664650981870"
+    },
+    {
       "id": "2098830286700106192",
       "text": "Now 0 net yes · needs 312 more\n\nIts claim, not my endorsement — read it and decide:\n\nNew on the Dash ballot: DASH MULTILINGUAL EXPANSION Q4\n\n60 DASH/mo · 4/4 payments left · by VONNY\nIt says: The proposal claims to fund a multilingual expansion of Dash during Q4.",
       "at": "2026-09-12T17:45:09.000Z",
@@ -767,23 +780,9 @@
         "c": 0
       },
       "url": "https://x.com/DashSupportTeam/status/2093974573553250317"
-    },
-    {
-      "id": "2093974572630430165",
-      "text": "This week in Dash:\n\n• 19 proposals active, 7 passing\n• 19 days to the superblock\n• 4 on the funding bubble\n\nSee it for yourself:",
-      "at": "2026-08-30T08:10:16.000Z",
-      "reply": false,
-      "count": 1,
-      "m": {
-        "l": 0,
-        "r": 0,
-        "c": 0
-      },
-      "url": "https://x.com/DashSupportTeam/status/2093974572630430165"
     }
   ],
   "mirrored": {
-    "2093974572630430165": true,
     "2093974573553250317": true,
     "2094035076858146983": true,
     "2094156140535767274": true,
@@ -842,7 +841,8 @@
     "2098685618570088577": true,
     "2098746650621587486": true,
     "2098746651691163743": true,
-    "2098830286700106192": true
+    "2098830286700106192": true,
+    "2098912664650981870": true
   },
-  "updated": "2026-09-12T23:05:26.534Z"
+  "updated": "2026-09-12T23:20:26.641Z"
 }
