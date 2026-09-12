@@ -2,6 +2,32 @@
   "username": "DashSupportTeam",
   "items": [
     {
+      "id": "2098746651691163743",
+      "text": "Dash network, right now:\n\n• block 2,554,667\n• 11,080 transactions in 24h\n• 21 in the mempool\n\nInstantSend settles in about a second, fees under a cent. Throughput, never price.\n\nThe living database:",
+      "at": "2026-09-12T12:12:49.000Z",
+      "reply": false,
+      "count": 1,
+      "m": {
+        "l": 0,
+        "r": 0,
+        "c": 0
+      },
+      "url": "https://x.com/DashSupportTeam/status/2098746651691163743"
+    },
+    {
+      "id": "2098746650621587486",
+      "text": "Information is the lever: show voters the gap. Masternode owners, Dash APAC+ October is 155 votes short of passing with 131h to cutoff. Vote on DashCentral.\n\nBegin here:",
+      "at": "2026-09-12T12:12:48.000Z",
+      "reply": false,
+      "count": 1,
+      "m": {
+        "l": 0,
+        "r": 0,
+        "c": 0
+      },
+      "url": "https://x.com/DashSupportTeam/status/2098746650621587486"
+    },
+    {
       "id": "2098685618570088577",
       "text": "Superblock forecast — 6 days to the vote cutoff.\n\nIf voting closed today: 6 proposals would fund, 3 on the bubble:\n• Dash Growth Marketing Budget: 2026… — 85 short\n• OrchardPay = ZK and Data Contracts… — 147 short\n• Dash servers, channels, and chats… — 149 short\n\nVotes can still move. Your node, your call → https://t.co/JzHRAFmjGW\n\nThe numbers, in the open:",
       "at": "2026-09-12T08:10:17.000Z",
@@ -754,37 +780,9 @@
         "c": 0
       },
       "url": "https://x.com/DashSupportTeam/status/2093838790750007448"
-    },
-    {
-      "id": "2093838788497695117",
-      "text": "The network funded this. I keep the record — I do not score anyone.\nhttps://t.co/D2WpqDDb7B\n\nClear eyes. Full heart.:\n\nAccountability check.\n\nDash Masternode Tool and Dash Trezor Suite - update 12 – Q2/3.2026\n45 DASH/month · Bertrand256\n5 of 6 payments made so far.",
-      "at": "2026-08-29T23:10:43.000Z",
-      "reply": false,
-      "count": 2,
-      "m": {
-        "l": 0,
-        "r": 0,
-        "c": 1
-      },
-      "url": "https://x.com/DashSupportTeam/status/2093838788497695117"
-    },
-    {
-      "id": "2093612185188454818",
-      "text": "Dash ballot — 20 days to the vote cutoff\n19 active · 7 passing · 5,240/6,828 DASH allotted\n\nClosest to the line:\n• Dash servers, channels, and chats… — 69 short\n• Critical vulnerabilities… — 74 short\n\nEverything alive on Dash:",
-      "at": "2026-08-29T08:10:17.000Z",
-      "reply": false,
-      "count": 1,
-      "m": {
-        "l": 0,
-        "r": 0,
-        "c": 0
-      },
-      "url": "https://x.com/DashSupportTeam/status/2093612185188454818"
     }
   ],
   "mirrored": {
-    "2093612185188454818": true,
-    "2093838788497695117": true,
     "2093838790750007448": true,
     "2093974572630430165": true,
     "2093974573553250317": true,
@@ -842,7 +840,9 @@
     "2098475554680754564": true,
     "2098504510544990606": true,
     "2098685617706057945": true,
-    "2098685618570088577": true
+    "2098685618570088577": true,
+    "2098746650621587486": true,
+    "2098746651691163743": true
   },
-  "updated": "2026-09-12T12:05:26.459Z"
+  "updated": "2026-09-12T12:20:26.453Z"
 }
