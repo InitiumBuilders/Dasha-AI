@@ -2,6 +2,32 @@
   "username": "DashSupportTeam",
   "items": [
     {
+      "id": "2098685618570088577",
+      "text": "Superblock forecast — 6 days to the vote cutoff.\n\nIf voting closed today: 6 proposals would fund, 3 on the bubble:\n• Dash Growth Marketing Budget: 2026… — 85 short\n• OrchardPay = ZK and Data Contracts… — 147 short\n• Dash servers, channels, and chats… — 149 short\n\nVotes can still move. Your node, your call → https://t.co/JzHRAFmjGW\n\nThe numbers, in the open:",
+      "at": "2026-09-12T08:10:17.000Z",
+      "reply": false,
+      "count": 2,
+      "m": {
+        "l": 0,
+        "r": 0,
+        "c": 1
+      },
+      "url": "https://x.com/DashSupportTeam/status/2098685618570088577"
+    },
+    {
+      "id": "2098685617706057945",
+      "text": "Dash ballot — 6 days to the vote cutoff\n22 active · 6 passing · 5,170/6,828 DASH allotted\n\nClosest to the line:\n• Dash Growth Marketing Budget… — 85 short\n• OrchardPay = ZK and Data… — 147 short\n\nEverything alive on Dash:",
+      "at": "2026-09-12T08:10:17.000Z",
+      "reply": false,
+      "count": 1,
+      "m": {
+        "l": 0,
+        "r": 0,
+        "c": 0
+      },
+      "url": "https://x.com/DashSupportTeam/status/2098685617706057945"
+    },
+    {
       "id": "2098504510544990606",
       "text": "Group bills still mean copying addresses and trusting \"I sent it.\" Build a split-pay page tied to DPNS usernames: one link, each share paid provably on-chain. Dash identities kill the account layer—no backend, no custody.\n\nWhere builders thrive:",
       "at": "2026-09-11T20:10:38.000Z",
@@ -754,37 +780,9 @@
         "c": 0
       },
       "url": "https://x.com/DashSupportTeam/status/2093612185188454818"
-    },
-    {
-      "id": "2093431215378297339",
-      "text": "Most chains wait out confirmations or trust validators; Dash ChainLocks have a masternode quorum sign the first-seen block, locking it in ~2s so 51% reorgs are infeasible. Trade-off: Dash relies on the quorum; others wait longer.\n\nClear eyes. Full heart.:",
-      "at": "2026-08-28T20:11:10.000Z",
-      "reply": false,
-      "count": 1,
-      "m": {
-        "l": 0,
-        "r": 0,
-        "c": 0
-      },
-      "url": "https://x.com/DashSupportTeam/status/2093431215378297339"
-    },
-    {
-      "id": "2093370824451318056",
-      "text": "Most discussed on the Dash ballot right now:\n\nCritical vulnerabilities disclosure and independant…\n46 comments.\n\nThe community is already weighing in. Read the thread and the tally:\nhttps://t.co/s22QYEMCkn\n\nThe numbers, in the open:",
-      "at": "2026-08-28T16:11:12.000Z",
-      "reply": false,
-      "count": 1,
-      "m": {
-        "l": 0,
-        "r": 0,
-        "c": 0
-      },
-      "url": "https://x.com/DashSupportTeam/status/2093370824451318056"
     }
   ],
   "mirrored": {
-    "2093370824451318056": true,
-    "2093431215378297339": true,
     "2093612185188454818": true,
     "2093838788497695117": true,
     "2093838790750007448": true,
@@ -842,7 +840,9 @@
     "2098323227042840714": true,
     "2098383624693276797": true,
     "2098475554680754564": true,
-    "2098504510544990606": true
+    "2098504510544990606": true,
+    "2098685617706057945": true,
+    "2098685618570088577": true
   },
-  "updated": "2026-09-12T08:05:26.407Z"
+  "updated": "2026-09-12T08:20:26.442Z"
 }
