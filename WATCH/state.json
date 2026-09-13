@@ -1,5 +1,13 @@
 {
   "seen": {
+    "pshenmic-dev-pe-september-2026": {
+      "passing": false,
+      "net": 0
+    },
+    "pshenmic-dev-dpw-extension-october-2026": {
+      "passing": false,
+      "net": 0
+    },
     "pshenmic-dev-dash-desktop-october-2026": {
       "passing": false,
       "net": 0
@@ -143,9 +151,11 @@
     "new:Dash-Academy": "2026-09-11T18:15:33.950Z",
     "new:DASH-MULTILINGUAL-EXPANSION_Q4": "2026-09-12T17:45:08.687Z",
     "new:pshenmic-dev-dfo-october-2026": "2026-09-13T17:15:11.983Z",
-    "new:pshenmic-dev-dash-desktop-october-2026": "2026-09-13T18:15:10.113Z"
+    "new:pshenmic-dev-dash-desktop-october-2026": "2026-09-13T18:15:10.113Z",
+    "new:pshenmic-dev-pe-september-2026": "2026-09-13T20:45:05.620Z",
+    "new:pshenmic-dev-dpw-extension-october-2026": "2026-09-13T20:45:05.620Z"
   },
   "superblock": "2542248",
   "lastPassingCount": 6,
-  "updated": "2026-09-13T20:15:02.752Z"
+  "updated": "2026-09-13T20:45:05.620Z"
 }
