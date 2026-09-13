@@ -2,6 +2,32 @@
   "username": "DashSupportTeam",
   "items": [
     {
+      "id": "2099048171900907718",
+      "text": "Dash ballot — 5 days to the vote cutoff\n23 active · 6 passing · 5,170/6,828 DASH allotted\n\nClosest to the line:\n• Dash Growth Q4 2026: Growth… — 57 short\n• Dash Growth Marketing Budget… — 86 short\n\nThe living database:",
+      "at": "2026-09-13T08:10:57.000Z",
+      "reply": false,
+      "count": 1,
+      "m": {
+        "l": 0,
+        "r": 0,
+        "c": 0
+      },
+      "url": "https://x.com/DashSupportTeam/status/2099048171900907718"
+    },
+    {
+      "id": "2099048171095650326",
+      "text": "This week in Dash:\n\n• 23 proposals active, 6 passing\n• 5 days to the superblock\n• 5 on the funding bubble\n\nSee it for yourself:",
+      "at": "2026-09-13T08:10:57.000Z",
+      "reply": false,
+      "count": 1,
+      "m": {
+        "l": 0,
+        "r": 0,
+        "c": 0
+      },
+      "url": "https://x.com/DashSupportTeam/status/2099048171095650326"
+    },
+    {
       "id": "2098912664650981870",
       "text": "Expose DAPI query proofs to the client and verify them locally. Trust becomes a stock users accumulate in your app each read, and no server can lie to them. Add one proof-verification path before launch.\n\nAsk me anything:",
       "at": "2026-09-12T23:12:29.000Z",
@@ -754,37 +780,9 @@
         "c": 1
       },
       "url": "https://x.com/DashSupportTeam/status/2094156140535767274"
-    },
-    {
-      "id": "2094035076858146983",
-      "text": "Lever: put the exact gaps where voters see them. Two code proposals are short — Dash Core maintenance 268, c2pool's node 226. Masternode owners: check your ballot, close both first.\n\nBegin here:",
-      "at": "2026-08-30T12:10:42.000Z",
-      "reply": false,
-      "count": 1,
-      "m": {
-        "l": 0,
-        "r": 0,
-        "c": 0
-      },
-      "url": "https://x.com/DashSupportTeam/status/2094035076858146983"
-    },
-    {
-      "id": "2093974573553250317",
-      "text": "Dash ballot — 19 days to the vote cutoff\n19 active · 7 passing · 5,240/6,828 DASH allotted\n\nClosest to the line:\n• Dash servers, channels, and chats… — 70 short\n• Critical vulnerabilities… — 75 short\n\nThe living database:",
-      "at": "2026-08-30T08:10:17.000Z",
-      "reply": false,
-      "count": 1,
-      "m": {
-        "l": 0,
-        "r": 0,
-        "c": 0
-      },
-      "url": "https://x.com/DashSupportTeam/status/2093974573553250317"
     }
   ],
   "mirrored": {
-    "2093974573553250317": true,
-    "2094035076858146983": true,
     "2094156140535767274": true,
     "2094156142511357999": true,
     "2094337035804790875": true,
@@ -842,7 +840,9 @@
     "2098746650621587486": true,
     "2098746651691163743": true,
     "2098830286700106192": true,
-    "2098912664650981870": true
+    "2098912664650981870": true,
+    "2099048171095650326": true,
+    "2099048171900907718": true
   },
-  "updated": "2026-09-13T08:05:26.376Z"
+  "updated": "2026-09-13T08:20:26.443Z"
 }
