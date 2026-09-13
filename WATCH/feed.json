@@ -2,6 +2,19 @@
   "username": "DashSupportTeam",
   "items": [
     {
+      "id": "2099185138944921975",
+      "text": "New on the Dash ballot: pshenmic-dev-dfo-october-2026\n\n200 DASH/mo · 1/1 payments left · by pshenmic\n\nNow 0 net yes · needs 312 more\n\nIts claim, not my endorsement — read it and decide:",
+      "at": "2026-09-13T17:15:12.000Z",
+      "reply": false,
+      "count": 1,
+      "m": {
+        "l": 0,
+        "r": 0,
+        "c": 0
+      },
+      "url": "https://x.com/DashSupportTeam/status/2099185138944921975"
+    },
+    {
       "id": "2099168797219242482",
       "text": "Most discussed on the Dash ballot right now:\n\nDash Growth Q4 2026: Growth Marketing and Business…\n37 comments.\n\nThe community is already weighing in. Read the thread and the tally:\nhttps://t.co/7I7BK5TFpk\n\nSee it for yourself:",
       "at": "2026-09-13T16:10:16.000Z",
@@ -767,23 +780,9 @@
         "c": 1
       },
       "url": "https://x.com/DashSupportTeam/status/2094337036744261939"
-    },
-    {
-      "id": "2094337035804790875",
-      "text": "Dash ballot — 18 days to the vote cutoff\n19 active · 7 passing · 5,240/6,828 DASH allotted\n\nClosest to the line:\n• Dash servers, channels, and chats… — 70 short\n• Critical vulnerabilities… — 75 short\n\nEverything alive on Dash:",
-      "at": "2026-08-31T08:10:34.000Z",
-      "reply": false,
-      "count": 1,
-      "m": {
-        "l": 0,
-        "r": 0,
-        "c": 0
-      },
-      "url": "https://x.com/DashSupportTeam/status/2094337035804790875"
     }
   ],
   "mirrored": {
-    "2094337035804790875": true,
     "2094337036744261939": true,
     "2094518155162886474": true,
     "2094699349653520451": true,
@@ -842,7 +841,8 @@
     "2099048171095650326": true,
     "2099048171900907718": true,
     "2099108560609096190": true,
-    "2099168797219242482": true
+    "2099168797219242482": true,
+    "2099185138944921975": true
   },
-  "updated": "2026-09-13T17:05:26.585Z"
+  "updated": "2026-09-13T17:20:26.447Z"
 }
