@@ -2,6 +2,32 @@
   "username": "DashSupportTeam",
   "items": [
     {
+      "id": "2099237961866825866",
+      "text": "New on the Dash ballot: pshenmic-dev-dpw-extension-october-2026\n\n200 DASH/mo · 1/1 payments left\n\nNow 0 net yes · needs 312 more\n\nIts claim, not my endorsement — read it and decide:",
+      "at": "2026-09-13T20:45:06.000Z",
+      "reply": false,
+      "count": 1,
+      "m": {
+        "l": 0,
+        "r": 0,
+        "c": 0
+      },
+      "url": "https://x.com/DashSupportTeam/status/2099237961866825866"
+    },
+    {
+      "id": "2099237960700805494",
+      "text": "New on the Dash ballot: pshenmic-dev-pe-september-2026\n\n50 DASH/mo · 1/1 payments left\n\nNow 0 net yes · needs 312 more\n\nIts claim, not my endorsement — read it and decide:",
+      "at": "2026-09-13T20:45:06.000Z",
+      "reply": false,
+      "count": 1,
+      "m": {
+        "l": 0,
+        "r": 0,
+        "c": 0
+      },
+      "url": "https://x.com/DashSupportTeam/status/2099237960700805494"
+    },
+    {
       "id": "2099200230499459174",
       "text": "New on the Dash ballot: pshenmic-dev-dash-desktop-october-2026\n\n100 DASH/mo · 1/1 payments left\nIt says: This proposal claims to fund pshenmic's development work on the Dash Desktop application for October 2026.\n\nNow 0 net yes · needs 312 more\n\nIts claim, not my endorsement — read it and decide:",
       "at": "2026-09-13T18:15:10.000Z",
@@ -754,37 +780,9 @@
         "c": 0
       },
       "url": "https://x.com/DashSupportTeam/status/2094760274305720522"
-    },
-    {
-      "id": "2094699349653520451",
-      "text": "Dash ballot — 17 days to the vote cutoff\n19 active · 7 passing · 5,240/6,828 DASH allotted\n\nClosest to the line:\n• Dash servers, channels, and chats… — 70 short\n• Critical vulnerabilities… — 75 short\n\nEverything alive on Dash:",
-      "at": "2026-09-01T08:10:17.000Z",
-      "reply": false,
-      "count": 1,
-      "m": {
-        "l": 0,
-        "r": 0,
-        "c": 0
-      },
-      "url": "https://x.com/DashSupportTeam/status/2094699349653520451"
-    },
-    {
-      "id": "2094518155162886474",
-      "text": "Most discussed on the Dash ballot right now:\n\nCritical vulnerabilities disclosure and independant…\n46 comments.\n\nThe community is already weighing in. Read the thread and the tally:\nhttps://t.co/s22QYEMCkn\n\nSee it for yourself:",
-      "at": "2026-08-31T20:10:17.000Z",
-      "reply": false,
-      "count": 1,
-      "m": {
-        "l": 0,
-        "r": 0,
-        "c": 0
-      },
-      "url": "https://x.com/DashSupportTeam/status/2094518155162886474"
     }
   ],
   "mirrored": {
-    "2094518155162886474": true,
-    "2094699349653520451": true,
     "2094760274305720522": true,
     "2094836468619321472": true,
     "2094926097129296364": true,
@@ -842,7 +840,9 @@
     "2099108560609096190": true,
     "2099168797219242482": true,
     "2099185138944921975": true,
-    "2099200230499459174": true
+    "2099200230499459174": true,
+    "2099237960700805494": true,
+    "2099237961866825866": true
   },
-  "updated": "2026-09-13T20:35:26.433Z"
+  "updated": "2026-09-13T20:50:26.773Z"
 }
