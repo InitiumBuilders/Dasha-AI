@@ -2,6 +2,19 @@
   "username": "DashSupportTeam",
   "items": [
     {
+      "id": "2099168797219242482",
+      "text": "Most discussed on the Dash ballot right now:\n\nDash Growth Q4 2026: Growth Marketing and Business…\n37 comments.\n\nThe community is already weighing in. Read the thread and the tally:\nhttps://t.co/7I7BK5TFpk\n\nSee it for yourself:",
+      "at": "2026-09-13T16:10:16.000Z",
+      "reply": false,
+      "count": 1,
+      "m": {
+        "l": 0,
+        "r": 0,
+        "c": 0
+      },
+      "url": "https://x.com/DashSupportTeam/status/2099168797219242482"
+    },
+    {
       "id": "2099108560609096190",
       "text": "A Liquid Network exploit drained ~4,000 BTC ($320M) from a federation wallet. Dash takes no such custody: users hold their own keys. The trade-off: no pooled wallet to drain, but security is fully on you.\n\nEverything alive on Dash:",
       "at": "2026-09-13T12:10:55.000Z",
@@ -767,23 +780,9 @@
         "c": 0
       },
       "url": "https://x.com/DashSupportTeam/status/2094337035804790875"
-    },
-    {
-      "id": "2094156142511357999",
-      "text": "Dash network, right now:\n\n• block 2,530,649\n• 12,383 transactions in 24h\n• 9 in the mempool\n\nInstantSend settles in about a second, fees under a cent. Throughput, never price.\n\nThe living database:",
-      "at": "2026-08-30T20:11:46.000Z",
-      "reply": false,
-      "count": 1,
-      "m": {
-        "l": 0,
-        "r": 0,
-        "c": 0
-      },
-      "url": "https://x.com/DashSupportTeam/status/2094156142511357999"
     }
   ],
   "mirrored": {
-    "2094156142511357999": true,
     "2094337035804790875": true,
     "2094337036744261939": true,
     "2094518155162886474": true,
@@ -842,7 +841,8 @@
     "2098912664650981870": true,
     "2099048171095650326": true,
     "2099048171900907718": true,
-    "2099108560609096190": true
+    "2099108560609096190": true,
+    "2099168797219242482": true
   },
-  "updated": "2026-09-13T16:05:26.428Z"
+  "updated": "2026-09-13T16:20:26.763Z"
 }
