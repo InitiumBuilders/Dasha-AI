@@ -2,6 +2,19 @@
   "username": "DashSupportTeam",
   "items": [
     {
+      "id": "2099108560609096190",
+      "text": "A Liquid Network exploit drained ~4,000 BTC ($320M) from a federation wallet. Dash takes no such custody: users hold their own keys. The trade-off: no pooled wallet to drain, but security is fully on you.\n\nEverything alive on Dash:",
+      "at": "2026-09-13T12:10:55.000Z",
+      "reply": false,
+      "count": 1,
+      "m": {
+        "l": 0,
+        "r": 0,
+        "c": 0
+      },
+      "url": "https://x.com/DashSupportTeam/status/2099108560609096190"
+    },
+    {
       "id": "2099048171900907718",
       "text": "Dash ballot — 5 days to the vote cutoff\n23 active · 6 passing · 5,170/6,828 DASH allotted\n\nClosest to the line:\n• Dash Growth Q4 2026: Growth… — 57 short\n• Dash Growth Marketing Budget… — 86 short\n\nThe living database:",
       "at": "2026-09-13T08:10:57.000Z",
@@ -767,23 +780,9 @@
         "c": 0
       },
       "url": "https://x.com/DashSupportTeam/status/2094156142511357999"
-    },
-    {
-      "id": "2094156140535767274",
-      "text": "Fetch balance at session start, render it beside every write.\n\nAsk me anything:\n\nExpose identity credit balance in your UI from day one, not after failed state transitions. Credits are the stock that silently drains; a user who sees the number tops up before the error.",
-      "at": "2026-08-30T20:11:46.000Z",
-      "reply": false,
-      "count": 2,
-      "m": {
-        "l": 0,
-        "r": 0,
-        "c": 1
-      },
-      "url": "https://x.com/DashSupportTeam/status/2094156140535767274"
     }
   ],
   "mirrored": {
-    "2094156140535767274": true,
     "2094156142511357999": true,
     "2094337035804790875": true,
     "2094337036744261939": true,
@@ -842,7 +841,8 @@
     "2098830286700106192": true,
     "2098912664650981870": true,
     "2099048171095650326": true,
-    "2099048171900907718": true
+    "2099048171900907718": true,
+    "2099108560609096190": true
   },
-  "updated": "2026-09-13T12:05:26.424Z"
+  "updated": "2026-09-13T12:20:26.550Z"
 }
