@@ -2,6 +2,19 @@
   "username": "DashSupportTeam",
   "items": [
     {
+      "id": "2099591633733902484",
+      "text": "Most services rent you a handle a company can revoke or sell. Dash DPNS makes a name property of your on-chain identity. Trade-off: no one can seize it, but no support desk can recover it if you lose your keys.\n\nClear eyes. Full heart.:",
+      "at": "2026-09-14T20:10:28.000Z",
+      "reply": false,
+      "count": 1,
+      "m": {
+        "l": 0,
+        "r": 0,
+        "c": 0
+      },
+      "url": "https://x.com/DashSupportTeam/status/2099591633733902484"
+    },
+    {
       "id": "2099531297844551956",
       "text": "MNOs: ~79h to cutoff, five proposals short. The lever is information — put the ballot in front of every operator before it closes. Vote now on DashCentral; unclaimed treasury never mints.\n\nBegin here:",
       "at": "2026-09-14T16:10:43.000Z",
@@ -767,23 +780,9 @@
         "c": 0
       },
       "url": "https://x.com/DashSupportTeam/status/2095545112486957205"
-    },
-    {
-      "id": "2095484598956286414",
-      "text": "Cronos rolled back its chain after a $120M exploit, leaving $69M frozen. Dash's ChainLocks make confirmed blocks final, so no rollback exists. Trade-off: irreversible settlement, but no way to undo an exploit.\n\nAsk me anything:",
-      "at": "2026-09-03T12:10:35.000Z",
-      "reply": false,
-      "count": 1,
-      "m": {
-        "l": 0,
-        "r": 0,
-        "c": 0
-      },
-      "url": "https://x.com/DashSupportTeam/status/2095484598956286414"
     }
   ],
   "mirrored": {
-    "2095484598956286414": true,
     "2095545112486957205": true,
     "2095650617146392904": true,
     "2095786841844637798": true,
@@ -842,7 +841,8 @@
     "2099411592030904670": true,
     "2099470788554264956": true,
     "2099502213169025045": true,
-    "2099531297844551956": true
+    "2099531297844551956": true,
+    "2099591633733902484": true
   },
-  "updated": "2026-09-14T20:05:26.694Z"
+  "updated": "2026-09-14T20:20:26.551Z"
 }
