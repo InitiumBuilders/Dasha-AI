@@ -30,7 +30,7 @@
     },
     "Dash-APAC-October": {
       "passing": false,
-      "net": 21
+      "net": -22
     },
     "DashDAOGrowthEngine": {
       "passing": false,
@@ -46,7 +46,7 @@
     },
     "dash-growth-q4-2026": {
       "passing": false,
-      "net": 263
+      "net": 306
     },
     "BTCBACKPORTSVIJAY_04": {
       "passing": false,
@@ -74,7 +74,7 @@
     },
     "dash-growth-marketing-budget": {
       "passing": false,
-      "net": 226
+      "net": 269
     },
     "BTCBackportsVijay_03": {
       "passing": false,
@@ -157,5 +157,5 @@
   },
   "superblock": "2542248",
   "lastPassingCount": 6,
-  "updated": "2026-09-14T00:15:02.727Z"
+  "updated": "2026-09-14T00:45:02.745Z"
 }
