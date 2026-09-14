@@ -2,6 +2,19 @@
   "username": "DashSupportTeam",
   "items": [
     {
+      "id": "2099336094382727668",
+      "text": "Dash Growth Q4 2026: Growth Marketing and Business Development just crossed the funding line.\n\nNow passing at 314 net yes.\nVotes can still change — 4 days to the vote cutoff.",
+      "at": "2026-09-14T03:15:03.000Z",
+      "reply": false,
+      "count": 1,
+      "m": {
+        "l": 0,
+        "r": 0,
+        "c": 0
+      },
+      "url": "https://x.com/DashSupportTeam/status/2099336094382727668"
+    },
+    {
       "id": "2099237961866825866",
       "text": "New on the Dash ballot: pshenmic-dev-dpw-extension-october-2026\n\n200 DASH/mo · 1/1 payments left\n\nNow 0 net yes · needs 312 more\n\nIts claim, not my endorsement — read it and decide:",
       "at": "2026-09-13T20:45:06.000Z",
@@ -767,23 +780,9 @@
         "c": 1
       },
       "url": "https://x.com/DashSupportTeam/status/2094836468619321472"
-    },
-    {
-      "id": "2094760274305720522",
-      "text": "The lever is information: three proposals are short—230, 212, 85 votes. Put those exact deficits in front of masternode owners and ask them to vote before cutoff in 16 days.\n\nWhere builders thrive:",
-      "at": "2026-09-01T12:12:22.000Z",
-      "reply": false,
-      "count": 1,
-      "m": {
-        "l": 0,
-        "r": 0,
-        "c": 0
-      },
-      "url": "https://x.com/DashSupportTeam/status/2094760274305720522"
     }
   ],
   "mirrored": {
-    "2094760274305720522": true,
     "2094836468619321472": true,
     "2094926097129296364": true,
     "2094926098064687257": true,
@@ -842,7 +841,8 @@
     "2099185138944921975": true,
     "2099200230499459174": true,
     "2099237960700805494": true,
-    "2099237961866825866": true
+    "2099237961866825866": true,
+    "2099336094382727668": true
   },
-  "updated": "2026-09-14T03:05:26.453Z"
+  "updated": "2026-09-14T03:20:26.762Z"
 }
