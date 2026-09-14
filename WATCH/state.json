@@ -22,7 +22,7 @@
     },
     "Dash-Academy": {
       "passing": false,
-      "net": -33
+      "net": -23
     },
     "Dash-Pay-name-registration-rules": {
       "passing": false,
@@ -159,5 +159,5 @@
   },
   "superblock": "2542248",
   "lastPassingCount": 6,
-  "updated": "2026-09-14T08:45:02.705Z"
+  "updated": "2026-09-14T09:15:03.065Z"
 }
