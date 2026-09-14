@@ -10,11 +10,11 @@
     },
     "pshenmic-dev-dpw-extension-october-2026": {
       "passing": false,
-      "net": 99
+      "net": 103
     },
     "pshenmic-dev-dash-desktop-october-2026": {
       "passing": false,
-      "net": 270
+      "net": 271
     },
     "pshenmic-dev-dfo-october-2026": {
       "passing": false,
@@ -22,7 +22,7 @@
     },
     "DASH-MULTILINGUAL-EXPANSION_Q4": {
       "passing": false,
-      "net": 151
+      "net": 150
     },
     "Dash-Academy": {
       "passing": false,
@@ -164,5 +164,5 @@
   },
   "superblock": "2542248",
   "lastPassingCount": 6,
-  "updated": "2026-09-14T18:15:02.801Z"
+  "updated": "2026-09-14T18:45:02.655Z"
 }
