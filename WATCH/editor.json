@@ -66,7 +66,7 @@
     "foundry:2026-08-04": "2026-08-04T08:10:44.862Z",
     "translate:2026-08-04": "2026-08-04T08:10:44.862Z",
     "ballot:2026-08-04": "2026-08-04T12:12:15.457Z",
-    "nextmove": "2026-09-12T12:12:49.395Z",
+    "nextmove": "2026-09-14T16:10:43.625Z",
     "nextmove:2026-08-04": "2026-08-04T12:12:15.457Z",
     "buildertip": "2026-09-12T23:12:29.972Z",
     "buildertip:2026-08-04": "2026-08-04T16:11:22.240Z",
@@ -213,17 +213,13 @@
     "discussion:2026-09-13": "2026-09-13T16:10:16.758Z",
     "ballot:2026-09-14": "2026-09-14T08:10:17.674Z",
     "flip:dash-growth-q4-2026:out:2542248": "2026-09-14T08:10:17.674Z",
-    "forecast:2026-09-14": "2026-09-14T12:10:17.405Z"
+    "forecast:2026-09-14": "2026-09-14T12:10:17.405Z",
+    "nextmove:2026-09-14": "2026-09-14T16:10:43.625Z"
   },
   "day": "2026-09-14",
-  "spent": 3,
-  "lastKind": "forecast",
+  "spent": 4,
+  "lastKind": "nextmove",
   "log": [
-    {
-      "at": "2026-08-12T16:10:34.626Z",
-      "kind": "discussion",
-      "key": "discussion:2026-08-12"
-    },
     {
       "at": "2026-08-12T20:10:34.608Z",
       "kind": "forecast",
@@ -916,14 +912,20 @@
       "kind": "forecast",
       "key": "forecast:2026-09-14",
       "door": "thrive"
+    },
+    {
+      "at": "2026-09-14T16:10:43.625Z",
+      "kind": "nextmove",
+      "key": "nextmove:2026-09-14",
+      "door": "arise"
     }
   ],
   "doorLog": [
     "dash-alive",
-    "dash-alive",
     "clear-eyes",
     "dash-alive",
     "thrive",
-    "thrive"
+    "thrive",
+    "arise"
   ]
 }
