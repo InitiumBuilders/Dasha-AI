@@ -2,27 +2,27 @@
   "seen": {
     "Business-Development-Events-October-2026": {
       "passing": false,
-      "net": 0
+      "net": 4
     },
     "pshenmic-dev-pe-september-2026": {
       "passing": false,
-      "net": 116
+      "net": 125
     },
     "pshenmic-dev-dpw-extension-october-2026": {
       "passing": false,
-      "net": 94
+      "net": 99
     },
     "pshenmic-dev-dash-desktop-october-2026": {
       "passing": false,
-      "net": 266
+      "net": 270
     },
     "pshenmic-dev-dfo-october-2026": {
       "passing": false,
-      "net": 265
+      "net": 270
     },
     "DASH-MULTILINGUAL-EXPANSION_Q4": {
       "passing": false,
-      "net": 155
+      "net": 151
     },
     "Dash-Academy": {
       "passing": false,
@@ -34,7 +34,7 @@
     },
     "Dash-APAC-October": {
       "passing": false,
-      "net": 204
+      "net": 208
     },
     "DashDAOGrowthEngine": {
       "passing": false,
@@ -46,7 +46,7 @@
     },
     "vulnerability-disclosure-compensation": {
       "passing": false,
-      "net": 208
+      "net": 212
     },
     "dash-growth-q4-2026": {
       "passing": false,
@@ -54,11 +54,11 @@
     },
     "BTCBACKPORTSVIJAY_04": {
       "passing": false,
-      "net": 33
+      "net": 37
     },
     "c2pool-daemonless-finalize": {
       "passing": false,
-      "net": 7
+      "net": 11
     },
     "kwvg-dev-aug26": {
       "passing": true,
@@ -78,7 +78,7 @@
     },
     "dash-growth-marketing-budget": {
       "passing": false,
-      "net": 269
+      "net": 273
     },
     "BTCBackportsVijay_03": {
       "passing": false,
@@ -164,5 +164,5 @@
   },
   "superblock": "2542248",
   "lastPassingCount": 6,
-  "updated": "2026-09-14T17:45:03.084Z"
+  "updated": "2026-09-14T18:15:02.801Z"
 }
