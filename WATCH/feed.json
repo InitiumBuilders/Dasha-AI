@@ -2,6 +2,19 @@
   "username": "DashSupportTeam",
   "items": [
     {
+      "id": "2099470788554264956",
+      "text": "Superblock forecast — 3 days to the vote cutoff.\n\nIf voting closed today: 6 proposals would fund, 7 on the bubble:\n• https://t.co/TdcBKiOVS8 Dash Desktop October 2026 — 23 short\n• https://t.co/TdcBKiOVS8 DFO Operations October 2026 — 23 short\n• Dash Growth Marketing\n\nBudget: 2026… — 43 short\n• [REDUCED] Critical vulnerability… — 108 short\n\nVotes can still move. Your node, your call → https://t.co/JzHRAFmjGW Where builders thrive:",
+      "at": "2026-09-14T12:10:16.000Z",
+      "reply": false,
+      "count": 2,
+      "m": {
+        "l": 0,
+        "r": 0,
+        "c": 1
+      },
+      "url": "https://x.com/DashSupportTeam/status/2099470788554264956"
+    },
+    {
       "id": "2099411592030904670",
       "text": "Dash Growth Q4 2026: Growth Marketing and Business Development has fallen below the line.\n\nNow 285 net yes · 27 short.\nVotes can still change — 4 days to the vote cutoff.",
       "at": "2026-09-14T08:15:03.000Z",
@@ -767,23 +780,9 @@
         "c": 0
       },
       "url": "https://x.com/DashSupportTeam/status/2095061869652275598"
-    },
-    {
-      "id": "2095061868729569296",
-      "text": "Dash ballot — 16 days to the vote cutoff\n20 active · 7 passing · 5,240/6,828 DASH allotted\n\nClosest to the line:\n• Dash servers, channels, and chats… — 70 short\n• Critical vulnerabilities… — 75 short\n\nEverything alive on Dash:",
-      "at": "2026-09-02T08:10:48.000Z",
-      "reply": false,
-      "count": 1,
-      "m": {
-        "l": 0,
-        "r": 0,
-        "c": 0
-      },
-      "url": "https://x.com/DashSupportTeam/status/2095061868729569296"
     }
   ],
   "mirrored": {
-    "2095061868729569296": true,
     "2095061869652275598": true,
     "2095424125380542835": true,
     "2095484598956286414": true,
@@ -842,7 +841,8 @@
     "2099336094382727668": true,
     "2099410392237682865": true,
     "2099410393097506861": true,
-    "2099411592030904670": true
+    "2099411592030904670": true,
+    "2099470788554264956": true
   },
-  "updated": "2026-09-14T12:05:26.478Z"
+  "updated": "2026-09-14T12:20:26.576Z"
 }
