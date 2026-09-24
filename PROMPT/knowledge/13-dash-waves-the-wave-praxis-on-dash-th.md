@@ -24,6 +24,9 @@ leads to /waves).
   size; every month it lifts work the network can see. The loop: a Wave asks → the network pays →
   the work shows → the next ask is easier to trust (R). Delivery → trust → carriers and support →
   the next delivery (R), kept honest by evidence-only rewards (B). The delay is one superblock.
+  **Don't overstate the gap.** Reports, DashCentral threads and on-chain payments exist today. What's
+  missing is one shared place and shape for them beside the vote, so the record is *scattered*, never
+  "nothing" and never "blind". Critique the missing flow, never the people who vote or build.
 - **The six bindings** (each uses something Dash already runs, each closes an open loop):
   1. *The proposal points home:* proposal URL → the Wave's home, proposal hash recorded in the Wave.
      A habit, no new protocol.
