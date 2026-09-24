@@ -417,7 +417,7 @@
       "name": "/proposal-guide",
       "title": "Proposal Crafting Coach",
       "file": "skills/proposal-guide.md",
-      "chars": 2332,
+      "chars": 2763,
       "phrases": [
         "submit a proposal",
         "how do i submit",
@@ -1174,7 +1174,7 @@
       "name": "/imagine-this-dash",
       "title": "ImagineThisDash: the DAO's open brainstorm (alias /ImagineThis)",
       "file": "skills/imagine-this-dash.md",
-      "chars": 4021,
+      "chars": 4159,
       "phrases": [
         "/imaginethisdash",
         "imaginethisdash",
@@ -1189,7 +1189,9 @@
         "idea for the design team",
         "idea for the growth team",
         "brainstorm with you",
-        "my vision for dash"
+        "my vision for dash",
+        "idea for dash waves",
+        "idea for the waves team"
       ],
       "words": []
     },
@@ -1197,7 +1199,7 @@
       "name": "/dream-sesh",
       "title": "the Dream Sesh: one session, one page, live 24/7 (alias /dream-session)",
       "file": "skills/dream-sesh.md",
-      "chars": 2493,
+      "chars": 2622,
       "phrases": [
         "/dream-sesh",
         "dream sesh",
@@ -1247,7 +1249,7 @@
       "name": "/systems-lens",
       "title": "see the whole system, find the one leverage point",
       "file": "skills/systems-lens.md",
-      "chars": 2395,
+      "chars": 2626,
       "phrases": [
         "/systems-lens",
         "systems lens",
@@ -1316,6 +1318,46 @@
         "site",
         "flagship",
         "surface"
+      ]
+    },
+    {
+      "name": "/waves",
+      "title": "Dash Waves: the guide's seat (alias /dash-waves)",
+      "file": "skills/waves.md",
+      "chars": 5274,
+      "phrases": [
+        "/dash-waves",
+        "dash waves",
+        "dash wave",
+        "dashwaves",
+        "dash-waves",
+        "wave praxis",
+        "wave guide",
+        "wave guides",
+        "pass the wave",
+        "tide pool",
+        "shape a wave",
+        "start a wave",
+        "carry a wave",
+        "carry the wave",
+        "founding wave",
+        "waves.fund",
+        "dream team",
+        "what is a wave",
+        "what are waves"
+      ],
+      "words": [
+        "waves",
+        "wave",
+        "praxis",
+        "tide",
+        "dashwaves",
+        "dash-waves",
+        "carrier",
+        "carriers",
+        "steward",
+        "bindings",
+        "superblock-funded"
       ]
     }
   ],
@@ -1560,6 +1602,58 @@
       "file": "knowledge/12-the-six-doors-how-she-names-dash-aliv.md",
       "chars": 1771,
       "phrases": [],
+      "words": []
+    },
+    {
+      "id": "13.",
+      "title": "13. DASH WAVES — THE WAVE PRAXIS ON DASH (the protocol she guides)",
+      "file": "knowledge/13-dash-waves-the-wave-praxis-on-dash-th.md",
+      "chars": 9799,
+      "phrases": [
+        "dash waves",
+        "dash wave",
+        "dashwaves",
+        "dash-waves",
+        "wave praxis",
+        "wave guide",
+        "pass the wave",
+        "tide pool",
+        "wave pool",
+        "the six bindings",
+        "evidence ladder",
+        "tide ledger",
+        "journey event",
+        "waves.fund",
+        "carry a wave",
+        "carry the wave",
+        "shape a wave",
+        "dream team"
+      ],
+      "words": []
+    },
+    {
+      "id": "14.",
+      "title": "14. DASH WAVES — THE FOUNDING WAVES, THE SAMPLES, THE HONEST PATH",
+      "file": "knowledge/14-dash-waves-the-founding-waves-the-sam.md",
+      "chars": 4675,
+      "phrases": [
+        "founding wave",
+        "wave 001",
+        "wave 002",
+        "wave 003",
+        "merchant circles",
+        "keys home",
+        "the keepers",
+        "outlier.systems",
+        "outlier systems",
+        "sample wave",
+        "dash waves live",
+        "dash waves launch",
+        "when will dash waves",
+        "dashcentral wave",
+        "dash waves pilot",
+        "first dash wave"
+      ],
       "words": []
     }
   ]
