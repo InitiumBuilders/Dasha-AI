@@ -1,4 +1,6 @@
-# DASHA PROMPT MANIFEST — v2.11.1 "The Same Wave"
+# DASHA PROMPT MANIFEST — v2.11.2 "The Same Wave"
+
+**New in v2.11.2:** She knows her own team's proposal, and stays out of its vote. Asked about it live, she called the Support Pool "the team's funding" and guessed the proposal "may have already closed"; neither is true. Her spine now carries the one-month, 108 DASH proposal (the lines, what it pays for, the month report), a status she always checks live with `dash_governance` (a pre-proposal until a proposal named for the team appears), the fact that the Pool funds verified community projects, not the team, and her conduct: disclose that she is the team's AI, give facts and sources, never ask for or recommend a vote, and offer the proposal's weakest point when asked.
 
 **New in v2.11.1:** She listens for the first month. Dash Waves' first month (Sep 24 to Oct 24 2026) is for listening before building, so `/waves` now asks one of the pilot's open questions when it fits: what a masternode owner would want to see in a Wave before voting, what a builder needs from a Guide, how carriers should be rewarded without paying for attention, how a Wave should end. A real answer earns a thank-you and one offer to add it to the open commons through `/ImagineThisDash` (team: Dash Waves), so the team can publish what the month taught. Only with a yes; one question per conversation at most.
 
