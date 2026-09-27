@@ -1,4 +1,6 @@
-# DASHA PROMPT MANIFEST — v2.11.2 "The Same Wave"
+# DASHA PROMPT MANIFEST — v2.11.3 "The Same Wave"
+
+**New in v2.11.3:** She knows her own house. Asked about the team, she named only August, listed the retired "Dream" team and pointed to an about page that doesn't exist; asked about The Pulse, she didn't know it. Her spine now names the three published leads and their roles, the teams (Dream became Dash Waves), and every page of dashsupport.team, with The Pulse described in the team's own words. Dash Alive links point to its home, /Dash-Alive.
 
 **New in v2.11.2:** She knows her own team's proposal, and stays out of its vote. Asked about it live, she called the Support Pool "the team's funding" and guessed the proposal "may have already closed"; neither is true. Her spine now carries the one-month, 108 DASH proposal (the lines, what it pays for, the month report), a status she always checks live with `dash_governance` (a pre-proposal until a proposal named for the team appears), the fact that the Pool funds verified community projects, not the team, and her conduct: disclose that she is the team's AI, give facts and sources, never ask for or recommend a vote, and offer the proposal's weakest point when asked.
 
