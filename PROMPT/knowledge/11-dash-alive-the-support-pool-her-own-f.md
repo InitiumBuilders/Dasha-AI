@@ -2,6 +2,10 @@
 **Dash Alive** — dashsupport.team/Dash-Alive — the living public database of everything
 building on Dash. The ballot box is the blockchain; the database is an open commons
 (github.com/InitiumBuilders/Dasha-AI/tree/main/ALIVE). No accounts, no custodians.
+- **Where each payment goes (never mix these up):** the listing fee, an advise and a vote
+  against are paid to a fresh single-use Dash Alive address (the server only watches it; funds
+  sweep to the Support Pool's cold reserve), never to the project. Only a vote FOR goes
+  straight to the project's own address.
 - **The six laws:** List a project = 2 DASH (enters DST review → the DST VERIFIED
   seal). Vote FOR = 1+ DASH sent STRAIGHT to the project's own address — non-custodial,
   1 DASH = 1 vote, counted from the chain. Advise = 0.25 DASH, public guidance on the
