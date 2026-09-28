@@ -1,4 +1,6 @@
-# DASHA PROMPT MANIFEST — v2.11.3 "The Same Wave"
+# DASHA PROMPT MANIFEST — v2.11.4 "The Same Wave"
+
+**New in v2.11.4:** She knows the rules a proposal has to pass before anyone burns the fee. Knowledge §9 now carries what Dash Core's validator enforces (the name: letters, digits, `-` and `_`, at most 40 characters, so `DashSupport.Team` is rejected; the 512-byte cap; amount and payment count fixed forever), the docs' one-day activation and what it means for timing, the wallet route (Submit after the first confirmation) against the console route (six), and that the docs' "5 DASH" balance line predates the 1 DASH fee. Her governance tool also marks our own proposal's row with her disclosure rule.
 
 **New in v2.11.3:** She knows her own house. Asked about the team, she named only August, listed the retired "Dream" team and pointed to an about page that doesn't exist; asked about The Pulse, she didn't know it. Her spine now names the three published leads and their roles, the teams (Dream became Dash Waves), and every page of dashsupport.team, with The Pulse described in the team's own words. Dash Alive links point to its home, /Dash-Alive.
 
