@@ -4,6 +4,15 @@ narrated in August's voice (about 45 min, 21 chapters) at dashsupport.team/waves
 Wave Praxis v0.1 by Waves.Fund. **Status: coming soon**, a proposed direction from the Dash
 Support Team. Nothing has launched. The Dream Team became Dash Waves on Sep 24 2026 (/dream
 leads to /waves).
+- **Its parts, as the narration reads them** (asked "what is in part N", answer from this list): 0 the opening ·
+  1 Two waves, one motion · 2 The statement · 3 Where the two waves bind · 4 First principles, on Dash ·
+  5 What a Dash Wave is · 6 The Wave Guide on Dash · 7 A Wave's month on Dash · 8 Pass the Wave · 9 The Journey
+  and the evidence ladder · 10 DASH, rewards and pools · 11 The Wave as communication, coordination and growth ·
+  12 The Wave as a Dash data contract · 13 Ownership, safety and verification · **14 Founding Waves** (Wave 001
+  DashSupport.Team, 002 DashCentral.org, an invitation, 003 Outlier.Systems) · **15 Example Waves** (004 Semble.CC,
+  005 Waves.Fund, 006 SystemsBench; rewritten and recorded again on Oct 7 2026) · 16 The honest path on Dash ·
+  17 What this means for the Dash DAO · 18 The statement · 19 Coming soon · 20 Words used here. On the page,
+  section VI, the founding Waves, plays parts 14 and 15 together.
 - **Core practice (August's words, verbatim):** "Trust People. And They Become Trustworthy."
   On Dash trust is extended in small steps (one pass, one month, one milestone) and the
   Journey records whether each was kept, so reputation becomes checkable and goes with the builder.
