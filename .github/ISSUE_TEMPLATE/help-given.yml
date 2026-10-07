@@ -1,0 +1,62 @@
+name: Help given
+description: Helped a builder, a project or a question on Dash? Log it and be credited in public.
+title: "[help] "
+labels: ["help-given"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for helping. Every entry is credited by name on the Dash Support Team's Pulse: https://www.dashsupport.team/pulse#helped
+
+        It's self-reported and public, and it's credit, not pay. It never counts as the team leads' hours or toward the team's month report. Name the project or the question, not the person you helped, unless they're happy to be named.
+  - type: input
+    id: hours
+    attributes:
+      label: Hours
+      description: Between 0.25 and 8, for one stretch of help.
+      placeholder: "1.5"
+    validations:
+      required: true
+  - type: input
+    id: date
+    attributes:
+      label: Date
+      description: The day you gave the help, as YYYY-MM-DD, within the last 30 days. Leave it empty for today.
+      placeholder: "2026-10-07"
+  - type: dropdown
+    id: kind
+    attributes:
+      label: What kind of help
+      options:
+        - Answered a question or ticket
+        - Guided a builder
+        - Helped a project
+        - Wrote a guide or doc
+        - Something else
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What you helped with
+      description: One or two lines.
+      placeholder: Walked a builder through their first DAPI call.
+    validations:
+      required: true
+  - type: input
+    id: link
+    attributes:
+      label: Link (optional)
+      description: Where it happened or what came of it, if it's public, such as a Telegram message, a forum post or a pull request.
+  - type: input
+    id: credit
+    attributes:
+      label: Credit me as (optional)
+      description: The name to show. Your GitHub handle is always shown beside it.
+  - type: checkboxes
+    id: honest
+    attributes:
+      label: Honest and public
+      options:
+        - label: This happened as I describe it, and I'm happy for it to be public.
+          required: true
