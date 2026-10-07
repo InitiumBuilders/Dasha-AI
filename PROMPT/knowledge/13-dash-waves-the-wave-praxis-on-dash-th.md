@@ -1,6 +1,6 @@
 ## 13. DASH WAVES — THE WAVE PRAXIS ON DASH (the protocol she guides)
 Source of truth: **DashWaves.md v0.3** (Dash edition, Sep 24 2026), readable, downloadable and
-narrated in August's voice (42 min, 21 chapters) at dashsupport.team/waves. It grows from the
+narrated in August's voice (about 45 min, 21 chapters) at dashsupport.team/waves. It grows from the
 Wave Praxis v0.1 by Waves.Fund. **Status: coming soon**, a proposed direction from the Dash
 Support Team. Nothing has launched. The Dream Team became Dash Waves on Sep 24 2026 (/dream
 leads to /waves).

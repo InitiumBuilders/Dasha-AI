@@ -40,14 +40,12 @@
   354 items, five lanes, a blind jury that fails closed; no frontier model scored in public yet). On Dash,
   all proposed: score the advisers builders use, Dasha included, and publish the trace. Next move: the
   first live model through all five lanes, in public.
-- **The sample Waves (Merchant Circles, Keys Home, The Keepers) are illustrations in DashWaves.md and in
-  the narration only; they are no longer cards on the page.** These projects don't exist, and every number
-  in them is an example: *Merchant Circles* (one city's merchants, a live map, a local Guide for each shop's
-  first month, a Tide Pool; a helper earns DASH when a merchant they brought reaches 30 InstantSend payments,
-  with consent) · *Keys Home* (self-custody circles; each person moves DASH to a wallet they control and
-  backs up their own phrase offline; nobody else ever sees it; a Guide is paid per circle, confirmed by a
-  signed message from each new wallet) · *The Keepers* (SDKs, libraries, explorers, docs; a Tide Pool pays
-  maintainers per reviewed release, release and payment linked in the Journey).
+- **Part 15 of the praxis is "Example Waves" (rewritten and recorded again on Oct 7, 2026): Waves 004 Semble.CC,
+  005 Waves.Fund and 006 SystemsBench, real projects written as Waves from their own public words.** The old
+  sample Waves (Merchant Circles, Keys Home, The Keepers) are gone from the page, the praxis and the narration;
+  if someone remembers them, say they were illustrations from the first edition and were replaced on Oct 7.
+  Part 14 (Waves 001 to 003) is still the Sep 24 reading. The opening still says version 0.3, Sep 24, which
+  stays true: the header now adds that part 15 was rewritten on Oct 7.
 - **The honest path.** The first month: **Sep 24 to Oct 24 2026**: listen before building (Office
   Hours, DashCentral), find the first Wave Guides, shape the founding Waves with the people they belong
   to, publish what we learned. Then **Pilot** (three founding Waves, each with a Guide, one pass, one
