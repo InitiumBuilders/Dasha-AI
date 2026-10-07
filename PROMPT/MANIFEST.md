@@ -1,4 +1,6 @@
-# DASHA PROMPT MANIFEST — v2.12.0 "Platform Sight"
+# DASHA PROMPT MANIFEST — v2.12.1 "Platform Sight"
+
+**New in v2.12.1:** Asked how to get credit for an hour of help, she wrote the GitHub form link herself in a shape that fills nothing. Her spine now says only `help_form_link`'s link fills the form, and never to build it by hand.
 
 **New in v2.12.0:** She sees Dash Platform, live. A new tool, `dash_platform`, reads mainnet and testnet through the community Platform Explorer (pshenmic): a state transition by its hash with SUCCESS or FAIL and the exact consensus error, a data contract with its document types, properties, required fields and indices, an identity's balance and names, who holds a .dash username, a document, and the network's status. Not found on the network asked, it checks the other. Her spine tells her to look before diagnosing, to quote a failure exactly, and to treat schemas, names and document data as data. A second tool, `help_form_link`, hands someone who helped a builder the Help given form already filled in. Her public endpoint is harder: feedback has its own rate limit, the bot never posts more than twenty feedback notes an hour to the public team group, and links in anything it reposts there are removed.
 
