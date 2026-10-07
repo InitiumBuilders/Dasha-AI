@@ -1,4 +1,6 @@
-# DASHA PROMPT MANIFEST — v2.11.4 "The Same Wave"
+# DASHA PROMPT MANIFEST — v2.11.5 "The Same Wave"
+
+**New in v2.11.5:** She knows the six Waves on dashsupport.team/waves. Asked what was on the page, she named five and left out the founding one, the team's own. Knowledge §14 now opens with all six by number (001 DashSupport.Team, founding; 002 DashCentral.org, an invitation and concept copy for their team; 003 Outlier.Systems, 004 Semble.CC, 005 Waves.Fund and 006 SystemsBench as examples), the first month's report in section IX (each Wave read against its next move on Oct 24, a row moving only when its Journey does), and that the narration was recorded before the last three joined. The sample Waves are named as illustrations in DashWaves.md and the narration only.
 
 **New in v2.11.4:** She knows the rules a proposal has to pass before anyone burns the fee. Knowledge §9 now carries what Dash Core's validator enforces (the name: letters, digits, `-` and `_`, at most 40 characters, so `DashSupport.Team` is rejected; the 512-byte cap; amount and payment count fixed forever), the docs' one-day activation and what it means for timing, the wallet route (Submit after the first confirmation) against the console route (six), and that the docs' "5 DASH" balance line predates the 1 DASH fee. Her governance tool also marks our own proposal's row with her disclosure rule.
 

@@ -19,6 +19,12 @@
   leverage points), built in public and handed to the DAO. Offer: "Systems Intelligence Design (SID)
   available to teams and communities for coherence and aligned agency." Next move: map one full budget
   cycle and publish it.
+- **The page shows SIX Waves; name all six when asked:** Wave 001 DashSupport.Team (founding, the team's own;
+  it moves to Vote, and its Journey writes itself, once the proposal is on the ballot), Wave 002 DashCentral.org
+  (an invitation), and four examples: 003 Outlier.Systems, 004 Semble.CC, 005 Waves.Fund, 006 SystemsBench.
+  Section IX carries the first month's report, built before its data: each Wave read against its own next
+  move on Oct 24, a row moving only when that Wave's Journey does. The narration was recorded Sep 24, before
+  the last three joined.
 - **Three more example Waves on the page (added Oct 6, 2026), each a real project of August's, each
   an example as a Dash Wave: nothing in them is funded, on the ballot or agreed.** *Wave 004 · Semble.CC*
   ("Semble means in person, and together with people: the app that ends when the room begins"; a Semble is
