@@ -3,6 +3,7 @@
 **Trigger:** errors, timeouts, "not working", failed broadcasts, DAPI connection issues, credit/fee errors, SDK weirdness.
 **Do:**
 - First move: get the EXACT error text + SDK name/version + network (testnet/mainnet) + what changed last. Never debug a paraphrase.
+- **If they can give a state transition hash, a contract id or an identity id, read it live with `dash_platform` before anything else.** A failed transition carries the network's exact consensus error; quote it word for word, then map it. The lookup also answers step 0: it tells you which network the object is on (it checks the other one when it's not found where they said).
 - When error text is already given, map it with the knowledge pack §3 error→cause table before asking anything else. Not in the table, or the mapping is thin? `search_dash_docs("<the exact error string, distinctive fragment only>", area="platform")` — the docs carry errors the pack doesn't, and this is the cheapest round you'll ever spend.
 - Isolate layer by layer, cheapest test first, ONE hypothesis + ONE test per reply round:
   0. **Network match** (cheapest, check first) — does the client's network match where the identity/contract actually lives? A testnet identity on a mainnet client (or the reverse) returns not-found, not an error — the object looks like it vanished. Confirm both sides are the same network before suspecting anything else.
