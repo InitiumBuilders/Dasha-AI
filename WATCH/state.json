@@ -2,11 +2,11 @@
   "seen": {
     "kwvg-core-oct26": {
       "passing": false,
-      "net": 5
+      "net": 10
     },
     "dashcentral-operations4": {
       "passing": false,
-      "net": 64
+      "net": 69
     },
     "DASH-MULTILINGUAL-EXPANSION_Q4": {
       "passing": false,
@@ -131,5 +131,5 @@
   },
   "superblock": "2558864",
   "lastPassingCount": 5,
-  "updated": "2026-10-08T12:45:18.812Z"
+  "updated": "2026-10-08T13:15:17.770Z"
 }
