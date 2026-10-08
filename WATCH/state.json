@@ -6,7 +6,7 @@
     },
     "dashcentral-operations4": {
       "passing": false,
-      "net": 69
+      "net": 70
     },
     "DASH-MULTILINGUAL-EXPANSION_Q4": {
       "passing": false,
@@ -46,7 +46,7 @@
     },
     "Dash-communities-without-censorship": {
       "passing": false,
-      "net": 163
+      "net": 162
     },
     "dash-growth-marketing-budget": {
       "passing": true,
@@ -131,5 +131,5 @@
   },
   "superblock": "2558864",
   "lastPassingCount": 5,
-  "updated": "2026-10-08T22:45:17.724Z"
+  "updated": "2026-10-08T23:15:17.720Z"
 }
