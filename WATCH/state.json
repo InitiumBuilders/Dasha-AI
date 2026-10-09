@@ -1,5 +1,9 @@
 {
   "seen": {
+    "Business-Development-Events-November-26": {
+      "passing": false,
+      "net": 0
+    },
     "kwvg-core-oct26": {
       "passing": false,
       "net": 10
@@ -127,9 +131,10 @@
     "new:Business-Development-Events-October-2026": "2026-09-14T14:15:08.196Z",
     "c72:2542248": "2026-09-14T22:45:02.695Z",
     "sb:2558864": "2026-10-07T12:45:17.703Z",
-    "flip:vulnerability-disclosure-compensation:in:2558864": "2026-10-07T12:45:17.703Z"
+    "flip:vulnerability-disclosure-compensation:in:2558864": "2026-10-07T12:45:17.703Z",
+    "new:Business-Development-Events-November-26": "2026-10-09T09:45:19.880Z"
   },
   "superblock": "2558864",
   "lastPassingCount": 5,
-  "updated": "2026-10-09T09:15:17.730Z"
+  "updated": "2026-10-09T09:45:19.880Z"
 }
