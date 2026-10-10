@@ -1,5 +1,9 @@
 {
   "seen": {
+    "APAC-BizDev-HK-China-SG-Nov-Dec-26": {
+      "passing": false,
+      "net": 0
+    },
     "Dash-APAC-November": {
       "passing": false,
       "net": 0
@@ -137,9 +141,10 @@
     "sb:2558864": "2026-10-07T12:45:17.703Z",
     "flip:vulnerability-disclosure-compensation:in:2558864": "2026-10-07T12:45:17.703Z",
     "new:Business-Development-Events-November-26": "2026-10-09T09:45:19.880Z",
-    "new:Dash-APAC-November": "2026-10-10T13:15:21.596Z"
+    "new:Dash-APAC-November": "2026-10-10T13:15:21.596Z",
+    "new:APAC-BizDev-HK-China-SG-Nov-Dec-26": "2026-10-10T23:15:25.771Z"
   },
   "superblock": "2558864",
   "lastPassingCount": 5,
-  "updated": "2026-10-10T22:45:17.696Z"
+  "updated": "2026-10-10T23:15:25.771Z"
 }
