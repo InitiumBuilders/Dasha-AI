@@ -1,5 +1,9 @@
 {
   "seen": {
+    "Dash-APAC-November": {
+      "passing": false,
+      "net": 0
+    },
     "Business-Development-Events-November-26": {
       "passing": false,
       "net": 0
@@ -132,9 +136,10 @@
     "c72:2542248": "2026-09-14T22:45:02.695Z",
     "sb:2558864": "2026-10-07T12:45:17.703Z",
     "flip:vulnerability-disclosure-compensation:in:2558864": "2026-10-07T12:45:17.703Z",
-    "new:Business-Development-Events-November-26": "2026-10-09T09:45:19.880Z"
+    "new:Business-Development-Events-November-26": "2026-10-09T09:45:19.880Z",
+    "new:Dash-APAC-November": "2026-10-10T13:15:21.596Z"
   },
   "superblock": "2558864",
   "lastPassingCount": 5,
-  "updated": "2026-10-10T12:45:17.839Z"
+  "updated": "2026-10-10T13:15:21.596Z"
 }
