@@ -2,19 +2,19 @@
   "seen": {
     "APAC-BizDev-HK-China-SG-Nov-Dec-26": {
       "passing": false,
-      "net": 0
+      "net": 1
     },
     "Dash-APAC-November": {
       "passing": false,
-      "net": 0
+      "net": 1
     },
     "Business-Development-Events-November-26": {
       "passing": false,
-      "net": 0
+      "net": 1
     },
     "kwvg-core-oct26": {
       "passing": false,
-      "net": 10
+      "net": 11
     },
     "dashcentral-operations4": {
       "passing": false,
@@ -146,5 +146,5 @@
   },
   "superblock": "2558864",
   "lastPassingCount": 5,
-  "updated": "2026-10-11T07:45:17.868Z"
+  "updated": "2026-10-11T08:15:17.861Z"
 }
