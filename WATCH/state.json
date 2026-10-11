@@ -26,7 +26,7 @@
     },
     "Dash-Pay-name-registration-rules": {
       "passing": false,
-      "net": 268
+      "net": 273
     },
     "DashDaoGrowthEngine": {
       "passing": false,
@@ -34,7 +34,7 @@
     },
     "vulnerability-disclosure-compensation": {
       "passing": true,
-      "net": 405
+      "net": 410
     },
     "dash-growth-q4-2026": {
       "passing": false,
@@ -50,7 +50,7 @@
     },
     "DCG-Operations-Aug-Nov-26": {
       "passing": true,
-      "net": 626
+      "net": 631
     },
     "OrchardPay": {
       "passing": false,
@@ -82,7 +82,7 @@
     },
     "mnowatch-hosting-2026": {
       "passing": true,
-      "net": 667
+      "net": 672
     },
     "encointerUBI-mean26": {
       "passing": false,
@@ -146,5 +146,5 @@
   },
   "superblock": "2558864",
   "lastPassingCount": 5,
-  "updated": "2026-10-11T05:15:17.684Z"
+  "updated": "2026-10-11T05:45:17.843Z"
 }
