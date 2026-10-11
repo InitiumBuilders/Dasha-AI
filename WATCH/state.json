@@ -10,11 +10,11 @@
     },
     "Business-Development-Events-November-26": {
       "passing": false,
-      "net": 1
+      "net": 13
     },
     "kwvg-core-oct26": {
       "passing": false,
-      "net": 11
+      "net": 18
     },
     "dashcentral-operations4": {
       "passing": false,
@@ -26,7 +26,7 @@
     },
     "Dash-Pay-name-registration-rules": {
       "passing": false,
-      "net": 273
+      "net": 278
     },
     "DashDaoGrowthEngine": {
       "passing": false,
@@ -42,7 +42,7 @@
     },
     "BTCBACKPORTSVIJAY_04": {
       "passing": false,
-      "net": 144
+      "net": 134
     },
     "c2pool-daemonless-finalize": {
       "passing": false,
@@ -146,5 +146,5 @@
   },
   "superblock": "2558864",
   "lastPassingCount": 5,
-  "updated": "2026-10-11T20:45:17.714Z"
+  "updated": "2026-10-11T21:15:18.010Z"
 }
