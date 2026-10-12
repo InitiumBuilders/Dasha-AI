@@ -18,7 +18,7 @@
     },
     "dashcentral-operations4": {
       "passing": false,
-      "net": 70
+      "net": 74
     },
     "DASH-MULTILINGUAL-EXPANSION_Q4": {
       "passing": false,
@@ -146,5 +146,5 @@
   },
   "superblock": "2558864",
   "lastPassingCount": 5,
-  "updated": "2026-10-12T16:15:17.748Z"
+  "updated": "2026-10-12T16:45:17.733Z"
 }
