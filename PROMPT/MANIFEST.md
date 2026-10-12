@@ -1,4 +1,6 @@
-# DASHA PROMPT MANIFEST — v2.12.3 "The Ask"
+# DASHA PROMPT MANIFEST — v2.12.4 "November"
+
+**New in v2.12.4:** Her team's proposal goes to November's round. Her spine says the team submits it right after the October 21 superblock pays, for superblock 2,575,480 (votes close around November 17, it pays around November 20), so the community has a whole month to discuss it.
 
 **New in v2.12.3:** Her team's ask is now 128 DASH for one month: 72 to the three working leads (24 each), 24 to the Support Team, 24 to the Build Team and 8 to infrastructure and Dasha. Her spine says it was 108 until October 11, 2026, and tells her to say so if anyone asks whether it changed.
 
