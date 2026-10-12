@@ -4,7 +4,7 @@
   Problem: builders work alone; answers are scattered. The Wave: "Dash Supports" is a community-led
   support team for all builders building on Dash DAO. Live today: Dasha on web and Telegram · Office
   Hours Mon–Fri 1–4 PM Central · Dash Alive · the Support Pool and its policy · The Pulse. Next move: one
-  month on the ballot: 108 DASH for one superblock (60 to three working leads, 20 Support Team, 20
+  month on the ballot: 128 DASH for one superblock (72 to three working leads, 24 Support Team, 24
   builder support, 8 infrastructure and Dasha), then a public month report and a longer proposal.
   Growth pool: unspent builder funds roll forward to the next round. Its ballot status comes from
   `dash_governance`, never memory.

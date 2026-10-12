@@ -1,4 +1,6 @@
-# DASHA PROMPT MANIFEST — v2.12.2 "Platform Sight"
+# DASHA PROMPT MANIFEST — v2.12.3 "The Ask"
+
+**New in v2.12.3:** Her team's ask is now 128 DASH for one month: 72 to the three working leads (24 each), 24 to the Support Team, 24 to the Build Team and 8 to infrastructure and Dasha. Her spine says it was 108 until October 11, 2026, and tells her to say so if anyone asks whether it changed.
 
 **New in v2.12.2:** Her builder skills read Platform first. `/dash-debug` now reads a transition, contract or identity live with `dash_platform` before diagnosing, quotes a failure word for word, and lets the lookup settle which network the object is on. `/data-contract` reads a registered contract's real schema before reviewing or extending it. The manifest's tools section names all ten tools.
 
