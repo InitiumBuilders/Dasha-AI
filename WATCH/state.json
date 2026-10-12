@@ -4,13 +4,13 @@
       "passing": false,
       "net": 1
     },
-    "Dash-APAC-November": {
-      "passing": false,
-      "net": 1
-    },
     "Business-Development-Events-November-26": {
       "passing": false,
       "net": 23
+    },
+    "Dash-APAC-November": {
+      "passing": false,
+      "net": 1
     },
     "kwvg-core-oct26": {
       "passing": false,
@@ -146,5 +146,5 @@
   },
   "superblock": "2558864",
   "lastPassingCount": 5,
-  "updated": "2026-10-12T11:15:17.737Z"
+  "updated": "2026-10-12T11:45:17.770Z"
 }
