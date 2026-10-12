@@ -10,11 +10,11 @@
     },
     "Dash-APAC-November": {
       "passing": false,
-      "net": 12
+      "net": 13
     },
     "kwvg-core-oct26": {
       "passing": false,
-      "net": 35
+      "net": 36
     },
     "dashcentral-operations4": {
       "passing": false,
@@ -146,5 +146,5 @@
   },
   "superblock": "2558864",
   "lastPassingCount": 5,
-  "updated": "2026-10-12T20:15:17.728Z"
+  "updated": "2026-10-12T20:45:17.752Z"
 }
