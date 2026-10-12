@@ -10,11 +10,11 @@
     },
     "Business-Development-Events-November-26": {
       "passing": false,
-      "net": 13
+      "net": 23
     },
     "kwvg-core-oct26": {
       "passing": false,
-      "net": 18
+      "net": 28
     },
     "dashcentral-operations4": {
       "passing": false,
@@ -146,5 +146,5 @@
   },
   "superblock": "2558864",
   "lastPassingCount": 5,
-  "updated": "2026-10-12T07:45:17.758Z"
+  "updated": "2026-10-12T08:15:17.773Z"
 }
