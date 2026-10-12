@@ -26,7 +26,7 @@
     },
     "Dash-Pay-name-registration-rules": {
       "passing": false,
-      "net": 278
+      "net": 322
     },
     "DashDaoGrowthEngine": {
       "passing": false,
@@ -146,5 +146,5 @@
   },
   "superblock": "2558864",
   "lastPassingCount": 5,
-  "updated": "2026-10-12T17:45:17.754Z"
+  "updated": "2026-10-12T18:15:17.750Z"
 }
