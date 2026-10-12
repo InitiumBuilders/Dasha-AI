@@ -2,15 +2,15 @@
   "seen": {
     "APAC-BizDev-HK-China-SG-Nov-Dec-26": {
       "passing": false,
-      "net": 11
+      "net": 15
     },
     "Business-Development-Events-November-26": {
       "passing": false,
-      "net": 23
+      "net": 27
     },
     "Dash-APAC-November": {
       "passing": false,
-      "net": 13
+      "net": 17
     },
     "kwvg-core-oct26": {
       "passing": false,
@@ -38,7 +38,7 @@
     },
     "dash-growth-q4-2026": {
       "passing": false,
-      "net": 283
+      "net": 287
     },
     "BTCBACKPORTSVIJAY_04": {
       "passing": false,
@@ -146,5 +146,5 @@
   },
   "superblock": "2558864",
   "lastPassingCount": 5,
-  "updated": "2026-10-12T21:15:17.884Z"
+  "updated": "2026-10-12T21:45:17.870Z"
 }
