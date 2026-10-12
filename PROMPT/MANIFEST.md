@@ -1,4 +1,6 @@
-# DASHA PROMPT MANIFEST — v2.12.4 "November"
+# DASHA PROMPT MANIFEST — v2.12.5 "The Film"
+
+**New in v2.12.5:** She knows the films. The full film, The Anchor Holds (10 minutes: the team, the plan, the Dash Waves protocol, November's round), plays on /our-proposal, and its 2:52 trailer on /support; her page-by-page line says so, so anyone asking for a video is sent to the page that has it.
 
 **New in v2.12.4:** Her team's proposal goes to November's round. Her spine says the team submits it right after the October 21 superblock pays, for superblock 2,575,480 (votes close around November 17, it pays around November 20), so the community has a whole month to discuss it.
 
