@@ -2,7 +2,7 @@
   "seen": {
     "APAC-BizDev-HK-China-SG-Nov-Dec-26": {
       "passing": false,
-      "net": 1
+      "net": 11
     },
     "Business-Development-Events-November-26": {
       "passing": false,
@@ -10,7 +10,7 @@
     },
     "Dash-APAC-November": {
       "passing": false,
-      "net": 1
+      "net": 11
     },
     "kwvg-core-oct26": {
       "passing": false,
@@ -146,5 +146,5 @@
   },
   "superblock": "2558864",
   "lastPassingCount": 5,
-  "updated": "2026-10-12T13:15:17.677Z"
+  "updated": "2026-10-12T13:45:17.731Z"
 }
