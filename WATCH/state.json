@@ -2,19 +2,19 @@
   "seen": {
     "pshenmic-dev-dfo-november-2026": {
       "passing": false,
-      "net": 0
+      "net": -28
     },
     "pshenmic-dev-dash-desktop-november-2026": {
       "passing": false,
-      "net": 0
+      "net": -28
     },
     "dash-intents": {
       "passing": false,
-      "net": 0
+      "net": 28
     },
     "APAC-BizDev-HK-China-SG-Nov-Dec-26": {
       "passing": false,
-      "net": 16
+      "net": 44
     },
     "Business-Development-Events-November-26": {
       "passing": false,
@@ -22,7 +22,7 @@
     },
     "Dash-APAC-November": {
       "passing": false,
-      "net": 149
+      "net": 177
     },
     "kwvg-core-oct26": {
       "passing": false,
@@ -161,5 +161,5 @@
   },
   "superblock": "2558864",
   "lastPassingCount": 5,
-  "updated": "2026-10-14T16:45:17.808Z"
+  "updated": "2026-10-14T17:15:17.685Z"
 }
