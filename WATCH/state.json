@@ -14,7 +14,7 @@
     },
     "APAC-BizDev-HK-China-SG-Nov-Dec-26": {
       "passing": false,
-      "net": 15
+      "net": 16
     },
     "Business-Development-Events-November-26": {
       "passing": false,
@@ -161,5 +161,5 @@
   },
   "superblock": "2558864",
   "lastPassingCount": 5,
-  "updated": "2026-10-14T16:15:17.776Z"
+  "updated": "2026-10-14T16:45:17.808Z"
 }
