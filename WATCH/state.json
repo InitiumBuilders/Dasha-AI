@@ -1,5 +1,13 @@
 {
   "seen": {
+    "pshenmic-dev-dfo-november-2026": {
+      "passing": false,
+      "net": 0
+    },
+    "pshenmic-dev-dash-desktop-november-2026": {
+      "passing": false,
+      "net": 0
+    },
     "dash-intents": {
       "passing": false,
       "net": 0
@@ -147,9 +155,11 @@
     "new:Business-Development-Events-November-26": "2026-10-09T09:45:19.880Z",
     "new:Dash-APAC-November": "2026-10-10T13:15:21.596Z",
     "new:APAC-BizDev-HK-China-SG-Nov-Dec-26": "2026-10-10T23:15:25.771Z",
-    "new:dash-intents": "2026-10-13T18:45:20.081Z"
+    "new:dash-intents": "2026-10-13T18:45:20.081Z",
+    "new:pshenmic-dev-dfo-november-2026": "2026-10-14T06:45:20.197Z",
+    "new:pshenmic-dev-dash-desktop-november-2026": "2026-10-14T06:45:20.197Z"
   },
   "superblock": "2558864",
   "lastPassingCount": 5,
-  "updated": "2026-10-14T06:15:17.731Z"
+  "updated": "2026-10-14T06:45:20.197Z"
 }
