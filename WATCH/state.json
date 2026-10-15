@@ -34,11 +34,11 @@
     },
     "dashcentral-operations4": {
       "passing": false,
-      "net": 177
+      "net": 173
     },
     "DASH-MULTILINGUAL-EXPANSION_Q4": {
       "passing": false,
-      "net": 179
+      "net": 183
     },
     "Dash-Pay-name-registration-rules": {
       "passing": false,
@@ -50,47 +50,47 @@
     },
     "vulnerability-disclosure-compensation": {
       "passing": true,
-      "net": 410
+      "net": 406
     },
     "dash-growth-q4-2026": {
       "passing": false,
-      "net": 283
+      "net": 279
     },
     "BTCBACKPORTSVIJAY_04": {
       "passing": false,
-      "net": 134
+      "net": 130
     },
     "c2pool-daemonless-finalize": {
       "passing": false,
-      "net": 192
+      "net": 188
     },
     "DCG-Operations-Aug-Nov-26": {
       "passing": true,
-      "net": 728
+      "net": 724
     },
     "OrchardPay": {
       "passing": false,
-      "net": 164
+      "net": 160
     },
     "Dash-communities-without-censorship": {
       "passing": false,
-      "net": 165
+      "net": 169
     },
     "dash-growth-marketing-budget": {
       "passing": true,
-      "net": 424
+      "net": 420
     },
     "BTCBackportsVijay_03": {
       "passing": false,
-      "net": 106
+      "net": 102
     },
     "2026-05-MakeDashASafeStoreOfValue": {
       "passing": false,
-      "net": -370
+      "net": -366
     },
     "GEG-PPP-30M-Film-On-Chain": {
       "passing": false,
-      "net": -325
+      "net": -321
     },
     "Dash-Italia-Management-2026": {
       "passing": true,
@@ -98,11 +98,11 @@
     },
     "mnowatch-hosting-2026": {
       "passing": true,
-      "net": 668
+      "net": 664
     },
     "encointerUBI-mean26": {
       "passing": false,
-      "net": -207
+      "net": -203
     }
   },
   "fired": {
@@ -167,5 +167,5 @@
   },
   "superblock": "2558864",
   "lastPassingCount": 5,
-  "updated": "2026-10-15T08:45:17.732Z"
+  "updated": "2026-10-15T09:15:17.823Z"
 }
