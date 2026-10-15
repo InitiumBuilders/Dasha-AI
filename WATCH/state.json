@@ -10,7 +10,7 @@
     },
     "pshenmic-dev-dash-desktop-november-2026": {
       "passing": false,
-      "net": -28
+      "net": 73
     },
     "dash-intents": {
       "passing": false,
@@ -26,7 +26,7 @@
     },
     "Dash-APAC-November": {
       "passing": false,
-      "net": 177
+      "net": 278
     },
     "kwvg-core-oct26": {
       "passing": false,
@@ -34,7 +34,7 @@
     },
     "dashcentral-operations4": {
       "passing": false,
-      "net": 76
+      "net": 177
     },
     "DASH-MULTILINGUAL-EXPANSION_Q4": {
       "passing": false,
@@ -66,7 +66,7 @@
     },
     "DCG-Operations-Aug-Nov-26": {
       "passing": true,
-      "net": 627
+      "net": 728
     },
     "OrchardPay": {
       "passing": false,
@@ -167,5 +167,5 @@
   },
   "superblock": "2558864",
   "lastPassingCount": 5,
-  "updated": "2026-10-15T07:15:17.912Z"
+  "updated": "2026-10-15T07:45:17.754Z"
 }
