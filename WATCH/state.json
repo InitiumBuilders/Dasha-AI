@@ -6,15 +6,15 @@
     },
     "pshenmic-dev-dfo-november-2026": {
       "passing": false,
-      "net": -28
+      "net": -18
     },
     "pshenmic-dev-dash-desktop-november-2026": {
       "passing": false,
-      "net": 73
+      "net": 83
     },
     "dash-intents": {
       "passing": false,
-      "net": 28
+      "net": 38
     },
     "APAC-BizDev-HK-China-SG-Nov-Dec-26": {
       "passing": false,
@@ -167,5 +167,5 @@
   },
   "superblock": "2558864",
   "lastPassingCount": 5,
-  "updated": "2026-10-15T10:45:17.882Z"
+  "updated": "2026-10-15T11:15:17.748Z"
 }
