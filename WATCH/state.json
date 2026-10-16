@@ -14,7 +14,7 @@
     },
     "dash-intents": {
       "passing": false,
-      "net": 38
+      "net": 42
     },
     "APAC-BizDev-HK-China-SG-Nov-Dec-26": {
       "passing": false,
@@ -30,7 +30,7 @@
     },
     "kwvg-core-oct26": {
       "passing": false,
-      "net": 36
+      "net": 32
     },
     "dashcentral-operations4": {
       "passing": false,
@@ -167,5 +167,5 @@
   },
   "superblock": "2558864",
   "lastPassingCount": 5,
-  "updated": "2026-10-16T14:15:17.758Z"
+  "updated": "2026-10-16T14:45:17.781Z"
 }
