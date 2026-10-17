@@ -2,23 +2,23 @@
   "seen": {
     "Dash-Mass-Organic-Content-Attraction": {
       "passing": false,
-      "net": 137
+      "net": 138
     },
     "pshenmic-dev-dfo-november-2026": {
       "passing": false,
-      "net": 285
+      "net": 287
     },
     "pshenmic-dev-dash-desktop-november-2026": {
       "passing": true,
-      "net": 382
+      "net": 391
     },
     "dash-intents": {
       "passing": false,
-      "net": 5
+      "net": 1
     },
     "APAC-BizDev-HK-China-SG-Nov-Dec-26": {
       "passing": false,
-      "net": 167
+      "net": 159
     },
     "Dash-APAC-November": {
       "passing": false,
@@ -26,7 +26,7 @@
     },
     "Business-Development-Events-November-26": {
       "passing": false,
-      "net": 236
+      "net": 228
     },
     "kwvg-core-oct26": {
       "passing": false,
@@ -34,19 +34,19 @@
     },
     "dashcentral-operations4": {
       "passing": false,
-      "net": 210
+      "net": 202
     },
     "DASH-MULTILINGUAL-EXPANSION_Q4": {
       "passing": false,
-      "net": 151
+      "net": 143
     },
     "Dash-Pay-name-registration-rules": {
       "passing": false,
-      "net": 305
+      "net": 313
     },
     "DashDaoGrowthEngine": {
       "passing": false,
-      "net": -37
+      "net": -45
     },
     "vulnerability-disclosure-compensation": {
       "passing": true,
@@ -62,7 +62,7 @@
     },
     "c2pool-daemonless-finalize": {
       "passing": false,
-      "net": 243
+      "net": 235
     },
     "DCG-Operations-Aug-Nov-26": {
       "passing": true,
@@ -70,11 +70,11 @@
     },
     "OrchardPay": {
       "passing": false,
-      "net": 160
+      "net": 168
     },
     "Dash-communities-without-censorship": {
       "passing": false,
-      "net": 173
+      "net": 165
     },
     "dash-growth-marketing-budget": {
       "passing": true,
@@ -90,7 +90,7 @@
     },
     "GEG-PPP-30M-Film-On-Chain": {
       "passing": false,
-      "net": -309
+      "net": -317
     },
     "Dash-Italia-Management-2026": {
       "passing": true,
@@ -102,7 +102,7 @@
     },
     "encointerUBI-mean26": {
       "passing": false,
-      "net": -191
+      "net": -199
     }
   },
   "fired": {
@@ -171,5 +171,5 @@
   },
   "superblock": "2558864",
   "lastPassingCount": 6,
-  "updated": "2026-10-17T22:45:17.678Z"
+  "updated": "2026-10-17T23:15:17.627Z"
 }
