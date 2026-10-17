@@ -2,19 +2,19 @@
   "seen": {
     "Dash-Mass-Organic-Content-Attraction": {
       "passing": false,
-      "net": 165
+      "net": 169
     },
     "pshenmic-dev-dfo-november-2026": {
       "passing": false,
-      "net": 204
+      "net": 212
     },
     "pshenmic-dev-dash-desktop-november-2026": {
       "passing": false,
-      "net": 313
+      "net": 321
     },
     "dash-intents": {
       "passing": false,
-      "net": 45
+      "net": 49
     },
     "APAC-BizDev-HK-China-SG-Nov-Dec-26": {
       "passing": false,
@@ -22,15 +22,15 @@
     },
     "Dash-APAC-November": {
       "passing": false,
-      "net": 264
+      "net": 272
     },
     "Business-Development-Events-November-26": {
       "passing": false,
-      "net": 264
+      "net": 272
     },
     "kwvg-core-oct26": {
       "passing": false,
-      "net": 70
+      "net": 82
     },
     "dashcentral-operations4": {
       "passing": false,
@@ -41,8 +41,8 @@
       "net": 195
     },
     "Dash-Pay-name-registration-rules": {
-      "passing": false,
-      "net": 326
+      "passing": true,
+      "net": 334
     },
     "DashDaoGrowthEngine": {
       "passing": false,
@@ -50,7 +50,7 @@
     },
     "vulnerability-disclosure-compensation": {
       "passing": true,
-      "net": 352
+      "net": 344
     },
     "dash-growth-q4-2026": {
       "passing": false,
@@ -66,7 +66,7 @@
     },
     "DCG-Operations-Aug-Nov-26": {
       "passing": true,
-      "net": 727
+      "net": 723
     },
     "OrchardPay": {
       "passing": false,
@@ -164,9 +164,10 @@
     "new:pshenmic-dev-dash-desktop-november-2026": "2026-10-14T06:45:20.197Z",
     "new:Dash-Mass-Organic-Content-Attraction": "2026-10-14T22:15:20.477Z",
     "c72:2558864": "2026-10-15T05:45:17.698Z",
-    "c24:2558864": "2026-10-17T06:15:17.811Z"
+    "c24:2558864": "2026-10-17T06:15:17.811Z",
+    "flip:Dash-Pay-name-registration-rules:in:2558864": "2026-10-17T18:15:17.735Z"
   },
   "superblock": "2558864",
-  "lastPassingCount": 5,
-  "updated": "2026-10-17T17:45:17.707Z"
+  "lastPassingCount": 6,
+  "updated": "2026-10-17T18:15:17.735Z"
 }
