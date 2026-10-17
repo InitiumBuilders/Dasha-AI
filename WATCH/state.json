@@ -6,11 +6,11 @@
     },
     "pshenmic-dev-dfo-november-2026": {
       "passing": false,
-      "net": 280
+      "net": 285
     },
     "pshenmic-dev-dash-desktop-november-2026": {
       "passing": true,
-      "net": 381
+      "net": 382
     },
     "dash-intents": {
       "passing": false,
@@ -18,11 +18,11 @@
     },
     "APAC-BizDev-HK-China-SG-Nov-Dec-26": {
       "passing": false,
-      "net": 166
+      "net": 167
     },
     "Dash-APAC-November": {
       "passing": false,
-      "net": 293
+      "net": 286
     },
     "Business-Development-Events-November-26": {
       "passing": false,
@@ -30,7 +30,7 @@
     },
     "kwvg-core-oct26": {
       "passing": false,
-      "net": 93
+      "net": 94
     },
     "dashcentral-operations4": {
       "passing": false,
@@ -50,11 +50,11 @@
     },
     "vulnerability-disclosure-compensation": {
       "passing": true,
-      "net": 344
+      "net": 336
     },
     "dash-growth-q4-2026": {
       "passing": false,
-      "net": 263
+      "net": 271
     },
     "BTCBACKPORTSVIJAY_04": {
       "passing": false,
@@ -66,7 +66,7 @@
     },
     "DCG-Operations-Aug-Nov-26": {
       "passing": true,
-      "net": 723
+      "net": 731
     },
     "OrchardPay": {
       "passing": false,
@@ -78,7 +78,7 @@
     },
     "dash-growth-marketing-budget": {
       "passing": true,
-      "net": 408
+      "net": 416
     },
     "BTCBackportsVijay_03": {
       "passing": false,
@@ -94,11 +94,11 @@
     },
     "Dash-Italia-Management-2026": {
       "passing": true,
-      "net": 600
+      "net": 608
     },
     "mnowatch-hosting-2026": {
       "passing": true,
-      "net": 652
+      "net": 660
     },
     "encointerUBI-mean26": {
       "passing": false,
@@ -171,5 +171,5 @@
   },
   "superblock": "2558864",
   "lastPassingCount": 6,
-  "updated": "2026-10-17T22:15:17.691Z"
+  "updated": "2026-10-17T22:45:17.678Z"
 }
