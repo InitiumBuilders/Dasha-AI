@@ -6,11 +6,11 @@
     },
     "pshenmic-dev-dfo-november-2026": {
       "passing": false,
-      "net": 277
+      "net": 280
     },
     "pshenmic-dev-dash-desktop-november-2026": {
       "passing": true,
-      "net": 374
+      "net": 377
     },
     "dash-intents": {
       "passing": false,
@@ -30,7 +30,7 @@
     },
     "kwvg-core-oct26": {
       "passing": false,
-      "net": 90
+      "net": 93
     },
     "dashcentral-operations4": {
       "passing": false,
@@ -42,7 +42,7 @@
     },
     "Dash-Pay-name-registration-rules": {
       "passing": false,
-      "net": 302
+      "net": 305
     },
     "DashDaoGrowthEngine": {
       "passing": false,
@@ -171,5 +171,5 @@
   },
   "superblock": "2558864",
   "lastPassingCount": 6,
-  "updated": "2026-10-17T20:45:17.873Z"
+  "updated": "2026-10-17T21:15:17.703Z"
 }
