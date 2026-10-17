@@ -26,7 +26,7 @@
     },
     "Business-Development-Events-November-26": {
       "passing": false,
-      "net": 228
+      "net": 229
     },
     "kwvg-core-oct26": {
       "passing": false,
@@ -38,7 +38,7 @@
     },
     "DASH-MULTILINGUAL-EXPANSION_Q4": {
       "passing": false,
-      "net": 143
+      "net": 147
     },
     "Dash-Pay-name-registration-rules": {
       "passing": false,
@@ -171,5 +171,5 @@
   },
   "superblock": "2558864",
   "lastPassingCount": 6,
-  "updated": "2026-10-17T23:15:17.627Z"
+  "updated": "2026-10-17T23:45:17.856Z"
 }
