@@ -2,7 +2,7 @@
   "seen": {
     "Dash-Mass-Organic-Content-Attraction": {
       "passing": false,
-      "net": 117
+      "net": 118
     },
     "pshenmic-dev-dfo-november-2026": {
       "passing": false,
@@ -14,7 +14,7 @@
     },
     "dash-intents": {
       "passing": false,
-      "net": 42
+      "net": 41
     },
     "APAC-BizDev-HK-China-SG-Nov-Dec-26": {
       "passing": false,
@@ -168,5 +168,5 @@
   },
   "superblock": "2558864",
   "lastPassingCount": 5,
-  "updated": "2026-10-17T08:15:17.767Z"
+  "updated": "2026-10-17T08:45:17.662Z"
 }
