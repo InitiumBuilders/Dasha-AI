@@ -6,11 +6,11 @@
     },
     "pshenmic-dev-dfo-november-2026": {
       "passing": false,
-      "net": 149
+      "net": 153
     },
     "pshenmic-dev-dash-desktop-november-2026": {
       "passing": false,
-      "net": 250
+      "net": 254
     },
     "dash-intents": {
       "passing": false,
@@ -18,15 +18,15 @@
     },
     "APAC-BizDev-HK-China-SG-Nov-Dec-26": {
       "passing": false,
-      "net": 158
+      "net": 154
     },
     "Dash-APAC-November": {
       "passing": false,
-      "net": 284
+      "net": 280
     },
     "Business-Development-Events-November-26": {
       "passing": false,
-      "net": 158
+      "net": 162
     },
     "kwvg-core-oct26": {
       "passing": false,
@@ -34,7 +34,7 @@
     },
     "dashcentral-operations4": {
       "passing": false,
-      "net": 143
+      "net": 139
     },
     "DASH-MULTILINGUAL-EXPANSION_Q4": {
       "passing": false,
@@ -50,7 +50,7 @@
     },
     "vulnerability-disclosure-compensation": {
       "passing": true,
-      "net": 376
+      "net": 368
     },
     "dash-growth-q4-2026": {
       "passing": false,
@@ -66,7 +66,7 @@
     },
     "DCG-Operations-Aug-Nov-26": {
       "passing": true,
-      "net": 696
+      "net": 692
     },
     "OrchardPay": {
       "passing": false,
@@ -168,5 +168,5 @@
   },
   "superblock": "2558864",
   "lastPassingCount": 5,
-  "updated": "2026-10-17T06:45:17.678Z"
+  "updated": "2026-10-17T07:15:17.615Z"
 }
