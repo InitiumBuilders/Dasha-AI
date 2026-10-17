@@ -2,11 +2,11 @@
   "seen": {
     "Dash-Mass-Organic-Content-Attraction": {
       "passing": false,
-      "net": 133
+      "net": 137
     },
     "pshenmic-dev-dfo-november-2026": {
       "passing": false,
-      "net": 264
+      "net": 272
     },
     "pshenmic-dev-dash-desktop-november-2026": {
       "passing": true,
@@ -18,31 +18,31 @@
     },
     "APAC-BizDev-HK-China-SG-Nov-Dec-26": {
       "passing": false,
-      "net": 157
+      "net": 161
     },
     "Dash-APAC-November": {
       "passing": false,
-      "net": 280
+      "net": 284
     },
     "Business-Development-Events-November-26": {
       "passing": false,
-      "net": 232
+      "net": 236
     },
     "kwvg-core-oct26": {
       "passing": false,
-      "net": 86
+      "net": 90
     },
     "dashcentral-operations4": {
       "passing": false,
-      "net": 206
+      "net": 210
     },
     "DASH-MULTILINGUAL-EXPANSION_Q4": {
       "passing": false,
       "net": 151
     },
     "Dash-Pay-name-registration-rules": {
-      "passing": true,
-      "net": 334
+      "passing": false,
+      "net": 326
     },
     "DashDaoGrowthEngine": {
       "passing": false,
@@ -166,9 +166,10 @@
     "c72:2558864": "2026-10-15T05:45:17.698Z",
     "c24:2558864": "2026-10-17T06:15:17.811Z",
     "flip:Dash-Pay-name-registration-rules:in:2558864": "2026-10-17T18:15:17.735Z",
-    "flip:pshenmic-dev-dash-desktop-november-2026:in:2558864": "2026-10-17T18:45:17.961Z"
+    "flip:pshenmic-dev-dash-desktop-november-2026:in:2558864": "2026-10-17T18:45:17.961Z",
+    "flip:Dash-Pay-name-registration-rules:out:2558864": "2026-10-17T19:15:17.690Z"
   },
   "superblock": "2558864",
-  "lastPassingCount": 7,
-  "updated": "2026-10-17T18:45:17.961Z"
+  "lastPassingCount": 6,
+  "updated": "2026-10-17T19:15:17.690Z"
 }
