@@ -2,43 +2,43 @@
   "seen": {
     "Dash-Mass-Organic-Content-Attraction": {
       "passing": false,
-      "net": 169
+      "net": 133
     },
     "pshenmic-dev-dfo-november-2026": {
       "passing": false,
-      "net": 212
+      "net": 264
     },
     "pshenmic-dev-dash-desktop-november-2026": {
-      "passing": false,
-      "net": 321
+      "passing": true,
+      "net": 369
     },
     "dash-intents": {
       "passing": false,
-      "net": 49
+      "net": 5
     },
     "APAC-BizDev-HK-China-SG-Nov-Dec-26": {
       "passing": false,
-      "net": 197
+      "net": 157
     },
     "Dash-APAC-November": {
       "passing": false,
-      "net": 272
+      "net": 280
     },
     "Business-Development-Events-November-26": {
       "passing": false,
-      "net": 272
+      "net": 232
     },
     "kwvg-core-oct26": {
       "passing": false,
-      "net": 82
+      "net": 86
     },
     "dashcentral-operations4": {
       "passing": false,
-      "net": 158
+      "net": 206
     },
     "DASH-MULTILINGUAL-EXPANSION_Q4": {
       "passing": false,
-      "net": 195
+      "net": 151
     },
     "Dash-Pay-name-registration-rules": {
       "passing": true,
@@ -46,7 +46,7 @@
     },
     "DashDaoGrowthEngine": {
       "passing": false,
-      "net": -13
+      "net": -37
     },
     "vulnerability-disclosure-compensation": {
       "passing": true,
@@ -94,7 +94,7 @@
     },
     "Dash-Italia-Management-2026": {
       "passing": true,
-      "net": 620
+      "net": 600
     },
     "mnowatch-hosting-2026": {
       "passing": true,
@@ -165,9 +165,10 @@
     "new:Dash-Mass-Organic-Content-Attraction": "2026-10-14T22:15:20.477Z",
     "c72:2558864": "2026-10-15T05:45:17.698Z",
     "c24:2558864": "2026-10-17T06:15:17.811Z",
-    "flip:Dash-Pay-name-registration-rules:in:2558864": "2026-10-17T18:15:17.735Z"
+    "flip:Dash-Pay-name-registration-rules:in:2558864": "2026-10-17T18:15:17.735Z",
+    "flip:pshenmic-dev-dash-desktop-november-2026:in:2558864": "2026-10-17T18:45:17.961Z"
   },
   "superblock": "2558864",
-  "lastPassingCount": 6,
-  "updated": "2026-10-17T18:15:17.735Z"
+  "lastPassingCount": 7,
+  "updated": "2026-10-17T18:45:17.961Z"
 }
