@@ -22,7 +22,7 @@
     },
     "Dash-APAC-November": {
       "passing": false,
-      "net": 284
+      "net": 288
     },
     "Business-Development-Events-November-26": {
       "passing": false,
@@ -42,7 +42,7 @@
     },
     "Dash-Pay-name-registration-rules": {
       "passing": false,
-      "net": 326
+      "net": 322
     },
     "DashDaoGrowthEngine": {
       "passing": false,
@@ -171,5 +171,5 @@
   },
   "superblock": "2558864",
   "lastPassingCount": 6,
-  "updated": "2026-10-17T19:15:17.690Z"
+  "updated": "2026-10-17T19:45:17.836Z"
 }
