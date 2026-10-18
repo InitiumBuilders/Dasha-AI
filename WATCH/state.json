@@ -38,11 +38,11 @@
     },
     "DASH-MULTILINGUAL-EXPANSION_Q4": {
       "passing": false,
-      "net": 149
+      "net": 151
     },
     "Dash-Pay-name-registration-rules": {
-      "passing": false,
-      "net": 327
+      "passing": true,
+      "net": 331
     },
     "DashDaoGrowthEngine": {
       "passing": false,
@@ -170,6 +170,6 @@
     "flip:Dash-Pay-name-registration-rules:out:2558864": "2026-10-17T19:15:17.690Z"
   },
   "superblock": "2558864",
-  "lastPassingCount": 6,
-  "updated": "2026-10-18T02:15:17.698Z"
+  "lastPassingCount": 7,
+  "updated": "2026-10-18T02:45:17.697Z"
 }
