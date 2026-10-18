@@ -6,11 +6,11 @@
     },
     "pshenmic-dev-dfo-november-2026": {
       "passing": false,
-      "net": 319
+      "net": 323
     },
     "pshenmic-dev-dash-desktop-november-2026": {
       "passing": true,
-      "net": 424
+      "net": 428
     },
     "dash-intents": {
       "passing": false,
@@ -22,7 +22,7 @@
     },
     "Dash-APAC-November": {
       "passing": false,
-      "net": 299
+      "net": 303
     },
     "Business-Development-Events-November-26": {
       "passing": false,
@@ -34,7 +34,7 @@
     },
     "dashcentral-operations4": {
       "passing": false,
-      "net": 223
+      "net": 231
     },
     "DASH-MULTILINGUAL-EXPANSION_Q4": {
       "passing": false,
@@ -58,7 +58,7 @@
     },
     "BTCBACKPORTSVIJAY_04": {
       "passing": false,
-      "net": 142
+      "net": 138
     },
     "c2pool-daemonless-finalize": {
       "passing": false,
@@ -171,5 +171,5 @@
   },
   "superblock": "2558864",
   "lastPassingCount": 7,
-  "updated": "2026-10-18T03:15:17.908Z"
+  "updated": "2026-10-18T03:45:17.735Z"
 }
