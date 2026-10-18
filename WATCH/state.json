@@ -14,7 +14,7 @@
     },
     "dash-intents": {
       "passing": false,
-      "net": -1
+      "net": -5
     },
     "APAC-BizDev-HK-China-SG-Nov-Dec-26": {
       "passing": false,
@@ -30,7 +30,7 @@
     },
     "kwvg-core-oct26": {
       "passing": false,
-      "net": 102
+      "net": 98
     },
     "dashcentral-operations4": {
       "passing": false,
@@ -82,7 +82,7 @@
     },
     "BTCBackportsVijay_03": {
       "passing": false,
-      "net": 114
+      "net": 110
     },
     "2026-05-MakeDashASafeStoreOfValue": {
       "passing": false,
@@ -171,5 +171,5 @@
   },
   "superblock": "2558864",
   "lastPassingCount": 7,
-  "updated": "2026-10-18T03:45:17.735Z"
+  "updated": "2026-10-18T04:15:17.734Z"
 }
