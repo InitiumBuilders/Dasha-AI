@@ -2,15 +2,15 @@
   "seen": {
     "Dash-Mass-Organic-Content-Attraction": {
       "passing": false,
-      "net": 138
+      "net": 139
     },
     "pshenmic-dev-dfo-november-2026": {
       "passing": false,
-      "net": 287
+      "net": 294
     },
     "pshenmic-dev-dash-desktop-november-2026": {
       "passing": true,
-      "net": 391
+      "net": 398
     },
     "dash-intents": {
       "passing": false,
@@ -18,11 +18,11 @@
     },
     "APAC-BizDev-HK-China-SG-Nov-Dec-26": {
       "passing": false,
-      "net": 159
+      "net": 160
     },
     "Dash-APAC-November": {
       "passing": false,
-      "net": 286
+      "net": 279
     },
     "Business-Development-Events-November-26": {
       "passing": false,
@@ -30,7 +30,7 @@
     },
     "kwvg-core-oct26": {
       "passing": false,
-      "net": 94
+      "net": 101
     },
     "dashcentral-operations4": {
       "passing": false,
@@ -38,11 +38,11 @@
     },
     "DASH-MULTILINGUAL-EXPANSION_Q4": {
       "passing": false,
-      "net": 147
+      "net": 148
     },
     "Dash-Pay-name-registration-rules": {
       "passing": false,
-      "net": 313
+      "net": 320
     },
     "DashDaoGrowthEngine": {
       "passing": false,
@@ -86,7 +86,7 @@
     },
     "2026-05-MakeDashASafeStoreOfValue": {
       "passing": false,
-      "net": -354
+      "net": -361
     },
     "GEG-PPP-30M-Film-On-Chain": {
       "passing": false,
@@ -171,5 +171,5 @@
   },
   "superblock": "2558864",
   "lastPassingCount": 6,
-  "updated": "2026-10-17T23:45:17.856Z"
+  "updated": "2026-10-18T00:15:17.662Z"
 }
