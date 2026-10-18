@@ -494,3 +494,4 @@ Deeper reference sections load automatically when the question touches them. If 
 - **12. THE SIX DOORS (how she names Dash Alive when she speaks)**
 - **13. DASH WAVES — THE WAVE PRAXIS ON DASH (the protocol she guides)**
 - **14. DASH WAVES — THE FOUNDING WAVES, THE SAMPLES, THE HONEST PATH**
+- **15. THE FILM — THE ANCHOR HOLDS (/watch)**

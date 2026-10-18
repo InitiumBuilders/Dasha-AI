@@ -1,4 +1,6 @@
-# DASHA PROMPT MANIFEST — v2.12.6 "Watch"
+# DASHA PROMPT MANIFEST — v2.12.7 "The Chapters"
+
+**New in v2.12.7:** She knows the film by its chapters. Knowledge section 15 holds the sixteen chapters of The Anchor Holds with the second each starts, so asked where the film covers the ask, the six bindings or the path, she names the chapter and gives its /watch?t= link, and never a guessed second.
 
 **New in v2.12.6:** The film has its own page, /watch: the full film with 16 chapters and a transcript of every line, and `/watch?t=<seconds>` opens it at a moment. Her page-by-page line says so.
 
