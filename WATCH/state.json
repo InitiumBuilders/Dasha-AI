@@ -62,7 +62,7 @@
     },
     "c2pool-daemonless-finalize": {
       "passing": false,
-      "net": 242
+      "net": 246
     },
     "DCG-Operations-Aug-Nov-26": {
       "passing": true,
@@ -172,5 +172,5 @@
   },
   "superblock": "2558864",
   "lastPassingCount": 8,
-  "updated": "2026-10-18T05:45:17.688Z"
+  "updated": "2026-10-18T06:15:17.725Z"
 }
