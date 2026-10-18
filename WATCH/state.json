@@ -2,15 +2,15 @@
   "seen": {
     "Dash-Mass-Organic-Content-Attraction": {
       "passing": false,
-      "net": 144
+      "net": 163
     },
     "pshenmic-dev-dfo-november-2026": {
       "passing": false,
-      "net": 300
+      "net": 319
     },
     "pshenmic-dev-dash-desktop-november-2026": {
       "passing": true,
-      "net": 405
+      "net": 424
     },
     "dash-intents": {
       "passing": false,
@@ -22,11 +22,11 @@
     },
     "Dash-APAC-November": {
       "passing": false,
-      "net": 280
+      "net": 299
     },
     "Business-Development-Events-November-26": {
       "passing": false,
-      "net": 235
+      "net": 254
     },
     "kwvg-core-oct26": {
       "passing": false,
@@ -38,7 +38,7 @@
     },
     "DASH-MULTILINGUAL-EXPANSION_Q4": {
       "passing": false,
-      "net": 151
+      "net": 170
     },
     "Dash-Pay-name-registration-rules": {
       "passing": true,
@@ -50,11 +50,11 @@
     },
     "vulnerability-disclosure-compensation": {
       "passing": true,
-      "net": 336
+      "net": 355
     },
     "dash-growth-q4-2026": {
       "passing": false,
-      "net": 271
+      "net": 252
     },
     "BTCBACKPORTSVIJAY_04": {
       "passing": false,
@@ -171,5 +171,5 @@
   },
   "superblock": "2558864",
   "lastPassingCount": 7,
-  "updated": "2026-10-18T02:45:17.697Z"
+  "updated": "2026-10-18T03:15:17.908Z"
 }
