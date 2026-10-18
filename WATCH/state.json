@@ -2,7 +2,7 @@
   "seen": {
     "Dash-Mass-Organic-Content-Attraction": {
       "passing": false,
-      "net": 139
+      "net": 144
     },
     "pshenmic-dev-dfo-november-2026": {
       "passing": false,
@@ -26,7 +26,7 @@
     },
     "Business-Development-Events-November-26": {
       "passing": false,
-      "net": 229
+      "net": 235
     },
     "kwvg-core-oct26": {
       "passing": false,
@@ -34,7 +34,7 @@
     },
     "dashcentral-operations4": {
       "passing": false,
-      "net": 206
+      "net": 210
     },
     "DASH-MULTILINGUAL-EXPANSION_Q4": {
       "passing": false,
@@ -171,5 +171,5 @@
   },
   "superblock": "2558864",
   "lastPassingCount": 6,
-  "updated": "2026-10-18T00:45:17.665Z"
+  "updated": "2026-10-18T01:15:17.801Z"
 }
