@@ -2,15 +2,15 @@
   "seen": {
     "Dash-Mass-Organic-Content-Attraction": {
       "passing": false,
-      "net": 163
+      "net": 164
     },
     "pshenmic-dev-dfo-november-2026": {
       "passing": true,
-      "net": 343
+      "net": 344
     },
     "pshenmic-dev-dash-desktop-november-2026": {
       "passing": true,
-      "net": 448
+      "net": 449
     },
     "dash-intents": {
       "passing": false,
@@ -18,55 +18,55 @@
     },
     "APAC-BizDev-HK-China-SG-Nov-Dec-26": {
       "passing": false,
-      "net": 180
+      "net": 181
     },
     "Dash-APAC-November": {
       "passing": false,
-      "net": 323
+      "net": 326
     },
     "Business-Development-Events-November-26": {
       "passing": false,
-      "net": 274
+      "net": 275
     },
     "kwvg-core-oct26": {
       "passing": false,
-      "net": 94
+      "net": 99
     },
     "dashcentral-operations4": {
       "passing": false,
-      "net": 215
+      "net": 218
     },
     "DASH-MULTILINGUAL-EXPANSION_Q4": {
       "passing": false,
-      "net": 150
+      "net": 151
     },
     "Dash-Pay-name-registration-rules": {
       "passing": true,
-      "net": 331
+      "net": 332
     },
     "DashDaoGrowthEngine": {
       "passing": false,
       "net": -45
     },
     "vulnerability-disclosure-compensation": {
-      "passing": true,
-      "net": 335
+      "passing": false,
+      "net": 322
     },
     "dash-growth-q4-2026": {
       "passing": false,
-      "net": 252
+      "net": 257
     },
     "BTCBACKPORTSVIJAY_04": {
       "passing": false,
-      "net": 134
+      "net": 135
     },
     "c2pool-daemonless-finalize": {
       "passing": false,
-      "net": 246
+      "net": 247
     },
     "DCG-Operations-Aug-Nov-26": {
       "passing": true,
-      "net": 731
+      "net": 732
     },
     "OrchardPay": {
       "passing": false,
@@ -78,7 +78,7 @@
     },
     "dash-growth-marketing-budget": {
       "passing": true,
-      "net": 416
+      "net": 417
     },
     "BTCBackportsVijay_03": {
       "passing": false,
@@ -168,9 +168,10 @@
     "flip:Dash-Pay-name-registration-rules:in:2558864": "2026-10-17T18:15:17.735Z",
     "flip:pshenmic-dev-dash-desktop-november-2026:in:2558864": "2026-10-17T18:45:17.961Z",
     "flip:Dash-Pay-name-registration-rules:out:2558864": "2026-10-17T19:15:17.690Z",
-    "flip:pshenmic-dev-dfo-november-2026:in:2558864": "2026-10-18T04:45:17.777Z"
+    "flip:pshenmic-dev-dfo-november-2026:in:2558864": "2026-10-18T04:45:17.777Z",
+    "flip:vulnerability-disclosure-compensation:out:2558864": "2026-10-18T06:45:17.663Z"
   },
   "superblock": "2558864",
-  "lastPassingCount": 8,
-  "updated": "2026-10-18T06:15:17.725Z"
+  "lastPassingCount": 7,
+  "updated": "2026-10-18T06:45:17.663Z"
 }
