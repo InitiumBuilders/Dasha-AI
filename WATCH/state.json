@@ -6,11 +6,11 @@
     },
     "pshenmic-dev-dfo-november-2026": {
       "passing": true,
-      "net": 345
+      "net": 350
     },
     "pshenmic-dev-dash-desktop-november-2026": {
       "passing": true,
-      "net": 449
+      "net": 453
     },
     "dash-intents": {
       "passing": false,
@@ -18,15 +18,15 @@
     },
     "APAC-BizDev-HK-China-SG-Nov-Dec-26": {
       "passing": false,
-      "net": 181
+      "net": 185
     },
     "Dash-APAC-November": {
       "passing": true,
-      "net": 330
+      "net": 334
     },
     "Business-Development-Events-November-26": {
       "passing": false,
-      "net": 275
+      "net": 279
     },
     "kwvg-core-oct26": {
       "passing": false,
@@ -78,7 +78,7 @@
     },
     "dash-growth-marketing-budget": {
       "passing": true,
-      "net": 417
+      "net": 421
     },
     "BTCBackportsVijay_03": {
       "passing": false,
@@ -174,5 +174,5 @@
   },
   "superblock": "2558864",
   "lastPassingCount": 8,
-  "updated": "2026-10-18T10:15:17.750Z"
+  "updated": "2026-10-18T10:45:17.919Z"
 }
