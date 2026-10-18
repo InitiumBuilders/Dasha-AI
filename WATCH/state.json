@@ -10,11 +10,11 @@
     },
     "pshenmic-dev-dash-desktop-november-2026": {
       "passing": true,
-      "net": 404
+      "net": 405
     },
     "dash-intents": {
       "passing": false,
-      "net": 0
+      "net": -1
     },
     "APAC-BizDev-HK-China-SG-Nov-Dec-26": {
       "passing": false,
@@ -30,7 +30,7 @@
     },
     "kwvg-core-oct26": {
       "passing": false,
-      "net": 101
+      "net": 102
     },
     "dashcentral-operations4": {
       "passing": false,
@@ -171,5 +171,5 @@
   },
   "superblock": "2558864",
   "lastPassingCount": 6,
-  "updated": "2026-10-18T01:45:17.726Z"
+  "updated": "2026-10-18T02:15:17.698Z"
 }
