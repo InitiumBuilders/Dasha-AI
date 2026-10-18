@@ -1,4 +1,6 @@
-# DASHA PROMPT MANIFEST — v2.12.5 "The Film"
+# DASHA PROMPT MANIFEST — v2.12.6 "Watch"
+
+**New in v2.12.6:** The film has its own page, /watch: the full film with 16 chapters and a transcript of every line, and `/watch?t=<seconds>` opens it at a moment. Her page-by-page line says so.
 
 **New in v2.12.5:** She knows the films. The full film, The Anchor Holds (10 minutes: the team, the plan, the Dash Waves protocol, November's round), plays on /our-proposal, and its 2:52 trailer on /support; her page-by-page line says so, so anyone asking for a video is sent to the page that has it.
 
