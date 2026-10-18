@@ -1,4 +1,6 @@
-# DASHA PROMPT MANIFEST — v2.12.7 "The Chapters"
+# DASHA PROMPT MANIFEST — v2.12.8 "Three Films"
+
+**New in v2.12.8:** Three films. Beside the full film there is the brief, thirty seconds, so anyone can choose the length on /our-proposal and /watch; and Dash Alive has its own three-minute film on /Dash-Alive and /watch, whose every amount is the published policy. Her page-by-page line says so.
 
 **New in v2.12.7:** She knows the film by its chapters. Knowledge section 15 holds the sixteen chapters of The Anchor Holds with the second each starts, so asked where the film covers the ask, the six bindings or the path, she names the chapter and gives its /watch?t= link, and never a guessed second.
 
