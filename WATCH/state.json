@@ -14,7 +14,7 @@
     },
     "dash-intents": {
       "passing": false,
-      "net": -5
+      "net": -1
     },
     "APAC-BizDev-HK-China-SG-Nov-Dec-26": {
       "passing": false,
@@ -30,7 +30,7 @@
     },
     "kwvg-core-oct26": {
       "passing": false,
-      "net": 98
+      "net": 94
     },
     "dashcentral-operations4": {
       "passing": false,
@@ -58,7 +58,7 @@
     },
     "BTCBACKPORTSVIJAY_04": {
       "passing": false,
-      "net": 138
+      "net": 134
     },
     "c2pool-daemonless-finalize": {
       "passing": false,
@@ -82,11 +82,11 @@
     },
     "BTCBackportsVijay_03": {
       "passing": false,
-      "net": 110
+      "net": 106
     },
     "2026-05-MakeDashASafeStoreOfValue": {
       "passing": false,
-      "net": -361
+      "net": -353
     },
     "GEG-PPP-30M-Film-On-Chain": {
       "passing": false,
@@ -172,5 +172,5 @@
   },
   "superblock": "2558864",
   "lastPassingCount": 8,
-  "updated": "2026-10-18T04:45:17.777Z"
+  "updated": "2026-10-18T05:15:17.682Z"
 }
