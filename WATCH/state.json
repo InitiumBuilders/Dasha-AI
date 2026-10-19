@@ -49,7 +49,7 @@
       "net": -37
     },
     "vulnerability-disclosure-compensation": {
-      "passing": false,
+      "passing": true,
       "net": 330
     },
     "dash-growth-q4-2026": {
@@ -173,6 +173,6 @@
     "flip:Dash-APAC-November:in:2558864": "2026-10-18T09:15:17.850Z"
   },
   "superblock": "2558864",
-  "lastPassingCount": 8,
-  "updated": "2026-10-19T03:15:17.689Z"
+  "lastPassingCount": 9,
+  "updated": "2026-10-19T03:45:17.658Z"
 }
