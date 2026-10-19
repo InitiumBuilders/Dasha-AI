@@ -6,11 +6,11 @@
     },
     "pshenmic-dev-dfo-november-2026": {
       "passing": true,
-      "net": 350
+      "net": 368
     },
     "pshenmic-dev-dash-desktop-november-2026": {
       "passing": true,
-      "net": 455
+      "net": 473
     },
     "dash-intents": {
       "passing": false,
@@ -18,11 +18,11 @@
     },
     "APAC-BizDev-HK-China-SG-Nov-Dec-26": {
       "passing": false,
-      "net": 185
+      "net": 203
     },
     "Dash-APAC-November": {
       "passing": true,
-      "net": 335
+      "net": 353
     },
     "Business-Development-Events-November-26": {
       "passing": false,
@@ -54,7 +54,7 @@
     },
     "dash-growth-q4-2026": {
       "passing": false,
-      "net": 254
+      "net": 236
     },
     "BTCBACKPORTSVIJAY_04": {
       "passing": false,
@@ -174,5 +174,5 @@
   },
   "superblock": "2558864",
   "lastPassingCount": 9,
-  "updated": "2026-10-18T23:45:17.799Z"
+  "updated": "2026-10-19T00:15:17.789Z"
 }
