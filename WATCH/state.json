@@ -2,35 +2,35 @@
   "seen": {
     "Dash-Mass-Organic-Content-Attraction": {
       "passing": false,
-      "net": 164
+      "net": 188
     },
     "pshenmic-dev-dfo-november-2026": {
       "passing": true,
-      "net": 368
+      "net": 392
     },
     "pshenmic-dev-dash-desktop-november-2026": {
       "passing": true,
-      "net": 473
+      "net": 497
     },
     "dash-intents": {
       "passing": false,
-      "net": -1
+      "net": 23
     },
     "APAC-BizDev-HK-China-SG-Nov-Dec-26": {
       "passing": false,
-      "net": 203
+      "net": 227
     },
     "Dash-APAC-November": {
       "passing": true,
-      "net": 353
+      "net": 377
     },
     "Business-Development-Events-November-26": {
       "passing": false,
-      "net": 280
+      "net": 304
     },
     "kwvg-core-oct26": {
       "passing": false,
-      "net": 99
+      "net": 123
     },
     "dashcentral-operations4": {
       "passing": false,
@@ -174,5 +174,5 @@
   },
   "superblock": "2558864",
   "lastPassingCount": 9,
-  "updated": "2026-10-19T08:45:17.810Z"
+  "updated": "2026-10-19T09:15:17.768Z"
 }
