@@ -2,7 +2,7 @@
   "seen": {
     "Dash-Mass-Organic-Content-Attraction": {
       "passing": false,
-      "net": 188
+      "net": 189
     },
     "pshenmic-dev-dfo-november-2026": {
       "passing": true,
@@ -38,7 +38,7 @@
     },
     "DASH-MULTILINGUAL-EXPANSION_Q4": {
       "passing": false,
-      "net": 171
+      "net": 172
     },
     "Dash-Pay-name-registration-rules": {
       "passing": true,
@@ -50,7 +50,7 @@
     },
     "vulnerability-disclosure-compensation": {
       "passing": true,
-      "net": 342
+      "net": 343
     },
     "dash-growth-q4-2026": {
       "passing": false,
@@ -102,7 +102,7 @@
     },
     "encointerUBI-mean26": {
       "passing": false,
-      "net": -179
+      "net": -183
     }
   },
   "fired": {
@@ -174,5 +174,5 @@
   },
   "superblock": "2558864",
   "lastPassingCount": 9,
-  "updated": "2026-10-20T06:15:17.767Z"
+  "updated": "2026-10-20T06:45:17.718Z"
 }
