@@ -2,15 +2,15 @@
   "seen": {
     "Dash-Mass-Organic-Content-Attraction": {
       "passing": false,
-      "net": 193
+      "net": 204
     },
     "pshenmic-dev-dfo-november-2026": {
       "passing": true,
-      "net": 397
+      "net": 398
     },
     "pshenmic-dev-dash-desktop-november-2026": {
       "passing": true,
-      "net": 498
+      "net": 499
     },
     "dash-intents": {
       "passing": false,
@@ -18,11 +18,11 @@
     },
     "APAC-BizDev-HK-China-SG-Nov-Dec-26": {
       "passing": false,
-      "net": 228
+      "net": 233
     },
     "Dash-APAC-November": {
       "passing": true,
-      "net": 382
+      "net": 383
     },
     "Business-Development-Events-November-26": {
       "passing": false,
@@ -50,7 +50,7 @@
     },
     "vulnerability-disclosure-compensation": {
       "passing": true,
-      "net": 343
+      "net": 347
     },
     "dash-growth-q4-2026": {
       "passing": false,
@@ -62,15 +62,15 @@
     },
     "c2pool-daemonless-finalize": {
       "passing": false,
-      "net": 292
+      "net": 293
     },
     "DCG-Operations-Aug-Nov-26": {
       "passing": true,
-      "net": 718
+      "net": 722
     },
     "OrchardPay": {
       "passing": false,
-      "net": 170
+      "net": 171
     },
     "Dash-communities-without-censorship": {
       "passing": false,
@@ -86,7 +86,7 @@
     },
     "2026-05-MakeDashASafeStoreOfValue": {
       "passing": false,
-      "net": -342
+      "net": -346
     },
     "GEG-PPP-30M-Film-On-Chain": {
       "passing": false,
@@ -98,11 +98,11 @@
     },
     "mnowatch-hosting-2026": {
       "passing": true,
-      "net": 649
+      "net": 650
     },
     "encointerUBI-mean26": {
       "passing": false,
-      "net": -184
+      "net": -185
     }
   },
   "fired": {
@@ -174,5 +174,5 @@
   },
   "superblock": "2558864",
   "lastPassingCount": 9,
-  "updated": "2026-10-20T07:45:17.701Z"
+  "updated": "2026-10-20T08:15:17.728Z"
 }
