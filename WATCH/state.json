@@ -30,7 +30,7 @@
     },
     "kwvg-core-oct26": {
       "passing": false,
-      "net": 124
+      "net": 126
     },
     "dashcentral-operations4": {
       "passing": false,
@@ -46,7 +46,7 @@
     },
     "DashDaoGrowthEngine": {
       "passing": false,
-      "net": -31
+      "net": -32
     },
     "vulnerability-disclosure-compensation": {
       "passing": true,
@@ -78,7 +78,7 @@
     },
     "dash-growth-marketing-budget": {
       "passing": true,
-      "net": 409
+      "net": 410
     },
     "BTCBackportsVijay_03": {
       "passing": false,
@@ -86,7 +86,7 @@
     },
     "2026-05-MakeDashASafeStoreOfValue": {
       "passing": false,
-      "net": -346
+      "net": -347
     },
     "GEG-PPP-30M-Film-On-Chain": {
       "passing": false,
@@ -102,7 +102,7 @@
     },
     "encointerUBI-mean26": {
       "passing": false,
-      "net": -185
+      "net": -186
     }
   },
   "fired": {
@@ -174,5 +174,5 @@
   },
   "superblock": "2558864",
   "lastPassingCount": 9,
-  "updated": "2026-10-20T08:45:17.801Z"
+  "updated": "2026-10-20T09:15:17.723Z"
 }
