@@ -6,7 +6,7 @@
     },
     "pshenmic-dev-dfo-november-2026": {
       "passing": true,
-      "net": 392
+      "net": 396
     },
     "pshenmic-dev-dash-desktop-november-2026": {
       "passing": true,
@@ -18,11 +18,11 @@
     },
     "APAC-BizDev-HK-China-SG-Nov-Dec-26": {
       "passing": false,
-      "net": 227
+      "net": 228
     },
     "Dash-APAC-November": {
       "passing": true,
-      "net": 377
+      "net": 382
     },
     "Business-Development-Events-November-26": {
       "passing": false,
@@ -38,15 +38,15 @@
     },
     "DASH-MULTILINGUAL-EXPANSION_Q4": {
       "passing": false,
-      "net": 172
+      "net": 173
     },
     "Dash-Pay-name-registration-rules": {
       "passing": true,
-      "net": 332
+      "net": 333
     },
     "DashDaoGrowthEngine": {
       "passing": false,
-      "net": -25
+      "net": -26
     },
     "vulnerability-disclosure-compensation": {
       "passing": true,
@@ -54,7 +54,7 @@
     },
     "dash-growth-q4-2026": {
       "passing": false,
-      "net": 230
+      "net": 231
     },
     "BTCBACKPORTSVIJAY_04": {
       "passing": false,
@@ -66,15 +66,15 @@
     },
     "DCG-Operations-Aug-Nov-26": {
       "passing": true,
-      "net": 716
+      "net": 717
     },
     "OrchardPay": {
       "passing": false,
-      "net": 168
+      "net": 169
     },
     "Dash-communities-without-censorship": {
       "passing": false,
-      "net": 185
+      "net": 184
     },
     "dash-growth-marketing-budget": {
       "passing": true,
@@ -86,7 +86,7 @@
     },
     "2026-05-MakeDashASafeStoreOfValue": {
       "passing": false,
-      "net": -341
+      "net": -342
     },
     "GEG-PPP-30M-Film-On-Chain": {
       "passing": false,
@@ -94,15 +94,15 @@
     },
     "Dash-Italia-Management-2026": {
       "passing": true,
-      "net": 588
+      "net": 594
     },
     "mnowatch-hosting-2026": {
       "passing": true,
-      "net": 644
+      "net": 648
     },
     "encointerUBI-mean26": {
       "passing": false,
-      "net": -183
+      "net": -184
     }
   },
   "fired": {
@@ -174,5 +174,5 @@
   },
   "superblock": "2558864",
   "lastPassingCount": 9,
-  "updated": "2026-10-20T06:45:17.718Z"
+  "updated": "2026-10-20T07:15:17.707Z"
 }
