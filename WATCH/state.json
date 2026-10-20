@@ -2,15 +2,15 @@
   "seen": {
     "Dash-Mass-Organic-Content-Attraction": {
       "passing": false,
-      "net": 189
+      "net": 193
     },
     "pshenmic-dev-dfo-november-2026": {
       "passing": true,
-      "net": 396
+      "net": 397
     },
     "pshenmic-dev-dash-desktop-november-2026": {
       "passing": true,
-      "net": 497
+      "net": 498
     },
     "dash-intents": {
       "passing": false,
@@ -34,7 +34,7 @@
     },
     "dashcentral-operations4": {
       "passing": false,
-      "net": 219
+      "net": 223
     },
     "DASH-MULTILINGUAL-EXPANSION_Q4": {
       "passing": false,
@@ -46,7 +46,7 @@
     },
     "DashDaoGrowthEngine": {
       "passing": false,
-      "net": -26
+      "net": -30
     },
     "vulnerability-disclosure-compensation": {
       "passing": true,
@@ -54,27 +54,27 @@
     },
     "dash-growth-q4-2026": {
       "passing": false,
-      "net": 231
+      "net": 237
     },
     "BTCBACKPORTSVIJAY_04": {
       "passing": false,
-      "net": 155
+      "net": 159
     },
     "c2pool-daemonless-finalize": {
       "passing": false,
-      "net": 287
+      "net": 292
     },
     "DCG-Operations-Aug-Nov-26": {
       "passing": true,
-      "net": 717
+      "net": 718
     },
     "OrchardPay": {
       "passing": false,
-      "net": 169
+      "net": 170
     },
     "Dash-communities-without-censorship": {
       "passing": false,
-      "net": 184
+      "net": 183
     },
     "dash-growth-marketing-budget": {
       "passing": true,
@@ -82,7 +82,7 @@
     },
     "BTCBackportsVijay_03": {
       "passing": false,
-      "net": 122
+      "net": 119
     },
     "2026-05-MakeDashASafeStoreOfValue": {
       "passing": false,
@@ -98,7 +98,7 @@
     },
     "mnowatch-hosting-2026": {
       "passing": true,
-      "net": 648
+      "net": 649
     },
     "encointerUBI-mean26": {
       "passing": false,
@@ -174,5 +174,5 @@
   },
   "superblock": "2558864",
   "lastPassingCount": 9,
-  "updated": "2026-10-20T07:15:17.707Z"
+  "updated": "2026-10-20T07:45:17.701Z"
 }
