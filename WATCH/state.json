@@ -6,11 +6,11 @@
     },
     "pshenmic-dev-dfo-november-2026": {
       "passing": true,
-      "net": 398
+      "net": 399
     },
     "pshenmic-dev-dash-desktop-november-2026": {
       "passing": true,
-      "net": 499
+      "net": 500
     },
     "dash-intents": {
       "passing": false,
@@ -22,19 +22,19 @@
     },
     "Dash-APAC-November": {
       "passing": true,
-      "net": 383
+      "net": 384
     },
     "Business-Development-Events-November-26": {
       "passing": false,
-      "net": 304
+      "net": 306
     },
     "kwvg-core-oct26": {
       "passing": false,
-      "net": 123
+      "net": 124
     },
     "dashcentral-operations4": {
       "passing": false,
-      "net": 223
+      "net": 224
     },
     "DASH-MULTILINGUAL-EXPANSION_Q4": {
       "passing": false,
@@ -42,11 +42,11 @@
     },
     "Dash-Pay-name-registration-rules": {
       "passing": true,
-      "net": 333
+      "net": 335
     },
     "DashDaoGrowthEngine": {
       "passing": false,
-      "net": -30
+      "net": -31
     },
     "vulnerability-disclosure-compensation": {
       "passing": true,
@@ -62,7 +62,7 @@
     },
     "c2pool-daemonless-finalize": {
       "passing": false,
-      "net": 293
+      "net": 294
     },
     "DCG-Operations-Aug-Nov-26": {
       "passing": true,
@@ -70,19 +70,19 @@
     },
     "OrchardPay": {
       "passing": false,
-      "net": 171
+      "net": 175
     },
     "Dash-communities-without-censorship": {
       "passing": false,
-      "net": 183
+      "net": 182
     },
     "dash-growth-marketing-budget": {
       "passing": true,
-      "net": 405
+      "net": 409
     },
     "BTCBackportsVijay_03": {
       "passing": false,
-      "net": 119
+      "net": 115
     },
     "2026-05-MakeDashASafeStoreOfValue": {
       "passing": false,
@@ -98,7 +98,7 @@
     },
     "mnowatch-hosting-2026": {
       "passing": true,
-      "net": 650
+      "net": 651
     },
     "encointerUBI-mean26": {
       "passing": false,
@@ -174,5 +174,5 @@
   },
   "superblock": "2558864",
   "lastPassingCount": 9,
-  "updated": "2026-10-20T08:15:17.728Z"
+  "updated": "2026-10-20T08:45:17.801Z"
 }
