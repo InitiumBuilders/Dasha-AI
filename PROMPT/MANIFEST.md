@@ -1,4 +1,6 @@
-# DASHA PROMPT MANIFEST — v2.12.8 "Three Films"
+# DASHA PROMPT MANIFEST — v2.12.9 "The Window"
+
+**New in v2.12.9:** She knows the payment window. Her knowledge offered the Dash Core wallet's Create Proposal as an equal route to proposal.dash.org, but that dialog centres the payment window on the moment you click (about two weeks either side for one payment), so a proposal made a month ahead ends before its superblock and is never paid. Knowledge §9, her spine's governance line and /proposal-guide now send builders to proposal.dash.org and tell them to read `start_epoch` and `end_epoch` before burning the fee. Two stale docs lines are gone (the one-day activation and the 5 DASH balance), and §9 names the forum's pre-budget board and DashCentral's 15 to 60 minute listing delay.
 
 **New in v2.12.8:** Three films. Beside the full film there is the brief, thirty seconds, so anyone can choose the length on /our-proposal and /watch; and Dash Alive has its own three-minute film on /Dash-Alive and /watch, whose every amount is the published policy. Her page-by-page line says so.
 
