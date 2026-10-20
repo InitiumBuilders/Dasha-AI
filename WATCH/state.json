@@ -18,7 +18,7 @@
     },
     "APAC-BizDev-HK-China-SG-Nov-Dec-26": {
       "passing": false,
-      "net": 233
+      "net": 234
     },
     "Dash-APAC-November": {
       "passing": true,
@@ -26,19 +26,19 @@
     },
     "Business-Development-Events-November-26": {
       "passing": false,
-      "net": 306
+      "net": 310
     },
     "kwvg-core-oct26": {
       "passing": false,
-      "net": 126
+      "net": 130
     },
     "dashcentral-operations4": {
       "passing": false,
-      "net": 224
+      "net": 225
     },
     "DASH-MULTILINGUAL-EXPANSION_Q4": {
       "passing": false,
-      "net": 173
+      "net": 177
     },
     "Dash-Pay-name-registration-rules": {
       "passing": true,
@@ -58,7 +58,7 @@
     },
     "BTCBACKPORTSVIJAY_04": {
       "passing": false,
-      "net": 159
+      "net": 160
     },
     "c2pool-daemonless-finalize": {
       "passing": false,
@@ -86,7 +86,7 @@
     },
     "2026-05-MakeDashASafeStoreOfValue": {
       "passing": false,
-      "net": -347
+      "net": -348
     },
     "GEG-PPP-30M-Film-On-Chain": {
       "passing": false,
@@ -174,5 +174,5 @@
   },
   "superblock": "2558864",
   "lastPassingCount": 9,
-  "updated": "2026-10-20T09:15:17.723Z"
+  "updated": "2026-10-20T09:45:17.748Z"
 }
