@@ -6,11 +6,11 @@
     },
     "dash-intents": {
       "passing": false,
-      "net": 23
+      "net": 32
     },
     "APAC-BizDev-HK-China-SG-Nov-Dec-26": {
       "passing": false,
-      "net": 234
+      "net": 243
     },
     "Dash-APAC-November": {
       "passing": true,
@@ -22,7 +22,7 @@
     },
     "kwvg-core-oct26": {
       "passing": false,
-      "net": 130
+      "net": 139
     },
     "dashcentral-operations4": {
       "passing": false,
@@ -46,11 +46,11 @@
     },
     "dash-growth-q4-2026": {
       "passing": false,
-      "net": 209
+      "net": 218
     },
     "BTCBACKPORTSVIJAY_04": {
       "passing": false,
-      "net": 186
+      "net": 195
     },
     "c2pool-daemonless-finalize": {
       "passing": false,
@@ -167,5 +167,5 @@
   },
   "superblock": "2575480",
   "lastPassingCount": 7,
-  "updated": "2026-10-21T18:15:17.672Z"
+  "updated": "2026-10-21T18:45:17.695Z"
 }
