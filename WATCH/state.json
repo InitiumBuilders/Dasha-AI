@@ -4,14 +4,6 @@
       "passing": false,
       "net": 205
     },
-    "pshenmic-dev-dfo-november-2026": {
-      "passing": true,
-      "net": 399
-    },
-    "pshenmic-dev-dash-desktop-november-2026": {
-      "passing": true,
-      "net": 504
-    },
     "dash-intents": {
       "passing": false,
       "net": 23
@@ -170,9 +162,10 @@
     "flip:Dash-Pay-name-registration-rules:out:2558864": "2026-10-17T19:15:17.690Z",
     "flip:pshenmic-dev-dfo-november-2026:in:2558864": "2026-10-18T04:45:17.777Z",
     "flip:vulnerability-disclosure-compensation:out:2558864": "2026-10-18T06:45:17.663Z",
-    "flip:Dash-APAC-November:in:2558864": "2026-10-18T09:15:17.850Z"
+    "flip:Dash-APAC-November:in:2558864": "2026-10-18T09:15:17.850Z",
+    "sb:2575480": "2026-10-21T07:45:17.726Z"
   },
-  "superblock": "2558864",
-  "lastPassingCount": 9,
-  "updated": "2026-10-21T07:15:17.743Z"
+  "superblock": "2575480",
+  "lastPassingCount": 7,
+  "updated": "2026-10-21T07:45:17.726Z"
 }
