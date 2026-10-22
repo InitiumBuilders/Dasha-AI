@@ -30,7 +30,7 @@
     },
     "DASH-MULTILINGUAL-EXPANSION_Q4": {
       "passing": false,
-      "net": 214
+      "net": 218
     },
     "Dash-Pay-name-registration-rules": {
       "passing": true,
@@ -38,23 +38,23 @@
     },
     "DashDaoGrowthEngine": {
       "passing": false,
-      "net": 0
+      "net": 4
     },
     "vulnerability-disclosure-compensation": {
       "passing": true,
-      "net": 389
+      "net": 393
     },
     "dash-growth-q4-2026": {
       "passing": false,
-      "net": 206
+      "net": 202
     },
     "BTCBACKPORTSVIJAY_04": {
       "passing": false,
-      "net": 207
+      "net": 211
     },
     "c2pool-daemonless-finalize": {
-      "passing": false,
-      "net": 330
+      "passing": true,
+      "net": 334
     },
     "DCG-Operations-Aug-Nov-26": {
       "passing": true,
@@ -66,35 +66,35 @@
     },
     "Dash-communities-without-censorship": {
       "passing": false,
-      "net": 214
+      "net": 218
     },
     "dash-growth-marketing-budget": {
       "passing": true,
-      "net": 372
+      "net": 368
     },
     "BTCBackportsVijay_03": {
       "passing": false,
-      "net": 155
+      "net": 159
     },
     "2026-05-MakeDashASafeStoreOfValue": {
       "passing": false,
-      "net": -316
+      "net": -312
     },
     "GEG-PPP-30M-Film-On-Chain": {
       "passing": false,
-      "net": -265
+      "net": -261
     },
     "Dash-Italia-Management-2026": {
       "passing": true,
-      "net": 572
+      "net": 568
     },
     "mnowatch-hosting-2026": {
       "passing": true,
-      "net": 619
+      "net": 615
     },
     "encointerUBI-mean26": {
       "passing": false,
-      "net": -146
+      "net": -142
     }
   },
   "fired": {
@@ -163,9 +163,10 @@
     "flip:pshenmic-dev-dfo-november-2026:in:2558864": "2026-10-18T04:45:17.777Z",
     "flip:vulnerability-disclosure-compensation:out:2558864": "2026-10-18T06:45:17.663Z",
     "flip:Dash-APAC-November:in:2558864": "2026-10-18T09:15:17.850Z",
-    "sb:2575480": "2026-10-21T07:45:17.726Z"
+    "sb:2575480": "2026-10-21T07:45:17.726Z",
+    "flip:c2pool-daemonless-finalize:in:2575480": "2026-10-22T15:15:17.831Z"
   },
   "superblock": "2575480",
-  "lastPassingCount": 7,
-  "updated": "2026-10-22T14:45:17.955Z"
+  "lastPassingCount": 8,
+  "updated": "2026-10-22T15:15:17.831Z"
 }
