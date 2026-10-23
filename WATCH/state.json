@@ -46,7 +46,7 @@
     },
     "vulnerability-disclosure-compensation": {
       "passing": true,
-      "net": 401
+      "net": 402
     },
     "dash-growth-q4-2026": {
       "passing": false,
@@ -90,7 +90,7 @@
     },
     "Dash-Italia-Management-2026": {
       "passing": true,
-      "net": 560
+      "net": 561
     },
     "mnowatch-hosting-2026": {
       "passing": true,
@@ -173,5 +173,5 @@
   },
   "superblock": "2575480",
   "lastPassingCount": 8,
-  "updated": "2026-10-23T11:45:17.647Z"
+  "updated": "2026-10-23T12:15:17.702Z"
 }
