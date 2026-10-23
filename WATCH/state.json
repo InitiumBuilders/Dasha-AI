@@ -6,15 +6,15 @@
     },
     "Business-Development-Nov-December-26": {
       "passing": false,
-      "net": 0
+      "net": -1
     },
     "dash-intents": {
       "passing": false,
-      "net": 32
+      "net": 31
     },
     "APAC-BizDev-HK-China-SG-Nov-Dec-26": {
       "passing": false,
-      "net": 243
+      "net": 244
     },
     "Dash-APAC-November": {
       "passing": true,
@@ -26,7 +26,7 @@
     },
     "kwvg-core-oct26": {
       "passing": false,
-      "net": 139
+      "net": 140
     },
     "dashcentral-operations4": {
       "passing": false,
@@ -173,5 +173,5 @@
   },
   "superblock": "2575480",
   "lastPassingCount": 8,
-  "updated": "2026-10-23T01:45:17.754Z"
+  "updated": "2026-10-23T02:15:17.748Z"
 }
