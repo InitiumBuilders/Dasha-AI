@@ -1,5 +1,9 @@
 {
   "seen": {
+    "Optional-Content-Control": {
+      "passing": false,
+      "net": 0
+    },
     "Dash-Mass-Organic-Content-Attraction": {
       "passing": false,
       "net": 205
@@ -169,9 +173,10 @@
     "flip:Dash-APAC-November:in:2558864": "2026-10-18T09:15:17.850Z",
     "sb:2575480": "2026-10-21T07:45:17.726Z",
     "flip:c2pool-daemonless-finalize:in:2575480": "2026-10-22T15:15:17.831Z",
-    "new:Business-Development-Nov-December-26": "2026-10-22T19:45:24.264Z"
+    "new:Business-Development-Nov-December-26": "2026-10-22T19:45:24.264Z",
+    "new:Optional-Content-Control": "2026-10-24T20:45:20.294Z"
   },
   "superblock": "2575480",
   "lastPassingCount": 8,
-  "updated": "2026-10-24T20:15:18.025Z"
+  "updated": "2026-10-24T20:45:20.294Z"
 }
