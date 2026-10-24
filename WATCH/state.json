@@ -10,7 +10,7 @@
     },
     "dash-intents": {
       "passing": false,
-      "net": 31
+      "net": 38
     },
     "APAC-BizDev-HK-China-SG-Nov-Dec-26": {
       "passing": false,
@@ -173,5 +173,5 @@
   },
   "superblock": "2575480",
   "lastPassingCount": 8,
-  "updated": "2026-10-24T19:45:17.706Z"
+  "updated": "2026-10-24T20:15:18.025Z"
 }
