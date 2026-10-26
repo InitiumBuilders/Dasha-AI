@@ -18,7 +18,7 @@
     },
     "APAC-BizDev-HK-China-SG-Nov-Dec-26": {
       "passing": false,
-      "net": 244
+      "net": 245
     },
     "Dash-APAC-November": {
       "passing": true,
@@ -178,5 +178,5 @@
   },
   "superblock": "2575480",
   "lastPassingCount": 8,
-  "updated": "2026-10-26T22:45:17.838Z"
+  "updated": "2026-10-26T23:15:17.777Z"
 }
