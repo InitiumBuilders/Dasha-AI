@@ -10,7 +10,7 @@
     },
     "Business-Development-Nov-December-26": {
       "passing": false,
-      "net": 6
+      "net": 7
     },
     "dash-intents": {
       "passing": false,
@@ -178,5 +178,5 @@
   },
   "superblock": "2575480",
   "lastPassingCount": 8,
-  "updated": "2026-10-27T03:45:17.767Z"
+  "updated": "2026-10-27T04:15:18.032Z"
 }
