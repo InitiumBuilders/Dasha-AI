@@ -1,4 +1,6 @@
-# DASHA PROMPT MANIFEST — v2.12.9 "The Window"
+# DASHA PROMPT MANIFEST — v2.12.10 "The Open Round"
+
+**New in v2.12.10:** Her plan line names the round, not a day. It said the team submits right after the October 21 superblock, so on October 27 she counted the days since and called the window closing. Now she says November's round is open until about November 17, the October superblock had to pay first, and why the proposal isn't on chain yet is a question for the team. She also knows /proposal-check, the team's free check for anyone's proposal before the fee is burned, and sends builders there from /proposal-guide and knowledge §9.
 
 **New in v2.12.9:** She knows the payment window. Her knowledge offered the Dash Core wallet's Create Proposal as an equal route to proposal.dash.org, but that dialog centres the payment window on the moment you click (about two weeks either side for one payment), so a proposal made a month ahead ends before its superblock and is never paid. Knowledge §9, her spine's governance line and /proposal-guide now send builders to proposal.dash.org and tell them to read `start_epoch` and `end_epoch` before burning the fee. Two stale docs lines are gone (the one-day activation and the 5 DASH balance), and §9 names the forum's pre-budget board and DashCentral's 15 to 60 minute listing delay.
 
