@@ -2,7 +2,7 @@
   "seen": {
     "Optional-Content-Control": {
       "passing": false,
-      "net": 97
+      "net": 83
     },
     "Dash-Mass-Organic-Content-Attraction": {
       "passing": false,
@@ -34,7 +34,7 @@
     },
     "dashcentral-operations4": {
       "passing": false,
-      "net": 226
+      "net": 212
     },
     "DASH-MULTILINGUAL-EXPANSION_Q4": {
       "passing": false,
@@ -50,11 +50,11 @@
     },
     "vulnerability-disclosure-compensation": {
       "passing": true,
-      "net": 403
+      "net": 417
     },
     "dash-growth-q4-2026": {
       "passing": false,
-      "net": 198
+      "net": 212
     },
     "BTCBACKPORTSVIJAY_04": {
       "passing": false,
@@ -178,5 +178,5 @@
   },
   "superblock": "2575480",
   "lastPassingCount": 8,
-  "updated": "2026-10-28T03:15:17.641Z"
+  "updated": "2026-10-28T03:45:17.778Z"
 }
