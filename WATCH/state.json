@@ -2,7 +2,7 @@
   "seen": {
     "Optional-Content-Control": {
       "passing": false,
-      "net": 83
+      "net": 79
     },
     "Dash-Mass-Organic-Content-Attraction": {
       "passing": false,
@@ -10,7 +10,7 @@
     },
     "Business-Development-Nov-December-26": {
       "passing": false,
-      "net": 17
+      "net": 21
     },
     "dash-intents": {
       "passing": false,
@@ -178,5 +178,5 @@
   },
   "superblock": "2575480",
   "lastPassingCount": 8,
-  "updated": "2026-10-28T06:45:17.736Z"
+  "updated": "2026-10-28T07:15:17.719Z"
 }
