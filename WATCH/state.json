@@ -90,7 +90,7 @@
     },
     "GEG-PPP-30M-Film-On-Chain": {
       "passing": false,
-      "net": -253
+      "net": -257
     },
     "Dash-Italia-Management-2026": {
       "passing": true,
@@ -178,5 +178,5 @@
   },
   "superblock": "2575480",
   "lastPassingCount": 8,
-  "updated": "2026-10-29T11:15:17.845Z"
+  "updated": "2026-10-29T11:45:17.744Z"
 }
