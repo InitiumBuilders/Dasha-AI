@@ -1079,6 +1079,21 @@
           "advises": 0
         }
       ]
+    },
+    "2026-10-30": {
+      "poolDuffs": 0,
+      "reserveReceivedSat": null,
+      "usd": 47.46,
+      "projects": [
+        {
+          "id": "p0-dashsupport",
+          "aligned": 5,
+          "forVotes": 0,
+          "againstVotes": 0,
+          "raisedDuffs": 0,
+          "advises": 0
+        }
+      ]
     }
   }
 }
