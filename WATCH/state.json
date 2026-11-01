@@ -54,7 +54,7 @@
     },
     "dash-growth-q4-2026": {
       "passing": false,
-      "net": 211
+      "net": 209
     },
     "BTCBACKPORTSVIJAY_04": {
       "passing": false,
@@ -66,7 +66,7 @@
     },
     "DCG-Operations-Aug-Nov-26": {
       "passing": true,
-      "net": 689
+      "net": 687
     },
     "OrchardPay": {
       "passing": false,
@@ -78,7 +78,7 @@
     },
     "dash-growth-marketing-budget": {
       "passing": true,
-      "net": 360
+      "net": 358
     },
     "BTCBackportsVijay_03": {
       "passing": false,
@@ -178,5 +178,5 @@
   },
   "superblock": "2575480",
   "lastPassingCount": 8,
-  "updated": "2026-11-01T13:15:17.735Z"
+  "updated": "2026-11-01T13:45:17.754Z"
 }
