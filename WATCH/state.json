@@ -6,7 +6,7 @@
     },
     "Optional-Content-Control": {
       "passing": false,
-      "net": 71
+      "net": 67
     },
     "Dash-Mass-Organic-Content-Attraction": {
       "passing": false,
@@ -14,7 +14,7 @@
     },
     "Business-Development-Nov-December-26": {
       "passing": false,
-      "net": 71
+      "net": 75
     },
     "dash-intents": {
       "passing": false,
@@ -87,10 +87,6 @@
     "BTCBackportsVijay_03": {
       "passing": false,
       "net": 167
-    },
-    "2026-05-MakeDashASafeStoreOfValue": {
-      "passing": false,
-      "net": -304
     },
     "GEG-PPP-30M-Film-On-Chain": {
       "passing": false,
@@ -183,5 +179,5 @@
   },
   "superblock": "2575480",
   "lastPassingCount": 8,
-  "updated": "2026-11-02T13:15:18.072Z"
+  "updated": "2026-11-02T13:45:17.835Z"
 }
