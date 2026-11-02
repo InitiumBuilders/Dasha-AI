@@ -6,7 +6,7 @@
     },
     "Optional-Content-Control": {
       "passing": false,
-      "net": 68
+      "net": 69
     },
     "Dash-Mass-Organic-Content-Attraction": {
       "passing": false,
@@ -38,11 +38,11 @@
     },
     "dashcentral-operations4": {
       "passing": false,
-      "net": 215
+      "net": 216
     },
     "DASH-MULTILINGUAL-EXPANSION_Q4": {
       "passing": false,
-      "net": 226
+      "net": 225
     },
     "Dash-Pay-name-registration-rules": {
       "passing": true,
@@ -179,5 +179,5 @@
   },
   "superblock": "2575480",
   "lastPassingCount": 8,
-  "updated": "2026-11-02T23:15:17.710Z"
+  "updated": "2026-11-02T23:45:17.655Z"
 }
