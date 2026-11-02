@@ -30,11 +30,11 @@
     },
     "Business-Development-Events-November-26": {
       "passing": false,
-      "net": 311
+      "net": 313
     },
     "kwvg-core-oct26": {
       "passing": false,
-      "net": 168
+      "net": 169
     },
     "dashcentral-operations4": {
       "passing": false,
@@ -58,7 +58,7 @@
     },
     "dash-growth-q4-2026": {
       "passing": false,
-      "net": 210
+      "net": 211
     },
     "BTCBACKPORTSVIJAY_04": {
       "passing": false,
@@ -70,11 +70,11 @@
     },
     "DCG-Operations-Aug-Nov-26": {
       "passing": true,
-      "net": 688
+      "net": 689
     },
     "OrchardPay": {
       "passing": false,
-      "net": 175
+      "net": 176
     },
     "Dash-communities-without-censorship": {
       "passing": false,
@@ -179,5 +179,5 @@
   },
   "superblock": "2575480",
   "lastPassingCount": 8,
-  "updated": "2026-11-02T22:45:17.688Z"
+  "updated": "2026-11-02T23:15:17.710Z"
 }
