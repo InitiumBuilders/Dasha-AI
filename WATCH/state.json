@@ -2,7 +2,7 @@
   "seen": {
     "c2pool-daemonless-delivered": {
       "passing": false,
-      "net": 0
+      "net": 1
     },
     "Optional-Content-Control": {
       "passing": false,
@@ -14,7 +14,7 @@
     },
     "Business-Development-Nov-December-26": {
       "passing": false,
-      "net": 76
+      "net": 77
     },
     "dash-intents": {
       "passing": false,
@@ -22,7 +22,7 @@
     },
     "APAC-BizDev-HK-China-SG-Nov-Dec-26": {
       "passing": false,
-      "net": 262
+      "net": 264
     },
     "Dash-APAC-November": {
       "passing": true,
@@ -179,5 +179,5 @@
   },
   "superblock": "2575480",
   "lastPassingCount": 8,
-  "updated": "2026-11-02T21:45:17.996Z"
+  "updated": "2026-11-02T22:15:17.692Z"
 }
