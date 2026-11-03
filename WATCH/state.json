@@ -78,7 +78,7 @@
     },
     "Dash-communities-without-censorship": {
       "passing": false,
-      "net": 225
+      "net": 224
     },
     "dash-growth-marketing-budget": {
       "passing": true,
@@ -86,7 +86,7 @@
     },
     "BTCBackportsVijay_03": {
       "passing": false,
-      "net": 165
+      "net": 163
     },
     "GEG-PPP-30M-Film-On-Chain": {
       "passing": false,
@@ -179,5 +179,5 @@
   },
   "superblock": "2575480",
   "lastPassingCount": 8,
-  "updated": "2026-11-03T02:15:17.754Z"
+  "updated": "2026-11-03T02:45:17.647Z"
 }
