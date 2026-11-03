@@ -6,7 +6,7 @@
     },
     "Optional-Content-Control": {
       "passing": false,
-      "net": 69
+      "net": 65
     },
     "Dash-Mass-Organic-Content-Attraction": {
       "passing": false,
@@ -14,7 +14,7 @@
     },
     "Business-Development-Nov-December-26": {
       "passing": false,
-      "net": 77
+      "net": 81
     },
     "dash-intents": {
       "passing": false,
@@ -179,5 +179,5 @@
   },
   "superblock": "2575480",
   "lastPassingCount": 8,
-  "updated": "2026-11-03T14:15:17.802Z"
+  "updated": "2026-11-03T14:45:18.012Z"
 }
