@@ -50,7 +50,7 @@
     },
     "DashDaoGrowthEngine": {
       "passing": false,
-      "net": 10
+      "net": 9
     },
     "vulnerability-disclosure-compensation": {
       "passing": true,
@@ -62,7 +62,7 @@
     },
     "BTCBACKPORTSVIJAY_04": {
       "passing": false,
-      "net": 217
+      "net": 218
     },
     "c2pool-daemonless-finalize": {
       "passing": true,
@@ -179,5 +179,5 @@
   },
   "superblock": "2575480",
   "lastPassingCount": 8,
-  "updated": "2026-11-03T01:15:17.747Z"
+  "updated": "2026-11-03T01:45:17.751Z"
 }
