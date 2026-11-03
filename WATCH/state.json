@@ -1,5 +1,9 @@
 {
   "seen": {
+    "Dash-APAC-November-December": {
+      "passing": false,
+      "net": 0
+    },
     "c2pool-daemonless-delivered": {
       "passing": false,
       "net": 2
@@ -175,9 +179,10 @@
     "flip:c2pool-daemonless-finalize:in:2575480": "2026-10-22T15:15:17.831Z",
     "new:Business-Development-Nov-December-26": "2026-10-22T19:45:24.264Z",
     "new:Optional-Content-Control": "2026-10-24T20:45:20.294Z",
-    "new:c2pool-daemonless-delivered": "2026-11-02T06:45:25.511Z"
+    "new:c2pool-daemonless-delivered": "2026-11-02T06:45:25.511Z",
+    "new:Dash-APAC-November-December": "2026-11-03T18:15:22.345Z"
   },
   "superblock": "2575480",
   "lastPassingCount": 8,
-  "updated": "2026-11-03T17:45:17.828Z"
+  "updated": "2026-11-03T18:15:22.345Z"
 }
