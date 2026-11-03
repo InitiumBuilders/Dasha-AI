@@ -10,7 +10,7 @@
     },
     "c2pool-daemonless-delivered": {
       "passing": false,
-      "net": 2
+      "net": 9
     },
     "Optional-Content-Control": {
       "passing": false,
@@ -189,5 +189,5 @@
   },
   "superblock": "2575480",
   "lastPassingCount": 8,
-  "updated": "2026-11-03T22:45:17.651Z"
+  "updated": "2026-11-03T23:15:17.782Z"
 }
