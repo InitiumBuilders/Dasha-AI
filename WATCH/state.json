@@ -18,7 +18,7 @@
     },
     "dash-intents": {
       "passing": false,
-      "net": 40
+      "net": 41
     },
     "APAC-BizDev-HK-China-SG-Nov-Dec-26": {
       "passing": false,
@@ -34,7 +34,7 @@
     },
     "kwvg-core-oct26": {
       "passing": false,
-      "net": 169
+      "net": 170
     },
     "dashcentral-operations4": {
       "passing": false,
@@ -42,7 +42,7 @@
     },
     "DASH-MULTILINGUAL-EXPANSION_Q4": {
       "passing": false,
-      "net": 225
+      "net": 224
     },
     "Dash-Pay-name-registration-rules": {
       "passing": true,
@@ -50,7 +50,7 @@
     },
     "DashDaoGrowthEngine": {
       "passing": false,
-      "net": 11
+      "net": 10
     },
     "vulnerability-disclosure-compensation": {
       "passing": true,
@@ -179,5 +179,5 @@
   },
   "superblock": "2575480",
   "lastPassingCount": 8,
-  "updated": "2026-11-02T23:45:17.655Z"
+  "updated": "2026-11-03T00:15:17.874Z"
 }
