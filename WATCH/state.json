@@ -22,7 +22,7 @@
     },
     "Business-Development-Nov-December-26": {
       "passing": false,
-      "net": 81
+      "net": 84
     },
     "dash-intents": {
       "passing": false,
@@ -30,7 +30,7 @@
     },
     "APAC-BizDev-HK-China-SG-Nov-Dec-26": {
       "passing": false,
-      "net": 264
+      "net": 267
     },
     "Dash-APAC-November": {
       "passing": true,
@@ -42,7 +42,7 @@
     },
     "kwvg-core-oct26": {
       "passing": false,
-      "net": 170
+      "net": 173
     },
     "dashcentral-operations4": {
       "passing": false,
@@ -50,11 +50,11 @@
     },
     "DASH-MULTILINGUAL-EXPANSION_Q4": {
       "passing": false,
-      "net": 224
+      "net": 226
     },
     "Dash-Pay-name-registration-rules": {
       "passing": true,
-      "net": 348
+      "net": 346
     },
     "DashDaoGrowthEngine": {
       "passing": false,
@@ -62,35 +62,35 @@
     },
     "vulnerability-disclosure-compensation": {
       "passing": true,
-      "net": 417
+      "net": 415
     },
     "dash-growth-q4-2026": {
       "passing": false,
-      "net": 211
+      "net": 209
     },
     "BTCBACKPORTSVIJAY_04": {
       "passing": false,
-      "net": 218
+      "net": 219
     },
     "DCG-Operations-Aug-Nov-26": {
       "passing": true,
-      "net": 689
+      "net": 687
     },
     "OrchardPay": {
       "passing": false,
-      "net": 177
+      "net": 175
     },
     "Dash-communities-without-censorship": {
       "passing": false,
-      "net": 224
+      "net": 222
     },
     "dash-growth-marketing-budget": {
       "passing": true,
-      "net": 358
+      "net": 356
     },
     "BTCBackportsVijay_03": {
       "passing": false,
-      "net": 163
+      "net": 161
     },
     "GEG-PPP-30M-Film-On-Chain": {
       "passing": false,
@@ -185,5 +185,5 @@
   },
   "superblock": "2575480",
   "lastPassingCount": 7,
-  "updated": "2026-11-04T19:15:17.703Z"
+  "updated": "2026-11-04T19:45:17.862Z"
 }
