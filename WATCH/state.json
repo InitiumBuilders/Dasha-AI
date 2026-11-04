@@ -6,7 +6,7 @@
     },
     "Dash-APAC-November-December": {
       "passing": false,
-      "net": 162
+      "net": 263
     },
     "c2pool-daemonless-delivered": {
       "passing": false,
@@ -185,5 +185,5 @@
   },
   "superblock": "2575480",
   "lastPassingCount": 7,
-  "updated": "2026-11-04T23:15:17.723Z"
+  "updated": "2026-11-04T23:45:17.862Z"
 }
