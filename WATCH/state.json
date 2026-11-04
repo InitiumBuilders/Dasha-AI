@@ -72,10 +72,6 @@
       "passing": false,
       "net": 218
     },
-    "c2pool-daemonless-finalize": {
-      "passing": true,
-      "net": 342
-    },
     "DCG-Operations-Aug-Nov-26": {
       "passing": true,
       "net": 689
@@ -188,6 +184,6 @@
     "new:Dash-Music-MVP-Application-Developing": "2026-11-03T18:45:26.044Z"
   },
   "superblock": "2575480",
-  "lastPassingCount": 8,
-  "updated": "2026-11-04T03:45:17.703Z"
+  "lastPassingCount": 7,
+  "updated": "2026-11-04T04:15:17.769Z"
 }
