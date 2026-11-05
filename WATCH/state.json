@@ -1,5 +1,9 @@
 {
   "seen": {
+    "EvoliteJembeAndNFTs_November_2026": {
+      "passing": false,
+      "net": 0
+    },
     "JembeAndEvolite_WorkDone_2026": {
       "passing": false,
       "net": 0
@@ -18,7 +22,7 @@
     },
     "Optional-Content-Control": {
       "passing": false,
-      "net": 65
+      "net": 64
     },
     "Dash-Mass-Organic-Content-Attraction": {
       "passing": false,
@@ -50,7 +54,7 @@
     },
     "Dash-Pay-name-registration-rules": {
       "passing": true,
-      "net": 346
+      "net": 345
     },
     "DashDaoGrowthEngine": {
       "passing": false,
@@ -178,9 +182,10 @@
     "new:c2pool-daemonless-delivered": "2026-11-02T06:45:25.511Z",
     "new:Dash-APAC-November-December": "2026-11-03T18:15:22.345Z",
     "new:Dash-Music-MVP-Application-Developing": "2026-11-03T18:45:26.044Z",
-    "new:JembeAndEvolite_WorkDone_2026": "2026-11-05T15:45:24.332Z"
+    "new:JembeAndEvolite_WorkDone_2026": "2026-11-05T15:45:24.332Z",
+    "new:EvoliteJembeAndNFTs_November_2026": "2026-11-05T16:45:22.844Z"
   },
   "superblock": "2575480",
   "lastPassingCount": 6,
-  "updated": "2026-11-05T15:45:24.332Z"
+  "updated": "2026-11-05T16:45:22.844Z"
 }
