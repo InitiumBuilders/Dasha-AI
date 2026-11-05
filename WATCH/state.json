@@ -32,10 +32,6 @@
       "passing": false,
       "net": 267
     },
-    "Dash-APAC-November": {
-      "passing": true,
-      "net": 384
-    },
     "kwvg-core-oct26": {
       "passing": false,
       "net": 173
@@ -180,6 +176,6 @@
     "new:Dash-Music-MVP-Application-Developing": "2026-11-03T18:45:26.044Z"
   },
   "superblock": "2575480",
-  "lastPassingCount": 7,
-  "updated": "2026-11-05T00:45:17.801Z"
+  "lastPassingCount": 6,
+  "updated": "2026-11-05T01:15:17.770Z"
 }
