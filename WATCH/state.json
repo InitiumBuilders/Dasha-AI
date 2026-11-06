@@ -14,15 +14,15 @@
     },
     "Dash-APAC-November-December": {
       "passing": false,
-      "net": 276
+      "net": 277
     },
     "c2pool-daemonless-delivered": {
       "passing": false,
-      "net": 58
+      "net": 62
     },
     "Optional-Content-Control": {
       "passing": false,
-      "net": 70
+      "net": 71
     },
     "Dash-Mass-Organic-Content-Attraction": {
       "passing": false,
@@ -187,5 +187,5 @@
   },
   "superblock": "2575480",
   "lastPassingCount": 6,
-  "updated": "2026-11-06T12:45:17.765Z"
+  "updated": "2026-11-06T13:15:17.816Z"
 }
