@@ -22,7 +22,7 @@
     },
     "Optional-Content-Control": {
       "passing": false,
-      "net": 67
+      "net": 66
     },
     "Dash-Mass-Organic-Content-Attraction": {
       "passing": false,
@@ -187,5 +187,5 @@
   },
   "superblock": "2575480",
   "lastPassingCount": 6,
-  "updated": "2026-11-06T20:15:17.840Z"
+  "updated": "2026-11-06T20:45:17.825Z"
 }
