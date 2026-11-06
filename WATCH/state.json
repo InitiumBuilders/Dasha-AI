@@ -10,11 +10,11 @@
     },
     "Dash-Music-MVP-Application-Developing": {
       "passing": false,
-      "net": 54
+      "net": 58
     },
     "Dash-APAC-November-December": {
       "passing": false,
-      "net": 277
+      "net": 290
     },
     "c2pool-daemonless-delivered": {
       "passing": false,
@@ -38,19 +38,19 @@
     },
     "APAC-BizDev-HK-China-SG-Nov-Dec-26": {
       "passing": false,
-      "net": 279
+      "net": 288
     },
     "kwvg-core-oct26": {
       "passing": false,
-      "net": 185
+      "net": 194
     },
     "dashcentral-operations4": {
       "passing": false,
-      "net": 220
+      "net": 229
     },
     "DASH-MULTILINGUAL-EXPANSION_Q4": {
       "passing": false,
-      "net": 238
+      "net": 247
     },
     "Dash-Pay-name-registration-rules": {
       "passing": true,
@@ -70,7 +70,7 @@
     },
     "BTCBACKPORTSVIJAY_04": {
       "passing": false,
-      "net": 232
+      "net": 241
     },
     "DCG-Operations-Aug-Nov-26": {
       "passing": true,
@@ -187,5 +187,5 @@
   },
   "superblock": "2575480",
   "lastPassingCount": 6,
-  "updated": "2026-11-06T14:45:17.855Z"
+  "updated": "2026-11-06T15:15:17.948Z"
 }
