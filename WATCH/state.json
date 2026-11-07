@@ -1,5 +1,9 @@
 {
   "seen": {
+    "Dash-Stars-Ecosystem-Visibility-Pilot": {
+      "passing": false,
+      "net": 0
+    },
     "JembeAndEvolite_WorkDone_2026": {
       "passing": false,
       "net": 12
@@ -183,9 +187,10 @@
     "new:Dash-APAC-November-December": "2026-11-03T18:15:22.345Z",
     "new:Dash-Music-MVP-Application-Developing": "2026-11-03T18:45:26.044Z",
     "new:JembeAndEvolite_WorkDone_2026": "2026-11-05T15:45:24.332Z",
-    "new:EvoliteJembeAndNFTs_November_2026": "2026-11-05T16:45:22.844Z"
+    "new:EvoliteJembeAndNFTs_November_2026": "2026-11-05T16:45:22.844Z",
+    "new:Dash-Stars-Ecosystem-Visibility-Pilot": "2026-11-07T14:15:27.828Z"
   },
   "superblock": "2575480",
   "lastPassingCount": 6,
-  "updated": "2026-11-07T13:45:17.756Z"
+  "updated": "2026-11-07T14:15:27.828Z"
 }
