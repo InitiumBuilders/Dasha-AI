@@ -106,7 +106,7 @@
     },
     "mnowatch-hosting-2026": {
       "passing": true,
-      "net": 607
+      "net": 608
     },
     "encointerUBI-mean26": {
       "passing": false,
@@ -192,5 +192,5 @@
   },
   "superblock": "2575480",
   "lastPassingCount": 6,
-  "updated": "2026-11-08T05:45:17.728Z"
+  "updated": "2026-11-08T06:15:17.798Z"
 }
