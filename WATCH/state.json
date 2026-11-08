@@ -66,7 +66,7 @@
     },
     "vulnerability-disclosure-compensation": {
       "passing": true,
-      "net": 415
+      "net": 419
     },
     "dash-growth-q4-2026": {
       "passing": false,
@@ -78,7 +78,7 @@
     },
     "DCG-Operations-Aug-Nov-26": {
       "passing": true,
-      "net": 688
+      "net": 690
     },
     "OrchardPay": {
       "passing": false,
@@ -90,7 +90,7 @@
     },
     "dash-growth-marketing-budget": {
       "passing": true,
-      "net": 370
+      "net": 368
     },
     "BTCBackportsVijay_03": {
       "passing": false,
@@ -102,11 +102,11 @@
     },
     "Dash-Italia-Management-2026": {
       "passing": true,
-      "net": 563
+      "net": 561
     },
     "mnowatch-hosting-2026": {
       "passing": true,
-      "net": 608
+      "net": 605
     },
     "encointerUBI-mean26": {
       "passing": false,
@@ -192,5 +192,5 @@
   },
   "superblock": "2575480",
   "lastPassingCount": 6,
-  "updated": "2026-11-08T06:45:17.697Z"
+  "updated": "2026-11-08T07:15:17.736Z"
 }
