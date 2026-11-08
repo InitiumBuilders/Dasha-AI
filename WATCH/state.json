@@ -14,15 +14,15 @@
     },
     "Dash-Music-MVP-Application-Developing": {
       "passing": false,
-      "net": 66
+      "net": 70
     },
     "Dash-APAC-November-December": {
       "passing": false,
-      "net": 282
+      "net": 294
     },
     "c2pool-daemonless-delivered": {
       "passing": false,
-      "net": 66
+      "net": 70
     },
     "Optional-Content-Control": {
       "passing": false,
@@ -34,7 +34,7 @@
     },
     "Business-Development-Nov-December-26": {
       "passing": false,
-      "net": 112
+      "net": 128
     },
     "dash-intents": {
       "passing": false,
@@ -42,11 +42,11 @@
     },
     "APAC-BizDev-HK-China-SG-Nov-Dec-26": {
       "passing": false,
-      "net": 292
+      "net": 308
     },
     "kwvg-core-oct26": {
       "passing": false,
-      "net": 194
+      "net": 210
     },
     "dashcentral-operations4": {
       "passing": false,
@@ -74,7 +74,7 @@
     },
     "BTCBACKPORTSVIJAY_04": {
       "passing": false,
-      "net": 241
+      "net": 257
     },
     "DCG-Operations-Aug-Nov-26": {
       "passing": true,
@@ -90,7 +90,7 @@
     },
     "dash-growth-marketing-budget": {
       "passing": true,
-      "net": 368
+      "net": 380
     },
     "BTCBackportsVijay_03": {
       "passing": false,
@@ -192,5 +192,5 @@
   },
   "superblock": "2575480",
   "lastPassingCount": 6,
-  "updated": "2026-11-08T10:45:17.868Z"
+  "updated": "2026-11-08T11:15:17.765Z"
 }
