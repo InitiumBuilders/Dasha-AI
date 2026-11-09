@@ -6,7 +6,7 @@
     },
     "Dash_Italia_SiGMA_AIBC_Rome_Refund": {
       "passing": false,
-      "net": 0
+      "net": 1
     },
     "Dash-Stars-Ecosystem-Visibility-Pilot": {
       "passing": false,
@@ -66,7 +66,7 @@
     },
     "Dash-Pay-name-registration-rules": {
       "passing": true,
-      "net": 349
+      "net": 350
     },
     "DashDaoGrowthEngine": {
       "passing": false,
@@ -203,5 +203,5 @@
   },
   "superblock": "2575480",
   "lastPassingCount": 7,
-  "updated": "2026-11-09T11:45:29.139Z"
+  "updated": "2026-11-09T12:15:17.742Z"
 }
