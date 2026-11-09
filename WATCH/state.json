@@ -2,11 +2,11 @@
   "seen": {
     "SIGMA_AIBC_FIERA_ROMA_2026_REIMBURSMENT": {
       "passing": false,
-      "net": 17
+      "net": 29
     },
     "Dash_Italia_SiGMA_AIBC_Rome_Refund": {
       "passing": false,
-      "net": 18
+      "net": 30
     },
     "Dash-Stars-Ecosystem-Visibility-Pilot": {
       "passing": false,
@@ -14,7 +14,7 @@
     },
     "JembeAndEvolite_WorkDone_2026": {
       "passing": false,
-      "net": 85
+      "net": 97
     },
     "EvoliteJembeAndNFTs_November_2026": {
       "passing": false,
@@ -26,7 +26,7 @@
     },
     "Dash-APAC-November-December": {
       "passing": true,
-      "net": 337
+      "net": 349
     },
     "c2pool-daemonless-delivered": {
       "passing": false,
@@ -42,15 +42,15 @@
     },
     "Business-Development-Nov-December-26": {
       "passing": false,
-      "net": 147
+      "net": 159
     },
     "dash-intents": {
       "passing": false,
       "net": 45
     },
     "APAC-BizDev-HK-China-SG-Nov-Dec-26": {
-      "passing": false,
-      "net": 326
+      "passing": true,
+      "net": 338
     },
     "kwvg-core-oct26": {
       "passing": false,
@@ -82,7 +82,7 @@
     },
     "BTCBACKPORTSVIJAY_04": {
       "passing": false,
-      "net": 263
+      "net": 275
     },
     "DCG-Operations-Aug-Nov-26": {
       "passing": true,
@@ -200,9 +200,10 @@
     "new:Dash_Italia_SiGMA_AIBC_Rome_Refund": "2026-11-09T10:15:21.181Z",
     "flip:Dash-APAC-November-December:in:2575480": "2026-11-09T11:15:17.697Z",
     "new:SIGMA_AIBC_FIERA_ROMA_2026_REIMBURSMENT": "2026-11-09T11:45:29.139Z",
-    "flip:Dash-APAC-November-December:out:2575480": "2026-11-09T12:45:17.677Z"
+    "flip:Dash-APAC-November-December:out:2575480": "2026-11-09T12:45:17.677Z",
+    "flip:APAC-BizDev-HK-China-SG-Nov-Dec-26:in:2575480": "2026-11-09T17:15:17.887Z"
   },
   "superblock": "2575480",
-  "lastPassingCount": 7,
-  "updated": "2026-11-09T16:45:17.730Z"
+  "lastPassingCount": 8,
+  "updated": "2026-11-09T17:15:17.887Z"
 }
