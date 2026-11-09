@@ -6,7 +6,7 @@
     },
     "Dash-Stars-Ecosystem-Visibility-Pilot": {
       "passing": false,
-      "net": 12
+      "net": 11
     },
     "JembeAndEvolite_WorkDone_2026": {
       "passing": false,
@@ -22,19 +22,19 @@
     },
     "Dash-APAC-November-December": {
       "passing": false,
-      "net": 306
+      "net": 307
     },
     "c2pool-daemonless-delivered": {
       "passing": false,
-      "net": 70
+      "net": 69
     },
     "Optional-Content-Control": {
       "passing": false,
-      "net": 62
+      "net": 61
     },
     "Dash-Mass-Organic-Content-Attraction": {
       "passing": false,
-      "net": 43
+      "net": 44
     },
     "Business-Development-Nov-December-26": {
       "passing": false,
@@ -197,5 +197,5 @@
   },
   "superblock": "2575480",
   "lastPassingCount": 6,
-  "updated": "2026-11-09T10:15:21.181Z"
+  "updated": "2026-11-09T10:45:17.761Z"
 }
