@@ -1,5 +1,9 @@
 {
   "seen": {
+    "Dash_Italia_SiGMA_AIBC_Rome_Refund": {
+      "passing": false,
+      "net": 0
+    },
     "Dash-Stars-Ecosystem-Visibility-Pilot": {
       "passing": false,
       "net": 12
@@ -188,9 +192,10 @@
     "new:Dash-Music-MVP-Application-Developing": "2026-11-03T18:45:26.044Z",
     "new:JembeAndEvolite_WorkDone_2026": "2026-11-05T15:45:24.332Z",
     "new:EvoliteJembeAndNFTs_November_2026": "2026-11-05T16:45:22.844Z",
-    "new:Dash-Stars-Ecosystem-Visibility-Pilot": "2026-11-07T14:15:27.828Z"
+    "new:Dash-Stars-Ecosystem-Visibility-Pilot": "2026-11-07T14:15:27.828Z",
+    "new:Dash_Italia_SiGMA_AIBC_Rome_Refund": "2026-11-09T10:15:21.181Z"
   },
   "superblock": "2575480",
   "lastPassingCount": 6,
-  "updated": "2026-11-09T09:45:17.862Z"
+  "updated": "2026-11-09T10:15:21.181Z"
 }
