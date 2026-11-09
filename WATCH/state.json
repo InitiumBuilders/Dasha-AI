@@ -2,27 +2,27 @@
   "seen": {
     "SIGMA_AIBC_FIERA_ROMA_2026_REIMBURSMENT": {
       "passing": false,
-      "net": 6
+      "net": 17
     },
     "Dash_Italia_SiGMA_AIBC_Rome_Refund": {
       "passing": false,
-      "net": 7
+      "net": 18
     },
     "Dash-Stars-Ecosystem-Visibility-Pilot": {
       "passing": false,
-      "net": 11
+      "net": 21
     },
     "JembeAndEvolite_WorkDone_2026": {
       "passing": false,
-      "net": 50
+      "net": 85
     },
     "EvoliteJembeAndNFTs_November_2026": {
       "passing": false,
-      "net": 16
+      "net": 51
     },
     "Dash-Music-MVP-Application-Developing": {
       "passing": false,
-      "net": 74
+      "net": 75
     },
     "Dash-APAC-November-December": {
       "passing": true,
@@ -42,7 +42,7 @@
     },
     "Business-Development-Nov-December-26": {
       "passing": false,
-      "net": 146
+      "net": 147
     },
     "dash-intents": {
       "passing": false,
@@ -204,5 +204,5 @@
   },
   "superblock": "2575480",
   "lastPassingCount": 7,
-  "updated": "2026-11-09T14:15:18.114Z"
+  "updated": "2026-11-09T14:45:17.814Z"
 }
