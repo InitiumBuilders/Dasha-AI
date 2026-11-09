@@ -21,8 +21,8 @@
       "net": 70
     },
     "Dash-APAC-November-December": {
-      "passing": false,
-      "net": 307
+      "passing": true,
+      "net": 335
     },
     "c2pool-daemonless-delivered": {
       "passing": false,
@@ -193,9 +193,10 @@
     "new:JembeAndEvolite_WorkDone_2026": "2026-11-05T15:45:24.332Z",
     "new:EvoliteJembeAndNFTs_November_2026": "2026-11-05T16:45:22.844Z",
     "new:Dash-Stars-Ecosystem-Visibility-Pilot": "2026-11-07T14:15:27.828Z",
-    "new:Dash_Italia_SiGMA_AIBC_Rome_Refund": "2026-11-09T10:15:21.181Z"
+    "new:Dash_Italia_SiGMA_AIBC_Rome_Refund": "2026-11-09T10:15:21.181Z",
+    "flip:Dash-APAC-November-December:in:2575480": "2026-11-09T11:15:17.697Z"
   },
   "superblock": "2575480",
-  "lastPassingCount": 6,
-  "updated": "2026-11-09T10:45:17.761Z"
+  "lastPassingCount": 7,
+  "updated": "2026-11-09T11:15:17.697Z"
 }
