@@ -2,11 +2,11 @@
   "seen": {
     "SIGMA_AIBC_FIERA_ROMA_2026_REIMBURSMENT": {
       "passing": false,
-      "net": 79
+      "net": 80
     },
     "Dash_Italia_SiGMA_AIBC_Rome_Refund": {
       "passing": false,
-      "net": 71
+      "net": 72
     },
     "Dash-Stars-Ecosystem-Visibility-Pilot": {
       "passing": false,
@@ -26,7 +26,7 @@
     },
     "Dash-APAC-November-December": {
       "passing": true,
-      "net": 353
+      "net": 355
     },
     "c2pool-daemonless-delivered": {
       "passing": false,
@@ -98,11 +98,11 @@
     },
     "dash-growth-marketing-budget": {
       "passing": true,
-      "net": 383
+      "net": 384
     },
     "BTCBackportsVijay_03": {
       "passing": false,
-      "net": 160
+      "net": 159
     },
     "GEG-PPP-30M-Film-On-Chain": {
       "passing": false,
@@ -110,7 +110,7 @@
     },
     "Dash-Italia-Management-2026": {
       "passing": true,
-      "net": 562
+      "net": 563
     },
     "mnowatch-hosting-2026": {
       "passing": true,
@@ -118,7 +118,7 @@
     },
     "encointerUBI-mean26": {
       "passing": false,
-      "net": -135
+      "net": -136
     }
   },
   "fired": {
@@ -205,5 +205,5 @@
   },
   "superblock": "2575480",
   "lastPassingCount": 8,
-  "updated": "2026-11-10T20:15:17.785Z"
+  "updated": "2026-11-10T20:45:17.779Z"
 }
