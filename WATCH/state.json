@@ -10,7 +10,7 @@
     },
     "Dash-Stars-Ecosystem-Visibility-Pilot": {
       "passing": false,
-      "net": 16
+      "net": -28
     },
     "JembeAndEvolite_WorkDone_2026": {
       "passing": false,
@@ -205,5 +205,5 @@
   },
   "superblock": "2575480",
   "lastPassingCount": 8,
-  "updated": "2026-11-10T06:45:18.248Z"
+  "updated": "2026-11-10T07:15:17.795Z"
 }
