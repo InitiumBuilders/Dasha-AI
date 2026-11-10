@@ -6,7 +6,7 @@
     },
     "Dash_Italia_SiGMA_AIBC_Rome_Refund": {
       "passing": false,
-      "net": 72
+      "net": 81
     },
     "Dash-Stars-Ecosystem-Visibility-Pilot": {
       "passing": false,
@@ -14,7 +14,7 @@
     },
     "JembeAndEvolite_WorkDone_2026": {
       "passing": false,
-      "net": 120
+      "net": 121
     },
     "EvoliteJembeAndNFTs_November_2026": {
       "passing": false,
@@ -30,7 +30,7 @@
     },
     "c2pool-daemonless-delivered": {
       "passing": false,
-      "net": 72
+      "net": 73
     },
     "Optional-Content-Control": {
       "passing": false,
@@ -98,7 +98,7 @@
     },
     "dash-growth-marketing-budget": {
       "passing": true,
-      "net": 384
+      "net": 385
     },
     "BTCBackportsVijay_03": {
       "passing": false,
@@ -118,7 +118,7 @@
     },
     "encointerUBI-mean26": {
       "passing": false,
-      "net": -136
+      "net": -137
     }
   },
   "fired": {
@@ -205,5 +205,5 @@
   },
   "superblock": "2575480",
   "lastPassingCount": 8,
-  "updated": "2026-11-10T21:15:17.836Z"
+  "updated": "2026-11-10T21:45:17.804Z"
 }
