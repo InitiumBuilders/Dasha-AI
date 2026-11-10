@@ -42,7 +42,7 @@
     },
     "Business-Development-Nov-December-26": {
       "passing": false,
-      "net": 160
+      "net": 161
     },
     "dash-intents": {
       "passing": false,
@@ -74,7 +74,7 @@
     },
     "vulnerability-disclosure-compensation": {
       "passing": true,
-      "net": 419
+      "net": 421
     },
     "dash-growth-q4-2026": {
       "passing": false,
@@ -110,7 +110,7 @@
     },
     "Dash-Italia-Management-2026": {
       "passing": true,
-      "net": 563
+      "net": 564
     },
     "mnowatch-hosting-2026": {
       "passing": true,
@@ -205,5 +205,5 @@
   },
   "superblock": "2575480",
   "lastPassingCount": 8,
-  "updated": "2026-11-10T21:45:17.804Z"
+  "updated": "2026-11-10T22:15:17.968Z"
 }
