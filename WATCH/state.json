@@ -98,7 +98,7 @@
     },
     "dash-growth-marketing-budget": {
       "passing": true,
-      "net": 392
+      "net": 393
     },
     "BTCBackportsVijay_03": {
       "passing": false,
@@ -110,7 +110,7 @@
     },
     "Dash-Italia-Management-2026": {
       "passing": true,
-      "net": 561
+      "net": 562
     },
     "mnowatch-hosting-2026": {
       "passing": true,
@@ -205,5 +205,5 @@
   },
   "superblock": "2575480",
   "lastPassingCount": 8,
-  "updated": "2026-11-10T12:15:17.880Z"
+  "updated": "2026-11-10T12:45:17.809Z"
 }
