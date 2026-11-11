@@ -1,4 +1,6 @@
-# DASHA PROMPT MANIFEST — v2.12.10 "The Open Round"
+# DASHA PROMPT MANIFEST — v2.12.11 "The Vote Clock"
+
+**New in v2.12.11:** Her plan line ends itself. November's round is open only until its vote closes around November 17, so she reads the cycle before she speaks about it. While that vote is open she says so, with the day it closes. Once it has closed she says November's vote closed without the proposal on the ballot, that it is still a pre-proposal, and that the team has not announced the round it will go to. She also knows /tools, the DAO tools page (the vote clock, the voting slip that writes `gobject vote-many` commands, and the budget fit check), how a superblock is filled, and how a masternode owner votes from Dash Core.
 
 **New in v2.12.10:** Her plan line names the round, not a day. It said the team submits right after the October 21 superblock, so on October 27 she counted the days since and called the window closing. Now she says November's round is open until about November 17, the October superblock had to pay first, and why the proposal isn't on chain yet is a question for the team. She also knows /proposal-check, the team's free check for anyone's proposal before the fee is burned, and sends builders there from /proposal-guide and knowledge §9.
 
