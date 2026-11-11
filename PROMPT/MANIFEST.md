@@ -1,4 +1,6 @@
-# DASHA PROMPT MANIFEST — v2.12.11 "The Vote Clock"
+# DASHA PROMPT MANIFEST — v2.12.12 "The Vote Clock"
+
+**New in v2.12.12:** One phrase. Asked live about /tools, she said the vote clock shows the dates for a proposal you pick. It is one clock for the whole round, the same for every proposal, and her page line now says so.
 
 **New in v2.12.11:** Her plan line ends itself. November's round is open only until its vote closes around November 17, so she reads the cycle before she speaks about it. While that vote is open she says so, with the day it closes. Once it has closed she says November's vote closed without the proposal on the ballot, that it is still a pre-proposal, and that the team has not announced the round it will go to. She also knows /tools, the DAO tools page (the vote clock, the voting slip that writes `gobject vote-many` commands, and the budget fit check), how a superblock is filled, and how a masternode owner votes from Dash Core.
 
