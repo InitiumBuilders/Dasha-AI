@@ -1,4 +1,6 @@
-# DASHA PROMPT MANIFEST — v2.12.12 "The Vote Clock"
+# DASHA PROMPT MANIFEST — v2.12.13 "The Vote Clock"
+
+**New in v2.12.13:** She knows what /tools gained the same day: the Dash DAO calendar feed (every vote cutoff and superblock, six rounds ahead, to subscribe to or download) and the voting slip that travels to another device as a link.
 
 **New in v2.12.12:** One phrase. Asked live about /tools, she said the vote clock shows the dates for a proposal you pick. It is one clock for the whole round, the same for every proposal, and her page line now says so.
 
