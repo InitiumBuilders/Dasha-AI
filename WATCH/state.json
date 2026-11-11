@@ -2,47 +2,47 @@
   "seen": {
     "SIGMA_AIBC_FIERA_ROMA_2026_REIMBURSMENT": {
       "passing": false,
-      "net": 98
+      "net": 108
     },
     "Dash_Italia_SiGMA_AIBC_Rome_Refund": {
       "passing": false,
-      "net": 92
+      "net": 102
     },
     "Dash-Stars-Ecosystem-Visibility-Pilot": {
       "passing": false,
-      "net": -27
+      "net": -37
     },
     "JembeAndEvolite_WorkDone_2026": {
       "passing": false,
-      "net": 128
+      "net": 118
     },
     "EvoliteJembeAndNFTs_November_2026": {
       "passing": false,
-      "net": 56
+      "net": 46
     },
     "Dash-Music-MVP-Application-Developing": {
       "passing": false,
-      "net": 125
+      "net": 115
     },
     "Dash-APAC-November-December": {
       "passing": true,
-      "net": 358
+      "net": 368
     },
     "c2pool-daemonless-delivered": {
       "passing": false,
-      "net": 118
+      "net": 128
     },
     "Optional-Content-Control": {
       "passing": false,
-      "net": 61
+      "net": 51
     },
     "Dash-Mass-Organic-Content-Attraction": {
       "passing": false,
-      "net": 44
+      "net": 54
     },
     "Business-Development-Nov-December-26": {
       "passing": false,
-      "net": 163
+      "net": 173
     },
     "dash-intents": {
       "passing": false,
@@ -66,7 +66,7 @@
     },
     "Dash-Pay-name-registration-rules": {
       "passing": true,
-      "net": 364
+      "net": 374
     },
     "DashDaoGrowthEngine": {
       "passing": false,
@@ -205,5 +205,5 @@
   },
   "superblock": "2575480",
   "lastPassingCount": 8,
-  "updated": "2026-11-11T22:15:18.067Z"
+  "updated": "2026-11-11T22:45:17.780Z"
 }
