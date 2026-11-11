@@ -2,11 +2,11 @@
   "seen": {
     "SIGMA_AIBC_FIERA_ROMA_2026_REIMBURSMENT": {
       "passing": false,
-      "net": 91
+      "net": 93
     },
     "Dash_Italia_SiGMA_AIBC_Rome_Refund": {
       "passing": false,
-      "net": 90
+      "net": 92
     },
     "Dash-Stars-Ecosystem-Visibility-Pilot": {
       "passing": false,
@@ -14,7 +14,7 @@
     },
     "JembeAndEvolite_WorkDone_2026": {
       "passing": false,
-      "net": 126
+      "net": 128
     },
     "EvoliteJembeAndNFTs_November_2026": {
       "passing": false,
@@ -26,7 +26,7 @@
     },
     "Dash-APAC-November-December": {
       "passing": true,
-      "net": 356
+      "net": 358
     },
     "c2pool-daemonless-delivered": {
       "passing": false,
@@ -42,7 +42,7 @@
     },
     "Business-Development-Nov-December-26": {
       "passing": false,
-      "net": 161
+      "net": 163
     },
     "dash-intents": {
       "passing": false,
@@ -50,11 +50,11 @@
     },
     "APAC-BizDev-HK-China-SG-Nov-Dec-26": {
       "passing": true,
-      "net": 352
+      "net": 354
     },
     "kwvg-core-oct26": {
       "passing": false,
-      "net": 240
+      "net": 242
     },
     "dashcentral-operations4": {
       "passing": false,
@@ -82,7 +82,7 @@
     },
     "BTCBACKPORTSVIJAY_04": {
       "passing": false,
-      "net": 275
+      "net": 277
     },
     "DCG-Operations-Aug-Nov-26": {
       "passing": true,
@@ -98,7 +98,7 @@
     },
     "dash-growth-marketing-budget": {
       "passing": true,
-      "net": 385
+      "net": 387
     },
     "BTCBackportsVijay_03": {
       "passing": false,
@@ -205,5 +205,5 @@
   },
   "superblock": "2575480",
   "lastPassingCount": 8,
-  "updated": "2026-11-11T14:45:17.834Z"
+  "updated": "2026-11-11T15:15:17.791Z"
 }
