@@ -2,7 +2,7 @@
   "seen": {
     "SIGMA_AIBC_FIERA_ROMA_2026_REIMBURSMENT": {
       "passing": false,
-      "net": 241
+      "net": 240
     },
     "Dash_Italia_SiGMA_AIBC_Rome_Refund": {
       "passing": false,
@@ -66,7 +66,7 @@
     },
     "Dash-Pay-name-registration-rules": {
       "passing": true,
-      "net": 374
+      "net": 375
     },
     "DashDaoGrowthEngine": {
       "passing": false,
@@ -74,7 +74,7 @@
     },
     "vulnerability-disclosure-compensation": {
       "passing": true,
-      "net": 421
+      "net": 422
     },
     "dash-growth-q4-2026": {
       "passing": false,
@@ -94,7 +94,7 @@
     },
     "Dash-communities-without-censorship": {
       "passing": false,
-      "net": 223
+      "net": 224
     },
     "dash-growth-marketing-budget": {
       "passing": true,
@@ -205,5 +205,5 @@
   },
   "superblock": "2575480",
   "lastPassingCount": 8,
-  "updated": "2026-11-12T06:15:17.745Z"
+  "updated": "2026-11-12T06:45:17.684Z"
 }
