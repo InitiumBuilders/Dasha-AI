@@ -21,8 +21,8 @@
       "net": -20
     },
     "SIGMA_AIBC_FIERA_ROMA_2026_REIMBURSMENT": {
-      "passing": false,
-      "net": 270
+      "passing": true,
+      "net": 313
     },
     "Dash_Italia_SiGMA_AIBC_Rome_Refund": {
       "passing": false,
@@ -46,7 +46,7 @@
     },
     "Dash-APAC-November-December": {
       "passing": true,
-      "net": 368
+      "net": 325
     },
     "c2pool-daemonless-delivered": {
       "passing": false,
@@ -62,7 +62,7 @@
     },
     "Business-Development-Nov-December-26": {
       "passing": false,
-      "net": 175
+      "net": 218
     },
     "dash-intents": {
       "passing": false,
@@ -70,7 +70,7 @@
     },
     "APAC-BizDev-HK-China-SG-Nov-Dec-26": {
       "passing": true,
-      "net": 354
+      "net": 397
     },
     "kwvg-core-oct26": {
       "passing": false,
@@ -86,7 +86,7 @@
     },
     "Dash-Pay-name-registration-rules": {
       "passing": true,
-      "net": 375
+      "net": 332
     },
     "DashDaoGrowthEngine": {
       "passing": false,
@@ -114,7 +114,7 @@
     },
     "Dash-communities-without-censorship": {
       "passing": false,
-      "net": 224
+      "net": 181
     },
     "dash-growth-marketing-budget": {
       "passing": true,
@@ -226,9 +226,10 @@
     "new:pshenmic-dev-dashscan-december-2026": "2026-11-12T10:15:22.161Z",
     "new:pshenmic-dev-dashextension-december-2026": "2026-11-12T13:45:31.542Z",
     "new:pshenmic-dev-dfo-december-2026": "2026-11-12T14:15:22.327Z",
-    "new:DashDaoCenterNovDec2026": "2026-11-12T15:15:25.443Z"
+    "new:DashDaoCenterNovDec2026": "2026-11-12T15:15:25.443Z",
+    "flip:SIGMA_AIBC_FIERA_ROMA_2026_REIMBURSMENT:in:2575480": "2026-11-12T19:15:17.816Z"
   },
   "superblock": "2575480",
-  "lastPassingCount": 8,
-  "updated": "2026-11-12T18:45:17.825Z"
+  "lastPassingCount": 9,
+  "updated": "2026-11-12T19:15:17.816Z"
 }
