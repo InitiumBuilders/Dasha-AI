@@ -264,7 +264,16 @@
         "dip-13",
         "key purpose",
         "security level",
-        "lowest key"
+        "lowest key",
+        "limited key",
+        "key limit",
+        "spending budget",
+        "key budget",
+        "session key",
+        "login key",
+        "contract-bound",
+        "contractbounds",
+        "app connect"
       ],
       "words": []
     },
@@ -363,7 +372,7 @@
       "name": "/fee-estimate",
       "title": "Cost Before Commit",
       "file": "skills/fee-estimate.md",
-      "chars": 2156,
+      "chars": 2452,
       "phrases": [
         "what will this cost",
         "how much will it cost",
@@ -386,7 +395,11 @@
         "how expensive",
         "cost of storage",
         "per-byte storage",
-        "what it costs"
+        "what it costs",
+        "cost to store",
+        "costs to store",
+        "expires after",
+        "expiring document"
       ],
       "words": []
     },
@@ -1936,7 +1949,7 @@
       "id": "1.",
       "title": "1. DATA CONTRACT JSON SCHEMA RULES",
       "file": "knowledge/1-data-contract-json-schema-rules.md",
-      "chars": 5742,
+      "chars": 5806,
       "phrases": [
         "data contract",
         "json schema",
@@ -2021,7 +2034,7 @@
       "id": "4.",
       "title": "4. IDENTITIES & CREDITS",
       "file": "knowledge/4-identities-credits.md",
-      "chars": 2340,
+      "chars": 2418,
       "phrases": [
         "credit",
         "top up",
@@ -2038,7 +2051,10 @@
         "fungible token",
         "token",
         "mint",
-        "security group"
+        "security group",
+        "spending budget",
+        "limited key",
+        "key limit"
       ],
       "words": []
     },
@@ -2285,7 +2301,7 @@
       "id": "17.",
       "title": "17. PLATFORM 5.0, PROTOCOL VERSION 14 (live on mainnet since 8 Nov 2026)",
       "file": "knowledge/17-platform-5-0-protocol-version-14-live.md",
-      "chars": 7515,
+      "chars": 7810,
       "phrases": [
         "platform 5",
         "platform v5",
@@ -2334,7 +2350,17 @@
         "index-only",
         "chained quer",
         "composite quer",
-        "epoch 88"
+        "epoch 88",
+        "expire",
+        "expiry",
+        "temporary document",
+        "spending budget",
+        "limited key",
+        "key limit",
+        "session key",
+        "who can moderate",
+        "be a moderator",
+        "moderators can"
       ],
       "words": []
     },
@@ -2508,6 +2534,38 @@
         "grovedb",
         "grpc-web",
         "how does platform work"
+      ],
+      "words": []
+    },
+    {
+      "id": "23.",
+      "title": "23. FEES AND LIMITS: THE PROTOCOL CONSTANTS (docs 5.0, read 12 Nov 2026)",
+      "file": "knowledge/23-fees-and-limits-the-protocol-constant.md",
+      "chars": 2678,
+      "phrases": [
+        "registration fee",
+        "contract fee",
+        "cost to register",
+        "cost of registering",
+        "fee to register",
+        "how much does it cost",
+        "what does it cost",
+        "how many credits",
+        "credits per byte",
+        "storage cost",
+        "storage fee",
+        "cost to store",
+        "costs to store",
+        "protocol constant",
+        "fee schedule",
+        "deletion prepayment",
+        "max size",
+        "size limit",
+        "maximum size",
+        "minimum withdrawal",
+        "withdrawal limit",
+        "asset lock minimum",
+        "how expensive"
       ],
       "words": []
     }

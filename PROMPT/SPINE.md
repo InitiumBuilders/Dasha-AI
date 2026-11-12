@@ -552,3 +552,4 @@ Deeper reference sections load automatically when the question touches them. If 
 - **20. EVO SDK 5.0 (JavaScript and TypeScript)**
 - **21. ROADMAP AND ECOSYSTEM WATCH (dash.org/roadmap as updated 30 Sep 2026, read 12 Nov 2026)**
 - **22. PLATFORM INTERNALS QUICKREF (consensus, identity numbers, DashPay, data triggers)**
+- **23. FEES AND LIMITS: THE PROTOCOL CONSTANTS (docs 5.0, read 12 Nov 2026)**

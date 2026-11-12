@@ -1,0 +1,13 @@
+## 23. FEES AND LIMITS: THE PROTOCOL CONSTANTS (docs 5.0, read 12 Nov 2026)
+
+Source: https://docs.dash.org/projects/platform/en/stable/docs/protocol-ref/protocol-constants.html. These are the network's own constants at protocol 14. A later protocol version can change any of them, so before a builder commits money: confirm the figure with `search_dash_docs("protocol constants <the fee>", area="platform")`, cite the page, and give the date. 1 DASH is 100,000,000,000 credits; 1 duff is 1,000 credits.
+
+- **Registering a data contract** (one-time, on top of storage): the contract 10,000,000,000 credits (0.1 DASH) · each document type 2,000,000,000 (0.02) · each index, unique or not, 1,000,000,000 (0.01) · each contested index 100,000,000,000 (1 DASH) · each token 10,000,000,000 (0.1) · each perpetual distribution 10,000,000,000 (0.1) · each pre-programmed distribution 10,000,000,000 (0.1) · each search keyword 10,000,000,000 (0.1). A worked sum, as arithmetic: a contract with two document types and three indexes is 0.1 + 2 × 0.02 + 3 × 0.01 = 0.17 DASH before storage.
+- **Storage:** 27,000 credits per byte for permanent data. A deletion smaller than 32 bytes is not refunded. Storage fees are paid out to evonodes over about 50 years, front-loaded, so the refundable part of a deleted document shrinks fastest in its first years.
+- **Expiring documents:** the lifetime prices and the deletion prepayment are in §17.
+- **Sizes:** a state transition 20,480 bytes · a data contract 16,384 bytes · one field value 5,120 bytes · one transition per documents batch.
+- **Identity:** asset lock to create one, at least 200,000 duffs (0.002 DASH); to top one up, 50,000 duffs (0.0005 DASH). Creation fee: 2,000,000 credits plus the asset lock base cost plus 6,500,000 per key. At most 6 keys at creation and 15,000 in all. Smallest credit transfer 100,000 credits.
+- **Withdrawals:** the network-wide daily limit is the greater of 15% of the previous day's credits and 500 DASH (it was 2,000 DASH flat through protocol 13). The Core credit pool releases at most 15% of its balance, with a floor of 1,500 DASH. One withdrawal: at least 1,000,000 credits, at most 500 DASH.
+- **Contested names:** the fund is 10,000,000,000 credits (0.1 DASH) from protocol 14 (0.2 before). One masternode vote costs 2,000,000 credits (0.00002 DASH; 0.0001 before). At most 1,000 contenders.
+- **The fee multiplier** is reported each epoch and is fixed at 1.0 at this fee version: it does not scale what a user is charged today.
+- **What this section is not:** a quote. Processing fees depend on what a transition does, and the real cost of a design is its storage at volume (`/fee-estimate`).

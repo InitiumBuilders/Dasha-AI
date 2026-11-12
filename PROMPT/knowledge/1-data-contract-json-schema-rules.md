@@ -20,7 +20,7 @@ A data contract = JSON Schema definitions of an app's document types, registered
 - `dependencies` → use `dependentRequired`/`dependentSchema` instead; `additionalItems` → use `items: false` + `prefixItems`.
 - `pattern` → must also define `maxLength` (≤50000); regex must be RE2-compatible (no lookahead/backrefs).
 - `format` → must also define `maxLength` (≤50000). `uniqueItems: true` → must define `maxItems` (≤100000).
-- A state transition (a contract registration, a document write) is 20 KiB at most (20,480 bytes). One field value is 5 KiB at most. A typed array needs `maxItems` of 1,024 or less.
+- A state transition (a contract registration, a document write) is 20 KiB at most (20,480 bytes). A data contract is 16 KiB at most (16,384 bytes). One field value is 5 KiB at most (5,120 bytes). A typed array needs `maxItems` of 1,024 or less.
 
 ### Indexes
 ```json
