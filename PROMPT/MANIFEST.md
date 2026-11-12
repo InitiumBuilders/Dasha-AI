@@ -1,4 +1,6 @@
-# DASHA PROMPT MANIFEST — v2.12.13 "The Vote Clock"
+# DASHA PROMPT MANIFEST — v2.12.14 "The Clerk"
+
+**New in v2.12.14:** She can clerk a room. Knowledge section 16 and the `/paxt` skill cover the Dash PAXT (an agreement masternode owners join by each signing one line with their own wallet), the Telepaxt, and her two room commands, `/paxt <id>` and `/signal`. She keeps signed lines out of chat and sends them to dashsupport.team/paxt, because a line posted in a room ties a Telegram name to a masternode. She also states the masternode keys exactly: only the collateral key can move the collateral, the owner key changes the registration, and the voting key only votes. Asked twice on November 12, she had said the owner key could move it.
 
 **New in v2.12.13:** She knows what /tools gained the same day: the Dash DAO calendar feed (every vote cutoff and superblock, six rounds ahead, to subscribe to or download) and the voting slip that travels to another device as a link.
 
