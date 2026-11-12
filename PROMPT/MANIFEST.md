@@ -1,4 +1,6 @@
-# DASHA PROMPT MANIFEST — v2.13.4 "The Architect"
+# DASHA PROMPT MANIFEST — v2.13.5 "The Architect"
+
+**New in v2.13.5 (12 Nov 2026):** Notes and routing words only, from the next round of live questions. Section 23 gains the processing constants under their right names (she had called the load fee a seek and charged a contract validation fee to a document write), the once-per-identity distribution fee, and a worked sum for scaling a cost to users, after an answer gave 50 MB of storage as about 1.35 DASH (it is 13.5). A question about "a key with a budget" now loads section 17 and the key skill.
 
 **New in v2.13.4 (12 Nov 2026):** Asked live with the new notes, she got every sum right and placed one decimal point wrong: 2,700,000 credits given as 0.027 DASH (it is 0.000027). The server now checks every credits-to-DASH pair in a reply by division and corrects a misplaced point before the reply leaves (`api/_units.js`); it changes nothing else. Section 23 gains the conversion rule with anchors. The key budget rule in section 17 is rewritten from the platform book's own page: what has to fit before a transition runs (error 40218 when it does not), what alone can take a key past its budget, the book's worked case, and the errors for registering and using a limited key. Routing words for a cost question that comes with a size.
 

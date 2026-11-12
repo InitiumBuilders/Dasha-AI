@@ -273,7 +273,20 @@
         "login key",
         "contract-bound",
         "contractbounds",
-        "app connect"
+        "app connect",
+        "key with a budget",
+        "budgeted key",
+        "budget on a key",
+        "bot a key",
+        "bot key",
+        "key for my bot",
+        "key for a bot",
+        "key for my app",
+        "key for an app",
+        "key that expires",
+        "expiring key",
+        "totalbudget",
+        "expiresat"
       ],
       "words": []
     },
@@ -372,7 +385,7 @@
       "name": "/fee-estimate",
       "title": "Cost Before Commit",
       "file": "skills/fee-estimate.md",
-      "chars": 2691,
+      "chars": 2833,
       "phrases": [
         "what will this cost",
         "how much will it cost",
@@ -405,7 +418,12 @@
         "show the sum",
         "cheaper to store",
         "cheaper to keep",
-        "expire after"
+        "expire after",
+        "storage bill",
+        "cost in processing",
+        "cost to write",
+        "costs to write",
+        "cost of writing"
       ],
       "words": []
     },
@@ -2368,7 +2386,18 @@
         "be a moderator",
         "moderators can",
         "expire after",
-        "expires after"
+        "expires after",
+        "key with a budget",
+        "budgeted key",
+        "budget on a key",
+        "bot a key",
+        "bot key",
+        "key for my bot",
+        "key for a bot",
+        "key for my app",
+        "key for an app",
+        "key that expires",
+        "expiring key"
       ],
       "words": []
     },
@@ -2549,7 +2578,7 @@
       "id": "23.",
       "title": "23. FEES AND LIMITS: THE PROTOCOL CONSTANTS (docs 5.0, read 12 Nov 2026)",
       "file": "knowledge/23-fees-and-limits-the-protocol-constant.md",
-      "chars": 3327,
+      "chars": 4604,
       "phrases": [
         "registration fee",
         "contract fee",
@@ -2576,7 +2605,17 @@
         "how expensive",
         "in credits",
         "which costs less",
-        "show the sum"
+        "show the sum",
+        "processing cost",
+        "storage bill",
+        "processing fee for",
+        "processing fees for",
+        "cost in processing",
+        "cost to write",
+        "costs to write",
+        "cost of writing",
+        "state transition fee",
+        "fee for a state transition"
       ],
       "words": []
     }
