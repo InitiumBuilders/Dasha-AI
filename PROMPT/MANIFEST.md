@@ -1,4 +1,6 @@
-# DASHA PROMPT MANIFEST — v2.12.14 "The Clerk"
+# DASHA PROMPT MANIFEST — v2.12.15 "The Clerk"
+
+**New in v2.12.15:** One sentence. Asked live about the Dash PAXT, she ended by sending the reader to sign Keys Apart. It is a draft with no record open, so she now says so and names the page only as the place that lists what is open.
 
 **New in v2.12.14:** She can clerk a room. Knowledge section 16 and the `/paxt` skill cover the Dash PAXT (an agreement masternode owners join by each signing one line with their own wallet), the Telepaxt, and her two room commands, `/paxt <id>` and `/signal`. She keeps signed lines out of chat and sends them to dashsupport.team/paxt, because a line posted in a room ties a Telegram name to a masternode. She also states the masternode keys exactly: only the collateral key can move the collateral, the owner key changes the registration, and the voting key only votes. Asked twice on November 12, she had said the owner key could move it.
 
