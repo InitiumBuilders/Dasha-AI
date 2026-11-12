@@ -223,7 +223,7 @@ Start at [CONTRIBUTING.md](CONTRIBUTING.md).
   live view is down rather than filling the silence with a guess.
 - **Dash has no general smart contracts today.** Platform runs on data contracts — JSON Schema
   enforced by the network. She will keep you honest about that even when you'd rather she
-  didn't. (Platform v5.0 is tentatively ~Q1 2027.)
+  didn't. (Smart contracts are on the roadmap for Platform v6.0, tentatively Q2 2027.)
 - **She will not tell you how to vote.** She'll show you the tally, the threshold, and the
   arithmetic. The judgement is yours; that's the whole point of a DAO.
 
@@ -233,7 +233,7 @@ Start at [CONTRIBUTING.md](CONTRIBUTING.md).
 |---|---|
 | [docs/PHILOSOPHY.md](docs/PHILOSOPHY.md) | Why she is built this way. The soul document. |
 | [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) | How she actually works, precisely. |
-| [docs/SKILLS.md](docs/SKILLS.md) | All 38 skills, what they do, when they fire. |
+| [docs/SKILLS.md](docs/SKILLS.md) | All 57 skills, what they do, when they fire. |
 | [docs/SELF-HOST.md](docs/SELF-HOST.md) | Run your own, honestly. |
 | [CONTRIBUTING.md](CONTRIBUTING.md) | Shape her mind. |
 

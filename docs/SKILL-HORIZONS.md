@@ -2,6 +2,10 @@
 
 *Where each of her skills stands today — and where it could walk next.*
 
+*A note, 12 November 2026: this page was written in July 2026 against the roadmap as it stood then. Where it says
+v5.0 it means the smart contract VM, which the roadmap now places at v6.0 (tentatively Q2 2027). Platform 5.0 went
+live on mainnet on 8 November 2026 without it.*
+
 A skill is a living thing. It is not a finished tool bolted to a machine; it is a way of thinking
 that will grow as Dash grows, as her tools multiply, and as the community that shapes her mind
 learns more about what people actually need. So each entry here comes in two parts.
