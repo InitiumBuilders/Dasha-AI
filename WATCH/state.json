@@ -2,11 +2,15 @@
   "seen": {
     "DashDaoCenterNovDec2026": {
       "passing": false,
-      "net": 1
+      "net": 29
+    },
+    "pshenmic-dev-dfo-december-2026": {
+      "passing": false,
+      "net": -27
     },
     "pshenmic-dev-dashextension-december-2026": {
       "passing": false,
-      "net": 1
+      "net": -27
     },
     "pshenmic-dev-dashscan-december-2026": {
       "passing": false,
@@ -15,10 +19,6 @@
     "pshenmic-dev-dash-desktop-december-2026": {
       "passing": false,
       "net": -20
-    },
-    "pshenmic-dev-dfo-december-2026": {
-      "passing": false,
-      "net": 1
     },
     "SIGMA_AIBC_FIERA_ROMA_2026_REIMBURSMENT": {
       "passing": false,
@@ -34,11 +34,11 @@
     },
     "JembeAndEvolite_WorkDone_2026": {
       "passing": false,
-      "net": 124
+      "net": 152
     },
     "EvoliteJembeAndNFTs_November_2026": {
       "passing": false,
-      "net": 50
+      "net": 78
     },
     "Dash-Music-MVP-Application-Developing": {
       "passing": false,
@@ -230,5 +230,5 @@
   },
   "superblock": "2575480",
   "lastPassingCount": 8,
-  "updated": "2026-11-12T18:15:17.885Z"
+  "updated": "2026-11-12T18:45:17.825Z"
 }
