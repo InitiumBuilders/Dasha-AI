@@ -240,7 +240,7 @@
       "name": "/identity-keys",
       "title": "Key Hierarchy Guardian",
       "file": "skills/identity-keys.md",
-      "chars": 2523,
+      "chars": 2678,
       "phrases": [
         "which key signs",
         "which key do i",
@@ -372,7 +372,7 @@
       "name": "/fee-estimate",
       "title": "Cost Before Commit",
       "file": "skills/fee-estimate.md",
-      "chars": 2452,
+      "chars": 2691,
       "phrases": [
         "what will this cost",
         "how much will it cost",
@@ -399,7 +399,13 @@
         "cost to store",
         "costs to store",
         "expires after",
-        "expiring document"
+        "expiring document",
+        "in credits",
+        "which costs less",
+        "show the sum",
+        "cheaper to store",
+        "cheaper to keep",
+        "expire after"
       ],
       "words": []
     },
@@ -2301,7 +2307,7 @@
       "id": "17.",
       "title": "17. PLATFORM 5.0, PROTOCOL VERSION 14 (live on mainnet since 8 Nov 2026)",
       "file": "knowledge/17-platform-5-0-protocol-version-14-live.md",
-      "chars": 8650,
+      "chars": 10237,
       "phrases": [
         "platform 5",
         "platform v5",
@@ -2360,7 +2366,9 @@
         "session key",
         "who can moderate",
         "be a moderator",
-        "moderators can"
+        "moderators can",
+        "expire after",
+        "expires after"
       ],
       "words": []
     },
@@ -2541,7 +2549,7 @@
       "id": "23.",
       "title": "23. FEES AND LIMITS: THE PROTOCOL CONSTANTS (docs 5.0, read 12 Nov 2026)",
       "file": "knowledge/23-fees-and-limits-the-protocol-constant.md",
-      "chars": 2678,
+      "chars": 3327,
       "phrases": [
         "registration fee",
         "contract fee",
@@ -2565,7 +2573,10 @@
         "minimum withdrawal",
         "withdrawal limit",
         "asset lock minimum",
-        "how expensive"
+        "how expensive",
+        "in credits",
+        "which costs less",
+        "show the sum"
       ],
       "words": []
     }

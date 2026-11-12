@@ -1,4 +1,6 @@
-# DASHA PROMPT MANIFEST — v2.13.3 "The Architect"
+# DASHA PROMPT MANIFEST — v2.13.4 "The Architect"
+
+**New in v2.13.4 (12 Nov 2026):** Asked live with the new notes, she got every sum right and placed one decimal point wrong: 2,700,000 credits given as 0.027 DASH (it is 0.000027). The server now checks every credits-to-DASH pair in a reply by division and corrects a misplaced point before the reply leaves (`api/_units.js`); it changes nothing else. Section 23 gains the conversion rule with anchors. The key budget rule in section 17 is rewritten from the platform book's own page: what has to fit before a transition runs (error 40218 when it does not), what alone can take a key past its budget, the book's worked case, and the errors for registering and using a limited key. Routing words for a cost question that comes with a size.
 
 **New in v2.13.3 (12 Nov 2026):** Asked live about expiring documents, she gave every figure correctly and then concluded that permanent storage wins for large documents. By her own figures it is the other way round. Section 17 now carries the comparison as arithmetic (27,000 × bytes against 421 × bytes + 1,200,000), its break-even at about 45 bytes (about 15 more for each index level), and what a builder gives up with expiry: the data, and any history. She is told to work the sum for the builder's own size before saying which is cheaper. The key budget sentence now lists what is counted, says a storage refund does not restore budget, and says the metered processing fee can push a key past its budget.
 
