@@ -62,7 +62,7 @@ point is not that you asked her — the point is that next time you'll know wher
 
 ## What she can reach
 
-Seven live tools. She does not guess — she looks it up, then cites the source you can open
+Seventeen live tools. She does not guess — she looks it up, then cites the source you can open
 yourself. What each tool does *not* return matters as much as what it does; a tool that
 returns less is a tool that can be trusted more.
 
@@ -75,6 +75,16 @@ returns less is a tool that can be trusted more.
 | `lookup_address(address)` | Any address | Balance, total received, total sent, transaction count | No transaction list |
 | `web_search(query)` | The open web | Findings with real source URLs | Never a Dash authority |
 | `load_skill(name)` | Her own skill library | One skill's full workflow, in a single round trip | Nothing external — it reaches inward, not out |
+| `dash_platform(action, id, network)` | **Dash Platform**, mainnet or testnet, through the community Platform Explorer | A state transition with its exact consensus error, a data contract's schema, an identity, a `.dash` name, a document, or the network's status: version, epoch and block | Nothing private; it is not an official DCG service, and she says so |
+| `team_record(part)` | The team's own public record | Its proposal's ballot status, the leads' logged hours, help given by the community | Anything not already public on the Pulse |
+| `help_form_link(what, hours)` | Nothing: it builds a link | The Help given form, filled in | It logs nothing itself |
+| `dash_chain()` | **Dash Core**, from a public node | Height, the latest ChainLock and how far it is behind the tip, the next superblock and vote cutoff heights, the funding threshold | Tallies (that is `dash_governance`), and no price |
+| `dash_masternodes(action, id)` | The live **masternode list** | Counts of regular and Evo nodes, total votes, one node's status and PoSe score | Who owns a node. Never |
+| `dash_releases(project)` | **GitHub** releases of Platform and Core | Tags, dates, links, the opening of the latest notes | Whether a network runs it: published is not running |
+| `dash_dip(number, find)` | **github.com/dashpay/dips** | The text of a Dash Improvement Proposal | A later change to it |
+| `verify_message(address, message, signature)` | Nothing: it computes | VALID or NOT VALID for a Dash signed message | Who the signer is, or what the address holds |
+| `paxt_records(id)` | The public **PAXT** records | The list of records, or where one stands | Any member's name |
+| `merkle_weave(lines)` | Nothing: it computes | A real Merkle tree of two to eight lines: leaves, root, a proof | It refuses a line that looks like a key or a recovery phrase |
 
 `area` is one of `platform` · `core` · `all`. `action` is one of `summary` · `list_passing` ·
 `list_all` · `get`. She may call up to **three rounds** of tools per answer (two on Telegram,
@@ -200,7 +210,13 @@ Start at [CONTRIBUTING.md](CONTRIBUTING.md).
   This is a privacy property before it is a limitation — but plan around it.
 - **She can be wrong.** She is grounded, not infallible. The citation is there so you can
   check her — and you are meant to.
-- **She cannot touch the chain.** All seven tools are read-only. She will look up a transaction,
+- **Her voice reads her own words and nothing else.** On DashSupport.Team a reply can be heard in the Honor voice
+  (ElevenLabs). The key lives in the server's environment and is never sent to a browser. Each reply leaves the chat
+  endpoint with a ticket, an HMAC of its text, and the voice endpoint reads a text only with its ticket, so it
+  cannot be made to read anything she did not say. It answers only the team's own pages and keeps hourly limits.
+  With no key set, the page reads with the device's own voice and nothing leaves the device. A voice call uses the
+  browser's own speech recognition: no audio reaches the server.
+- **She cannot touch the chain.** All her tools read or compute; none writes. She will look up a transaction,
   an address or a tally; she cannot send, sign, broadcast or move anything, and she holds no key
   to do it with. She writes the code — you run it. That asymmetry is deliberate and permanent.
 - **Her live view can go dark.** If the docs search or DashCentral is unreachable, she says her
@@ -226,8 +242,8 @@ Start at [CONTRIBUTING.md](CONTRIBUTING.md).
 ```
 PROMPT/           her mind — live, streamed to every instance
   SPINE.md          who she is — sent byte-identical on every request, always a cache hit
-  skills/           38 workflow files — loaded 0–2 per question, only when it needs them
-  knowledge/        10 verified reference sections — loaded 0–3 per question
+  skills/           56 workflow files — loaded 0–2 per question, only when it needs them
+  knowledge/        22 verified reference sections — loaded 0–3 per question
   INDEX.json        the routing table — the keyword triggers that decide what loads
   VERSION           the live version line
   MANIFEST.md       assembly order, ownership rules, token budget (metadata — never sent)
