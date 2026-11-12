@@ -1501,7 +1501,7 @@
       "name": "/evo5",
       "title": "Platform 5.0 Briefing (what changed, what it means for you)",
       "file": "skills/evo5.md",
-      "chars": 1759,
+      "chars": 1916,
       "phrases": [
         "what is new in platform",
         "whats new in platform",
@@ -2334,7 +2334,7 @@
       "id": "17.",
       "title": "17. PLATFORM 5.0, PROTOCOL VERSION 14 (live on mainnet since 8 Nov 2026)",
       "file": "knowledge/17-platform-5-0-protocol-version-14-live.md",
-      "chars": 10739,
+      "chars": 11170,
       "phrases": [
         "platform 5",
         "platform v5",
@@ -2591,7 +2591,7 @@
       "id": "23.",
       "title": "23. FEES AND LIMITS: THE PROTOCOL CONSTANTS (docs 5.0, read 12 Nov 2026)",
       "file": "knowledge/23-fees-and-limits-the-protocol-constant.md",
-      "chars": 4821,
+      "chars": 4836,
       "phrases": [
         "registration fee",
         "contract fee",

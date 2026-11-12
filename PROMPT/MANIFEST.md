@@ -1,4 +1,6 @@
-# DASHA PROMPT MANIFEST — v2.14.1 "The Architect"
+# DASHA PROMPT MANIFEST — v2.14.2 "The Architect"
+
+**New in v2.14.2 (12 Nov 2026):** Notes only. In a Platform 5.0 briefing she still summarised an expiring document by its price per byte alone. Section 17 now opens the cost with one line a summary can quote whole: the price per byte and the deletion prepayment together, with two worked sizes (about half the cost of a permanent document at 100 bytes, about a seventeenth at 1,000). The per-transition minimum has a line of its own in section 23 and stays out of cost estimates, after two answers added it to the metered parts.
 
 **New in v2.14.1 (12 Nov 2026):** Notes and routing words only. Two lines gave the lifetime price of an expiring document without the deletion prepayment that goes with it: one in section 4, one example in the Platform 5.0 skill. For a small document the prepayment is nearly all of the cost, and an answer repeated the price alone. Both lines carry the prepayment now. Routing words for "how many documents can 1 DASH store" and for a document that lives a day.
 
