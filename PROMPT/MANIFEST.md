@@ -1,4 +1,6 @@
-# DASHA PROMPT MANIFEST — v2.13.5 "The Architect"
+# DASHA PROMPT MANIFEST — v2.14.0 "The Architect"
+
+**New in v2.14.0 (12 Nov 2026):** `calculate`, her eighteenth tool: exact arithmetic by code. Asked live, she set every sum up correctly and carried two of them wrong (a decimal point in one answer, a factor of ten in another). Now she writes the sum as a line, the tool carries it with whole-number fractions, and she copies the result; an amount in credits or duffs comes back with its DASH figure beside it. The tool holds no constant and no price. The fee skill takes every figure from it, and section 23 shows a cost scaled to users as one line. In the same release: the units gate now acts only on an amount that stands alone as a result (a term of a sum, a share of an amount and a rate against DASH are left as written), section 17 carries all four rows of the platform book's budget case and says which refusal is 40218 and which is 20015, and section 23 names the per-transition minimum as a minimum that is not added to the metered parts.
 
 **New in v2.13.5 (12 Nov 2026):** Notes and routing words only, from the next round of live questions. Section 23 gains the processing constants under their right names (she had called the load fee a seek and charged a contract validation fee to a document write), the once-per-identity distribution fee, and a worked sum for scaling a cost to users, after an answer gave 50 MB of storage as about 1.35 DASH (it is 13.5). A question about "a key with a budget" now loads section 17 and the key skill.
 

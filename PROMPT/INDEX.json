@@ -385,7 +385,7 @@
       "name": "/fee-estimate",
       "title": "Cost Before Commit",
       "file": "skills/fee-estimate.md",
-      "chars": 2833,
+      "chars": 2906,
       "phrases": [
         "what will this cost",
         "how much will it cost",
@@ -2325,7 +2325,7 @@
       "id": "17.",
       "title": "17. PLATFORM 5.0, PROTOCOL VERSION 14 (live on mainnet since 8 Nov 2026)",
       "file": "knowledge/17-platform-5-0-protocol-version-14-live.md",
-      "chars": 10237,
+      "chars": 10739,
       "phrases": [
         "platform 5",
         "platform v5",
@@ -2578,7 +2578,7 @@
       "id": "23.",
       "title": "23. FEES AND LIMITS: THE PROTOCOL CONSTANTS (docs 5.0, read 12 Nov 2026)",
       "file": "knowledge/23-fees-and-limits-the-protocol-constant.md",
-      "chars": 4604,
+      "chars": 4821,
       "phrases": [
         "registration fee",
         "contract fee",
