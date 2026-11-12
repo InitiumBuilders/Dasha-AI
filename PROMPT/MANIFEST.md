@@ -1,4 +1,13 @@
-# DASHA PROMPT MANIFEST — v2.12.15 "The Clerk"
+# DASHA PROMPT MANIFEST — v2.13.0 "The Architect"
+
+**New in v2.13.0 (12 Nov 2026):** Her Platform knowledge is brought to what the network runs. Mainnet has run Platform 5.0, protocol version 14, since 8 Nov 2026; her version line was last checked in July and still listed a smart contract VM under v5.0. Smart contracts now read as the roadmap has them (v6.0, Q2 2027, tentative).
+- **Knowledge:** section 0 rewritten and dated, with what is live kept apart from what is planned. Sections 1, 2, 4, 5 and 8 corrected (no hyphen in names, the 20 KiB limit, the transition types through 28, SDK 5.0 on Node 22, the 5.0 query forms, expiring-document prices, the withdrawal limit, the 0.1 DASH contest fund, name transfers). Six new sections: 17 Platform 5.0 and its upgrade checklist, 18 tokens and NFTs, 19 the shielded pool, 20 Evo SDK 5.0, 21 roadmap and ecosystem, 22 Platform internals. Each names its sources and the day it was read.
+- **Tools, seven new, all read-only:** `dash_chain` (Dash Core and the latest ChainLock from a public node, with the governance clock), `dash_masternodes` (the live list: counts, votes, one node's status), `dash_releases` (what is published on GitHub), `dash_dip` (the text of a DIP), `verify_message` (a Dash signed message, checked), `paxt_records` (the PAXT records, live), `merkle_weave` (a Merkle tree from a person's own lines). `dash_platform` `status` now gives the epoch's start and end and the protocol version running.
+- **Skills, eight new:** `/evo5`, `/coordinate`, `/token-forge`, `/earn`, `/release-watch`, `/verify`, `/mn-watch`, `/weave`. `/shielded` is rewritten for what is live. `/dash-token`, `/is-this-for-me`, `/compare-chain`, `/grove-query`, `/state-transition`, `/dash-debug`, `/identity-keys`, `/network-health`, `/mno` and `/paxt` are corrected or pointed at the new tools.
+- **Core:** the tool list and the when-to-call rules name the new tools; the architecture section states what 5.0 added and that no code runs on chain; three short passages on her character (what steadies her, harmony, the architect's seat); three easter eggs that only ever show what a tool returned.
+- **The schema gate** refuses a hyphen in a property or document type name, as protocol 14 does.
+- **Motion:** each answer carries the names of the skills, reference sections and tools that shaped it, and nothing about the person.
+- **Voice:** a reply can be heard. See the README for how it is closed.
 
 **New in v2.12.15:** One sentence. Asked live about the Dash PAXT, she ended by sending the reader to sign Keys Apart. It is a draft with no record open, so she now says so and names the page only as the place that lists what is open.
 

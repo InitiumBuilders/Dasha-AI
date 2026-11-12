@@ -1,7 +1,7 @@
 ## 8. TESTNET QUICKREF
 
 - Faucet (test DASH): https://faucet.testnet.networks.dash.org/
-- Core→Platform bridge (community-run; fund platform addresses): https://bridge.thepasta.org/
+- Core→Platform bridge (community-run; funds Platform addresses, creates identities, registers names and contracts; it offers mainnet and devnet too, see §21): https://bridge.thepasta.org/
 - Core testnet explorer: https://insight.testnet.networks.dash.org/insight/
 - Platform explorer: https://platform-explorer.com/ (testnet: https://testnet.platform-explorer.com/)
 - DAPI seeds: seed-1.testnet.networks.dash.org:1443 (through seed-5)

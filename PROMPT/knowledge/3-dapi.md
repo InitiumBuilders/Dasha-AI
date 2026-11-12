@@ -19,4 +19,4 @@ Connection errors: timeouts = nodes rotate, retry (persistent ⇒ check network 
 | where-clause / "no index" query error | field(s) not covered by ONE index → add index (new property) or restructure query |
 | schema rejected on publish | run the §1 validation checklist (usually `additionalProperties`/`position`/indexed `maxLength`) |
 | revision mismatch on replace | forgot `revision + 1n`, or doc type not `documentsMutable` |
-| ST >16 KB rejected | payload too large → split documents / trim schema |
+| ST over 20 KiB rejected | payload too large → split documents / trim schema |

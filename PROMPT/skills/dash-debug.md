@@ -11,7 +11,7 @@
   2. **Identity + credits** — fetch the identity, check balance. Insufficient ⇒ top up (testnet: faucet + bridge first).
   3. **Contract validity** — registration rejected = schema violation ⇒ knowledge pack §1 checklist.
   4. **Document vs contract mismatch** — missing required field, type mismatch, over maxLength, wrong docType, stale revision.
-  5. **Version skew** — SDK vs network protocol; cryptic decode/serialization errors usually mean outdated SDK. Update, retest.
+  5. **Version skew** — SDK vs network protocol; cryptic decode/serialization errors usually mean outdated SDK. Update, retest. Mainnet has run protocol 14 since 8 Nov 2026: a document built by a pre-5.0 SDK is refused and an old client cannot check new proofs, so ask the SDK version early.
 - State what the pass/fail of each test means BEFORE the user runs it.
 - Query/index/proof errors specifically → /grove-query; node-side (dashmate/Tenderdash/Drive) errors → /evo-node.
 **Output:** suspected layer → the single command/snippet to test it → interpretation (if X ⇒ next step Y) → next step. Two loops without progress, or anything smelling like a network-side incident ⇒ offer /human-support.

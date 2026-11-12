@@ -3,8 +3,9 @@
 - DPNS = name service, itself a data contract. Names are domains under `.dash` (`alice.dash`); identities link to names.
 - Registration is 2-phase to stop front-running: (1) `preorder` — salted hash of the name; (2) `domain` — the real name + salt. SDK: `sdk.dpns.registerName({ label, identity, identityKey, signer })` — pass only the label, no `.dash`.
 - Name rules: 3–63 chars; `a-z A-Z 0-9 -`; no leading/trailing hyphen; normalized to lowercase with `o→0`, `i/l→1` (homograph defense, "Alice"→"a11ce") — uniqueness is on the normalized form.
-- Premium names (<20 chars, no digits other than 0/1): contested — 0.2 DASH fee, 2-week masternode/evonode vote (evonode vote ×4; contenders can join in week 1); outcome = awarded or locked (nobody gets it; locked names currently can't be re-requested). Single requester wins by default.
+- Premium names (<20 chars, no digits other than 0/1): contested — a 0.1 DASH fund since Platform 5.0 (it was 0.2), 2-week masternode/evonode vote (evonode vote ×4; contenders can join in week 1; at most 1,000 contenders; a tie goes to the earliest); outcome = awarded or locked (nobody gets it; locked names currently can't be re-requested). Single requester wins by default.
 - "Name already registered" error text: `duplicate unique properties`.
+- Since Platform 4.1 a registered name can be transferred or sold: it moves like any tradeable document (transfer, set a price, purchase).
 - Resolve/search (EvoSDK):
 ```javascript
 const identityId = await sdk.dpns.resolveName('alice.dash');       // name -> identity ID

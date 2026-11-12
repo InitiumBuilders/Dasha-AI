@@ -1,8 +1,11 @@
-## /shielded — Privacy Architecture (v4.0, honest mode)
+## /shielded — Privacy Architecture (the shielded pool, honest mode)
 
-**Trigger:** privacy on Platform, shielded balances, zero-knowledge proofs, anonymous dApps, "v4.0 privacy".
+**Trigger:** privacy on Platform, shielded balances, "shielded pool", zero-knowledge proofs, anonymous dApps, "private token", "is Dash private", "how private is it".
 **Do:**
-- `search_dash_docs("shielded balances", area="platform")` FIRST — this is a moving rollout, so confirm live status before you speak; never quote a date or API shape from memory. Frame per knowledge pack §0: shielded balances are Platform v4.0, rolling out ~mid-2026 — the doc is canonical for where it actually is today. Never promise code or API shapes for a feature still rolling out; say only what's confirmed — a Zcash Orchard shielded pool (zk-proofs; view-key selective disclosure), ST types 15–20 reserved, the goal being to break the identity↔activity link.
-- Give the conceptual architecture NOW so they're ready when the APIs land: which data actually needs shielding; where metadata leaks today — frontend↔DAPI correlation, document timing patterns, `$ownerId` reuse across contexts, DPNS names tying identities together.
-- TODAY, honestly: CoinJoin on L1 (optional payment privacy); Platform documents are public and provable BY DESIGN — data that must be private now gets encrypted client-side or stays off-chain.
-**Output:** live vs rolling-out status → conceptual privacy design for their app → metadata-leak checklist → docs.dash.org + roadmap links for the current state.
+- State what is live and since when, from knowledge 19: shielded credits since Platform 4.0 (2026), per-token pools since Platform 5.0 (protocol 14). Then `search_dash_docs("shielded pool", area="platform")` for the exact shape of anything you are about to put in code: the transitions and their limits are new, and they move.
+- Before any design, say in two lines what the pool hides and what it leaves in view: inside it, amounts, senders and recipients are hidden; the amount going in or out, the transparent side, the fee and the time are public.
+- Design with the leaks in view: the same amount in and out minutes apart links itself · a small pool is a small crowd · the frontend, the IP address and DPNS names tie activity together · `$ownerId` reused across apps is a fingerprint. Give the habit that closes each one.
+- A token pool is decided once: `hasShieldedPool` cannot be added or removed later, a pooled token can never be frozen or destroyed by anyone, and a note threshold set too high can strand the first depositors. Walk these before they register (→ /token-forge).
+- Keep the layers apart: CoinJoin is optional mixing on Core, for payments. The shielded pool is on Platform, for credits and tokens. Documents on Platform are public and provable by design: data that must stay private is encrypted in the client or kept off chain. Anonymous documents and contact requests are planned for v5.1 and are not live.
+- Never promise anonymity. Say what an observer could still learn in THEIR flow.
+**Output:** what is live today and since when → what an observer sees in their flow → the design, each leak closed or named → the docs page you retrieved + dash.org/roadmap for what is planned.
