@@ -62,7 +62,7 @@ point is not that you asked her — the point is that next time you'll know wher
 
 ## What she can reach
 
-Seventeen live tools. She does not guess — she looks it up, then cites the source you can open
+Eighteen live tools. She does not guess — she looks it up, then cites the source you can open
 yourself. What each tool does *not* return matters as much as what it does; a tool that
 returns less is a tool that can be trusted more.
 
@@ -85,6 +85,7 @@ returns less is a tool that can be trusted more.
 | `verify_message(address, message, signature)` | Nothing: it computes | VALID or NOT VALID for a Dash signed message | Who the signer is, or what the address holds |
 | `paxt_records(id)` | The public **PAXT** records | The list of records, or where one stands | Any member's name |
 | `merkle_weave(lines)` | Nothing: it computes | A real Merkle tree of two to eight lines: leaves, root, a proof | It refuses a line that looks like a key or a recovery phrase |
+| `calculate(lines, unit)` | Nothing: it computes | Each sum worked exactly, and an amount in credits or duffs with its DASH figure beside it | A rate, a constant or a price. The numbers are hers to supply |
 
 `area` is one of `platform` · `core` · `all`. `action` is one of `summary` · `list_passing` ·
 `list_all` · `get`. She may call up to **three rounds** of tools per answer (two on Telegram,
