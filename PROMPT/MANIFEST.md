@@ -1,4 +1,6 @@
-# DASHA PROMPT MANIFEST — v2.14.0 "The Architect"
+# DASHA PROMPT MANIFEST — v2.14.1 "The Architect"
+
+**New in v2.14.1 (12 Nov 2026):** Notes and routing words only. Two lines gave the lifetime price of an expiring document without the deletion prepayment that goes with it: one in section 4, one example in the Platform 5.0 skill. For a small document the prepayment is nearly all of the cost, and an answer repeated the price alone. Both lines carry the prepayment now. Routing words for "how many documents can 1 DASH store" and for a document that lives a day.
 
 **New in v2.14.0 (12 Nov 2026):** `calculate`, her eighteenth tool: exact arithmetic by code. Asked live, she set every sum up correctly and carried two of them wrong (a decimal point in one answer, a factor of ten in another). Now she writes the sum as a line, the tool carries it with whole-number fractions, and she copies the result; an amount in credits or duffs comes back with its DASH figure beside it. The tool holds no constant and no price. The fee skill takes every figure from it, and section 23 shows a cost scaled to users as one line. In the same release: the units gate now acts only on an amount that stands alone as a result (a term of a sum, a share of an amount and a rate against DASH are left as written), section 17 carries all four rows of the platform book's budget case and says which refusal is 40218 and which is 20015, and section 23 names the per-transition minimum as a minimum that is not added to the metered parts.
 

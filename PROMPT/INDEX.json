@@ -423,7 +423,16 @@
         "cost in processing",
         "cost to write",
         "costs to write",
-        "cost of writing"
+        "cost of writing",
+        "store for good",
+        "stored for good",
+        "kept for good",
+        "keep for good",
+        "dash of credits",
+        "worth of credits",
+        "can 1 dash",
+        "can one dash",
+        "document that lives"
       ],
       "words": []
     },
@@ -1492,7 +1501,7 @@
       "name": "/evo5",
       "title": "Platform 5.0 Briefing (what changed, what it means for you)",
       "file": "skills/evo5.md",
-      "chars": 1704,
+      "chars": 1759,
       "phrases": [
         "what is new in platform",
         "whats new in platform",
@@ -2058,7 +2067,7 @@
       "id": "4.",
       "title": "4. IDENTITIES & CREDITS",
       "file": "knowledge/4-identities-credits.md",
-      "chars": 2418,
+      "chars": 2681,
       "phrases": [
         "credit",
         "top up",
@@ -2397,7 +2406,11 @@
         "key for my app",
         "key for an app",
         "key that expires",
-        "expiring key"
+        "expiring key",
+        "document that lives",
+        "one day document",
+        "short-lived",
+        "short lived"
       ],
       "words": []
     },
@@ -2615,7 +2628,16 @@
         "costs to write",
         "cost of writing",
         "state transition fee",
-        "fee for a state transition"
+        "fee for a state transition",
+        "store for good",
+        "stored for good",
+        "kept for good",
+        "keep for good",
+        "dash of credits",
+        "worth of credits",
+        "can 1 dash",
+        "can one dash",
+        "document that lives"
       ],
       "words": []
     }
