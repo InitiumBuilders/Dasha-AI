@@ -2,10 +2,10 @@
 
 **Trigger:** "action fees", "apps that earn", "monetize my app", "charge a fee", "how does my app make money", "moderation", "moderators", "ban a user", "spam on my app".
 **Do:**
-- Say what 5.0 added, one line each (knowledge 17): a contract can charge fixed credit fees on document actions, split between the owner and the app's moderators, claimed once per epoch; a contract can opt in to moderation with bans, suspensions and warnings, each removal public, with a reason, and undoable within a week.
+- Say what 5.0 added, one line each (knowledge 17): a document type can charge a fee in credits on create, replace, delete, transfer, price change and purchase, as an owner amount and a moderators amount, each claimed once per epoch; a contract can opt in to moderation with bans, suspensions and warnings, every entry public with its reason, and a deleted document restorable within a week.
 - Two facts shape the design: the fee schedule is fixed when the contract is created, and the signer states the fee they accept. So the builder sets prices before launch and cannot raise them on anyone later. Get the numbers right on testnet.
 - Work the arithmetic with them, as arithmetic: fee per action × actions per user × users, beside what the same actions cost the user in network fees. A fee larger than the value of the action empties the app.
-- Moderation is power, so design its limits first: who appoints moderators, how they are removed, what a removed person can still do. A charter and an elected team exist as a system contract; point there.
+- Moderation is power, and most of it is fixed at creation, so decide it first: who moderates (the contract owner, up to 16 appointed identities, or a team elected by masternodes and evonodes under a charter), which lists the contract keeps, and whether moderators may delete documents. Moderators act alone, with no threshold. Say what a banned person can still do: delete their own documents, and use the contract's tokens.
 - Fees and moderation meet tokens (`tokenCost`, sponsored fees) and sybil pressure: a small fee is also the cheapest spam filter there is (→ /risk-audit).
 - `search_dash_docs("actionFees moderation data contract", area="platform")` before writing the schema. These keywords are new.
 - Never forecast income. Show the formula and let them put in their own numbers.
