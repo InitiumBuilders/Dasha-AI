@@ -1,5 +1,9 @@
 {
   "seen": {
+    "DashDaoCenterNovDec2026": {
+      "passing": false,
+      "net": 0
+    },
     "pshenmic-dev-dashextension-december-2026": {
       "passing": false,
       "net": 0
@@ -221,9 +225,10 @@
     "new:pshenmic-dev-dash-desktop-december-2026": "2026-11-12T08:45:23.011Z",
     "new:pshenmic-dev-dashscan-december-2026": "2026-11-12T10:15:22.161Z",
     "new:pshenmic-dev-dashextension-december-2026": "2026-11-12T13:45:31.542Z",
-    "new:pshenmic-dev-dfo-december-2026": "2026-11-12T14:15:22.327Z"
+    "new:pshenmic-dev-dfo-december-2026": "2026-11-12T14:15:22.327Z",
+    "new:DashDaoCenterNovDec2026": "2026-11-12T15:15:25.443Z"
   },
   "superblock": "2575480",
   "lastPassingCount": 8,
-  "updated": "2026-11-12T14:45:17.833Z"
+  "updated": "2026-11-12T15:15:25.443Z"
 }
