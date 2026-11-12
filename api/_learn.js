@@ -20,7 +20,33 @@
 
 const REPO = 'InitiumBuilders/Dasha-AI';
 const MAX_ISSUES_PER_HOUR = 6;      // a public board is a shared room; do not flood it
-let opened = [];
+const MAX_TEAM_PER_HOUR = 20;       // reports with a note: the team group is public too, the bot never floods it
+const MAX_THUMBS_PER_HOUR = 6;      // bare thumbs have their own small budget, so they can never crowd out a report
+const MAX_ISSUES_PER_ADDRESS = 2;   // one address can't use up the public board's hour
+let opened = [], told = [], thumbs = [];
+const byAddress = new Map();
+function budget(list, max) {
+  const now = Date.now();
+  const kept = list.filter((t) => now - t < 36e5);
+  list.length = 0; kept.forEach((t) => list.push(t));
+  if (list.length >= max) return true;
+  list.push(now);
+  return false;
+}
+function teamThrottled() { return budget(told, MAX_TEAM_PER_HOUR); }
+function thumbsThrottled() { return budget(thumbs, MAX_THUMBS_PER_HOUR); }
+function addressThrottled(ip) {
+  if (!ip) return false;
+  const list = byAddress.get(ip) || [];
+  const over = budget(list, MAX_ISSUES_PER_ADDRESS);
+  byAddress.set(ip, list);
+  if (byAddress.size > 5000) byAddress.clear();
+  return over;
+}
+/* text someone else wrote, reposted by the bot: one paragraph at most, and no links in the group */
+/* a mention someone else typed, reposted by the bot, must never ping anyone */
+function unmention(s) { return String(s || '').replace(/@(\w{2,})/g, '@\u200b$1'); }
+function quiet(s, n) { return unmention(String(s || '').replace(/\b[a-z][\w+.-]*:\/\/\S+|\b(?:tg|mailto):\S+|www\.\S+|t\.me\/\S+/gi, '[link removed]').replace(/\b([\w-]+)\.([a-z]{2,})(\/\S*)?/gi, '$1[.]$2')).replace(/[\u0000-\u0008\u000b-\u001f\u007f]/g, ' ').slice(0, n); }
 
 function throttled() {
   const now = Date.now();
@@ -47,11 +73,11 @@ async function openIssue(payload) {
   if (throttled()) return { ok: false, why: 'throttled' };
   const title = '[bad-answer] ' + String(payload.q || 'unspecified').replace(/\s+/g, ' ').slice(0, 80);
   const body = [
-    '**What was asked**', '> ' + String(payload.q || '(not captured)').slice(0, 600),
-    '', '**What she said**', '> ' + String(payload.a || '(not captured)').replace(/\n/g, '\n> ').slice(0, 1200),
-    '', '**What was wrong** (reported by the person who asked)', String(payload.note || '').slice(0, 800),
+    '**What was asked**', '> ' + unmention(String(payload.q || '(not captured)').slice(0, 600)),
+    '', '**What she said**', '> ' + unmention(String(payload.a || '(not captured)').replace(/\n/g, '\n> ').slice(0, 1200)),
+    '', '**What was wrong** (reported by the person who asked)', unmention(String(payload.note || '').slice(0, 800)),
     '', '---',
-    'Tools she reached for: `' + (payload.tools || 'none') + '` · surface: `' + (payload.surface || 'web') + '`',
+    'Tools she reached for: `' + (String(payload.tools || '').replace(/[^a-z_,\s-]/gi, '').slice(0, 120) || 'none') + '` · surface: `' + String(payload.surface || 'web').replace(/[^a-z-]/gi, '').slice(0, 20) + '`',
     '',
     'Closing this means teaching her: a fact belongs in `PROMPT/knowledge/`, a workflow in `PROMPT/skills/`,',
     'a behaviour in `PROMPT/SPINE.md`. Merged, every instance picks it up within ~10 minutes.',
@@ -78,6 +104,7 @@ async function openIssue(payload) {
 async function toTeam(text) {
   const bt = process.env.TELEGRAM_BOT_TOKEN, chat = process.env.SUPPORT_CHAT_ID;
   if (!bt || !chat) return false;
+  if (teamThrottled()) return false;   /* over the hourly cap: the count is still in the logs */
   try {
     const r = await fetch('https://api.telegram.org/bot' + bt + '/sendMessage', {
       method: 'POST', headers: { 'Content-Type': 'application/json' },
@@ -95,18 +122,21 @@ async function record(ev) {
   /* always countable, even with no sink: Vercel keeps these and they cost nothing */
   try {
     console.log(JSON.stringify({ evt: 'feedback', good: good, hasNote: !!note,
-      surface: ev.surface || 'web', tools: ev.tools || '', q: String(ev.q || '').slice(0, 120) }));
+      surface: ev.surface || 'web', tools: ev.tools || '' }));   /* counts only: no question text in logs */
   } catch (e) {}
 
   /* a thumbs-up is a lovely thing and a weak signal — count it, don't file it */
-  if (good) { await toTeam('👍 Helpful answer (' + (ev.surface || 'web') + ')\nQ: ' + String(ev.q || '').slice(0, 200)); return { recorded: true, filed: false }; }
+  if (good) { if (!thumbsThrottled()) await toTeam('👍 Helpful answer (' + (ev.surface || 'web') + ')'); return { recorded: true, filed: false }; }
 
-  const summary = '👎 Bad answer reported (' + (ev.surface || 'web') + ')\n\nQ: ' + String(ev.q || '').slice(0, 300)
-    + '\n\nA: ' + String(ev.a || '').slice(0, 600) + (note ? ('\n\nWhat was wrong: ' + note) : '\n\n(no detail given)');
+  /* without a note, only the count travels; with one, the person has been told it is filed publicly */
+  if (!note) { if (!thumbsThrottled()) await toTeam('👎 Answer marked unhelpful (' + (ev.surface || 'web') + '), no detail given'); return { recorded: true, filed: false, why: 'no detail given' }; }
+  const summary = '👎 Bad answer reported (' + (ev.surface || 'web') + ')\n\nQ: ' + quiet(ev.q, 300)
+    + '\n\nA: ' + quiet(ev.a, 600) + '\n\nWhat was wrong: ' + quiet(note, 500);
   await toTeam(summary);
 
   /* only a reported REASON earns a public issue — see the rule above */
   if (!note) return { recorded: true, filed: false, why: 'no detail given' };
+  if (addressThrottled(ev.ip)) return { recorded: true, filed: false, why: 'throttled for this address' };
   const iss = await openIssue({ q: ev.q, a: ev.a, note: note, tools: ev.tools, surface: ev.surface });
   return { recorded: true, filed: !!iss.ok, url: iss.url, why: iss.why };
 }

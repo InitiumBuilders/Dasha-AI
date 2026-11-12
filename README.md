@@ -243,18 +243,30 @@ Start at [CONTRIBUTING.md](CONTRIBUTING.md).
 ```
 PROMPT/           her mind — live, streamed to every instance
   SPINE.md          who she is — sent byte-identical on every request, always a cache hit
-  skills/           56 workflow files — loaded 0–2 per question, only when it needs them
-  knowledge/        22 verified reference sections — loaded 0–3 per question
+  skills/           57 workflow files — loaded 0–2 per question, only when it needs them
+  knowledge/        23 verified reference sections — loaded 0–3 per question
   INDEX.json        the routing table — the keyword triggers that decide what loads
   VERSION           the live version line
   MANIFEST.md       assembly order, ownership rules, token budget (metadata — never sent)
-api/              the serverless brain — _mind.js (the stream), _context.js (the router),
-                  _brain.js (the loop), _tools.js (her hands), chat.js, telegram.js,
-                  x.js · _x.js · _dm.js (the X agent, threader, and direct messages),
-                  _prompt.js (the baked fallback — generated, never hand-edited)
+api/              the serverless brain, a copy of what runs at dashsupport.team
+                  endpoints: chat.js, telegram.js, x.js, voice.js, paxt.js, visions.js
+                  the answer: _brain.js (the loop), _mind.js (the stream), _context.js (what loads),
+                  _tools.js and _tools2.js (her eighteen tools), _calc.js (exact sums),
+                  _schemacheck.js and _units.js (the checks on what she writes),
+                  _prompt.js (the baked fallback: generated, never hand-edited)
+                  the records: _metrics.js, _learn.js, _visions.js, _hours.js, _help.js,
+                  _paxt.js and _paxt-core.mjs; her voice: _voice.js
+                  on X: _x.js, _dm.js, _watch.js, _digest.js, _editor.js, _doors.js, _feed.js,
+                  _work.js, _ics.js
+                  _ours.js is an example file (docs/ARCHITECTURE.md lists what differs from production)
 scripts/          assemble-prompt.js — bakes api/_prompt.js from PROMPT/
-web/              the chat widget
+web/              dasha-chat.js, the chat widget's script
 docs/             this documentation
+VISIONS/ HOURS/   records she writes: visions people chose to share, logged hours and help given
+WATCH/ PAXT/      the ballot as she last saw it and her X feed; PAXT records, once one is opened
+ALIVE/ DESIGNS/   the public data behind the site's Dash Alive and Design pages
+package.json      the one npm dependency (api/_paxt.js checks signatures with it)
+SUPABASE-SETUP.sql  the table for the Pulse, if you keep it in Supabase
 ```
 
 ---

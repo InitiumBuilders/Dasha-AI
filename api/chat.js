@@ -1,7 +1,8 @@
 /* POST /api/chat — Dasha's public web endpoint (also the "MCP" programmatic endpoint with x-dasha-token). */
-const { askDasha, humanSupport, cleanMessages, mindStatus, VERSION, MODEL, DEEP_MODEL, COUNSEL_MODEL } = require('./_brain.js');
+const { askDasha, humanSupport, cleanMessages, mindStatus, modelStatus, VERSION, MODEL, DEEP_MODEL, COUNSEL_MODEL } = require('./_brain.js');
 const learn = require('./_learn.js');
 const metrics = require('./_metrics.js');
+const voice = require('./_voice.js');   /* signs what she said, so /api/voice will read her words and nobody else's */
 
 /* best-effort per-instance rate limiting (protects the credit pool from casual abuse) */
 const hits = new Map(); // ip -> [ts]
@@ -16,6 +17,20 @@ function limited(ip) {
   arr.push(now); hits.set(ip, arr);
   if (hits.size > 5000) hits.clear();
   return null;
+}
+/* feedback has its own, tighter limit: each one can reach the team group and the public board */
+const fbHits = new Map(); const FB_PER_HOUR = 12;
+function feedbackLimited(ip) {
+  const now = Date.now(), arr = (fbHits.get(ip) || []).filter((t) => now - t < 36e5);
+  if (arr.length >= FB_PER_HOUR) return true;
+  arr.push(now); fbHits.set(ip, arr);
+  if (fbHits.size > 5000) fbHits.clear();
+  return false;
+}
+/* the caller's address as Vercel saw it; Vercel sets x-vercel-forwarded-for and a client cannot */
+function clientIp(req) {
+  const h = req.headers || {};
+  return String(h['x-vercel-forwarded-for'] || h['x-real-ip'] || String(h['x-forwarded-for'] || '').split(',')[0] || 'unknown').trim();
 }
 
 module.exports = async (req, res) => {
@@ -40,15 +55,17 @@ module.exports = async (req, res) => {
     }
     const mind = await mindStatus();
     return res.status(200).json({ ok: true, service: 'dasha-ai',
-      models: { everyday: MODEL, engineering: DEEP_MODEL, judgement: COUNSEL_MODEL,
-        routing: 'automatic — code/errors/schemas go to the engineering mind; proposals, insight, leverage and systems thinking go to the judgement mind; everything else stays fast' },
+      models: Object.assign({}, modelStatus(),
+        { routing: 'flash answers everything; the pro mind wakes on depth — the words deep/depth/Davara/DashDream/DreamTeam/DashaDream, the commands /Deep and /DST, pasted code, live errors, and judgement work (proposals, leverage, systems thinking)',
+          freshness: 'checked against OpenRouter every 6h — a newer dated v4 release that still supports tools is adopted on its own; the pins are the floor' }),
       mind: mind, // version + origin: 'github' proves the live stream is feeding this instance
       learning: learn.sinks(), // honest: is the feedback loop actually closed, or dark?
       analytics: { store: metrics.HAS_SB ? 'Supabase (fleet-wide, queryable)' : (metrics.HAS_KV ? 'KV (fleet-wide)' : 'in-memory per instance — add Supabase (SUPABASE_URL + SUPABASE_SERVICE_KEY) for fleet-wide'),
         principle: 'aggregate only — no question, answer, address or user is ever stored',
         publicPulse: 'GET /api/chat?pulse=public (no token)', teamPulse: 'GET /api/chat?pulse=1 with x-dasha-token' },
-      tools: ['search_dash_docs', 'dash_governance', 'dash_network_stats', 'lookup_tx', 'lookup_address', 'web_search', 'load_skill'],
+      tools: require('./_tools.js').DEFS.map((d) => d.function.name),
       surfaces: ['web', 'telegram', 'x', 'api'],
+      voice: { on: voice.ready(), name: 'Honor', endpoint: '/api/voice', rule: 'reads only her own replies, each with its ticket' },
       mcp: 'POST /api/chat with header x-dasha-token', source: 'https://github.com/InitiumBuilders/Dasha-AI' });
   }
   if (req.method !== 'POST') return res.status(405).json({ error: 'POST only' });
@@ -60,7 +77,8 @@ module.exports = async (req, res) => {
      when someone closes it by editing PROMPT/, teaches every instance at once. */
   if (body && body.feedback) {
     const f = body.feedback;
-    const out = await learn.record({ good: !!f.good, q: f.q, a: f.a, note: f.note, tools: f.tools, surface: 'web' });
+    if (!isMcp && feedbackLimited(clientIp(req))) return res.status(429).json({ error: 'Thank you. That is a lot of feedback for one hour; please try again later.' });
+    const out = await learn.record({ good: !!f.good, q: f.q, a: f.a, note: f.note, tools: f.tools, surface: 'web', ip: isMcp ? null : clientIp(req) });
     metrics.recordFeedback(!!f.good, !!out.filed);
     return res.status(200).json({ ok: true, filed: !!out.filed, url: out.url || null });
   }
@@ -77,13 +95,41 @@ module.exports = async (req, res) => {
   }
 
   if (!isMcp) {
-    const ip = (req.headers['x-forwarded-for'] || 'unknown').split(',')[0].trim();
+    const ip = clientIp(req);
     const stop = limited(ip);
     if (stop) return res.status(429).json({ error: stop });
   }
 
-  const out = await askDasha(messages, { maxTokens: isMcp ? 3200 : 2600 });
-  if (out.error) return res.status(502).json({ error: out.error });
-  return res.status(200).json({ reply: out.reply, tools: out.tools || [], depth: out.depth || null,
-    model: out.model, usage: out.usage, version: VERSION });
+  const page = (body && typeof body.page === 'string') ? body.page.replace(/[^a-z/-]/gi, '').slice(0, 24) : null;
+  /* the project card — the builder's own note about their build, kept on THEIR device.
+     It rides in, shapes the answer, and is never stored: read, used, gone. */
+  const project = (body && typeof body.project === 'string')
+    ? body.project.replace(/[\u0000-\u001F\u007F]/g, ' ').replace(/\s+/g, ' ').trim().slice(0, 420) : null;
+  /* 4000 is headroom, not spend: the fast mind reasons before it writes, and at 2600 a long
+     artifact (a one-page direction, a Wave card) ran out mid-card with ~2,200 tokens spent
+     thinking. Tokens are billed as used, so a short answer costs the same. */
+  /* a probe (the team's own tests of a fix) is answered like any question but never counted:
+     the Pulse counts people helped. Setting it can only lower the count, never raise it. */
+  const probe = !!(body && body.probe === true);
+  const trace = probe ? [] : null;   /* the team's probes see every model call: which, how long, which won */
+  /* stream:true: her steps arrive as server-sent events while she works, then the same final object.
+     The stream opens on her first step, so anything refused above this line is still plain JSON. */
+  let streaming = false;
+  const say = (ev) => { try { res.write('data: ' + JSON.stringify(ev) + '\n\n'); } catch (e) { /* the reader left */ } };
+  const onEvent = (body && body.stream === true) ? (ev) => {
+    if (!streaming) {
+      streaming = true; res.statusCode = 200;
+      res.setHeader('Content-Type', 'text/event-stream; charset=utf-8');
+      res.setHeader('Cache-Control', 'no-cache, no-transform'); res.setHeader('X-Accel-Buffering', 'no');
+    }
+    say(ev);
+  } : null;
+  const out = await askDasha(messages, { maxTokens: 4000, page: page, project: project || null, uncounted: probe, trace: trace, lifeline: probe && body.lifeline === true, onEvent: onEvent,
+    deltas: !!(onEvent && body.deltas === true) });   /* deltas:true: her words arrive as she writes them, before the same final object */
+  const done = out.error ? { error: out.error, trace: trace || undefined }
+    : { reply: out.reply, tools: out.tools || [], depth: out.depth || null,
+      next: out.next || [], model: out.model, usage: out.usage, version: VERSION, motion: out.motion || null, say: voice.ticket(out.reply) || undefined,
+      schemaFixed: out.schemaFixed || undefined, unitsFixed: out.unitsFixed || undefined, trace: trace || undefined };   /* how many schema rules the gate caught and she fixed */
+  if (streaming) { say(Object.assign({ t: out.error ? 'error' : 'done' }, done)); return res.end(); }
+  return res.status(out.error ? 502 : 200).json(done);
 };

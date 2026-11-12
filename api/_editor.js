@@ -24,9 +24,10 @@
      teaching       40 · 2d                — the explainer a spiking topic earned
 */
 
-const { runWatch, ballot, snapshot, govData } = require('./_watch.js');
+const { runWatch, ballot, snapshot, govData, isOurs, ourTag, DISCLOSURE, DISCLOSE_LIST } = require('./_watch.js');
 const metrics = require('./_metrics.js');
 const { askDasha } = require('./_brain.js');
+const doors = require('./_doors.js');   /* the six ways into Dash Alive — chosen by meaning */
 
 const REPO = 'InitiumBuilders/Dasha-AI';
 const EDITOR_STATE = 'WATCH/editor.json';
@@ -42,7 +43,6 @@ const CLASS = {
   accountability: { p: 55,  cool: 6 * 864e5 },
   needs:          { p: 50,  cool: 6 * 864e5 },
   teaching:       { p: 40,  cool: 2 * 864e5 },
-  foundry:        { p: 35,  cool: 22 * 36e5 },   /* a dapp concept she minted herself */
   nextmove:       { p: 57,  cool: 2 * 864e5 },   /* the community's highest-leverage next move (live gov data, Davara lens) */
   buildertip:     { p: 52,  cool: 2 * 864e5 },   /* one high-leverage tip for Dash builders (leverage-ladder framed) */
   builderidea:    { p: 44,  cool: 3 * 864e5 },   /* a concrete project idea a builder could start this week */
@@ -62,17 +62,28 @@ const CLASS = {
    consented. August operates this account, so @BuiltByAugust is consented by definition.
    No third party is ever auto-tagged until they ask us to in writing. */
 const FOUNDER = '@BuiltByAugust';
-/* PRE-LAUNCH STRATEGIST MODE — August, 2026-08-04: the foundry self-broadcast
-   ('what should I model next') is PAUSED; the strategist classes above replace
-   it. Flip to false to resume the foundry posts unchanged. */
-const FOUNDRY_PAUSED = true;
 /* Arbitrum AIP-1's lesson: the account announcing a vote must never quietly be its
-   beneficiary. When our own proposal is on the ballot, she says so, every time. */
-const OURS = /dash-?support|dasha-ai/i;
-function disclosure(p) {
-  return (p && OURS.test(String(p.name || '') + ' ' + String(p.title || '')))
-    ? '\n\nDisclosure: this is our own team\'s proposal. I report it exactly as I report any other and take no position on it.'
-    : '';
+   beneficiary. When our own proposal is on the ballot, she says so, every time. The definition
+   and the words live in _watch.js, shared with the watch and the digest. */
+function disclosure(p) { return isOurs(p) ? '\n\n' + DISCLOSURE : ''; }
+/* posts that carry her view: our own proposal is never in their facts and never in their text */
+const OPINION = { nextmove: 1, buildertip: 1, builderidea: 1, translate: 1, distinct: 1, teaching: 1 };
+/* does this text name one of these proposals? (by its DashCentral name, or its title's opening) */
+function names(text, ps) {
+  const t = String(text || '').toLowerCase();
+  return ps.some((p) => (p.name && t.indexOf(String(p.name).toLowerCase()) >= 0)
+    || (p.title && t.indexOf(String(p.title).toLowerCase().slice(0, 30)) >= 0));
+}
+function discloseGate(cands, snap) {
+  const ourPs = snap ? snap.props.filter(isOurs) : [];
+  if (!ourPs.length) return cands;
+  for (let i = cands.length - 1; i >= 0; i--) {
+    const c = cands[i];
+    if (!names(c.text, ourPs)) continue;
+    if (OPINION[c.kind]) { cands.splice(i, 1); continue; }
+    if (c.text.indexOf('Disclosure:') < 0) c.text += '\n\n' + DISCLOSURE;
+  }
+  return cands;
 }
 const dnum = (n) => (n == null ? '?' : Number(n).toLocaleString('en-US'));
 function clipT(s, n) { s = String(s || '').replace(/\s+/g, ' ').trim(); if (s.length <= n) return s; const c = s.slice(0, n); const sp = c.lastIndexOf(' '); return (sp > n * 0.5 ? c.slice(0, sp) : c) + '\u2026'; }
@@ -80,7 +91,7 @@ function bline(p, n) {
   n = n || 42;
   let t = String(p.title || '').replace(/\s+/g, ' ').trim();
   if (t.length > n) { t = t.slice(0, n); const sp = t.lastIndexOf(' '); if (sp > n * 0.5) t = t.slice(0, sp); t += '\u2026'; }
-  return '\u2022 ' + t + (p.passing ? ' \u2014 passing +' + dnum(p.net) : ' \u2014 ' + dnum(p.short) + ' short');
+  return '\u2022 ' + t + ourTag(p) + (p.passing ? ' \u2014 passing +' + dnum(p.net) : ' \u2014 ' + dnum(p.short) + ' short');
 }
 
 /* ---------- state in her own public repo ---------- */
@@ -146,10 +157,10 @@ function accountabilityPost(ledger, snap) {
   all.sort((a, b) => (b.cyclesFunded.length - a.cyclesFunded.length));
   const e = all[0];
   const paid = e.totalPays != null && e.remaining != null ? (e.totalPays - e.remaining) : null;
-  let body = 'Accountability check.\n\n' + String(e.title || e.name).slice(0, 66);
+  let body = 'Accountability check.\n\n' + String(e.title || e.name).slice(0, 66) + ourTag(e);
   if (e.ask != null) body += '\n' + Number(e.ask).toLocaleString('en-US') + ' DASH/month' + (e.owner ? ' · ' + e.owner : '');
   if (paid != null && e.totalPays) body += '\n' + paid + ' of ' + e.totalPays + ' payments made so far.';
-  body += '\n\nThe network funded this. I keep the record — I do not score anyone.\n'
+  body += '\n\nThe network funded this. I keep the record — I do not score anyone.' + disclosure(e) + '\n'
     + 'https://www.dashcentral.org/p/' + e.name;
   return body;
 }
@@ -225,7 +236,7 @@ async function davaraRead(question) {
 
 async function nextmovePost(snap) {
   if (!snap) return null;
-  const facts = 'Live Dash governance right now: ' + (snap.props || []).slice(0, 6).map(function (p) {
+  const facts = 'Live Dash governance right now: ' + (snap.props || []).filter((p) => !isOurs(p)).slice(0, 6).map(function (p) {
     return (p.title || p.name || '?') + (p.passing ? ' (passing +' + p.net + ')' : ' (' + p.short + ' short)');
   }).join(' · ') + (snap.hoursToCutoff != null ? ' · voting cutoff in ~' + Math.round(snap.hoursToCutoff) + 'h' : '');
   const dread = await davaraRead(DAVARA_LENS + '\n\n' + facts + '\n\nAs Davara: your sharpest systems read of this LIVE Dash governance data — the single highest-leverage move available to the community this week, the rung it pulls, and why. Six sentences max, plain words, no preamble.');
@@ -234,11 +245,11 @@ async function nextmovePost(snap) {
       DAVARA_LENS + '\n\n' + facts + (dread ? '\n\nTHE DAVARA READ (a live consultation with the Davara mind — weigh it seriously):\n' + dread : '') + '\n\nFrom this REAL data, write ONE X post (max 240 chars, no hashtags, no emoji): '
       + 'the single highest-leverage move the Dash community could make this week. Name the rung you are pulling '
       + 'in plain words (no jargon), then the move itself, verb-first. Specific to the data above — never generic. No hype.' }],
-      { surface: 'api', internal: true, maxTokens: 400 });
+      { surface: 'post', internal: true, maxTokens: 400 });
     let t = String((out && out.reply) || '').trim();
     if (!t || t.length < 40) return null;
     if (t.length > 250) t = t.slice(0, 247) + '…';
-    return t + '\n\nAsk me anything: dashsupport.team/dasha';
+    return t;
   } catch (e) { return null; }
 }
 
@@ -250,17 +261,17 @@ async function buildertipPost() {
       + '(an information flow to expose, a rule to set early, a stock to start accumulating from day one, a feedback '
       + 'loop to close). Concrete and technically exact for Dash (Platform, evolution, DAPI, identities, contested names, '
       + 'credits) or the DAO (proposals, superblocks, treasury). Plain, specific. End on the actionable fact.' }],
-      { surface: 'api', internal: true, maxTokens: 400 });
+      { surface: 'post', internal: true, maxTokens: 400 });
     let t = String((out && out.reply) || '').trim();
     if (!t || t.length < 40) return null;
     if (t.length > 250) t = t.slice(0, 247) + '…';
-    return t + '\n\nAsk me anything: dashsupport.team/dasha';
+    return t;
   } catch (e) { return null; }
 }
 
 async function builderideaPost(snap) {
   const gap = snap && snap.props && snap.props.length
-    ? 'Context from live governance (what the network is funding/debating): ' + snap.props.slice(0, 4).map(function (p) { return p.title || p.name; }).join(' · ')
+    ? 'Context from live governance (what the network is funding/debating): ' + snap.props.filter((p) => !isOurs(p)).slice(0, 4).map(function (p) { return p.title || p.name; }).join(' · ')
     : '';
   const dread = await davaraRead(DAVARA_LENS + '\n\n' + (gap || 'No live governance context this run.') + '\n\nAs Davara: name ONE concrete unmet need on Dash a solo builder could start meeting this week, the smallest buildable version, and the leverage rung it pulls. Five sentences max, plain words, no preamble.');
   try {
@@ -269,11 +280,11 @@ async function builderideaPost(snap) {
       + 'project a builder could START THIS WEEK on Dash: the unmet need in one clause, the smallest buildable version '
       + 'in one clause, and why Dash specifically (Platform/identities/treasury) makes it possible. Real and scoped — '
       + 'a weekend-to-a-month build, not a moonshot. Anyone reading it should be able to begin.' }],
-      { surface: 'api', internal: true, maxTokens: 400 });
+      { surface: 'post', internal: true, maxTokens: 400 });
     let t = String((out && out.reply) || '').trim();
     if (!t || t.length < 40) return null;
     if (t.length > 260) t = t.slice(0, 257) + '…';
-    return t + '\n\nBuild it — I’ll help: dashsupport.team/dasha';
+    return t;
   } catch (e) { return null; }
 }
 
@@ -290,36 +301,17 @@ async function teachingPost() {
       'Builders keep asking you about ' + topic + ' this week. Write ONE X post (max 240 characters, no hashtags, no emoji) '
       + 'that teaches the single most useful concrete thing about ' + topic + ' on Dash — the thing that unblocks someone fastest. '
       + 'Plain, specific, technically exact. No hype, no "did you know", no call to action. End with nothing but the fact.' }],
-      { surface: 'api', internal: true, maxTokens: 400 });
+      { surface: 'post', internal: true, maxTokens: 400 });
     let s = String((out && out.reply) || '').trim();
     if (!s || s.length < 40) return null;
     if (s.length > 250) s = s.slice(0, 247) + '…';
-    return s + '\n\nAsk me anything: dashsupport.team/dasha';
+    return s;
   } catch (e) { return null; }
 }
 
 /* ---------- THE DAPP CONCEPT ----------
    She already models Dash dapps every day for the design gallery. Publishing one is
    substance she authored, not filler — and it is the natural place to invite ideas. */
-async function foundryPost() {
-  try {
-    const r = await fetch('https://raw.githubusercontent.com/' + REPO + '/main/FOUNDRY/latest.json?t=' + Math.floor(Date.now() / 36e5));
-    if (!r.ok) return null;
-    const d = await r.json();
-    const mints = (d && d.mints) || [];
-    if (!mints.length) return null;
-    /* rotate by day so the same concept is not repeated */
-    const idx = Math.floor(Date.now() / 864e5) % mints.length;
-    const m = mints[idx];
-    if (!m || !m.n) return null;
-    let body = 'A Dash dapp concept I modeled today:\n\n' + m.n + ' — ' + m.t
-      + '\n\nTeaches: ' + m.block;
-    if (m.note) body += '\nHow I would wire it: ' + m.note;
-    body += '\n\nPlayable, in five design systems: dashsupport.team/design'
-      + '\nIdeas for what I should model next → ' + FOUNDER;
-    return body;
-  } catch (err) { return null; }
-}
 
 /* ---------- THE CORRECTION ----------
    When her learning loop closes a bad-answer report, she says so — publicly, topic-free
@@ -380,6 +372,7 @@ function forecastPost(snap) {
     + 'If voting closed today: ' + snap.passing.length + ' proposal' + (snap.passing.length === 1 ? '' : 's') + ' would fund';
   if (snap.bubble.length) body += ', ' + snap.bubble.length + ' on the bubble:\n' + snap.bubble.slice(0, 4).map((p) => bline(p, 40)).join('\n');
   else body += '.';
+  if (snap.bubble.slice(0, 4).some(isOurs)) body += '\n\n' + DISCLOSE_LIST;
   body += '\n\nVotes can still move. Your node, your call \u2192 dashcentral.org';
   return body;
 }
@@ -397,7 +390,7 @@ function treasuryPost(snap) {
   const small = room && room >= 1 && room <= 8;
   let body = 'The Dash treasury has ' + dnum(Math.round(unspent)) + ' DASH unallocated this cycle'
     + (small ? ' \u2014 room for roughly ' + room + ' more proposal' + (room === 1 ? '' : 's') + ' at the median ask.' : ' \u2014 real room for new proposals.');
-  body += '\n\nThe network funds what masternodes approve. Building on Dash and weighing a proposal? I can help you scope it: dashsupport.team/dasha';
+  body += '\n\nThe network funds what masternodes approve.';
   return body;
 }
 
@@ -435,12 +428,12 @@ async function translatePost(opts) {
     + 'If you cannot find something current, or cannot make an honest and balanced contrast, answer exactly: SKIP\n'
     + 'Answer with the post text only.';
   try {
-    const out = await askDasha([{ role: 'user', content: prompt }], { surface: 'api', internal: true, maxTokens: 500 });
+    const out = await askDasha([{ role: 'user', content: prompt }], { surface: 'post', internal: true, maxTokens: 500 });
     let s = String((out && out.reply) || '').trim().replace(/^["']|["']$/g, '');
     if (!s || /^skip$/i.test(s) || s.length < 60) return null;
     if (/\b(best|fastest|revolutionary|buy now|to the moon|superior|beats every|kills|dead chain|switch to dash)\b/i.test(s)) return null;
     if (s.length > 240) s = s.slice(0, 237) + '\u2026';
-    return s + '\n\nHow Dash works, in plain terms: dashsupport.team/dasha';
+    return s;
   } catch (e) { return null; }
 }
 
@@ -485,7 +478,7 @@ async function weeklyPost(snap) {
       if (top) rows.push('\u2022 builders asked me most about ' + (TOPIC[top[0]] || top[0].replace(/^\//, '')));
     }
   } catch (e2) {}
-  return 'This week in Dash:\n\n' + rows.join('\n') + '\n\nThe full ballot, and answers, any time: dashsupport.team/dasha';
+  return 'This week in Dash:\n\n' + rows.join('\n');
 }
 
 /* ---------- THE DISCUSSION SIGNAL ----------
@@ -495,9 +488,9 @@ function discussionPost(snap) {
   if (!snap) return null;
   const d = snap.props.filter((p) => p.comments > 0).sort((a, b) => b.comments - a.comments)[0];
   if (!d || d.comments < 3) return null;
-  return 'Most discussed on the Dash ballot right now:\n\n' + clipT(d.title, 60) + '\n'
+  return 'Most discussed on the Dash ballot right now:\n\n' + clipT(d.title, 60) + ourTag(d) + '\n'
     + d.comments + ' comment' + (d.comments === 1 ? '' : 's') + (d.passing ? ' \u00b7 passing' : '') + '.\n\n'
-    + 'The community is already weighing in. Read the thread and the tally:\n' + (d.commentsUrl || d.url);
+    + 'The community is already weighing in. Read the thread and the tally:\n' + (d.commentsUrl || d.url) + disclosure(d);
 }
 
 /* ---------- THE DASH DISTINCT (reverse translation) ----------
@@ -506,7 +499,7 @@ function discussionPost(snap) {
 const DASH_CAPS = [
   'InstantSend, where a payment is final in about a second',
   'ChainLocks, which make a 51% chain reorganization attack infeasible',
-  'the masternode treasury \u2014 10% of block rewards the network votes on directly, funding itself with no foundation',
+  'the masternode treasury \u2014 20% of block rewards the network votes on directly, funding itself with no foundation',
   'declarative data contracts on Platform instead of general-purpose smart contracts',
   'DPNS usernames owned on-chain by your identity, not rented from a company',
   'optional CoinJoin privacy that never leaves self-custody',
@@ -523,12 +516,12 @@ async function distinctPost(opts) {
     + 'If you cannot make an honest, balanced contrast, answer exactly: SKIP\n'
     + 'Answer with the post text only.';
   try {
-    const out = await askDasha([{ role: 'user', content: prompt }], { surface: 'api', internal: true, maxTokens: 500 });
+    const out = await askDasha([{ role: 'user', content: prompt }], { surface: 'post', internal: true, maxTokens: 500 });
     let s = String((out && out.reply) || '').trim().replace(/^["']|["']$/g, '');
     if (!s || /^skip$/i.test(s) || s.length < 60) return null;
     if (/\b(best|fastest|revolutionary|buy now|to the moon|superior|beats every|kills|dead chain|switch to dash)\b/i.test(s)) return null;
     if (s.length > 240) s = s.slice(0, 237) + '\u2026';
-    return s + '\n\nHow Dash works, in plain terms: dashsupport.team/dasha';
+    return s;
   } catch (e) { return null; }
 }
 
@@ -554,6 +547,7 @@ async function runEditor(opts) {
   const { sha, data: st } = await loadJson(EDITOR_STATE, { last: {}, day: null, spent: 0, lastKind: null, log: [] });
   const today = new Date().toISOString().slice(0, 10);
   if (st.day !== today) { st.day = today; st.spent = 0; }
+  doors.seed(st.doorLog);   /* remember which doors she has used lately, so she varies honestly */
 
   const snap = snapshot(await govData());
   const ctx = { hoursToCutoff: snap ? snap.hoursToCutoff : null };
@@ -566,12 +560,9 @@ async function runEditor(opts) {
   /* 1 — GATHER every candidate the world is offering */
   const cands = [];
   const w = await runWatch({ dry: true, max: 5 });          /* detect without consuming */
+  /* the watch's own posts already mark ours and carry the disclosure; the gate below re-checks */
   if (w.ok) for (const ev of w.posts) {
-    let text = ev.text;
-    /* if this is about us, say so — unprompted, every time */
-    const hit = snap && snap.props.filter(function (p) { return text.indexOf(p.name) >= 0 || text.indexOf(String(p.title).slice(0, 30)) >= 0; })[0];
-    if (hit) text += disclosure(hit);
-    cands.push({ kind: ev.kind === 'new' ? 'new' : ev.kind, text: text, key: ev.key, fresh: true, viaWatch: true });
+    cands.push({ kind: ev.kind === 'new' ? 'new' : ev.kind, text: ev.text, key: ev.key, fresh: true, viaWatch: true });
   }
 
   const cool = (k) => !st.last[k] || (now - Date.parse(st.last[k])) > (CLASS[k] || {}).cool;
@@ -579,7 +570,6 @@ async function runEditor(opts) {
   if (cool('accountability')) { const a = accountabilityPost(ledger, snap); if (a) cands.push({ kind: 'accountability', text: a, key: 'acct:' + today, fresh: true }); }
   if (cool('needs')) { const n = await needsPost(); if (n) cands.push({ kind: 'needs', text: n, key: 'needs:' + today, fresh: true }); }
   if (cool('teaching') && !opts.noModel) { const t = await teachingPost(); if (t) cands.push({ kind: 'teaching', text: t, key: 'teach:' + today, fresh: true }); }
-  if (!FOUNDRY_PAUSED && cool('foundry')) { const f = await foundryPost(); if (f) cands.push({ kind: 'foundry', text: f, key: 'foundry:' + today, fresh: true }); }
   if (cool('forecast')) { const fc = forecastPost(snap); if (fc) cands.push({ kind: 'forecast', text: fc, key: 'forecast:' + today, fresh: true }); }
   if (cool('treasury')) { const tr = treasuryPost(snap); if (tr) cands.push({ kind: 'treasury', text: tr, key: 'treasury:' + (snap ? snap.superblock : 'x'), fresh: true }); }
   if (cool('network')) { const nw = await networkPost(); if (nw) cands.push({ kind: 'network', text: nw, key: 'network:' + today, fresh: true }); }
@@ -595,6 +585,10 @@ async function runEditor(opts) {
   if (roomLeft > 0 && cool('translate') && !opts.noModel) { const tl = await translatePost(opts); if (tl) cands.push({ kind: 'translate', text: tl, key: 'translate:' + today, fresh: true }); }
   if (roomLeft > 0 && cool('distinct') && !opts.noModel) { const di = await distinctPost(opts); if (di) cands.push({ kind: 'distinct', text: di, key: 'distinct:' + today, fresh: true }); }
 
+  /* 1b — THE DISCLOSURE GATE, the last look before anything can be chosen. Whatever wrote the
+     post, if it names our own proposal it carries the disclosure; an opinion post never names it. */
+  discloseGate(cands, snap);
+
   /* 2 — SCORE and order */
   for (const c of cands) c.score = score(c, ctx);
   cands.sort((a, b) => b.score - a.score);
@@ -608,8 +602,12 @@ async function runEditor(opts) {
     if (chosen.length >= Math.min(budget, opts.max || 2)) break;
     if (st.last[c.key]) continue;
     if (c.kind === lastKind && CLASS[c.kind].p < 80) continue;   /* variety, unless it is urgent */
+    /* the door is part of the sentence: chosen here, where we know what is actually going out */
+    c.text = doors.attach(c.text, c.kind, chosen.length);
+    c.door = doors.log()[doors.log().length - 1] || null;
     chosen.push(c); lastKind = c.kind;
   }
+  st.doorLog = doors.log();
 
   return { ok: true, ctx, considered: cands.map((c) => ({ kind: c.kind, score: Math.round(c.score), key: c.key, text: opts.verbose ? c.text : undefined })),
     chosen, state: st, sha, ledgerSize: ledger && ledger.entries ? Object.keys(ledger.entries).length : 0 };
@@ -621,10 +619,11 @@ async function commitEditorState(st, sha, chosen) {
   for (const c of chosen) { st.last[c.kind] = now; st.last[c.key] = now; }
   st.spent = (st.spent || 0) + chosen.length;
   if (chosen.length) st.lastKind = chosen[chosen.length - 1].kind;
-  st.log = (st.log || []).concat(chosen.map((c) => ({ at: now, kind: c.kind, key: c.key }))).slice(-120);
+  st.log = (st.log || []).concat(chosen.map((c) => ({ at: now, kind: c.kind, key: c.key, door: c.door || null }))).slice(-120);
   const keys = Object.keys(st.last);
   if (keys.length > 300) { keys.sort((a, b) => (st.last[a] < st.last[b] ? -1 : 1)); for (const k of keys.slice(0, keys.length - 220)) delete st.last[k]; }
   await ghPut(EDITOR_STATE, JSON.stringify(st, null, 2), 'editor: ' + now.slice(0, 16), sha);
 }
 
-module.exports = { runEditor, commitEditorState, needsPost, accountabilityPost, updateFundedLedger };
+module.exports = { runEditor, commitEditorState, needsPost, accountabilityPost, updateFundedLedger,
+  _test: { discloseGate, forecastPost, discussionPost } };

@@ -53,7 +53,7 @@ async function sbSelectSince(iso) {
   const t = setTimeout(() => ctl.abort(), 6000);
   try {
     const r = await fetch(SB_URL + '/rest/v1/' + TABLE + '?ts=gte.' + encodeURIComponent(iso)
-      + '&select=kind,surface,model,depth,skills,tools,ok,thumb,filed&limit=100000', {
+      + '&select=ts,kind,surface,model,depth,skills,tools,ok,thumb,filed&limit=100000', {
       signal: ctl.signal, headers: { apikey: SB_KEY, Authorization: 'Bearer ' + SB_KEY },
     });
     if (!r.ok) return null;
@@ -124,10 +124,14 @@ async function snapshot(days) {
     const rows = await sbSelectSince(since);
     if (rows) {
       const t = Object.create(null);
+      const byDay = Object.create(null);
       const bump = (f) => { t[f] = (t[f] || 0) + 1; };
       for (const r of rows) {
         if (r.kind === 'thumb') { bump(r.thumb > 0 ? 'thumbs_up' : 'thumbs_down'); if (r.filed) bump('filed_issue'); continue; }
+        if (r.kind && r.kind !== 'turn') continue; /* foundry votes etc. are not conversations */
+        if (r.surface === 'api') continue; /* internal self-generated content (foundry/editor/regenesis) — never a user turn, so it never inflates "answers". Retroactive guard for rows written before internal:true landed. */
         bump('answers');
+        if (r.ts) { const dk = String(r.ts).slice(0, 10); byDay[dk] = (byDay[dk] || 0) + 1; }
         if (r.surface) bump('surface:' + r.surface);
         if (r.model) bump('model:' + r.model);
         if (r.depth) bump('depth:' + r.depth);
@@ -135,7 +139,7 @@ async function snapshot(days) {
         (r.tools || []).forEach((x) => bump('tool:' + x));
         if (r.ok === false) bump('errors');
       }
-      return { store: 'supabase', scope: 'fleet-wide, ' + n + 'd', total: { all: t } };
+      return { store: 'supabase', scope: 'fleet-wide, ' + n + 'd', total: { all: t }, byDay };
     }
   }
   if (STORE === 'kv') {
@@ -143,13 +147,26 @@ async function snapshot(days) {
     const res = await kvPipeline(dates.map((d) => ['HGETALL', 'pulse:' + d]));
     if (res) {
       const t = Object.create(null);
-      res.forEach((row) => { const arr = (row && row.result) || []; for (let j = 0; j < arr.length; j += 2) t[arr[j]] = (t[arr[j]] || 0) + (parseInt(arr[j + 1], 10) || 0); });
-      return { store: 'kv', scope: 'fleet-wide, ' + n + 'd', total: { all: t } };
+      const byDay = Object.create(null);
+      res.forEach((row, i) => {
+        const arr = (row && row.result) || [];
+        for (let j = 0; j < arr.length; j += 2) {
+          t[arr[j]] = (t[arr[j]] || 0) + (parseInt(arr[j + 1], 10) || 0);
+          if (arr[j] === 'answers') byDay[dates[i]] = (byDay[dates[i]] || 0) + (parseInt(arr[j + 1], 10) || 0);
+        }
+      });
+      return { store: 'kv', scope: 'fleet-wide, ' + n + 'd', total: { all: t }, byDay };
     }
   }
   const t = Object.create(null);
-  for (const [dt, b] of mem) { if (dt >= new Date(Date.now() - n * 864e5).toISOString().slice(0, 10)) for (const f of Object.keys(b)) t[f] = (t[f] || 0) + b[f]; }
-  return { store: 'memory', scope: 'this instance since cold start — add Supabase or KV for fleet-wide', total: { all: t } };
+  const byDay = Object.create(null);
+  for (const [dt, b] of mem) {
+    if (dt >= new Date(Date.now() - n * 864e5).toISOString().slice(0, 10)) {
+      for (const f of Object.keys(b)) t[f] = (t[f] || 0) + b[f];
+      if (b.answers) byDay[dt] = (byDay[dt] || 0) + b.answers;
+    }
+  }
+  return { store: 'memory', scope: 'this instance since cold start — add Supabase or KV for fleet-wide', total: { all: t }, byDay };
 }
 
 function top(totals, prefix, k) {
@@ -177,15 +194,33 @@ function rollup(snap) {
 function publicRollup(snap) {
   const t = (snap.total && snap.total.all) || {};
   const up = t.thumbs_up || 0, down = t.thumbs_down || 0;
+  /* '(none)' is real work too — a plain question answered from her own knowledge. Show it
+     as what it is instead of hiding it, so the page is honest from the very first answer. */
+  const topics = top(t, 'skill:', 8).map((s) => [s[0] === '(none)' ? 'general help' : s[0], s[1]]);
+  /* the last 30 days, zero-filled oldest→newest, so the history line always spans the window */
+  const days = [];
+  const byDay = snap.byDay || {};
+  for (let i = 29; i >= 0; i--) {
+    const dk = new Date(Date.now() - i * 864e5).toISOString().slice(0, 10);
+    days.push([dk, byDay[dk] || 0]);
+  }
   return {
     answers: t.answers || 0,
     peopleFindingItHelpful: (up + down) ? Math.round((up / (up + down)) * 100) + '%' : null,
-    topTopics: top(t, 'skill:', 8).filter((s) => s[0] !== '(none)'),
+    topTopics: topics,
     reached: top(t, 'tool:', 6).map((x) => x[0]),
     where: top(t, 'surface:', 5),
+    last30days: days,
+    updated: new Date().toISOString(),
     scope: snap.scope, store: snap.store,
-    promise: 'We count what fires, never what is said. No question, answer, address, or person is ever stored. This page is everything we have.',
+    promise: 'We count what fires, never what is said. No question, answer, address, or person is ever stored. This page is everything we have. The exceptions are yours to invoke: /ImagineThisDash brainstorms are public by design — disclosed up front, credited as you choose — and a note on a thumbs-down files that question and answer as a public issue, so the fix happens in the open.',
   };
 }
 
-module.exports = { recordTurn, recordFeedback, snapshot, rollup, publicRollup, STORE, HAS_SB, HAS_KV };
+async function rawTurns(days) {
+  if (STORE !== 'supabase') return [];
+  const since = new Date(Date.now() - Math.min(days || 14, DAYS_KEPT) * 864e5).toISOString();
+  const rows = await sbSelectSince(since);
+  return (rows || []).filter((r) => r.kind === 'turn' && r.surface !== 'api').map((r) => ({ skills: r.skills || [], tools: r.tools || [] }));
+}
+module.exports = { recordTurn, recordFeedback, snapshot, rollup, publicRollup, rawTurns, STORE, HAS_SB, HAS_KV };

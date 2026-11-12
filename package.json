@@ -1,0 +1,7 @@
+{
+  "name": "dasha-ai",
+  "private": true,
+  "dependencies": {
+    "@dashevo/dashcore-lib": "^0.25.0"
+  }
+}
