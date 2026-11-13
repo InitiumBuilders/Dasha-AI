@@ -2,31 +2,31 @@
   "seen": {
     "pshenmic-dev-dashextension-december-2026": {
       "passing": false,
-      "net": -8
+      "net": -7
     },
     "pshenmic-dev-dfo-december-2026": {
       "passing": false,
-      "net": -16
+      "net": -15
     },
     "DashDaoCenterNovDec2026": {
       "passing": false,
-      "net": 48
+      "net": 49
     },
     "pshenmic-dev-dashscan-december-2026": {
       "passing": false,
-      "net": -6
+      "net": -5
     },
     "pshenmic-dev-dash-desktop-december-2026": {
       "passing": false,
-      "net": -9
+      "net": -8
     },
     "SIGMA_AIBC_FIERA_ROMA_2026_REIMBURSMENT": {
       "passing": true,
-      "net": 321
+      "net": 322
     },
     "Dash_Italia_SiGMA_AIBC_Rome_Refund": {
       "passing": false,
-      "net": 273
+      "net": 274
     },
     "Dash-Stars-Ecosystem-Visibility-Pilot": {
       "passing": false,
@@ -34,7 +34,7 @@
     },
     "JembeAndEvolite_WorkDone_2026": {
       "passing": false,
-      "net": 156
+      "net": 157
     },
     "EvoliteJembeAndNFTs_November_2026": {
       "passing": false,
@@ -46,7 +46,7 @@
     },
     "Dash-APAC-November-December": {
       "passing": true,
-      "net": 340
+      "net": 341
     },
     "c2pool-daemonless-delivered": {
       "passing": false,
@@ -62,7 +62,7 @@
     },
     "Business-Development-Nov-December-26": {
       "passing": false,
-      "net": 222
+      "net": 223
     },
     "dash-intents": {
       "passing": false,
@@ -74,7 +74,7 @@
     },
     "kwvg-core-oct26": {
       "passing": false,
-      "net": 245
+      "net": 246
     },
     "dashcentral-operations4": {
       "passing": false,
@@ -82,11 +82,11 @@
     },
     "DASH-MULTILINGUAL-EXPANSION_Q4": {
       "passing": false,
-      "net": 261
+      "net": 262
     },
     "Dash-Pay-name-registration-rules": {
       "passing": true,
-      "net": 332
+      "net": 333
     },
     "DashDaoGrowthEngine": {
       "passing": false,
@@ -102,7 +102,7 @@
     },
     "BTCBACKPORTSVIJAY_04": {
       "passing": false,
-      "net": 284
+      "net": 285
     },
     "DCG-Operations-Aug-Nov-26": {
       "passing": true,
@@ -231,5 +231,5 @@
   },
   "superblock": "2575480",
   "lastPassingCount": 9,
-  "updated": "2026-11-13T14:45:17.791Z"
+  "updated": "2026-11-13T15:15:17.825Z"
 }
