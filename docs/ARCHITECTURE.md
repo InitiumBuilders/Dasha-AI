@@ -467,8 +467,9 @@ its query:
 - `?feed=1`, `?gov=1`, `?ics=1`, `?work=1`: public reads for the site. They need no X and no
   token.
 
-A job runs for `Authorization: Bearer <CRON_SECRET>`, for Vercel's cron header, or for
-`x-dasha-token`. Without `X_ACCESS_TOKEN` and `X_ACCESS_SECRET` she is read-only and says so.
+A job runs only for `Authorization: Bearer <CRON_SECRET>`, which Vercel sends on every cron run,
+or for `x-dasha-token`. With no `CRON_SECRET` set, no scheduled job runs. Without
+`X_ACCESS_TOKEN` and `X_ACCESS_SECRET` she is read-only and says so.
 When a post names one of the team's own proposals it carries a disclosure, and a post that gives
 her view leaves the team's proposals out (`api/_ours.js`, `api/_watch.js`, `api/_editor.js`).
 

@@ -20,13 +20,14 @@ const LOOKBACK_MIN = 90;         // ignore anything older (cold starts / backfil
 const recent = new Map();        // in-memory belt to the timeline's braces
 
 function authorized(req) {
+  /* Vercel sends CRON_SECRET as "Authorization: Bearer <secret>" on every cron run. That, or the team's own token,
+     is the only way in: a header anyone can type (x-vercel-cron) opens nothing, and with no secret set nothing runs. */
   const cs = process.env.CRON_SECRET;
   const auth = req.headers['authorization'] || '';
   if (cs && auth === 'Bearer ' + cs) return true;               // Vercel cron
-  if (req.headers['x-vercel-cron']) return true;                 // Vercel cron header
   const tok = req.headers['x-dasha-token'];
   if (tok && process.env.DASHA_MCP_TOKEN && tok === process.env.DASHA_MCP_TOKEN) return true; // manual
-  return !cs;                                                    // no secret set → open (still read-only unless configured)
+  return false;
 }
 
 /* Have we already said this? A broadcast repeated is a broadcast unfollowed, and serverless

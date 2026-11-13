@@ -192,7 +192,7 @@ permission and OAuth 1.0a tokens **generated from the account that will post**.
 | `X_BEARER_TOKEN` | App-only token, for reading mentions. |
 | `X_ACCESS_TOKEN` / `X_ACCESS_SECRET` | OAuth 1.0a, from the posting account. **Without these she is read-only** and says so. |
 | `X_OAUTH2_ACCESS` | Optional. An OAuth 2.0 user token, used to post only when the two above are missing. |
-| `CRON_SECRET` | Authorizes a scheduled run. Vercel's own cron header also authorizes, and `DASHA_MCP_TOKEN` authorizes a run by hand. Set it: with no `CRON_SECRET` the jobs run for any caller. |
+| `CRON_SECRET` | Authorizes a scheduled run: Vercel sends it as `Authorization: Bearer` on every cron run. `DASHA_MCP_TOKEN` authorizes a run by hand. With no `CRON_SECRET` set, no scheduled job runs. |
 | `DASHA_X_WATCH` | `on` lets the ballot watch, the editor and the ballot brief post. Without it nothing is posted, and the watch still keeps its record. |
 | `DASHA_X_DIGEST` | `on` lets the superblock digest post. |
 | `DAVARA_MCP_TOKEN` | Optional. With it the editor asks the Davara service for a read before two kinds of post (`davaraRead` in `_editor.js`). Without it that step is skipped. |
