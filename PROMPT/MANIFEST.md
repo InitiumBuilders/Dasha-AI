@@ -1,4 +1,6 @@
-# DASHA PROMPT MANIFEST — v2.14.2 "The Architect"
+# DASHA PROMPT MANIFEST — v2.14.3 "The Architect"
+
+**New in v2.14.3 (13 Nov 2026):** Notes and routing words only. Six chapters of the platform book were read in full and her notes held against them. Section 23 now says what bytes are billed (everything an insert adds, so a sum on the document's own size is a floor), names `documentCreateCost` for the exact figure, gives the refund a deleted document gets (about 99.9% in its first epoch, about 95% a year later), the parts of the processing fee, and the book's own words on the per-document minimum: a balance check before processing, not a charge. Section 17 has action fees in full (what `pricing` means, the agreement and its errors, and that a live contract gains fees only through new document types) and a new note on token costs and sponsored gas, the "free usage" pattern. One correction to a correction: an action fee does count against a limited key's budget, as credits moved out of the identity; v2.13.4 had told her otherwise.
 
 **New in v2.14.2 (12 Nov 2026):** Notes only. In a Platform 5.0 briefing she still summarised an expiring document by its price per byte alone. Section 17 now opens the cost with one line a summary can quote whole: the price per byte and the deletion prepayment together, with two worked sizes (about half the cost of a permanent document at 100 bytes, about a seventeenth at 1,000). The per-transition minimum has a line of its own in section 23 and stays out of cost estimates, after two answers added it to the metered parts.
 
