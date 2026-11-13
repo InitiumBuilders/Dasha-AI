@@ -2,11 +2,11 @@
   "seen": {
     "pshenmic-dev-dashextension-december-2026": {
       "passing": false,
-      "net": -21
+      "net": -16
     },
     "DashDaoCenterNovDec2026": {
       "passing": false,
-      "net": 39
+      "net": 40
     },
     "pshenmic-dev-dashscan-december-2026": {
       "passing": false,
@@ -231,5 +231,5 @@
   },
   "superblock": "2575480",
   "lastPassingCount": 9,
-  "updated": "2026-11-13T10:45:17.698Z"
+  "updated": "2026-11-13T11:15:17.649Z"
 }
