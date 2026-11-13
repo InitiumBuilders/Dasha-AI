@@ -6,7 +6,7 @@
     },
     "DashDaoCenterNovDec2026": {
       "passing": false,
-      "net": 29
+      "net": 30
     },
     "pshenmic-dev-dashscan-december-2026": {
       "passing": false,
@@ -231,5 +231,5 @@
   },
   "superblock": "2575480",
   "lastPassingCount": 9,
-  "updated": "2026-11-13T07:15:17.784Z"
+  "updated": "2026-11-13T07:45:17.883Z"
 }
