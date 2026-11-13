@@ -10,7 +10,7 @@
     },
     "pshenmic-dev-dashscan-december-2026": {
       "passing": false,
-      "net": -19
+      "net": -15
     },
     "pshenmic-dev-dash-desktop-december-2026": {
       "passing": false,
@@ -231,5 +231,5 @@
   },
   "superblock": "2575480",
   "lastPassingCount": 9,
-  "updated": "2026-11-13T09:15:17.764Z"
+  "updated": "2026-11-13T09:45:17.792Z"
 }
