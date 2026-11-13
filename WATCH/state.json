@@ -46,35 +46,35 @@
     },
     "Dash-APAC-November-December": {
       "passing": true,
-      "net": 345
+      "net": 346
     },
     "c2pool-daemonless-delivered": {
       "passing": false,
-      "net": 128
+      "net": 129
     },
     "Optional-Content-Control": {
       "passing": false,
-      "net": 51
+      "net": 50
     },
     "Dash-Mass-Organic-Content-Attraction": {
       "passing": false,
-      "net": 54
+      "net": 53
     },
     "Business-Development-Nov-December-26": {
       "passing": true,
-      "net": 363
+      "net": 362
     },
     "dash-intents": {
       "passing": false,
-      "net": 40
+      "net": 39
     },
     "APAC-BizDev-HK-China-SG-Nov-Dec-26": {
       "passing": true,
-      "net": 401
+      "net": 402
     },
     "kwvg-core-oct26": {
       "passing": true,
-      "net": 386
+      "net": 387
     },
     "dashcentral-operations4": {
       "passing": false,
@@ -233,5 +233,5 @@
   },
   "superblock": "2575480",
   "lastPassingCount": 12,
-  "updated": "2026-11-13T20:45:17.852Z"
+  "updated": "2026-11-13T21:15:17.875Z"
 }
