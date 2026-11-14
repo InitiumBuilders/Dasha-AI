@@ -1,4 +1,6 @@
-# DASHA PROMPT MANIFEST — v2.15.5 "The Architect"
+# DASHA PROMPT MANIFEST — v2.15.6 "The Architect"
+
+**New in v2.15.6 (14 Nov 2026):** /tools was retired on 14 Nov 2026 and opens /proposal-check; its vote clock, voting slip and "Will it fit?" are gone. Her notes no longer send anyone there: a round's cutoff comes from `dash_governance`, the live ballot is at DashCentral, and whether an ask fits is worked out with `calculate`. The calendar feed still answers and its events link /proposal-check. And the NFT note says which setting does what: `transferable: 1` gives a document away, `tradeMode: 1` lets it be sold, and a sale needs only the second.
 
 **New in v2.15.5 (14 Nov 2026):** The poll fix. Asked for a vote that can never change, she had told the builder the poll must not be deletable but not that its options must not change. Section 24 and the /data-contract skill now name both of the poll's settings together, `documentsMutable: false` and `canBeDeleted: false`, also when only the vote is written.
 
