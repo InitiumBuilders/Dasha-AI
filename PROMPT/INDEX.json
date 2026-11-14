@@ -394,7 +394,10 @@
         "token's pool",
         "token's shielded pool"
       ],
-      "words": []
+      "words": [],
+      "needs": [
+        "19."
+      ]
     },
     {
       "name": "/scale",
@@ -488,7 +491,10 @@
         "unshield fee",
         "cost of a shielded"
       ],
-      "words": []
+      "words": [],
+      "needs": [
+        "23."
+      ]
     },
     {
       "name": "/dash-gov",
@@ -1555,7 +1561,7 @@
       "name": "/evo5",
       "title": "Platform 5.0 Briefing (what changed, what it means for you)",
       "file": "skills/evo5.md",
-      "chars": 1916,
+      "chars": 2049,
       "phrases": [
         "what is new in platform",
         "whats new in platform",
@@ -1620,6 +1626,9 @@
         "briefing",
         "means",
         "evo5"
+      ],
+      "needs": [
+        "17."
       ]
     },
     {
@@ -1790,13 +1799,16 @@
         "decide",
         "permanent",
         "forge"
+      ],
+      "needs": [
+        "18."
       ]
     },
     {
       "name": "/earn",
       "title": "Apps That Earn and Moderate (Platform 5.0)",
       "file": "skills/earn.md",
-      "chars": 2702,
+      "chars": 2875,
       "phrases": [
         "action fees",
         "apps that earn",
@@ -1892,13 +1904,16 @@
         "spam",
         "moderate",
         "platform"
+      ],
+      "needs": [
+        "17."
       ]
     },
     {
       "name": "/release-watch",
       "title": "What Is Out, What Is Running",
       "file": "skills/release-watch.md",
-      "chars": 1112,
+      "chars": 1503,
       "phrases": [
         "latest release",
         "latest version",
@@ -2450,7 +2465,7 @@
       "id": "17.",
       "title": "17. PLATFORM 5.0, PROTOCOL VERSION 14 (live on mainnet since 8 Nov 2026)",
       "file": "knowledge/17-platform-5-0-protocol-version-14-live.md",
-      "chars": 21705,
+      "chars": 23791,
       "phrases": [
         "platform 5",
         "platform v5",
@@ -2605,7 +2620,7 @@
       "id": "18.",
       "title": "18. TOKENS AND NFTS (docs 5.0)",
       "file": "knowledge/18-tokens-and-nfts-docs-5-0.md",
-      "chars": 7546,
+      "chars": 10012,
       "phrases": [
         "token",
         "tokens",
@@ -2658,7 +2673,15 @@
         "transfer a document",
         "transfer my nft",
         "once per identity",
-        "claim once"
+        "claim once",
+        "purchase a document",
+        "buy an nft",
+        "price on a document",
+        "price on my nft",
+        "emergencyactionrules",
+        "who can pause",
+        "while paused",
+        "while it is paused"
       ],
       "words": []
     },
@@ -2666,7 +2689,7 @@
       "id": "19.",
       "title": "19. THE SHIELDED POOL (credits live since Platform 4.0, token pools since 5.0)",
       "file": "knowledge/19-the-shielded-pool-credits-live-since-.md",
-      "chars": 6582,
+      "chars": 7165,
       "phrases": [
         "shield",
         "unshield",
@@ -2700,7 +2723,9 @@
         "mint to pool",
         "token pool",
         "token's pool",
-        "token's shielded pool"
+        "token's shielded pool",
+        "note count",
+        "anchor retention"
       ],
       "words": []
     },
@@ -2822,7 +2847,7 @@
       "id": "23.",
       "title": "23. FEES AND LIMITS: THE PROTOCOL CONSTANTS (docs 5.0, read 12 Nov 2026)",
       "file": "knowledge/23-fees-and-limits-the-protocol-constant.md",
-      "chars": 6098,
+      "chars": 6241,
       "phrases": [
         "registration fee",
         "contract fee",
