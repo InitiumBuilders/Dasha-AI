@@ -2,35 +2,35 @@
   "seen": {
     "pshenmic-dev-dashextension-december-2026": {
       "passing": false,
-      "net": 153
+      "net": 157
     },
     "pshenmic-dev-dfo-december-2026": {
       "passing": false,
-      "net": 172
+      "net": 176
     },
     "DashDaoCenterNovDec2026": {
       "passing": false,
-      "net": 77
+      "net": 81
     },
     "pshenmic-dev-dashscan-december-2026": {
       "passing": false,
-      "net": 159
+      "net": 163
     },
     "pshenmic-dev-dash-desktop-december-2026": {
       "passing": false,
-      "net": 156
+      "net": 160
     },
     "SIGMA_AIBC_FIERA_ROMA_2026_REIMBURSMENT": {
       "passing": true,
-      "net": 489
+      "net": 493
     },
     "Dash_Italia_SiGMA_AIBC_Rome_Refund": {
       "passing": true,
-      "net": 438
+      "net": 442
     },
     "Dash-Stars-Ecosystem-Visibility-Pilot": {
       "passing": false,
-      "net": -34
+      "net": -30
     },
     "JembeAndEvolite_WorkDone_2026": {
       "passing": false,
@@ -229,9 +229,10 @@
     "new:DashDaoCenterNovDec2026": "2026-11-12T15:15:25.443Z",
     "flip:SIGMA_AIBC_FIERA_ROMA_2026_REIMBURSMENT:in:2575480": "2026-11-12T19:15:17.816Z",
     "flip:Dash_Italia_SiGMA_AIBC_Rome_Refund:in:2575480": "2026-11-13T16:45:17.954Z",
-    "flip:Business-Development-Nov-December-26:in:2575480": "2026-11-13T16:45:17.954Z"
+    "flip:Business-Development-Nov-December-26:in:2575480": "2026-11-13T16:45:17.954Z",
+    "c72:2575480": "2026-11-14T13:15:17.893Z"
   },
   "superblock": "2575480",
   "lastPassingCount": 12,
-  "updated": "2026-11-14T12:45:17.727Z"
+  "updated": "2026-11-14T13:15:17.893Z"
 }
