@@ -364,8 +364,21 @@ async function dash_platform(a) {
   const clock = (isFinite(eS) && isFinite(eE) && eE > eS)
     ? ' (began ' + day(eS) + ', ends about ' + day(eE) + ', ' + Math.max(0, Math.min(100, Math.round((Date.now() - eS) / (eE - eS) * 100))) + '% through; a new protocol version can only take effect at an epoch boundary)' : '';
   const pv = (v.protocol && v.protocol.drive) || null;
+  /* THE PACE OF BLOCKS, MEASURED: this epoch's first block and its start time against the latest block. A wait
+     counted in blocks (an anchor kept 1,000 blocks) is turned into time from this reading and from nothing else. */
+  let pace = '';
+  const h0 = Number(ep.firstBlockHeight), h1 = Number(api.block && api.block.height), t1 = Date.parse(api.block && api.block.timestamp);
+  if (isFinite(h0) && isFinite(h1) && isFinite(eS) && isFinite(t1) && h1 - h0 >= 100 && t1 - eS >= 3600000) {
+    const sec = (t1 - eS) / 1000 / (h1 - h0);
+    if (sec > 0.5 && sec < 3600) {
+      const hrs = sec * 1000 / 3600;
+      pace = '\nBlock pace this epoch, measured: ' + (h1 - h0).toLocaleString('en-US') + ' blocks in ' + ((t1 - eS) / 86400000).toFixed(1) + ' days, about '
+        + (sec >= 100 ? Math.round(sec) : sec.toFixed(1)) + ' seconds a block. At this pace 1,000 blocks take about ' + (hrs >= 10 ? Math.round(hrs) : hrs.toFixed(1))
+        + ' hours. The pace is not fixed, so a time worked from it is an estimate: give it with this fetch time.';
+    }
+  }
   return head + 'PLATFORM STATUS (' + (d.network || net) + ')\nLatest block: ' + (api.block ? api.block.height + ' at ' + api.block.timestamp : '?')
-    + ' | epoch ' + (ep.number != null ? ep.number : '?') + clock
+    + ' | epoch ' + (ep.number != null ? ep.number : '?') + clock + pace
     + (pv && pv.current != null ? '\nProtocol version running: ' + pv.current + (pv.latest != null && pv.latest !== pv.current ? ' (this software also supports ' + pv.latest + ')' : '') : '')
     + '\nTenderdash ' + (td.version || '?') + (v.software ? ' | software ' + peClean(JSON.stringify(v.software), 160) : '') + (v.protocol ? ' | protocol ' + peClean(JSON.stringify(v.protocol), 160) : '')
     + '\nTotals: ' + [['identities', d.identitiesCount], ['data contracts', d.dataContractsCount], ['documents', d.documentsCount], ['transactions', d.transactionsCount]].filter((x) => x[1] != null).map((x) => Number(x[1]).toLocaleString('en-US') + ' ' + x[0]).join(', ')
@@ -448,7 +461,7 @@ const DEFS = [
         name: { type: 'string', description: 'For action "get": the proposal name or a keyword from its title.' },
       }, required: ['action'] } } },
   { type: 'function', function: { name: 'dash_platform',
-      description: 'Live, read-only Dash Platform (Evolution) lookups on mainnet or testnet, through the community Platform Explorer. transition: a state transition by its 64-hex hash, with SUCCESS or FAIL and the exact consensus error (the fastest answer to "why did my document or contract fail?"). contract: a data contract by identifier, with its document types, properties, required fields and indices. identity: balance in credits and DASH, names, activity. name: who holds a .dash username. document: one document and its data. status: the network\'s latest block, epoch and versions. If it is not found on the network asked, the other one is checked.',
+      description: 'Live, read-only Dash Platform (Evolution) lookups on mainnet or testnet, through the community Platform Explorer. transition: a state transition by its 64-hex hash, with SUCCESS or FAIL and the exact consensus error (the fastest answer to "why did my document or contract fail?"). contract: a data contract by identifier, with its document types, properties, required fields and indices. identity: balance in credits and DASH, names, activity. name: who holds a .dash username. document: one document and its data. status: the network\'s latest block, epoch and versions, and the measured pace of blocks this epoch (use it to turn a number of blocks into time). If it is not found on the network asked, the other one is checked.',
       parameters: { type: 'object', properties: {
         action: { type: 'string', enum: ['transition', 'contract', 'identity', 'name', 'document', 'status'], description: 'What to look up.' },
         id: { type: 'string', description: 'The 64-hex hash (transition), the base58 identifier (contract, identity, document), or the username, with or without .dash (name). Not needed for status.' },

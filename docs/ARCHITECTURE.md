@@ -26,7 +26,7 @@ and never reaches a browser.
 
 `api/`, `web/` and `scripts/` are a copy of the code the Dash Support Team runs at
 [www.dashsupport.team](https://www.dashsupport.team). The copy was last taken on 14 November
-2026, from the build that serves mind v2.14.4. `GET /api/chat` on the live site reports the
+2026, from the build that serves mind v2.14.5. `GET /api/chat` on the live site reports the
 version it runs and the tools it has, so you can compare.
 
 | File | What it does |
@@ -88,7 +88,7 @@ https://raw.githubusercontent.com/InitiumBuilders/Dasha-AI/main/PROMPT/
     VERSION           the version line
 ```
 
-At v2.14.4 the spine is 73,073 characters and the library holds 57 skills and 23 reference
+At v2.14.5 the spine is 74,275 characters and the library holds 57 skills and 23 reference
 sections. The spine carries her identity, her safety rules, the tool contracts, the answer shape
 and an index of every skill, so she can recommend a skill without loading it.
 
@@ -96,7 +96,9 @@ and an index of every skill, so she can recommend a skill without loading it.
 against each entry's phrases and words in `INDEX.json`. A phrase scores 6 plus one per word, up
 to four. A single word scores 1. A skill named with its slash scores 100. Anything under 5 is
 dropped. At most two skills and three reference sections load, and when a message names a skill
-with its slash, only named skills load. There are no embeddings and no model call in this step,
+with its slash, only named skills load. A skill can name the reference section it rests on
+(`needs` in `INDEX.json`), and that section loads with the skill, ahead of the sections that
+only matched words. There are no embeddings and no model call in this step,
 so it adds no latency and a person can read why a question loaded what it did.
 
 **The order is fixed: `[SPINE][loaded context][conversation]`.** Prompt caching works on
@@ -144,12 +146,12 @@ curl https://www.dashsupport.team/api/chat
     "routing": "…", "freshness": "…"
   },
   "mind": {
-    "version": "v2.14.4 (live)",   // "(live)" from the repo, "(baked)" from the fallback
+    "version": "v2.14.5 (live)",   // "(live)" from the repo, "(baked)" from the fallback
     "origin": "github",            // the runtime naming this repo as its source
-    "spineChars": 73073,
+    "spineChars": 74275,
     "library": { "skills": 57, "knowledge": 23 },
     "loading": "spine always + only the skill/reference the question touches",
-    "baked": "v2.14.4"
+    "baked": "v2.14.5"
   },
   "learning": { "publicBoard": true, "teamChannel": true, "note": "…" },
   "analytics": { "store": "…", "principle": "…", "publicPulse": "…", "teamPulse": "…" },
@@ -203,7 +205,8 @@ own markup, most often in the last round, where no tools are offered. `api/_leak
 When the call names a tool she has, the brain runs it like any other. In the last round that earns one
 round more, once, and only for a tool that is pure code (`calculate`, `merkle_weave`, `verify_message`).
 A call that cannot be run is taken out with the line that announced it, a stream stops showing words at
-the first sign of one, and fenced code is left alone. `/api/chat` reports `textCalls` when this happened.
+the first sign of one, and fenced code is left alone. A line that only announces a lookup is dropped
+from what she said first, and when it opened with her skill tag the tag stays, said once. `/api/chat` reports `textCalls` when this happened.
 
 **When credits run short.** If OpenRouter refuses a call for lack of credit, she first tries the
 flash mind with a ceiling of 1,500 tokens. If that is refused too, she steps down a short list of
@@ -213,7 +216,10 @@ tools is asked once more without them.
 **After the answer.** Six things happen before the reply leaves `askDasha()`:
 
 - The schema gate. If the reply holds a data contract, `api/_schemacheck.js` reads it as data
-  and checks it against the rules Platform enforces at registration. When a rule is broken she
+  and checks it against the rules Platform enforces at registration. It knows a document type by
+  its keys, with or without a `type` line, follows an index path into a nested object, and holds
+  the protocol 14 keywords to their rules (`moderatorAbilities`, `ttl`, contested indices, and
+  what an immutable type may carry). When a rule is broken she
   gets one private round to fix it, and the fixed reply is used only if it breaks fewer rules.
 - The units gate. When the reply gives an amount in credits or duffs with its DASH figure beside
   it, `api/_units.js` checks the pair by division. A DASH figure with the right digits and its
@@ -398,7 +404,8 @@ Core Group service. `transition` gives a state transition's status and the exact
 error. `contract` gives a data contract's document types, properties, required fields and
 indices. `identity` gives the balance in credits and DASH, names and activity. `name` says who
 holds a `.dash` username. `document` gives one document and its data. `status` gives the latest
-block, the epoch and the versions. If the id is not found on the network asked, the other one is
+block, the epoch, the versions and the pace of blocks measured over this epoch, which she uses
+to turn a number of blocks into time. If the id is not found on the network asked, the other one is
 checked.
 
 ### The team's own record

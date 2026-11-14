@@ -54,9 +54,20 @@ function selectContext(messages, index, opts) {
     .sort((a, b) => b.s - a.s)
     .slice(0, MAX_KNOWLEDGE);
 
+  /* A SKILL BRINGS ITS SECTION. Some workflows rest on one reference section: every step of /earn points at
+     section 17. The index says so ("needs"), and that section loads whenever the skill does, ahead of the sections
+     that only matched words. Measured 2026-11-14: "can my app charge users a small fee per post" loaded /earn with
+     no notes, and the answer never named the keyword the person would have to search for. */
+  let picked = kn.map((x) => x.e);
+  const wanted = [];
+  chosen.forEach((x) => (x.e.needs || []).forEach((id) => { if (wanted.indexOf(id) < 0) wanted.push(id); }));
+  const brought = wanted.filter((id) => !picked.some((k) => k.id === id))
+    .map((id) => index.knowledge.find((k) => k.id === id)).filter(Boolean);
+  if (brought.length) picked = brought.concat(picked).slice(0, MAX_KNOWLEDGE);
+
   return {
     skills: chosen.map((x) => x.e),
-    knowledge: kn.map((x) => x.e),
+    knowledge: picked,
     reason: chosen.length ? (explicit.length ? 'explicit' : 'matched') : 'none',
     scores: chosen.map((x) => x.e.name + ':' + x.s),
   };

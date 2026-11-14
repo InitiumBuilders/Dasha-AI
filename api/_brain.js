@@ -349,19 +349,33 @@ const THINKING = /\b(?:the user (?:wants|asked|is asking)|the person (?:asking|w
 const LOOKUP = /^(?:let me|i'll|i will|first,? let me|one moment)\b[^\n]{0,140}$|^(?:checking|looking|pulling|fetching)\b[^\n]{0,140}(?:…|\.\.\.|\bnow\.?)$/i;
 /* a short preface that ends by announcing the lookup ("…: checking the current cycle now.") only
    previews the answer that follows it; kept, the reply opens twice (measured live) */
-const PREFACE = /^[^\n]{0,200}\b(?:checking|let me (?:check|pull|look|fetch)|pulling|fetching|looking (?:it|that) up)\b[^\n.!?]{0,60}(?:now)?\s*[.…]*$/i;
+const PREFACE = /^[^\n]{0,200}\b(?:checking|let me (?:check|pull|look|fetch|confirm|verify)|pulling|fetching|looking (?:it|that) up)\b[^\n.!?]{0,60}(?:now)?\s*[.…]*$/i;
 /* after a tool has run, an answer that opens with "Checking the live tally…" announces work
    already done; only that bare announcement is dropped, never an opener that says something */
-const OPENING = /^(?:checking|pulling|fetching|looking (?:it|that) up|let me (?:check|pull|look|fetch))\b[^\n]{0,140}(?:…|\.\.\.|\bnow\.?)$/i;
+const OPENING = /^(?:checking|pulling|fetching|looking (?:it|that) up|let me (?:check|pull|look|fetch|confirm|verify))\b[^\n]{0,140}(?:…|\.\.\.|\bnow\.?)$/i;
+/* Her skill tag ("[/fee-estimate]") can open a line that only announces a lookup. The line is judged without the
+   tag, and when the line goes the tag stays, so it is still said once (measured live 2026-11-14: "[/fee-estimate]
+   Let me confirm the current storage rate and run your numbers." was kept above an answer that opened with the tag
+   again). */
+const TAG = /^(?:\[\/[a-z][a-z0-9-]{1,40}\][ \t]*)+/i;
+const tagOf = (p) => { const m = String(p || '').match(TAG); return m ? m[0].trim() : ''; };
+const untagged = (p) => String(p || '').replace(TAG, '').trim();
 function opened(text) {
   const paras = String(text || '').split(/\n\s*\n/);
-  while (paras.length > 1 && OPENING.test(paras[0].trim())) paras.shift();
+  while (paras.length > 1 && OPENING.test(untagged(paras[0].trim()))) {
+    const tag = tagOf(paras[0].trim());
+    if (tag) { paras[0] = tag; break; }
+    paras.shift();
+  }
   return paras.join('\n\n');
 }
 function spoken(text) {
   const t = String(text || '').trim();
   if (!t || THINKING.test(t)) return '';
-  return t.split(/\n\s*\n/).map((p) => p.trim()).filter((p) => p && !LOOKUP.test(p) && !PREFACE.test(p)).join('\n\n');
+  return t.split(/\n\s*\n/).map((p) => p.trim()).map((p) => {
+    const u = untagged(p);
+    return (u && (LOOKUP.test(u) || PREFACE.test(u))) ? tagOf(p) : p;
+  }).filter(Boolean).join('\n\n');
 }
 
 /* ---- the ask: reason → reach → answer ---- */
@@ -544,7 +558,11 @@ async function _askCore(messages, opts) {
     const norm = (s) => String(s).toLowerCase().replace(/\s+/g, ' ').trim();
     const t = norm(text);
     const keep = said.filter((s) => { const head = norm(s).slice(0, 80); return head && t.indexOf(head) < 0; });   /* never twice */
-    return keep.length ? keep.join('\n\n') + '\n\n' + text : text;
+    if (!keep.length) return text;
+    /* her skill tag is said once: what she said first keeps it, and the answer under it drops its copy */
+    const first = tagOf(keep[0]).toLowerCase();
+    if (first && tagOf(text).toLowerCase() === first) text = untagged(text);
+    return keep.join('\n\n') + '\n\n' + text;
   }
   let cost = 0, pTok = 0, cTok = 0;
 
