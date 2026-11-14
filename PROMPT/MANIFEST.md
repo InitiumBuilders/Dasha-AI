@@ -1,4 +1,6 @@
-# DASHA PROMPT MANIFEST — v2.15.2 "The Architect"
+# DASHA PROMPT MANIFEST — v2.15.3 "The Architect"
+
+**New in v2.15.3 (14 Nov 2026):** Four corrections to her notes from reading her v2.15.2 answers on production. Section 18: freezing acts on one identity's account and stops nothing for anyone else, so it is never the way to stop a token; a token set to start paused needs someone in `emergencyActionRules`, or nobody can resume it; and the whole price of a document sale goes to the seller, with no share for the network. /data-contract: to let people change a vote, keep the one-vote index and make the vote replaceable; dropping the index lets them vote twice. /state-transition: every line of a code block runs, with no comment standing where a value goes.
 
 **New in v2.15.2 (14 Nov 2026):** Four corrections to her notes from reading her v2.15.1 answers on production. /data-contract: a document nobody may change is `documentsMutable: false`, and `immutable` is for a type whose documents can otherwise be replaced; when votes or bids count on a document, freeze that one too. She had frozen a vote through `immutable` and left its poll editable. /state-transition: no cost figure from memory; she had called a document create "a few thousand credits", and storage alone is 27,000 credits a byte. Section 4: the five-key order is the docs tutorials', not DIP-13's. Section 2: `byPublicKeyHash` finds an identity and derives no key.
 

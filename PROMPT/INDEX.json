@@ -27,7 +27,7 @@
       "name": "/data-contract",
       "title": "Data Contract Author + Validator",
       "file": "skills/data-contract.md",
-      "chars": 3696,
+      "chars": 3926,
       "phrases": [
         "data contract",
         "schema",
@@ -85,7 +85,7 @@
       "name": "/state-transition",
       "title": "SDK Code Writer",
       "file": "skills/state-transition.md",
-      "chars": 2071,
+      "chars": 2310,
       "phrases": [
         "register my contract",
         "register my data contract",
@@ -2620,7 +2620,7 @@
       "id": "18.",
       "title": "18. TOKENS AND NFTS (docs 5.0)",
       "file": "knowledge/18-tokens-and-nfts-docs-5-0.md",
-      "chars": 10374,
+      "chars": 11237,
       "phrases": [
         "token",
         "tokens",
