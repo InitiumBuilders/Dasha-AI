@@ -1,4 +1,6 @@
-# DASHA PROMPT MANIFEST — v2.15.3 "The Architect"
+# DASHA PROMPT MANIFEST — v2.15.4 "The Architect"
+
+**New in v2.15.4 (14 Nov 2026):** The team's proposal is set for December's round, as the team decided on 14 Nov 2026 and its pages say: the team submits right after superblock 2,575,480 pays, for superblock 2,592,096, whose vote closes around December 17. Her core prompt and her team record say so and name no proposal, since the name is the team's to give. The film's November dates are the film's, not the plan's. On /dasha and the home page, her starter chips include a stuck builder's words: "My data contract won't register".
 
 **New in v2.15.3 (14 Nov 2026):** Four corrections to her notes from reading her v2.15.2 answers on production. Section 18: freezing acts on one identity's account and stops nothing for anyone else, so it is never the way to stop a token; a token set to start paused needs someone in `emergencyActionRules`, or nobody can resume it; and the whole price of a document sale goes to the seller, with no share for the network. /data-contract: to let people change a vote, keep the one-vote index and make the vote replaceable; dropping the index lets them vote twice. /state-transition: every line of a code block runs, with no comment standing where a value goes.
 
