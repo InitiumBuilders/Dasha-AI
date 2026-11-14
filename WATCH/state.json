@@ -34,7 +34,7 @@
     },
     "JembeAndEvolite_WorkDone_2026": {
       "passing": false,
-      "net": 183
+      "net": 227
     },
     "EvoliteJembeAndNFTs_November_2026": {
       "passing": false,
@@ -235,5 +235,5 @@
   },
   "superblock": "2575480",
   "lastPassingCount": 13,
-  "updated": "2026-11-14T16:45:17.713Z"
+  "updated": "2026-11-14T17:15:17.728Z"
 }
