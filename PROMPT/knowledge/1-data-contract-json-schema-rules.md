@@ -5,18 +5,19 @@ A data contract = JSON Schema definitions of an app's document types, registered
 ### Document type — hard rules
 - `type` must be `"object"`; 1–100 properties per document type.
 - Property names: 1–64 chars, only `A-Z a-z 0-9 _`. From protocol version 14 (Platform 5.0) a property name or a document type name can no longer contain a hyphen: use camelCase or `_`.
-- Every property MUST have a unique integer `position` (starts at 0, increments per level; resets to 0 inside nested objects). Required since v0.25.16 for backward-compatible contract updates.
+- Every property MUST have an integer `position`. At the top level they run 0, 1, 2 with no gap and no number used twice (error 10411). Inside a nested object, number the members from 0; only the top level is checked for gaps. A property added by an update takes the next free position, and a position already used cannot change.
 - `additionalProperties: false` is REQUIRED at every level where `properties` appears (including nested objects). Missing it = validation failure.
 - `object` properties cannot be empty — must define ≥1 sub-property.
-- Allowed types: `string`, `number`, `integer`, `boolean`, `array`, `object`.
+- Allowed types: `string`, `number`, `integer`, `boolean`, `array`, `object`, and from protocol 14 two shorthands: `"type": "identifier"` (32 bytes) and `"type": "bytes"` with `size`. `type` is one name: a list of types, and `"null"`, are refused. An `array` is a byte array (`byteArray: true`) or, from 14, a typed array with `items`; an array that is neither is refused.
 - Binary data: `"type": "array", "byteArray": true` (+ `maxItems`); returned as base64 in `.toJSON()`.
 - `required`: properties that must be present. Include `$createdAt`/`$updatedAt` in `required` to make Platform store those timestamps.
 - `transient`: properties validated but NOT stored (e.g. DPNS `preorderSalt`).
-- Optional per-doc-type config (include only when non-default): `documentsMutable` (default true), `canBeDeleted` (default true), `documentsKeepHistory` (default false), `transferable` 0|1, `tradeMode` 0|1, `creationRestrictionMode` 0|1|2, `signatureSecurityLevelRequirement` 1|2|3 (default High). Platform 5.0 adds, on a property: `refersTo`. On a document type: `ownerRefersTo`, `creatorRefersTo`, `propertyConstraints`, `immutable`, `retractedWhen`, `entryPayload`, `deleteConstraints`, `ttl`, `moderatorAbilities`, `actionFees`. As document options: `tokenCost`, `indexOnly`, and `canBeDeleted: "onlyWhenConsumed"` (what the main ones are for: §17). They are new: read the exact shape in the data contract reference with `search_dash_docs` before writing one into a schema.
+- Optional per-doc-type config (include only when non-default): `documentsMutable` (default true), `canBeDeleted` (default true), `documentsKeepHistory` (default false), `transferable` 0|1, `tradeMode` 0|1, `creationRestrictionMode` 0|1|2, `signatureSecurityLevelRequirement` 1|2|3 (default High). Platform 5.0 adds, on a property: `refersTo`. On a document type: `ownerRefersTo`, `creatorRefersTo`, `propertyConstraints`, `immutable`, `retractedWhen`, `entryPayload`, `deleteConstraints`, `ttl`, `moderatorAbilities`, `actionFees`. As document options: `tokenCost`, `indexOnly`, and `canBeDeleted: "onlyWhenConsumed"` (what the main ones are for: §17). They are new: read the key's own section with `platform_book` before writing one into a schema (§24 lists every key).
 - Contract-level config (set in code, not schema): `canBeDeleted`, `readonly`, `keepsHistory`, `documentsMutableContractDefault`, `sized_integer_types`, and from protocol 14 `moderation`. Optional: `keywords` (≤50), `description` (3–100 chars) for the search system contract.
 
 ### Restricted JSON Schema keywords (validation fails)
-- Disallowed: `$ref`, `if/then/else`, `allOf/anyOf/oneOf/not`, `default`, `propertyNames`, `patternProperties`.
+- Disallowed: `if/then/else`, `allOf/anyOf/oneOf/not`, `default`, `propertyNames`, `patternProperties`.
+- `$ref` is allowed in one form: `"$ref": "#/$defs/<name>"`, pointing at a definition in the contract's own `schemaDefs`, with the property's `position` written beside it (platform book, Property Schemas, `contract-keywords/property-schemas.html`). A reference to anything outside the contract is refused (10207).
 - `dependencies` → use `dependentRequired`/`dependentSchema` instead; `additionalItems` → use `items: false` + `prefixItems`.
 - `pattern` → must also define `maxLength` (≤50000); regex must be RE2-compatible (no lookahead/backrefs).
 - `format` → must also define `maxLength` (≤50000). `uniqueItems: true` → must define `maxItems` (≤100000).
@@ -43,7 +44,7 @@ A data contract = JSON Schema definitions of an app's document types, registered
 `$id`, `$ownerId`, `$revision`, `$dataContractId`, `$type`, `$createdAt`, `$updatedAt`, `$transferredAt` (+ `$...BlockHeight`/`$...CoreBlockHeight` variants), `$creatorId`, `$entropy`.
 
 ### Common validation failures (checklist)
-missing `additionalProperties: false` · missing/duplicate `position` · empty `object` property · indexed string without `maxLength` ≤63 · `$id` in an index · `desc` in an index · `pattern`/`format` without `maxLength` · restricted keyword (`$ref`, `oneOf`…) · >100 properties · index name >32 chars · two identical indexes.
+missing `additionalProperties: false` · missing/duplicate `position` · empty `object` property · indexed string without `maxLength` ≤63 · `$id` in an index · `desc` in an index · `pattern`/`format` without `maxLength` · restricted keyword (`oneOf`, `default`…) · >100 properties · index name >32 chars · two identical indexes.
 
 ### Complete valid example — note-taking app ("dashnotes")
 (strip `//` comments before use)
