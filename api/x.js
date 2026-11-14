@@ -107,6 +107,8 @@ module.exports = async (req, res) => {
         days: s.hoursToCutoff != null ? Math.round(s.hoursToCutoff / 24) : null,
         active: s.props.length, passing: s.passing.length,
         allotted: s.allotted, total: s.total,
+        /* what the next superblock already holds: passing proposals still paying after this one (2026-11-14) */
+        next: s.next || null,
         bubble: s.bubble.slice(0, 5).map((p) => ({ title: p.title, short: p.short, url: p.url })),
         passingList: s.passing.slice(0, 6).map((p) => ({ title: p.title, net: p.net, url: p.url })),
         /* our own proposal, once it is on the ballot: the pages and the ring show where it stands */

@@ -89,6 +89,13 @@ function snapshot(d) {
     total: num(b.total_amount), allotted: num(b.alloted_amount),
     props,
     passing: props.filter((p) => p.passing),
+    /* the next superblock, as far as this ballot already knows it (2026-11-14): passing proposals with a payment
+       after this one keep paying in the next if their votes hold; for the rest this is the last payment */
+    next: (function () {
+      const pas = props.filter((p) => p.passing), on = pas.filter((p) => (p.months || 0) > 1), last = pas.filter((p) => (p.months || 0) <= 1);
+      const sum = (l) => l.reduce((a, p) => a + (p.ask || 0), 0);
+      return { claimed: sum(on), count: on.length, ending: sum(last), endingCount: last.length };
+    })(),
     bubble: props.filter((p) => !p.passing && p.short != null && p.short <= BUBBLE).sort((a, c) => a.short - c.short),
   };
 }
