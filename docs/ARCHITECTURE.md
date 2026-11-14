@@ -26,7 +26,7 @@ and never reaches a browser.
 
 `api/`, `web/` and `scripts/` are a copy of the code the Dash Support Team runs at
 [www.dashsupport.team](https://www.dashsupport.team). The copy was last taken on 14 November
-2026, from the build that serves mind v2.15.0. `GET /api/chat` on the live site reports the
+2026, from the build that serves mind v2.15.1. `GET /api/chat` on the live site reports the
 version it runs and the tools it has, so you can compare.
 
 | File | What it does |
@@ -88,7 +88,7 @@ https://raw.githubusercontent.com/InitiumBuilders/Dasha-AI/main/PROMPT/
     VERSION           the version line
 ```
 
-At v2.15.0 the spine is 75,468 characters and the library holds 57 skills and 24 reference
+At v2.15.1 the spine is 75,468 characters and the library holds 57 skills and 24 reference
 sections. The spine carries her identity, her safety rules, the tool contracts, the answer shape
 and an index of every skill, so she can recommend a skill without loading it.
 
@@ -146,12 +146,12 @@ curl https://www.dashsupport.team/api/chat
     "routing": "…", "freshness": "…"
   },
   "mind": {
-    "version": "v2.15.0 (live)",   // "(live)" from the repo, "(baked)" from the fallback
+    "version": "v2.15.1 (live)",   // "(live)" from the repo, "(baked)" from the fallback
     "origin": "github",            // the runtime naming this repo as its source
     "spineChars": 75468,
     "library": { "skills": 57, "knowledge": 24 },
     "loading": "spine always + only the skill/reference the question touches",
-    "baked": "v2.15.0"
+    "baked": "v2.15.1"
   },
   "learning": { "publicBoard": true, "teamChannel": true, "note": "…" },
   "analytics": { "store": "…", "principle": "…", "publicPulse": "…", "teamPulse": "…" },
@@ -222,7 +222,10 @@ tools is asked once more without them.
   the protocol 14 keywords to their rules (`moderatorAbilities`, `ttl`, contested indices, and
   what an immutable type may carry). A `$ref` is accepted when it names a definition in the
   contract's own `schemaDefs`, and positions are counted without gaps at the top level only, as
-  the network counts them. When a rule is broken she
+  the network counts them. A reference to a document type written in the same contract is held
+  to the kind its target takes: `permanentDocument` when the target's documents can never leave
+  state, `moderatedDocument` when only moderators remove them and the record stays, and
+  `deletableDocument` for every other type. When a rule is broken she
   gets one private round to fix it, and the fixed reply is used only if it breaks fewer rules.
 - The units gate. When the reply gives an amount in credits or duffs with its DASH figure beside
   it, `api/_units.js` checks the pair by division. A DASH figure with the right digits and its
@@ -441,7 +444,11 @@ refuses a line that looks like a recovery phrase or a private key.
 
 **`calculate(lines, unit?)`** does arithmetic by code: one to eight lines of numbers with
 `+ - * / ^` and brackets, carried as whole-number fractions so that nothing is rounded on the
-way. For an amount in credits or duffs it gives the DASH figure beside the result. It holds no
+way. For an amount in credits or duffs it gives the DASH figure beside the result. A unit noun
+written straight after a number (`500 bytes * 27000`) and a name before an equals sign are read
+past where that cannot change the sum. A line with two units of one kind (DASH and credits, hours
+and minutes) is refused, and so is a sum that adds or subtracts with such a unit on only some of
+its numbers. A word that scales a number, such as thousand, is refused too. It holds no
 price and no protocol constant. She supplies every number, from her notes or from a page she
 retrieved.
 

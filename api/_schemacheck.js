@@ -200,6 +200,57 @@ function checkDocType(name, d) {
 
 /* a JS object literal or JSON, read as data: comments, trailing commas, single quotes and bare
    keys are normalised, then JSON.parse. Nothing is ever executed. */
+/* A DOCUMENT REFERENCE NAMES HOW ITS TARGET CAN LEAVE STATE (platform book, References, read 14 Nov 2026).
+   permanentDocument: the target's documents can never disappear (canBeDeleted: false, no ttl, no moderator deletion).
+   moderatedDocument: they leave only when a moderator removes them, with a record. deletableDocument: they can
+   disappear without a record (their owner deletes them, a create consumes them, moderators remove them with
+   deleteKeepsRecord: false, or they expire). The wrong kind is refused at registration. Checked only where the
+   target type stands in the same block and the reference names no contractId: her own contract, written whole.
+   (Measured live 2026-11-14: a vote pointed at a poll with canBeDeleted: false through deletableDocument.) */
+const REF_KINDS = ['permanentDocument', 'moderatedDocument', 'deletableDocument'];
+const REF_WHY = {
+  permanentDocument: 'its documents can never disappear (canBeDeleted: false, no ttl, no moderator deletion)',
+  moderatedDocument: 'its documents leave only when a moderator removes them, with a record',
+  deletableDocument: 'its documents can disappear without a record (their owner can delete them, or they expire)',
+};
+function leaves(d, ownersDeleteByDefault) {
+  const owner = has(d, 'canBeDeleted') ? (d.canBeDeleted === true || d.canBeDeleted === 'onlyWhenConsumed') : ownersDeleteByDefault;
+  const ma = plain(d.moderatorAbilities) ? d.moderatorAbilities : null;
+  const mod = !!ma && ma.delete === true;
+  if (owner || has(d, 'ttl') || (mod && ma.deleteKeepsRecord === false)) return 'deletableDocument';
+  return mod ? 'moderatedDocument' : 'permanentDocument';
+}
+function refsIn(o, path, out, depth) {
+  if (!plain(o) || depth > 6) return;
+  const take = (r) => {
+    if (!plain(r)) return;
+    if (typeof r.type === 'string') out.push({ at: path, ref: r });
+    for (const k of ['anyOf', 'allOf']) if (Array.isArray(r[k])) r[k].slice(0, 16).forEach(take);
+  };
+  take(o.refersTo);
+  if (plain(o.properties)) for (const k of Object.keys(o.properties).slice(0, 200)) refsIn(o.properties[k], path + '.' + k, out, depth + 1);
+  if (plain(o.items)) refsIn(o.items, path + '[]', out, depth + 1);
+}
+function checkRefs(dts, holder) {
+  const errs = [];
+  if (!plain(dts)) return errs;
+  /* a contract may turn the owners' default off; where it is not written, owners can delete */
+  const cfg = plain(holder) ? (plain(holder.config) ? holder.config : holder) : {};
+  const byDefault = cfg.documentsCanBeDeletedContractDefault !== false;
+  for (const name of Object.keys(dts)) {
+    const found = [];
+    refsIn(dts[name], name, found, 0);
+    for (const { at, ref } of found) {
+      if (REF_KINDS.indexOf(ref.type) < 0 || has(ref, 'contractId') || typeof ref.documentType !== 'string') continue;
+      const target = has(dts, ref.documentType) ? dts[ref.documentType] : null;
+      if (!plain(target)) continue;
+      const kind = leaves(target, byDefault);
+      if (ref.type !== kind) errs.push(at + ' refers to "' + ref.documentType + '" as ' + ref.type + ', but ' + REF_WHY[kind] + ', so the reference must be ' + kind);
+    }
+  }
+  return errs;
+}
+
 function asData(txt) {
   let t = String(txt).replace(/\/\*[\s\S]*?\*\//g, '').replace(/(^|[^:"'])\/\/[^\n]*/g, '$1');
   try { return JSON.parse(t.replace(/,\s*([}\]])/g, '$1')); } catch (e) {}
@@ -255,7 +306,7 @@ function violations(reply) {
   /* asked for "JSON only", she may answer with bare JSON and no fence; read that too */
   const blocks = [...text.matchAll(/```(?:json|jsonc|javascript|js|ts|typescript)?[^\n]*\n([\s\S]*?)```/g)];
   if (!blocks.length && /^\s*\{/.test(text)) {
-    for (const obj of objectsIn(text)) for (const [name, d] of Object.entries(docTypesIn(obj))) errs.push(...checkDocType(name, d));
+    for (const obj of objectsIn(text)) { const dts = docTypesIn(obj); for (const [name, d] of Object.entries(dts)) errs.push(...checkDocType(name, d)); errs.push(...checkRefs(dts, obj)); }
   }
   for (const m of blocks) {
     const before = text.slice(Math.max(0, m.index - 220), m.index).toLowerCase();
@@ -263,9 +314,10 @@ function violations(reply) {
     for (const obj of objectsIn(m[1])) {
       const dts = docTypesIn(obj);
       for (const [name, d] of Object.entries(dts)) errs.push(...checkDocType(name, d));
+      errs.push(...checkRefs(dts, obj));
     }
   }
   return Array.from(new Set(errs)).slice(0, 12);
 }
 
-module.exports = { violations, checkDocType, asData, isDocType };
+module.exports = { violations, checkDocType, asData, isDocType, checkRefs };

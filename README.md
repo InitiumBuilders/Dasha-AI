@@ -253,7 +253,7 @@ Start at [CONTRIBUTING.md](CONTRIBUTING.md).
 PROMPT/           her mind — live, streamed to every instance
   SPINE.md          who she is — sent byte-identical on every request, always a cache hit
   skills/           57 workflow files — loaded 0–2 per question, only when it needs them
-  knowledge/        23 verified reference sections — loaded 0–3 per question
+  knowledge/        24 verified reference sections — loaded 0–3 per question
   INDEX.json        the routing table — the keyword triggers that decide what loads
   VERSION           the live version line
   MANIFEST.md       assembly order, ownership rules, token budget (metadata — never sent)

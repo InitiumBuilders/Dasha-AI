@@ -14,6 +14,10 @@ const MAX_LINES = 8, MAX_LEN = 200, MAX_DIGITS = 60;
 const TIMES = String.fromCharCode(215), DIVIDE = String.fromCharCode(247), MINUS = String.fromCharCode(8722);
 const UNITS = { credit: 'credits', credits: 'credits', duff: 'duffs', duffs: 'duffs', dash: 'DASH', byte: 'bytes', bytes: 'bytes' };
 const PER_DASH = { credits: 100000000000n, duffs: 100000000n };
+/* the unit nouns a sum may carry after a number, and the kinds whose members are different sizes */
+const NOUNS = 'credits?|duffs?|dash|bytes?|blocks?|actions?|users?|posts?|documents?|tokens?|days?|hours?|minutes?|seconds?';
+const AFTER_NUMBER = new RegExp('(\\d)\\s*(' + NOUNS + ')(?=\\s*(?:[-+*/^)xX' + TIMES + DIVIDE + MINUS + ']|$))', 'gi');
+const KINDS = [['dash', 'credits', 'duffs'], ['days', 'hours', 'minutes', 'seconds']];
 
 /* ---- whole-number fractions ---- */
 const abs = (a) => (a < 0n ? -a : a);
@@ -145,9 +149,41 @@ function one(raw, fallbackUnit) {
   const lm = /^([A-Za-z][A-Za-z0-9 _-]{0,40}):\s*(.+)$/.exec(src);
   if (lm) { label = lm[1].trim(); src = lm[2]; }
   src = src.replace(/\s*=\s*\??\s*$/, '').trim();
+  /* a name before "=" is a label too ("fee = 10000000 / 100000000000"), when a sum follows it */
+  const em = label ? null : /^([A-Za-z][A-Za-z0-9 _-]{0,40})=\s*([^=]*\d[^=]*)$/.exec(src);
+  if (em) { label = em[1].trim(); src = em[2].trim(); }
   let unit = fallbackUnit || '';
   const um = /^(.*?)[\s]*\b(credits?|duffs?|dash|bytes?)\s*$/i.exec(src);
-  if (um && um[1].trim()) { unit = UNITS[um[2].toLowerCase()]; src = um[1].trim(); }
+  let lastWord = false;
+  if (um && um[1].trim()) { unit = UNITS[um[2].toLowerCase()]; src = um[1].trim(); lastWord = true; }
+  /* A unit noun written straight after a number inside the sum ("500 bytes * 27000") is a note to the reader: the
+     sum is the same without it. Only these nouns, and only where a sign, a bracket or the end follows. A word that
+     scales a number (thousand, percent) is not among them and is still refused below.
+     Two units of one kind are different sizes (a DASH is 100,000,000,000 credits, an hour is 60 minutes), so a line
+     that carries two of them is not worked: read past, "0.1 dash + 5000000 credits" would come out as 5,000,000.1.
+     The unit the result is in counts, whether the line ends on it or the call gave it. */
+  const carried = new Set(unit ? [unit.toLowerCase()] : []);
+  const inside = {};
+  src.replace(AFTER_NUMBER, function (m, d, w) { w = w.toLowerCase(); w = w === 'dash' || /s$/.test(w) ? w : w + 's'; carried.add(w); inside[w] = (inside[w] || 0) + 1; return m; });
+  for (const kind of KINDS) {
+    const both = kind.filter((u) => carried.has(u));
+    if (both.length > 1) throw new Error('two units of one kind (' + both.map((u) => (u === 'dash' ? 'DASH' : u)).join(' and ') + '): they are different sizes, so write the whole sum in one of them');
+  }
+  src = src.replace(AFTER_NUMBER, '$1').trim();
+  /* In a sum that adds or subtracts, such a unit on some numbers and not on others has no safe reading either:
+     "0.1 dash + 5000000". It is read past when every number carries it (the last may carry it as the line's last
+     word) or when no number inside the sum does. A minus that only signs a number does not count as subtracting. */
+  const tk = tokens(src);
+  if (tk.some((t, i) => (t.t === '+' || t.t === '-') && i > 0 && (tk[i - 1].t === 'num' || tk[i - 1].t === ')' || tk[i - 1].t === '%'))) {
+    const numbers = tk.filter((t) => t.t === 'num').length;
+    for (const kind of KINDS) {
+      const u = kind.find((x) => inside[x]);
+      if (u && inside[u] + (lastWord && unit.toLowerCase() === u ? 1 : 0) < numbers) {
+        const name = u === 'dash' ? 'DASH' : u;
+        throw new Error(name + ' on some numbers of a sum that adds or subtracts and not on others: write ' + name + ' after every number, or once as the last word');
+      }
+    }
+  }
   const v = evaluate(src);
   const s = show(v), about = s.exact ? '' : 'about ';
   let line = (label ? label + ': ' : '') + src + ' = ' + about + s.text + (unit ? ' ' + unit : '');
