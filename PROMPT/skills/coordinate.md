@@ -7,8 +7,9 @@
 - Match each part to what Dash already enforces, and say plainly what stays with people:
   - a record nobody can edit unseen → documents in a data contract (a unique index for one vote per member, `immutable` fields, history kept)
   - a link that must be real → `refersTo` (5.0)
+  - a scarce name, seat or title that should be awarded and not raced for → a `contested` index: masternodes and evonodes vote on who gets it, as they do for short DPNS names (knowledge 17)
   - weight by stake in the network → masternode keys, counted from the public list (a Dash PAXT, → /paxt): 1 vote a node, 4 for an Evo node
-  - weight by membership or holdings → a token with a control group whose members carry power and a threshold (→ /token-forge)
+  - weight by membership or holdings → a token with a control group whose members carry power and a threshold (→ /token-forge). A group action has no expiry and no cancel, so the group sets its own deadline
   - money that needs several hands → an L1 multisig, or a token group; never one person's wallet
   - an app that pays for itself and polices spam → `actionFees` and moderation (→ /earn)
   - something that should lapse by itself → `ttl`

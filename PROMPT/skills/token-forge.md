@@ -9,9 +9,10 @@
   3. Groups: the members, each one's power, the power needed to act. Three of five is a design. One of one is a person.
   4. Whether each rule can ever change, and who may change it.
   5. Distribution: manual, programmed, perpetual, or once per identity. Who can claim, and when.
-  6. Transferable or not. A badge or a credential usually is not.
-  7. A shielded pool or not, and its note threshold. This can never be changed, and a pooled token can never be frozen (→ /shielded).
-  8. A direct purchase price, if the issuer sells. The resale market between holders is not live (protocol 15): say so.
+  6. Transferable or not, fixed at creation. A badge, a usage allowance or a reputation score usually is not. A non-transferable token cannot have a shielded pool or join the resale market, and a document can charge it only by burning it.
+  7. A shielded pool or not, and its note floor. The pool cannot be added or removed later and a pooled token cannot be frozen; the floor can change later only if its change rule names someone now (→ /shielded).
+  8. A direct purchase price, if the issuer sells: each sale mints new tokens. The resale market between holders is not live (protocol 15): say so. If the token should ever trade there, the issuer names who may change the trade mode now (`tradeModeChangeRules`): with the default, no one, it stays not tradeable for good.
+  9. Which contract holds it. Its own keeps its rules apart from an app's documents; a token that documents burn has to live in the same contract as those documents (knowledge 18).
 - Read every answer back as what a holder can count on: "nobody can ever mint more", "three of these five identities can pause it". If it cannot be said in one line, the config is not ready.
 - `search_dash_docs("token configuration <the field>", area="platform")` before emitting config for any field you have not just retrieved. A token contract is registered once.
 - Price it before they commit: registration and every action cost credits (→ /fee-estimate). Rehearse on testnet with the real config.
