@@ -18,8 +18,8 @@ function icsFeed(g, now) {
     'REFRESH-INTERVAL;VALUE=DURATION:PT6H', 'X-PUBLISHED-TTL:PT6H'];
   const ev = (uid, t, summary, text, alarm) => {
     L.push('BEGIN:VEVENT', 'UID:' + uid + '@dashsupport.team', 'DTSTAMP:' + z(now), 'DTSTART:' + z(t), 'DTEND:' + z(t + 15 * 6e4),
-      'SUMMARY:' + esc(summary), 'DESCRIPTION:' + esc(text + ' Estimated from the Dash block schedule. https://www.dashsupport.team/tools'),
-      'URL:https://www.dashsupport.team/tools', 'TRANSP:TRANSPARENT');
+      'SUMMARY:' + esc(summary), 'DESCRIPTION:' + esc(text + ' Estimated from the Dash block schedule. https://www.dashsupport.team/proposal-check'),
+      'URL:https://www.dashsupport.team/proposal-check', 'TRANSP:TRANSPARENT');
     if (alarm) L.push('BEGIN:VALARM', 'ACTION:DISPLAY', 'DESCRIPTION:' + esc(alarm), 'TRIGGER:-P1D', 'END:VALARM');
     L.push('END:VEVENT');
   };
