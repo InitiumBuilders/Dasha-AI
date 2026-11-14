@@ -325,6 +325,10 @@ const DEFS = [
       }, required: ['lines'] } } },
 ];
 
-const IMPL = { dash_chain, dash_masternodes, dash_releases, dash_dip, verify_message, paxt_records, merkle_weave, calculate };
+/* the developers' book, read through its own search index (api/_book.js) */
+const book = require('./_book.js');
+DEFS.push(book.DEF);
+
+const IMPL = { dash_chain, dash_masternodes, dash_releases, dash_dip, verify_message, paxt_records, merkle_weave, calculate, platform_book: book.platform_book };
 
 module.exports = { DEFS, IMPL, _reset: () => { mnCache = null; Object.keys(relCache).forEach((k) => { delete relCache[k]; }); } };

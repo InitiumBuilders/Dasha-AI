@@ -16,7 +16,7 @@ const TIMES = ['$createdAt', '$updatedAt', '$transferredAt'];
 const SYS = new Set(['$id', '$ownerId', '$revision', '$dataContractId', '$type', '$createdAt', '$updatedAt', '$transferredAt', '$creatorId', '$entropy',
   '$createdAtBlockHeight', '$updatedAtBlockHeight', '$createdAtCoreBlockHeight', '$updatedAtCoreBlockHeight', '$transferredAtBlockHeight', '$transferredAtCoreBlockHeight',
   '$moderatedAt', '$moderatedBy']);
-const BANNED = ['$ref', 'if', 'then', 'else', 'allOf', 'anyOf', 'oneOf', 'not', 'default', 'propertyNames', 'patternProperties', 'dependencies', 'additionalItems'];
+const BANNED = ['if', 'then', 'else', 'allOf', 'anyOf', 'oneOf', 'not', 'default', 'propertyNames', 'patternProperties', 'dependencies', 'additionalItems'];
 /* a key that only a document type carries: beside "properties", it marks an example as a document type even when "type" was left out */
 const TYPE_KEYS = ['indices', 'required', 'additionalProperties', 'documentsMutable', 'canBeDeleted', 'transferable', 'tradeMode', 'creationRestrictionMode',
   'documentsKeepHistory', 'moderatorAbilities', 'ttl', 'tokenCost', 'actionFees', 'immutable', 'transient', 'indexOnly'];
@@ -25,9 +25,12 @@ const MOD_KEYS = ['delete', 'deleteWithin', 'deleteKeepsRecord', 'deleteRefundsO
 const plain = (v) => !!v && typeof v === 'object' && !Array.isArray(v);
 const has = (o, k) => Object.prototype.hasOwnProperty.call(o, k);
 
-function checkObject(o, path, errs) {
+function checkObject(o, path, errs, top) {
   if (!o || typeof o !== 'object' || Array.isArray(o)) return;
   for (const k of BANNED) if (Object.prototype.hasOwnProperty.call(o, k)) errs.push(path + ' uses "' + k + '", which Platform schemas do not allow');
+  /* a property may take its schema from the contract's own schemaDefs, and from nowhere else */
+  if (Object.prototype.hasOwnProperty.call(o, '$ref') && !(typeof o.$ref === 'string' && /^#\/\$defs\/[A-Za-z0-9_]{1,64}$/.test(o.$ref)))
+    errs.push(path + ' has a "$ref" that is not "#/$defs/<name>": only a definition in the contract\'s own schemaDefs can be referenced');
   if ((o.pattern || o.format) && !(o.maxLength <= 50000)) errs.push(path + ' has pattern/format without maxLength (<= 50000)');
   if (o.uniqueItems && !(o.maxItems <= 100000)) errs.push(path + ' has uniqueItems without maxItems');
   if (o.properties && typeof o.properties === 'object') {
@@ -37,13 +40,18 @@ function checkObject(o, path, errs) {
     const pos = keys.map((k) => o.properties[k] && o.properties[k].position);
     const bad = keys.filter((k, i) => !Number.isInteger(pos[i]));
     if (bad.length) errs.push(path + ': ' + bad.join(', ') + ' missing an integer "position"');
-    else { const s = pos.slice().sort((a, b) => a - b); if (s.some((p, i) => p !== i)) errs.push(path + ': positions must run 0..' + (keys.length - 1) + ' with no gaps or repeats (found ' + s.join(',') + ')'); }
+    else {
+      /* the top level runs 0, 1, 2 with no gap (10411); inside an object only a position used twice is wrong */
+      const s = pos.slice().sort((a, b) => a - b);
+      if (top) { if (s.some((p, i) => p !== i)) errs.push(path + ': positions must run 0..' + (keys.length - 1) + ' with no gaps or repeats (found ' + s.join(',') + ')'); }
+      else if (s.some((p, i) => p < 0 || (i > 0 && p === s[i - 1]))) errs.push(path + ': a position is used twice or is below 0 (found ' + s.join(',') + ')');
+    }
     /* protocol 14 (Platform 5.0): letters, digits and underscore only; a hyphen is refused */
     const odd = keys.filter((k) => !/^[A-Za-z0-9_]{1,64}$/.test(k));
     if (odd.length) errs.push(path + ': property name' + (odd.length === 1 ? ' ' : 's ') + odd.map((k) => JSON.stringify(k)).join(', ') + ' must be 1 to 64 characters of A-Z, a-z, 0-9 or _ (no hyphen since protocol 14)');
-    for (const k of keys) checkObject(o.properties[k], path + '.' + k, errs);
+    for (const k of keys) checkObject(o.properties[k], path + '.' + k, errs, false);
   }
-  if (o.items && typeof o.items === 'object') checkObject(o.items, path + '[]', errs);
+  if (o.items && typeof o.items === 'object') checkObject(o.items, path + '[]', errs, false);
 }
 
 /* a property by its path: "title", or "records.identity" for one inside an object (mainnet's DPNS indexes that one) */
@@ -150,7 +158,7 @@ function checkDocType(name, d) {
   if (name !== 'schema' && /-/.test(name)) errs.push(name + ': a document type name cannot contain a hyphen since protocol 14 (use camelCase or _)');
   const n = d.properties ? Object.keys(d.properties).length : 0;
   if (!(n >= 1 && n <= 100)) errs.push(name + ': needs 1 to 100 properties');
-  checkObject(d, name, errs);
+  checkObject(d, name, errs, true);
   const req = Array.isArray(d.required) ? d.required : [];
   for (const r of req) if (!SYS.has(r) && !(d.properties && Object.prototype.hasOwnProperty.call(d.properties, r))) errs.push(name + ': required "' + r + '" is not one of its properties');
   const idx = Array.isArray(d.indices) ? d.indices : [];

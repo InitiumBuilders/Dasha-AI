@@ -435,7 +435,8 @@
       verify_message: 'checked the signature',
       paxt_records: 'read the PAXT record',
       merkle_weave: 'wove a Merkle tree',
-      calculate: 'worked the sums by code'
+      calculate: 'worked the sums by code',
+      platform_book: 'read the Platform Book'
     };
     var TOOL_NOW = {
       search_dash_docs: 'Searching the Dash docs',
@@ -455,7 +456,8 @@
       verify_message: 'Checking the signature',
       paxt_records: 'Reading the PAXT record',
       merkle_weave: 'Weaving the tree',
-      calculate: 'Working the sums'
+      calculate: 'Working the sums',
+      platform_book: 'Reading the Platform Book'
     };
     var DEPTH_LABEL = {
       requested: 'deep thinking · you asked',

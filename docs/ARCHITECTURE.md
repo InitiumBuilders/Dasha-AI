@@ -26,7 +26,7 @@ and never reaches a browser.
 
 `api/`, `web/` and `scripts/` are a copy of the code the Dash Support Team runs at
 [www.dashsupport.team](https://www.dashsupport.team). The copy was last taken on 14 November
-2026, from the build that serves mind v2.14.5. `GET /api/chat` on the live site reports the
+2026, from the build that serves mind v2.15.0. `GET /api/chat` on the live site reports the
 version it runs and the tools it has, so you can compare.
 
 | File | What it does |
@@ -36,7 +36,7 @@ version it runs and the tools it has, so you can compare.
 | `api/_mind.js` | Fetches her mind from `PROMPT/` on GitHub, with `_prompt.js` as the fallback. |
 | `api/_prompt.js` | The baked fallback mind. It is generated: change `PROMPT/` and bake again. |
 | `api/_context.js` | Chooses the skills and reference sections a question loads. |
-| `api/_tools.js`, `api/_tools2.js`, `api/_calc.js` | Her eighteen tools. `_calc.js` is the exact arithmetic behind `calculate`. |
+| `api/_tools.js`, `api/_tools2.js`, `api/_calc.js`, `api/_book.js` | Her nineteen tools. `_calc.js` is the exact arithmetic behind `calculate`, and `_book.js` reads the Platform book for `platform_book`. |
 | `api/_schemacheck.js` | Checks a data contract she writes against Platform's schema rules. |
 | `api/_units.js` | Checks an amount in credits or duffs against the DASH figure written beside it. |
 | `api/_leak.js` | Reads a tool call the model wrote into its answer as text, so the brain can run it or take it out. |
@@ -88,7 +88,7 @@ https://raw.githubusercontent.com/InitiumBuilders/Dasha-AI/main/PROMPT/
     VERSION           the version line
 ```
 
-At v2.14.5 the spine is 74,275 characters and the library holds 57 skills and 23 reference
+At v2.15.0 the spine is 75,469 characters and the library holds 57 skills and 24 reference
 sections. The spine carries her identity, her safety rules, the tool contracts, the answer shape
 and an index of every skill, so she can recommend a skill without loading it.
 
@@ -146,16 +146,16 @@ curl https://www.dashsupport.team/api/chat
     "routing": "…", "freshness": "…"
   },
   "mind": {
-    "version": "v2.14.5 (live)",   // "(live)" from the repo, "(baked)" from the fallback
+    "version": "v2.15.0 (live)",   // "(live)" from the repo, "(baked)" from the fallback
     "origin": "github",            // the runtime naming this repo as its source
-    "spineChars": 74275,
-    "library": { "skills": 57, "knowledge": 23 },
+    "spineChars": 75469,
+    "library": { "skills": 57, "knowledge": 24 },
     "loading": "spine always + only the skill/reference the question touches",
-    "baked": "v2.14.5"
+    "baked": "v2.15.0"
   },
   "learning": { "publicBoard": true, "teamChannel": true, "note": "…" },
   "analytics": { "store": "…", "principle": "…", "publicPulse": "…", "teamPulse": "…" },
-  "tools": [ /* eighteen names */ ],
+  "tools": [ /* nineteen names */ ],
   "surfaces": ["web", "telegram", "x", "api"],
   // "on" is true when a voice key is set
   "voice": { "on": false, "name": "Honor", "endpoint": "/api/voice", "rule": "…" },
@@ -206,7 +206,8 @@ When the call names a tool she has, the brain runs it like any other. In the las
 round more, once, and only for a tool that is pure code (`calculate`, `merkle_weave`, `verify_message`).
 A call that cannot be run is taken out with the line that announced it, a stream stops showing words at
 the first sign of one, and fenced code is left alone. A line that only announces a lookup is dropped
-from what she said first, and when it opened with her skill tag the tag stays, said once. `/api/chat` reports `textCalls` when this happened.
+from what she said first, and when it opened with her skill tag the tag stays, said once. A last
+sentence that leads into a call on a colon goes with it. `/api/chat` reports `textCalls` when this happened.
 
 **When credits run short.** If OpenRouter refuses a call for lack of credit, she first tries the
 flash mind with a ceiling of 1,500 tokens. If that is refused too, she steps down a short list of
@@ -219,7 +220,9 @@ tools is asked once more without them.
   and checks it against the rules Platform enforces at registration. It knows a document type by
   its keys, with or without a `type` line, follows an index path into a nested object, and holds
   the protocol 14 keywords to their rules (`moderatorAbilities`, `ttl`, contested indices, and
-  what an immutable type may carry). When a rule is broken she
+  what an immutable type may carry). A `$ref` is accepted when it names a definition in the
+  contract's own `schemaDefs`, and positions are counted without gaps at the top level only, as
+  the network counts them. When a rule is broken she
   gets one private round to fix it, and the fixed reply is used only if it breaks fewer rules.
 - The units gate. When the reply gives an amount in credits or duffs with its DASH figure beside
   it, `api/_units.js` checks the pair by division. A DASH figure with the right digits and its
@@ -326,7 +329,7 @@ back on every response.
 
 ## The tools
 
-`api/_tools.js` and `api/_tools2.js`. There are eighteen. Every executor catches its own errors, always
+`api/_tools.js` and `api/_tools2.js`. There are nineteen. Every executor catches its own errors, always
 returns a string, and states its source and the time it fetched, so she can cite honestly. A
 tool that cannot reach its source returns a string that tells her to say her live view is down.
 Results are capped at 9,000 characters. Every tool reads or computes. None holds a key, signs or
@@ -441,6 +444,15 @@ refuses a line that looks like a recovery phrase or a private key.
 way. For an amount in credits or duffs it gives the DASH figure beside the result. It holds no
 price and no protocol constant. She supplies every number, from her notes or from a page she
 retrieved.
+
+**`platform_book(query, chapter?)`** reads the Dash Platform book at dashpay.github.io/platform
+through the search index the book itself publishes: every section as plain text, with its
+address. A keyword asked for by name comes back with its own table, its example and its rules
+at registration. Any other question gets the sections that match it best. Each one comes with
+the page to link. The tool fetches that one address and takes none from a caller. The index is
+kept for an hour in each server instance, and an older copy is used when the book cannot be
+reached. The book follows the development branch, so a rule in it can be for a later protocol
+version than mainnet runs, and the result says so. The code is `api/_book.js`.
 
 ---
 

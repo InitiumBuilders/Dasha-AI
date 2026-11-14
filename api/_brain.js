@@ -369,13 +369,27 @@ function opened(text) {
   }
   return paras.join('\n\n');
 }
+/* What she says beside a tool call sometimes stops on a colon, leading into the call ("Re-running the sums
+   cleanly:"). The call is not shown, so that last sentence leads nowhere: it goes, and what stood before it stays
+   (measured live 2026-11-14). */
+function undangle(p) {
+  const t = String(p || '').replace(/[\s*_]+$/, '');
+  if (!/:$/.test(t)) return p;
+  const u = untagged(t);
+  const at = Math.max(u.lastIndexOf('. '), u.lastIndexOf('! '), u.lastIndexOf('? '), u.lastIndexOf('\n'));
+  const kept = at > 0 ? u.slice(0, at + 1).trim() : '';
+  const tag = tagOf(t);
+  return kept ? (tag ? tag + ' ' + kept : kept) : tag;
+}
 function spoken(text) {
   const t = String(text || '').trim();
   if (!t || THINKING.test(t)) return '';
-  return t.split(/\n\s*\n/).map((p) => p.trim()).map((p) => {
+  const paras = t.split(/\n\s*\n/).map((p) => p.trim()).map((p) => {
     const u = untagged(p);
     return (u && (LOOKUP.test(u) || PREFACE.test(u))) ? tagOf(p) : p;
-  }).filter(Boolean).join('\n\n');
+  }).filter(Boolean);
+  if (paras.length) paras[paras.length - 1] = undangle(paras[paras.length - 1]);
+  return paras.filter(Boolean).join('\n\n');
 }
 
 /* ---- the ask: reason → reach → answer ---- */

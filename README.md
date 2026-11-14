@@ -62,7 +62,7 @@ point is not that you asked her — the point is that next time you'll know wher
 
 ## What she can reach
 
-Eighteen live tools. She does not guess — she looks it up, then cites the source you can open
+Nineteen live tools. She does not guess — she looks it up, then cites the source you can open
 yourself. What each tool does *not* return matters as much as what it does; a tool that
 returns less is a tool that can be trusted more.
 
@@ -86,6 +86,7 @@ returns less is a tool that can be trusted more.
 | `paxt_records(id)` | The public **PAXT** records | The list of records, or where one stands | Any member's name |
 | `merkle_weave(lines)` | Nothing: it computes | A real Merkle tree of two to eight lines: leaves, root, a proof | It refuses a line that looks like a key or a recovery phrase |
 | `calculate(lines, unit)` | Nothing: it computes | Each sum worked exactly, and an amount in credits or duffs with its DASH figure beside it | A rate, a constant or a price. The numbers are hers to supply |
+| `platform_book(query, chapter)` | **The Dash Platform book**, through the search index it publishes | The sections that answer a question: a keyword's table, its example and its rules at registration, each with the page to link | Whether mainnet runs a rule yet. The book follows the development branch, and the result says so |
 
 `area` is one of `platform` · `core` · `all`. `action` is one of `summary` · `list_passing` ·
 `list_all` · `get`. She may call up to **three rounds** of tools per answer (two on Telegram,
@@ -259,7 +260,8 @@ PROMPT/           her mind — live, streamed to every instance
 api/              the serverless brain, a copy of what runs at dashsupport.team
                   endpoints: chat.js, telegram.js, x.js, voice.js, paxt.js, visions.js
                   the answer: _brain.js (the loop), _mind.js (the stream), _context.js (what loads),
-                  _tools.js and _tools2.js (her eighteen tools), _calc.js (exact sums),
+                  _tools.js and _tools2.js (her nineteen tools), _calc.js (exact sums),
+                  _book.js (the Platform book, read through its own search index),
                   _schemacheck.js and _units.js (the checks on what she writes),
                   _prompt.js (the baked fallback: generated, never hand-edited)
                   the records: _metrics.js, _learn.js, _visions.js, _hours.js, _help.js,
