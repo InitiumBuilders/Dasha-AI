@@ -148,7 +148,7 @@ module.exports = async (req, res) => {
       const who = msg.from ? ('@' + (msg.from.username || msg.from.first_name || 'someone')) : 'someone';
       const where = msg.chat.title ? ('group "' + msg.chat.title + '"') : 'a direct chat';
       const detail = text.replace(/^\/human[-_ ]?support\b/i, '').trim();
-      const reply = await humanSupport(who + ' in ' + where + (detail ? (': ' + detail) : ''), 'telegram');
+      const reply = await humanSupport(who + ' in ' + where + (detail ? (': ' + detail) : ''), 'telegram', String((msg.from && msg.from.id) || chatId));
       await send(t, chatId, reply, msg.message_id);
       return res.status(200).json({ ok: true });
     }

@@ -25,8 +25,8 @@ and never reaches a browser.
 ## What this repository holds
 
 `api/`, `web/` and `scripts/` are a copy of the code the Dash Support Team runs at
-[www.dashsupport.team](https://www.dashsupport.team). The copy was last taken on 13 November
-2026, from the build that serves mind v2.14.2. `GET /api/chat` on the live site reports the
+[www.dashsupport.team](https://www.dashsupport.team). The copy was last taken on 14 November
+2026, from the build that serves mind v2.14.4. `GET /api/chat` on the live site reports the
 version it runs and the tools it has, so you can compare.
 
 | File | What it does |
@@ -39,6 +39,7 @@ version it runs and the tools it has, so you can compare.
 | `api/_tools.js`, `api/_tools2.js`, `api/_calc.js` | Her eighteen tools. `_calc.js` is the exact arithmetic behind `calculate`. |
 | `api/_schemacheck.js` | Checks a data contract she writes against Platform's schema rules. |
 | `api/_units.js` | Checks an amount in credits or duffs against the DASH figure written beside it. |
+| `api/_leak.js` | Reads a tool call the model wrote into its answer as text, so the brain can run it or take it out. |
 | `api/_metrics.js` | The Pulse: counts of what fired, with no text. |
 | `api/_learn.js` | Feedback. A reported bad answer becomes a public issue. |
 | `api/_visions.js`, `api/visions.js` | The vision commons (`VISIONS/`) and the feeds the Pulse page reads. |
@@ -87,7 +88,7 @@ https://raw.githubusercontent.com/InitiumBuilders/Dasha-AI/main/PROMPT/
     VERSION           the version line
 ```
 
-At v2.14.2 the spine is 73,073 characters and the library holds 57 skills and 23 reference
+At v2.14.4 the spine is 73,073 characters and the library holds 57 skills and 23 reference
 sections. The spine carries her identity, her safety rules, the tool contracts, the answer shape
 and an index of every skill, so she can recommend a skill without loading it.
 
@@ -143,12 +144,12 @@ curl https://www.dashsupport.team/api/chat
     "routing": "…", "freshness": "…"
   },
   "mind": {
-    "version": "v2.14.2 (live)",   // "(live)" from the repo, "(baked)" from the fallback
+    "version": "v2.14.4 (live)",   // "(live)" from the repo, "(baked)" from the fallback
     "origin": "github",            // the runtime naming this repo as its source
     "spineChars": 73073,
     "library": { "skills": 57, "knowledge": 23 },
     "loading": "spine always + only the skill/reference the question touches",
-    "baked": "v2.14.2"
+    "baked": "v2.14.4"
   },
   "learning": { "publicBoard": true, "teamChannel": true, "note": "…" },
   "analytics": { "store": "…", "principle": "…", "publicPulse": "…", "teamPulse": "…" },
@@ -197,6 +198,13 @@ endpoint rests for ten minutes (`DASHA_REST_MS`) and the fastest provider goes f
 with a larger token ceiling and no tools. If that fails and she was on the pro mind, she falls
 back to the flash mind. If every path fails she returns an error that names a human.
 
+**When she writes a tool call as text.** A model sometimes writes the call it wants into its answer, in its
+own markup, most often in the last round, where no tools are offered. `api/_leak.js` reads such a block.
+When the call names a tool she has, the brain runs it like any other. In the last round that earns one
+round more, once, and only for a tool that is pure code (`calculate`, `merkle_weave`, `verify_message`).
+A call that cannot be run is taken out with the line that announced it, a stream stops showing words at
+the first sign of one, and fenced code is left alone. `/api/chat` reports `textCalls` when this happened.
+
 **When credits run short.** If OpenRouter refuses a call for lack of credit, she first tries the
 flash mind with a ceiling of 1,500 tokens. If that is refused too, she steps down a short list of
 free, tool-capable models (`DASHA_FREE_MODEL` first when it is set). A free model that refuses
@@ -210,7 +218,10 @@ tools is asked once more without them.
 - The units gate. When the reply gives an amount in credits or duffs with its DASH figure beside
   it, `api/_units.js` checks the pair by division. A DASH figure with the right digits and its
   decimal point in the wrong place is corrected. Nothing else in the reply is touched, and
-  `/api/chat` reports `unitsFixed` when the gate acted.
+  `/api/chat` reports `unitsFixed` when the gate acted. When DASH is written first ("0.25 DASH, or
+  about 25,000 duffs"), the pair does not say which figure is wrong, so one is corrected only when
+  the other is known to be right: it is in the person's own message or in a result `calculate`
+  returned that turn.
 - The vision harvest. A brainstorm that ended with consent carries one `[[VISION-LOG]]` block.
   It is stripped from the reply and filed in `VISIONS/`.
 - The next moves. A `[[NEXT]]a|b|c[[/NEXT]]` block is stripped and returned as `next`: up to
@@ -229,7 +240,7 @@ call. `done` still carries the whole reply. `DASHA_STREAM=off` turns the deltas 
 
 **Handled by the server.** `chat.js` answers `/human-support` itself, with no model call. It
 returns the handoff text and sends a ticket to the team's Telegram channel, and the reply goes
-out even when the ticket fails. Feedback (`{feedback:{…}}`) goes to `api/_learn.js`.
+out even when the ticket fails. It says the note was passed only when the ticket went out. Feedback (`{feedback:{…}}`) goes to `api/_learn.js`.
 
 ---
 
@@ -503,9 +514,11 @@ History arrives with the request and leaves with it, and she has no memory acros
   team's channel. A thumbs-down with a note sends the question, the answer and the note there,
   and files them as a public issue in this repository. The widget says so before the note is
   sent.
-- **`/human-support`** sends the person's note to the team's channel. From Telegram it carries
-  their handle and the group's name, and from an X direct message their handle.
-- **Visions** (`VISIONS/`). A brainstorm the person agreed to share, credited as they chose.
+- **`/human-support`** sends the person's note to the team's channel, made quiet first (no link,
+  no live domain, no mention that can ping). From Telegram it carries their handle and the
+  group's name, and from an X direct message their handle.
+- **Visions** (`VISIONS/`). A brainstorm the person agreed to share, credited as they chose, and
+  made quiet the same way before it is filed or posted.
 - **Hours** (`HOURS/`). `/hours` from a lead and `/helped` from anyone, each with the name the
   person logs under and a link to the message.
 - **PAXT** (`PAXT/`). Each signed line with its address and signature. The record is public so
@@ -530,14 +543,27 @@ looser than the numbers and reset on a cold start.
 | `POST /api/chat` | 30 messages an hour per IP, and 4,000 requests a day (`PER_HOUR`, `PER_DAY_GLOBAL`). |
 | Feedback | 12 an hour per IP. `api/_learn.js` then files at most 6 public issues an hour, 2 an hour per address. |
 | `POST /api/telegram` | 24 questions an hour per chat and 240 an hour per bot. |
+| A `/human-support` note | 2 an hour from one caller and 15 an hour in all. On the web it passes the chat limit first. |
+| A vision filed to `VISIONS/` | 6 an hour. |
+| A search of the open web | 2 for one answer (`MAX_WEB_PER_ASK`) and 60 an hour (`DASHA_WEB_PER_HOUR`). It is the one tool that is paid for each time it runs. |
 | `POST /api/voice` | 80 requests and 30,000 characters an hour per IP, and 300,000 characters a day (`VOICE_DAY_CHARS`). |
 | `POST /api/paxt` | 24 signed lines an hour per IP. |
 
 A request whose `x-dasha-token` matches `DASHA_MCP_TOKEN` skips the chat limits. Over a limit,
 chat returns `429` with a message that names a human.
 
-Input validation (`cleanMessages`): the last 16 messages, 8,000 characters each, only the `user`
-and `assistant` roles, and the list must end on a `user` message or the reply is a `400`.
+Input validation (`cleanMessages`): the last 16 messages, 8,000 characters each and 40,000 in all
+with the newest kept, only the `user` and `assistant` roles, and the list must end on a `user`
+message or the reply is a `400`. The project card rides in a system message, where it is named as
+the builder's description and never an instruction.
+
+**A caller's words are never repeated in public as written.** Two paths repeat them: a
+`/human-support` note goes to the team's Telegram group, and a vision goes to `VISIONS/`, the Pulse
+page, the team's feed and its X account. Both pass through `quiet` in `api/_learn.js` first: no
+link, no live domain, no mention that can ping anyone, and a cap on length. A vision's tip has to be
+a Dash address or an Evo username, its proposal link has to be a DashCentral page, and a vision whose
+words carried a link, a mention, an address or a cashtag is kept and posted nowhere. Send any new
+path that repeats a caller's words through `quiet` too.
 
 ---
 

@@ -87,7 +87,7 @@ async function runDMs(me, opts) {
     let reply;
 
     if (/\/human[-_ ]?support\b/i.test(w.text)) {
-      reply = await humanSupport('@' + (handle || w.sender) + ' via X DM: ' + w.text.slice(0, 400), 'x-dm');
+      reply = await humanSupport('@' + (handle || w.sender) + ' via X DM: ' + w.text.slice(0, 400), 'x-dm', String(w.sender));
     } else {
       const out = await askDasha([{ role: 'user', content: w.text.slice(0, 6000) }], { surface: 'x-dm', maxTokens: 2400 });
       if (out.error) { done.push({ conversation: w.conversation, skipped: out.error }); continue; }

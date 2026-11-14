@@ -90,7 +90,9 @@ module.exports = async (req, res) => {
 
   /* server-handled skill: /human-support */
   if (/^\/human[-_ ]?support\b/i.test(last)) {
-    const reply = await humanSupport(last.replace(/^\/human[-_ ]?support\b/i, '').trim(), isMcp ? 'mcp' : 'web');
+    /* the limiter comes first here too: this path posts into the team's group, so it is the last one to leave open */
+    if (!isMcp) { const held = limited(clientIp(req)); if (held) return res.status(429).json({ error: held }); }
+    const reply = await humanSupport(last.replace(/^\/human[-_ ]?support\b/i, '').trim(), isMcp ? 'mcp' : 'web', isMcp ? 'team' : clientIp(req));
     return res.status(200).json({ reply, skill: 'human-support' });
   }
 
@@ -129,7 +131,7 @@ module.exports = async (req, res) => {
   const done = out.error ? { error: out.error, trace: trace || undefined }
     : { reply: out.reply, tools: out.tools || [], depth: out.depth || null,
       next: out.next || [], model: out.model, usage: out.usage, version: VERSION, motion: out.motion || null, say: voice.ticket(out.reply) || undefined,
-      schemaFixed: out.schemaFixed || undefined, unitsFixed: out.unitsFixed || undefined, trace: trace || undefined };   /* how many schema rules the gate caught and she fixed */
+      schemaFixed: out.schemaFixed || undefined, unitsFixed: out.unitsFixed || undefined, textCalls: out.textCalls || undefined, trace: trace || undefined };   /* how many schema rules the gate caught and she fixed */
   if (streaming) { say(Object.assign({ t: out.error ? 'error' : 'done' }, done)); return res.end(); }
   return res.status(out.error ? 502 : 200).json(done);
 };

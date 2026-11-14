@@ -179,11 +179,24 @@ async function lookup_address(a) {
 }
 
 /* ---------- 6. open web search (OpenRouter web plugin — real citations, no extra key) ---------- */
+/* A search of the open web is the one tool that is paid for each time it runs: the web plugin bills for every
+   result. So it is capped here by the hour, for this server instance, and in the brain at two for one answer.
+   A flood of questions can then never become a flood of paid searches. */
+const WEB_PER_HOUR = +process.env.DASHA_WEB_PER_HOUR || 60;
+const webRan = [];
+function webRoom() {
+  const now = Date.now(), kept = webRan.filter((x) => now - x < 36e5);
+  webRan.length = 0; kept.forEach((x) => webRan.push(x));
+  if (webRan.length >= WEB_PER_HOUR) return false;
+  webRan.push(now);
+  return true;
+}
 async function web_search(a) {
   const q = String(a.query || '').slice(0, 300).trim();
   if (!q) return 'ERROR: empty query.';
   const key = process.env.OPENROUTER_API_KEY;
   if (!key) return 'WEB SEARCH UNAVAILABLE (not configured). Answer from what you know and say your web view is down.';
+  if (!webRoom()) return 'WEB SEARCH NOT RUN: the open web has been searched as often as one hour allows. Answer from the Dash docs search and what you know, and say plainly that the open web was not searched this time.';
   const ctl = new AbortController();
   const t = setTimeout(() => ctl.abort(), 45000);
   try {

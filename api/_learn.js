@@ -141,4 +141,4 @@ async function record(ev) {
   return { recorded: true, filed: !!iss.ok, url: iss.url, why: iss.why };
 }
 
-module.exports = { record, sinks };
+module.exports = { record, sinks, quiet };

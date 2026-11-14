@@ -107,6 +107,11 @@ Five more names tune the timing and rarely need setting: `DASHA_DEADLINE_MS` (10
 `DASHA_HEDGE_MS` (9000), `DASHA_REST_MS` (600000), `DASHA_STREAM_REST_MS` (600000), and
 `DASHA_STREAM`, where `off` stops her words arriving as she writes them.
 
+One more caps spend: `DASHA_WEB_PER_HOUR` (60) is how many searches of the open web one instance
+runs in an hour. Each search is paid for, and one answer gets two. These caps are held in memory
+per instance, so set a spending limit on your OpenRouter key as well: that is the bound a flood
+cannot get past.
+
 ### Human escalation and feedback
 
 | Variable | What it is |

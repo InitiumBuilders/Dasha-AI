@@ -146,15 +146,23 @@ curl -s https://www.dashsupport.team/api/chat \
 {
   "reply": "…",
   "tools": ["search_dash_docs"],   // what she reached for
-  "depth": "builder-skill",        // which mind answered, and why
-  "model": "openai/gpt-5.1-codex",
-  "usage": { "p": 12257, "c": 812, "cost": 0.0018 },
-  "version": "v2.2.0"
+  "depth": null,                   // null from the everyday mind; a word such as "deep-work" from the deeper one
+  "next": [],                      // up to three next moves she suggests
+  "model": "deepseek/deepseek-v4-flash-0731",
+  "usage": { "p": 48536, "c": 1036, "cost": 0.002067 },
+  "version": "v2.14.4",
+  "motion": {                      // what shaped the answer, by name
+    "skills": ["/data-contract"],
+    "knowledge": ["1. DATA CONTRACT JSON SCHEMA RULES"],
+    "tools": ["search_dash_docs"]
+  }
 }
 ```
 
+Those are the fields of a real reply to that request, taken on 14 November 2026.
+
 Send `{messages:[…]}` ending with a `user` message; the last 16 are kept, 8,000 characters
-each. Anonymous callers get 30 messages per hour per IP against a shared daily community
+each and 40,000 in all, newest first. Anonymous callers get 30 messages per hour per IP against a shared daily community
 budget; a token lifts the per-IP limit. Community tokens come from the team. `GET /api/chat`
 is the open health endpoint — no token, no secrets, just proof of what mind is live.
 
