@@ -2,31 +2,31 @@
   "seen": {
     "pshenmic-dev-dashextension-december-2026": {
       "passing": false,
-      "net": 157
+      "net": 181
     },
     "pshenmic-dev-dfo-december-2026": {
       "passing": false,
-      "net": 176
+      "net": 200
     },
     "DashDaoCenterNovDec2026": {
       "passing": false,
-      "net": 81
+      "net": 105
     },
     "pshenmic-dev-dashscan-december-2026": {
       "passing": false,
-      "net": 163
+      "net": 187
     },
     "pshenmic-dev-dash-desktop-december-2026": {
       "passing": false,
-      "net": 160
+      "net": 184
     },
     "SIGMA_AIBC_FIERA_ROMA_2026_REIMBURSMENT": {
       "passing": true,
-      "net": 493
+      "net": 517
     },
     "Dash_Italia_SiGMA_AIBC_Rome_Refund": {
       "passing": true,
-      "net": 442
+      "net": 466
     },
     "Dash-Stars-Ecosystem-Visibility-Pilot": {
       "passing": false,
@@ -34,7 +34,7 @@
     },
     "JembeAndEvolite_WorkDone_2026": {
       "passing": false,
-      "net": 159
+      "net": 183
     },
     "EvoliteJembeAndNFTs_November_2026": {
       "passing": false,
@@ -46,7 +46,7 @@
     },
     "Dash-APAC-November-December": {
       "passing": true,
-      "net": 346
+      "net": 370
     },
     "c2pool-daemonless-delivered": {
       "passing": false,
@@ -70,7 +70,7 @@
     },
     "APAC-BizDev-HK-China-SG-Nov-Dec-26": {
       "passing": true,
-      "net": 403
+      "net": 427
     },
     "kwvg-core-oct26": {
       "passing": true,
@@ -101,8 +101,8 @@
       "net": 210
     },
     "BTCBACKPORTSVIJAY_04": {
-      "passing": false,
-      "net": 289
+      "passing": true,
+      "net": 313
     },
     "DCG-Operations-Aug-Nov-26": {
       "passing": true,
@@ -230,9 +230,10 @@
     "flip:SIGMA_AIBC_FIERA_ROMA_2026_REIMBURSMENT:in:2575480": "2026-11-12T19:15:17.816Z",
     "flip:Dash_Italia_SiGMA_AIBC_Rome_Refund:in:2575480": "2026-11-13T16:45:17.954Z",
     "flip:Business-Development-Nov-December-26:in:2575480": "2026-11-13T16:45:17.954Z",
-    "c72:2575480": "2026-11-14T13:15:17.893Z"
+    "c72:2575480": "2026-11-14T13:15:17.893Z",
+    "flip:BTCBACKPORTSVIJAY_04:in:2575480": "2026-11-14T15:15:17.920Z"
   },
   "superblock": "2575480",
-  "lastPassingCount": 12,
-  "updated": "2026-11-14T14:45:17.768Z"
+  "lastPassingCount": 13,
+  "updated": "2026-11-14T15:15:17.920Z"
 }
