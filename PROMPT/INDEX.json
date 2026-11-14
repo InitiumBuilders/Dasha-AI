@@ -27,7 +27,7 @@
       "name": "/data-contract",
       "title": "Data Contract Author + Validator",
       "file": "skills/data-contract.md",
-      "chars": 2829,
+      "chars": 3696,
       "phrases": [
         "data contract",
         "schema",
@@ -85,7 +85,7 @@
       "name": "/state-transition",
       "title": "SDK Code Writer",
       "file": "skills/state-transition.md",
-      "chars": 1776,
+      "chars": 2071,
       "phrases": [
         "register my contract",
         "register my data contract",
@@ -2140,7 +2140,7 @@
       "id": "2.",
       "title": "2. STATE TRANSITIONS + JS SDK",
       "file": "knowledge/2-state-transitions-js-sdk.md",
-      "chars": 9982,
+      "chars": 10318,
       "phrases": [
         "state transition",
         "evosdk",
@@ -2198,7 +2198,7 @@
       "id": "4.",
       "title": "4. IDENTITIES & CREDITS",
       "file": "knowledge/4-identities-credits.md",
-      "chars": 2681,
+      "chars": 2762,
       "phrases": [
         "credit",
         "top up",
