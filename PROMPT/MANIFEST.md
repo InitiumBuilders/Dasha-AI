@@ -1,4 +1,6 @@
-# DASHA PROMPT MANIFEST — v2.15.4 "The Architect"
+# DASHA PROMPT MANIFEST — v2.15.5 "The Architect"
+
+**New in v2.15.5 (14 Nov 2026):** The poll fix. Asked for a vote that can never change, she had told the builder the poll must not be deletable but not that its options must not change. Section 24 and the /data-contract skill now name both of the poll's settings together, `documentsMutable: false` and `canBeDeleted: false`, also when only the vote is written.
 
 **New in v2.15.4 (14 Nov 2026):** The team's proposal is set for December's round, as the team decided on 14 Nov 2026 and its pages say: the team submits right after superblock 2,575,480 pays, for superblock 2,592,096, whose vote closes around December 17. Her core prompt and her team record say so and name no proposal, since the name is the team's to give. The film's November dates are the film's, not the plan's. On /dasha and the home page, her starter chips include a stuck builder's words: "My data contract won't register".
 
