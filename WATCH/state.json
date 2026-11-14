@@ -26,7 +26,7 @@
     },
     "Dash_Italia_SiGMA_AIBC_Rome_Refund": {
       "passing": true,
-      "net": 471
+      "net": 472
     },
     "Dash-Stars-Ecosystem-Visibility-Pilot": {
       "passing": false,
@@ -235,5 +235,5 @@
   },
   "superblock": "2575480",
   "lastPassingCount": 13,
-  "updated": "2026-11-14T22:45:17.639Z"
+  "updated": "2026-11-14T23:15:17.661Z"
 }
