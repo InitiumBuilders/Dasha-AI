@@ -88,7 +88,7 @@ https://raw.githubusercontent.com/InitiumBuilders/Dasha-AI/main/PROMPT/
     VERSION           the version line
 ```
 
-At v2.15.0 the spine is 75,469 characters and the library holds 57 skills and 24 reference
+At v2.15.0 the spine is 75,468 characters and the library holds 57 skills and 24 reference
 sections. The spine carries her identity, her safety rules, the tool contracts, the answer shape
 and an index of every skill, so she can recommend a skill without loading it.
 
@@ -148,7 +148,7 @@ curl https://www.dashsupport.team/api/chat
   "mind": {
     "version": "v2.15.0 (live)",   // "(live)" from the repo, "(baked)" from the fallback
     "origin": "github",            // the runtime naming this repo as its source
-    "spineChars": 75469,
+    "spineChars": 75468,
     "library": { "skills": 57, "knowledge": 24 },
     "loading": "spine always + only the skill/reference the question touches",
     "baked": "v2.15.0"
