@@ -123,7 +123,7 @@
   };
   function hello() {
     var here = location.pathname.replace(/\/$/, '').toLowerCase();
-    var mid = STARTERS[here] || ['Draft a data contract for my app', 'What proposals are passing right now?', 'Is this message a scam?'];
+    var mid = STARTERS[here] || ['Draft a data contract for my app', 'My data contract won\'t register', 'What proposals are passing right now?', 'Is this message a scam?'];
     return '<div class="dchat-hello"><b>Hi, I’m Dasha</b> — the Dash community’s support AI. I search the official docs, read live governance data, and check the chain and Dash Platform in real time. Wallets, masternodes, data contracts, code — ask me anything. When you need a person, type <code class="inl">/human-support</code>.'
       + '<div class="dchips">'
       + '<button class="dchip lost" type="button">I don\'t know where to start</button>'

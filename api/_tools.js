@@ -404,7 +404,7 @@ async function team_record(a) {
     try {
       const d = await govData();
       const o = ((d && d.proposals) || []).find((p) => /dash[\s_-]*support[\s_-]*team|dashsupport/i.test(p.name + ' ' + (p.title || '')));
-      if (!o) out.push('OUR PROPOSAL: not on the ballot yet. DashSupportTeam-Nov2026 is prepared, not yet submitted or not yet listed by DashCentral. Say exactly that.');
+      if (!o) out.push('OUR PROPOSAL: not on the ballot yet. It is a pre-proposal, set for December\'s round (superblock 2,592,096), not yet submitted or not yet listed by DashCentral. Say exactly that.');
       else {
         out.push('OUR PROPOSAL, ON THE BALLOT:\n' + propLine(o));
         const st = await H.ghGet('WATCH/state.json');
