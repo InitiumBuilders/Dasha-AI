@@ -17,7 +17,7 @@ A data contract = JSON Schema definitions of an app's document types, registered
 
 ### Restricted JSON Schema keywords (validation fails)
 - Disallowed: `if/then/else`, `allOf/anyOf/oneOf/not`, `default`, `propertyNames`, `patternProperties`.
-- `$ref` is allowed in one form: `"$ref": "#/$defs/<name>"`, pointing at a definition in the contract's own `schemaDefs`, with the property's `position` written beside it (platform book, Property Schemas, `contract-keywords/property-schemas.html`). A reference to anything outside the contract is refused (10207).
+- `$ref` is allowed in one form: `"$ref": "#/$defs/<name>"`, pointing at a definition in the contract's own `schemaDefs`, with the property's `position` written beside it (platform book, Property Schemas, `contract-keywords/property-schemas.html`). In a contract `schemaDefs` stands beside `documentSchemas`, and the document types go inside `documentSchemas`: when you show a `$ref`, show both keys, so a definition is not read as a document type. A reference to anything outside the contract is refused (10207).
 - `dependencies` → use `dependentRequired`/`dependentSchema` instead; `additionalItems` → use `items: false` + `prefixItems`.
 - `pattern` → must also define `maxLength` (≤50000); regex must be RE2-compatible (no lookahead/backrefs).
 - `format` → must also define `maxLength` (≤50000). `uniqueItems: true` → must define `maxItems` (≤100000).

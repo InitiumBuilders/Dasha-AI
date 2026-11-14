@@ -28,7 +28,7 @@ Permitted (backward-compatible only): add new document types; add new OPTIONAL p
 
 ### Compact runnable example (testnet, read + write)
 ```javascript
-import { EvoSDK, Document } from '@dashevo/evo-sdk';
+import { EvoSDK, Document, IdentitySigner } from '@dashevo/evo-sdk';
 
 const sdk = EvoSDK.testnetTrusted();
 await sdk.connect();
@@ -44,8 +44,14 @@ const results = await sdk.documents.query({
 });
 for (const [id, doc] of results) console.log(id.toString(), doc.toJSON());
 
-// WRITE — needs identity + signer (see Setup SDK Client tutorial's IdentityKeyManager;
-// keyManager.getAuth() returns { identity, identityKey, signer })
+// WRITE: needs the identity, one of its keys, and a signer that holds that key's private key.
+// These five lines are the whole of it. (The docs tutorials wrap them in keyManager.getAuth(), a helper
+// from their own setupDashClient.mjs. The helper and its IdentityKeyManager are the tutorials', not the SDK's:
+// neither is exported by @dashevo/evo-sdk.)
+const identity = await sdk.identities.fetch(process.env.IDENTITY_ID);
+const identityKey = identity.publicKeys[Number(process.env.KEY_INDEX)]; // where the signing key sits in the identity's keys
+const signer = new IdentitySigner();
+signer.addKeyFromWif(process.env.KEY_WIF);                              // that key's private key, from the environment
 const doc = new Document({
   properties: { message: `Hello @ ${new Date().toUTCString()}` },
   documentTypeName: 'note',

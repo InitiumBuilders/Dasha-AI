@@ -2113,7 +2113,7 @@
       "id": "1.",
       "title": "1. DATA CONTRACT JSON SCHEMA RULES",
       "file": "knowledge/1-data-contract-json-schema-rules.md",
-      "chars": 6541,
+      "chars": 6741,
       "phrases": [
         "data contract",
         "json schema",
@@ -2140,7 +2140,7 @@
       "id": "2.",
       "title": "2. STATE TRANSITIONS + JS SDK",
       "file": "knowledge/2-state-transitions-js-sdk.md",
-      "chars": 9412,
+      "chars": 9982,
       "phrases": [
         "state transition",
         "evosdk",
@@ -2733,7 +2733,7 @@
       "id": "20.",
       "title": "20. EVO SDK 5.0 (JavaScript and TypeScript)",
       "file": "knowledge/20-evo-sdk-5-0-javascript-and-typescript.md",
-      "chars": 5025,
+      "chars": 5192,
       "phrases": [
         "evo sdk",
         "evo-sdk",
@@ -2907,7 +2907,7 @@
       "id": "24.",
       "title": "24. THE CONTRACT LANGUAGE AT PROTOCOL 14 (a map of every key, from the platform book's Overview, read 14 Nov 2026)",
       "file": "knowledge/24-the-contract-language-at-protocol-14-.md",
-      "chars": 5841,
+      "chars": 6738,
       "phrases": [
         "contract keyword",
         "contract key ",
