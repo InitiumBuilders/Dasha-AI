@@ -34,7 +34,7 @@
     },
     "JembeAndEvolite_WorkDone_2026": {
       "passing": true,
-      "net": 345
+      "net": 346
     },
     "EvoliteJembeAndNFTs_November_2026": {
       "passing": false,
@@ -46,7 +46,7 @@
     },
     "Dash-APAC-November-December": {
       "passing": true,
-      "net": 389
+      "net": 390
     },
     "c2pool-daemonless-delivered": {
       "passing": false,
@@ -62,7 +62,7 @@
     },
     "Business-Development-Nov-December-26": {
       "passing": true,
-      "net": 505
+      "net": 506
     },
     "dash-intents": {
       "passing": false,
@@ -237,5 +237,5 @@
   },
   "superblock": "2575480",
   "lastPassingCount": 13,
-  "updated": "2026-11-15T18:15:17.764Z"
+  "updated": "2026-11-15T18:45:17.736Z"
 }
