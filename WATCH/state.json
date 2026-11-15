@@ -18,7 +18,7 @@
     },
     "pshenmic-dev-dash-desktop-december-2026": {
       "passing": false,
-      "net": 219
+      "net": 220
     },
     "SIGMA_AIBC_FIERA_ROMA_2026_REIMBURSMENT": {
       "passing": true,
@@ -46,7 +46,7 @@
     },
     "Dash-APAC-November-December": {
       "passing": true,
-      "net": 388
+      "net": 389
     },
     "c2pool-daemonless-delivered": {
       "passing": false,
@@ -237,5 +237,5 @@
   },
   "superblock": "2575480",
   "lastPassingCount": 13,
-  "updated": "2026-11-15T17:45:17.787Z"
+  "updated": "2026-11-15T18:15:17.764Z"
 }
