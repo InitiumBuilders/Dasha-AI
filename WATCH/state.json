@@ -101,7 +101,7 @@
       "net": 210
     },
     "BTCBACKPORTSVIJAY_04": {
-      "passing": true,
+      "passing": false,
       "net": 313
     },
     "DCG-Operations-Aug-Nov-26": {
@@ -231,9 +231,10 @@
     "flip:Dash_Italia_SiGMA_AIBC_Rome_Refund:in:2575480": "2026-11-13T16:45:17.954Z",
     "flip:Business-Development-Nov-December-26:in:2575480": "2026-11-13T16:45:17.954Z",
     "c72:2575480": "2026-11-14T13:15:17.893Z",
-    "flip:BTCBACKPORTSVIJAY_04:in:2575480": "2026-11-14T15:15:17.920Z"
+    "flip:BTCBACKPORTSVIJAY_04:in:2575480": "2026-11-14T15:15:17.920Z",
+    "flip:BTCBACKPORTSVIJAY_04:out:2575480": "2026-11-15T00:15:17.883Z"
   },
   "superblock": "2575480",
-  "lastPassingCount": 13,
-  "updated": "2026-11-14T23:45:17.746Z"
+  "lastPassingCount": 12,
+  "updated": "2026-11-15T00:15:17.883Z"
 }
