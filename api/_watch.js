@@ -68,6 +68,7 @@ function snapshot(d) {
     deadline: tsOf(p.voting_deadline),             /* ms epoch */
     deadlineHuman: String(p.voting_deadline_human || ''),
     inNext: !!p.in_next_budget,
+    end: tsOf(p.date_end),                         /* the payment window's end_epoch, as DashCentral shows it (UTC) */
     url: 'https://www.dashcentral.org/p/' + String(p.name || ''),
   }));
   /* the vote cutoff: DashCentral gives it per proposal — use it directly */
@@ -95,6 +96,21 @@ function snapshot(d) {
       const pas = props.filter((p) => p.passing), on = pas.filter((p) => (p.months || 0) > 1), last = pas.filter((p) => (p.months || 0) <= 1);
       const sum = (l) => l.reduce((a, p) => a + (p.ask || 0), 0);
       return { claimed: sum(on), count: on.length, ending: sum(last), endingCount: last.length };
+    })(),
+    /* the window watch (2026-11-14): proposals short of votes that only the round still open can pay. Dash Core skips
+       a proposal whose window, widened by 2 hours, misses a superblock's time (GovernanceSigner::
+       CreateSuperblockCandidate), so a window ending before the superblock after this round's means this round or
+       never. While a vote has closed and its superblock has not paid, the list waits for the next round. */
+    win: (function () {
+      try {
+        const SB_MS = 16616 * 157.5 * 1000, FUDGE = 2 * 36e5, sbTs = tsOf(b.payment_date), sb = Number(b.superblock) || 0;
+        if (!sbTs || !cutoffTs || !sb) return null;
+        if (cutoffTs > sbTs) return { superblock: sb, sbTs: sbTs, closes: null, closed: true, count: 0, at: [] };
+        const at = props.filter((p) => !p.passing && p.end && p.end + FUDGE >= sbTs && p.end + FUDGE < sbTs + SB_MS)
+          .map((p) => ({ name: p.name, title: p.title, owner: p.owner, ask: p.ask, short: p.short, end: p.end, url: p.url }))
+          .sort((x, y) => (x.short == null ? 1e9 : x.short) - (y.short == null ? 1e9 : y.short));
+        return { superblock: sb, sbTs: sbTs, closes: cutoffTs, closed: false, count: at.length, at: at };
+      } catch (e) { return null; }
     })(),
     bubble: props.filter((p) => !p.passing && p.short != null && p.short <= BUBBLE).sort((a, c) => a.short - c.short),
   };
