@@ -2,15 +2,15 @@
   "seen": {
     "burn-500-dash": {
       "passing": false,
-      "net": 6
+      "net": 7
     },
     "pshenmic-dev-dashextension-december-2026": {
       "passing": false,
       "net": 272
     },
     "pshenmic-dev-dfo-december-2026": {
-      "passing": false,
-      "net": 287
+      "passing": true,
+      "net": 330
     },
     "DashDaoCenterNovDec2026": {
       "passing": false,
@@ -239,9 +239,10 @@
     "flip:BTCBACKPORTSVIJAY_04:out:2575480": "2026-11-15T00:15:17.883Z",
     "flip:JembeAndEvolite_WorkDone_2026:in:2575480": "2026-11-15T14:15:17.885Z",
     "new:burn-500-dash": "2026-11-16T11:15:21.771Z",
-    "c24:2575480": "2026-11-16T13:45:17.784Z"
+    "c24:2575480": "2026-11-16T13:45:17.784Z",
+    "flip:pshenmic-dev-dfo-december-2026:in:2575480": "2026-11-16T22:45:17.875Z"
   },
   "superblock": "2575480",
-  "lastPassingCount": 13,
-  "updated": "2026-11-16T22:15:17.698Z"
+  "lastPassingCount": 14,
+  "updated": "2026-11-16T22:45:17.875Z"
 }
