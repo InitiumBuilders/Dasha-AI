@@ -2,15 +2,15 @@
   "seen": {
     "burn-500-dash": {
       "passing": false,
-      "net": 11
+      "net": 10
     },
     "pshenmic-dev-dashextension-december-2026": {
       "passing": false,
-      "net": 272
+      "net": 284
     },
     "pshenmic-dev-dfo-december-2026": {
       "passing": true,
-      "net": 330
+      "net": 342
     },
     "DashDaoCenterNovDec2026": {
       "passing": false,
@@ -18,11 +18,11 @@
     },
     "pshenmic-dev-dashscan-december-2026": {
       "passing": false,
-      "net": 282
+      "net": 294
     },
     "pshenmic-dev-dash-desktop-december-2026": {
       "passing": false,
-      "net": 276
+      "net": 288
     },
     "SIGMA_AIBC_FIERA_ROMA_2026_REIMBURSMENT": {
       "passing": true,
@@ -42,7 +42,7 @@
     },
     "EvoliteJembeAndNFTs_November_2026": {
       "passing": false,
-      "net": 260
+      "net": 303
     },
     "Dash-Music-MVP-Application-Developing": {
       "passing": false,
@@ -50,7 +50,7 @@
     },
     "Dash-APAC-November-December": {
       "passing": true,
-      "net": 402
+      "net": 406
     },
     "c2pool-daemonless-delivered": {
       "passing": false,
@@ -74,7 +74,7 @@
     },
     "APAC-BizDev-HK-China-SG-Nov-Dec-26": {
       "passing": true,
-      "net": 419
+      "net": 423
     },
     "kwvg-core-oct26": {
       "passing": true,
@@ -86,7 +86,7 @@
     },
     "DASH-MULTILINGUAL-EXPANSION_Q4": {
       "passing": false,
-      "net": 266
+      "net": 278
     },
     "Dash-Pay-name-registration-rules": {
       "passing": true,
@@ -244,5 +244,5 @@
   },
   "superblock": "2575480",
   "lastPassingCount": 14,
-  "updated": "2026-11-16T23:15:17.730Z"
+  "updated": "2026-11-16T23:45:18.024Z"
 }
