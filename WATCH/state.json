@@ -58,23 +58,23 @@
     },
     "Dash-Mass-Organic-Content-Attraction": {
       "passing": false,
-      "net": 191
+      "net": 189
     },
     "Business-Development-Nov-December-26": {
       "passing": true,
-      "net": 527
+      "net": 525
     },
     "dash-intents": {
       "passing": false,
-      "net": 39
+      "net": 37
     },
     "APAC-BizDev-HK-China-SG-Nov-Dec-26": {
       "passing": true,
-      "net": 427
+      "net": 425
     },
     "kwvg-core-oct26": {
       "passing": true,
-      "net": 387
+      "net": 389
     },
     "dashcentral-operations4": {
       "passing": false,
@@ -237,5 +237,5 @@
   },
   "superblock": "2575480",
   "lastPassingCount": 13,
-  "updated": "2026-11-16T09:45:17.773Z"
+  "updated": "2026-11-16T10:15:17.819Z"
 }
