@@ -6,23 +6,23 @@
     },
     "pshenmic-dev-dashextension-december-2026": {
       "passing": false,
-      "net": 245
+      "net": 255
     },
     "pshenmic-dev-dfo-december-2026": {
       "passing": false,
-      "net": 260
+      "net": 270
     },
     "DashDaoCenterNovDec2026": {
       "passing": false,
-      "net": 98
+      "net": 108
     },
     "pshenmic-dev-dashscan-december-2026": {
       "passing": false,
-      "net": 255
+      "net": 265
     },
     "pshenmic-dev-dash-desktop-december-2026": {
       "passing": false,
-      "net": 249
+      "net": 259
     },
     "SIGMA_AIBC_FIERA_ROMA_2026_REIMBURSMENT": {
       "passing": true,
@@ -238,9 +238,10 @@
     "flip:BTCBACKPORTSVIJAY_04:in:2575480": "2026-11-14T15:15:17.920Z",
     "flip:BTCBACKPORTSVIJAY_04:out:2575480": "2026-11-15T00:15:17.883Z",
     "flip:JembeAndEvolite_WorkDone_2026:in:2575480": "2026-11-15T14:15:17.885Z",
-    "new:burn-500-dash": "2026-11-16T11:15:21.771Z"
+    "new:burn-500-dash": "2026-11-16T11:15:21.771Z",
+    "c24:2575480": "2026-11-16T13:45:17.784Z"
   },
   "superblock": "2575480",
   "lastPassingCount": 13,
-  "updated": "2026-11-16T13:15:17.801Z"
+  "updated": "2026-11-16T13:45:17.784Z"
 }
