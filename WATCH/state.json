@@ -58,7 +58,7 @@
     },
     "Optional-Content-Control": {
       "passing": false,
-      "net": 161
+      "net": 166
     },
     "Dash-Mass-Organic-Content-Attraction": {
       "passing": false,
@@ -78,7 +78,7 @@
     },
     "kwvg-core-oct26": {
       "passing": true,
-      "net": 383
+      "net": 388
     },
     "dashcentral-operations4": {
       "passing": false,
@@ -106,7 +106,7 @@
     },
     "BTCBACKPORTSVIJAY_04": {
       "passing": false,
-      "net": 281
+      "net": 286
     },
     "DCG-Operations-Aug-Nov-26": {
       "passing": true,
@@ -126,7 +126,7 @@
     },
     "BTCBackportsVijay_03": {
       "passing": false,
-      "net": 149
+      "net": 144
     },
     "GEG-PPP-30M-Film-On-Chain": {
       "passing": false,
@@ -247,5 +247,5 @@
   },
   "superblock": "2575480",
   "lastPassingCount": 18,
-  "updated": "2026-11-17T06:15:17.764Z"
+  "updated": "2026-11-17T06:45:18.004Z"
 }
