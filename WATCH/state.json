@@ -2,39 +2,39 @@
   "seen": {
     "burn-500-dash": {
       "passing": false,
-      "net": 6
+      "net": 9
     },
     "pshenmic-dev-dashextension-december-2026": {
       "passing": false,
-      "net": 284
+      "net": 292
     },
     "pshenmic-dev-dfo-december-2026": {
       "passing": true,
-      "net": 342
+      "net": 347
     },
     "DashDaoCenterNovDec2026": {
       "passing": false,
-      "net": 126
+      "net": 130
     },
     "pshenmic-dev-dashscan-december-2026": {
       "passing": false,
-      "net": 294
+      "net": 298
     },
     "pshenmic-dev-dash-desktop-december-2026": {
       "passing": false,
-      "net": 292
+      "net": 296
     },
     "SIGMA_AIBC_FIERA_ROMA_2026_REIMBURSMENT": {
       "passing": true,
-      "net": 642
+      "net": 638
     },
     "Dash_Italia_SiGMA_AIBC_Rome_Refund": {
       "passing": true,
-      "net": 523
+      "net": 527
     },
     "Dash-Stars-Ecosystem-Visibility-Pilot": {
       "passing": false,
-      "net": -26
+      "net": -22
     },
     "JembeAndEvolite_WorkDone_2026": {
       "passing": true,
@@ -245,5 +245,5 @@
   },
   "superblock": "2575480",
   "lastPassingCount": 15,
-  "updated": "2026-11-17T00:15:17.861Z"
+  "updated": "2026-11-17T00:45:17.685Z"
 }
