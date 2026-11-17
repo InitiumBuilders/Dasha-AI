@@ -2,7 +2,7 @@
   "seen": {
     "burn-500-dash": {
       "passing": false,
-      "net": 10
+      "net": 6
     },
     "pshenmic-dev-dashextension-december-2026": {
       "passing": false,
@@ -22,7 +22,7 @@
     },
     "pshenmic-dev-dash-desktop-december-2026": {
       "passing": false,
-      "net": 288
+      "net": 292
     },
     "SIGMA_AIBC_FIERA_ROMA_2026_REIMBURSMENT": {
       "passing": true,
@@ -85,8 +85,8 @@
       "net": 239
     },
     "DASH-MULTILINGUAL-EXPANSION_Q4": {
-      "passing": false,
-      "net": 278
+      "passing": true,
+      "net": 410
     },
     "Dash-Pay-name-registration-rules": {
       "passing": true,
@@ -240,9 +240,10 @@
     "flip:JembeAndEvolite_WorkDone_2026:in:2575480": "2026-11-15T14:15:17.885Z",
     "new:burn-500-dash": "2026-11-16T11:15:21.771Z",
     "c24:2575480": "2026-11-16T13:45:17.784Z",
-    "flip:pshenmic-dev-dfo-december-2026:in:2575480": "2026-11-16T22:45:17.875Z"
+    "flip:pshenmic-dev-dfo-december-2026:in:2575480": "2026-11-16T22:45:17.875Z",
+    "flip:DASH-MULTILINGUAL-EXPANSION_Q4:in:2575480": "2026-11-17T00:15:17.861Z"
   },
   "superblock": "2575480",
-  "lastPassingCount": 14,
-  "updated": "2026-11-16T23:45:18.024Z"
+  "lastPassingCount": 15,
+  "updated": "2026-11-17T00:15:17.861Z"
 }
