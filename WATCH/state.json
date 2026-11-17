@@ -10,7 +10,7 @@
     },
     "pshenmic-dev-dfo-december-2026": {
       "passing": true,
-      "net": 365
+      "net": 370
     },
     "DashDaoCenterNovDec2026": {
       "passing": false,
@@ -247,5 +247,5 @@
   },
   "superblock": "2575480",
   "lastPassingCount": 18,
-  "updated": "2026-11-17T06:45:18.004Z"
+  "updated": "2026-11-17T07:15:18.237Z"
 }
