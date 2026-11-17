@@ -2,35 +2,35 @@
   "seen": {
     "burn-500-dash": {
       "passing": false,
-      "net": 10
+      "net": -8
     },
     "pshenmic-dev-dashextension-december-2026": {
       "passing": true,
-      "net": 352
+      "net": 366
     },
     "pshenmic-dev-dfo-december-2026": {
       "passing": true,
-      "net": 372
+      "net": 386
     },
     "DashDaoCenterNovDec2026": {
       "passing": false,
-      "net": 139
+      "net": 153
     },
     "pshenmic-dev-dashscan-december-2026": {
       "passing": true,
-      "net": 362
+      "net": 376
     },
     "pshenmic-dev-dash-desktop-december-2026": {
       "passing": true,
-      "net": 356
+      "net": 370
     },
     "SIGMA_AIBC_FIERA_ROMA_2026_REIMBURSMENT": {
       "passing": true,
-      "net": 631
+      "net": 645
     },
     "Dash_Italia_SiGMA_AIBC_Rome_Refund": {
       "passing": true,
-      "net": 541
+      "net": 555
     },
     "Dash-Stars-Ecosystem-Visibility-Pilot": {
       "passing": false,
@@ -38,19 +38,19 @@
     },
     "JembeAndEvolite_WorkDone_2026": {
       "passing": true,
-      "net": 375
+      "net": 389
     },
     "EvoliteJembeAndNFTs_November_2026": {
       "passing": true,
-      "net": 328
+      "net": 342
     },
     "Dash-Music-MVP-Application-Developing": {
       "passing": false,
-      "net": 210
+      "net": 224
     },
     "Dash-APAC-November-December": {
       "passing": true,
-      "net": 406
+      "net": 420
     },
     "c2pool-daemonless-delivered": {
       "passing": false,
@@ -82,15 +82,15 @@
     },
     "dashcentral-operations4": {
       "passing": false,
-      "net": 234
+      "net": 248
     },
     "DASH-MULTILINGUAL-EXPANSION_Q4": {
       "passing": true,
-      "net": 410
+      "net": 424
     },
     "Dash-Pay-name-registration-rules": {
       "passing": true,
-      "net": 337
+      "net": 351
     },
     "DashDaoGrowthEngine": {
       "passing": false,
@@ -98,7 +98,7 @@
     },
     "vulnerability-disclosure-compensation": {
       "passing": true,
-      "net": 422
+      "net": 436
     },
     "dash-growth-q4-2026": {
       "passing": false,
@@ -122,7 +122,7 @@
     },
     "dash-growth-marketing-budget": {
       "passing": true,
-      "net": 369
+      "net": 397
     },
     "BTCBackportsVijay_03": {
       "passing": false,
@@ -248,5 +248,5 @@
   },
   "superblock": "2575480",
   "lastPassingCount": 19,
-  "updated": "2026-11-17T13:15:17.810Z"
+  "updated": "2026-11-17T13:45:17.968Z"
 }
