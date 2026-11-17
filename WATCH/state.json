@@ -2,7 +2,7 @@
   "seen": {
     "burn-500-dash": {
       "passing": false,
-      "net": 11
+      "net": 10
     },
     "pshenmic-dev-dashextension-december-2026": {
       "passing": true,
@@ -10,7 +10,7 @@
     },
     "pshenmic-dev-dfo-december-2026": {
       "passing": true,
-      "net": 371
+      "net": 372
     },
     "DashDaoCenterNovDec2026": {
       "passing": false,
@@ -248,5 +248,5 @@
   },
   "superblock": "2575480",
   "lastPassingCount": 19,
-  "updated": "2026-11-17T11:45:17.790Z"
+  "updated": "2026-11-17T12:15:17.755Z"
 }
