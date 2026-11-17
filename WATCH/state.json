@@ -6,11 +6,11 @@
     },
     "pshenmic-dev-dashextension-december-2026": {
       "passing": true,
-      "net": 335
+      "net": 341
     },
     "pshenmic-dev-dfo-december-2026": {
       "passing": true,
-      "net": 347
+      "net": 352
     },
     "DashDaoCenterNovDec2026": {
       "passing": false,
@@ -18,11 +18,11 @@
     },
     "pshenmic-dev-dashscan-december-2026": {
       "passing": true,
-      "net": 341
+      "net": 346
     },
     "pshenmic-dev-dash-desktop-december-2026": {
       "passing": true,
-      "net": 339
+      "net": 344
     },
     "SIGMA_AIBC_FIERA_ROMA_2026_REIMBURSMENT": {
       "passing": true,
@@ -126,7 +126,7 @@
     },
     "BTCBackportsVijay_03": {
       "passing": false,
-      "net": 159
+      "net": 149
     },
     "GEG-PPP-30M-Film-On-Chain": {
       "passing": false,
@@ -247,5 +247,5 @@
   },
   "superblock": "2575480",
   "lastPassingCount": 18,
-  "updated": "2026-11-17T01:45:17.716Z"
+  "updated": "2026-11-17T02:15:17.681Z"
 }
