@@ -5,8 +5,8 @@
       "net": 9
     },
     "pshenmic-dev-dashextension-december-2026": {
-      "passing": false,
-      "net": 292
+      "passing": true,
+      "net": 335
     },
     "pshenmic-dev-dfo-december-2026": {
       "passing": true,
@@ -14,15 +14,15 @@
     },
     "DashDaoCenterNovDec2026": {
       "passing": false,
-      "net": 130
+      "net": 134
     },
     "pshenmic-dev-dashscan-december-2026": {
-      "passing": false,
-      "net": 298
+      "passing": true,
+      "net": 341
     },
     "pshenmic-dev-dash-desktop-december-2026": {
-      "passing": false,
-      "net": 296
+      "passing": true,
+      "net": 339
     },
     "SIGMA_AIBC_FIERA_ROMA_2026_REIMBURSMENT": {
       "passing": true,
@@ -241,9 +241,11 @@
     "new:burn-500-dash": "2026-11-16T11:15:21.771Z",
     "c24:2575480": "2026-11-16T13:45:17.784Z",
     "flip:pshenmic-dev-dfo-december-2026:in:2575480": "2026-11-16T22:45:17.875Z",
-    "flip:DASH-MULTILINGUAL-EXPANSION_Q4:in:2575480": "2026-11-17T00:15:17.861Z"
+    "flip:DASH-MULTILINGUAL-EXPANSION_Q4:in:2575480": "2026-11-17T00:15:17.861Z",
+    "flip:pshenmic-dev-dashextension-december-2026:in:2575480": "2026-11-17T01:15:17.829Z",
+    "flip:pshenmic-dev-dashscan-december-2026:in:2575480": "2026-11-17T01:15:17.829Z"
   },
   "superblock": "2575480",
-  "lastPassingCount": 15,
-  "updated": "2026-11-17T00:45:17.685Z"
+  "lastPassingCount": 18,
+  "updated": "2026-11-17T01:15:17.829Z"
 }
