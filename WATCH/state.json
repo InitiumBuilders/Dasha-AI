@@ -2,7 +2,7 @@
   "seen": {
     "burn-500-dash": {
       "passing": false,
-      "net": 9
+      "net": 4
     },
     "pshenmic-dev-dashextension-december-2026": {
       "passing": true,
@@ -18,7 +18,7 @@
     },
     "pshenmic-dev-dashscan-december-2026": {
       "passing": true,
-      "net": 346
+      "net": 350
     },
     "pshenmic-dev-dash-desktop-december-2026": {
       "passing": true,
@@ -30,7 +30,7 @@
     },
     "Dash_Italia_SiGMA_AIBC_Rome_Refund": {
       "passing": true,
-      "net": 527
+      "net": 532
     },
     "Dash-Stars-Ecosystem-Visibility-Pilot": {
       "passing": false,
@@ -38,7 +38,7 @@
     },
     "JembeAndEvolite_WorkDone_2026": {
       "passing": true,
-      "net": 363
+      "net": 368
     },
     "EvoliteJembeAndNFTs_November_2026": {
       "passing": false,
@@ -58,7 +58,7 @@
     },
     "Optional-Content-Control": {
       "passing": false,
-      "net": 156
+      "net": 161
     },
     "Dash-Mass-Organic-Content-Attraction": {
       "passing": false,
@@ -82,7 +82,7 @@
     },
     "dashcentral-operations4": {
       "passing": false,
-      "net": 239
+      "net": 234
     },
     "DASH-MULTILINGUAL-EXPANSION_Q4": {
       "passing": true,
@@ -247,5 +247,5 @@
   },
   "superblock": "2575480",
   "lastPassingCount": 18,
-  "updated": "2026-11-17T02:15:17.681Z"
+  "updated": "2026-11-17T02:45:17.785Z"
 }
