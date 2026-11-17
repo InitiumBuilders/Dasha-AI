@@ -41,8 +41,8 @@
       "net": 375
     },
     "EvoliteJembeAndNFTs_November_2026": {
-      "passing": false,
-      "net": 312
+      "passing": true,
+      "net": 320
     },
     "Dash-Music-MVP-Application-Developing": {
       "passing": false,
@@ -243,9 +243,10 @@
     "flip:pshenmic-dev-dfo-december-2026:in:2575480": "2026-11-16T22:45:17.875Z",
     "flip:DASH-MULTILINGUAL-EXPANSION_Q4:in:2575480": "2026-11-17T00:15:17.861Z",
     "flip:pshenmic-dev-dashextension-december-2026:in:2575480": "2026-11-17T01:15:17.829Z",
-    "flip:pshenmic-dev-dashscan-december-2026:in:2575480": "2026-11-17T01:15:17.829Z"
+    "flip:pshenmic-dev-dashscan-december-2026:in:2575480": "2026-11-17T01:15:17.829Z",
+    "flip:EvoliteJembeAndNFTs_November_2026:in:2575480": "2026-11-17T10:45:17.834Z"
   },
   "superblock": "2575480",
-  "lastPassingCount": 18,
-  "updated": "2026-11-17T10:15:17.890Z"
+  "lastPassingCount": 19,
+  "updated": "2026-11-17T10:45:17.834Z"
 }
