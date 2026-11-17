@@ -2,7 +2,7 @@
   "seen": {
     "burn-500-dash": {
       "passing": false,
-      "net": -24
+      "net": -34
     },
     "pshenmic-dev-dashextension-december-2026": {
       "passing": true,
@@ -38,7 +38,7 @@
     },
     "JembeAndEvolite_WorkDone_2026": {
       "passing": true,
-      "net": 413
+      "net": 417
     },
     "EvoliteJembeAndNFTs_November_2026": {
       "passing": true,
@@ -106,7 +106,7 @@
     },
     "BTCBACKPORTSVIJAY_04": {
       "passing": true,
-      "net": 332
+      "net": 340
     },
     "DCG-Operations-Aug-Nov-26": {
       "passing": true,
@@ -248,5 +248,5 @@
   },
   "superblock": "2575480",
   "lastPassingCount": 20,
-  "updated": "2026-11-17T15:45:17.759Z"
+  "updated": "2026-11-17T16:15:17.790Z"
 }
