@@ -2,7 +2,7 @@
   "seen": {
     "burn-500-dash": {
       "passing": false,
-      "net": -20
+      "net": -24
     },
     "pshenmic-dev-dashextension-december-2026": {
       "passing": true,
@@ -22,7 +22,7 @@
     },
     "pshenmic-dev-dash-desktop-december-2026": {
       "passing": true,
-      "net": 394
+      "net": 398
     },
     "SIGMA_AIBC_FIERA_ROMA_2026_REIMBURSMENT": {
       "passing": true,
@@ -38,7 +38,7 @@
     },
     "JembeAndEvolite_WorkDone_2026": {
       "passing": true,
-      "net": 409
+      "net": 413
     },
     "EvoliteJembeAndNFTs_November_2026": {
       "passing": true,
@@ -248,5 +248,5 @@
   },
   "superblock": "2575480",
   "lastPassingCount": 20,
-  "updated": "2026-11-17T15:15:17.868Z"
+  "updated": "2026-11-17T15:45:17.759Z"
 }
