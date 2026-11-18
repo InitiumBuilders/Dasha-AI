@@ -34,8 +34,37 @@ async function govData() {
     const r = await fetch('https://www.dashcentral.org/api/v1/budget', { signal: ctl.signal,
       headers: { 'user-agent': 'DashaAI/1.2 (+https://www.dashsupport.team)' } });
     if (!r.ok) return null;
-    return await r.json();
+    const j = await r.json();
+    try { await exactStarts(j); } catch (e) {}
+    return j;
   } catch (e) { return null; } finally { clearTimeout(t); }
+}
+
+/* the exact window start of the few proposals whose inferred start falls near a superblock (2026-11-18). DashCentral
+   gives each window's end and its payments, not its start; end minus payments times the cycle is about a day off,
+   harmless for windows built around a superblock, but a wallet-made window can open anywhere. Read from the chain's
+   own proposal data, at most six, five seconds each; a miss falls back to the inference. */
+async function exactStarts(j) {
+  const b = (j && j.budget) || {}, sbTs = tsOf(b.payment_date), SB_MS = 16616 * 157.5 * 1000, EDGE = 3 * 864e5;
+  if (!sbTs || !j || !Array.isArray(j.proposals)) return;
+  const near = j.proposals.filter((p) => {
+    const end = tsOf(p.date_end), n = num(p.total_payment_count) || 1;
+    if (!end || !p.hash) return false;
+    const s = end - n * SB_MS;
+    return Math.abs(s - sbTs) < EDGE || Math.abs(s - (sbTs + SB_MS)) < EDGE;
+  }).slice(0, 6);
+  const out = {};
+  await Promise.all(near.map(async (p) => {
+    const ctl = new AbortController(), t = setTimeout(() => ctl.abort(), 5000);
+    try {
+      const r = await fetch('https://insight.dash.org/insight-api/gobject/get/' + encodeURIComponent(p.hash), { signal: ctl.signal });
+      const a = await r.json(), hex = (a && a[0] && a[0].DataHex) || '';
+      let o = JSON.parse(Buffer.from(hex, 'hex').toString('utf8'));
+      if (Array.isArray(o)) o = (o[0] && o[0][1]) || {};          /* the older [["proposal", {...}]] shape */
+      if (o && Number(o.start_epoch) > 1e9) out[p.hash] = Number(o.start_epoch) * 1000;
+    } catch (e) {} finally { clearTimeout(t); }
+  }));
+  j._starts = out;
 }
 
 function num(v) { const n = Number(v); return isFinite(n) ? n : null; }
@@ -96,10 +125,19 @@ function snapshot(d) {
       /* a payment left counts only if the window reaches the next superblock (2026-11-17): DashCentral's count of
          payments left ignores windows, and Dash Core skips a proposal whose end_epoch (+2 h) comes first */
       const SB_MS = 16616 * 157.5 * 1000, FUDGE = 2 * 36e5, sbTs = tsOf(b.payment_date);
-      const reaches = (p) => !sbTs || !p.end || p.end + FUDGE >= sbTs + SB_MS;
-      const pas = props.filter((p) => p.passing), on = pas.filter((p) => (p.months || 0) > 1 && reaches(p)), last = pas.filter((p) => on.indexOf(p) < 0);
+      /* and only if it has opened by then (2026-11-18): a window spans about one cycle per payment, so its start is the
+         chain's start_epoch where exactStarts read it, else end minus total payments times the cycle. A one-payment
+         proposal whose window opens after this superblock (Dash-Pay-name-registration-rules, from Jan 3) is paid by
+         neither this one nor the next, and must not count as making its last payment here */
+      const startOf = (p) => (d._starts && d._starts[p.hash]) || (p.end ? p.end - (p.totalPays || p.months || 1) * SB_MS : null);
+      const covers = (p, t) => !p.end || (startOf(p) - FUDGE <= t && t <= p.end + FUDGE);
+      const pas = props.filter((p) => p.passing);
+      const paying = sbTs ? pas.filter((p) => covers(p, sbTs)) : pas;
+      const on = sbTs ? pas.filter((p) => covers(p, sbTs + SB_MS)) : pas.filter((p) => (p.months || 0) > 1);
+      const last = paying.filter((p) => on.indexOf(p) < 0);
       const sum = (l) => l.reduce((a, p) => a + (p.ask || 0), 0);
-      return { claimed: sum(on), count: on.length, ending: sum(last), endingCount: last.length };
+      return { claimed: sum(on), count: on.length, ending: sum(last), endingCount: last.length, payingNow: paying.length,
+               later: pas.filter((p) => paying.indexOf(p) < 0 && on.indexOf(p) < 0).length };
     })(),
     /* the window watch (2026-11-14): proposals short of votes that only the round still open can pay. Dash Core skips
        a proposal whose window, widened by 2 hours, misses a superblock's time (GovernanceSigner::
