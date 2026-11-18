@@ -500,7 +500,7 @@
       "name": "/dash-gov",
       "title": "Governance Explainer",
       "file": "skills/dash-gov.md",
-      "chars": 2759,
+      "chars": 2761,
       "phrases": [
         "what proposals",
         "which proposals",
@@ -1243,7 +1243,7 @@
       "name": "/governance-digest",
       "title": "This-Cycle Voter Briefing",
       "file": "skills/governance-digest.md",
-      "chars": 3322,
+      "chars": 3324,
       "phrases": [
         "governance digest",
         "proposals this cycle",
@@ -2321,7 +2321,7 @@
       "id": "9.",
       "title": "9. GOVERNANCE MATH QUICKREF",
       "file": "knowledge/9-governance-math-quickref.md",
-      "chars": 5136,
+      "chars": 5590,
       "phrases": [
         "proposal",
         "superblock",
