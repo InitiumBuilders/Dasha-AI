@@ -2,7 +2,7 @@
   "seen": {
     "burn-500-dash": {
       "passing": false,
-      "net": -34
+      "net": -58
     },
     "pshenmic-dev-dashextension-december-2026": {
       "passing": true,
@@ -46,7 +46,7 @@
     },
     "Dash-Music-MVP-Application-Developing": {
       "passing": false,
-      "net": 244
+      "net": 196
     },
     "Dash-APAC-November-December": {
       "passing": true,
@@ -248,5 +248,5 @@
   },
   "superblock": "2575480",
   "lastPassingCount": 20,
-  "updated": "2026-11-18T04:45:17.796Z"
+  "updated": "2026-11-18T05:15:17.700Z"
 }
