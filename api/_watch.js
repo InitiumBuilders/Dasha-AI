@@ -93,7 +93,11 @@ function snapshot(d) {
     /* the next superblock, as far as this ballot already knows it (2026-11-14): passing proposals with a payment
        after this one keep paying in the next if their votes hold; for the rest this is the last payment */
     next: (function () {
-      const pas = props.filter((p) => p.passing), on = pas.filter((p) => (p.months || 0) > 1), last = pas.filter((p) => (p.months || 0) <= 1);
+      /* a payment left counts only if the window reaches the next superblock (2026-11-17): DashCentral's count of
+         payments left ignores windows, and Dash Core skips a proposal whose end_epoch (+2 h) comes first */
+      const SB_MS = 16616 * 157.5 * 1000, FUDGE = 2 * 36e5, sbTs = tsOf(b.payment_date);
+      const reaches = (p) => !sbTs || !p.end || p.end + FUDGE >= sbTs + SB_MS;
+      const pas = props.filter((p) => p.passing), on = pas.filter((p) => (p.months || 0) > 1 && reaches(p)), last = pas.filter((p) => on.indexOf(p) < 0);
       const sum = (l) => l.reduce((a, p) => a + (p.ask || 0), 0);
       return { claimed: sum(on), count: on.length, ending: sum(last), endingCount: last.length };
     })(),
