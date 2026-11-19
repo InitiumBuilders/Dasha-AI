@@ -2,7 +2,7 @@
   "seen": {
     "dashcentral-operations4-v2": {
       "passing": false,
-      "net": 0
+      "net": 10
     },
     "burn-500-dash": {
       "passing": false,
@@ -253,5 +253,5 @@
   },
   "superblock": "2575480",
   "lastPassingCount": 20,
-  "updated": "2026-11-19T15:45:17.727Z"
+  "updated": "2026-11-19T16:15:17.839Z"
 }
