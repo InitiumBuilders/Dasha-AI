@@ -1,5 +1,9 @@
 {
   "seen": {
+    "dashcentral-operations4-v2": {
+      "passing": false,
+      "net": 0
+    },
     "burn-500-dash": {
       "passing": false,
       "net": -65
@@ -244,9 +248,10 @@
     "flip:DASH-MULTILINGUAL-EXPANSION_Q4:in:2575480": "2026-11-17T00:15:17.861Z",
     "flip:pshenmic-dev-dashextension-december-2026:in:2575480": "2026-11-17T01:15:17.829Z",
     "flip:pshenmic-dev-dashscan-december-2026:in:2575480": "2026-11-17T01:15:17.829Z",
-    "flip:EvoliteJembeAndNFTs_November_2026:in:2575480": "2026-11-17T10:45:17.834Z"
+    "flip:EvoliteJembeAndNFTs_November_2026:in:2575480": "2026-11-17T10:45:17.834Z",
+    "new:dashcentral-operations4-v2": "2026-11-19T14:15:27.560Z"
   },
   "superblock": "2575480",
   "lastPassingCount": 20,
-  "updated": "2026-11-19T13:45:17.808Z"
+  "updated": "2026-11-19T14:15:27.560Z"
 }
