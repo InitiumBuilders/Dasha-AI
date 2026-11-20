@@ -1,5 +1,9 @@
 {
   "seen": {
+    "fly-coins": {
+      "passing": false,
+      "net": 0
+    },
     "dashcentral-operations4-v2": {
       "passing": false,
       "net": 10
@@ -249,9 +253,10 @@
     "flip:pshenmic-dev-dashextension-december-2026:in:2575480": "2026-11-17T01:15:17.829Z",
     "flip:pshenmic-dev-dashscan-december-2026:in:2575480": "2026-11-17T01:15:17.829Z",
     "flip:EvoliteJembeAndNFTs_November_2026:in:2575480": "2026-11-17T10:45:17.834Z",
-    "new:dashcentral-operations4-v2": "2026-11-19T14:15:27.560Z"
+    "new:dashcentral-operations4-v2": "2026-11-19T14:15:27.560Z",
+    "new:fly-coins": "2026-11-20T01:45:18.075Z"
   },
   "superblock": "2575480",
   "lastPassingCount": 20,
-  "updated": "2026-11-20T01:15:17.661Z"
+  "updated": "2026-11-20T01:45:18.075Z"
 }
