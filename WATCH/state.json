@@ -6,7 +6,7 @@
     },
     "dashcentral-operations4-v2": {
       "passing": false,
-      "net": 10
+      "net": 5
     },
     "burn-500-dash": {
       "passing": false,
@@ -90,7 +90,7 @@
     },
     "dashcentral-operations4": {
       "passing": false,
-      "net": 262
+      "net": 252
     },
     "DASH-MULTILINGUAL-EXPANSION_Q4": {
       "passing": true,
@@ -258,5 +258,5 @@
   },
   "superblock": "2575480",
   "lastPassingCount": 20,
-  "updated": "2026-11-20T07:45:18.067Z"
+  "updated": "2026-11-20T08:15:17.703Z"
 }
