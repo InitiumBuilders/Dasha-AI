@@ -10,139 +10,139 @@
     },
     "burn-500-dash": {
       "passing": false,
-      "net": -65
+      "net": -67
     },
     "pshenmic-dev-dashextension-december-2026": {
       "passing": true,
-      "net": 382
+      "net": 380
     },
     "pshenmic-dev-dfo-december-2026": {
       "passing": true,
-      "net": 402
+      "net": 404
     },
     "DashDaoCenterNovDec2026": {
       "passing": false,
-      "net": 169
+      "net": 167
     },
     "pshenmic-dev-dashscan-december-2026": {
       "passing": true,
-      "net": 392
+      "net": 390
     },
     "pshenmic-dev-dash-desktop-december-2026": {
       "passing": true,
-      "net": 410
+      "net": 412
     },
     "SIGMA_AIBC_FIERA_ROMA_2026_REIMBURSMENT": {
       "passing": true,
-      "net": 659
+      "net": 661
     },
     "Dash_Italia_SiGMA_AIBC_Rome_Refund": {
       "passing": true,
-      "net": 569
+      "net": 571
     },
     "Dash-Stars-Ecosystem-Visibility-Pilot": {
       "passing": false,
-      "net": -48
+      "net": -50
     },
     "JembeAndEvolite_WorkDone_2026": {
       "passing": true,
-      "net": 429
+      "net": 427
     },
     "EvoliteJembeAndNFTs_November_2026": {
       "passing": true,
-      "net": 360
+      "net": 358
     },
     "Dash-Music-MVP-Application-Developing": {
       "passing": false,
-      "net": 196
+      "net": 194
     },
     "Dash-APAC-November-December": {
       "passing": true,
-      "net": 436
+      "net": 434
     },
     "c2pool-daemonless-delivered": {
       "passing": false,
-      "net": 190
+      "net": 192
     },
     "Optional-Content-Control": {
       "passing": false,
-      "net": 196
+      "net": 198
     },
     "Dash-Mass-Organic-Content-Attraction": {
       "passing": false,
-      "net": 169
+      "net": 171
     },
     "Business-Development-Nov-December-26": {
       "passing": true,
-      "net": 599
+      "net": 597
     },
     "dash-intents": {
       "passing": false,
-      "net": 61
+      "net": 59
     },
     "APAC-BizDev-HK-China-SG-Nov-Dec-26": {
       "passing": true,
-      "net": 435
+      "net": 433
     },
     "kwvg-core-oct26": {
       "passing": true,
-      "net": 418
+      "net": 420
     },
     "dashcentral-operations4": {
       "passing": false,
-      "net": 264
+      "net": 262
     },
     "DASH-MULTILINGUAL-EXPANSION_Q4": {
       "passing": true,
-      "net": 440
+      "net": 442
     },
     "Dash-Pay-name-registration-rules": {
       "passing": true,
-      "net": 367
+      "net": 365
     },
     "DashDaoGrowthEngine": {
       "passing": false,
-      "net": 35
+      "net": 37
     },
     "vulnerability-disclosure-compensation": {
       "passing": true,
-      "net": 452
+      "net": 450
     },
     "dash-growth-q4-2026": {
       "passing": false,
-      "net": 212
+      "net": 214
     },
     "BTCBACKPORTSVIJAY_04": {
       "passing": true,
-      "net": 368
+      "net": 366
     },
     "DCG-Operations-Aug-Nov-26": {
       "passing": true,
-      "net": 691
+      "net": 689
     },
     "OrchardPay": {
       "passing": false,
-      "net": 175
+      "net": 173
     },
     "Dash-communities-without-censorship": {
       "passing": false,
-      "net": 180
+      "net": 178
     },
     "dash-growth-marketing-budget": {
       "passing": true,
-      "net": 397
+      "net": 399
     },
     "BTCBackportsVijay_03": {
       "passing": false,
-      "net": 144
+      "net": 146
     },
     "GEG-PPP-30M-Film-On-Chain": {
       "passing": false,
-      "net": -256
+      "net": -258
     },
     "Dash-Italia-Management-2026": {
       "passing": true,
-      "net": 563
+      "net": 565
     },
     "mnowatch-hosting-2026": {
       "passing": true,
@@ -150,7 +150,7 @@
     },
     "encointerUBI-mean26": {
       "passing": false,
-      "net": -136
+      "net": -134
     }
   },
   "fired": {
@@ -258,5 +258,5 @@
   },
   "superblock": "2575480",
   "lastPassingCount": 20,
-  "updated": "2026-11-20T02:15:17.730Z"
+  "updated": "2026-11-20T02:45:17.813Z"
 }
