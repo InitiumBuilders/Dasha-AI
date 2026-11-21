@@ -6,7 +6,7 @@
     },
     "dashcentral-operations4-v2": {
       "passing": false,
-      "net": 20
+      "net": 21
     },
     "burn-500-dash": {
       "passing": false,
@@ -70,7 +70,7 @@
     },
     "vulnerability-disclosure-compensation": {
       "passing": true,
-      "net": 445
+      "net": 444
     },
     "dash-growth-q4-2026": {
       "passing": false,
@@ -219,5 +219,5 @@
   },
   "superblock": "2592096",
   "lastPassingCount": 10,
-  "updated": "2026-11-21T03:15:17.686Z"
+  "updated": "2026-11-21T03:45:17.773Z"
 }
