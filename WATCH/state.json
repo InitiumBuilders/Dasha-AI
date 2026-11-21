@@ -70,7 +70,7 @@
     },
     "vulnerability-disclosure-compensation": {
       "passing": true,
-      "net": 450
+      "net": 449
     },
     "dash-growth-q4-2026": {
       "passing": false,
@@ -219,5 +219,5 @@
   },
   "superblock": "2592096",
   "lastPassingCount": 10,
-  "updated": "2026-11-21T01:15:17.739Z"
+  "updated": "2026-11-21T01:45:17.798Z"
 }
