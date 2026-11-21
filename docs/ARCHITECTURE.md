@@ -26,7 +26,7 @@ and never reaches a browser.
 
 `api/`, `web/` and `scripts/` are a copy of the code the Dash Support Team runs at
 [www.dashsupport.team](https://www.dashsupport.team). The copy was last taken on 14 November
-2026, from the build that serves mind v2.15.17. `GET /api/chat` on the live site reports the
+2026, from the build that serves mind v2.15.18. `GET /api/chat` on the live site reports the
 version it runs and the tools it has, so you can compare.
 
 | File | What it does |
@@ -88,7 +88,7 @@ https://raw.githubusercontent.com/InitiumBuilders/Dasha-AI/main/PROMPT/
     VERSION           the version line
 ```
 
-At v2.15.17 the spine is 78,779 characters and the library holds 57 skills and 24 reference
+At v2.15.18 the spine is 78,976 characters and the library holds 57 skills and 24 reference
 sections. The spine carries her identity, her safety rules, the tool contracts, the answer shape
 and an index of every skill, so she can recommend a skill without loading it.
 
@@ -146,12 +146,12 @@ curl https://www.dashsupport.team/api/chat
     "routing": "…", "freshness": "…"
   },
   "mind": {
-    "version": "v2.15.17 (live)",   // "(live)" from the repo, "(baked)" from the fallback
+    "version": "v2.15.18 (live)",   // "(live)" from the repo, "(baked)" from the fallback
     "origin": "github",            // the runtime naming this repo as its source
-    "spineChars": 78779,
+    "spineChars": 78976,
     "library": { "skills": 57, "knowledge": 24 },
     "loading": "spine always + only the skill/reference the question touches",
-    "baked": "v2.15.17"
+    "baked": "v2.15.18"
   },
   "learning": { "publicBoard": true, "teamChannel": true, "note": "…" },
   "analytics": { "store": "…", "principle": "…", "publicPulse": "…", "teamPulse": "…" },
