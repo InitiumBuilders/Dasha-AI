@@ -532,8 +532,11 @@
         }
         function sendFb(good, note) {
           fetch(API, { method: 'POST', headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify({ feedback: { good: good, note: note || '', q: qForFeedback || '',
-              a: String(text).slice(0, 900), tools: (tools || []).join(',') } }) })
+            /* a bare rating carries a count and the names of the tools she used, never the words: the question and
+               the answer travel only with a note, after the box has said that the note is filed in public */
+            body: JSON.stringify({ feedback: note
+              ? { good: good, note: note, q: qForFeedback || '', a: String(text).slice(0, 900), tools: (tools || []).join(',') }
+              : { good: good, tools: (tools || []).join(',') } }) })
             .then(function (r) { return r.json(); })
             .then(function (x) {
               var t = fb.querySelector('.fbt');

@@ -536,10 +536,11 @@ History arrives with the request and leaves with it, and she has no memory acros
   skills, tools, whether it succeeded, the cost. It holds no question, answer, address or
   person. The store is Supabase, a KV store, or the instance's memory, in that order of
   preference, and the Pulse reads back 30 days at most.
-- **Feedback** (`api/_learn.js`). A thumbs-up or thumbs-down sends a notice with no text to the
-  team's channel. A thumbs-down with a note sends the question, the answer and the note there,
-  and files them as a public issue in this repository. The widget says so before the note is
-  sent.
+- **Feedback** (`api/_learn.js`). A thumbs-up or thumbs-down sends the rating and the names of the
+  tools used; the question and the answer stay in the browser, and the team's channel gets a
+  notice with no text. A thumbs-down with a note sends the question, the answer and the note,
+  posts them to the channel, and files them as a public issue in this repository. The widget
+  says so before the note is sent.
 - **`/human-support`** sends the person's note to the team's channel, made quiet first (no link,
   no live domain, no mention that can ping). From Telegram it carries their handle and the
   group's name, and from an X direct message their handle.
