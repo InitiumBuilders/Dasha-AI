@@ -588,7 +588,7 @@
       "name": "/mno",
       "title": "Masternode Owner Helper",
       "file": "skills/mno.md",
-      "chars": 2316,
+      "chars": 2987,
       "phrases": [
         "run a masternode",
         "running a masternode",
@@ -2246,7 +2246,7 @@
       "id": "6.",
       "title": "6. EVONODES vs MASTERNODES",
       "file": "knowledge/6-evonodes-vs-masternodes.md",
-      "chars": 829,
+      "chars": 1565,
       "phrases": [
         "masternode",
         "evonode",
