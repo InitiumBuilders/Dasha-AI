@@ -588,7 +588,7 @@
       "name": "/mno",
       "title": "Masternode Owner Helper",
       "file": "skills/mno.md",
-      "chars": 2987,
+      "chars": 3356,
       "phrases": [
         "run a masternode",
         "running a masternode",
@@ -2321,7 +2321,7 @@
       "id": "9.",
       "title": "9. GOVERNANCE MATH QUICKREF",
       "file": "knowledge/9-governance-math-quickref.md",
-      "chars": 5869,
+      "chars": 6162,
       "phrases": [
         "proposal",
         "superblock",
