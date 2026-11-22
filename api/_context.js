@@ -49,6 +49,15 @@ function selectContext(messages, index, opts) {
   const explicit = sk.filter((x) => x.s >= SLASH_HIT);
   const chosen = (explicit.length ? explicit : sk).slice(0, MAX_SKILLS);
 
+  /* A SURFACE BRINGS ITS SKILL. /x-reply is the craft for every public reply on X (its trigger: "fires on its
+     own"), but nothing in a tweet names it, and it has no phrases or words, so it never loaded there (measured
+     2026-11-21). On the X surface it takes the first place, and the question keeps the second. */
+  if (opts && opts.surface === 'x') {
+    const craft = index.skills.find((e) => e.name === '/x-reply');
+    if (craft && !chosen.some((x) => x.e === craft)) chosen.unshift({ e: craft, s: SLASH_HIT });
+    chosen.splice(MAX_SKILLS);
+  }
+
   const kn = index.knowledge.map((e) => ({ e, s: scoreOne(text, e) }))
     .filter((x) => x.s >= FLOOR)
     .sort((a, b) => b.s - a.s)
