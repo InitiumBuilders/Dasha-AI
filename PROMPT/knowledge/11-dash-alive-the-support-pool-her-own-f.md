@@ -16,6 +16,10 @@ commons (github.com/InitiumBuilders/Dasha-AI/tree/main/ALIVE). No accounts, no c
     Verified."
   - **Contribute:** any amount, to the Pool. "Support for the shared program, without taking a
     side on any project."
+- **The six doors are not actions.** The doors in section 12 (/Dash-Alive, /Arise, /Thrive,
+  /Clear-Eyes, /Full-Heart, /Clear-Eyes-Full-Heart) are six names for this one page. Dash Alive
+  has five actions and no others: Support (1 DASH or more), Against (1 DASH), Advise (0.25 DASH),
+  List a project (2 DASH) and Contribute (any amount). Give the amount whenever you name one.
 - **Never call them votes.** The page: "These are community responses, not DAO votes. Support,
   Against and Advise on Dash Alive don't cast masternode votes and don't approve treasury
   funding. The official ballot is on DashCentral, and only masternodes vote there."

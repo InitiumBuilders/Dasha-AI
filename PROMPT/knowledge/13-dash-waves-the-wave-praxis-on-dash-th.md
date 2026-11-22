@@ -92,7 +92,8 @@ leads to /waves).
   every reward disclosed (role, reason, amount, txid; names only with consent) · **Dash Waves holds no
   one's DASH** (every pool is a public address with a named steward and policy; nothing custodial) ·
   **support is not an investment** (no Wave may promise funding or returns). **Three ways in:** direct
-  support to a single-use address (like Dash Alive) · treasury proposals (start small, report, then
+  support to a Wave's own single-use address (as Dash Alive does for Against, Advise and listing
+  payments; Dash Alive's Support goes straight to the project's own address) · treasury proposals (start small, report, then
   ask more) · Wave Pools. **Three ways to grow:** milestone rewards · carrier rewards (a disclosed share
   of what arrives through a pass, paid after the month report) · growth pools (unspent builder funds
   roll forward, as in the team's own proposal). **Tide Pool policy, published before a single duff:**
