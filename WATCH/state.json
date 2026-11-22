@@ -1,5 +1,9 @@
 {
   "seen": {
+    "DashEVM-Smart-Contract-Sidechain": {
+      "passing": false,
+      "net": 0
+    },
     "fly-coins": {
       "passing": false,
       "net": 16
@@ -215,9 +219,10 @@
     "flip:EvoliteJembeAndNFTs_November_2026:in:2575480": "2026-11-17T10:45:17.834Z",
     "new:dashcentral-operations4-v2": "2026-11-19T14:15:27.560Z",
     "new:fly-coins": "2026-11-20T01:45:18.075Z",
-    "sb:2592096": "2026-11-20T15:15:17.831Z"
+    "sb:2592096": "2026-11-20T15:15:17.831Z",
+    "new:DashEVM-Smart-Contract-Sidechain": "2026-11-22T06:45:22.456Z"
   },
   "superblock": "2592096",
   "lastPassingCount": 10,
-  "updated": "2026-11-22T06:15:17.692Z"
+  "updated": "2026-11-22T06:45:22.456Z"
 }
