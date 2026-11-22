@@ -2,7 +2,7 @@
   "seen": {
     "DashEVM-Smart-Contract-Sidechain": {
       "passing": false,
-      "net": 0
+      "net": -5
     },
     "fly-coins": {
       "passing": false,
@@ -224,5 +224,5 @@
   },
   "superblock": "2592096",
   "lastPassingCount": 10,
-  "updated": "2026-11-22T08:15:17.950Z"
+  "updated": "2026-11-22T08:45:17.890Z"
 }
