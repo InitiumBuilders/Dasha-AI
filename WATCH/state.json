@@ -1,16 +1,20 @@
 {
   "seen": {
+    "c2pool-daemonless-dash": {
+      "passing": false,
+      "net": 0
+    },
     "DashEVM-Smart-Contract-Sidechain": {
       "passing": false,
-      "net": -5
+      "net": -14
     },
     "fly-coins": {
       "passing": false,
-      "net": 16
+      "net": 19
     },
     "dashcentral-operations4-v2": {
       "passing": false,
-      "net": 21
+      "net": 33
     },
     "burn-500-dash": {
       "passing": false,
@@ -220,9 +224,10 @@
     "new:dashcentral-operations4-v2": "2026-11-19T14:15:27.560Z",
     "new:fly-coins": "2026-11-20T01:45:18.075Z",
     "sb:2592096": "2026-11-20T15:15:17.831Z",
-    "new:DashEVM-Smart-Contract-Sidechain": "2026-11-22T06:45:22.456Z"
+    "new:DashEVM-Smart-Contract-Sidechain": "2026-11-22T06:45:22.456Z",
+    "new:c2pool-daemonless-dash": "2026-11-23T21:15:31.763Z"
   },
   "superblock": "2592096",
   "lastPassingCount": 10,
-  "updated": "2026-11-22T08:45:17.890Z"
+  "updated": "2026-11-23T21:15:31.763Z"
 }
