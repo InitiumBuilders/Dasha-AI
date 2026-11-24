@@ -58,7 +58,7 @@
     },
     "kwvg-core-oct26": {
       "passing": true,
-      "net": 420
+      "net": 422
     },
     "dashcentral-operations4": {
       "passing": false,
@@ -86,7 +86,7 @@
     },
     "BTCBACKPORTSVIJAY_04": {
       "passing": true,
-      "net": 366
+      "net": 368
     },
     "OrchardPay": {
       "passing": false,
@@ -229,5 +229,5 @@
   },
   "superblock": "2592096",
   "lastPassingCount": 10,
-  "updated": "2026-11-23T23:45:17.743Z"
+  "updated": "2026-11-24T00:15:17.797Z"
 }
