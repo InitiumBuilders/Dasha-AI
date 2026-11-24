@@ -2,7 +2,7 @@
   "seen": {
     "c2pool-daemonless-dash": {
       "passing": false,
-      "net": 1
+      "net": -1
     },
     "DashEVM-Smart-Contract-Sidechain": {
       "passing": false,
@@ -225,5 +225,5 @@
   },
   "superblock": "2592096",
   "lastPassingCount": 10,
-  "updated": "2026-11-24T15:45:17.910Z"
+  "updated": "2026-11-24T16:15:17.837Z"
 }
