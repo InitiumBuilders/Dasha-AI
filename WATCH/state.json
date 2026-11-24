@@ -2,23 +2,23 @@
   "seen": {
     "c2pool-daemonless-dash": {
       "passing": false,
-      "net": 0
+      "net": 1
     },
     "DashEVM-Smart-Contract-Sidechain": {
       "passing": false,
-      "net": -14
+      "net": -15
     },
     "fly-coins": {
       "passing": false,
-      "net": 19
+      "net": 18
     },
     "dashcentral-operations4-v2": {
       "passing": false,
-      "net": 33
+      "net": 34
     },
     "burn-500-dash": {
       "passing": false,
-      "net": -66
+      "net": -65
     },
     "DashDaoCenterNovDec2026": {
       "passing": false,
@@ -225,5 +225,5 @@
   },
   "superblock": "2592096",
   "lastPassingCount": 10,
-  "updated": "2026-11-24T15:15:18.094Z"
+  "updated": "2026-11-24T15:45:17.910Z"
 }
