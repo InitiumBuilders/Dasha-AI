@@ -140,6 +140,8 @@ async function dash_network_stats() {
 }
 
 /* ---------- 4/5. chain lookups (insight) ---------- */
+/* The data comes from Insight's API. The link a person opens points at Blockchair, because Insight's
+   /insight/tx/ and /insight/address/ pages answered 404 when checked on 23 Nov 2026, while its API answered 200. */
 async function lookup_tx(a) {
   const id = String(a.txid || '').trim().toLowerCase();
   if (!/^[0-9a-f]{64}$/.test(id)) return 'ERROR: that is not a valid Dash txid (needs 64 hex characters). Ask them to paste the full transaction ID.';
@@ -155,7 +157,7 @@ async function lookup_tx(a) {
       + '\nChainLock: ' + (d.chainlock === true ? 'YES — block is ChainLocked (irreversible)' : 'not reported by this endpoint (absence is NOT proof it is unlocked)')
       + '\ncoinbase (block reward): ' + (d.isCoinBase ? 'yes' : 'no')
       + '\nblock: ' + (d.blockheight != null && d.blockheight > 0 ? d.blockheight : 'unconfirmed')
-      + '\nExplorer: https://insight.dash.org/insight/tx/' + d.txid
+      + '\nExplorer: https://blockchair.com/dash/transaction/' + d.txid
       + '\nExplain what this MEANS for the user (confirmed vs pending, InstantSend finality). Never speculate about who owns an address.';
   } catch (e) {
     return 'TX LOOKUP FAILED (' + e.message + '). If the txid is correct it may be too new or the explorer is down — offer https://insight.dash.org and https://blockchair.com/dash .';
@@ -171,7 +173,7 @@ async function lookup_address(a) {
       + '\nbalance: ' + d.balance + ' DASH | total received: ' + d.totalReceived + ' DASH | total sent: ' + d.totalSent + ' DASH'
       + '\ntransactions: ' + (d.txApperances != null ? d.txApperances : '?')
       + '\nunconfirmed balance: ' + d.unconfirmedBalance
-      + '\nExplorer: https://insight.dash.org/insight/address/' + d.addrStr
+      + '\nExplorer: https://blockchair.com/dash/address/' + d.addrStr
       + '\nThis is PUBLIC chain data. Never speculate about identity/ownership, never accuse anyone, and never treat a balance as proof of a claim.';
   } catch (e) {
     return 'ADDRESS LOOKUP FAILED (' + e.message + '). Offer https://insight.dash.org or https://blockchair.com/dash instead.';
