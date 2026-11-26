@@ -6,7 +6,7 @@
     },
     "DashEVM-Smart-Contract-Sidechain": {
       "passing": false,
-      "net": -25
+      "net": -26
     },
     "fly-coins": {
       "passing": false,
@@ -225,5 +225,5 @@
   },
   "superblock": "2592096",
   "lastPassingCount": 10,
-  "updated": "2026-11-26T13:15:17.686Z"
+  "updated": "2026-11-26T13:45:17.771Z"
 }
