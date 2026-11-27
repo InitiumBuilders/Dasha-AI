@@ -30,7 +30,7 @@
     },
     "Dash-Music-MVP-Application-Developing": {
       "passing": false,
-      "net": 193
+      "net": 200
     },
     "Dash-APAC-November-December": {
       "passing": true,
@@ -225,5 +225,5 @@
   },
   "superblock": "2592096",
   "lastPassingCount": 10,
-  "updated": "2026-11-27T18:45:17.846Z"
+  "updated": "2026-11-27T19:15:17.707Z"
 }
