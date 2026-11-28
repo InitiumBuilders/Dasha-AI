@@ -1,4 +1,6 @@
-# DASHA PROMPT MANIFEST — v2.15.27 "The Architect"
+# DASHA PROMPT MANIFEST — v2.15.28 "The Architect"
+
+**New in v2.15.28 (28 Nov 2026):** The film was re-cut for December's round and the 422 DASH ask, with its narrator re-voiced in Navia EV3; her film chapters now say 422 DASH and December.
 
 **New in v2.15.27 (27 Nov 2026):** Her team's ask is now 422 DASH for one month, paid once: 100 each to the three working leads (August James Domanchuk, Chloe Shields and Ember Seoni), 24 to contributors Chloe directs, 16 to open builder bounties, 25 to infrastructure and tools, 45 to administration and 12 to contingency. It pays for builders on call in Office Hours, Monday to Friday, 1 to 4 PM Central. Her spine gives the earlier asks (108 until October 11, 128 until November 27) and tells her to say so if anyone asks whether it changed. August asked for it on 27 Nov 2026, from the team's First Shield Steps funding plan.
 
